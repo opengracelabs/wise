@@ -7,7 +7,7 @@ import sys
 from logging.config import fileConfig
 
 from alembic import context
-from sqlalchemy import engine_from_config, pool
+from sqlalchemy import engine_from_config, pool, text
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src")))
 
@@ -49,10 +49,25 @@ def run_migrations_offline() -> None:
         literal_binds=True,
         dialect_opts={"paramstyle": "named"},
         include_schemas=True,
+        version_table="alembic_version_registry",
     )
 
     with context.begin_transaction():
         context.run_migrations()
+
+
+def _ensure_version_table_width(connection) -> None:
+    connection.execute(
+        text(
+            """
+            DO $$ BEGIN
+                ALTER TABLE alembic_version_registry ALTER COLUMN version_num TYPE VARCHAR(128);
+            EXCEPTION
+                WHEN undefined_table THEN NULL;
+            END $$;
+            """
+        )
+    )
 
 
 def run_migrations_online() -> None:
@@ -65,10 +80,12 @@ def run_migrations_online() -> None:
     )
 
     with connectable.connect() as connection:
+        _ensure_version_table_width(connection)
         context.configure(
             connection=connection,
             target_metadata=target_metadata,
             include_schemas=True,
+            version_table="alembic_version_registry",
         )
 
         with context.begin_transaction():

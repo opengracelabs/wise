@@ -44,6 +44,7 @@ def test_source_required_columns():
     assert {
         "id",
         "canonical_name",
+        "stable_id",
         "display_name",
         "source_type_id",
         "homepage_url",
@@ -86,6 +87,7 @@ def test_source_canonical_name_unique(db_session):
 
     first = Source(
         canonical_name="duplicate-test",
+        stable_id="duplicate-test-a",
         display_name="First",
         source_type_id=source_type.id,
         homepage_url="https://example.org/",
@@ -95,6 +97,7 @@ def test_source_canonical_name_unique(db_session):
     )
     second = Source(
         canonical_name="duplicate-test",
+        stable_id="duplicate-test-b",
         display_name="Second",
         source_type_id=source_type.id,
         homepage_url="https://example.org/",
@@ -122,6 +125,7 @@ def test_provenance_event_links_source(db_session):
 
     source = Source(
         canonical_name="test-source",
+        stable_id="test-source",
         display_name="Test Source",
         source_type_id=source_type.id,
         homepage_url="https://example.org/",

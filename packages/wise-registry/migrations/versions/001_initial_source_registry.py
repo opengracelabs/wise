@@ -162,6 +162,7 @@ def upgrade() -> None:
             nullable=False,
         ),
         sa.Column("canonical_name", sa.String(length=128), nullable=False),
+        sa.Column("stable_id", sa.String(length=128), nullable=False),
         sa.Column("display_name", sa.String(length=255), nullable=False),
         sa.Column("source_type_id", postgresql.UUID(as_uuid=True), nullable=False),
         sa.Column("homepage_url", sa.String(length=512), nullable=False),
@@ -179,6 +180,7 @@ def upgrade() -> None:
         sa.ForeignKeyConstraint(["license_id"], ["registry.licenses.id"]),
         sa.PrimaryKeyConstraint("id"),
         sa.UniqueConstraint("canonical_name", name="uq_sources_canonical_name"),
+        sa.UniqueConstraint("stable_id", name="uq_sources_stable_id"),
         schema="registry",
     )
     op.create_index("ix_sources_source_type_id", "sources", ["source_type_id"], schema="registry")
@@ -201,7 +203,12 @@ def upgrade() -> None:
             nullable=False,
         ),
         sa.Column("actor", sa.String(length=255), server_default="system", nullable=False),
-        sa.Column("evidence_uri", sa.String(length=512), nullable=True),
+        sa.Column(
+            "evidence_uris",
+            postgresql.JSONB(),
+            server_default=sa.text("'[]'::jsonb"),
+            nullable=False,
+        ),
         sa.Column("notes", sa.Text(), nullable=True),
         *AUDIT_COLUMNS,
         sa.ForeignKeyConstraint(["source_id"], ["registry.sources.id"]),

@@ -12,6 +12,7 @@ from wise_registry.schemas.audit import AuditFields, AuditFieldsCreate
 
 class SourceBase(BaseModel):
     canonical_name: str = Field(max_length=128)
+    stable_id: str = Field(max_length=128)
     display_name: str = Field(max_length=255)
     source_type_id: UUID
     homepage_url: str = Field(max_length=512)

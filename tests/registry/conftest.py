@@ -61,6 +61,11 @@ def migrated_registry(alembic_config: Config, registry_database_url: str):
         conn.commit()
     engine.dispose()
     command.upgrade(alembic_config, "head")
+    from alembic.script import ScriptDirectory
+
+    script = ScriptDirectory.from_config(alembic_config)
+    heads = script.get_heads()
+    assert len(heads) == 1, f"Expected single Alembic head, got: {heads}"
     yield registry_database_url
 
 

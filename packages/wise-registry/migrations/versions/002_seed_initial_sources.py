@@ -9,6 +9,7 @@ Initial sources: UNESCO, Wikidata, Wikimedia Commons, OpenStreetMap, GBIF.
 
 from __future__ import annotations
 
+import json
 from typing import Sequence, Union
 
 import sqlalchemy as sa
@@ -24,6 +25,17 @@ SEED_ACTOR = "wise-registry-seed"
 
 def upgrade() -> None:
     conn = op.get_bind()
+    conn.execute(
+        sa.text(
+            """
+            DO $$ BEGIN
+                ALTER TABLE alembic_version_registry ALTER COLUMN version_num TYPE VARCHAR(128);
+            EXCEPTION
+                WHEN undefined_table THEN NULL;
+            END $$;
+            """
+        )
+    )
 
     source_types = [
         {
@@ -129,6 +141,7 @@ def upgrade() -> None:
     sources = [
         {
             "canonical_name": "unesco",
+            "stable_id": "unesco-whc",
             "display_name": "UNESCO World Heritage Centre",
             "source_type_code": "authority",
             "license_code": None,
@@ -138,6 +151,7 @@ def upgrade() -> None:
         },
         {
             "canonical_name": "wikidata",
+            "stable_id": "wikidata",
             "display_name": "Wikidata",
             "source_type_code": "authority",
             "license_code": "CC0-1.0",
@@ -147,6 +161,7 @@ def upgrade() -> None:
         },
         {
             "canonical_name": "wikimedia-commons",
+            "stable_id": "wikimedia-commons",
             "display_name": "Wikimedia Commons",
             "source_type_code": "media_repository",
             "license_code": "CC-BY-4.0",
@@ -156,6 +171,7 @@ def upgrade() -> None:
         },
         {
             "canonical_name": "openstreetmap",
+            "stable_id": "openstreetmap",
             "display_name": "OpenStreetMap",
             "source_type_code": "geospatial",
             "license_code": "ODbL-1.0",
@@ -165,6 +181,7 @@ def upgrade() -> None:
         },
         {
             "canonical_name": "gbif",
+            "stable_id": "gbif",
             "display_name": "GBIF",
             "source_type_code": "biodiversity",
             "license_code": "CC0-1.0",
@@ -177,13 +194,13 @@ def upgrade() -> None:
     insert_source_sql = sa.text(
         """
         INSERT INTO registry.sources (
-            canonical_name, display_name,
+            canonical_name, stable_id, display_name,
             source_type_id, license_id,
             homepage_url, api_url, trust_level, active,
             created_by, updated_by
         )
         SELECT
-            :canonical_name, :display_name,
+            :canonical_name, :stable_id, :display_name,
             st.id,
             lic.id,
             :homepage_url, :api_url,
@@ -203,6 +220,7 @@ def upgrade() -> None:
             insert_source_sql,
             {
                 "canonical_name": source["canonical_name"],
+                "stable_id": source["stable_id"],
                 "display_name": source["display_name"],
                 "source_type_code": source["source_type_code"],
                 "license_code": source["license_code"],
@@ -234,14 +252,14 @@ def upgrade() -> None:
             sa.text(
                 """
                 INSERT INTO registry.provenance_events (
-                    source_id, event_type, actor, evidence_uri, notes,
+                    source_id, event_type, actor, evidence_uris, notes,
                     created_by, updated_by
                 )
                 VALUES (
                     :source_id,
                     'register'::registry.provenance_event_type_enum,
                     :actor,
-                    :evidence_uri,
+                    CAST(:evidence_uris AS jsonb),
                     :notes,
                     :actor, :actor
                 )
@@ -250,7 +268,7 @@ def upgrade() -> None:
             {
                 "source_id": source_id,
                 "actor": SEED_ACTOR,
-                "evidence_uri": source["homepage_url"],
+                "evidence_uris": json.dumps([source["homepage_url"]]),
                 "notes": f"Initial registration of authoritative source {canonical_name} ({display_name})",
             },
         )

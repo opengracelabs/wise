@@ -26,6 +26,7 @@ def test_audit_fields_create_defaults():
 def test_source_create_defaults():
     source = SourceCreate(
         canonical_name="example-source",
+        stable_id="example-source",
         display_name="Example Source",
         source_type_id=uuid4(),
         homepage_url="https://example.org/",

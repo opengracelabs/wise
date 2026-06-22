@@ -1,0 +1,102 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  PYTHON_VERSION: "3.12"
+  WISE_DATABASE_URL: postgresql+psycopg://wise:wise@localhost:5432/wise
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Start PostgreSQL (PostGIS + pgvector)
+        run: |
+          docker build -t wise-postgres:ci -f infrastructure/docker/postgres/Dockerfile infrastructure/docker/postgres
+          docker run -d --name wise-postgres \
+            -e POSTGRES_USER=wise \
+            -e POSTGRES_PASSWORD=wise \
+            -e POSTGRES_DB=wise \
+            -p 5432:5432 \
+            -v "$PWD/infrastructure/docker/postgres/init:/docker-entrypoint-initdb.d:ro" \
+            wise-postgres:ci
+          for i in $(seq 1 30); do
+            if docker exec wise-postgres pg_isready -U wise -d wise; then
+              echo "PostgreSQL ready"
+              break
+            fi
+            sleep 2
+          done
+          docker exec wise-postgres pg_isready -U wise -d wise
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+
+      - name: Install shared packages
+        run: |
+          pip install -e packages/wise-common -e packages/wise-contracts -e packages/wise-registry -e packages/wise-metadata -e packages/wise-reference
+          pip install pytest httpx geoalchemy2
+
+      - name: Install service packages
+        run: |
+          for svc in discovery metadata preservation knowledge-graph api; do
+            pip install -e services/${svc}-service
+          done
+
+      - name: Validate Alembic migration graph
+        working-directory: packages/wise-registry
+        run: python ../../scripts/validate_alembic_heads.py
+
+      - name: Run Alembic migrations
+        working-directory: packages/wise-registry
+        env:
+          WISE_DATABASE_URL: ${{ env.WISE_DATABASE_URL }}
+        run: |
+          alembic upgrade head
+          cd ../wise-metadata && alembic upgrade head
+          cd ../wise-reference && alembic upgrade head
+
+      - name: Run registry tests
+        env:
+          WISE_DATABASE_URL: ${{ env.WISE_DATABASE_URL }}
+          WISE_TEST_DATABASE_URL: ${{ env.WISE_DATABASE_URL }}
+        run: pytest tests/registry -v
+
+      - name: Run reference and RC3 tests
+        env:
+          WISE_DATABASE_URL: ${{ env.WISE_DATABASE_URL }}
+          WISE_TEST_DATABASE_URL: ${{ env.WISE_DATABASE_URL }}
+        run: pytest tests/reference tests/e2e/test_reference_capability_3.py tests/test_contracts.py -v
+
+      - name: Run metadata tests
+        env:
+          WISE_DATABASE_URL: ${{ env.WISE_DATABASE_URL }}
+          WISE_TEST_DATABASE_URL: ${{ env.WISE_DATABASE_URL }}
+        run: pytest tests/metadata -v
+
+      - name: Run smoke tests
+        run: pytest tests/ -v --tb=short -m smoke
+        env:
+          WISE_ENVIRONMENT: ci
+          DATABASE_URL: postgresql://wise:wise@localhost:5432/wise
+
+  docker-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build service images
+        run: docker compose build api-service discovery-service metadata-service preservation-service knowledge-graph-service
+
+      - name: Verify compose config
+        run: docker compose config --quiet

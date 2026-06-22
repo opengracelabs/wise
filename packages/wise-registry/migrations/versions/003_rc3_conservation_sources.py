@@ -1,4 +1,4 @@
-"""RC3 conservation authority sources and stable_id aliases.
+"""RC3 conservation authority sources.
 
 Revision ID: 003_rc3_conservation_sources
 Revises: 002_seed_initial_sources
@@ -7,6 +7,7 @@ Create Date: 2026-06-22
 
 from __future__ import annotations
 
+import json
 from typing import Sequence, Union
 
 import sqlalchemy as sa
@@ -22,32 +23,6 @@ SEED_ACTOR = "wise-registry-seed"
 
 def upgrade() -> None:
     conn = op.get_bind()
-
-    op.add_column(
-        "sources",
-        sa.Column("stable_id", sa.String(length=128), nullable=True),
-        schema="registry",
-    )
-
-    conn.execute(
-        sa.text(
-            """
-            UPDATE registry.sources
-            SET stable_id = CASE canonical_name
-                WHEN 'unesco' THEN 'unesco-whc'
-                ELSE canonical_name
-            END
-            """
-        )
-    )
-
-    op.alter_column("sources", "stable_id", nullable=False, schema="registry")
-    op.create_unique_constraint(
-        "uq_sources_stable_id",
-        "sources",
-        ["stable_id"],
-        schema="registry",
-    )
 
     sources = [
         {
@@ -118,14 +93,14 @@ def upgrade() -> None:
             sa.text(
                 """
                 INSERT INTO registry.provenance_events (
-                    source_id, event_type, actor, evidence_uri, notes,
+                    source_id, event_type, actor, evidence_uris, notes,
                     created_by, updated_by
                 )
                 VALUES (
                     :source_id,
                     'register'::registry.provenance_event_type_enum,
                     :actor,
-                    :evidence_uri,
+                    CAST(:evidence_uris AS jsonb),
                     :notes,
                     :actor, :actor
                 )
@@ -134,7 +109,7 @@ def upgrade() -> None:
             {
                 "source_id": source_id,
                 "actor": SEED_ACTOR,
-                "evidence_uri": source["homepage_url"],
+                "evidence_uris": json.dumps([source["homepage_url"]]),
                 "notes": f"RC3 conservation authority registration: {canonical_name}",
             },
         )
@@ -158,5 +133,3 @@ def downgrade() -> None:
         sa.text("DELETE FROM registry.sources WHERE canonical_name = ANY(:names)"),
         {"names": list(canonical_names)},
     )
-    op.drop_constraint("uq_sources_stable_id", "sources", schema="registry", type_="unique")
-    op.drop_column("sources", "stable_id", schema="registry")

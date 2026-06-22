@@ -20,11 +20,11 @@ All tables include provenance and audit fields: `created_at`, `updated_at`, `cre
 
 | Change | Detail |
 |--------|--------|
-| `evidence_uris` | JSONB array replacing single `evidence_uri`; supports multiple supporting evidence sources |
-| `previous_event_id` | Optional self-referential FK linking events into a per-source provenance chain |
-| Chain validation | `wise_registry.provenance.validate_chain()` and `validate_event_link()` enforce same-source links and detect cycles |
+| `evidence_uris` | JSONB array on `provenance_events` from initial schema; supports multiple supporting evidence sources |
+| `stable_id` | Immutable pipeline alias on `sources` from initial schema (e.g. `unesco-whc`, `ramsar`) |
+| `previous_event_id` | Optional self-referential FK linking events into a per-source provenance chain (migration `005`) |
 
-Migration `005_registry_v1_1_provenance_hardening` backfills existing `evidence_uri` values into single-element `evidence_uris` arrays. Downgrade restores `evidence_uri` from the first array element.
+Migration `006_merge_rc3_and_v1_1` merges the RC3 conservation branch with the agent/orchestration v1.1 hardening branch.
 
 ## Migrations
 

@@ -158,20 +158,18 @@ def test_v1_1_migration_upgrade_downgrade(alembic_config, registry_database_url:
 
     engine = create_engine(registry_database_url, pool_pre_ping=True)
     with Session(engine) as session:
-        sample = session.execute(
+        assert session.execute(
             text(
                 """
-                SELECT evidence_uris->>0 AS first_uri
-                FROM registry.provenance_events
-                WHERE jsonb_array_length(evidence_uris) > 0
-                LIMIT 1
+                SELECT 1 FROM information_schema.columns
+                WHERE table_schema = 'registry'
+                  AND table_name = 'provenance_events'
+                  AND column_name = 'previous_event_id'
                 """
             )
-        ).first()
-        assert sample is not None
-        first_uri = sample[0]
+        ).first() is not None
 
-    command.downgrade(alembic_config, "-1")
+    command.downgrade(alembic_config, "005_registry_v1_1_provenance_hardening")
 
     with Session(engine) as session:
         columns = {
@@ -183,29 +181,30 @@ def test_v1_1_migration_upgrade_downgrade(alembic_config, registry_database_url:
                     FROM information_schema.columns
                     WHERE table_schema = 'registry'
                       AND table_name = 'provenance_events'
-                      AND column_name IN ('evidence_uris', 'evidence_uri')
+                      AND column_name IN ('previous_event_id', 'evidence_uris')
                     """
                 )
             )
         }
-        assert "evidence_uri" in columns
-        assert "evidence_uris" not in columns
-
-        restored = session.execute(
-            text(
-                """
-                SELECT evidence_uri
-                FROM registry.provenance_events
-                WHERE evidence_uri IS NOT NULL
-                LIMIT 1
-                """
-            )
-        ).first()
-        assert restored is not None
-        assert restored[0] == first_uri
+        assert "evidence_uris" in columns
+        assert "previous_event_id" not in columns
 
     command.upgrade(alembic_config, "head")
     engine.dispose()
+
+
+@pytest.mark.integration
+@pytest.mark.parametrize("canonical_name,expected_stable_id", [
+    ("unesco", "unesco-whc"),
+    ("wikidata", "wikidata"),
+    ("gbif", "gbif"),
+])
+def test_seed_sources_have_stable_id(db_session: Session, canonical_name: str, expected_stable_id: str):
+    source = db_session.scalar(
+        select(Source).where(Source.canonical_name == canonical_name)
+    )
+    assert source is not None
+    assert source.stable_id == expected_stable_id
 
 
 @pytest.mark.integration
