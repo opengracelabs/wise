@@ -16,8 +16,9 @@ class ProvenanceEventBase(BaseModel):
     event_type: ProvenanceEventType
     event_timestamp: datetime | None = None
     actor: str = Field(default="system", max_length=255)
-    evidence_uri: str | None = Field(default=None, max_length=512)
+    evidence_uris: list[str] = Field(default_factory=list)
     notes: str | None = None
+    previous_event_id: UUID | None = None
 
 
 class ProvenanceEventCreate(ProvenanceEventBase, AuditFieldsCreate):

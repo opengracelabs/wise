@@ -81,11 +81,31 @@ def test_provenance_event_create():
         source_id=source_id,
         event_type=ProvenanceEventType.REGISTER,
         actor="steward@opengrace.org",
-        evidence_uri="https://whc.unesco.org/",
+        evidence_uris=["https://whc.unesco.org/"],
         notes="Initial registration",
     )
     assert event.event_type == ProvenanceEventType.REGISTER
     assert event.source_id == source_id
+    assert event.evidence_uris == ["https://whc.unesco.org/"]
+    assert event.previous_event_id is None
+
+
+def test_provenance_event_create_defaults_evidence_uris():
+    event = ProvenanceEventCreate(
+        source_id=uuid4(),
+        event_type=ProvenanceEventType.UPDATE,
+    )
+    assert event.evidence_uris == []
+
+
+def test_provenance_event_create_accepts_chain_link():
+    previous_id = uuid4()
+    event = ProvenanceEventCreate(
+        source_id=uuid4(),
+        event_type=ProvenanceEventType.UPDATE,
+        previous_event_id=previous_id,
+    )
+    assert event.previous_event_id == previous_id
 
 
 def test_audit_fields_row_version_minimum():

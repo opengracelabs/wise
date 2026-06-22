@@ -5,8 +5,8 @@ from __future__ import annotations
 import uuid
 from datetime import datetime
 
-from sqlalchemy import DateTime, ForeignKey, String, Text, func
-from sqlalchemy.dialects.postgresql import ENUM, UUID
+from sqlalchemy import DateTime, ForeignKey, String, Text, func, text
+from sqlalchemy.dialects.postgresql import ENUM, JSONB, UUID
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from wise_registry.base import AuditMixin, Base, UUIDPrimaryKeyMixin
@@ -47,12 +47,32 @@ class ProvenanceEvent(Base, UUIDPrimaryKeyMixin, AuditMixin):
         server_default="system",
         comment="Steward, service, or agent principal",
     )
-    evidence_uri: Mapped[str | None] = mapped_column(String(512), nullable=True)
+    evidence_uris: Mapped[list[str]] = mapped_column(
+        JSONB,
+        nullable=False,
+        server_default="[]",
+    )
     notes: Mapped[str | None] = mapped_column(Text, nullable=True)
+    previous_event_id: Mapped[uuid.UUID | None] = mapped_column(
+        UUID(as_uuid=True),
+        ForeignKey("registry.provenance_events.id"),
+        nullable=True,
+    )
 
     source: Mapped["Source"] = relationship(
         back_populates="provenance_events",
         foreign_keys=[source_id],
+    )
+    previous_event: Mapped["ProvenanceEvent | None"] = relationship(
+        "ProvenanceEvent",
+        remote_side="ProvenanceEvent.id",
+        foreign_keys=[previous_event_id],
+        back_populates="next_events",
+    )
+    next_events: Mapped[list["ProvenanceEvent"]] = relationship(
+        "ProvenanceEvent",
+        foreign_keys="ProvenanceEvent.previous_event_id",
+        back_populates="previous_event",
     )
 
     def __repr__(self) -> str:
