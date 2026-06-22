@@ -613,6 +613,46 @@ def test_rc15_publication_quality_review_artifacts():
 
 
 @pytest.mark.e2e
+def test_rc16_public_demo_release_package():
+    release_root = Path("content/public-demo")
+    assert (release_root / "README.md").is_file()
+    assert (release_root / "preflight-checklist.md").is_file()
+    assert (release_root / "publishable-artifact-index.md").is_file()
+
+    for path in [
+        release_root / "README.md",
+        release_root / "preflight-checklist.md",
+        release_root / "publishable-artifact-index.md",
+    ]:
+        text = path.read_text(encoding="utf-8")
+        assert "Public demonstration only" in text
+        assert "No payment processing enabled" in text
+        assert "No checkout" in text
+        assert "No customer data collection" in text
+
+    artifacts = sorted((release_root / "artifacts").glob("**/*.md"))
+    assert len(artifacts) == 10
+    for artifact in artifacts:
+        text = artifact.read_text(encoding="utf-8")
+        assert text.startswith("> **Public demonstration only.")
+        assert "No payment processing enabled" in text
+        assert "No checkout" in text
+        assert "No customer data collection" in text
+        assert "Rights" in text or "rights" in text
+
+    index_text = (release_root / "publishable-artifact-index.md").read_text(encoding="utf-8")
+    for artifact in artifacts:
+        rel = artifact.relative_to(release_root).as_posix()
+        assert rel in index_text
+
+    report = Path("docs/implementation/rc16-public-demo-release-report.md")
+    assert report.is_file()
+    report_text = report.read_text(encoding="utf-8")
+    assert "No customer data collection" in report_text
+    assert "ADR-011" in report_text
+
+
+@pytest.mark.e2e
 @pytest.mark.parametrize("product_slug", PRODUCT_SLUGS)
 def test_commercial_product_pages_served(product_slug: str):
     client = TestClient(app)
