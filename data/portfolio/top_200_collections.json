@@ -1,0 +1,3424 @@
+{
+  "meta": {
+    "title": "WISE Top 200 Collections (RC13)",
+    "generated": "2026-06-22",
+    "count": 200,
+    "scoring_methodology": "Editorial portfolio heuristic (0-100). portfolio_score = round(0.35*recognition_score + 0.35*demand_score + 0.30*commercial_score, 1). New RC13 entries are scored on a descending curatorial band with deterministic per-id variation.",
+    "category_distribution": {
+      "heritage": 60,
+      "landscape": 36,
+      "culture": 32,
+      "wildlife": 30,
+      "biodiversity": 12,
+      "marine": 10,
+      "cartography": 8,
+      "botanical": 5,
+      "art": 4,
+      "natural-history": 2,
+      "conservation": 1
+    },
+    "expansion": "RC9 top 100 + 100 RC13 region/culture/biodiversity additions"
+  },
+  "collections": [
+    {
+      "id": "big-cats-of-the-world",
+      "title": "Big Cats of the World",
+      "category": "wildlife",
+      "description": "Lions, tigers, leopards, jaguars and other great cats across continents.",
+      "recognition_score": 93,
+      "demand_score": 94,
+      "commercial_score": 91,
+      "portfolio_score": 92.7,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 1
+    },
+    {
+      "id": "wonders-of-the-ancient-world",
+      "title": "Wonders of the Ancient World",
+      "category": "heritage",
+      "description": "The classical seven wonders and the great monuments of antiquity.",
+      "recognition_score": 93,
+      "demand_score": 94,
+      "commercial_score": 91,
+      "portfolio_score": 92.7,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 2
+    },
+    {
+      "id": "ancient-maps",
+      "title": "Ancient Maps",
+      "category": "cartography",
+      "description": "Historic world maps and atlases from the age of discovery.",
+      "recognition_score": 92,
+      "demand_score": 93,
+      "commercial_score": 91,
+      "portfolio_score": 92.0,
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Coffee Table Book",
+        "Poster"
+      ],
+      "portfolio_rank": 3
+    },
+    {
+      "id": "sacred-mountains",
+      "title": "Sacred Mountains",
+      "category": "landscape",
+      "description": "Fuji, Kailash, Olympus and peaks revered across cultures.",
+      "recognition_score": 97,
+      "demand_score": 89,
+      "commercial_score": 87,
+      "portfolio_score": 91.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 4
+    },
+    {
+      "id": "great-deserts",
+      "title": "Great Deserts",
+      "category": "landscape",
+      "description": "The Sahara, Atacama, Namib and the world's vast arid landscapes.",
+      "recognition_score": 97,
+      "demand_score": 89,
+      "commercial_score": 86,
+      "portfolio_score": 90.9,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 5
+    },
+    {
+      "id": "endangered-earth",
+      "title": "Endangered Earth",
+      "category": "conservation",
+      "description": "Threatened species and habitats at the heart of global conservation.",
+      "recognition_score": 97,
+      "demand_score": 89,
+      "commercial_score": 86,
+      "portfolio_score": 90.9,
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Coffee Table Book",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 6
+    },
+    {
+      "id": "oceans-of-the-world",
+      "title": "Oceans of the World",
+      "category": "marine",
+      "description": "Marine life and seascapes from reef to abyss.",
+      "recognition_score": 91,
+      "demand_score": 92,
+      "commercial_score": 89,
+      "portfolio_score": 90.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Jigsaw Puzzle",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 7
+    },
+    {
+      "id": "world-heritage-icons",
+      "title": "World Heritage Icons",
+      "category": "heritage",
+      "description": "The most celebrated UNESCO World Heritage sites.",
+      "recognition_score": 96,
+      "demand_score": 89,
+      "commercial_score": 86,
+      "portfolio_score": 90.5,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 8
+    },
+    {
+      "id": "birds-of-paradise",
+      "title": "Birds of Paradise",
+      "category": "wildlife",
+      "description": "The dazzling plumage of the world's most spectacular birds.",
+      "recognition_score": 90,
+      "demand_score": 92,
+      "commercial_score": 89,
+      "portfolio_score": 90.4,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 9
+    },
+    {
+      "id": "great-rivers-of-the-world",
+      "title": "Great Rivers of the World",
+      "category": "landscape",
+      "description": "The Nile, Amazon, Ganges and the rivers that shaped civilizations.",
+      "recognition_score": 89,
+      "demand_score": 91,
+      "commercial_score": 88,
+      "portfolio_score": 89.4,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 10
+    },
+    {
+      "id": "castles-and-fortresses",
+      "title": "Castles and Fortresses",
+      "category": "heritage",
+      "description": "Medieval strongholds and palaces across Europe and beyond.",
+      "recognition_score": 89,
+      "demand_score": 90,
+      "commercial_score": 88,
+      "portfolio_score": 89.0,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 11
+    },
+    {
+      "id": "lost-cities",
+      "title": "Lost Cities",
+      "category": "heritage",
+      "description": "Petra, Machu Picchu, Pompeii and the great vanished cities.",
+      "recognition_score": 88,
+      "demand_score": 89,
+      "commercial_score": 87,
+      "portfolio_score": 88.0,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 12
+    },
+    {
+      "id": "coral-reefs",
+      "title": "Coral Reefs",
+      "category": "marine",
+      "description": "The Great Barrier Reef and the world's vibrant coral ecosystems.",
+      "recognition_score": 91,
+      "demand_score": 83,
+      "commercial_score": 90,
+      "portfolio_score": 87.9,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Jigsaw Puzzle",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 13
+    },
+    {
+      "id": "cathedrals-of-europe",
+      "title": "Cathedrals of Europe",
+      "category": "heritage",
+      "description": "Gothic and Romanesque masterpieces of sacred architecture.",
+      "recognition_score": 87,
+      "demand_score": 89,
+      "commercial_score": 87,
+      "portfolio_score": 87.7,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 14
+    },
+    {
+      "id": "the-northern-lights",
+      "title": "The Northern Lights",
+      "category": "landscape",
+      "description": "Aurora borealis over the Arctic skies.",
+      "recognition_score": 90,
+      "demand_score": 83,
+      "commercial_score": 89,
+      "portfolio_score": 87.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 15
+    },
+    {
+      "id": "volcanoes-of-the-world",
+      "title": "Volcanoes of the World",
+      "category": "landscape",
+      "description": "Active and dormant volcanoes and the forces of the Earth.",
+      "recognition_score": 87,
+      "demand_score": 88,
+      "commercial_score": 86,
+      "portfolio_score": 87.0,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 16
+    },
+    {
+      "id": "temples-of-asia",
+      "title": "Temples of Asia",
+      "category": "heritage",
+      "description": "Angkor, Borobudur and the great temple complexes of Asia.",
+      "recognition_score": 89,
+      "demand_score": 82,
+      "commercial_score": 88,
+      "portfolio_score": 86.2,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 17
+    },
+    {
+      "id": "polar-regions",
+      "title": "Polar Regions",
+      "category": "landscape",
+      "description": "Arctic and Antarctic ice, wildlife and explorers.",
+      "recognition_score": 86,
+      "demand_score": 87,
+      "commercial_score": 85,
+      "portfolio_score": 86.0,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 18
+    },
+    {
+      "id": "ancient-egypt",
+      "title": "Ancient Egypt",
+      "category": "heritage",
+      "description": "Pyramids, pharaohs, temples and the Nile civilization.",
+      "recognition_score": 85,
+      "demand_score": 87,
+      "commercial_score": 85,
+      "portfolio_score": 85.7,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 19
+    },
+    {
+      "id": "african-wildlife",
+      "title": "African Wildlife",
+      "category": "wildlife",
+      "description": "The big game and birdlife of the African savanna.",
+      "recognition_score": 88,
+      "demand_score": 81,
+      "commercial_score": 88,
+      "portfolio_score": 85.5,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 20
+    },
+    {
+      "id": "rainforests-of-the-world",
+      "title": "Rainforests of the World",
+      "category": "landscape",
+      "description": "The Amazon, Congo and Southeast Asian rainforests.",
+      "recognition_score": 88,
+      "demand_score": 81,
+      "commercial_score": 88,
+      "portfolio_score": 85.5,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 21
+    },
+    {
+      "id": "african-kingdoms",
+      "title": "African Kingdoms",
+      "category": "heritage",
+      "description": "Great Zimbabwe, Benin, Mali and the empires of Africa.",
+      "recognition_score": 84,
+      "demand_score": 85,
+      "commercial_score": 86,
+      "portfolio_score": 84.9,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 22
+    },
+    {
+      "id": "masks-and-sculpture-of-africa",
+      "title": "Masks and Sculpture of Africa",
+      "category": "culture",
+      "description": "Ceremonial masks and carving traditions of Africa.",
+      "recognition_score": 84,
+      "demand_score": 85,
+      "commercial_score": 86,
+      "portfolio_score": 84.9,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 23
+    },
+    {
+      "id": "birds-of-africa",
+      "title": "Birds of Africa",
+      "category": "wildlife",
+      "description": "From flamingos to fish eagles across the continent.",
+      "recognition_score": 84,
+      "demand_score": 85,
+      "commercial_score": 86,
+      "portfolio_score": 84.9,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 24
+    },
+    {
+      "id": "islands-of-the-world",
+      "title": "Islands of the World",
+      "category": "landscape",
+      "description": "Volcanic, tropical and remote islands across the oceans.",
+      "recognition_score": 87,
+      "demand_score": 80,
+      "commercial_score": 87,
+      "portfolio_score": 84.5,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 25
+    },
+    {
+      "id": "persian-gardens",
+      "title": "Persian Gardens",
+      "category": "culture",
+      "description": "The paradise gardens of Iran and Central Asia.",
+      "recognition_score": 83,
+      "demand_score": 84,
+      "commercial_score": 86,
+      "portfolio_score": 84.2,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 26
+    },
+    {
+      "id": "rock-art-of-africa",
+      "title": "Rock Art of Africa",
+      "category": "culture",
+      "description": "Ancient painted and engraved art across the African continent.",
+      "recognition_score": 89,
+      "demand_score": 81,
+      "commercial_score": 82,
+      "portfolio_score": 84.1,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 27
+    },
+    {
+      "id": "the-great-rift-valley",
+      "title": "The Great Rift Valley",
+      "category": "landscape",
+      "description": "Lakes, volcanoes and cradle-of-humankind landscapes.",
+      "recognition_score": 89,
+      "demand_score": 81,
+      "commercial_score": 82,
+      "portfolio_score": 84.1,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 28
+    },
+    {
+      "id": "waterfalls-of-the-world",
+      "title": "Waterfalls of the World",
+      "category": "landscape",
+      "description": "Niagara, Victoria, Iguazu and the great cascades.",
+      "recognition_score": 83,
+      "demand_score": 85,
+      "commercial_score": 83,
+      "portfolio_score": 83.7,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 29
+    },
+    {
+      "id": "ancient-nubia",
+      "title": "Ancient Nubia",
+      "category": "heritage",
+      "description": "The pyramids and kingdoms of Kush and Meroe.",
+      "recognition_score": 82,
+      "demand_score": 84,
+      "commercial_score": 85,
+      "portfolio_score": 83.6,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 30
+    },
+    {
+      "id": "ziggurats-and-temples",
+      "title": "Ziggurats and Temples",
+      "category": "heritage",
+      "description": "Stepped temple-towers of the ancient Near East.",
+      "recognition_score": 82,
+      "demand_score": 84,
+      "commercial_score": 85,
+      "portfolio_score": 83.6,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 31
+    },
+    {
+      "id": "wonders-of-the-natural-world",
+      "title": "Wonders of the Natural World",
+      "category": "landscape",
+      "description": "The Grand Canyon, Great Barrier Reef and natural wonders.",
+      "recognition_score": 86,
+      "demand_score": 78,
+      "commercial_score": 86,
+      "portfolio_score": 83.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 32
+    },
+    {
+      "id": "wildlife-of-the-serengeti",
+      "title": "Wildlife of the Serengeti",
+      "category": "wildlife",
+      "description": "Predators and herds of East Africa's great plains.",
+      "recognition_score": 88,
+      "demand_score": 80,
+      "commercial_score": 81,
+      "portfolio_score": 83.1,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 33
+    },
+    {
+      "id": "sacred-sites-of-ethiopia",
+      "title": "Sacred Sites of Ethiopia",
+      "category": "heritage",
+      "description": "Lalibela, Aksum and the holy places of the highlands.",
+      "recognition_score": 88,
+      "demand_score": 80,
+      "commercial_score": 81,
+      "portfolio_score": 83.1,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 34
+    },
+    {
+      "id": "cities-of-the-levant",
+      "title": "Cities of the Levant",
+      "category": "heritage",
+      "description": "Petra, Palmyra, Baalbek and the eastern Mediterranean.",
+      "recognition_score": 88,
+      "demand_score": 80,
+      "commercial_score": 81,
+      "portfolio_score": 83.1,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 35
+    },
+    {
+      "id": "calligraphy-of-the-islamic-world",
+      "title": "Calligraphy of the Islamic World",
+      "category": "culture",
+      "description": "The sacred art of the written word.",
+      "recognition_score": 82,
+      "demand_score": 83,
+      "commercial_score": 84,
+      "portfolio_score": 83.0,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 36
+    },
+    {
+      "id": "mountains-of-the-world",
+      "title": "Mountains of the World",
+      "category": "landscape",
+      "description": "The Himalayas, Andes, Alps and great ranges.",
+      "recognition_score": 88,
+      "demand_score": 81,
+      "commercial_score": 79,
+      "portfolio_score": 82.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 37
+    },
+    {
+      "id": "empires-of-mesopotamia",
+      "title": "Empires of Mesopotamia",
+      "category": "heritage",
+      "description": "Sumer, Babylon and Assyria between the rivers.",
+      "recognition_score": 85,
+      "demand_score": 77,
+      "commercial_score": 87,
+      "portfolio_score": 82.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 38
+    },
+    {
+      "id": "the-roman-empire",
+      "title": "The Roman Empire",
+      "category": "heritage",
+      "description": "Monuments, mosaics and the legacy of Rome.",
+      "recognition_score": 82,
+      "demand_score": 84,
+      "commercial_score": 82,
+      "portfolio_score": 82.7,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 39
+    },
+    {
+      "id": "islamic-architecture",
+      "title": "Islamic Architecture",
+      "category": "culture",
+      "description": "Domes, minarets and tilework across the Islamic world.",
+      "recognition_score": 81,
+      "demand_score": 83,
+      "commercial_score": 84,
+      "portfolio_score": 82.6,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 40
+    },
+    {
+      "id": "holy-cities-of-the-near-east",
+      "title": "Holy Cities of the Near East",
+      "category": "heritage",
+      "description": "Jerusalem, Mecca, Najaf and the sacred geography.",
+      "recognition_score": 81,
+      "demand_score": 83,
+      "commercial_score": 84,
+      "portfolio_score": 82.6,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 41
+    },
+    {
+      "id": "great-apes-of-africa",
+      "title": "Great Apes of Africa",
+      "category": "wildlife",
+      "description": "Gorillas, chimpanzees and bonobos of the African forests.",
+      "recognition_score": 87,
+      "demand_score": 79,
+      "commercial_score": 80,
+      "portfolio_score": 82.1,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 42
+    },
+    {
+      "id": "rivers-and-falls-of-africa",
+      "title": "Rivers and Falls of Africa",
+      "category": "landscape",
+      "description": "The Nile, Zambezi, Congo and Victoria Falls.",
+      "recognition_score": 87,
+      "demand_score": 79,
+      "commercial_score": 80,
+      "portfolio_score": 82.1,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 43
+    },
+    {
+      "id": "ancient-persia",
+      "title": "Ancient Persia",
+      "category": "heritage",
+      "description": "Persepolis and the splendour of the Achaemenids.",
+      "recognition_score": 87,
+      "demand_score": 79,
+      "commercial_score": 80,
+      "portfolio_score": 82.1,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 44
+    },
+    {
+      "id": "deserts-of-southern-africa",
+      "title": "Deserts of Southern Africa",
+      "category": "landscape",
+      "description": "The Namib, Kalahari and their adapted life.",
+      "recognition_score": 81,
+      "demand_score": 82,
+      "commercial_score": 83,
+      "portfolio_score": 81.9,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 45
+    },
+    {
+      "id": "butterflies-and-moths",
+      "title": "Butterflies and Moths",
+      "category": "wildlife",
+      "description": "The colour and form of the world's Lepidoptera.",
+      "recognition_score": 87,
+      "demand_score": 80,
+      "commercial_score": 78,
+      "portfolio_score": 81.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 46
+    },
+    {
+      "id": "treasures-of-anatolia",
+      "title": "Treasures of Anatolia",
+      "category": "heritage",
+      "description": "Gobekli Tepe, Ephesus and the crossroads of Asia.",
+      "recognition_score": 84,
+      "demand_score": 76,
+      "commercial_score": 86,
+      "portfolio_score": 81.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 47
+    },
+    {
+      "id": "deep-sea-life",
+      "title": "Deep Sea Life",
+      "category": "marine",
+      "description": "Bioluminescent and abyssal creatures of the deep ocean.",
+      "recognition_score": 86,
+      "demand_score": 79,
+      "commercial_score": 78,
+      "portfolio_score": 81.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Jigsaw Puzzle",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 48
+    },
+    {
+      "id": "whales-and-dolphins",
+      "title": "Whales and Dolphins",
+      "category": "marine",
+      "description": "The great cetaceans of the world's oceans.",
+      "recognition_score": 83,
+      "demand_score": 77,
+      "commercial_score": 84,
+      "portfolio_score": 81.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Jigsaw Puzzle",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 49
+    },
+    {
+      "id": "buddhist-heritage-of-the-silk-road",
+      "title": "Buddhist Heritage of the Silk Road",
+      "category": "heritage",
+      "description": "Bamiyan, Dunhuang and the spread of Buddhism.",
+      "recognition_score": 80,
+      "demand_score": 81,
+      "commercial_score": 83,
+      "portfolio_score": 81.2,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 50
+    },
+    {
+      "id": "the-fertile-crescent",
+      "title": "The Fertile Crescent",
+      "category": "heritage",
+      "description": "The cradle of agriculture and the first cities.",
+      "recognition_score": 86,
+      "demand_score": 78,
+      "commercial_score": 79,
+      "portfolio_score": 81.1,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 51
+    },
+    {
+      "id": "timurid-splendour",
+      "title": "Timurid Splendour",
+      "category": "culture",
+      "description": "The tiled monuments of Timur's empire.",
+      "recognition_score": 86,
+      "demand_score": 78,
+      "commercial_score": 79,
+      "portfolio_score": 81.1,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 52
+    },
+    {
+      "id": "nomads-of-the-steppe",
+      "title": "Nomads of the Steppe",
+      "category": "culture",
+      "description": "Horse cultures and felt arts of Central Asia.",
+      "recognition_score": 86,
+      "demand_score": 78,
+      "commercial_score": 79,
+      "portfolio_score": 81.1,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 53
+    },
+    {
+      "id": "madrasas-of-samarkand",
+      "title": "Madrasas of Samarkand",
+      "category": "heritage",
+      "description": "The great Islamic colleges of the Registan.",
+      "recognition_score": 86,
+      "demand_score": 78,
+      "commercial_score": 79,
+      "portfolio_score": 81.1,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 54
+    },
+    {
+      "id": "birds-of-prey",
+      "title": "Birds of Prey",
+      "category": "wildlife",
+      "description": "Eagles, owls, hawks and falcons.",
+      "recognition_score": 80,
+      "demand_score": 82,
+      "commercial_score": 81,
+      "portfolio_score": 81.0,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 55
+    },
+    {
+      "id": "textiles-of-west-africa",
+      "title": "Textiles of West Africa",
+      "category": "culture",
+      "description": "Kente, mudcloth and the weaving arts of West Africa.",
+      "recognition_score": 80,
+      "demand_score": 81,
+      "commercial_score": 82,
+      "portfolio_score": 80.9,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 56
+    },
+    {
+      "id": "lakes-and-wetlands",
+      "title": "Lakes and Wetlands",
+      "category": "landscape",
+      "description": "The world's great lakes, marshes and Ramsar wetlands.",
+      "recognition_score": 86,
+      "demand_score": 79,
+      "commercial_score": 77,
+      "portfolio_score": 80.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 57
+    },
+    {
+      "id": "reptiles-and-amphibians",
+      "title": "Reptiles and Amphibians",
+      "category": "wildlife",
+      "description": "Dragons, frogs, snakes and the cold-blooded world.",
+      "recognition_score": 80,
+      "demand_score": 82,
+      "commercial_score": 80,
+      "portfolio_score": 80.7,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 58
+    },
+    {
+      "id": "gothic-architecture",
+      "title": "Gothic Architecture",
+      "category": "heritage",
+      "description": "Soaring cathedrals and the age of the pointed arch.",
+      "recognition_score": 79,
+      "demand_score": 82,
+      "commercial_score": 80,
+      "portfolio_score": 80.3,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 59
+    },
+    {
+      "id": "bazaars-of-the-middle-east",
+      "title": "Bazaars of the Middle East",
+      "category": "culture",
+      "description": "The covered markets and crafts of West Asia.",
+      "recognition_score": 79,
+      "demand_score": 80,
+      "commercial_score": 82,
+      "portfolio_score": 80.2,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 60
+    },
+    {
+      "id": "caravanserais-of-the-silk-road",
+      "title": "Caravanserais of the Silk Road",
+      "category": "heritage",
+      "description": "Roadside inns of the great trade routes.",
+      "recognition_score": 85,
+      "demand_score": 77,
+      "commercial_score": 78,
+      "portfolio_score": 80.1,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 61
+    },
+    {
+      "id": "renaissance-masterpieces",
+      "title": "Renaissance Masterpieces",
+      "category": "art",
+      "description": "The paintings and sculpture of the European Renaissance.",
+      "recognition_score": 79,
+      "demand_score": 81,
+      "commercial_score": 80,
+      "portfolio_score": 80.0,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Greeting Cards",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 62
+    },
+    {
+      "id": "festivals-of-india",
+      "title": "Festivals of India",
+      "category": "culture",
+      "description": "Holi, Diwali and the colour of Indian celebration.",
+      "recognition_score": 79,
+      "demand_score": 80,
+      "commercial_score": 81,
+      "portfolio_score": 80.0,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 63
+    },
+    {
+      "id": "wildflowers-of-the-world",
+      "title": "Wildflowers of the World",
+      "category": "botanical",
+      "description": "Alpine, desert and meadow blooms across the seasons.",
+      "recognition_score": 82,
+      "demand_score": 75,
+      "commercial_score": 83,
+      "portfolio_score": 79.8,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Greeting Cards",
+        "Wall Calendar",
+        "Framed Print"
+      ],
+      "portfolio_rank": 64
+    },
+    {
+      "id": "caravan-cities-of-central-asia",
+      "title": "Caravan Cities of Central Asia",
+      "category": "heritage",
+      "description": "Khiva, Merv and the oasis towns.",
+      "recognition_score": 84,
+      "demand_score": 77,
+      "commercial_score": 78,
+      "portfolio_score": 79.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 65
+    },
+    {
+      "id": "forts-and-palaces-of-rajasthan",
+      "title": "Forts and Palaces of Rajasthan",
+      "category": "heritage",
+      "description": "Amber, Mehrangarh and the desert kingdoms.",
+      "recognition_score": 84,
+      "demand_score": 77,
+      "commercial_score": 78,
+      "portfolio_score": 79.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 66
+    },
+    {
+      "id": "the-pamirs-and-tian-shan",
+      "title": "The Pamirs and Tian Shan",
+      "category": "landscape",
+      "description": "The high mountains of Central Asia.",
+      "recognition_score": 78,
+      "demand_score": 80,
+      "commercial_score": 81,
+      "portfolio_score": 79.6,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 67
+    },
+    {
+      "id": "textiles-of-south-asia",
+      "title": "Textiles of South Asia",
+      "category": "culture",
+      "description": "Silk, cotton and the dyeing arts of the subcontinent.",
+      "recognition_score": 78,
+      "demand_score": 80,
+      "commercial_score": 81,
+      "portfolio_score": 79.6,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 68
+    },
+    {
+      "id": "pacific-islands",
+      "title": "Pacific Islands",
+      "category": "landscape",
+      "description": "Atolls, volcanoes and the cultures of Oceania.",
+      "recognition_score": 78,
+      "demand_score": 80,
+      "commercial_score": 81,
+      "portfolio_score": 79.6,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 69
+    },
+    {
+      "id": "ancient-greece",
+      "title": "Ancient Greece",
+      "category": "heritage",
+      "description": "The Acropolis, gods, vases and classical antiquity.",
+      "recognition_score": 81,
+      "demand_score": 75,
+      "commercial_score": 82,
+      "portfolio_score": 79.2,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 70
+    },
+    {
+      "id": "himalayan-kingdoms",
+      "title": "Himalayan Kingdoms",
+      "category": "heritage",
+      "description": "Bhutan, Ladakh, Nepal and the high realms.",
+      "recognition_score": 78,
+      "demand_score": 79,
+      "commercial_score": 81,
+      "portfolio_score": 79.2,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 71
+    },
+    {
+      "id": "primates-of-the-world",
+      "title": "Primates of the World",
+      "category": "wildlife",
+      "description": "Gorillas, orangutans, lemurs and the great apes.",
+      "recognition_score": 84,
+      "demand_score": 77,
+      "commercial_score": 76,
+      "portfolio_score": 79.1,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 72
+    },
+    {
+      "id": "mughal-gardens",
+      "title": "Mughal Gardens",
+      "category": "culture",
+      "description": "The char-bagh gardens of the Mughal emperors.",
+      "recognition_score": 81,
+      "demand_score": 73,
+      "commercial_score": 84,
+      "portfolio_score": 79.1,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 73
+    },
+    {
+      "id": "cities-of-the-silk-road",
+      "title": "Cities of the Silk Road",
+      "category": "heritage",
+      "description": "Samarkand, Bukhara and the great caravan cities.",
+      "recognition_score": 78,
+      "demand_score": 79,
+      "commercial_score": 80,
+      "portfolio_score": 78.9,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 74
+    },
+    {
+      "id": "japanese-woodblock-prints",
+      "title": "Japanese Woodblock Prints",
+      "category": "art",
+      "description": "Hokusai, Hiroshige and the ukiyo-e floating world.",
+      "recognition_score": 77,
+      "demand_score": 80,
+      "commercial_score": 79,
+      "portfolio_score": 78.7,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Greeting Cards",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 75
+    },
+    {
+      "id": "aboriginal-art",
+      "title": "Aboriginal Art",
+      "category": "culture",
+      "description": "Dreamtime painting and the oldest living art.",
+      "recognition_score": 77,
+      "demand_score": 79,
+      "commercial_score": 80,
+      "portfolio_score": 78.6,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 76
+    },
+    {
+      "id": "andean-civilizations",
+      "title": "Andean Civilizations",
+      "category": "heritage",
+      "description": "Inca, Tiwanaku, Moche and Nazca.",
+      "recognition_score": 77,
+      "demand_score": 79,
+      "commercial_score": 80,
+      "portfolio_score": 78.6,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 77
+    },
+    {
+      "id": "felt-and-carpet-arts",
+      "title": "Felt and Carpet Arts",
+      "category": "culture",
+      "description": "Weaving and felting traditions of the steppe.",
+      "recognition_score": 77,
+      "demand_score": 78,
+      "commercial_score": 80,
+      "portfolio_score": 78.2,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 78
+    },
+    {
+      "id": "wildlife-of-the-indian-subcontinent",
+      "title": "Wildlife of the Indian Subcontinent",
+      "category": "wildlife",
+      "description": "Tigers, elephants, rhinos and peafowl.",
+      "recognition_score": 77,
+      "demand_score": 78,
+      "commercial_score": 80,
+      "portfolio_score": 78.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 79
+    },
+    {
+      "id": "the-australian-outback",
+      "title": "The Australian Outback",
+      "category": "landscape",
+      "description": "The red centre and the vast interior.",
+      "recognition_score": 77,
+      "demand_score": 78,
+      "commercial_score": 80,
+      "portfolio_score": 78.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 80
+    },
+    {
+      "id": "the-silk-road",
+      "title": "The Silk Road",
+      "category": "heritage",
+      "description": "Caravan cities and the great trade route of Eurasia.",
+      "recognition_score": 83,
+      "demand_score": 76,
+      "commercial_score": 75,
+      "portfolio_score": 78.1,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 81
+    },
+    {
+      "id": "temples-of-india",
+      "title": "Temples of India",
+      "category": "heritage",
+      "description": "Dravidian, Nagara and the great Hindu temples.",
+      "recognition_score": 83,
+      "demand_score": 75,
+      "commercial_score": 76,
+      "portfolio_score": 78.1,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 82
+    },
+    {
+      "id": "sacred-rivers-of-india",
+      "title": "Sacred Rivers of India",
+      "category": "landscape",
+      "description": "The Ganges, Yamuna and the holy waters.",
+      "recognition_score": 83,
+      "demand_score": 75,
+      "commercial_score": 76,
+      "portfolio_score": 78.1,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 83
+    },
+    {
+      "id": "landscapes-of-new-zealand",
+      "title": "Landscapes of New Zealand",
+      "category": "landscape",
+      "description": "Fiords, alps and the land of the long white cloud.",
+      "recognition_score": 80,
+      "demand_score": 72,
+      "commercial_score": 83,
+      "portfolio_score": 78.1,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 84
+    },
+    {
+      "id": "celestial-maps-and-star-charts",
+      "title": "Celestial Maps and Star Charts",
+      "category": "cartography",
+      "description": "Historic atlases of the heavens and constellations.",
+      "recognition_score": 77,
+      "demand_score": 79,
+      "commercial_score": 78,
+      "portfolio_score": 78.0,
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Coffee Table Book",
+        "Poster"
+      ],
+      "portfolio_rank": 85
+    },
+    {
+      "id": "impressionist-masters",
+      "title": "Impressionist Masters",
+      "category": "art",
+      "description": "Monet, Renoir, Degas and the light of Impressionism.",
+      "recognition_score": 82,
+      "demand_score": 76,
+      "commercial_score": 75,
+      "portfolio_score": 77.8,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Greeting Cards",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 86
+    },
+    {
+      "id": "buddhist-caves-of-india",
+      "title": "Buddhist Caves of India",
+      "category": "heritage",
+      "description": "Ajanta, Ellora and the rock-cut sanctuaries.",
+      "recognition_score": 82,
+      "demand_score": 75,
+      "commercial_score": 76,
+      "portfolio_score": 77.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 87
+    },
+    {
+      "id": "coral-seas-of-the-pacific",
+      "title": "Coral Seas of the Pacific",
+      "category": "marine",
+      "description": "The reefs and marine life of the Pacific.",
+      "recognition_score": 76,
+      "demand_score": 78,
+      "commercial_score": 79,
+      "portfolio_score": 77.6,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Jigsaw Puzzle",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 88
+    },
+    {
+      "id": "sami-of-the-north",
+      "title": "Sami of the North",
+      "category": "culture",
+      "description": "Reindeer-herding culture of the European Arctic.",
+      "recognition_score": 76,
+      "demand_score": 78,
+      "commercial_score": 79,
+      "portfolio_score": 77.6,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 89
+    },
+    {
+      "id": "sacred-peaks-of-the-himalaya",
+      "title": "Sacred Peaks of the Himalaya",
+      "category": "landscape",
+      "description": "Everest, Kailash and the roof of the world.",
+      "recognition_score": 82,
+      "demand_score": 74,
+      "commercial_score": 76,
+      "portfolio_score": 77.4,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 90
+    },
+    {
+      "id": "dutch-golden-age",
+      "title": "Dutch Golden Age",
+      "category": "art",
+      "description": "Rembrandt, Vermeer and the masters of the 17th century.",
+      "recognition_score": 82,
+      "demand_score": 75,
+      "commercial_score": 74,
+      "portfolio_score": 77.2,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Greeting Cards",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 91
+    },
+    {
+      "id": "wonders-of-australia",
+      "title": "Wonders of Australia",
+      "category": "landscape",
+      "description": "Uluru, the Reef and the icons of the continent.",
+      "recognition_score": 76,
+      "demand_score": 77,
+      "commercial_score": 79,
+      "portfolio_score": 77.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 92
+    },
+    {
+      "id": "polynesian-voyaging",
+      "title": "Polynesian Voyaging",
+      "category": "culture",
+      "description": "The navigators who settled the Pacific.",
+      "recognition_score": 76,
+      "demand_score": 77,
+      "commercial_score": 79,
+      "portfolio_score": 77.2,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 93
+    },
+    {
+      "id": "sacred-landscapes-of-native-peoples",
+      "title": "Sacred Landscapes of Native Peoples",
+      "category": "landscape",
+      "description": "Mountains, rivers and lands held sacred.",
+      "recognition_score": 75,
+      "demand_score": 77,
+      "commercial_score": 79,
+      "portfolio_score": 76.9,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 94
+    },
+    {
+      "id": "maya-aztec-and-inca",
+      "title": "Maya, Aztec and Inca",
+      "category": "heritage",
+      "description": "The great civilizations of pre-Columbian America.",
+      "recognition_score": 81,
+      "demand_score": 75,
+      "commercial_score": 74,
+      "portfolio_score": 76.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 95
+    },
+    {
+      "id": "stepwells-of-india",
+      "title": "Stepwells of India",
+      "category": "heritage",
+      "description": "The subterranean water architecture of India.",
+      "recognition_score": 81,
+      "demand_score": 74,
+      "commercial_score": 75,
+      "portfolio_score": 76.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 96
+    },
+    {
+      "id": "temples-of-sri-lanka",
+      "title": "Temples of Sri Lanka",
+      "category": "heritage",
+      "description": "Sigiriya, Anuradhapura and the island's heritage.",
+      "recognition_score": 75,
+      "demand_score": 77,
+      "commercial_score": 78,
+      "portfolio_score": 76.6,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 97
+    },
+    {
+      "id": "flamingos-and-wading-birds",
+      "title": "Flamingos and Wading Birds",
+      "category": "biodiversity",
+      "description": "The pink and long-legged birds of the wetlands.",
+      "recognition_score": 75,
+      "demand_score": 77,
+      "commercial_score": 78,
+      "portfolio_score": 76.6,
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Wall Calendar",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 98
+    },
+    {
+      "id": "dreamtime-art",
+      "title": "Dreamtime Art",
+      "category": "culture",
+      "description": "The sacred painting of Aboriginal Australia.",
+      "recognition_score": 80,
+      "demand_score": 73,
+      "commercial_score": 75,
+      "portfolio_score": 76.0,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 99
+    },
+    {
+      "id": "botanical-illustrations",
+      "title": "Botanical Illustrations",
+      "category": "botanical",
+      "description": "Historic plant and flower plates from the great herbals.",
+      "recognition_score": 80,
+      "demand_score": 74,
+      "commercial_score": 73,
+      "portfolio_score": 75.8,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Greeting Cards",
+        "Wall Calendar",
+        "Framed Print"
+      ],
+      "portfolio_rank": 100
+    },
+    {
+      "id": "pueblos-of-the-southwest",
+      "title": "Pueblos of the Southwest",
+      "category": "heritage",
+      "description": "Mesa Verde, Chaco and the cliff dwellers.",
+      "recognition_score": 80,
+      "demand_score": 73,
+      "commercial_score": 74,
+      "portfolio_score": 75.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 101
+    },
+    {
+      "id": "volcanoes-of-the-pacific-ring",
+      "title": "Volcanoes of the Pacific Ring",
+      "category": "landscape",
+      "description": "The fire mountains of the Pacific Rim.",
+      "recognition_score": 74,
+      "demand_score": 76,
+      "commercial_score": 77,
+      "portfolio_score": 75.6,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 102
+    },
+    {
+      "id": "first-nations-of-the-americas",
+      "title": "First Nations of the Americas",
+      "category": "culture",
+      "description": "The indigenous peoples of North America.",
+      "recognition_score": 74,
+      "demand_score": 76,
+      "commercial_score": 77,
+      "portfolio_score": 75.6,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 103
+    },
+    {
+      "id": "birds-of-new-guinea",
+      "title": "Birds of New Guinea",
+      "category": "wildlife",
+      "description": "Birds of paradise and the avifauna of Melanesia.",
+      "recognition_score": 80,
+      "demand_score": 72,
+      "commercial_score": 74,
+      "portfolio_score": 75.4,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 104
+    },
+    {
+      "id": "marsupials-of-australia",
+      "title": "Marsupials of Australia",
+      "category": "wildlife",
+      "description": "Kangaroos, koalas, wombats and quolls.",
+      "recognition_score": 80,
+      "demand_score": 72,
+      "commercial_score": 74,
+      "portfolio_score": 75.4,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 105
+    },
+    {
+      "id": "arctic-peoples",
+      "title": "Arctic Peoples",
+      "category": "culture",
+      "description": "Inuit, Sami and the cultures of the far north.",
+      "recognition_score": 80,
+      "demand_score": 72,
+      "commercial_score": 74,
+      "portfolio_score": 75.4,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 106
+    },
+    {
+      "id": "totems-and-masks-of-the-pacific-northwest",
+      "title": "Totems and Masks of the Pacific Northwest",
+      "category": "culture",
+      "description": "Carving traditions of the coastal nations.",
+      "recognition_score": 80,
+      "demand_score": 72,
+      "commercial_score": 74,
+      "portfolio_score": 75.4,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 107
+    },
+    {
+      "id": "indigenous-textiles",
+      "title": "Indigenous Textiles",
+      "category": "culture",
+      "description": "Weaving traditions of native peoples worldwide.",
+      "recognition_score": 80,
+      "demand_score": 72,
+      "commercial_score": 74,
+      "portfolio_score": 75.4,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 108
+    },
+    {
+      "id": "maya-and-aztec-worlds",
+      "title": "Maya and Aztec Worlds",
+      "category": "heritage",
+      "description": "The great civilizations of Mesoamerica.",
+      "recognition_score": 74,
+      "demand_score": 75,
+      "commercial_score": 77,
+      "portfolio_score": 75.2,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 109
+    },
+    {
+      "id": "seals-and-sea-lions",
+      "title": "Seals and Sea Lions",
+      "category": "biodiversity",
+      "description": "The pinnipeds of polar and temperate seas.",
+      "recognition_score": 74,
+      "demand_score": 75,
+      "commercial_score": 77,
+      "portfolio_score": 75.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Wall Calendar",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 110
+    },
+    {
+      "id": "parrots-of-the-world",
+      "title": "Parrots of the World",
+      "category": "biodiversity",
+      "description": "Macaws, cockatoos and the colour of the tropics.",
+      "recognition_score": 79,
+      "demand_score": 72,
+      "commercial_score": 74,
+      "portfolio_score": 75.0,
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Wall Calendar",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 111
+    },
+    {
+      "id": "savannas-and-grasslands",
+      "title": "Savannas and Grasslands",
+      "category": "landscape",
+      "description": "The Serengeti and the great open plains.",
+      "recognition_score": 73,
+      "demand_score": 76,
+      "commercial_score": 76,
+      "portfolio_score": 74.9,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 112
+    },
+    {
+      "id": "pangolins-and-rare-mammals",
+      "title": "Pangolins and Rare Mammals",
+      "category": "biodiversity",
+      "description": "The world's most trafficked and elusive mammals.",
+      "recognition_score": 73,
+      "demand_score": 75,
+      "commercial_score": 77,
+      "portfolio_score": 74.9,
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Wall Calendar",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 113
+    },
+    {
+      "id": "lighthouses-of-the-world",
+      "title": "Lighthouses of the World",
+      "category": "heritage",
+      "description": "Beacons and coastal sentinels across the seas.",
+      "recognition_score": 73,
+      "demand_score": 76,
+      "commercial_score": 75,
+      "portfolio_score": 74.6,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 114
+    },
+    {
+      "id": "amazonian-peoples",
+      "title": "Amazonian Peoples",
+      "category": "culture",
+      "description": "The indigenous cultures of the rainforest.",
+      "recognition_score": 73,
+      "demand_score": 75,
+      "commercial_score": 76,
+      "portfolio_score": 74.6,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 115
+    },
+    {
+      "id": "star-atlases-of-the-world",
+      "title": "Star Atlases of the World",
+      "category": "cartography",
+      "description": "Celestial maps from Bayer to Hevelius.",
+      "recognition_score": 73,
+      "demand_score": 75,
+      "commercial_score": 76,
+      "portfolio_score": 74.6,
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Coffee Table Book",
+        "Poster"
+      ],
+      "portfolio_rank": 116
+    },
+    {
+      "id": "crocodiles-and-alligators",
+      "title": "Crocodiles and Alligators",
+      "category": "biodiversity",
+      "description": "The ancient reptiles of river and swamp.",
+      "recognition_score": 76,
+      "demand_score": 69,
+      "commercial_score": 79,
+      "portfolio_score": 74.5,
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Wall Calendar",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 117
+    },
+    {
+      "id": "petroglyphs-of-the-world",
+      "title": "Petroglyphs of the World",
+      "category": "culture",
+      "description": "Ancient rock carvings across the continents.",
+      "recognition_score": 79,
+      "demand_score": 71,
+      "commercial_score": 73,
+      "portfolio_score": 74.4,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 118
+    },
+    {
+      "id": "tortoises-and-turtles",
+      "title": "Tortoises and Turtles",
+      "category": "biodiversity",
+      "description": "Shelled reptiles of land and sea.",
+      "recognition_score": 73,
+      "demand_score": 74,
+      "commercial_score": 76,
+      "portfolio_score": 74.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Wall Calendar",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 119
+    },
+    {
+      "id": "chameleons-and-geckos",
+      "title": "Chameleons and Geckos",
+      "category": "biodiversity",
+      "description": "The colour-changers and climbers of the reptile world.",
+      "recognition_score": 73,
+      "demand_score": 74,
+      "commercial_score": 76,
+      "portfolio_score": 74.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Wall Calendar",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 120
+    },
+    {
+      "id": "the-andes",
+      "title": "The Andes",
+      "category": "landscape",
+      "description": "The longest mountain range and its Inca heritage.",
+      "recognition_score": 72,
+      "demand_score": 75,
+      "commercial_score": 75,
+      "portfolio_score": 74.0,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 121
+    },
+    {
+      "id": "antelope-of-africa",
+      "title": "Antelope of Africa",
+      "category": "biodiversity",
+      "description": "Gazelles, oryx, kudu and the grazers of the plains.",
+      "recognition_score": 78,
+      "demand_score": 71,
+      "commercial_score": 73,
+      "portfolio_score": 74.0,
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Wall Calendar",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 122
+    },
+    {
+      "id": "sharks-and-rays",
+      "title": "Sharks and Rays",
+      "category": "marine",
+      "description": "The cartilaginous predators and gliders of the sea.",
+      "recognition_score": 72,
+      "demand_score": 74,
+      "commercial_score": 76,
+      "portfolio_score": 73.9,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Jigsaw Puzzle",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 123
+    },
+    {
+      "id": "deer-of-the-world",
+      "title": "Deer of the World",
+      "category": "biodiversity",
+      "description": "From reindeer to the great stags.",
+      "recognition_score": 72,
+      "demand_score": 74,
+      "commercial_score": 76,
+      "portfolio_score": 73.9,
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Wall Calendar",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 124
+    },
+    {
+      "id": "historic-world-maps",
+      "title": "Historic World Maps",
+      "category": "cartography",
+      "description": "Mercator, Blaeu and the golden age of cartography.",
+      "recognition_score": 78,
+      "demand_score": 72,
+      "commercial_score": 71,
+      "portfolio_score": 73.8,
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Coffee Table Book",
+        "Poster"
+      ],
+      "portfolio_rank": 125
+    },
+    {
+      "id": "megaliths-and-standing-stones",
+      "title": "Megaliths and Standing Stones",
+      "category": "heritage",
+      "description": "Stonehenge, Carnac and the world's stone monuments.",
+      "recognition_score": 78,
+      "demand_score": 72,
+      "commercial_score": 71,
+      "portfolio_score": 73.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 126
+    },
+    {
+      "id": "bridges-of-the-world",
+      "title": "Bridges of the World",
+      "category": "heritage",
+      "description": "Iconic spans of engineering and design.",
+      "recognition_score": 72,
+      "demand_score": 75,
+      "commercial_score": 74,
+      "portfolio_score": 73.7,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 127
+    },
+    {
+      "id": "the-himalayas",
+      "title": "The Himalayas",
+      "category": "landscape",
+      "description": "Everest, Kailash and the roof of the world.",
+      "recognition_score": 77,
+      "demand_score": 71,
+      "commercial_score": 71,
+      "portfolio_score": 73.1,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 128
+    },
+    {
+      "id": "islamic-cartography",
+      "title": "Islamic Cartography",
+      "category": "cartography",
+      "description": "The world maps of Al-Idrisi, Piri Reis and others.",
+      "recognition_score": 77,
+      "demand_score": 70,
+      "commercial_score": 72,
+      "portfolio_score": 73.0,
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Coffee Table Book",
+        "Poster"
+      ],
+      "portfolio_rank": 129
+    },
+    {
+      "id": "calligraphy-traditions",
+      "title": "Calligraphy Traditions",
+      "category": "culture",
+      "description": "The writing arts of Asia, Arabia and Europe.",
+      "recognition_score": 71,
+      "demand_score": 73,
+      "commercial_score": 75,
+      "portfolio_score": 72.9,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 130
+    },
+    {
+      "id": "world-textiles",
+      "title": "World Textiles",
+      "category": "culture",
+      "description": "Weaving, dyeing and pattern across cultures.",
+      "recognition_score": 71,
+      "demand_score": 73,
+      "commercial_score": 75,
+      "portfolio_score": 72.9,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 131
+    },
+    {
+      "id": "musical-instruments-of-the-world",
+      "title": "Musical Instruments of the World",
+      "category": "culture",
+      "description": "The sounds and forms of global music.",
+      "recognition_score": 71,
+      "demand_score": 73,
+      "commercial_score": 75,
+      "portfolio_score": 72.9,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 132
+    },
+    {
+      "id": "the-amazon",
+      "title": "The Amazon",
+      "category": "landscape",
+      "description": "The world's greatest rainforest and its wildlife.",
+      "recognition_score": 77,
+      "demand_score": 71,
+      "commercial_score": 70,
+      "portfolio_score": 72.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 133
+    },
+    {
+      "id": "the-alps",
+      "title": "The Alps",
+      "category": "landscape",
+      "description": "Peaks, valleys and lakes of the European Alps.",
+      "recognition_score": 74,
+      "demand_score": 68,
+      "commercial_score": 77,
+      "portfolio_score": 72.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 134
+    },
+    {
+      "id": "foxes-of-the-world",
+      "title": "Foxes of the World",
+      "category": "biodiversity",
+      "description": "Red, arctic, fennec and the wild foxes.",
+      "recognition_score": 77,
+      "demand_score": 70,
+      "commercial_score": 71,
+      "portfolio_score": 72.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Wall Calendar",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 135
+    },
+    {
+      "id": "wildlife-of-the-americas",
+      "title": "Wildlife of the Americas",
+      "category": "wildlife",
+      "description": "Jaguars, bison, condors and New World fauna.",
+      "recognition_score": 70,
+      "demand_score": 74,
+      "commercial_score": 74,
+      "portfolio_score": 72.6,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 136
+    },
+    {
+      "id": "whales-of-the-southern-ocean",
+      "title": "Whales of the Southern Ocean",
+      "category": "marine",
+      "description": "Great cetaceans of the far south.",
+      "recognition_score": 77,
+      "demand_score": 69,
+      "commercial_score": 71,
+      "portfolio_score": 72.4,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Jigsaw Puzzle",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 137
+    },
+    {
+      "id": "glaciers-and-ice",
+      "title": "Glaciers and Ice",
+      "category": "landscape",
+      "description": "The frozen rivers and ice fields of the world.",
+      "recognition_score": 76,
+      "demand_score": 70,
+      "commercial_score": 70,
+      "portfolio_score": 72.1,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 138
+    },
+    {
+      "id": "beetles-of-the-world",
+      "title": "Beetles of the World",
+      "category": "biodiversity",
+      "description": "The most diverse order of animals on Earth.",
+      "recognition_score": 76,
+      "demand_score": 69,
+      "commercial_score": 71,
+      "portfolio_score": 72.0,
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Wall Calendar",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 139
+    },
+    {
+      "id": "maps-of-the-silk-road",
+      "title": "Maps of the Silk Road",
+      "category": "cartography",
+      "description": "Charting the routes between East and West.",
+      "recognition_score": 70,
+      "demand_score": 72,
+      "commercial_score": 74,
+      "portfolio_score": 71.9,
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Coffee Table Book",
+        "Poster"
+      ],
+      "portfolio_rank": 140
+    },
+    {
+      "id": "stepwells-and-reservoirs",
+      "title": "Stepwells and Reservoirs",
+      "category": "heritage",
+      "description": "Ancient water architecture of the world.",
+      "recognition_score": 70,
+      "demand_score": 72,
+      "commercial_score": 74,
+      "portfolio_score": 71.9,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 141
+    },
+    {
+      "id": "bats-of-the-world",
+      "title": "Bats of the World",
+      "category": "biodiversity",
+      "description": "The only flying mammals, from fruit bats to vampires.",
+      "recognition_score": 75,
+      "demand_score": 68,
+      "commercial_score": 70,
+      "portfolio_score": 71.0,
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Wall Calendar",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 142
+    },
+    {
+      "id": "national-parks-of-america",
+      "title": "National Parks of America",
+      "category": "landscape",
+      "description": "Yellowstone, Yosemite and the great American parks.",
+      "recognition_score": 72,
+      "demand_score": 66,
+      "commercial_score": 75,
+      "portfolio_score": 70.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 143
+    },
+    {
+      "id": "folk-art-of-the-world",
+      "title": "Folk Art of the World",
+      "category": "culture",
+      "description": "Vernacular and traditional arts across cultures.",
+      "recognition_score": 72,
+      "demand_score": 65,
+      "commercial_score": 76,
+      "portfolio_score": 70.8,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 144
+    },
+    {
+      "id": "elephants-of-the-world",
+      "title": "Elephants of the World",
+      "category": "wildlife",
+      "description": "African and Asian elephants in the wild.",
+      "recognition_score": 68,
+      "demand_score": 71,
+      "commercial_score": 72,
+      "portfolio_score": 70.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 145
+    },
+    {
+      "id": "the-age-of-atlases",
+      "title": "The Age of Atlases",
+      "category": "cartography",
+      "description": "Ortelius, Mercator, Blaeu and the golden age.",
+      "recognition_score": 69,
+      "demand_score": 70,
+      "commercial_score": 72,
+      "portfolio_score": 70.2,
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Coffee Table Book",
+        "Poster"
+      ],
+      "portfolio_rank": 146
+    },
+    {
+      "id": "walled-cities-of-the-world",
+      "title": "Walled Cities of the World",
+      "category": "heritage",
+      "description": "Fortified towns from Carcassonne to Khiva.",
+      "recognition_score": 74,
+      "demand_score": 67,
+      "commercial_score": 69,
+      "portfolio_score": 70.0,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 147
+    },
+    {
+      "id": "the-sahara",
+      "title": "The Sahara",
+      "category": "landscape",
+      "description": "Dunes, oases and the world's largest hot desert.",
+      "recognition_score": 68,
+      "demand_score": 71,
+      "commercial_score": 71,
+      "portfolio_score": 69.9,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 148
+    },
+    {
+      "id": "bears-of-the-world",
+      "title": "Bears of the World",
+      "category": "wildlife",
+      "description": "Polar, brown, panda and the world's bears.",
+      "recognition_score": 68,
+      "demand_score": 71,
+      "commercial_score": 71,
+      "portfolio_score": 69.9,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 149
+    },
+    {
+      "id": "masks-of-the-world",
+      "title": "Masks of the World",
+      "category": "culture",
+      "description": "Ceremonial faces from every continent.",
+      "recognition_score": 68,
+      "demand_score": 70,
+      "commercial_score": 72,
+      "portfolio_score": 69.9,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 150
+    },
+    {
+      "id": "ceramics-of-the-world",
+      "title": "Ceramics of the World",
+      "category": "culture",
+      "description": "Pottery and porcelain across civilizations.",
+      "recognition_score": 68,
+      "demand_score": 70,
+      "commercial_score": 72,
+      "portfolio_score": 69.9,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 151
+    },
+    {
+      "id": "bridges-of-asia",
+      "title": "Bridges of Asia",
+      "category": "heritage",
+      "description": "Iconic spans across the rivers and gorges of Asia.",
+      "recognition_score": 68,
+      "demand_score": 70,
+      "commercial_score": 72,
+      "portfolio_score": 69.9,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 152
+    },
+    {
+      "id": "ancient-observatories",
+      "title": "Ancient Observatories",
+      "category": "heritage",
+      "description": "Jantar Mantar, Stonehenge and the watchers of the sky.",
+      "recognition_score": 68,
+      "demand_score": 70,
+      "commercial_score": 72,
+      "portfolio_score": 69.9,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 153
+    },
+    {
+      "id": "the-serengeti",
+      "title": "The Serengeti",
+      "category": "wildlife",
+      "description": "The great migration and predators of East Africa.",
+      "recognition_score": 73,
+      "demand_score": 68,
+      "commercial_score": 68,
+      "portfolio_score": 69.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 154
+    },
+    {
+      "id": "jewellery-and-adornment",
+      "title": "Jewellery and Adornment",
+      "category": "culture",
+      "description": "Gold, gems and the art of personal ornament.",
+      "recognition_score": 68,
+      "demand_score": 70,
+      "commercial_score": 71,
+      "portfolio_score": 69.6,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 155
+    },
+    {
+      "id": "wildlife-of-europe",
+      "title": "Wildlife of Europe",
+      "category": "wildlife",
+      "description": "Wolves, bears, lynx and the wild heart of Europe.",
+      "recognition_score": 70,
+      "demand_score": 65,
+      "commercial_score": 74,
+      "portfolio_score": 69.5,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 156
+    },
+    {
+      "id": "wildlife-of-asia",
+      "title": "Wildlife of Asia",
+      "category": "wildlife",
+      "description": "Tigers, pandas, elephants and Asian biodiversity.",
+      "recognition_score": 73,
+      "demand_score": 67,
+      "commercial_score": 67,
+      "portfolio_score": 69.1,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 157
+    },
+    {
+      "id": "wildlife-of-australia",
+      "title": "Wildlife of Australia",
+      "category": "wildlife",
+      "description": "Kangaroos, koalas and the unique fauna of Oceania.",
+      "recognition_score": 67,
+      "demand_score": 70,
+      "commercial_score": 70,
+      "portfolio_score": 69.0,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 158
+    },
+    {
+      "id": "pilgrimage-cities",
+      "title": "Pilgrimage Cities",
+      "category": "heritage",
+      "description": "Varanasi, Mecca, Jerusalem and the holy destinations.",
+      "recognition_score": 73,
+      "demand_score": 66,
+      "commercial_score": 68,
+      "portfolio_score": 69.0,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 159
+    },
+    {
+      "id": "sacred-calligraphy",
+      "title": "Sacred Calligraphy",
+      "category": "culture",
+      "description": "The illuminated word across faiths.",
+      "recognition_score": 67,
+      "demand_score": 69,
+      "commercial_score": 71,
+      "portfolio_score": 68.9,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 160
+    },
+    {
+      "id": "underground-cities",
+      "title": "Underground Cities",
+      "category": "heritage",
+      "description": "Cappadocia, Derinkuyu and subterranean worlds.",
+      "recognition_score": 67,
+      "demand_score": 69,
+      "commercial_score": 71,
+      "portfolio_score": 68.9,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 161
+    },
+    {
+      "id": "penguins-of-the-world",
+      "title": "Penguins of the World",
+      "category": "wildlife",
+      "description": "Emperor, king and the penguins of the south.",
+      "recognition_score": 66,
+      "demand_score": 69,
+      "commercial_score": 70,
+      "portfolio_score": 68.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 162
+    },
+    {
+      "id": "caravanserais-and-khans",
+      "title": "Caravanserais and Khans",
+      "category": "heritage",
+      "description": "The travellers' inns of the trade routes.",
+      "recognition_score": 72,
+      "demand_score": 65,
+      "commercial_score": 67,
+      "portfolio_score": 68.0,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 163
+    },
+    {
+      "id": "dragonflies-and-damselflies",
+      "title": "Dragonflies and Damselflies",
+      "category": "wildlife",
+      "description": "Jewelled insects of pond and stream.",
+      "recognition_score": 65,
+      "demand_score": 69,
+      "commercial_score": 70,
+      "portfolio_score": 67.9,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 164
+    },
+    {
+      "id": "floating-markets-and-water-cities",
+      "title": "Floating Markets and Water Cities",
+      "category": "culture",
+      "description": "Life on the canals and rivers of the world.",
+      "recognition_score": 66,
+      "demand_score": 68,
+      "commercial_score": 70,
+      "portfolio_score": 67.9,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Coffee Table Book",
+        "Greeting Cards"
+      ],
+      "portfolio_rank": 165
+    },
+    {
+      "id": "owls-of-the-world",
+      "title": "Owls of the World",
+      "category": "wildlife",
+      "description": "Nocturnal hunters of forest and tundra.",
+      "recognition_score": 65,
+      "demand_score": 69,
+      "commercial_score": 69,
+      "portfolio_score": 67.6,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 166
+    },
+    {
+      "id": "hummingbirds",
+      "title": "Hummingbirds",
+      "category": "wildlife",
+      "description": "Iridescent nectar-feeders of the Americas.",
+      "recognition_score": 70,
+      "demand_score": 65,
+      "commercial_score": 65,
+      "portfolio_score": 66.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 167
+    },
+    {
+      "id": "sharks-of-the-world",
+      "title": "Sharks of the World",
+      "category": "marine",
+      "description": "Great whites, whale sharks and ocean predators.",
+      "recognition_score": 67,
+      "demand_score": 62,
+      "commercial_score": 72,
+      "portfolio_score": 66.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Jigsaw Puzzle",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 168
+    },
+    {
+      "id": "wolves-and-wild-dogs",
+      "title": "Wolves and Wild Dogs",
+      "category": "wildlife",
+      "description": "Wolves, foxes and the wild canids.",
+      "recognition_score": 64,
+      "demand_score": 68,
+      "commercial_score": 68,
+      "portfolio_score": 66.6,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 169
+    },
+    {
+      "id": "frogs-of-the-rainforest",
+      "title": "Frogs of the Rainforest",
+      "category": "wildlife",
+      "description": "Poison-dart and tree frogs in vivid colour.",
+      "recognition_score": 70,
+      "demand_score": 64,
+      "commercial_score": 65,
+      "portfolio_score": 66.4,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 170
+    },
+    {
+      "id": "caves-and-caverns",
+      "title": "Caves and Caverns",
+      "category": "landscape",
+      "description": "Subterranean wonders of stone and crystal.",
+      "recognition_score": 63,
+      "demand_score": 67,
+      "commercial_score": 68,
+      "portfolio_score": 65.9,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 171
+    },
+    {
+      "id": "trees-of-the-world",
+      "title": "Trees of the World",
+      "category": "botanical",
+      "description": "Giant sequoias, baobabs and ancient forests.",
+      "recognition_score": 62,
+      "demand_score": 66,
+      "commercial_score": 67,
+      "portfolio_score": 64.9,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Greeting Cards",
+        "Wall Calendar",
+        "Framed Print"
+      ],
+      "portfolio_rank": 172
+    },
+    {
+      "id": "sea-turtles",
+      "title": "Sea Turtles",
+      "category": "marine",
+      "description": "Ancient mariners of the world's oceans.",
+      "recognition_score": 68,
+      "demand_score": 63,
+      "commercial_score": 63,
+      "portfolio_score": 64.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Jigsaw Puzzle",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 173
+    },
+    {
+      "id": "canyons-and-gorges",
+      "title": "Canyons and Gorges",
+      "category": "landscape",
+      "description": "The Grand Canyon and the great cut landscapes.",
+      "recognition_score": 64,
+      "demand_score": 60,
+      "commercial_score": 69,
+      "portfolio_score": 64.1,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 174
+    },
+    {
+      "id": "fjords-of-the-world",
+      "title": "Fjords of the World",
+      "category": "landscape",
+      "description": "Glacial inlets of Norway, Patagonia and New Zealand.",
+      "recognition_score": 67,
+      "demand_score": 62,
+      "commercial_score": 63,
+      "portfolio_score": 64.0,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 175
+    },
+    {
+      "id": "illuminated-manuscripts",
+      "title": "Illuminated Manuscripts",
+      "category": "heritage",
+      "description": "Medieval painted books and golden letters.",
+      "recognition_score": 61,
+      "demand_score": 65,
+      "commercial_score": 66,
+      "portfolio_score": 63.9,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 176
+    },
+    {
+      "id": "sacred-sites-of-the-world",
+      "title": "Sacred Sites of the World",
+      "category": "heritage",
+      "description": "Pilgrimage destinations and places of devotion.",
+      "recognition_score": 64,
+      "demand_score": 59,
+      "commercial_score": 69,
+      "portfolio_score": 63.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 177
+    },
+    {
+      "id": "orchids-of-the-world",
+      "title": "Orchids of the World",
+      "category": "botanical",
+      "description": "The most diverse and exquisite of flowering plants.",
+      "recognition_score": 61,
+      "demand_score": 65,
+      "commercial_score": 65,
+      "portfolio_score": 63.6,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Greeting Cards",
+        "Wall Calendar",
+        "Framed Print"
+      ],
+      "portfolio_rank": 178
+    },
+    {
+      "id": "the-age-of-exploration",
+      "title": "The Age of Exploration",
+      "category": "heritage",
+      "description": "Ships, voyages and the mapping of the world.",
+      "recognition_score": 66,
+      "demand_score": 61,
+      "commercial_score": 62,
+      "portfolio_score": 63.0,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 179
+    },
+    {
+      "id": "rock-art-of-the-world",
+      "title": "Rock Art of the World",
+      "category": "heritage",
+      "description": "Cave paintings and petroglyphs of the ancestors.",
+      "recognition_score": 59,
+      "demand_score": 63,
+      "commercial_score": 65,
+      "portfolio_score": 62.2,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 180
+    },
+    {
+      "id": "palaces-of-the-world",
+      "title": "Palaces of the World",
+      "category": "heritage",
+      "description": "Versailles, the Forbidden City and royal residences.",
+      "recognition_score": 62,
+      "demand_score": 57,
+      "commercial_score": 67,
+      "portfolio_score": 61.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 181
+    },
+    {
+      "id": "cities-of-antiquity",
+      "title": "Cities of Antiquity",
+      "category": "heritage",
+      "description": "Athens, Rome, Babylon and the ancient metropolises.",
+      "recognition_score": 64,
+      "demand_score": 59,
+      "commercial_score": 60,
+      "portfolio_score": 61.0,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 182
+    },
+    {
+      "id": "constellations-and-the-night-sky",
+      "title": "Constellations and the Night Sky",
+      "category": "cartography",
+      "description": "The myths and maps of the stars.",
+      "recognition_score": 63,
+      "demand_score": 59,
+      "commercial_score": 60,
+      "portfolio_score": 60.7,
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Coffee Table Book",
+        "Poster"
+      ],
+      "portfolio_rank": 183
+    },
+    {
+      "id": "monasteries-and-abbeys",
+      "title": "Monasteries and Abbeys",
+      "category": "heritage",
+      "description": "Cloisters and contemplative architecture.",
+      "recognition_score": 57,
+      "demand_score": 61,
+      "commercial_score": 63,
+      "portfolio_score": 60.2,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 184
+    },
+    {
+      "id": "alpine-flora",
+      "title": "Alpine Flora",
+      "category": "botanical",
+      "description": "High-altitude blooms of the world's mountains.",
+      "recognition_score": 56,
+      "demand_score": 61,
+      "commercial_score": 62,
+      "portfolio_score": 59.5,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Greeting Cards",
+        "Wall Calendar",
+        "Framed Print"
+      ],
+      "portfolio_rank": 185
+    },
+    {
+      "id": "birds-of-the-world",
+      "title": "Birds of the World",
+      "category": "wildlife",
+      "description": "A global survey of avian diversity.",
+      "recognition_score": 62,
+      "demand_score": 57,
+      "commercial_score": 59,
+      "portfolio_score": 59.3,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 186
+    },
+    {
+      "id": "mosques-of-the-world",
+      "title": "Mosques of the World",
+      "category": "heritage",
+      "description": "Domes, minarets and Islamic sacred architecture.",
+      "recognition_score": 56,
+      "demand_score": 60,
+      "commercial_score": 61,
+      "portfolio_score": 58.9,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 187
+    },
+    {
+      "id": "stupas-and-pagodas",
+      "title": "Stupas and Pagodas",
+      "category": "heritage",
+      "description": "Buddhist monuments across Asia.",
+      "recognition_score": 55,
+      "demand_score": 60,
+      "commercial_score": 61,
+      "portfolio_score": 58.5,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 188
+    },
+    {
+      "id": "fossils-and-prehistoric-life",
+      "title": "Fossils and Prehistoric Life",
+      "category": "natural-history",
+      "description": "Dinosaurs, ammonites and the deep past.",
+      "recognition_score": 60,
+      "demand_score": 56,
+      "commercial_score": 57,
+      "portfolio_score": 57.7,
+      "product_recommendations": [
+        "Educational Card Set",
+        "Poster",
+        "Coffee Table Book",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 189
+    },
+    {
+      "id": "minerals-and-gemstones",
+      "title": "Minerals and Gemstones",
+      "category": "natural-history",
+      "description": "Crystals, gems and the mineral kingdom.",
+      "recognition_score": 60,
+      "demand_score": 56,
+      "commercial_score": 57,
+      "portfolio_score": 57.7,
+      "product_recommendations": [
+        "Educational Card Set",
+        "Poster",
+        "Coffee Table Book",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 190
+    },
+    {
+      "id": "marine-mammals",
+      "title": "Marine Mammals",
+      "category": "marine",
+      "description": "Seals, whales, dolphins and sea otters.",
+      "recognition_score": 60,
+      "demand_score": 55,
+      "commercial_score": 57,
+      "portfolio_score": 57.3,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Jigsaw Puzzle",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 191
+    },
+    {
+      "id": "desert-life",
+      "title": "Desert Life",
+      "category": "wildlife",
+      "description": "Adapted creatures of the world's drylands.",
+      "recognition_score": 54,
+      "demand_score": 58,
+      "commercial_score": 60,
+      "portfolio_score": 57.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 192
+    },
+    {
+      "id": "insects-of-the-world",
+      "title": "Insects of the World",
+      "category": "wildlife",
+      "description": "Beetles, bees and the most diverse animals on Earth.",
+      "recognition_score": 53,
+      "demand_score": 58,
+      "commercial_score": 59,
+      "portfolio_score": 56.5,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 193
+    },
+    {
+      "id": "great-walls-and-frontiers",
+      "title": "Great Walls and Frontiers",
+      "category": "heritage",
+      "description": "Defensive monuments from China to Hadrian's Wall.",
+      "recognition_score": 53,
+      "demand_score": 58,
+      "commercial_score": 59,
+      "portfolio_score": 56.5,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 194
+    },
+    {
+      "id": "wetland-birds",
+      "title": "Wetland Birds",
+      "category": "wildlife",
+      "description": "Flamingos, herons and waterfowl.",
+      "recognition_score": 58,
+      "demand_score": 54,
+      "commercial_score": 56,
+      "portfolio_score": 56.0,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 195
+    },
+    {
+      "id": "volcanic-landscapes",
+      "title": "Volcanic Landscapes",
+      "category": "landscape",
+      "description": "Calderas, lava fields and geothermal wonders.",
+      "recognition_score": 52,
+      "demand_score": 57,
+      "commercial_score": 59,
+      "portfolio_score": 55.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "portfolio_rank": 196
+    },
+    {
+      "id": "the-mediterranean-world",
+      "title": "The Mediterranean World",
+      "category": "heritage",
+      "description": "Coasts, ruins and cultures of the inland sea.",
+      "recognition_score": 57,
+      "demand_score": 53,
+      "commercial_score": 55,
+      "portfolio_score": 55.0,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 197
+    },
+    {
+      "id": "wonders-of-the-modern-world",
+      "title": "Wonders of the Modern World",
+      "category": "heritage",
+      "description": "Engineering marvels of the modern age.",
+      "recognition_score": 51,
+      "demand_score": 56,
+      "commercial_score": 58,
+      "portfolio_score": 54.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 198
+    },
+    {
+      "id": "pilgrimage-routes-of-the-world",
+      "title": "Pilgrimage Routes of the World",
+      "category": "heritage",
+      "description": "The Camino, Hajj and the great paths of devotion.",
+      "recognition_score": 51,
+      "demand_score": 56,
+      "commercial_score": 58,
+      "portfolio_score": 54.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 199
+    },
+    {
+      "id": "temples-of-the-maya",
+      "title": "Temples of the Maya",
+      "category": "heritage",
+      "description": "Pyramids and cities of Mesoamerica.",
+      "recognition_score": 50,
+      "demand_score": 55,
+      "commercial_score": 57,
+      "portfolio_score": 53.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "portfolio_rank": 200
+    }
+  ]
+}
