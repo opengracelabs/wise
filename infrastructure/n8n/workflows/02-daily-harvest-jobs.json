@@ -1,0 +1,89 @@
+{
+  "name": "WISE Daily Harvest Jobs",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [{ "field": "cronExpression", "expression": "30 2 * * *" }]
+        }
+      },
+      "id": "a2000002-0002-4002-8002-000000000001",
+      "name": "Schedule 02:30 UTC",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO ops.workflow_runs (workflow_id, trigger_type, status) VALUES ('wise-daily-harvest-jobs', 'schedule', 'running') RETURNING id;"
+      },
+      "id": "a2000002-0002-4002-8002-000000000002",
+      "name": "Log Run Start",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [220, 0]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT id, canonical_name, api_url FROM registry.sources WHERE active = true AND api_url IS NOT NULL ORDER BY canonical_name;"
+      },
+      "id": "a2000002-0002-4002-8002-000000000003",
+      "name": "List Active Sources",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [440, 0]
+    },
+    {
+      "parameters": { "batchSize": 1, "options": {} },
+      "id": "a2000002-0002-4002-8002-000000000004",
+      "name": "Per Source",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [660, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.WISE_DISCOVERY_URL}}/v1/sources/{{$json.id}}/harvest",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\"trigger\": \"n8n-scheduled\"}"
+      },
+      "id": "a2000002-0002-4002-8002-000000000005",
+      "name": "Trigger Harvest",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [880, 0],
+      "notes": "Harvest logic in discovery-service — n8n triggers and polls only."
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO ops.workflow_run_events (run_id, level, message, payload) VALUES ($1::uuid, 'info', $2, $3::jsonb);"
+      },
+      "id": "a2000002-0002-4002-8002-000000000006",
+      "name": "Log Harvest Event",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [1100, 0]
+    }
+  ],
+  "connections": {
+    "Schedule 02:30 UTC": { "main": [[{ "node": "Log Run Start", "type": "main", "index": 0 }]] },
+    "Log Run Start": { "main": [[{ "node": "List Active Sources", "type": "main", "index": 0 }]] },
+    "List Active Sources": { "main": [[{ "node": "Per Source", "type": "main", "index": 0 }]] },
+    "Per Source": { "main": [[{ "node": "Trigger Harvest", "type": "main", "index": 0 }]] },
+    "Trigger Harvest": { "main": [[{ "node": "Log Harvest Event", "type": "main", "index": 0 }]] },
+    "Log Harvest Event": { "main": [[{ "node": "Per Source", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "meta": {
+    "wise": {
+      "workflow_id": "wise-daily-harvest-jobs",
+      "catalog": "docs/implementation/n8n-workflow-catalog.md#52-wise-daily-harvest-jobs"
+    }
+  },
+  "tags": [{ "name": "wise" }, { "name": "daily" }, { "name": "harvest" }]
+}

@@ -1,0 +1,110 @@
+{
+  "name": "WISE Daily Quality Report",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [{ "field": "cronExpression", "expression": "0 6 * * *" }]
+        }
+      },
+      "id": "a3000003-0003-4003-8003-000000000001",
+      "name": "Schedule 06:00 UTC",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT status, COUNT(*)::int AS count FROM quality.reviews GROUP BY status ORDER BY status;"
+      },
+      "id": "a3000003-0003-4003-8003-000000000002",
+      "name": "Reviews By Status",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [220, 0]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT review_domain, severity, COUNT(*)::int AS count FROM quality.reviews WHERE reviewed_at >= now() - interval '24 hours' GROUP BY review_domain, severity ORDER BY review_domain, severity;"
+      },
+      "id": "a3000003-0003-4003-8003-000000000003",
+      "name": "Last 24h By Domain",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [220, 160]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT entity_uri, review_domain, severity, composite_score, LEFT(finding, 200) AS finding_preview FROM quality.reviews WHERE status = 'proposed' ORDER BY severity DESC, composite_score ASC LIMIT 50;"
+      },
+      "id": "a3000003-0003-4003-8003-000000000004",
+      "name": "Pending Proposed",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [220, 320]
+    },
+    {
+      "parameters": {
+        "jsCode": "const byStatus = $('Reviews By Status').all().map(i => i.json);\nconst byDomain = $('Last 24h By Domain').all().map(i => i.json);\nconst pending = $('Pending Proposed').all().map(i => i.json);\nconst lines = ['# WISE Daily Quality Report', '', '## By status', ...byStatus.map(r => `- ${r.status}: ${r.count}`), '', '## Last 24h', ...byDomain.map(r => `- ${r.review_domain}/${r.severity}: ${r.count}`), '', '## Pending (top 50)', ...pending.map(r => `- [${r.severity}] ${r.entity_uri} (${r.composite_score})`)];\nreturn [{ json: { report_markdown: lines.join('\\n'), pending_count: pending.length } }];"
+      },
+      "id": "a3000003-0003-4003-8003-000000000005",
+      "name": "Assemble Report",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [480, 160],
+      "notes": "Formatting only — no quality scoring."
+    },
+    {
+      "parameters": {
+        "fromEmail": "={{$env.STEWARD_EMAIL_FROM}}",
+        "toEmail": "={{$env.STEWARD_EMAIL_TO}}",
+        "subject": "=WISE Daily Quality Report — {{$now.format('yyyy-MM-dd')}}",
+        "emailType": "text",
+        "message": "={{$json.report_markdown}}"
+      },
+      "id": "a3000003-0003-4003-8003-000000000006",
+      "name": "Email Stewards",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [700, 160]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO ops.workflow_runs (workflow_id, trigger_type, status, finished_at, summary) VALUES ('wise-daily-quality-report', 'schedule', 'succeeded', now(), $1::jsonb) RETURNING id;"
+      },
+      "id": "a3000003-0003-4003-8003-000000000007",
+      "name": "Archive Report",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [920, 160]
+    }
+  ],
+  "connections": {
+    "Schedule 06:00 UTC": {
+      "main": [
+        [
+          { "node": "Reviews By Status", "type": "main", "index": 0 },
+          { "node": "Last 24h By Domain", "type": "main", "index": 0 },
+          { "node": "Pending Proposed", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "Reviews By Status": { "main": [[{ "node": "Assemble Report", "type": "main", "index": 0 }]] },
+    "Last 24h By Domain": { "main": [[{ "node": "Assemble Report", "type": "main", "index": 0 }]] },
+    "Pending Proposed": { "main": [[{ "node": "Assemble Report", "type": "main", "index": 0 }]] },
+    "Assemble Report": { "main": [[{ "node": "Email Stewards", "type": "main", "index": 0 }]] },
+    "Email Stewards": { "main": [[{ "node": "Archive Report", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "meta": {
+    "wise": {
+      "workflow_id": "wise-daily-quality-report",
+      "catalog": "docs/implementation/n8n-workflow-catalog.md#53-wise-daily-quality-report"
+    }
+  },
+  "tags": [{ "name": "wise" }, { "name": "daily" }, { "name": "quality" }]
+}

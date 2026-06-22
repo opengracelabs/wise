@@ -1,0 +1,186 @@
+# Canonical Agent Registry manifest — architecture-v1.0 §5.4 fleet (23-benchmark-agent.md)
+# Authority: docs/architecture/canonical/09–23-*.md
+
+version: "1.0"
+seed_actor: wise-orchestration-seed
+
+agents:
+  - agent_id: wise.agent.source-discovery
+    spec_prefix: "09"
+    spec_path: docs/architecture/canonical/09-source-discovery-agent.md
+    display_name: Source Discovery Agent
+    plane: platform
+    build_phase: 1
+    service_binding: discovery-service
+    langgraph_graph_id: source-discovery
+    output_schema_uri: wise_contracts.discovery.DiscoveryRecord
+    evidence_profile: false
+    read_only: false
+
+  - agent_id: wise.agent.metadata
+    spec_prefix: "10"
+    spec_path: docs/architecture/canonical/10-metadata-agent.md
+    display_name: Metadata Agent
+    plane: platform
+    build_phase: 4
+    service_binding: metadata-service
+    langgraph_graph_id: metadata
+    output_schema_uri: wise_contracts.metadata.EntityAssertion
+    evidence_profile: true
+    read_only: false
+
+  - agent_id: wise.agent.preservation
+    spec_prefix: "11"
+    spec_path: docs/architecture/canonical/11-preservation-agent.md
+    display_name: Preservation Agent
+    plane: platform
+    build_phase: 3
+    service_binding: preservation-service
+    langgraph_graph_id: preservation
+    output_schema_uri: wise_contracts.preservation.PreservedObjectDescriptor
+    evidence_profile: false
+    read_only: false
+
+  - agent_id: wise.agent.knowledge-graph
+    spec_prefix: "12"
+    spec_path: docs/architecture/canonical/12-knowledge-graph-agent.md
+    display_name: Knowledge Graph Agent
+    plane: platform
+    build_phase: 5
+    service_binding: knowledge-graph-service
+    langgraph_graph_id: knowledge-graph
+    output_schema_uri: wise_contracts.graph.GraphEntity
+    evidence_profile: true
+    read_only: false
+
+  - agent_id: wise.agent.quality-review
+    spec_prefix: "13"
+    spec_path: docs/architecture/canonical/13-quality-review-agent.md
+    display_name: Quality Review Agent
+    plane: platform
+    build_phase: 7
+    service_binding: metadata-service
+    langgraph_graph_id: quality-review
+    output_schema_uri: wise_contracts.quality.QualityReviewRecord
+    evidence_profile: false
+    read_only: false
+
+  - agent_id: wise.agent.translation
+    spec_prefix: "14"
+    spec_path: docs/architecture/canonical/14-translation-agent.md
+    display_name: Translation Agent
+    plane: platform
+    build_phase: 9
+    service_binding: orchestrator-service
+    langgraph_graph_id: translation
+    output_schema_uri: wise_contracts.common.ApprovalStatus
+    evidence_profile: false
+    read_only: false
+
+  - agent_id: wise.agent.publishing
+    spec_prefix: "15"
+    spec_path: docs/architecture/canonical/15-publishing-agent.md
+    display_name: Publishing Agent
+    plane: platform
+    build_phase: 10
+    service_binding: orchestrator-service
+    langgraph_graph_id: publishing
+    output_schema_uri: wise_contracts.common.ApprovalStatus
+    evidence_profile: false
+    read_only: false
+
+  - agent_id: wise.agent.education
+    spec_prefix: "16"
+    spec_path: docs/architecture/canonical/16-education-agent.md
+    display_name: Education Agent
+    plane: experience
+    build_phase: 13
+    service_binding: orchestrator-service
+    langgraph_graph_id: education
+    output_schema_uri: wise_contracts.common.ApprovalStatus
+    evidence_profile: false
+    read_only: false
+
+  - agent_id: wise.agent.biodiversity-observatory
+    spec_prefix: "17"
+    spec_path: docs/architecture/canonical/17-biodiversity-observatory-agent.md
+    display_name: Biodiversity Observatory Agent
+    plane: experience
+    build_phase: 15
+    service_binding: orchestrator-service
+    langgraph_graph_id: biodiversity-observatory
+    output_schema_uri: wise_contracts.common.EvidenceOutputProfile
+    evidence_profile: true
+    read_only: false
+
+  - agent_id: wise.agent.climate-observatory
+    spec_prefix: "18"
+    spec_path: docs/architecture/canonical/18-climate-observatory-agent.md
+    display_name: Climate Observatory Agent
+    plane: experience
+    build_phase: 15
+    service_binding: orchestrator-service
+    langgraph_graph_id: climate-observatory
+    output_schema_uri: wise_contracts.common.EvidenceOutputProfile
+    evidence_profile: true
+    read_only: false
+
+  - agent_id: wise.agent.heritage-observatory
+    spec_prefix: "19"
+    spec_path: docs/architecture/canonical/19-heritage-observatory-agent.md
+    display_name: Heritage Observatory Agent
+    plane: experience
+    build_phase: 15
+    service_binding: orchestrator-service
+    langgraph_graph_id: heritage-observatory
+    output_schema_uri: wise_contracts.common.EvidenceOutputProfile
+    evidence_profile: true
+    read_only: false
+
+  - agent_id: wise.agent.tourism-observatory
+    spec_prefix: "20"
+    spec_path: docs/architecture/canonical/20-tourism-observatory-agent.md
+    display_name: Tourism Observatory Agent
+    plane: experience
+    build_phase: 15
+    service_binding: orchestrator-service
+    langgraph_graph_id: tourism-observatory
+    output_schema_uri: wise_contracts.common.EvidenceOutputProfile
+    evidence_profile: true
+    read_only: false
+
+  - agent_id: wise.agent.language-observatory
+    spec_prefix: "21"
+    spec_path: docs/architecture/canonical/21-language-observatory-agent.md
+    display_name: Language Observatory Agent
+    plane: experience
+    build_phase: 15
+    service_binding: orchestrator-service
+    langgraph_graph_id: language-observatory
+    output_schema_uri: wise_contracts.common.EvidenceOutputProfile
+    evidence_profile: true
+    read_only: false
+
+  - agent_id: wise.agent.standards
+    spec_prefix: "22"
+    spec_path: docs/architecture/canonical/22-standards-agent.md
+    display_name: Standards Agent
+    plane: constitutional
+    build_phase: null
+    service_binding: orchestrator-service
+    langgraph_graph_id: standards
+    output_schema_uri: wise_contracts.orchestration.StandardsComplianceReport
+    evidence_profile: false
+    read_only: true
+
+  - agent_id: wise.agent.benchmark
+    spec_prefix: "23"
+    spec_path: docs/architecture/canonical/23-benchmark-agent.md
+    display_name: Benchmark Agent
+    plane: constitutional
+    build_phase: null
+    service_binding: orchestrator-service
+    langgraph_graph_id: benchmark
+    output_schema_uri: wise_contracts.orchestration.BenchmarkReport
+    evidence_profile: false
+    read_only: true
