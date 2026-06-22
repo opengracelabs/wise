@@ -818,6 +818,99 @@ def test_rc18_lighthouse_config_and_report():
         assert phrase in text
 
 
+def _rc19_asset_validation_errors(collection_data: dict) -> list[str]:
+    errors = []
+    for asset in collection_data["assets"]:
+        if asset["rights_status"] in {"Rights Restricted", "Unknown"}:
+            errors.append(f"{asset['asset_id']}: invalid rights status")
+        if not asset.get("source_id") or not asset.get("source_url"):
+            errors.append(f"{asset['asset_id']}: missing source")
+        if not asset.get("license_id") or not asset.get("license_name"):
+            errors.append(f"{asset['asset_id']}: missing license")
+        if not asset.get("attribution_id") or not asset.get("required_credit_line"):
+            errors.append(f"{asset['asset_id']}: missing attribution")
+        if asset.get("approval_status") != "Approved":
+            errors.append(f"{asset['asset_id']}: not approved")
+    return errors
+
+
+@pytest.mark.e2e
+def test_rc19_big_cats_public_collection_content_and_route():
+    content_root = Path("content/public-collections/big-cats-of-the-world")
+    for path in [
+        content_root / "collection-page.md",
+        content_root / "species-pages/lion.md",
+        content_root / "species-pages/tiger.md",
+        content_root / "education-guide.md",
+        content_root / "image-attribution.md",
+        content_root / "rights-summary.md",
+        content_root / "publication-readiness-checklist.md",
+    ]:
+        assert path.is_file()
+        text = path.read_text(encoding="utf-8")
+        assert "No payment processing" in text
+        assert "No checkout" in text
+        assert "No customer data collection" in text
+
+    route = Path("apps/web/collections/big-cats-of-the-world/index.html")
+    assert route.is_file()
+    route_text = route.read_text(encoding="utf-8")
+    assert "Big Cats of the World" in route_text
+    assert 'data-page="big-cats-collection"' in route_text
+    assert "Taxon" in route_text
+
+
+@pytest.mark.e2e
+def test_rc19_big_cats_rights_gate_validation():
+    collection_data = json.loads(Path("apps/web/data/big_cats_public_collection.json").read_text(encoding="utf-8"))
+    assert collection_data["title"] == "Big Cats of the World"
+    assert [asset["title"] for asset in collection_data["assets"]] == ["Lion", "Tiger"]
+    assert _rc19_asset_validation_errors(collection_data) == []
+
+    for asset in collection_data["assets"]:
+        assert asset["rights_status"] == "CC-BY"
+        assert asset["license_id"] == "cc-by"
+        assert asset["approval_status"] == "Approved"
+        assert asset["source_authority"] == "Global Biodiversity Information Facility"
+        assert asset["required_credit_line"]
+
+    invalid = json.loads(json.dumps(collection_data))
+    invalid["assets"][0]["rights_status"] = "Rights Restricted"
+    assert _rc19_asset_validation_errors(invalid)
+
+    missing_source = json.loads(json.dumps(collection_data))
+    missing_source["assets"][0]["source_url"] = ""
+    assert _rc19_asset_validation_errors(missing_source)
+
+    missing_license = json.loads(json.dumps(collection_data))
+    missing_license["assets"][0]["license_id"] = ""
+    assert _rc19_asset_validation_errors(missing_license)
+
+    missing_attribution = json.loads(json.dumps(collection_data))
+    missing_attribution["assets"][0]["required_credit_line"] = ""
+    assert _rc19_asset_validation_errors(missing_attribution)
+
+
+@pytest.mark.e2e
+def test_rc19_route_wiring_sitemap_and_report():
+    app_vercel = json.loads(Path("apps/web/vercel.json").read_text(encoding="utf-8"))
+    root_vercel = json.loads(Path("vercel.json").read_text(encoding="utf-8"))
+    assert any(route["source"] == "/collections/big-cats-of-the-world" for route in app_vercel["rewrites"])
+    assert any(route["source"] == "/collections/big-cats-of-the-world" for route in root_vercel["rewrites"])
+    assert "/collections/big-cats-of-the-world" in Path("apps/web/sitemap.xml").read_text(encoding="utf-8")
+
+    app_js = Path("apps/web/static/app.js").read_text(encoding="utf-8")
+    assert "renderBigCatsCollection" in app_js
+    assert "collection.product_cta" in app_js
+    assert "Restricted or Unknown rights assets are excluded" in app_js
+
+    report = Path("docs/implementation/rc19-first-public-collection-report.md")
+    assert report.is_file()
+    report_text = report.read_text(encoding="utf-8")
+    for phrase in ["Assets used", "Rights status", "Attribution status", "Routes added", "Known gaps", "Publication recommendation"]:
+        assert phrase in report_text
+
+
 @pytest.mark.e2e
 @pytest.mark.parametrize("product_slug", PRODUCT_SLUGS)
 def test_commercial_product_pages_served(product_slug: str):

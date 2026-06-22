@@ -169,6 +169,64 @@
     return article;
   }
 
+  function bigCatsAssetCard(asset) {
+    const article = card(asset.common_name, asset.display_note);
+    article.id = asset.common_name.toLowerCase();
+    article.append(
+      metric("Rights", asset.rights_status),
+      metric("License", asset.license_name),
+      metric("Approval", asset.approval_status)
+    );
+
+    const source = el("p", "muted", `Source: ${asset.source_authority}`);
+    const credit = el("p", "muted", asset.required_credit_line);
+    article.append(source, credit);
+    return article;
+  }
+
+  function renderBigCatsCollection(collection) {
+    const fragment = document.createDocumentFragment();
+    fragment.appendChild(hero(
+      "Rights-gated public collection",
+      collection.title,
+      collection.summary
+    ));
+
+    const notice = el("section", "panel");
+    notice.append(
+      el("h2", "", "Demonstration notice"),
+      el("p", "", collection.notice),
+      el("p", "", collection.product_cta)
+    );
+    fragment.appendChild(notice);
+
+    const speciesNav = el("section", "panel");
+    speciesNav.appendChild(el("h2", "", "Species detail links"));
+    const list = el("ul");
+    collection.species_links.forEach((link) => {
+      const item = el("li");
+      const anchor = el("a", "", link.label);
+      anchor.href = link.href;
+      item.appendChild(anchor);
+      list.appendChild(item);
+    });
+    speciesNav.appendChild(list);
+    fragment.appendChild(speciesNav);
+
+    const rights = el("section", "panel");
+    rights.append(
+      el("h2", "", "Rights and attribution"),
+      el("p", "", "Only approved non-restricted RC17 assets are displayed. Restricted or Unknown rights assets are excluded from this public collection.")
+    );
+    fragment.appendChild(rights);
+    fragment.appendChild(grid(collection.assets.map(bigCatsAssetCard)));
+
+    const education = el("section", "panel");
+    education.append(el("h2", "", collection.education.title), el("p", "", collection.education.body));
+    fragment.appendChild(education);
+    return fragment;
+  }
+
   function trackProduct(eventName, product) {
     window.NC_ANALYTICS.track(eventName, {
       entity_type: "product",
@@ -238,6 +296,23 @@
 
     if (page === "analytics") {
       root.appendChild(analyticsDashboard());
+      root.setAttribute("aria-busy", "false");
+      return;
+    }
+
+    if (page === "big-cats-collection") {
+      const collection = await loadJson("/data/big_cats_public_collection.json");
+      root.appendChild(renderBigCatsCollection(collection));
+      window.NC_ANALYTICS.track("collection_view", {
+        entity_type: "collection",
+        entity_id: collection.collection_id,
+        entity_title: collection.title,
+        collection_id: collection.collection_id,
+        metadata: {
+          rights_gated: true,
+          displayed_asset_count: collection.assets.length,
+        },
+      });
       root.setAttribute("aria-busy", "false");
       return;
     }

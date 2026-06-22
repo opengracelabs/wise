@@ -57,6 +57,10 @@
       "destination": "/collections/index.html"
     },
     {
+      "source": "/collections/big-cats-of-the-world",
+      "destination": "/collections/big-cats-of-the-world/index.html"
+    },
+    {
       "source": "/series",
       "destination": "/series/index.html"
     },
