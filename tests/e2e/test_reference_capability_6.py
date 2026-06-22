@@ -364,6 +364,77 @@ def test_rc11_seo_artifacts():
 
 
 @pytest.mark.e2e
+def test_rc12_pinterest_campaigns_dataset():
+    campaigns = json.loads(Path("data/marketing/pinterest_campaigns.json").read_text(encoding="utf-8"))
+    pin_groups = campaigns["pin_groups"]
+
+    assert campaigns["platform"] == "Pinterest"
+    for group_name in [
+        "top_25_collection_pins",
+        "top_25_product_pins",
+        "top_25_heritage_pins",
+        "top_25_wildlife_pins",
+    ]:
+        pins = pin_groups[group_name]
+        assert len(pins) == 25
+        for pin in pins:
+            assert pin["title"]
+            assert pin["description"]
+            assert pin["image_requirements"]
+            assert pin["target_audience"]
+            assert pin["keywords"]
+
+
+@pytest.mark.e2e
+def test_rc12_youtube_campaigns_dataset():
+    campaigns = json.loads(Path("data/marketing/youtube_campaigns.json").read_text(encoding="utf-8"))
+    videos = campaigns["videos"]
+
+    assert campaigns["platform"] == "YouTube"
+    assert len(videos) == 25
+    assert {
+        "World Heritage",
+        "Big Cats",
+        "Endangered Species",
+        "Ancient Civilizations",
+        "Historic Maps",
+    }.issubset({video["category"] for video in videos})
+    for video in videos:
+        assert video["title"]
+        assert video["script_outline"]
+        assert video["narration_outline"]
+        assert video["image_requirements"]
+        assert video["CTA"]
+
+
+@pytest.mark.e2e
+def test_rc12_seo_and_launch_selection_datasets():
+    seo = json.loads(Path("data/marketing/seo_landing_pages.json").read_text(encoding="utf-8"))
+    selections = json.loads(Path("data/marketing/launch_selections.json").read_text(encoding="utf-8"))
+
+    assert len(seo["pages"]) == 100
+    for page in seo["pages"]:
+        assert page["title"]
+        assert page["slug"]
+        assert page["keywords"]
+        assert page["collections"]
+        assert page["products"]
+
+    assert len(selections["top_10_launch_collections"]) == 10
+    assert len(selections["top_10_launch_products"]) == 10
+    for collection in selections["top_10_launch_collections"]:
+        assert collection["selection_factors"]["educational_value"] >= 0
+        assert collection["selection_factors"]["visual_appeal"] >= 0
+        assert collection["selection_factors"]["commercial_potential"] >= 0
+        assert collection["selection_factors"]["audience_size"] >= 0
+    for product in selections["top_10_launch_products"]:
+        assert product["title"]
+        assert product["category"]
+        assert product["asset"]
+        assert product["collection"]
+
+
+@pytest.mark.e2e
 @pytest.mark.parametrize("product_slug", PRODUCT_SLUGS)
 def test_commercial_product_pages_served(product_slug: str):
     client = TestClient(app)

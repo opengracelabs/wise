@@ -1,0 +1,236 @@
+{
+  "top_10_launch_collections": [
+    {
+      "rank": 1,
+      "collection_id": "rc10-collection-003",
+      "title": "Pyramids of Giza Collection",
+      "selection_factors": {
+        "educational_value": 0.96,
+        "visual_appeal": 0.94,
+        "commercial_potential": 0.95,
+        "audience_size": 0.945
+      },
+      "launch_rationale": "Pyramids of Giza Collection leads with Africa / Heritage / Public Domain Art and strong product recommendations."
+    },
+    {
+      "rank": 2,
+      "collection_id": "rc10-collection-004",
+      "title": "Taj Mahal Collection",
+      "selection_factors": {
+        "educational_value": 0.957,
+        "visual_appeal": 0.93,
+        "commercial_potential": 0.95,
+        "audience_size": 0.94
+      },
+      "launch_rationale": "Taj Mahal Collection leads with Asia / Heritage / Maps and Memory and strong product recommendations."
+    },
+    {
+      "rank": 3,
+      "collection_id": "rc10-collection-046",
+      "title": "Sunflowers Collection",
+      "selection_factors": {
+        "educational_value": 0.953,
+        "visual_appeal": 0.94,
+        "commercial_potential": 0.94,
+        "audience_size": 0.94
+      },
+      "launch_rationale": "Sunflowers Collection leads with Europe / Art / Exploration and strong product recommendations."
+    },
+    {
+      "rank": 4,
+      "collection_id": "rc10-collection-001",
+      "title": "Machu Picchu Collection",
+      "selection_factors": {
+        "educational_value": 0.95,
+        "visual_appeal": 0.92,
+        "commercial_potential": 0.94,
+        "audience_size": 0.93
+      },
+      "launch_rationale": "Machu Picchu Collection leads with Latin America / Heritage / World Heritage and strong product recommendations."
+    },
+    {
+      "rank": 5,
+      "collection_id": "rc10-collection-092",
+      "title": "Grand Canyon Storm Light Collection",
+      "selection_factors": {
+        "educational_value": 0.927,
+        "visual_appeal": 0.9,
+        "commercial_potential": 0.91,
+        "audience_size": 0.905
+      },
+      "launch_rationale": "Grand Canyon Storm Light Collection leads with North America / Nature / Flagship Species and strong product recommendations."
+    },
+    {
+      "rank": 6,
+      "collection_id": "rc10-collection-014",
+      "title": "Great Barrier Reef Collection",
+      "selection_factors": {
+        "educational_value": 0.933,
+        "visual_appeal": 0.9,
+        "commercial_potential": 0.92,
+        "audience_size": 0.91
+      },
+      "launch_rationale": "Great Barrier Reef Collection leads with Oceania / Heritage / Maps and Memory and strong product recommendations."
+    },
+    {
+      "rank": 7,
+      "collection_id": "rc10-collection-022",
+      "title": "Tiger Collection",
+      "selection_factors": {
+        "educational_value": 0.957,
+        "visual_appeal": 0.93,
+        "commercial_potential": 0.95,
+        "audience_size": 0.94
+      },
+      "launch_rationale": "Tiger Collection leads with Global / Nature / Flagship Species and strong product recommendations."
+    },
+    {
+      "rank": 8,
+      "collection_id": "rc10-collection-002",
+      "title": "Great Wall of China Collection",
+      "selection_factors": {
+        "educational_value": 0.943,
+        "visual_appeal": 0.91,
+        "commercial_potential": 0.93,
+        "audience_size": 0.92
+      },
+      "launch_rationale": "Great Wall of China Collection leads with Asia / Heritage / Flagship Species and strong product recommendations."
+    },
+    {
+      "rank": 9,
+      "collection_id": "rc10-collection-021",
+      "title": "Lion Collection",
+      "selection_factors": {
+        "educational_value": 0.95,
+        "visual_appeal": 0.92,
+        "commercial_potential": 0.94,
+        "audience_size": 0.93
+      },
+      "launch_rationale": "Lion Collection leads with Global / Nature / World Heritage and strong product recommendations."
+    },
+    {
+      "rank": 10,
+      "collection_id": "rc10-collection-056",
+      "title": "The Night Watch Collection",
+      "selection_factors": {
+        "educational_value": 0.93,
+        "visual_appeal": 0.9,
+        "commercial_potential": 0.91,
+        "audience_size": 0.905
+      },
+      "launch_rationale": "The Night Watch Collection leads with Europe / Art / Exploration and strong product recommendations."
+    }
+  ],
+  "top_10_launch_products": [
+    {
+      "rank": 1,
+      "product_id": "rc10-product-001",
+      "title": "Pyramids of Giza Poster",
+      "category": "Posters",
+      "asset": "Pyramids of Giza",
+      "collection": "Pyramids of Giza Collection",
+      "launch_rationale": "Selected for visual product fit, demand signal, and public beta category coverage.",
+      "demand_rationale": "Pyramids of Giza combines recognition score 0.99 with demand score 0.95, making it a strong audience-validation candidate.",
+      "commercial_rationale": "Posters match the asset's UNESCO World Heritage source posture and commercial score 0.94 while remaining read-only for RC10 validation."
+    },
+    {
+      "rank": 2,
+      "product_id": "rc10-product-002",
+      "title": "Pyramids of Giza Framed Print",
+      "category": "Framed Prints",
+      "asset": "Pyramids of Giza",
+      "collection": "Pyramids of Giza Collection",
+      "launch_rationale": "Selected for visual product fit, demand signal, and public beta category coverage.",
+      "demand_rationale": "Pyramids of Giza combines recognition score 0.99 with demand score 0.95, making it a strong audience-validation candidate.",
+      "commercial_rationale": "Framed Prints match the asset's UNESCO World Heritage source posture and commercial score 0.94 while remaining read-only for RC10 validation."
+    },
+    {
+      "rank": 3,
+      "product_id": "rc10-product-003",
+      "title": "Pyramids of Giza Coffee Table Book",
+      "category": "Coffee Table Books",
+      "asset": "Pyramids of Giza",
+      "collection": "Pyramids of Giza Collection",
+      "launch_rationale": "Selected for visual product fit, demand signal, and public beta category coverage.",
+      "demand_rationale": "Pyramids of Giza combines recognition score 0.99 with demand score 0.95, making it a strong audience-validation candidate.",
+      "commercial_rationale": "Coffee Table Books match the asset's UNESCO World Heritage source posture and commercial score 0.94 while remaining read-only for RC10 validation."
+    },
+    {
+      "rank": 4,
+      "product_id": "rc10-product-005",
+      "title": "Sunflowers Poster",
+      "category": "Posters",
+      "asset": "Sunflowers",
+      "collection": "Sunflowers Collection",
+      "launch_rationale": "Selected for visual product fit, demand signal, and public beta category coverage.",
+      "demand_rationale": "Sunflowers combines recognition score 0.98 with demand score 0.94, making it a strong audience-validation candidate.",
+      "commercial_rationale": "Posters match the asset's National Gallery Public Domain source posture and commercial score 0.94 while remaining read-only for RC10 validation."
+    },
+    {
+      "rank": 5,
+      "product_id": "rc10-product-006",
+      "title": "Sunflowers Framed Print",
+      "category": "Framed Prints",
+      "asset": "Sunflowers",
+      "collection": "Sunflowers Collection",
+      "launch_rationale": "Selected for visual product fit, demand signal, and public beta category coverage.",
+      "demand_rationale": "Sunflowers combines recognition score 0.98 with demand score 0.94, making it a strong audience-validation candidate.",
+      "commercial_rationale": "Framed Prints match the asset's National Gallery Public Domain source posture and commercial score 0.94 while remaining read-only for RC10 validation."
+    },
+    {
+      "rank": 6,
+      "product_id": "rc10-product-007",
+      "title": "Sunflowers Canvas Print",
+      "category": "Canvas Prints",
+      "asset": "Sunflowers",
+      "collection": "Sunflowers Collection",
+      "launch_rationale": "Selected for visual product fit, demand signal, and public beta category coverage.",
+      "demand_rationale": "Sunflowers combines recognition score 0.98 with demand score 0.94, making it a strong audience-validation candidate.",
+      "commercial_rationale": "Canvas Prints match the asset's National Gallery Public Domain source posture and commercial score 0.94 while remaining read-only for RC10 validation."
+    },
+    {
+      "rank": 7,
+      "product_id": "rc10-product-008",
+      "title": "Sunflowers Calendar",
+      "category": "Calendars",
+      "asset": "Sunflowers",
+      "collection": "Sunflowers Collection",
+      "launch_rationale": "Selected for visual product fit, demand signal, and public beta category coverage.",
+      "demand_rationale": "Sunflowers combines recognition score 0.98 with demand score 0.94, making it a strong audience-validation candidate.",
+      "commercial_rationale": "Calendars match the asset's National Gallery Public Domain source posture and commercial score 0.94 while remaining read-only for RC10 validation."
+    },
+    {
+      "rank": 8,
+      "product_id": "rc10-product-009",
+      "title": "Taj Mahal Poster",
+      "category": "Posters",
+      "asset": "Taj Mahal",
+      "collection": "Taj Mahal Collection",
+      "launch_rationale": "Selected for visual product fit, demand signal, and public beta category coverage.",
+      "demand_rationale": "Taj Mahal combines recognition score 0.99 with demand score 0.95, making it a strong audience-validation candidate.",
+      "commercial_rationale": "Posters match the asset's UNESCO World Heritage source posture and commercial score 0.93 while remaining read-only for RC10 validation."
+    },
+    {
+      "rank": 9,
+      "product_id": "rc10-product-010",
+      "title": "Taj Mahal Framed Print",
+      "category": "Framed Prints",
+      "asset": "Taj Mahal",
+      "collection": "Taj Mahal Collection",
+      "launch_rationale": "Selected for visual product fit, demand signal, and public beta category coverage.",
+      "demand_rationale": "Taj Mahal combines recognition score 0.99 with demand score 0.95, making it a strong audience-validation candidate.",
+      "commercial_rationale": "Framed Prints match the asset's UNESCO World Heritage source posture and commercial score 0.93 while remaining read-only for RC10 validation."
+    },
+    {
+      "rank": 10,
+      "product_id": "rc10-product-011",
+      "title": "Taj Mahal Canvas Print",
+      "category": "Canvas Prints",
+      "asset": "Taj Mahal",
+      "collection": "Taj Mahal Collection",
+      "launch_rationale": "Selected for visual product fit, demand signal, and public beta category coverage.",
+      "demand_rationale": "Taj Mahal combines recognition score 0.99 with demand score 0.95, making it a strong audience-validation candidate.",
+      "commercial_rationale": "Canvas Prints match the asset's UNESCO World Heritage source posture and commercial score 0.93 while remaining read-only for RC10 validation."
+    }
+  ]
+}
