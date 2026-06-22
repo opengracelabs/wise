@@ -1,0 +1,1836 @@
+{
+  "meta": {
+    "title": "WISE RC13 Expansion Candidates",
+    "generated": "2026-06-22",
+    "count": 100,
+    "target_regions": [
+      "Sub-Saharan Africa",
+      "West Asia",
+      "Central Asia",
+      "South Asia",
+      "Oceania",
+      "Indigenous Cultures"
+    ],
+    "support_categories": [
+      "Biodiversity",
+      "Cartography",
+      "Other"
+    ],
+    "region_distribution": {
+      "Sub-Saharan Africa": 16,
+      "West Asia": 16,
+      "Central Asia": 8,
+      "South Asia": 14,
+      "Oceania": 11,
+      "Indigenous Cultures": 12,
+      "Biodiversity": 12,
+      "Cartography": 6,
+      "Other": 5
+    },
+    "scoring_methodology": "Editorial portfolio heuristic (0-100). portfolio_score = round(0.35*recognition_score + 0.35*demand_score + 0.30*commercial_score, 1).",
+    "source_gap_analysis": "docs/implementation/rc11-gap-analysis.md",
+    "note": "Candidates to close geographic/cultural/biodiversity gaps; merged into top_200_global_assets.json. Per ADR-010 never gate canonical memory."
+  },
+  "candidates": [
+    {
+      "id": "great-zimbabwe",
+      "title": "Great Zimbabwe",
+      "category": "heritage_site",
+      "country": "Zimbabwe",
+      "recognition_score": 85,
+      "demand_score": 78,
+      "commercial_score": 82,
+      "portfolio_score": 81.6,
+      "historical_significance": "Largest medieval stone city in sub-Saharan Africa, capital of a gold-trading kingdom.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Sub-Saharan Africa"
+    },
+    {
+      "id": "rock-hewn-churches-of-lalibela",
+      "title": "Rock-Hewn Churches of Lalibela",
+      "category": "heritage_site",
+      "country": "Ethiopia",
+      "recognition_score": 84,
+      "demand_score": 78,
+      "commercial_score": 82,
+      "portfolio_score": 81.3,
+      "historical_significance": "Eleven monolithic churches carved from rock, a living pilgrimage site.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Sub-Saharan Africa"
+    },
+    {
+      "id": "timbuktu",
+      "title": "Timbuktu",
+      "category": "heritage_site",
+      "country": "Mali",
+      "recognition_score": 82,
+      "demand_score": 74,
+      "commercial_score": 79,
+      "portfolio_score": 78.3,
+      "historical_significance": "Medieval centre of Islamic scholarship and trans-Saharan trade.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Sub-Saharan Africa"
+    },
+    {
+      "id": "pyramids-of-meroe",
+      "title": "Pyramids of Meroe",
+      "category": "heritage_site",
+      "country": "Sudan",
+      "recognition_score": 82,
+      "demand_score": 76,
+      "commercial_score": 80,
+      "portfolio_score": 79.3,
+      "historical_significance": "Steep Nubian royal pyramids of the Kingdom of Kush.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Sub-Saharan Africa"
+    },
+    {
+      "id": "benin-bronzes",
+      "title": "Benin Bronzes",
+      "category": "artwork",
+      "country": "Nigeria",
+      "recognition_score": 84,
+      "demand_score": 78,
+      "commercial_score": 84,
+      "portfolio_score": 81.9,
+      "historical_significance": "Masterworks of West African brass casting from the Kingdom of Benin.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Greeting Cards"
+      ],
+      "target_region": "Sub-Saharan Africa"
+    },
+    {
+      "id": "nok-terracotta",
+      "title": "Nok Terracotta",
+      "category": "artwork",
+      "country": "Nigeria",
+      "recognition_score": 76,
+      "demand_score": 72,
+      "commercial_score": 80,
+      "portfolio_score": 75.8,
+      "historical_significance": "Among the oldest sculptural traditions of sub-Saharan Africa.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Greeting Cards"
+      ],
+      "target_region": "Sub-Saharan Africa"
+    },
+    {
+      "id": "ngorongoro-crater",
+      "title": "Ngorongoro Crater",
+      "category": "natural_site",
+      "country": "Tanzania",
+      "recognition_score": 86,
+      "demand_score": 84,
+      "commercial_score": 86,
+      "portfolio_score": 85.3,
+      "historical_significance": "Vast volcanic caldera teeming with East African wildlife.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Sub-Saharan Africa"
+    },
+    {
+      "id": "okavango-delta",
+      "title": "Okavango Delta",
+      "category": "natural_site",
+      "country": "Botswana",
+      "recognition_score": 85,
+      "demand_score": 83,
+      "commercial_score": 86,
+      "portfolio_score": 84.6,
+      "historical_significance": "Inland delta and one of Africa's richest wildlife habitats.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Sub-Saharan Africa"
+    },
+    {
+      "id": "mount-kenya",
+      "title": "Mount Kenya",
+      "category": "natural_site",
+      "country": "Kenya",
+      "recognition_score": 82,
+      "demand_score": 78,
+      "commercial_score": 82,
+      "portfolio_score": 80.6,
+      "historical_significance": "Africa's second-highest peak, a glaciated equatorial massif.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Sub-Saharan Africa"
+    },
+    {
+      "id": "giraffe-giraffa",
+      "title": "Giraffe (Giraffa)",
+      "category": "species",
+      "country": "Sub-Saharan Africa",
+      "recognition_score": 90,
+      "demand_score": 88,
+      "commercial_score": 90,
+      "portfolio_score": 89.3,
+      "historical_significance": "Tallest living animal, an icon of the African savanna.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Sub-Saharan Africa"
+    },
+    {
+      "id": "black-rhinoceros-diceros-bicornis",
+      "title": "Black Rhinoceros (Diceros bicornis)",
+      "category": "species",
+      "country": "Sub-Saharan Africa",
+      "recognition_score": 86,
+      "demand_score": 82,
+      "commercial_score": 85,
+      "portfolio_score": 84.3,
+      "historical_significance": "Critically endangered browser, a flagship of anti-poaching efforts.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Sub-Saharan Africa"
+    },
+    {
+      "id": "hippopotamus-hippopotamus-amphibius",
+      "title": "Hippopotamus (Hippopotamus amphibius)",
+      "category": "species",
+      "country": "Sub-Saharan Africa",
+      "recognition_score": 84,
+      "demand_score": 81,
+      "commercial_score": 83,
+      "portfolio_score": 82.7,
+      "historical_significance": "Massive semi-aquatic mammal of Africa's rivers.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Sub-Saharan Africa"
+    },
+    {
+      "id": "chimpanzee-pan-troglodytes",
+      "title": "Chimpanzee (Pan troglodytes)",
+      "category": "species",
+      "country": "Sub-Saharan Africa",
+      "recognition_score": 88,
+      "demand_score": 83,
+      "commercial_score": 85,
+      "portfolio_score": 85.3,
+      "historical_significance": "Our closest living relative alongside the bonobo.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Sub-Saharan Africa"
+    },
+    {
+      "id": "leopard-panthera-pardus",
+      "title": "Leopard (Panthera pardus)",
+      "category": "species",
+      "country": "Sub-Saharan Africa",
+      "recognition_score": 90,
+      "demand_score": 88,
+      "commercial_score": 90,
+      "portfolio_score": 89.3,
+      "historical_significance": "Widest-ranging big cat, elusive and powerful.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Sub-Saharan Africa"
+    },
+    {
+      "id": "plains-zebra-equus-quagga",
+      "title": "Plains Zebra (Equus quagga)",
+      "category": "species",
+      "country": "Sub-Saharan Africa",
+      "recognition_score": 85,
+      "demand_score": 83,
+      "commercial_score": 87,
+      "portfolio_score": 84.9,
+      "historical_significance": "Striped icon of the great African migrations.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Sub-Saharan Africa"
+    },
+    {
+      "id": "robben-island",
+      "title": "Robben Island",
+      "category": "heritage_site",
+      "country": "South Africa",
+      "recognition_score": 80,
+      "demand_score": 74,
+      "commercial_score": 76,
+      "portfolio_score": 76.7,
+      "historical_significance": "Prison island and symbol of the struggle against apartheid.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Sub-Saharan Africa"
+    },
+    {
+      "id": "persepolis",
+      "title": "Persepolis",
+      "category": "heritage_site",
+      "country": "Iran",
+      "recognition_score": 90,
+      "demand_score": 82,
+      "commercial_score": 86,
+      "portfolio_score": 86.0,
+      "historical_significance": "Ceremonial capital of the Achaemenid Persian Empire.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "West Asia"
+    },
+    {
+      "id": "ishtar-gate-of-babylon",
+      "title": "Ishtar Gate of Babylon",
+      "category": "artwork",
+      "country": "Iraq",
+      "recognition_score": 85,
+      "demand_score": 79,
+      "commercial_score": 85,
+      "portfolio_score": 82.9,
+      "historical_significance": "Glazed-brick gate of ancient Babylon, a Mesopotamian masterpiece.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Greeting Cards"
+      ],
+      "target_region": "West Asia"
+    },
+    {
+      "id": "standard-of-ur",
+      "title": "Standard of Ur",
+      "category": "artwork",
+      "country": "Iraq",
+      "recognition_score": 78,
+      "demand_score": 73,
+      "commercial_score": 81,
+      "portfolio_score": 77.1,
+      "historical_significance": "Sumerian mosaic box depicting war and peace, c. 2600 BCE.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Greeting Cards"
+      ],
+      "target_region": "West Asia"
+    },
+    {
+      "id": "palmyra",
+      "title": "Palmyra",
+      "category": "heritage_site",
+      "country": "Syria",
+      "recognition_score": 83,
+      "demand_score": 77,
+      "commercial_score": 83,
+      "portfolio_score": 80.9,
+      "historical_significance": "Caravan city of the Syrian desert blending Greco-Roman and Persian art.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "West Asia"
+    },
+    {
+      "id": "gobekli-tepe",
+      "title": "Gobekli Tepe",
+      "category": "heritage_site",
+      "country": "Turkey",
+      "recognition_score": 85,
+      "demand_score": 80,
+      "commercial_score": 83,
+      "portfolio_score": 82.7,
+      "historical_significance": "World's oldest known monumental sanctuary, predating agriculture.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "West Asia"
+    },
+    {
+      "id": "ephesus",
+      "title": "Ephesus",
+      "category": "heritage_site",
+      "country": "Turkey",
+      "recognition_score": 85,
+      "demand_score": 81,
+      "commercial_score": 85,
+      "portfolio_score": 83.6,
+      "historical_significance": "Great Greco-Roman city, home to the Library of Celsus.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "West Asia"
+    },
+    {
+      "id": "dome-of-the-rock",
+      "title": "Dome of the Rock",
+      "category": "heritage_site",
+      "country": "Jerusalem",
+      "recognition_score": 87,
+      "demand_score": 80,
+      "commercial_score": 85,
+      "portfolio_score": 84.0,
+      "historical_significance": "Iconic gold-domed Islamic shrine on the Temple Mount.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "West Asia"
+    },
+    {
+      "id": "naqsh-e-jahan-square",
+      "title": "Naqsh-e Jahan Square",
+      "category": "heritage_site",
+      "country": "Iran",
+      "recognition_score": 84,
+      "demand_score": 78,
+      "commercial_score": 84,
+      "portfolio_score": 81.9,
+      "historical_significance": "Safavid royal square in Isfahan ringed by tiled masterpieces.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "West Asia"
+    },
+    {
+      "id": "shahnameh-illustrated-folios",
+      "title": "Shahnameh Illustrated Folios",
+      "category": "artwork",
+      "country": "Iran",
+      "recognition_score": 78,
+      "demand_score": 74,
+      "commercial_score": 82,
+      "portfolio_score": 77.8,
+      "historical_significance": "Persian miniature paintings from the Book of Kings.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Greeting Cards"
+      ],
+      "target_region": "West Asia"
+    },
+    {
+      "id": "ziggurat-of-ur",
+      "title": "Ziggurat of Ur",
+      "category": "heritage_site",
+      "country": "Iraq",
+      "recognition_score": 80,
+      "demand_score": 74,
+      "commercial_score": 80,
+      "portfolio_score": 77.9,
+      "historical_significance": "Restored Sumerian temple-tower of the moon god.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "West Asia"
+    },
+    {
+      "id": "baalbek",
+      "title": "Baalbek",
+      "category": "heritage_site",
+      "country": "Lebanon",
+      "recognition_score": 80,
+      "demand_score": 75,
+      "commercial_score": 81,
+      "portfolio_score": 78.5,
+      "historical_significance": "Colossal Roman temple complex in the Beqaa Valley.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "West Asia"
+    },
+    {
+      "id": "arabian-oryx-oryx-leucoryx",
+      "title": "Arabian Oryx (Oryx leucoryx)",
+      "category": "species",
+      "country": "Arabian Peninsula",
+      "recognition_score": 80,
+      "demand_score": 76,
+      "commercial_score": 82,
+      "portfolio_score": 79.2,
+      "historical_significance": "Desert antelope brought back from extinction in the wild.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "West Asia"
+    },
+    {
+      "id": "cedar-of-lebanon-cedrus-libani",
+      "title": "Cedar of Lebanon (Cedrus libani)",
+      "category": "species",
+      "country": "Lebanon",
+      "recognition_score": 78,
+      "demand_score": 74,
+      "commercial_score": 80,
+      "portfolio_score": 77.2,
+      "historical_significance": "Ancient sacred tree and national emblem of Lebanon.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "West Asia"
+    },
+    {
+      "id": "krak-des-chevaliers",
+      "title": "Krak des Chevaliers",
+      "category": "heritage_site",
+      "country": "Syria",
+      "recognition_score": 81,
+      "demand_score": 76,
+      "commercial_score": 82,
+      "portfolio_score": 79.5,
+      "historical_significance": "Best-preserved Crusader castle in the world.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "West Asia"
+    },
+    {
+      "id": "registan-samarkand",
+      "title": "Registan, Samarkand",
+      "category": "heritage_site",
+      "country": "Uzbekistan",
+      "recognition_score": 86,
+      "demand_score": 80,
+      "commercial_score": 86,
+      "portfolio_score": 83.9,
+      "historical_significance": "Ensemble of tiled madrasas at the heart of the Silk Road.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Central Asia"
+    },
+    {
+      "id": "itchan-kala-khiva",
+      "title": "Itchan Kala (Khiva)",
+      "category": "heritage_site",
+      "country": "Uzbekistan",
+      "recognition_score": 80,
+      "demand_score": 74,
+      "commercial_score": 80,
+      "portfolio_score": 77.9,
+      "historical_significance": "Walled inner town of the Khivan oasis city.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Central Asia"
+    },
+    {
+      "id": "po-i-kalyan-bukhara",
+      "title": "Po-i-Kalyan, Bukhara",
+      "category": "heritage_site",
+      "country": "Uzbekistan",
+      "recognition_score": 80,
+      "demand_score": 74,
+      "commercial_score": 80,
+      "portfolio_score": 77.9,
+      "historical_significance": "Minaret and mosque complex of the holy city of Bukhara.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Central Asia"
+    },
+    {
+      "id": "buddhas-of-bamiyan",
+      "title": "Buddhas of Bamiyan",
+      "category": "heritage_site",
+      "country": "Afghanistan",
+      "recognition_score": 82,
+      "demand_score": 76,
+      "commercial_score": 78,
+      "portfolio_score": 78.7,
+      "historical_significance": "Colossal cliff-carved Buddhas of the Silk Road (destroyed 2001).",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Central Asia"
+    },
+    {
+      "id": "lake-issyk-kul",
+      "title": "Lake Issyk-Kul",
+      "category": "natural_site",
+      "country": "Kyrgyzstan",
+      "recognition_score": 79,
+      "demand_score": 75,
+      "commercial_score": 81,
+      "portfolio_score": 78.2,
+      "historical_significance": "Vast endorheic alpine lake ringed by the Tian Shan.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Central Asia"
+    },
+    {
+      "id": "tian-shan-mountains",
+      "title": "Tian Shan Mountains",
+      "category": "natural_site",
+      "country": "Kyrgyzstan",
+      "recognition_score": 81,
+      "demand_score": 77,
+      "commercial_score": 83,
+      "portfolio_score": 80.2,
+      "historical_significance": "The 'celestial mountains' spanning Central Asia.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Central Asia"
+    },
+    {
+      "id": "bactrian-camel-camelus-bactrianus",
+      "title": "Bactrian Camel (Camelus bactrianus)",
+      "category": "species",
+      "country": "Central Asia",
+      "recognition_score": 80,
+      "demand_score": 77,
+      "commercial_score": 82,
+      "portfolio_score": 79.5,
+      "historical_significance": "Two-humped camel of the Silk Road steppes.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Central Asia"
+    },
+    {
+      "id": "pamir-highlands",
+      "title": "Pamir Highlands",
+      "category": "natural_site",
+      "country": "Tajikistan",
+      "recognition_score": 77,
+      "demand_score": 74,
+      "commercial_score": 80,
+      "portfolio_score": 76.8,
+      "historical_significance": "The 'Roof of the World' high-altitude plateau.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Central Asia"
+    },
+    {
+      "id": "ajanta-and-ellora-caves",
+      "title": "Ajanta and Ellora Caves",
+      "category": "heritage_site",
+      "country": "India",
+      "recognition_score": 85,
+      "demand_score": 80,
+      "commercial_score": 84,
+      "portfolio_score": 83.0,
+      "historical_significance": "Rock-cut Buddhist, Hindu and Jain cave temples with ancient murals.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "South Asia"
+    },
+    {
+      "id": "khajuraho-temples",
+      "title": "Khajuraho Temples",
+      "category": "heritage_site",
+      "country": "India",
+      "recognition_score": 83,
+      "demand_score": 78,
+      "commercial_score": 84,
+      "portfolio_score": 81.5,
+      "historical_significance": "Medieval temples renowned for intricate sculpture.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "South Asia"
+    },
+    {
+      "id": "varanasi-ghats",
+      "title": "Varanasi Ghats",
+      "category": "heritage_site",
+      "country": "India",
+      "recognition_score": 86,
+      "demand_score": 82,
+      "commercial_score": 86,
+      "portfolio_score": 84.6,
+      "historical_significance": "Sacred riverfront steps on the Ganges, a Hindu pilgrimage heart.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "South Asia"
+    },
+    {
+      "id": "hampi",
+      "title": "Hampi",
+      "category": "heritage_site",
+      "country": "India",
+      "recognition_score": 82,
+      "demand_score": 78,
+      "commercial_score": 83,
+      "portfolio_score": 80.9,
+      "historical_significance": "Boulder-strewn ruins of the Vijayanagara Empire capital.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "South Asia"
+    },
+    {
+      "id": "sigiriya",
+      "title": "Sigiriya",
+      "category": "heritage_site",
+      "country": "Sri Lanka",
+      "recognition_score": 83,
+      "demand_score": 79,
+      "commercial_score": 84,
+      "portfolio_score": 81.9,
+      "historical_significance": "Rock fortress crowned by a royal citadel and frescoes.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "South Asia"
+    },
+    {
+      "id": "sanchi-stupa",
+      "title": "Sanchi Stupa",
+      "category": "heritage_site",
+      "country": "India",
+      "recognition_score": 80,
+      "demand_score": 75,
+      "commercial_score": 80,
+      "portfolio_score": 78.2,
+      "historical_significance": "One of the oldest stone Buddhist monuments in India.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "South Asia"
+    },
+    {
+      "id": "brihadeeswarar-temple",
+      "title": "Brihadeeswarar Temple",
+      "category": "heritage_site",
+      "country": "India",
+      "recognition_score": 81,
+      "demand_score": 77,
+      "commercial_score": 83,
+      "portfolio_score": 80.2,
+      "historical_significance": "Chola granite temple, a Dravidian architectural triumph.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "South Asia"
+    },
+    {
+      "id": "paro-taktsang-tigers-nest",
+      "title": "Paro Taktsang (Tiger's Nest)",
+      "category": "heritage_site",
+      "country": "Bhutan",
+      "recognition_score": 87,
+      "demand_score": 85,
+      "commercial_score": 88,
+      "portfolio_score": 86.6,
+      "historical_significance": "Cliffside Himalayan monastery, an emblem of Bhutan.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "South Asia"
+    },
+    {
+      "id": "meenakshi-temple",
+      "title": "Meenakshi Temple",
+      "category": "heritage_site",
+      "country": "India",
+      "recognition_score": 82,
+      "demand_score": 78,
+      "commercial_score": 84,
+      "portfolio_score": 81.2,
+      "historical_significance": "Towering, sculpture-covered gopurams of Madurai.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "South Asia"
+    },
+    {
+      "id": "asian-elephant-elephas-maximus",
+      "title": "Asian Elephant (Elephas maximus)",
+      "category": "species",
+      "country": "South Asia",
+      "recognition_score": 90,
+      "demand_score": 86,
+      "commercial_score": 88,
+      "portfolio_score": 88.0,
+      "historical_significance": "Sacred and endangered elephant of Asian cultures.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "South Asia"
+    },
+    {
+      "id": "indian-peafowl-pavo-cristatus",
+      "title": "Indian Peafowl (Pavo cristatus)",
+      "category": "species",
+      "country": "South Asia",
+      "recognition_score": 86,
+      "demand_score": 85,
+      "commercial_score": 89,
+      "portfolio_score": 86.5,
+      "historical_significance": "National bird of India, famed for its iridescent train.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "South Asia"
+    },
+    {
+      "id": "one-horned-rhinoceros-rhinoceros-unicornis",
+      "title": "One-horned Rhinoceros (Rhinoceros unicornis)",
+      "category": "species",
+      "country": "India",
+      "recognition_score": 82,
+      "demand_score": 78,
+      "commercial_score": 83,
+      "portfolio_score": 80.9,
+      "historical_significance": "Armoured greater rhino of the Indian floodplains.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "South Asia"
+    },
+    {
+      "id": "himalayan-monal-lophophorus-impejanus",
+      "title": "Himalayan Monal (Lophophorus impejanus)",
+      "category": "species",
+      "country": "Himalaya",
+      "recognition_score": 78,
+      "demand_score": 76,
+      "commercial_score": 83,
+      "portfolio_score": 78.8,
+      "historical_significance": "Iridescent pheasant of the high Himalaya.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "South Asia"
+    },
+    {
+      "id": "mount-everest",
+      "title": "Mount Everest",
+      "category": "natural_site",
+      "country": "Nepal",
+      "recognition_score": 93,
+      "demand_score": 89,
+      "commercial_score": 90,
+      "portfolio_score": 90.7,
+      "historical_significance": "Earth's highest peak, the summit of the Himalaya.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "South Asia"
+    },
+    {
+      "id": "sydney-opera-house",
+      "title": "Sydney Opera House",
+      "category": "heritage_site",
+      "country": "Australia",
+      "recognition_score": 93,
+      "demand_score": 90,
+      "commercial_score": 91,
+      "portfolio_score": 91.3,
+      "historical_significance": "Expressionist sail-roofed icon of modern architecture.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Oceania"
+    },
+    {
+      "id": "uluru-kata-tjuta",
+      "title": "Uluru-Kata Tjuta",
+      "category": "natural_site",
+      "country": "Australia",
+      "recognition_score": 91,
+      "demand_score": 87,
+      "commercial_score": 89,
+      "portfolio_score": 89.0,
+      "historical_significance": "Sacred monolith of the Anangu in the Australian outback.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Oceania"
+    },
+    {
+      "id": "twelve-apostles",
+      "title": "Twelve Apostles",
+      "category": "natural_site",
+      "country": "Australia",
+      "recognition_score": 84,
+      "demand_score": 82,
+      "commercial_score": 86,
+      "portfolio_score": 83.9,
+      "historical_significance": "Limestone sea stacks along the Great Ocean Road.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Oceania"
+    },
+    {
+      "id": "aoraki-mount-cook",
+      "title": "Aoraki / Mount Cook",
+      "category": "natural_site",
+      "country": "New Zealand",
+      "recognition_score": 84,
+      "demand_score": 82,
+      "commercial_score": 86,
+      "portfolio_score": 83.9,
+      "historical_significance": "New Zealand's highest peak amid the Southern Alps.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Oceania"
+    },
+    {
+      "id": "milford-sound",
+      "title": "Milford Sound",
+      "category": "natural_site",
+      "country": "New Zealand",
+      "recognition_score": 87,
+      "demand_score": 85,
+      "commercial_score": 88,
+      "portfolio_score": 86.6,
+      "historical_significance": "Sheer-walled fiord of Fiordland, a natural wonder.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Oceania"
+    },
+    {
+      "id": "kakadu-rock-art",
+      "title": "Kakadu Rock Art",
+      "category": "artwork",
+      "country": "Australia",
+      "recognition_score": 81,
+      "demand_score": 77,
+      "commercial_score": 81,
+      "portfolio_score": 79.6,
+      "historical_significance": "Aboriginal rock paintings spanning tens of thousands of years.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Greeting Cards"
+      ],
+      "target_region": "Oceania"
+    },
+    {
+      "id": "maori-meeting-house",
+      "title": "Maori Meeting House",
+      "category": "heritage_site",
+      "country": "New Zealand",
+      "recognition_score": 80,
+      "demand_score": 77,
+      "commercial_score": 81,
+      "portfolio_score": 79.2,
+      "historical_significance": "Carved communal house (wharenui) at the heart of Maori life.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Oceania"
+    },
+    {
+      "id": "red-kangaroo-osphranter-rufus",
+      "title": "Red Kangaroo (Osphranter rufus)",
+      "category": "species",
+      "country": "Australia",
+      "recognition_score": 87,
+      "demand_score": 85,
+      "commercial_score": 87,
+      "portfolio_score": 86.3,
+      "historical_significance": "Largest marsupial and emblem of Australia.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Oceania"
+    },
+    {
+      "id": "platypus-ornithorhynchus-anatinus",
+      "title": "Platypus (Ornithorhynchus anatinus)",
+      "category": "species",
+      "country": "Australia",
+      "recognition_score": 85,
+      "demand_score": 83,
+      "commercial_score": 86,
+      "portfolio_score": 84.6,
+      "historical_significance": "Egg-laying monotreme, one of evolution's marvels.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Oceania"
+    },
+    {
+      "id": "kiwi-apteryx",
+      "title": "Kiwi (Apteryx)",
+      "category": "species",
+      "country": "New Zealand",
+      "recognition_score": 83,
+      "demand_score": 81,
+      "commercial_score": 85,
+      "portfolio_score": 82.9,
+      "historical_significance": "Flightless nocturnal bird and national symbol of New Zealand.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Oceania"
+    },
+    {
+      "id": "nan-madol",
+      "title": "Nan Madol",
+      "category": "heritage_site",
+      "country": "Micronesia",
+      "recognition_score": 77,
+      "demand_score": 73,
+      "commercial_score": 79,
+      "portfolio_score": 76.2,
+      "historical_significance": "Megalithic stone city built on a Pacific lagoon.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Oceania"
+    },
+    {
+      "id": "teotihuacan",
+      "title": "Teotihuacan",
+      "category": "heritage_site",
+      "country": "Mexico",
+      "recognition_score": 89,
+      "demand_score": 83,
+      "commercial_score": 87,
+      "portfolio_score": 86.3,
+      "historical_significance": "Vast Mesoamerican city of the Pyramids of the Sun and Moon.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Indigenous Cultures"
+    },
+    {
+      "id": "nazca-lines",
+      "title": "Nazca Lines",
+      "category": "heritage_site",
+      "country": "Peru",
+      "recognition_score": 87,
+      "demand_score": 83,
+      "commercial_score": 85,
+      "portfolio_score": 85.0,
+      "historical_significance": "Monumental desert geoglyphs of the Nazca culture.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Indigenous Cultures"
+    },
+    {
+      "id": "mesa-verde-cliff-palace",
+      "title": "Mesa Verde Cliff Palace",
+      "category": "heritage_site",
+      "country": "United States",
+      "recognition_score": 83,
+      "demand_score": 79,
+      "commercial_score": 83,
+      "portfolio_score": 81.6,
+      "historical_significance": "Ancestral Puebloan cliff dwellings of the Southwest.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Indigenous Cultures"
+    },
+    {
+      "id": "cahokia-mounds",
+      "title": "Cahokia Mounds",
+      "category": "heritage_site",
+      "country": "United States",
+      "recognition_score": 77,
+      "demand_score": 73,
+      "commercial_score": 77,
+      "portfolio_score": 75.6,
+      "historical_significance": "Largest pre-Columbian earthwork city north of Mexico.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Indigenous Cultures"
+    },
+    {
+      "id": "tiwanaku",
+      "title": "Tiwanaku",
+      "category": "heritage_site",
+      "country": "Bolivia",
+      "recognition_score": 79,
+      "demand_score": 75,
+      "commercial_score": 81,
+      "portfolio_score": 78.2,
+      "historical_significance": "Andean ceremonial capital near Lake Titicaca.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Indigenous Cultures"
+    },
+    {
+      "id": "moche-portrait-vessels",
+      "title": "Moche Portrait Vessels",
+      "category": "artwork",
+      "country": "Peru",
+      "recognition_score": 77,
+      "demand_score": 73,
+      "commercial_score": 81,
+      "portfolio_score": 76.8,
+      "historical_significance": "Strikingly realistic ceramic portraits of the Moche.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Greeting Cards"
+      ],
+      "target_region": "Indigenous Cultures"
+    },
+    {
+      "id": "haida-totem-poles",
+      "title": "Haida Totem Poles",
+      "category": "artwork",
+      "country": "Canada",
+      "recognition_score": 81,
+      "demand_score": 79,
+      "commercial_score": 85,
+      "portfolio_score": 81.5,
+      "historical_significance": "Monumental carved cedar poles of the Pacific Northwest.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Greeting Cards"
+      ],
+      "target_region": "Indigenous Cultures"
+    },
+    {
+      "id": "inuksuk",
+      "title": "Inuksuk",
+      "category": "artwork",
+      "country": "Canada",
+      "recognition_score": 79,
+      "demand_score": 77,
+      "commercial_score": 83,
+      "portfolio_score": 79.5,
+      "historical_significance": "Inuit stone landmarks of the Arctic.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Greeting Cards"
+      ],
+      "target_region": "Indigenous Cultures"
+    },
+    {
+      "id": "caral",
+      "title": "Caral",
+      "category": "heritage_site",
+      "country": "Peru",
+      "recognition_score": 78,
+      "demand_score": 73,
+      "commercial_score": 79,
+      "portfolio_score": 76.5,
+      "historical_significance": "Oldest known city in the Americas.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Indigenous Cultures"
+    },
+    {
+      "id": "chaco-canyon",
+      "title": "Chaco Canyon",
+      "category": "heritage_site",
+      "country": "United States",
+      "recognition_score": 79,
+      "demand_score": 75,
+      "commercial_score": 79,
+      "portfolio_score": 77.6,
+      "historical_significance": "Great houses and astronomy of the Ancestral Puebloans.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Indigenous Cultures"
+    },
+    {
+      "id": "sami-cultural-heritage",
+      "title": "Sami Cultural Heritage",
+      "category": "heritage_site",
+      "country": "Norway",
+      "recognition_score": 78,
+      "demand_score": 75,
+      "commercial_score": 79,
+      "portfolio_score": 77.2,
+      "historical_significance": "Living reindeer-herding culture of the European Arctic.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Indigenous Cultures"
+    },
+    {
+      "id": "aboriginal-dreaming-paintings",
+      "title": "Aboriginal Dreaming Paintings",
+      "category": "artwork",
+      "country": "Australia",
+      "recognition_score": 82,
+      "demand_score": 79,
+      "commercial_score": 85,
+      "portfolio_score": 81.8,
+      "historical_significance": "Dot and Dreamtime paintings of Aboriginal Australia.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Greeting Cards"
+      ],
+      "target_region": "Indigenous Cultures"
+    },
+    {
+      "id": "orca-orcinus-orca",
+      "title": "Orca (Orcinus orca)",
+      "category": "species",
+      "country": "Oceans",
+      "recognition_score": 90,
+      "demand_score": 86,
+      "commercial_score": 86,
+      "portfolio_score": 87.4,
+      "historical_significance": "Ocean's apex predator, the largest dolphin.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Biodiversity"
+    },
+    {
+      "id": "galapagos-giant-tortoise-chelonoidis-niger",
+      "title": "Galapagos Giant Tortoise (Chelonoidis niger)",
+      "category": "species",
+      "country": "Ecuador",
+      "recognition_score": 85,
+      "demand_score": 81,
+      "commercial_score": 85,
+      "portfolio_score": 83.6,
+      "historical_significance": "Long-lived tortoise central to evolutionary science.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Biodiversity"
+    },
+    {
+      "id": "scarlet-macaw-ara-macao",
+      "title": "Scarlet Macaw (Ara macao)",
+      "category": "species",
+      "country": "Americas",
+      "recognition_score": 85,
+      "demand_score": 85,
+      "commercial_score": 89,
+      "portfolio_score": 86.2,
+      "historical_significance": "Brilliant neotropical parrot of the rainforest canopy.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Biodiversity"
+    },
+    {
+      "id": "greater-flamingo-phoenicopterus-roseus",
+      "title": "Greater Flamingo (Phoenicopterus roseus)",
+      "category": "species",
+      "country": "Africa",
+      "recognition_score": 85,
+      "demand_score": 85,
+      "commercial_score": 89,
+      "portfolio_score": 86.2,
+      "historical_significance": "Pink wading bird of saline lakes and lagoons.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Biodiversity"
+    },
+    {
+      "id": "pangolin-manis",
+      "title": "Pangolin (Manis)",
+      "category": "species",
+      "country": "Africa",
+      "recognition_score": 82,
+      "demand_score": 80,
+      "commercial_score": 83,
+      "portfolio_score": 81.6,
+      "historical_significance": "Scaled mammal, the world's most trafficked animal.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Biodiversity"
+    },
+    {
+      "id": "three-toed-sloth-bradypus",
+      "title": "Three-toed Sloth (Bradypus)",
+      "category": "species",
+      "country": "South America",
+      "recognition_score": 84,
+      "demand_score": 84,
+      "commercial_score": 86,
+      "portfolio_score": 84.6,
+      "historical_significance": "Slow-moving icon of the neotropical canopy.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Biodiversity"
+    },
+    {
+      "id": "reindeer-rangifer-tarandus",
+      "title": "Reindeer (Rangifer tarandus)",
+      "category": "species",
+      "country": "Arctic",
+      "recognition_score": 83,
+      "demand_score": 81,
+      "commercial_score": 85,
+      "portfolio_score": 82.9,
+      "historical_significance": "Migratory deer central to Arctic cultures.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Biodiversity"
+    },
+    {
+      "id": "narwhal-monodon-monoceros",
+      "title": "Narwhal (Monodon monoceros)",
+      "category": "species",
+      "country": "Arctic",
+      "recognition_score": 83,
+      "demand_score": 81,
+      "commercial_score": 85,
+      "portfolio_score": 82.9,
+      "historical_significance": "Tusked 'unicorn of the sea'.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Biodiversity"
+    },
+    {
+      "id": "saltwater-crocodile-crocodylus-porosus",
+      "title": "Saltwater Crocodile (Crocodylus porosus)",
+      "category": "species",
+      "country": "Australia",
+      "recognition_score": 81,
+      "demand_score": 79,
+      "commercial_score": 81,
+      "portfolio_score": 80.3,
+      "historical_significance": "Largest living reptile, an estuarine apex predator.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Biodiversity"
+    },
+    {
+      "id": "golden-eagle-aquila-chrysaetos",
+      "title": "Golden Eagle (Aquila chrysaetos)",
+      "category": "species",
+      "country": "Northern Hemisphere",
+      "recognition_score": 83,
+      "demand_score": 81,
+      "commercial_score": 85,
+      "portfolio_score": 82.9,
+      "historical_significance": "Powerful raptor revered across the Northern Hemisphere.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Biodiversity"
+    },
+    {
+      "id": "manta-ray-mobula-birostris",
+      "title": "Manta Ray (Mobula birostris)",
+      "category": "species",
+      "country": "Oceans",
+      "recognition_score": 83,
+      "demand_score": 81,
+      "commercial_score": 84,
+      "portfolio_score": 82.6,
+      "historical_significance": "Gliding giant of tropical seas.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Biodiversity"
+    },
+    {
+      "id": "reef-building-coral",
+      "title": "Reef-building Coral",
+      "category": "species",
+      "country": "Oceans",
+      "recognition_score": 81,
+      "demand_score": 81,
+      "commercial_score": 85,
+      "portfolio_score": 82.2,
+      "historical_significance": "Foundation of reef ecosystems and a climate sentinel.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Biodiversity"
+    },
+    {
+      "id": "babylonian-map-of-the-world",
+      "title": "Babylonian Map of the World",
+      "category": "map",
+      "country": "Iraq",
+      "recognition_score": 79,
+      "demand_score": 73,
+      "commercial_score": 81,
+      "portfolio_score": 77.5,
+      "historical_significance": "Earliest known world map (Imago Mundi), c. 600 BCE.",
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "target_region": "West Asia"
+    },
+    {
+      "id": "catalan-atlas-1375",
+      "title": "Catalan Atlas (1375)",
+      "category": "map",
+      "country": "Spain",
+      "recognition_score": 79,
+      "demand_score": 75,
+      "commercial_score": 83,
+      "portfolio_score": 78.8,
+      "historical_significance": "Lavish medieval atlas of the known world.",
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "target_region": "Cartography"
+    },
+    {
+      "id": "ortelius-theatrum-orbis-terrarum-1570",
+      "title": "Ortelius Theatrum Orbis Terrarum (1570)",
+      "category": "map",
+      "country": "Belgium",
+      "recognition_score": 81,
+      "demand_score": 77,
+      "commercial_score": 85,
+      "portfolio_score": 80.8,
+      "historical_significance": "The first modern atlas.",
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "target_region": "Cartography"
+    },
+    {
+      "id": "piri-reis-map-1513",
+      "title": "Piri Reis Map (1513)",
+      "category": "map",
+      "country": "Turkey",
+      "recognition_score": 79,
+      "demand_score": 75,
+      "commercial_score": 83,
+      "portfolio_score": 78.8,
+      "historical_significance": "Ottoman world map preserving early American coastlines.",
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "target_region": "West Asia"
+    },
+    {
+      "id": "cantino-planisphere-1502",
+      "title": "Cantino Planisphere (1502)",
+      "category": "map",
+      "country": "Portugal",
+      "recognition_score": 77,
+      "demand_score": 73,
+      "commercial_score": 81,
+      "portfolio_score": 76.8,
+      "historical_significance": "Earliest surviving map of Portuguese discoveries.",
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "target_region": "Cartography"
+    },
+    {
+      "id": "hevelius-selenographia-1647",
+      "title": "Hevelius Selenographia (1647)",
+      "category": "map",
+      "country": "Poland",
+      "recognition_score": 79,
+      "demand_score": 77,
+      "commercial_score": 85,
+      "portfolio_score": 80.1,
+      "historical_significance": "First detailed atlas of the Moon.",
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "target_region": "Cartography"
+    },
+    {
+      "id": "ptolemys-geographia",
+      "title": "Ptolemy's Geographia",
+      "category": "map",
+      "country": "Greece",
+      "recognition_score": 79,
+      "demand_score": 75,
+      "commercial_score": 81,
+      "portfolio_score": 78.2,
+      "historical_significance": "Renaissance reconstruction of the classical world map.",
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "target_region": "Cartography"
+    },
+    {
+      "id": "diamond-sutra-dunhuang",
+      "title": "Diamond Sutra (Dunhuang)",
+      "category": "manuscript",
+      "country": "China",
+      "recognition_score": 79,
+      "demand_score": 73,
+      "commercial_score": 81,
+      "portfolio_score": 77.5,
+      "historical_significance": "World's earliest dated printed book (868 CE).",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Facsimile Print",
+        "Framed Print",
+        "Poster"
+      ],
+      "target_region": "Cartography"
+    },
+    {
+      "id": "statue-of-liberty",
+      "title": "Statue of Liberty",
+      "category": "heritage_site",
+      "country": "United States",
+      "recognition_score": 93,
+      "demand_score": 87,
+      "commercial_score": 89,
+      "portfolio_score": 89.7,
+      "historical_significance": "Neoclassical monument and global symbol of freedom.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Other"
+    },
+    {
+      "id": "saint-basils-cathedral",
+      "title": "Saint Basil's Cathedral",
+      "category": "heritage_site",
+      "country": "Russia",
+      "recognition_score": 90,
+      "demand_score": 86,
+      "commercial_score": 90,
+      "portfolio_score": 88.6,
+      "historical_significance": "Riot of colourful onion domes on Moscow's Red Square.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "target_region": "Other"
+    },
+    {
+      "id": "ha-long-bay",
+      "title": "Ha Long Bay",
+      "category": "natural_site",
+      "country": "Vietnam",
+      "recognition_score": 89,
+      "demand_score": 87,
+      "commercial_score": 89,
+      "portfolio_score": 88.3,
+      "historical_significance": "Emerald waters studded with thousands of limestone karsts.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Other"
+    },
+    {
+      "id": "yosemite",
+      "title": "Yosemite",
+      "category": "natural_site",
+      "country": "United States",
+      "recognition_score": 89,
+      "demand_score": 87,
+      "commercial_score": 89,
+      "portfolio_score": 88.3,
+      "historical_significance": "Granite cliffs, waterfalls and giant sequoias.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Other"
+    },
+    {
+      "id": "torres-del-paine",
+      "title": "Torres del Paine",
+      "category": "natural_site",
+      "country": "Chile",
+      "recognition_score": 85,
+      "demand_score": 85,
+      "commercial_score": 88,
+      "portfolio_score": 85.9,
+      "historical_significance": "Dramatic Patagonian peaks, glaciers and lakes.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "target_region": "Other"
+    }
+  ]
+}
