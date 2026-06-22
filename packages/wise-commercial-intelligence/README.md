@@ -57,7 +57,8 @@ Additional diagnostic fields include the five-dimension `commercial_breakdown`.
 
 ## Sample rankings
 
-Sample ranking data is provided in `src/wise_commercial_intelligence/samples/sample_rankings.json`.
+Sample ranking inputs are provided in `src/wise_commercial_intelligence/samples/sample_rankings.json`.
+Expected ranked output rows are provided in `src/wise_commercial_intelligence/samples/sample_rankings_output.json`.
 
 ## Tests
 

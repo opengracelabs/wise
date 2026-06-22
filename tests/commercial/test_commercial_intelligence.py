@@ -100,10 +100,24 @@ def test_explicit_dimension_scores_are_capped() -> None:
 
 def test_sample_rankings_are_valid_and_ordered() -> None:
     sample_path = resources.files("wise_commercial_intelligence.samples").joinpath("sample_rankings.json")
+    output_path = resources.files("wise_commercial_intelligence.samples").joinpath("sample_rankings_output.json")
     samples = json.loads(sample_path.read_text(encoding="utf-8"))
+    expected_output = json.loads(output_path.read_text(encoding="utf-8"))
 
     ranked = rank_assets(samples)
+    compact_output = [
+        {
+            "id": asset["id"],
+            "title": asset["title"],
+            "recognition_score": asset["recognition_score"],
+            "commercial_appeal_score": asset["commercial_appeal_score"],
+            "final_selection_score": asset["final_selection_score"],
+            "commercial_tier": asset["commercial_tier"],
+        }
+        for asset in ranked
+    ]
 
+    assert compact_output == expected_output
     assert [asset["commercial_tier"] for asset in ranked] == [
         "Icon Product",
         "Strong Product",
