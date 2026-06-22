@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "analytics-service"
+version = "0.1.0"
+description = "WISE analytics-service — RC6 real demand telemetry ingestion"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "wise-common",
+    "wise-demand-intelligence",
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "pydantic-settings>=2.0",
+    "sqlalchemy>=2.0",
+    "psycopg[binary]>=3.1",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/wise_analytics"]
+
+[tool.uvicorn]
+factory = false
