@@ -21,29 +21,26 @@ and `services/*` installed editable, plus `pytest httpx geoalchemy2`).
   `infrastructure/docker/postgres/init/01-extensions.sql` (extensions +
   schemas), then run migrations as described below.
 
-### Migrations — known gotcha (pre-existing, do not "fix" casually)
+### Migrations
 
 Run migrations with `WISE_DATABASE_URL` set to the target DB (psycopg3 driver).
-Apply in order: registry → reference → discovery.
-
-- `packages/wise-registry/migrations/env.py` (and `wise-metadata`) open the
-  connection with `connectable.connect()` and run a statement before
-  `context.begin_transaction()`, so alembic defers the commit and SQLAlchemy 2.0
-  **rolls the migration back on close** (exit code is still 0, but no tables are
-  created). `wise-reference`/`wise-discovery` use `connectable.begin()` and work
-  normally. To actually persist the registry migrations, run them through an
-  AUTOCOMMIT engine using the override config saved at
-  `~/wise_registry_autocommit.ini` (it sets `sqlalchemy.isolation_level = AUTOCOMMIT`
-  and an absolute `script_location`):
-  ```bash
-  export WISE_DATABASE_URL=postgresql+psycopg://wise:wise@localhost:5432/wise
-  (cd packages/wise-registry && alembic -c ~/wise_registry_autocommit.ini upgrade head)
-  (cd packages/wise-reference && alembic upgrade head)
-  (cd packages/wise-discovery && alembic upgrade head)   # adds discovery.records.source_id + FK; needs registry.sources to exist
-  ```
-- `packages/wise-discovery/alembic.ini` uses a **relative** `script_location =
-  migrations`, so `alembic`/`command.upgrade(...)` only resolves it when the CWD
-  is `packages/wise-discovery`.
+Apply in order: registry → reference → metadata → discovery. All packages now
+commit normally with plain `alembic upgrade head` (the RC0 sprint fixed the
+registry rollback and metadata revision-graph defects — see
+`docs/implementation/rc0-stabilization-report.md`):
+```bash
+export WISE_DATABASE_URL=postgresql+psycopg://wise:wise@localhost:5432/wise
+(cd packages/wise-registry  && alembic upgrade head)
+(cd packages/wise-reference && alembic upgrade head)
+(cd packages/wise-metadata  && alembic upgrade head)   # needs registry.sources (FKs)
+(cd packages/wise-discovery && alembic upgrade head)   # adds discovery.records.source_id + FK
+```
+- Still open (out of RC0 scope): `packages/wise-discovery/alembic.ini` uses a
+  **relative** `script_location = migrations`, so bare `alembic`/
+  `command.upgrade(...)` only resolves it when the CWD is
+  `packages/wise-discovery`. (The `tests/registry|metadata|discovery` conftests
+  override `script_location` to an absolute path, so they are unaffected; only
+  `tests/reference`/`tests/e2e` rely on the relative path.)
 
 ### Running services
 
@@ -62,24 +59,30 @@ Apply in order: registry → reference → discovery.
 
 ### Tests
 
-- Set `WISE_TEST_DATABASE_URL` (and `WISE_DATABASE_URL`/`DATABASE_URL`) to the
-  `wise_test` psycopg3 URL. Reference/e2e fixtures re-run migrations, so run
-  those suites from `packages/wise-discovery` (relative `script_location`, see
-  above), e.g.
-  `cd packages/wise-discovery && pytest /workspace/tests/reference /workspace/tests/e2e/test_reference_capability_2.py /workspace/tests/e2e/test_reference_capability_3.py`.
-- Green suites: smoke (`pytest tests/ -m smoke`), `tests/reference`,
-  `tests/e2e/test_reference_capability_2.py`, `tests/e2e/test_reference_capability_3.py`,
-  `tests/metadata` (unit), and many `tests/registry` / `tests/discovery` unit tests.
+- Set `WISE_TEST_DATABASE_URL` (and `WISE_DATABASE_URL`/`DATABASE_URL`) to a
+  psycopg3 URL. Reference/e2e fixtures re-run migrations and rely on the relative
+  discovery `script_location`, so run those suites from `packages/wise-discovery`,
+  e.g.
+  `cd packages/wise-discovery && pytest /workspace/tests/reference /workspace/tests/e2e`.
+- The `tests/registry|metadata|discovery` conftests **drop their schemas but not
+  the `alembic_version_*` tables** (which live in `public`). Reusing one database
+  across different suites can therefore leave a stale version table that makes a
+  later `command.upgrade(..., "head")` a no-op (skipping table creation). Run each
+  integration suite against a **fresh** database (drop/recreate + apply
+  `01-extensions.sql`) for reliable results.
+- Green after RC0: smoke (`pytest tests/ -m smoke`), `tests/reference`, all three
+  `tests/e2e/test_reference_capability_*.py`, `tests/test_contracts.py`,
+  `tests/test_species_contracts.py`; `tests/registry` 52/53, `tests/metadata`
+  23/24, `tests/discovery` 21/22.
 
-### Known pre-existing breakage (CI is red on `main` — not caused by setup)
+### Remaining known breakage (out of RC0 scope)
 
-- RC1 object path (`services/api-service/src/wise_api/repository.py`) uses
-  `joinedload(...).one()` without `.unique()`, so `GET /v1/objects/stonehenge`
-  and `tests/e2e/test_reference_capability_1.py` raise 500 / error under
-  SQLAlchemy 2.0.
-- Several `tests/registry` and `tests/discovery` integration tests fail because
-  their fixtures apply the registry migrations via the buggy `env.py` above
-  (tables roll back → `relation "registry.source_types" does not exist`).
+- `tests/registry/test_migrations.py::test_v1_1_migration_upgrade_downgrade` —
+  the v1.1 provenance migration's **downgrade** does not drop `previous_event_id`.
+- `tests/metadata/test_pipeline.py::test_pipeline_processes_wikidata_record` and
+  `tests/discovery/test_agent_integration.py::test_create_discovery_record_persists_chain`
+  — cross-schema SQLAlchemy `NoReferencedTableError` (modeling/discovery models
+  reference `registry.*` tables that are not imported into the same mapper
+  registry at configuration time).
 
-These are application/migration code defects; do not paper over them as part of
-environment setup.
+These are application/test defects; do not paper over them as part of setup.
