@@ -143,6 +143,52 @@ def test_rc7_recommended_products_output():
 
 
 @pytest.mark.e2e
+def test_rc9_top_100_global_assets_dataset():
+    output_path = Path("data/portfolio/top_100_global_assets.json")
+    assets = json.loads(output_path.read_text(encoding="utf-8"))
+
+    assert len(assets) == 100
+    categories = {asset["category"] for asset in assets}
+    for source_family in [
+        "UNESCO World Heritage",
+        "GBIF Flagship Species",
+        "Smithsonian Open Access",
+        "National Gallery Public Domain",
+        "Rijksmuseum Public Domain",
+        "Library of Congress",
+        "National Geographic Award-Winning Subject",
+    ]:
+        assert source_family in categories
+
+    allowed_products = {
+        "Posters",
+        "Framed Prints",
+        "Canvas Prints",
+        "Puzzles",
+        "Calendars",
+        "Coffee Table Books",
+        "Historic Maps",
+    }
+    for asset in assets:
+        assert set(asset) == {
+            "title",
+            "category",
+            "country",
+            "recognition_score",
+            "demand_score",
+            "commercial_score",
+            "product_recommendations",
+        }
+        assert asset["title"]
+        assert asset["category"]
+        assert asset["country"]
+        for score_field in ["recognition_score", "demand_score", "commercial_score"]:
+            assert 0 <= asset[score_field] <= 1
+        assert asset["product_recommendations"]
+        assert set(asset["product_recommendations"]).issubset(allowed_products)
+
+
+@pytest.mark.e2e
 @pytest.mark.parametrize("product_slug", PRODUCT_SLUGS)
 def test_commercial_product_pages_served(product_slug: str):
     client = TestClient(app)
