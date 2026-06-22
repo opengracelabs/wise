@@ -220,7 +220,7 @@ Not present by design:
 
 ## 8. Validation status
 
-Planned validation commands:
+Validation commands run:
 
 ```bash
 python3 -m pytest tests/e2e/test_reference_capability_6.py -q
@@ -230,9 +230,20 @@ node --check apps/web/static/analytics.js
 node --check apps/web/static/app.js
 ```
 
+Results:
+
+- Focused beta test suite: 30 passed.
+- Showcase JSON files: parsed successfully.
+- SEO JSON templates: parsed successfully.
+- `apps/web/vercel.json`: parsed successfully.
+- repository-root `vercel.json`: parsed successfully.
+- `apps/web/static/analytics.js`: syntax check passed.
+- `apps/web/static/app.js`: syntax check passed.
+- `apps/web/sitemap.xml`: XML parse passed.
+
 Deployment validation status:
 
-- Local/static readiness validation: prepared
+- Local/static readiness validation: passed
 - Vercel deploy validation: blocked by invalid token
 
 ---
