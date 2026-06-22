@@ -1,0 +1,36 @@
+{
+  "registry": "RC17 jurisdiction rules",
+  "version": "0.1.0",
+  "rules": [
+    {
+      "jurisdiction": "Global default",
+      "rule": "Do not publish any asset with Unknown rights status or unknown license.",
+      "applies_to": "all_assets"
+    },
+    {
+      "jurisdiction": "United States",
+      "rule": "Public-domain and Library of Congress items require item-level rights confirmation and attribution display.",
+      "applies_to": "public_domain_archive"
+    },
+    {
+      "jurisdiction": "European Union / United Kingdom",
+      "rule": "Respect moral rights, database rights, and attribution expectations even for public-domain reproductions.",
+      "applies_to": "public_domain_and_museum_assets"
+    },
+    {
+      "jurisdiction": "Indigenous and culturally sensitive contexts",
+      "rule": "Require sensitivity review and partner clearance before publication or product use.",
+      "applies_to": "restricted_or_partner_assets"
+    },
+    {
+      "jurisdiction": "Wildlife and field photography",
+      "rule": "Species data does not clear image rights; use rights-cleared images only.",
+      "applies_to": "biodiversity_assets"
+    },
+    {
+      "jurisdiction": "UNESCO and heritage sites",
+      "rule": "Site recognition does not grant image, trademark, or reproduction rights.",
+      "applies_to": "heritage_assets"
+    }
+  ]
+}

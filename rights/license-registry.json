@@ -1,0 +1,41 @@
+{
+  "registry": "RC17 license registry",
+  "version": "0.1.0",
+  "licenses": [
+    {
+      "license_id": "CC0-1.0",
+      "name": "Creative Commons Zero 1.0",
+      "reuse_allowed": true,
+      "requires_attribution": false,
+      "status": "approved"
+    },
+    {
+      "license_id": "PUBLIC-DOMAIN-MARK",
+      "name": "Public Domain Mark / public-domain item",
+      "reuse_allowed": true,
+      "requires_attribution": true,
+      "status": "approved"
+    },
+    {
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "name": "Rights review required before publication",
+      "reuse_allowed": false,
+      "requires_attribution": true,
+      "status": "review_required"
+    },
+    {
+      "license_id": "IMAGE-RIGHTS-REVIEW",
+      "name": "Visual asset/image rights review required",
+      "reuse_allowed": false,
+      "requires_attribution": true,
+      "status": "review_required"
+    },
+    {
+      "license_id": "PARTNER-PERMISSION-REQUIRED",
+      "name": "Partner permission and sensitivity review required",
+      "reuse_allowed": false,
+      "requires_attribution": true,
+      "status": "restricted"
+    }
+  ]
+}

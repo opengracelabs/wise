@@ -1,0 +1,782 @@
+{
+  "registry": "RC17 rights asset registry",
+  "version": "0.1.0",
+  "source_content": "content/collections",
+  "allowed_rights_statuses": [
+    "Approved",
+    "Restricted",
+    "Review Required",
+    "Unknown"
+  ],
+  "allowed_publication_statuses": [
+    "Approved",
+    "Draft",
+    "Editorial Review",
+    "Published",
+    "Rights Review"
+  ],
+  "assets": [
+    {
+      "asset_id": "RC17-ASSET-001",
+      "title": "Acropolis of Athens",
+      "collections": [
+        "Great Civilizations"
+      ],
+      "source_id": "UNESCO-WHC",
+      "source": "UNESCO World Heritage Centre / site-level reference",
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "license": "Rights review required before publication",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-001",
+      "provenance_id": "RC17-PROV-001"
+    },
+    {
+      "asset_id": "RC17-ASSET-002",
+      "title": "African Elephant",
+      "collections": [
+        "Endangered Earth"
+      ],
+      "source_id": "GBIF",
+      "source": "GBIF species occurrence and taxonomy reference",
+      "license_id": "IMAGE-RIGHTS-REVIEW",
+      "license": "Visual asset/image rights review required",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-002",
+      "provenance_id": "RC17-PROV-002"
+    },
+    {
+      "asset_id": "RC17-ASSET-003",
+      "title": "African Lion",
+      "collections": [
+        "Big Cats of the World"
+      ],
+      "source_id": "GBIF",
+      "source": "GBIF species occurrence and taxonomy reference",
+      "license_id": "IMAGE-RIGHTS-REVIEW",
+      "license": "Visual asset/image rights review required",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-003",
+      "provenance_id": "RC17-PROV-003"
+    },
+    {
+      "asset_id": "RC17-ASSET-004",
+      "title": "Aksum Obelisks",
+      "collections": [
+        "African Kingdoms"
+      ],
+      "source_id": "UNESCO-WHC",
+      "source": "UNESCO World Heritage Centre / site-level reference",
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "license": "Rights review required before publication",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-004",
+      "provenance_id": "RC17-PROV-004"
+    },
+    {
+      "asset_id": "RC17-ASSET-005",
+      "title": "Ancient Silk Road Caravanserai",
+      "collections": [
+        "Cities of the Silk Road"
+      ],
+      "source_id": "UNESCO-WHC",
+      "source": "UNESCO World Heritage Centre / site-level reference",
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "license": "Rights review required before publication",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-005",
+      "provenance_id": "RC17-PROV-005"
+    },
+    {
+      "asset_id": "RC17-ASSET-006",
+      "title": "Angkor Wat",
+      "collections": [
+        "Great Civilizations"
+      ],
+      "source_id": "UNESCO-WHC",
+      "source": "UNESCO World Heritage Centre / site-level reference",
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "license": "Rights review required before publication",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-006",
+      "provenance_id": "RC17-PROV-006"
+    },
+    {
+      "asset_id": "RC17-ASSET-007",
+      "title": "Bukhara Historic Centre",
+      "collections": [
+        "Cities of the Silk Road"
+      ],
+      "source_id": "UNESCO-WHC",
+      "source": "UNESCO World Heritage Centre / site-level reference",
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "license": "Rights review required before publication",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-007",
+      "provenance_id": "RC17-PROV-007"
+    },
+    {
+      "asset_id": "RC17-ASSET-008",
+      "title": "Cheetah",
+      "collections": [
+        "Big Cats of the World"
+      ],
+      "source_id": "GBIF",
+      "source": "GBIF species occurrence and taxonomy reference",
+      "license_id": "IMAGE-RIGHTS-REVIEW",
+      "license": "Visual asset/image rights review required",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-008",
+      "provenance_id": "RC17-PROV-008"
+    },
+    {
+      "asset_id": "RC17-ASSET-009",
+      "title": "Coral Reef Biodiversity",
+      "collections": [
+        "Oceans of the World"
+      ],
+      "source_id": "GBIF",
+      "source": "GBIF species occurrence and taxonomy reference",
+      "license_id": "IMAGE-RIGHTS-REVIEW",
+      "license": "Visual asset/image rights review required",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-009",
+      "provenance_id": "RC17-PROV-009"
+    },
+    {
+      "asset_id": "RC17-ASSET-010",
+      "title": "Galapagos Islands",
+      "collections": [
+        "Endangered Earth"
+      ],
+      "source_id": "UNESCO-WHC",
+      "source": "UNESCO World Heritage Centre / site-level reference",
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "license": "Rights review required before publication",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-010",
+      "provenance_id": "RC17-PROV-010"
+    },
+    {
+      "asset_id": "RC17-ASSET-011",
+      "title": "Ganges River Dolphin",
+      "collections": [
+        "Oceans of the World"
+      ],
+      "source_id": "GBIF",
+      "source": "GBIF species occurrence and taxonomy reference",
+      "license_id": "IMAGE-RIGHTS-REVIEW",
+      "license": "Visual asset/image rights review required",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-011",
+      "provenance_id": "RC17-PROV-011"
+    },
+    {
+      "asset_id": "RC17-ASSET-012",
+      "title": "Great Barrier Reef",
+      "collections": [
+        "Endangered Earth",
+        "Oceans of the World",
+        "Wonders of Australia"
+      ],
+      "source_id": "GBIF",
+      "source": "GBIF species occurrence and taxonomy reference",
+      "license_id": "IMAGE-RIGHTS-REVIEW",
+      "license": "Visual asset/image rights review required",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-012",
+      "provenance_id": "RC17-PROV-012"
+    },
+    {
+      "asset_id": "RC17-ASSET-013",
+      "title": "Great Pyramid of Giza",
+      "collections": [
+        "Great Civilizations",
+        "World Heritage Icons"
+      ],
+      "source_id": "UNESCO-WHC",
+      "source": "UNESCO World Heritage Centre / site-level reference",
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "license": "Rights review required before publication",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-013",
+      "provenance_id": "RC17-PROV-013"
+    },
+    {
+      "asset_id": "RC17-ASSET-014",
+      "title": "Great Zimbabwe",
+      "collections": [
+        "African Kingdoms"
+      ],
+      "source_id": "UNESCO-WHC",
+      "source": "UNESCO World Heritage Centre / site-level reference",
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "license": "Rights review required before publication",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-014",
+      "provenance_id": "RC17-PROV-014"
+    },
+    {
+      "asset_id": "RC17-ASSET-015",
+      "title": "Jaguar",
+      "collections": [
+        "Big Cats of the World"
+      ],
+      "source_id": "GBIF",
+      "source": "GBIF species occurrence and taxonomy reference",
+      "license_id": "IMAGE-RIGHTS-REVIEW",
+      "license": "Visual asset/image rights review required",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-015",
+      "provenance_id": "RC17-PROV-015"
+    },
+    {
+      "asset_id": "RC17-ASSET-016",
+      "title": "Kakadu National Park",
+      "collections": [
+        "Wonders of Australia"
+      ],
+      "source_id": "UNESCO-WHC",
+      "source": "UNESCO World Heritage Centre / site-level reference",
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "license": "Rights review required before publication",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-016",
+      "provenance_id": "RC17-PROV-016"
+    },
+    {
+      "asset_id": "RC17-ASSET-017",
+      "title": "Khiva Itchan Kala",
+      "collections": [
+        "Cities of the Silk Road"
+      ],
+      "source_id": "UNESCO-WHC",
+      "source": "UNESCO World Heritage Centre / site-level reference",
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "license": "Rights review required before publication",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-017",
+      "provenance_id": "RC17-PROV-017"
+    },
+    {
+      "asset_id": "RC17-ASSET-018",
+      "title": "Kilimanjaro National Park",
+      "collections": [
+        "Sacred Mountains"
+      ],
+      "source_id": "UNESCO-WHC",
+      "source": "UNESCO World Heritage Centre / site-level reference",
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "license": "Rights review required before publication",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-018",
+      "provenance_id": "RC17-PROV-018"
+    },
+    {
+      "asset_id": "RC17-ASSET-019",
+      "title": "Lalibela Rock-Hewn Churches",
+      "collections": [
+        "African Kingdoms"
+      ],
+      "source_id": "UNESCO-WHC",
+      "source": "UNESCO World Heritage Centre / site-level reference",
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "license": "Rights review required before publication",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-019",
+      "provenance_id": "RC17-PROV-019"
+    },
+    {
+      "asset_id": "RC17-ASSET-020",
+      "title": "Machu Picchu",
+      "collections": [
+        "Sacred Mountains",
+        "World Heritage Icons"
+      ],
+      "source_id": "UNESCO-WHC",
+      "source": "UNESCO World Heritage Centre / site-level reference",
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "license": "Rights review required before publication",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-020",
+      "provenance_id": "RC17-PROV-020"
+    },
+    {
+      "asset_id": "RC17-ASSET-021",
+      "title": "Map of the Moon",
+      "collections": [
+        "Ancient Maps"
+      ],
+      "source_id": "PUBLIC-DOMAIN-MAPS",
+      "source": "Public domain historical maps",
+      "license_id": "PUBLIC-DOMAIN-MARK",
+      "license": "Public Domain Mark / public-domain item",
+      "rights_status": "Approved",
+      "publication_status": "Editorial Review",
+      "publication_blockers": [],
+      "attribution_id": "RC17-ATTR-021",
+      "provenance_id": "RC17-PROV-021"
+    },
+    {
+      "asset_id": "RC17-ASSET-022",
+      "title": "Mount Fuji",
+      "collections": [
+        "Sacred Mountains"
+      ],
+      "source_id": "PARTNER-CULTURAL-REVIEW",
+      "source": "Partner or cultural sensitivity review source",
+      "license_id": "PARTNER-PERMISSION-REQUIRED",
+      "license": "Partner permission and sensitivity review required",
+      "rights_status": "Restricted",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "partner_clearance_required",
+        "sensitivity_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-022",
+      "provenance_id": "RC17-PROV-022"
+    },
+    {
+      "asset_id": "RC17-ASSET-023",
+      "title": "Ocean Giants Collection",
+      "collections": [
+        "Oceans of the World"
+      ],
+      "source_id": "UNESCO-WHC",
+      "source": "UNESCO World Heritage Centre / site-level reference",
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "license": "Rights review required before publication",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-023",
+      "provenance_id": "RC17-PROV-023"
+    },
+    {
+      "asset_id": "RC17-ASSET-024",
+      "title": "Pacific Atoll Climate Maps",
+      "collections": [
+        "Oceans of the World"
+      ],
+      "source_id": "PUBLIC-DOMAIN-MAPS",
+      "source": "Public domain historical maps",
+      "license_id": "PUBLIC-DOMAIN-MARK",
+      "license": "Public Domain Mark / public-domain item",
+      "rights_status": "Approved",
+      "publication_status": "Editorial Review",
+      "publication_blockers": [],
+      "attribution_id": "RC17-ATTR-024",
+      "provenance_id": "RC17-PROV-024"
+    },
+    {
+      "asset_id": "RC17-ASSET-025",
+      "title": "Pamir Mountains",
+      "collections": [
+        "Sacred Mountains"
+      ],
+      "source_id": "PARTNER-CULTURAL-REVIEW",
+      "source": "Partner or cultural sensitivity review source",
+      "license_id": "PARTNER-PERMISSION-REQUIRED",
+      "license": "Partner permission and sensitivity review required",
+      "rights_status": "Restricted",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "partner_clearance_required",
+        "sensitivity_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-025",
+      "provenance_id": "RC17-PROV-025"
+    },
+    {
+      "asset_id": "RC17-ASSET-026",
+      "title": "Piri Reis Map",
+      "collections": [
+        "Ancient Maps"
+      ],
+      "source_id": "PUBLIC-DOMAIN-MAPS",
+      "source": "Public domain historical maps",
+      "license_id": "PUBLIC-DOMAIN-MARK",
+      "license": "Public Domain Mark / public-domain item",
+      "rights_status": "Approved",
+      "publication_status": "Editorial Review",
+      "publication_blockers": [],
+      "attribution_id": "RC17-ATTR-026",
+      "provenance_id": "RC17-PROV-026"
+    },
+    {
+      "asset_id": "RC17-ASSET-027",
+      "title": "Polar Bear",
+      "collections": [
+        "Endangered Earth"
+      ],
+      "source_id": "GBIF",
+      "source": "GBIF species occurrence and taxonomy reference",
+      "license_id": "IMAGE-RIGHTS-REVIEW",
+      "license": "Visual asset/image rights review required",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-027",
+      "provenance_id": "RC17-PROV-027"
+    },
+    {
+      "asset_id": "RC17-ASSET-028",
+      "title": "Samarkand Registan",
+      "collections": [
+        "Cities of the Silk Road"
+      ],
+      "source_id": "UNESCO-WHC",
+      "source": "UNESCO World Heritage Centre / site-level reference",
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "license": "Rights review required before publication",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-028",
+      "provenance_id": "RC17-PROV-028"
+    },
+    {
+      "asset_id": "RC17-ASSET-029",
+      "title": "Shark Bay",
+      "collections": [
+        "Wonders of Australia"
+      ],
+      "source_id": "UNESCO-WHC",
+      "source": "UNESCO World Heritage Centre / site-level reference",
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "license": "Rights review required before publication",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-029",
+      "provenance_id": "RC17-PROV-029"
+    },
+    {
+      "asset_id": "RC17-ASSET-030",
+      "title": "Silk Roads Tien-Shan Corridor",
+      "collections": [
+        "Cities of the Silk Road"
+      ],
+      "source_id": "UNESCO-WHC",
+      "source": "UNESCO World Heritage Centre / site-level reference",
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "license": "Rights review required before publication",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-030",
+      "provenance_id": "RC17-PROV-030"
+    },
+    {
+      "asset_id": "RC17-ASSET-031",
+      "title": "Snow Leopard",
+      "collections": [
+        "Big Cats of the World"
+      ],
+      "source_id": "GBIF",
+      "source": "GBIF species occurrence and taxonomy reference",
+      "license_id": "IMAGE-RIGHTS-REVIEW",
+      "license": "Visual asset/image rights review required",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-031",
+      "provenance_id": "RC17-PROV-031"
+    },
+    {
+      "asset_id": "RC17-ASSET-032",
+      "title": "Stonehenge",
+      "collections": [
+        "World Heritage Icons"
+      ],
+      "source_id": "UNESCO-WHC",
+      "source": "UNESCO World Heritage Centre / site-level reference",
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "license": "Rights review required before publication",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-032",
+      "provenance_id": "RC17-PROV-032"
+    },
+    {
+      "asset_id": "RC17-ASSET-033",
+      "title": "Swahili Coast Stone Towns",
+      "collections": [
+        "African Kingdoms"
+      ],
+      "source_id": "UNESCO-WHC",
+      "source": "UNESCO World Heritage Centre / site-level reference",
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "license": "Rights review required before publication",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-033",
+      "provenance_id": "RC17-PROV-033"
+    },
+    {
+      "asset_id": "RC17-ASSET-034",
+      "title": "Tabula Rogeriana",
+      "collections": [
+        "Ancient Maps"
+      ],
+      "source_id": "PUBLIC-DOMAIN-MAPS",
+      "source": "Public domain historical maps",
+      "license_id": "PUBLIC-DOMAIN-MARK",
+      "license": "Public Domain Mark / public-domain item",
+      "rights_status": "Approved",
+      "publication_status": "Editorial Review",
+      "publication_blockers": [],
+      "attribution_id": "RC17-ATTR-034",
+      "provenance_id": "RC17-PROV-034"
+    },
+    {
+      "asset_id": "RC17-ASSET-035",
+      "title": "Taj Mahal",
+      "collections": [
+        "Great Civilizations",
+        "World Heritage Icons"
+      ],
+      "source_id": "UNESCO-WHC",
+      "source": "UNESCO World Heritage Centre / site-level reference",
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "license": "Rights review required before publication",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-035",
+      "provenance_id": "RC17-PROV-035"
+    },
+    {
+      "asset_id": "RC17-ASSET-036",
+      "title": "Tasmanian Devil",
+      "collections": [
+        "Wonders of Australia"
+      ],
+      "source_id": "GBIF",
+      "source": "GBIF species occurrence and taxonomy reference",
+      "license_id": "IMAGE-RIGHTS-REVIEW",
+      "license": "Visual asset/image rights review required",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-036",
+      "provenance_id": "RC17-PROV-036"
+    },
+    {
+      "asset_id": "RC17-ASSET-037",
+      "title": "The Great Wall",
+      "collections": [
+        "Great Civilizations",
+        "World Heritage Icons"
+      ],
+      "source_id": "UNESCO-WHC",
+      "source": "UNESCO World Heritage Centre / site-level reference",
+      "license_id": "RIGHTS-REVIEW-REQUIRED",
+      "license": "Rights review required before publication",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-037",
+      "provenance_id": "RC17-PROV-037"
+    },
+    {
+      "asset_id": "RC17-ASSET-038",
+      "title": "Tiger",
+      "collections": [
+        "Big Cats of the World",
+        "Endangered Earth"
+      ],
+      "source_id": "GBIF",
+      "source": "GBIF species occurrence and taxonomy reference",
+      "license_id": "IMAGE-RIGHTS-REVIEW",
+      "license": "Visual asset/image rights review required",
+      "rights_status": "Review Required",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "item_level_rights_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-038",
+      "provenance_id": "RC17-PROV-038"
+    },
+    {
+      "asset_id": "RC17-ASSET-039",
+      "title": "Timbuktu Manuscript Heritage",
+      "collections": [
+        "African Kingdoms"
+      ],
+      "source_id": "PARTNER-CULTURAL-REVIEW",
+      "source": "Partner or cultural sensitivity review source",
+      "license_id": "PARTNER-PERMISSION-REQUIRED",
+      "license": "Partner permission and sensitivity review required",
+      "rights_status": "Restricted",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "partner_clearance_required",
+        "sensitivity_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-039",
+      "provenance_id": "RC17-PROV-039"
+    },
+    {
+      "asset_id": "RC17-ASSET-040",
+      "title": "Uluru-Kata Tjuta National Park",
+      "collections": [
+        "Sacred Mountains",
+        "Wonders of Australia"
+      ],
+      "source_id": "PARTNER-CULTURAL-REVIEW",
+      "source": "Partner or cultural sensitivity review source",
+      "license_id": "PARTNER-PERMISSION-REQUIRED",
+      "license": "Partner permission and sensitivity review required",
+      "rights_status": "Restricted",
+      "publication_status": "Rights Review",
+      "publication_blockers": [
+        "partner_clearance_required",
+        "sensitivity_review_required"
+      ],
+      "attribution_id": "RC17-ATTR-040",
+      "provenance_id": "RC17-PROV-040"
+    },
+    {
+      "asset_id": "RC17-ASSET-041",
+      "title": "Waldseemuller World Map",
+      "collections": [
+        "Ancient Maps"
+      ],
+      "source_id": "PUBLIC-DOMAIN-MAPS",
+      "source": "Public domain historical maps",
+      "license_id": "PUBLIC-DOMAIN-MARK",
+      "license": "Public Domain Mark / public-domain item",
+      "rights_status": "Approved",
+      "publication_status": "Editorial Review",
+      "publication_blockers": [],
+      "attribution_id": "RC17-ATTR-041",
+      "provenance_id": "RC17-PROV-041"
+    },
+    {
+      "asset_id": "RC17-ASSET-042",
+      "title": "World Exploration Maps Collection",
+      "collections": [
+        "Ancient Maps"
+      ],
+      "source_id": "PUBLIC-DOMAIN-MAPS",
+      "source": "Public domain historical maps",
+      "license_id": "PUBLIC-DOMAIN-MARK",
+      "license": "Public Domain Mark / public-domain item",
+      "rights_status": "Approved",
+      "publication_status": "Editorial Review",
+      "publication_blockers": [],
+      "attribution_id": "RC17-ATTR-042",
+      "provenance_id": "RC17-PROV-042"
+    }
+  ],
+  "summary_metrics": {
+    "assets_total": 42,
+    "assets_approved": 6,
+    "assets_blocked": 4,
+    "assets_requiring_review": 32
+  }
+}
