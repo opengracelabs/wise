@@ -1,0 +1,57 @@
+{
+  "version": "0.1.0",
+  "architecture": "architecture-v1.0-frozen",
+  "purpose": "Local recognition scoring references; not a WISE agent or source registry expansion.",
+  "eligibility_threshold": 70,
+  "sources": {
+    "unesco_world_heritage": {
+      "tag": "unesco_world_heritage",
+      "label": "UNESCO World Heritage List",
+      "authority_model": "UNESCO cultural authority",
+      "weight": 40,
+      "historical_floor": "global"
+    },
+    "nobel_related": {
+      "tag": "nobel_related",
+      "label": "Nobel Prize related",
+      "authority_model": "Nobel archive indirect cultural/scientific relevance",
+      "weight": 24,
+      "historical_floor": "high"
+    },
+    "pulitzer": {
+      "tag": "pulitzer_prize",
+      "label": "Pulitzer Prize photography or journalism",
+      "authority_model": "Pulitzer archive prize authority",
+      "weight": 32,
+      "historical_floor": "high"
+    },
+    "wildlife_photographer": {
+      "tag": "wildlife_photographer_of_the_year",
+      "label": "Wildlife Photographer of the Year",
+      "authority_model": "Wildlife conservation and natural history editorial recognition",
+      "weight": 28,
+      "historical_floor": "moderate"
+    },
+    "national_geographic": {
+      "tag": "national_geographic_award",
+      "label": "National Geographic Awards",
+      "authority_model": "National Geographic editorial selection",
+      "weight": 26,
+      "historical_floor": "moderate"
+    },
+    "smithsonian_featured": {
+      "tag": "smithsonian_featured_collection",
+      "label": "Smithsonian featured collection",
+      "authority_model": "Smithsonian curation logic",
+      "weight": 24,
+      "historical_floor": "moderate"
+    },
+    "major_photography_award": {
+      "tag": "major_photography_award",
+      "label": "Major photography award",
+      "authority_model": "Recognized photography prize archive",
+      "weight": 22,
+      "historical_floor": "moderate"
+    }
+  }
+}

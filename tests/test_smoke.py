@@ -69,3 +69,11 @@ def test_wise_metadata_imports() -> None:
 
     assert Base.metadata is not None
     assert {EntityAssertionProposal, NormalizedRecord, SchemaMapping}
+
+
+@pytest.mark.smoke
+def test_wise_recognition_intelligence_imports() -> None:
+    from wise_recognition_intelligence import calculate_recognition_score, evaluate_asset
+
+    assert callable(calculate_recognition_score)
+    assert callable(evaluate_asset)
