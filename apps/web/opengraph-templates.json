@@ -1,0 +1,29 @@
+{
+  "site_name": "Nature & Culture",
+  "type": "website",
+  "locale": "en_US",
+  "image": {
+    "url": "https://nature-and-culture.example/og/public-beta.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "Nature & Culture public beta showcase of heritage, nature, and culture."
+  },
+  "templates": {
+    "home": {
+      "og:title": "Nature & Culture Public Beta",
+      "og:description": "Permanent digital memory of humanity's heritage, nature, and culture."
+    },
+    "collections": {
+      "og:title": "Top 25 Showcase Collections",
+      "og:description": "Globally balanced public beta collections for heritage, nature, art, history, and culture."
+    },
+    "series": {
+      "og:title": "Top 25 Showcase Series",
+      "og:description": "Educational narratives connecting collections and assets."
+    },
+    "shop": {
+      "og:title": "Top 25 Showcase Products",
+      "og:description": "Read-only product validation for posters, framed prints, canvas prints, puzzles, calendars, and books."
+    }
+  }
+}

@@ -1,0 +1,226 @@
+:root {
+  color-scheme: light dark;
+  --bg: #f7f5f0;
+  --panel: #fffaf0;
+  --text: #1a1a1a;
+  --muted: #4f4a43;
+  --accent: #21482f;
+  --accent-contrast: #ffffff;
+  --border: #c8c2b8;
+  --gold: #9b6b27;
+  --focus: #005fcc;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --panel: #1d1a16;
+    --text: #f0f0f0;
+    --muted: #c6c0b8;
+    --accent: #7fb28a;
+    --accent-contrast: #08100a;
+    --border: #3a3a3a;
+    --gold: #d6a95a;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: var(--accent);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 10;
+  padding: 0.5rem 1rem;
+  background: var(--focus);
+  color: #fff;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
+.site-header,
+main,
+.site-footer {
+  max-width: 76rem;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+}
+
+.site-header {
+  display: grid;
+  gap: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.brand {
+  font-size: 1.25rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+nav a,
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.5rem;
+  padding: 0.55rem 0.9rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--accent);
+  font: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button.primary {
+  background: var(--accent);
+  color: var(--accent-contrast);
+}
+
+.hero,
+.panel,
+.card {
+  border: 1px solid var(--border);
+  border-radius: 0.85rem;
+  background: var(--panel);
+  box-shadow: 0 0.75rem 2rem color-mix(in srgb, var(--text) 8%, transparent);
+}
+
+.hero {
+  padding: clamp(1.25rem, 4vw, 3rem);
+  background:
+    radial-gradient(circle at 85% 15%, color-mix(in srgb, var(--gold) 28%, transparent), transparent 24rem),
+    var(--panel);
+}
+
+.hero h1 {
+  max-width: 58rem;
+  margin: 0;
+  font-size: clamp(2rem, 6vw, 4.6rem);
+  line-height: 1.05;
+}
+
+.subtitle,
+.muted {
+  color: var(--muted);
+}
+
+.eyebrow {
+  margin: 0 0 0.35rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.card,
+.panel {
+  padding: 1rem;
+}
+
+.card h2,
+.card h3 {
+  margin-top: 0;
+}
+
+.metric {
+  display: inline-flex;
+  margin: 0.25rem 0.35rem 0.25rem 0;
+  padding: 0.2rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.search-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.search-form input {
+  min-width: min(100%, 20rem);
+  min-height: 2.5rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--text);
+  font: inherit;
+}
+
+.analytics-list {
+  display: grid;
+  gap: 0.5rem;
+  padding-left: 1.25rem;
+}
+
+.analytics-row {
+  display: grid;
+  gap: 0.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.site-footer {
+  margin-top: 2rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+@media (min-width: 48rem) {
+  .site-header {
+    grid-template-columns: auto 1fr;
+    align-items: center;
+  }
+
+  nav {
+    justify-content: flex-end;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

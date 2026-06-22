@@ -271,6 +271,99 @@ def test_rc10_top_50_products_dataset():
 
 
 @pytest.mark.e2e
+def test_rc11_showcase_datasets():
+    collections = json.loads(Path("data/portfolio/top_25_showcase_collections.json").read_text(encoding="utf-8"))
+    series = json.loads(Path("data/portfolio/top_25_showcase_series.json").read_text(encoding="utf-8"))
+    products = json.loads(Path("data/portfolio/top_25_showcase_products.json").read_text(encoding="utf-8"))
+    collection_ids = {collection["collection_id"] for collection in collections}
+    product_categories = {product["category"] for product in products}
+
+    assert len(collections) == 25
+    assert len(series) == 25
+    assert len(products) == 25
+    assert len({collection["geography_region"] for collection in collections}) >= 6
+    for collection in collections:
+        assert collection["visual_appeal_score"] >= 0
+        assert collection["educational_value_score"] >= 0
+        assert collection["global_representation_role"]
+        assert collection["product_potential_score"] >= 0
+    for item in series:
+        assert item["collections"]
+        assert any(collection_id in collection_ids for collection_id in item["collections"])
+        assert item["educational_narrative"]
+    for category in [
+        "Posters",
+        "Framed Prints",
+        "Canvas Prints",
+        "Puzzles",
+        "Calendars",
+        "Coffee Table Books",
+    ]:
+        assert category in product_categories
+
+
+@pytest.mark.e2e
+def test_rc11_apps_web_routes_and_analytics_files():
+    web_root = Path("apps/web")
+    for route_file in [
+        "index.html",
+        "collections/index.html",
+        "series/index.html",
+        "species/index.html",
+        "places/index.html",
+        "shop/index.html",
+        "education/index.html",
+        "research/index.html",
+        "admin/analytics/index.html",
+    ]:
+        path = web_root / route_file
+        assert path.is_file()
+        text = path.read_text(encoding="utf-8")
+        assert "Nature & Culture" in text
+        assert "/static/analytics.js" in text
+        assert "/static/app.js" in text
+
+    analytics = (web_root / "static/analytics.js").read_text(encoding="utf-8")
+    for event_name in [
+        "page_view",
+        "collection_view",
+        "series_view",
+        "product_view",
+        "wishlist",
+        "buy_intent",
+        "outbound_click",
+        "search",
+        "session_duration",
+    ]:
+        assert event_name in analytics
+
+
+@pytest.mark.e2e
+def test_rc11_seo_artifacts():
+    web_root = Path("apps/web")
+    sitemap = (web_root / "sitemap.xml").read_text(encoding="utf-8")
+    robots = (web_root / "robots.txt").read_text(encoding="utf-8")
+    metadata = json.loads((web_root / "metadata-templates.json").read_text(encoding="utf-8"))
+    opengraph = json.loads((web_root / "opengraph-templates.json").read_text(encoding="utf-8"))
+
+    for route in [
+        "/",
+        "/collections",
+        "/series",
+        "/species",
+        "/places",
+        "/shop",
+        "/education",
+        "/research",
+        "/admin/analytics",
+    ]:
+        assert route in sitemap
+    assert "Sitemap:" in robots
+    assert metadata["site_name"] == "Nature & Culture"
+    assert opengraph["site_name"] == "Nature & Culture"
+
+
+@pytest.mark.e2e
 @pytest.mark.parametrize("product_slug", PRODUCT_SLUGS)
 def test_commercial_product_pages_served(product_slug: str):
     client = TestClient(app)

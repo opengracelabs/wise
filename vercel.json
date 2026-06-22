@@ -5,11 +5,63 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/apps/demonstration-surface/index.html"
+      "destination": "/apps/web/index.html"
+    },
+    {
+      "source": "/collections",
+      "destination": "/apps/web/collections/index.html"
+    },
+    {
+      "source": "/series",
+      "destination": "/apps/web/series/index.html"
+    },
+    {
+      "source": "/species",
+      "destination": "/apps/web/species/index.html"
+    },
+    {
+      "source": "/places",
+      "destination": "/apps/web/places/index.html"
     },
     {
       "source": "/shop",
-      "destination": "/apps/demonstration-surface/shop/index.html"
+      "destination": "/apps/web/shop/index.html"
+    },
+    {
+      "source": "/education",
+      "destination": "/apps/web/education/index.html"
+    },
+    {
+      "source": "/research",
+      "destination": "/apps/web/research/index.html"
+    },
+    {
+      "source": "/admin/analytics",
+      "destination": "/apps/web/admin/analytics/index.html"
+    },
+    {
+      "source": "/robots.txt",
+      "destination": "/apps/web/robots.txt"
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/apps/web/sitemap.xml"
+    },
+    {
+      "source": "/metadata-templates.json",
+      "destination": "/apps/web/metadata-templates.json"
+    },
+    {
+      "source": "/opengraph-templates.json",
+      "destination": "/apps/web/opengraph-templates.json"
+    },
+    {
+      "source": "/data/:path*",
+      "destination": "/apps/web/data/:path*"
+    },
+    {
+      "source": "/static/:path*",
+      "destination": "/apps/web/static/:path*"
     },
     {
       "source": "/shop/maps",
@@ -30,10 +82,6 @@
     {
       "source": "/admin/commercial",
       "destination": "/apps/demonstration-surface/admin/commercial/index.html"
-    },
-    {
-      "source": "/static/:path*",
-      "destination": "/apps/demonstration-surface/:path*"
     }
   ]
 }
