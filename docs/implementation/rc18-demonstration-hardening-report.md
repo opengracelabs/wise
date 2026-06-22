@@ -205,6 +205,20 @@ node --check apps/web/static/app.js
 python3 -m json.tool apps/web/lighthouse.config.json >/dev/null
 ```
 
+Results:
+
+- Focused test suite: **45 passed**.
+- `apps/web/vercel.json`: JSON parse passed.
+- repository-root `vercel.json`: JSON parse passed.
+- `apps/web/lighthouse.config.json`: JSON parse passed.
+- `apps/web/metadata-templates.json`: JSON parse passed.
+- `apps/web/opengraph-templates.json`: JSON parse passed.
+- `apps/web/static/analytics.js`: syntax check passed.
+- `apps/web/static/app.js`: syntax check passed.
+- `apps/demonstration-surface/commercial.js`: syntax check passed.
+- `apps/web/sitemap.xml`: XML parse passed.
+- Payment/checkout/customer-data search found only guardrail language and unrelated Big Cats prose; no implementation was added.
+
 ---
 
 ## 12. Remaining actions
