@@ -1,0 +1,27 @@
+# Big Cats of the World — Ebook Outline
+
+*Status: draft for review (RC14). Not yet published.*
+
+## Premise
+
+A richly illustrated tour of the world's great cats — their biology, their place in human culture, and the fight to keep them wild. Built from the Nature & Culture portfolio with verified sources and open rights.
+
+## Audience
+
+General readers, wildlife enthusiasts, families and educators (reading age 12+).
+
+## Format
+
+- ~80-120 pages, EPUB + PDF
+- ~60 plates (licensed/CC wildlife photography)
+- Sidebars: range maps, status, fast facts
+
+## Structure
+
+1. Introduction — The Perfect Predator
+2-7. One chapter per cat (lion, tiger, leopard, snow leopard, jaguar, cheetah)
+8. Big Cats in Human Culture
+9. On the Edge: Conservation
+10. How to Help · Sources · Credits
+
+> **Rights & attribution (draft gate).** Public-domain artworks, maps and manuscripts (museum open-access, Library of Congress, Europeana, Public Domain Review) are reproduction-ready. Heritage sites, landscapes and species require own/commissioned or CC-licensed photography before publication or sale. No item ships until it passes discovery -> preservation -> metadata -> rights/quality and carries machine-readable rights. Per ADR-010, products are derived goods and never gate canonical public memory.
