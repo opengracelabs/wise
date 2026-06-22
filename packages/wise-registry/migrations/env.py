@@ -79,7 +79,7 @@ def run_migrations_online() -> None:
         poolclass=pool.NullPool,
     )
 
-    with connectable.connect() as connection:
+    with connectable.begin() as connection:
         _ensure_version_table_width(connection)
         context.configure(
             connection=connection,
@@ -88,8 +88,7 @@ def run_migrations_online() -> None:
             version_table="alembic_version_registry",
         )
 
-        with context.begin_transaction():
-            context.run_migrations()
+        context.run_migrations()
 
 
 if context.is_offline_mode():
