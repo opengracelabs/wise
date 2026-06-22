@@ -26,6 +26,7 @@ class Source(Base, UUIDPrimaryKeyMixin, AuditMixin):
     __tablename__ = "sources"
     __table_args__ = (
         UniqueConstraint("canonical_name", name="uq_sources_canonical_name"),
+        UniqueConstraint("stable_id", name="uq_sources_stable_id"),
         {"schema": "registry"},
     )
 
@@ -33,6 +34,11 @@ class Source(Base, UUIDPrimaryKeyMixin, AuditMixin):
         String(128),
         nullable=False,
         comment="Stable institutional identifier (e.g. unesco, wikidata)",
+    )
+    stable_id: Mapped[str] = mapped_column(
+        String(128),
+        nullable=False,
+        comment="Pipeline source_registry_ref alias (e.g. unesco-whc, ramsar)",
     )
     display_name: Mapped[str] = mapped_column(String(255), nullable=False)
     source_type_id: Mapped[uuid.UUID] = mapped_column(

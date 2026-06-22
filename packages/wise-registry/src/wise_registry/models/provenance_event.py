@@ -50,7 +50,7 @@ class ProvenanceEvent(Base, UUIDPrimaryKeyMixin, AuditMixin):
     evidence_uris: Mapped[list[str]] = mapped_column(
         JSONB,
         nullable=False,
-        server_default="[]",
+        server_default=text("'[]'::jsonb"),
     )
     notes: Mapped[str | None] = mapped_column(Text, nullable=True)
     previous_event_id: Mapped[uuid.UUID | None] = mapped_column(

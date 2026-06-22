@@ -1,6 +1,6 @@
 # wise-registry
 
-Source Registry v1 — PostgreSQL schema, SQLAlchemy models, and Pydantic schemas for institutional source authority.
+Source Registry v1.1 — PostgreSQL schema, SQLAlchemy models, and Pydantic schemas for institutional source authority.
 
 Aligns with [09-source-discovery-agent.md](../../docs/architecture/canonical/09-source-discovery-agent.md) and [07-reference-standards.md](../../docs/architecture/canonical/07-reference-standards.md) (RightsStatements.org, Creative Commons).
 
@@ -15,6 +15,16 @@ Aligns with [09-source-discovery-agent.md](../../docs/architecture/canonical/09-
 | `ProvenanceEvent` | PREMIS-aligned audit trail for registry changes |
 
 All tables include provenance and audit fields: `created_at`, `updated_at`, `created_by`, `updated_by`, `row_version`.
+
+## v1.1 changes
+
+| Change | Detail |
+|--------|--------|
+| `evidence_uris` | JSONB array replacing single `evidence_uri`; supports multiple supporting evidence sources |
+| `previous_event_id` | Optional self-referential FK linking events into a per-source provenance chain |
+| Chain validation | `wise_registry.provenance.validate_chain()` and `validate_event_link()` enforce same-source links and detect cycles |
+
+Migration `005_registry_v1_1_provenance_hardening` backfills existing `evidence_uri` values into single-element `evidence_uris` arrays. Downgrade restores `evidence_uri` from the first array element.
 
 ## Migrations
 

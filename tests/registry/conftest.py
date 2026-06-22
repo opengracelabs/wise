@@ -56,6 +56,7 @@ def migrated_registry(alembic_config: Config, registry_database_url: str):
     """Apply all Source Registry migrations (schema + seed data)."""
     engine = create_engine(registry_database_url, pool_pre_ping=True)
     with engine.connect() as conn:
+        conn.execute(text("DROP SCHEMA IF EXISTS orchestration CASCADE"))
         conn.execute(text("DROP SCHEMA IF EXISTS registry CASCADE"))
         conn.commit()
     engine.dispose()

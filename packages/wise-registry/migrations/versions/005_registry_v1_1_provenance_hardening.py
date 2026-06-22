@@ -1,7 +1,7 @@
 """Source Registry v1.1 — provenance chain hardening.
 
 Revision ID: 005_registry_v1_1_provenance_hardening
-Revises: 004_seed_eol_source, 004_seed_agents_capabilities
+Revises: 004_seed_eol_source, 004_seed_agents_capabilities, 003_rc3_conservation_sources
 Create Date: 2026-06-22
 
 Changes:
@@ -21,6 +21,7 @@ revision: str = "005_registry_v1_1_provenance_hardening"
 down_revision: Union[str, tuple[str, ...], None] = (
     "004_seed_eol_source",
     "004_seed_agents_capabilities",
+    "003_rc3_conservation_sources",
 )
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None

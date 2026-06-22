@@ -3,11 +3,13 @@
 from __future__ import annotations
 
 import pytest
+from alembic import command
 from sqlalchemy import func, select, text
 from sqlalchemy.orm import Session
 
 from wise_registry.enums import ProvenanceEventType, TrustLevel
 from wise_registry.models import License, ProvenanceEvent, RightsStatus, Source, SourceType
+from wise_registry.provenance import ProvenanceChainError, validate_chain, validate_event_link
 
 SEED_CANONICAL_NAMES = (
     "unesco",
@@ -126,6 +128,146 @@ def test_seed_provenance_events(db_session: Session):
         event = events[0]
         assert event.created_by == SEED_ACTOR
         assert event.actor == SEED_ACTOR
-        assert event.evidence_uri is not None
-        assert event.evidence_uri.startswith("https://")
+        assert event.evidence_uris
+        assert event.evidence_uris[0].startswith("https://")
         assert event.notes is not None
+        assert event.previous_event_id is None
+
+
+@pytest.mark.integration
+def test_v1_1_migration_columns_exist(db_session: Session):
+    result = db_session.execute(
+        text(
+            """
+            SELECT column_name
+            FROM information_schema.columns
+            WHERE table_schema = 'registry'
+              AND table_name = 'provenance_events'
+            """
+        )
+    )
+    columns = {row[0] for row in result}
+    assert "evidence_uris" in columns
+    assert "previous_event_id" in columns
+    assert "evidence_uri" not in columns
+
+
+@pytest.mark.integration
+def test_v1_1_migration_upgrade_downgrade(alembic_config, registry_database_url: str):
+    from sqlalchemy import create_engine
+
+    engine = create_engine(registry_database_url, pool_pre_ping=True)
+    with Session(engine) as session:
+        sample = session.execute(
+            text(
+                """
+                SELECT evidence_uris->>0 AS first_uri
+                FROM registry.provenance_events
+                WHERE jsonb_array_length(evidence_uris) > 0
+                LIMIT 1
+                """
+            )
+        ).first()
+        assert sample is not None
+        first_uri = sample[0]
+
+    command.downgrade(alembic_config, "-1")
+
+    with Session(engine) as session:
+        columns = {
+            row[0]
+            for row in session.execute(
+                text(
+                    """
+                    SELECT column_name
+                    FROM information_schema.columns
+                    WHERE table_schema = 'registry'
+                      AND table_name = 'provenance_events'
+                      AND column_name IN ('evidence_uris', 'evidence_uri')
+                    """
+                )
+            )
+        }
+        assert "evidence_uri" in columns
+        assert "evidence_uris" not in columns
+
+        restored = session.execute(
+            text(
+                """
+                SELECT evidence_uri
+                FROM registry.provenance_events
+                WHERE evidence_uri IS NOT NULL
+                LIMIT 1
+                """
+            )
+        ).first()
+        assert restored is not None
+        assert restored[0] == first_uri
+
+    command.upgrade(alembic_config, "head")
+    engine.dispose()
+
+
+@pytest.mark.integration
+def test_provenance_chain_linking(db_session: Session):
+    source = db_session.scalar(select(Source).where(Source.canonical_name == "unesco"))
+    assert source is not None
+
+    register_event = db_session.scalar(
+        select(ProvenanceEvent).where(
+            ProvenanceEvent.source_id == source.id,
+            ProvenanceEvent.event_type == ProvenanceEventType.REGISTER,
+        )
+    )
+    assert register_event is not None
+
+    update_event = ProvenanceEvent(
+        source_id=source.id,
+        event_type=ProvenanceEventType.UPDATE,
+        actor="test",
+        evidence_uris=["https://whc.unesco.org/updated"],
+        notes="Metadata refresh",
+        previous_event_id=register_event.id,
+        created_by="test",
+        updated_by="test",
+    )
+    validate_event_link(
+        source.id,
+        None,
+        register_event.id,
+        register_event,
+    )
+    db_session.add(update_event)
+    db_session.flush()
+
+    chain = db_session.scalars(
+        select(ProvenanceEvent)
+        .where(ProvenanceEvent.source_id == source.id)
+        .order_by(ProvenanceEvent.event_timestamp)
+    ).all()
+    validate_chain(chain)
+    assert update_event.previous_event_id == register_event.id
+    assert update_event.previous_event.id == register_event.id
+
+
+@pytest.mark.integration
+def test_provenance_chain_rejects_cross_source_link(db_session: Session):
+    unesco = db_session.scalar(select(Source).where(Source.canonical_name == "unesco"))
+    wikidata = db_session.scalar(select(Source).where(Source.canonical_name == "wikidata"))
+    assert unesco is not None and wikidata is not None
+
+    register_event = db_session.scalar(
+        select(ProvenanceEvent).where(
+            ProvenanceEvent.source_id == unesco.id,
+            ProvenanceEvent.event_type == ProvenanceEventType.REGISTER,
+        )
+    )
+    assert register_event is not None
+
+    with pytest.raises(ProvenanceChainError, match="same source_id"):
+        validate_event_link(
+            wikidata.id,
+            None,
+            register_event.id,
+            register_event,
+        )
