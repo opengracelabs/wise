@@ -7,10 +7,14 @@ from collections import Counter
 from pathlib import Path
 
 from wise_portfolio_intelligence import (
+    PORTFOLIO_OUTPUT_FILES,
     NARRATIVE_CATEGORIES,
     REFERENCE_ASSETS,
     PortfolioAssetInput,
+    build_metrics_from_package,
+    build_portfolio_metrics,
     build_reference_portfolios,
+    load_portfolio_outputs,
     portfolio_optimizer,
     serialize_portfolios,
 )
@@ -75,3 +79,54 @@ def test_committed_portfolio_artifacts_match_reference_builder() -> None:
     for output_file, expected in generated.items():
         committed = json.loads((package_root / output_file).read_text(encoding="utf-8"))
         assert committed == expected
+
+
+def test_portfolio_metrics_generated_from_existing_outputs() -> None:
+    package_root = Path(__file__).parents[2] / "packages" / "wise-portfolio-intelligence"
+    committed_metrics = json.loads((package_root / "portfolio_metrics.json").read_text(encoding="utf-8"))
+    generated_metrics = build_metrics_from_package(package_root)
+
+    assert set(generated_metrics["source_portfolios"]) == set(PORTFOLIO_OUTPUT_FILES)
+    assert committed_metrics == generated_metrics
+    assert generated_metrics["aggregate_metrics"]["diversity_score"] == 91.67
+    assert generated_metrics["aggregate_metrics"]["geographic_balance_score"] == 66.67
+    assert generated_metrics["aggregate_metrics"]["domain_balance_score"] == 100.0
+    assert generated_metrics["aggregate_metrics"]["asset_type_balance_score"] == 100.0
+    assert generated_metrics["aggregate_metrics"]["narrative_balance_score"] == 100.0
+    assert generated_metrics["aggregate_metrics"]["concentration_risk_score"] == 20.0
+    assert {region["name"] for region in generated_metrics["representation"]["underrepresented_regions"]} == {
+        "Africa",
+        "Arctic",
+    }
+
+
+def test_governance_metrics_detect_concentration_and_imbalance() -> None:
+    package_root = Path(__file__).parents[2] / "packages" / "wise-portfolio-intelligence"
+    portfolios = load_portfolio_outputs(package_root)
+    homepage = portfolios["homepage_portfolio.json"]
+    repeated_asset = homepage["assets"][0]
+    imbalanced_portfolio = {
+        **homepage,
+        "assets": [
+            {
+                **repeated_asset,
+                "geography": "Europe",
+                "domain": "Heritage",
+                "category": "Heritage",
+                "asset_type": "megalithic_site",
+            }
+            for index in range(5)
+        ],
+    }
+
+    metrics = build_portfolio_metrics({"homepage_portfolio.json": imbalanced_portfolio})
+
+    assert metrics["aggregate_metrics"]["diversity_score"] < 100.0
+    assert metrics["aggregate_metrics"]["geographic_balance_score"] < 100.0
+    assert metrics["aggregate_metrics"]["domain_balance_score"] < 100.0
+    assert metrics["aggregate_metrics"]["narrative_balance_score"] < 100.0
+    assert metrics["aggregate_metrics"]["concentration_risk_score"] == 100.0
+    assert {region["name"] for region in metrics["representation"]["underrepresented_regions"]} >= {
+        "Africa",
+        "Arctic",
+    }

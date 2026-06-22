@@ -9,6 +9,14 @@ from wise_portfolio_intelligence.models import (
     PortfolioSelection,
     PortfolioSpec,
 )
+from wise_portfolio_intelligence.metrics import (
+    EXPECTED_GEOGRAPHIES,
+    METRIC_VERSION,
+    PORTFOLIO_OUTPUT_FILES,
+    build_metrics_from_package,
+    build_portfolio_metrics,
+    load_portfolio_outputs,
+)
 from wise_portfolio_intelligence.optimizer import (
     DEFAULT_DIVERSITY_CONSTRAINTS,
     DEFAULT_PORTFOLIO_SPECS,
@@ -27,7 +35,10 @@ __version__ = "0.1.0"
 __all__ = [
     "DEFAULT_DIVERSITY_CONSTRAINTS",
     "DEFAULT_PORTFOLIO_SPECS",
+    "EXPECTED_GEOGRAPHIES",
+    "METRIC_VERSION",
     "NARRATIVE_CATEGORIES",
+    "PORTFOLIO_OUTPUT_FILES",
     "REFERENCE_ASSETS",
     "CommercialTier",
     "PortfolioAssetInput",
@@ -35,7 +46,10 @@ __all__ = [
     "PortfolioOutput",
     "PortfolioSelection",
     "PortfolioSpec",
+    "build_metrics_from_package",
+    "build_portfolio_metrics",
     "build_reference_portfolios",
+    "load_portfolio_outputs",
     "portfolio_optimizer",
     "selection_band",
     "serialize_portfolios",
