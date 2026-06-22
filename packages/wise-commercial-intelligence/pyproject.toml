@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wise-commercial-intelligence"
+version = "0.1.0"
+description = "Commercial desirability scoring for WISE assets (architecture-v1.0 frozen)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/wise_commercial_intelligence"]
+
+[tool.pytest.ini_options]
+testpaths = ["../../tests/commercial"]

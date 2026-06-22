@@ -77,3 +77,11 @@ def test_wise_recognition_intelligence_imports() -> None:
 
     assert callable(calculate_recognition_score)
     assert callable(evaluate_asset)
+
+
+@pytest.mark.smoke
+def test_wise_commercial_intelligence_imports() -> None:
+    from wise_commercial_intelligence import calculate_commercial_score, rank_assets
+
+    assert callable(calculate_commercial_score)
+    assert callable(rank_assets)
