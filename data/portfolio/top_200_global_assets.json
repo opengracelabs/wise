@@ -1,0 +1,4665 @@
+[
+  {
+    "rank": 1,
+    "title": "Machu Picchu",
+    "category": "UNESCO World Heritage",
+    "country": "Peru",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.99,
+    "demand_score": 0.96,
+    "commercial_score": 0.94,
+    "portfolio_score": 0.98,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "Latin America and Caribbean",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 2,
+    "title": "Great Pyramid of Giza",
+    "category": "UNESCO World Heritage",
+    "country": "Egypt",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.99,
+    "demand_score": 0.95,
+    "commercial_score": 0.94,
+    "portfolio_score": 0.97,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Africa",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 3,
+    "title": "The Great Wall",
+    "category": "UNESCO World Heritage",
+    "country": "China",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.99,
+    "demand_score": 0.94,
+    "commercial_score": 0.93,
+    "portfolio_score": 0.97,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "East and Southeast Asia",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 4,
+    "title": "Taj Mahal",
+    "category": "UNESCO World Heritage",
+    "country": "India",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.99,
+    "demand_score": 0.94,
+    "commercial_score": 0.93,
+    "portfolio_score": 0.96,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ],
+    "region": "South Asia",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 5,
+    "title": "Stonehenge",
+    "category": "UNESCO World Heritage",
+    "country": "United Kingdom",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.97,
+    "demand_score": 0.91,
+    "commercial_score": 0.92,
+    "portfolio_score": 0.95,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 6,
+    "title": "Angkor Wat",
+    "category": "UNESCO World Heritage",
+    "country": "Cambodia",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.98,
+    "demand_score": 0.9,
+    "commercial_score": 0.91,
+    "portfolio_score": 0.94,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Coffee Table Books",
+      "Calendars"
+    ],
+    "region": "East and Southeast Asia",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 7,
+    "title": "Petra",
+    "category": "UNESCO World Heritage",
+    "country": "Jordan",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.97,
+    "demand_score": 0.9,
+    "commercial_score": 0.91,
+    "portfolio_score": 0.94,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Coffee Table Books"
+    ],
+    "region": "West Asia",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 8,
+    "title": "Acropolis of Athens",
+    "category": "UNESCO World Heritage",
+    "country": "Greece",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.97,
+    "demand_score": 0.89,
+    "commercial_score": 0.9,
+    "portfolio_score": 0.93,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 9,
+    "title": "Historic Centre of Rome",
+    "category": "UNESCO World Heritage",
+    "country": "Italy",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.98,
+    "demand_score": 0.92,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.93,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 10,
+    "title": "Chichen Itza",
+    "category": "UNESCO World Heritage",
+    "country": "Mexico",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.96,
+    "demand_score": 0.89,
+    "commercial_score": 0.9,
+    "portfolio_score": 0.93,
+    "recommended_products": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Latin America and Caribbean",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 11,
+    "title": "Serengeti National Park",
+    "category": "UNESCO World Heritage",
+    "country": "Tanzania",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.96,
+    "demand_score": 0.91,
+    "commercial_score": 0.9,
+    "portfolio_score": 0.93,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "Africa",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 12,
+    "title": "Great Barrier Reef",
+    "category": "UNESCO World Heritage",
+    "country": "Australia",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.97,
+    "demand_score": 0.9,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.92,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Oceania and Polar",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 13,
+    "title": "Galapagos Islands",
+    "category": "UNESCO World Heritage",
+    "country": "Ecuador",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.96,
+    "demand_score": 0.89,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.92,
+    "recommended_products": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Latin America and Caribbean",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 14,
+    "title": "Yellowstone National Park",
+    "category": "UNESCO World Heritage",
+    "country": "United States",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.96,
+    "demand_score": 0.9,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.92,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 15,
+    "title": "Venice and its Lagoon",
+    "category": "UNESCO World Heritage",
+    "country": "Italy",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.97,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.92,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 16,
+    "title": "Mont-Saint-Michel and its Bay",
+    "category": "UNESCO World Heritage",
+    "country": "France",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.95,
+    "demand_score": 0.88,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.91,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 17,
+    "title": "Kyoto Historic Monuments",
+    "category": "UNESCO World Heritage",
+    "country": "Japan",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.95,
+    "demand_score": 0.89,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.91,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "East and Southeast Asia",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 18,
+    "title": "Forbidden City",
+    "category": "UNESCO World Heritage",
+    "country": "China",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.96,
+    "demand_score": 0.88,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.91,
+    "recommended_products": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "East and Southeast Asia",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 19,
+    "title": "Alhambra, Generalife and Albayzin",
+    "category": "UNESCO World Heritage",
+    "country": "Spain",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.95,
+    "demand_score": 0.87,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 20,
+    "title": "Rapa Nui National Park",
+    "category": "UNESCO World Heritage",
+    "country": "Chile",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.95,
+    "demand_score": 0.87,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Latin America and Caribbean",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 21,
+    "title": "Bagan",
+    "category": "UNESCO World Heritage",
+    "country": "Myanmar",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.93,
+    "demand_score": 0.86,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.89,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "East and Southeast Asia",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 22,
+    "title": "Uluru-Kata Tjuta National Park",
+    "category": "UNESCO World Heritage",
+    "country": "Australia",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.94,
+    "demand_score": 0.86,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.89,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Oceania and Polar",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 23,
+    "title": "Grand Canyon National Park",
+    "category": "UNESCO World Heritage",
+    "country": "United States",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.96,
+    "demand_score": 0.9,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.89,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 24,
+    "title": "Iguazu National Park",
+    "category": "UNESCO World Heritage",
+    "country": "Argentina",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.93,
+    "demand_score": 0.86,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "Latin America and Caribbean",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 25,
+    "title": "Kilimanjaro National Park",
+    "category": "UNESCO World Heritage",
+    "country": "Tanzania",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.94,
+    "demand_score": 0.86,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Africa",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 26,
+    "title": "Ngorongoro Conservation Area",
+    "category": "UNESCO World Heritage",
+    "country": "Tanzania",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.93,
+    "demand_score": 0.85,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "Africa",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 27,
+    "title": "Komodo National Park",
+    "category": "UNESCO World Heritage",
+    "country": "Indonesia",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.93,
+    "demand_score": 0.86,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets",
+      "Coffee Table Books"
+    ],
+    "region": "East and Southeast Asia",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 28,
+    "title": "Ha Long Bay",
+    "category": "UNESCO World Heritage",
+    "country": "Vietnam",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.93,
+    "demand_score": 0.86,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ],
+    "region": "East and Southeast Asia",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 29,
+    "title": "Cinque Terre",
+    "category": "UNESCO World Heritage",
+    "country": "Italy",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.92,
+    "demand_score": 0.88,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 30,
+    "title": "Old Havana",
+    "category": "UNESCO World Heritage",
+    "country": "Cuba",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.92,
+    "demand_score": 0.85,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars",
+      "Historic Maps"
+    ],
+    "region": "Latin America and Caribbean",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 31,
+    "title": "African Lion",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.98,
+    "demand_score": 0.94,
+    "commercial_score": 0.93,
+    "portfolio_score": 0.96,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Multiple",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 32,
+    "title": "Tiger",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.98,
+    "demand_score": 0.93,
+    "commercial_score": 0.92,
+    "portfolio_score": 0.95,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Multiple",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 33,
+    "title": "African Elephant",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.98,
+    "demand_score": 0.92,
+    "commercial_score": 0.91,
+    "portfolio_score": 0.95,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Multiple",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 34,
+    "title": "Giant Panda",
+    "category": "GBIF Flagship Species",
+    "country": "China",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.97,
+    "demand_score": 0.93,
+    "commercial_score": 0.91,
+    "portfolio_score": 0.94,
+    "recommended_products": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets",
+      "Coffee Table Books"
+    ],
+    "region": "East and Southeast Asia",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 35,
+    "title": "Polar Bear",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.97,
+    "demand_score": 0.92,
+    "commercial_score": 0.9,
+    "portfolio_score": 0.94,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Multiple",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 36,
+    "title": "Snow Leopard",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.94,
+    "demand_score": 0.91,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.93,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Multiple",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 37,
+    "title": "Jaguar",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.94,
+    "demand_score": 0.89,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.92,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Multiple",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 38,
+    "title": "Cheetah",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.95,
+    "demand_score": 0.89,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.92,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Multiple",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 39,
+    "title": "Mountain Gorilla",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.94,
+    "demand_score": 0.88,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.91,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Multiple",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 40,
+    "title": "Orangutan",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.94,
+    "demand_score": 0.88,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.91,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Multiple",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 41,
+    "title": "Blue Whale",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.96,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Multiple",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 42,
+    "title": "Humpback Whale",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.95,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Multiple",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 43,
+    "title": "Emperor Penguin",
+    "category": "GBIF Flagship Species",
+    "country": "Antarctica",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.94,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Oceania and Polar",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 44,
+    "title": "Monarch Butterfly",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.93,
+    "demand_score": 0.87,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.89,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Multiple",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 45,
+    "title": "Green Sea Turtle",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.93,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.89,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Multiple",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 46,
+    "title": "White Rhinoceros",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.93,
+    "demand_score": 0.86,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Multiple",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 47,
+    "title": "Red Panda",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.92,
+    "demand_score": 0.88,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Multiple",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 48,
+    "title": "Bald Eagle",
+    "category": "GBIF Flagship Species",
+    "country": "United States",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.94,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 49,
+    "title": "Koala",
+    "category": "GBIF Flagship Species",
+    "country": "Australia",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.93,
+    "demand_score": 0.87,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Oceania and Polar",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 50,
+    "title": "Kingfisher",
+    "category": "Wildlife Photography Subject",
+    "country": "Multiple",
+    "source": "Award-winning wildlife photography subjects",
+    "recognition_score": 0.86,
+    "demand_score": 0.9,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ],
+    "region": "Global/Multiple",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 51,
+    "title": "Apollo 11 Command Module Columbia",
+    "category": "Smithsonian Open Access",
+    "country": "United States",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.96,
+    "demand_score": 0.9,
+    "commercial_score": 0.9,
+    "portfolio_score": 0.93,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 52,
+    "title": "The Hope Diamond",
+    "category": "Smithsonian Open Access",
+    "country": "United States",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.95,
+    "demand_score": 0.88,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.92,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 53,
+    "title": "Wright Flyer",
+    "category": "Smithsonian Open Access",
+    "country": "United States",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.95,
+    "demand_score": 0.87,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.91,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 54,
+    "title": "Star-Spangled Banner",
+    "category": "Smithsonian Open Access",
+    "country": "United States",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.95,
+    "demand_score": 0.86,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 55,
+    "title": "Dorothy's Ruby Slippers",
+    "category": "Smithsonian Open Access",
+    "country": "United States",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.94,
+    "demand_score": 0.88,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 56,
+    "title": "Abraham Lincoln Life Mask",
+    "category": "Smithsonian Open Access",
+    "country": "United States",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.91,
+    "demand_score": 0.83,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.86,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 57,
+    "title": "George Washington Lansdowne Portrait",
+    "category": "Smithsonian Open Access",
+    "country": "United States",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.92,
+    "demand_score": 0.82,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.86,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Educational Card Sets"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 58,
+    "title": "National Museum of Natural History Elephant",
+    "category": "Smithsonian Open Access",
+    "country": "United States",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.9,
+    "demand_score": 0.84,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.86,
+    "recommended_products": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 59,
+    "title": "Hubble Space Telescope Imagery",
+    "category": "Smithsonian Open Access",
+    "country": "United States",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.94,
+    "demand_score": 0.89,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.91,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 60,
+    "title": "Dinosaur Fossil Display",
+    "category": "Smithsonian Open Access",
+    "country": "United States",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.93,
+    "demand_score": 0.88,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 61,
+    "title": "The Fighting Temeraire",
+    "category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.94,
+    "demand_score": 0.86,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books",
+      "Calendars"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 62,
+    "title": "Sunflowers",
+    "category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.97,
+    "demand_score": 0.92,
+    "commercial_score": 0.91,
+    "portfolio_score": 0.94,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 63,
+    "title": "The Arnolfini Portrait",
+    "category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.95,
+    "demand_score": 0.86,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 64,
+    "title": "The Hay Wain",
+    "category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.93,
+    "demand_score": 0.85,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.89,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 65,
+    "title": "Bathers at Asnieres",
+    "category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.92,
+    "demand_score": 0.84,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 66,
+    "title": "The Water-Lily Pond",
+    "category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.94,
+    "demand_score": 0.89,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 67,
+    "title": "A Wheatfield, with Cypresses",
+    "category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.94,
+    "demand_score": 0.88,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 68,
+    "title": "The Ambassadors",
+    "category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.93,
+    "demand_score": 0.83,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Educational Card Sets"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 69,
+    "title": "Whistlejacket",
+    "category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.91,
+    "demand_score": 0.84,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Educational Card Sets"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 70,
+    "title": "Venus and Mars",
+    "category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.91,
+    "demand_score": 0.82,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.86,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 71,
+    "title": "The Night Watch",
+    "category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.97,
+    "demand_score": 0.89,
+    "commercial_score": 0.9,
+    "portfolio_score": 0.93,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Coffee Table Books"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 72,
+    "title": "The Milkmaid",
+    "category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.95,
+    "demand_score": 0.88,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.92,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 73,
+    "title": "The Threatened Swan",
+    "category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.9,
+    "demand_score": 0.83,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Educational Card Sets"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 74,
+    "title": "The Merry Family",
+    "category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.88,
+    "demand_score": 0.8,
+    "commercial_score": 0.82,
+    "portfolio_score": 0.84,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 75,
+    "title": "Self-portrait as the Apostle Paul",
+    "category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.9,
+    "demand_score": 0.82,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.85,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 76,
+    "title": "Still Life with Flowers in a Glass Vase",
+    "category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.87,
+    "demand_score": 0.83,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.85,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 77,
+    "title": "The Battle of Waterloo",
+    "category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.87,
+    "demand_score": 0.8,
+    "commercial_score": 0.81,
+    "portfolio_score": 0.84,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 78,
+    "title": "Portrait of a Woman, possibly Maria Trip",
+    "category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.86,
+    "demand_score": 0.79,
+    "commercial_score": 0.81,
+    "portfolio_score": 0.83,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 79,
+    "title": "The Little Street",
+    "category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.92,
+    "demand_score": 0.85,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 80,
+    "title": "The Jewish Bride",
+    "category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.91,
+    "demand_score": 0.84,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 81,
+    "title": "Waldseemuller World Map",
+    "category": "Public Domain Historical Map",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.96,
+    "demand_score": 0.88,
+    "commercial_score": 0.9,
+    "portfolio_score": 0.93,
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "geography"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 82,
+    "title": "Lewis and Clark Expedition Map",
+    "category": "Public Domain Historical Map",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.93,
+    "demand_score": 0.86,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Educational Card Sets"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "geography"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 83,
+    "title": "John Smith Map of Virginia",
+    "category": "Public Domain Historical Map",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.9,
+    "demand_score": 0.83,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Educational Card Sets"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "geography"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 84,
+    "title": "Sanborn Fire Insurance Maps",
+    "category": "Public Domain Historical Map",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.88,
+    "demand_score": 0.83,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Puzzles"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "geography"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 85,
+    "title": "Civil War Battlefield Maps",
+    "category": "Public Domain Historical Map",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.9,
+    "demand_score": 0.84,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Educational Card Sets"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "geography"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 86,
+    "title": "Panoramic Map of New York City",
+    "category": "Public Domain Historical Map",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.91,
+    "demand_score": 0.86,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.89,
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "geography"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 87,
+    "title": "Panoramic Map of Paris",
+    "category": "Public Domain Historical Map",
+    "country": "France",
+    "source": "Public domain historical maps",
+    "recognition_score": 0.9,
+    "demand_score": 0.85,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints"
+    ],
+    "region": "Europe",
+    "balance_tags": [
+      "geography"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 88,
+    "title": "Map of the Moon",
+    "category": "Public Domain Historical Map",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.92,
+    "demand_score": 0.87,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.89,
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Educational Card Sets"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "geography"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 89,
+    "title": "Declaration of Independence Broadside",
+    "category": "Library of Congress",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.96,
+    "demand_score": 0.85,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "education"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 90,
+    "title": "Abraham Lincoln Portrait",
+    "category": "Library of Congress",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.95,
+    "demand_score": 0.84,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.89,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "education"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 91,
+    "title": "Migrant Mother",
+    "category": "Library of Congress",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.94,
+    "demand_score": 0.86,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.89,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "education"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 92,
+    "title": "Civil War Glass Plate Portraits",
+    "category": "Library of Congress",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.9,
+    "demand_score": 0.82,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.86,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "education"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 93,
+    "title": "Votes for Women Suffrage Poster",
+    "category": "Library of Congress",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.9,
+    "demand_score": 0.84,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Educational Card Sets"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "education"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 94,
+    "title": "Jazz Age Sheet Music Covers",
+    "category": "Library of Congress",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.86,
+    "demand_score": 0.82,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.85,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "education"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 95,
+    "title": "Nebulae and Star Cluster Plates",
+    "category": "Public Domain Historical Map",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.88,
+    "demand_score": 0.86,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "North America",
+    "balance_tags": [
+      "geography"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 96,
+    "title": "Northern Lights Wildlife Scene",
+    "category": "Wildlife Photography Subject",
+    "country": "Multiple",
+    "source": "Award-winning wildlife photography subjects",
+    "recognition_score": 0.88,
+    "demand_score": 0.91,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.89,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ],
+    "region": "Global/Multiple",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 97,
+    "title": "Owl in Flight",
+    "category": "Wildlife Photography Subject",
+    "country": "Multiple",
+    "source": "Award-winning wildlife photography subjects",
+    "recognition_score": 0.86,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Multiple",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 98,
+    "title": "Fox in Snow",
+    "category": "Wildlife Photography Subject",
+    "country": "Multiple",
+    "source": "Award-winning wildlife photography subjects",
+    "recognition_score": 0.85,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ],
+    "region": "Global/Multiple",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 99,
+    "title": "Hummingbird Pollination",
+    "category": "Wildlife Photography Subject",
+    "country": "Multiple",
+    "source": "Award-winning wildlife photography subjects",
+    "recognition_score": 0.84,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Multiple",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 100,
+    "title": "Coral Reef Biodiversity",
+    "category": "Wildlife Photography Subject",
+    "country": "Multiple",
+    "source": "Award-winning wildlife photography subjects",
+    "recognition_score": 0.89,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Multiple",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 101,
+    "title": "Great Zimbabwe",
+    "category": "UNESCO World Heritage",
+    "country": "Zimbabwe",
+    "source": "UNESCO World Heritage",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.95,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 102,
+    "title": "Lalibela Rock-Hewn Churches",
+    "category": "UNESCO World Heritage",
+    "country": "Ethiopia",
+    "source": "UNESCO World Heritage",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.93,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.94,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 103,
+    "title": "Timbuktu Manuscript Heritage",
+    "category": "Manuscript Heritage",
+    "country": "Mali",
+    "source": "Manuscript Heritage",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.92,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.93,
+    "public_domain_readiness": "needs_partner_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 104,
+    "title": "Aksum Obelisks",
+    "category": "UNESCO World Heritage",
+    "country": "Ethiopia",
+    "source": "UNESCO World Heritage",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.91,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.92,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 105,
+    "title": "Rock Art of Tsodilo",
+    "category": "UNESCO World Heritage",
+    "country": "Botswana",
+    "source": "UNESCO World Heritage",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.91,
+    "public_domain_readiness": "sensitivity_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 106,
+    "title": "Okavango Delta",
+    "category": "UNESCO World Heritage",
+    "country": "Botswana",
+    "source": "UNESCO World Heritage",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.89,
+    "demand_score": 0.85,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.9,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 107,
+    "title": "Virunga National Park",
+    "category": "UNESCO World Heritage",
+    "country": "Democratic Republic of the Congo",
+    "source": "UNESCO World Heritage",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.88,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "portfolio_score": 0.89,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 108,
+    "title": "Bwindi Impenetrable Forest",
+    "category": "UNESCO World Heritage",
+    "country": "Uganda",
+    "source": "UNESCO World Heritage",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.87,
+    "demand_score": 0.83,
+    "commercial_score": 0.81,
+    "portfolio_score": 0.88,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 109,
+    "title": "Namib Sand Sea",
+    "category": "UNESCO World Heritage",
+    "country": "Namibia",
+    "source": "UNESCO World Heritage",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "geography_climate"
+    ],
+    "recognition_score": 0.86,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "portfolio_score": 0.87,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 110,
+    "title": "Lake Malawi Cichlid Biodiversity",
+    "category": "Flagship Ecosystem",
+    "country": "Malawi",
+    "source": "Flagship Ecosystem",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.85,
+    "demand_score": 0.81,
+    "commercial_score": 0.79,
+    "portfolio_score": 0.86,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 111,
+    "title": "Baobab Forests",
+    "category": "Flagship Plant/Ecosystem",
+    "country": "Multiple",
+    "source": "Flagship Plant/Ecosystem",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.95,
+    "demand_score": 0.91,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.96,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 112,
+    "title": "African Wild Dog",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF Flagship Species",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.95,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 113,
+    "title": "Shoebill",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF Flagship Species",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.93,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.94,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 114,
+    "title": "Ethiopian Wolf",
+    "category": "GBIF Flagship Species",
+    "country": "Ethiopia",
+    "source": "GBIF Flagship Species",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.92,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.93,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 115,
+    "title": "Benin Bronzes Public Domain Study Set",
+    "category": "Cultural Object Study",
+    "country": "Nigeria",
+    "source": "Cultural Object Study",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.91,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.92,
+    "public_domain_readiness": "needs_partner_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 116,
+    "title": "Yoruba Textile and Pattern Heritage",
+    "category": "Textile Heritage",
+    "country": "Nigeria",
+    "source": "Textile Heritage",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.91,
+    "public_domain_readiness": "needs_partner_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 117,
+    "title": "Swahili Coast Stone Towns",
+    "category": "UNESCO World Heritage",
+    "country": "Multiple",
+    "source": "UNESCO World Heritage",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.89,
+    "demand_score": 0.85,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.9,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 118,
+    "title": "Persepolis",
+    "category": "UNESCO World Heritage",
+    "country": "Iran",
+    "source": "UNESCO World Heritage",
+    "region": "West Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.88,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "portfolio_score": 0.89,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 119,
+    "title": "Isfahan Imam Square",
+    "category": "UNESCO World Heritage",
+    "country": "Iran",
+    "source": "UNESCO World Heritage",
+    "region": "West Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.87,
+    "demand_score": 0.83,
+    "commercial_score": 0.81,
+    "portfolio_score": 0.88,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 120,
+    "title": "G\u00f6bekli Tepe",
+    "category": "UNESCO World Heritage",
+    "country": "Turkey",
+    "source": "UNESCO World Heritage",
+    "region": "West Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.86,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "portfolio_score": 0.87,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 121,
+    "title": "Cappadocia Rock Landscapes",
+    "category": "UNESCO World Heritage",
+    "country": "Turkey",
+    "source": "UNESCO World Heritage",
+    "region": "West Asia",
+    "balance_tags": [
+      "geography_culture"
+    ],
+    "recognition_score": 0.85,
+    "demand_score": 0.81,
+    "commercial_score": 0.79,
+    "portfolio_score": 0.86,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 122,
+    "title": "Ancient City of Aleppo",
+    "category": "UNESCO World Heritage",
+    "country": "Syria",
+    "source": "UNESCO World Heritage",
+    "region": "West Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.95,
+    "demand_score": 0.91,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.96,
+    "public_domain_readiness": "sensitivity_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 123,
+    "title": "Baalbek",
+    "category": "UNESCO World Heritage",
+    "country": "Lebanon",
+    "source": "UNESCO World Heritage",
+    "region": "West Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.95,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 124,
+    "title": "Hegra Archaeological Site",
+    "category": "UNESCO World Heritage",
+    "country": "Saudi Arabia",
+    "source": "UNESCO World Heritage",
+    "region": "West Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.93,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.94,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 125,
+    "title": "Socotra Dragon Blood Tree",
+    "category": "UNESCO World Heritage",
+    "country": "Yemen",
+    "source": "UNESCO World Heritage",
+    "region": "West Asia",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.92,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.93,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 126,
+    "title": "Arabian Oryx",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF Flagship Species",
+    "region": "West Asia",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.91,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.92,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 127,
+    "title": "Piri Reis Map",
+    "category": "Public Domain Historical Map",
+    "country": "Turkey",
+    "source": "Public Domain Historical Map",
+    "region": "West Asia",
+    "balance_tags": [
+      "historic_maps"
+    ],
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.91,
+    "public_domain_readiness": "public_domain_likely",
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 128,
+    "title": "Tabula Rogeriana",
+    "category": "Public Domain Historical Map",
+    "country": "Multiple",
+    "source": "Public Domain Historical Map",
+    "region": "West Asia",
+    "balance_tags": [
+      "historic_maps"
+    ],
+    "recognition_score": 0.89,
+    "demand_score": 0.85,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.9,
+    "public_domain_readiness": "public_domain_likely",
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 129,
+    "title": "Islamic Geometric Tile Patterns",
+    "category": "Pattern Heritage",
+    "country": "Multiple",
+    "source": "Pattern Heritage",
+    "region": "West Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.88,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "portfolio_score": 0.89,
+    "public_domain_readiness": "public_domain_or_partner",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 130,
+    "title": "Arabic Manuscript Astronomy Pages",
+    "category": "Manuscript Heritage",
+    "country": "Multiple",
+    "source": "Manuscript Heritage",
+    "region": "West Asia",
+    "balance_tags": [
+      "science_culture"
+    ],
+    "recognition_score": 0.87,
+    "demand_score": 0.83,
+    "commercial_score": 0.81,
+    "portfolio_score": 0.88,
+    "public_domain_readiness": "public_domain_item_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 131,
+    "title": "Persian Miniature Painting Study Set",
+    "category": "Public Domain Art",
+    "country": "Iran",
+    "source": "Public Domain Art",
+    "region": "West Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.86,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "portfolio_score": 0.87,
+    "public_domain_readiness": "public_domain_item_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 132,
+    "title": "Cedar of Lebanon",
+    "category": "Flagship Plant/Ecosystem",
+    "country": "Lebanon",
+    "source": "Flagship Plant/Ecosystem",
+    "region": "West Asia",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.85,
+    "demand_score": 0.81,
+    "commercial_score": 0.79,
+    "portfolio_score": 0.86,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 133,
+    "title": "Dead Sea Scrolls Context Map",
+    "category": "Educational Map",
+    "country": "Multiple",
+    "source": "Educational Map",
+    "region": "West Asia",
+    "balance_tags": [
+      "historic_maps"
+    ],
+    "recognition_score": 0.95,
+    "demand_score": 0.91,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.96,
+    "public_domain_readiness": "public_domain_or_partner",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 134,
+    "title": "Sinai Desert Monastery Routes",
+    "category": "Cultural Landscape",
+    "country": "Egypt",
+    "source": "Cultural Landscape",
+    "region": "West Asia",
+    "balance_tags": [
+      "geography_culture"
+    ],
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.95,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 135,
+    "title": "Samarkand Registan",
+    "category": "UNESCO World Heritage",
+    "country": "Uzbekistan",
+    "source": "UNESCO World Heritage",
+    "region": "Central Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.93,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.94,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 136,
+    "title": "Bukhara Historic Centre",
+    "category": "UNESCO World Heritage",
+    "country": "Uzbekistan",
+    "source": "UNESCO World Heritage",
+    "region": "Central Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.92,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.93,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 137,
+    "title": "Khiva Itchan Kala",
+    "category": "UNESCO World Heritage",
+    "country": "Uzbekistan",
+    "source": "UNESCO World Heritage",
+    "region": "Central Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.91,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.92,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 138,
+    "title": "Silk Roads Tien-Shan Corridor",
+    "category": "UNESCO World Heritage",
+    "country": "Multiple",
+    "source": "UNESCO World Heritage",
+    "region": "Central Asia",
+    "balance_tags": [
+      "geography_culture"
+    ],
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.91,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 139,
+    "title": "Tamgaly Petroglyphs",
+    "category": "UNESCO World Heritage",
+    "country": "Kazakhstan",
+    "source": "UNESCO World Heritage",
+    "region": "Central Asia",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.89,
+    "demand_score": 0.85,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.9,
+    "public_domain_readiness": "sensitivity_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 140,
+    "title": "Pamir Mountains",
+    "category": "Mountain Geography",
+    "country": "Tajikistan",
+    "source": "Mountain Geography",
+    "region": "Central Asia",
+    "balance_tags": [
+      "geography_climate"
+    ],
+    "recognition_score": 0.88,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "portfolio_score": 0.89,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 141,
+    "title": "Snow Leopard Range Map",
+    "category": "Species Geography",
+    "country": "Multiple",
+    "source": "Species Geography",
+    "region": "Central Asia",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.87,
+    "demand_score": 0.83,
+    "commercial_score": 0.81,
+    "portfolio_score": 0.88,
+    "public_domain_readiness": "public_domain_data_needs_design",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 142,
+    "title": "Saiga Antelope",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF Flagship Species",
+    "region": "Central Asia",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.86,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "portfolio_score": 0.87,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 143,
+    "title": "Bactrian Camel",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF Flagship Species",
+    "region": "Central Asia",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.85,
+    "demand_score": 0.81,
+    "commercial_score": 0.79,
+    "portfolio_score": 0.86,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 144,
+    "title": "Aral Sea Change Maps",
+    "category": "Climate Map",
+    "country": "Multiple",
+    "source": "Climate Map",
+    "region": "Central Asia",
+    "balance_tags": [
+      "geography_climate"
+    ],
+    "recognition_score": 0.95,
+    "demand_score": 0.91,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.96,
+    "public_domain_readiness": "public_domain_data_needs_design",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 145,
+    "title": "Central Asian Textile Patterns",
+    "category": "Textile Heritage",
+    "country": "Multiple",
+    "source": "Textile Heritage",
+    "region": "Central Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.95,
+    "public_domain_readiness": "needs_partner_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 146,
+    "title": "Nomadic Yurt Architecture",
+    "category": "Cultural Heritage",
+    "country": "Multiple",
+    "source": "Cultural Heritage",
+    "region": "Central Asia",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.93,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.94,
+    "public_domain_readiness": "needs_partner_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 147,
+    "title": "Mongolian Eagle Hunting Culture",
+    "category": "Intangible Heritage",
+    "country": "Mongolia",
+    "source": "Intangible Heritage",
+    "region": "Central Asia",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.92,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.93,
+    "public_domain_readiness": "sensitivity_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 148,
+    "title": "Karakorum Steppe Landscape",
+    "category": "Cultural Landscape",
+    "country": "Mongolia",
+    "source": "Cultural Landscape",
+    "region": "Central Asia",
+    "balance_tags": [
+      "geography_culture"
+    ],
+    "recognition_score": 0.91,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.92,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 149,
+    "title": "Kyrgyz Epic Manas Visual Study",
+    "category": "Intangible Heritage",
+    "country": "Kyrgyzstan",
+    "source": "Intangible Heritage",
+    "region": "Central Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.91,
+    "public_domain_readiness": "needs_partner_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 150,
+    "title": "Ancient Silk Road Caravanserai",
+    "category": "Cultural Heritage",
+    "country": "Multiple",
+    "source": "Cultural Heritage",
+    "region": "Central Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.89,
+    "demand_score": 0.85,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.9,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 151,
+    "title": "Borobudur",
+    "category": "UNESCO World Heritage",
+    "country": "Indonesia",
+    "source": "UNESCO World Heritage",
+    "region": "South/Southeast Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.88,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "portfolio_score": 0.89,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 152,
+    "title": "Ajanta Caves",
+    "category": "UNESCO World Heritage",
+    "country": "India",
+    "source": "UNESCO World Heritage",
+    "region": "South Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.87,
+    "demand_score": 0.83,
+    "commercial_score": 0.81,
+    "portfolio_score": 0.88,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 153,
+    "title": "Ellora Caves",
+    "category": "UNESCO World Heritage",
+    "country": "India",
+    "source": "UNESCO World Heritage",
+    "region": "South Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.86,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "portfolio_score": 0.87,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 154,
+    "title": "Hampi",
+    "category": "UNESCO World Heritage",
+    "country": "India",
+    "source": "UNESCO World Heritage",
+    "region": "South Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.85,
+    "demand_score": 0.81,
+    "commercial_score": 0.79,
+    "portfolio_score": 0.86,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 155,
+    "title": "Sigiriya",
+    "category": "UNESCO World Heritage",
+    "country": "Sri Lanka",
+    "source": "UNESCO World Heritage",
+    "region": "South Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.95,
+    "demand_score": 0.91,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.96,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 156,
+    "title": "Kathmandu Valley",
+    "category": "UNESCO World Heritage",
+    "country": "Nepal",
+    "source": "UNESCO World Heritage",
+    "region": "South Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.95,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 157,
+    "title": "Lumbini",
+    "category": "UNESCO World Heritage",
+    "country": "Nepal",
+    "source": "UNESCO World Heritage",
+    "region": "South Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.93,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.94,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 158,
+    "title": "Mohenjo-daro",
+    "category": "UNESCO World Heritage",
+    "country": "Pakistan",
+    "source": "UNESCO World Heritage",
+    "region": "South Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.92,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.93,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 159,
+    "title": "Sundarbans Mangrove Forest",
+    "category": "UNESCO World Heritage",
+    "country": "Bangladesh/India",
+    "source": "UNESCO World Heritage",
+    "region": "South Asia",
+    "balance_tags": [
+      "biodiversity_climate"
+    ],
+    "recognition_score": 0.91,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.92,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 160,
+    "title": "Bengal Tiger",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF Flagship Species",
+    "region": "South Asia",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.91,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 161,
+    "title": "Indian Peafowl",
+    "category": "GBIF Flagship Species",
+    "country": "India",
+    "source": "GBIF Flagship Species",
+    "region": "South Asia",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.89,
+    "demand_score": 0.85,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.9,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 162,
+    "title": "Ganges River Dolphin",
+    "category": "GBIF Flagship Species",
+    "country": "India/Bangladesh",
+    "source": "GBIF Flagship Species",
+    "region": "South Asia",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.88,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "portfolio_score": 0.89,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 163,
+    "title": "Himalayan Monal",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF Flagship Species",
+    "region": "South Asia",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.87,
+    "demand_score": 0.83,
+    "commercial_score": 0.81,
+    "portfolio_score": 0.88,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 164,
+    "title": "Mughal Miniature Public Domain Study",
+    "category": "Public Domain Art",
+    "country": "India",
+    "source": "Public Domain Art",
+    "region": "South Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.86,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "portfolio_score": 0.87,
+    "public_domain_readiness": "public_domain_item_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 165,
+    "title": "South Asian Textile Pattern Study",
+    "category": "Textile Heritage",
+    "country": "Multiple",
+    "source": "Textile Heritage",
+    "region": "South Asia",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.85,
+    "demand_score": 0.81,
+    "commercial_score": 0.79,
+    "portfolio_score": 0.86,
+    "public_domain_readiness": "needs_partner_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 166,
+    "title": "Historic Indian Ocean Trade Map",
+    "category": "Public Domain Historical Map",
+    "country": "Multiple",
+    "source": "Public Domain Historical Map",
+    "region": "South Asia",
+    "balance_tags": [
+      "historic_maps"
+    ],
+    "recognition_score": 0.95,
+    "demand_score": 0.91,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.96,
+    "public_domain_readiness": "public_domain_likely",
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 167,
+    "title": "Himalayan Climate and Glacier Map",
+    "category": "Climate Map",
+    "country": "Multiple",
+    "source": "Climate Map",
+    "region": "South Asia",
+    "balance_tags": [
+      "geography_climate"
+    ],
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.95,
+    "public_domain_readiness": "public_domain_data_needs_design",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 168,
+    "title": "Great Barrier Reef Climate Set",
+    "category": "UNESCO World Heritage",
+    "country": "Australia",
+    "source": "UNESCO World Heritage",
+    "region": "Oceania",
+    "balance_tags": [
+      "biodiversity_climate"
+    ],
+    "recognition_score": 0.93,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.94,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 169,
+    "title": "Kakadu National Park",
+    "category": "UNESCO World Heritage",
+    "country": "Australia",
+    "source": "UNESCO World Heritage",
+    "region": "Oceania",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.92,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.93,
+    "public_domain_readiness": "sensitivity_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 170,
+    "title": "Shark Bay",
+    "category": "UNESCO World Heritage",
+    "country": "Australia",
+    "source": "UNESCO World Heritage",
+    "region": "Oceania",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.91,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.92,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 171,
+    "title": "Lord Howe Island Group",
+    "category": "UNESCO World Heritage",
+    "country": "Australia",
+    "source": "UNESCO World Heritage",
+    "region": "Oceania",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.91,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 172,
+    "title": "Te Wahipounamu",
+    "category": "UNESCO World Heritage",
+    "country": "New Zealand",
+    "source": "UNESCO World Heritage",
+    "region": "Oceania",
+    "balance_tags": [
+      "geography_biodiversity"
+    ],
+    "recognition_score": 0.89,
+    "demand_score": 0.85,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.9,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 173,
+    "title": "Polynesian Navigation Star Compass",
+    "category": "Indigenous Knowledge",
+    "country": "Multiple",
+    "source": "Indigenous Knowledge",
+    "region": "Oceania",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.88,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "portfolio_score": 0.89,
+    "public_domain_readiness": "sensitivity_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 174,
+    "title": "Marshall Islands Stick Chart",
+    "category": "Indigenous Cartography",
+    "country": "Marshall Islands",
+    "source": "Indigenous Cartography",
+    "region": "Oceania",
+    "balance_tags": [
+      "historic_maps"
+    ],
+    "recognition_score": 0.87,
+    "demand_score": 0.83,
+    "commercial_score": 0.81,
+    "portfolio_score": 0.88,
+    "public_domain_readiness": "sensitivity_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 175,
+    "title": "Moai Context Education Set",
+    "category": "UNESCO World Heritage",
+    "country": "Chile",
+    "source": "UNESCO World Heritage",
+    "region": "Oceania",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.86,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "portfolio_score": 0.87,
+    "public_domain_readiness": "sensitivity_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 176,
+    "title": "Kakapo",
+    "category": "GBIF Flagship Species",
+    "country": "New Zealand",
+    "source": "GBIF Flagship Species",
+    "region": "Oceania",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.85,
+    "demand_score": 0.81,
+    "commercial_score": 0.79,
+    "portfolio_score": 0.86,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 177,
+    "title": "Kiwi",
+    "category": "GBIF Flagship Species",
+    "country": "New Zealand",
+    "source": "GBIF Flagship Species",
+    "region": "Oceania",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.95,
+    "demand_score": 0.91,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.96,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 178,
+    "title": "Kea",
+    "category": "GBIF Flagship Species",
+    "country": "New Zealand",
+    "source": "GBIF Flagship Species",
+    "region": "Oceania",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.95,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 179,
+    "title": "Tasmanian Devil",
+    "category": "GBIF Flagship Species",
+    "country": "Australia",
+    "source": "GBIF Flagship Species",
+    "region": "Oceania",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.93,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.94,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 180,
+    "title": "Coral Triangle Biodiversity",
+    "category": "Flagship Ecosystem",
+    "country": "Multiple",
+    "source": "Flagship Ecosystem",
+    "region": "Oceania",
+    "balance_tags": [
+      "biodiversity_climate"
+    ],
+    "recognition_score": 0.92,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.93,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 181,
+    "title": "Pacific Atoll Climate Maps",
+    "category": "Climate Map",
+    "country": "Multiple",
+    "source": "Climate Map",
+    "region": "Oceania",
+    "balance_tags": [
+      "geography_climate"
+    ],
+    "recognition_score": 0.91,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.92,
+    "public_domain_readiness": "public_domain_data_needs_design",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 182,
+    "title": "Aboriginal Rock Art Context Set",
+    "category": "Indigenous Cultural Heritage",
+    "country": "Australia",
+    "source": "Indigenous Cultural Heritage",
+    "region": "Oceania",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.91,
+    "public_domain_readiness": "sensitivity_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 183,
+    "title": "Maori Carving Pattern Study",
+    "category": "Indigenous Cultural Heritage",
+    "country": "New Zealand",
+    "source": "Indigenous Cultural Heritage",
+    "region": "Oceania",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.89,
+    "demand_score": 0.85,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.9,
+    "public_domain_readiness": "needs_partner_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 184,
+    "title": "Papua New Guinea Bird-of-Paradise",
+    "category": "GBIF Flagship Species",
+    "country": "Papua New Guinea",
+    "source": "GBIF Flagship Species",
+    "region": "Oceania",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.88,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "portfolio_score": 0.89,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 185,
+    "title": "Mesa Verde",
+    "category": "UNESCO World Heritage",
+    "country": "United States",
+    "source": "UNESCO World Heritage",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.87,
+    "demand_score": 0.83,
+    "commercial_score": 0.81,
+    "portfolio_score": 0.88,
+    "public_domain_readiness": "sensitivity_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 186,
+    "title": "Chaco Culture",
+    "category": "UNESCO World Heritage",
+    "country": "United States",
+    "source": "UNESCO World Heritage",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.86,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "portfolio_score": 0.87,
+    "public_domain_readiness": "sensitivity_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 187,
+    "title": "Cahokia Mounds",
+    "category": "UNESCO World Heritage",
+    "country": "United States",
+    "source": "UNESCO World Heritage",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.85,
+    "demand_score": 0.81,
+    "commercial_score": 0.79,
+    "portfolio_score": 0.86,
+    "public_domain_readiness": "sensitivity_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 188,
+    "title": "Poverty Point",
+    "category": "UNESCO World Heritage",
+    "country": "United States",
+    "source": "UNESCO World Heritage",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.95,
+    "demand_score": 0.91,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.96,
+    "public_domain_readiness": "sensitivity_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 189,
+    "title": "Head-Smashed-In Buffalo Jump",
+    "category": "UNESCO World Heritage",
+    "country": "Canada",
+    "source": "UNESCO World Heritage",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.95,
+    "public_domain_readiness": "sensitivity_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 190,
+    "title": "Writing-on-Stone / Aisinai'pi",
+    "category": "UNESCO World Heritage",
+    "country": "Canada",
+    "source": "UNESCO World Heritage",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.93,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.94,
+    "public_domain_readiness": "sensitivity_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 191,
+    "title": "Teotihuacan",
+    "category": "UNESCO World Heritage",
+    "country": "Mexico",
+    "source": "UNESCO World Heritage",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.92,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.93,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 192,
+    "title": "Palenque",
+    "category": "UNESCO World Heritage",
+    "country": "Mexico",
+    "source": "UNESCO World Heritage",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.91,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.92,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 193,
+    "title": "Nazca Lines",
+    "category": "UNESCO World Heritage",
+    "country": "Peru",
+    "source": "UNESCO World Heritage",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.91,
+    "public_domain_readiness": "sensitivity_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 194,
+    "title": "Chan Chan",
+    "category": "UNESCO World Heritage",
+    "country": "Peru",
+    "source": "UNESCO World Heritage",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.89,
+    "demand_score": 0.85,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.9,
+    "public_domain_readiness": "sensitivity_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 195,
+    "title": "Tikal",
+    "category": "UNESCO World Heritage",
+    "country": "Guatemala",
+    "source": "UNESCO World Heritage",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "cultural_heritage"
+    ],
+    "recognition_score": 0.88,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "portfolio_score": 0.89,
+    "public_domain_readiness": "item_rights_review",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 196,
+    "title": "Amazon Rainforest Biodiversity",
+    "category": "Flagship Ecosystem",
+    "country": "Multiple",
+    "source": "Flagship Ecosystem",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "biodiversity_climate"
+    ],
+    "recognition_score": 0.87,
+    "demand_score": 0.83,
+    "commercial_score": 0.81,
+    "portfolio_score": 0.88,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 197,
+    "title": "Andean Condor",
+    "category": "GBIF Flagship Species",
+    "country": "Multiple",
+    "source": "GBIF Flagship Species",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.86,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "portfolio_score": 0.87,
+    "public_domain_readiness": "needs_image_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 198,
+    "title": "Jaguar Corridor Map",
+    "category": "Species Geography",
+    "country": "Multiple",
+    "source": "Species Geography",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.85,
+    "demand_score": 0.81,
+    "commercial_score": 0.79,
+    "portfolio_score": 0.86,
+    "public_domain_readiness": "public_domain_data_needs_design",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 199,
+    "title": "Quipu and Andean Knowledge Context",
+    "category": "Indigenous Knowledge",
+    "country": "Peru",
+    "source": "Indigenous Knowledge",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.95,
+    "demand_score": 0.91,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.96,
+    "public_domain_readiness": "needs_partner_clearance",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 200,
+    "title": "Arctic Inuit Knowledge Context",
+    "category": "Indigenous Knowledge",
+    "country": "Multiple",
+    "source": "Indigenous Knowledge",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.88,
+    "demand_score": 0.84,
+    "commercial_score": 0.79,
+    "portfolio_score": 0.93,
+    "public_domain_readiness": "sensitivity_review_required",
+    "recommended_products": [
+      "Educational Card Sets",
+      "Posters",
+      "Coffee Table Books"
+    ]
+  }
+]

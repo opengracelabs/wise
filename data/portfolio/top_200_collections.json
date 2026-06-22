@@ -1,0 +1,4848 @@
+[
+  {
+    "rank": 1,
+    "title": "World Heritage Icons Collection",
+    "category": "UNESCO World Heritage Collection",
+    "country": "Global",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.99,
+    "demand_score": 0.95,
+    "commercial_score": 0.94,
+    "portfolio_score": 0.99,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 2,
+    "title": "Ancient Wonders Collection",
+    "category": "UNESCO World Heritage Collection",
+    "country": "Global",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.98,
+    "demand_score": 0.94,
+    "commercial_score": 0.93,
+    "portfolio_score": 0.97,
+    "recommended_products": [
+      "Posters",
+      "Puzzles",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 3,
+    "title": "Great Civilizations Collection",
+    "category": "UNESCO World Heritage Collection",
+    "country": "Global",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.97,
+    "demand_score": 0.92,
+    "commercial_score": 0.92,
+    "portfolio_score": 0.96,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 4,
+    "title": "Sacred Architecture Collection",
+    "category": "UNESCO World Heritage Collection",
+    "country": "Global",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.96,
+    "demand_score": 0.9,
+    "commercial_score": 0.9,
+    "portfolio_score": 0.94,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 5,
+    "title": "Castles and Palaces Collection",
+    "category": "UNESCO World Heritage Collection",
+    "country": "Global",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.95,
+    "demand_score": 0.9,
+    "commercial_score": 0.9,
+    "portfolio_score": 0.94,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 6,
+    "title": "Historic Cities Collection",
+    "category": "UNESCO World Heritage Collection",
+    "country": "Global",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.95,
+    "demand_score": 0.89,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.93,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Historic Maps",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 7,
+    "title": "Cultural Landscapes Collection",
+    "category": "UNESCO World Heritage Collection",
+    "country": "Global",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.94,
+    "demand_score": 0.88,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.92,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 8,
+    "title": "UNESCO Natural Wonders Collection",
+    "category": "UNESCO World Heritage Collection",
+    "country": "Global",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.96,
+    "demand_score": 0.91,
+    "commercial_score": 0.9,
+    "portfolio_score": 0.95,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 9,
+    "title": "National Parks of the World Collection",
+    "category": "UNESCO World Heritage Collection",
+    "country": "Global",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.95,
+    "demand_score": 0.91,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.94,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 10,
+    "title": "Island Heritage Collection",
+    "category": "UNESCO World Heritage Collection",
+    "country": "Global",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.93,
+    "demand_score": 0.88,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.91,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "heritage"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 11,
+    "title": "Big Cats Collection",
+    "category": "GBIF Flagship Species Collection",
+    "country": "Global",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.98,
+    "demand_score": 0.94,
+    "commercial_score": 0.93,
+    "portfolio_score": 0.97,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 12,
+    "title": "Megafauna Conservation Collection",
+    "category": "GBIF Flagship Species Collection",
+    "country": "Global",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.97,
+    "demand_score": 0.92,
+    "commercial_score": 0.91,
+    "portfolio_score": 0.96,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 13,
+    "title": "Endangered Species Collection",
+    "category": "GBIF Flagship Species Collection",
+    "country": "Global",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.96,
+    "demand_score": 0.92,
+    "commercial_score": 0.9,
+    "portfolio_score": 0.95,
+    "recommended_products": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 14,
+    "title": "Ocean Giants Collection",
+    "category": "GBIF Flagship Species Collection",
+    "country": "Global",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.95,
+    "demand_score": 0.89,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.92,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 15,
+    "title": "Polar Wildlife Collection",
+    "category": "GBIF Flagship Species Collection",
+    "country": "Global",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.92,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 16,
+    "title": "Birds in Motion Collection",
+    "category": "Wildlife Photography Collection",
+    "country": "Global",
+    "source": "Award-winning wildlife photography subjects",
+    "recognition_score": 0.9,
+    "demand_score": 0.91,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.91,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 17,
+    "title": "Wildlife in Winter Collection",
+    "category": "Wildlife Photography Collection",
+    "country": "Global",
+    "source": "Award-winning wildlife photography subjects",
+    "recognition_score": 0.88,
+    "demand_score": 0.91,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 18,
+    "title": "Biodiversity Classroom Collection",
+    "category": "GBIF Flagship Species Collection",
+    "country": "Global",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.92,
+    "demand_score": 0.87,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.91,
+    "recommended_products": [
+      "Educational Card Sets",
+      "Posters",
+      "Puzzles",
+      "Calendars"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 19,
+    "title": "Pollinators Collection",
+    "category": "GBIF Flagship Species Collection",
+    "country": "Global",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.89,
+    "demand_score": 0.88,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.89,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 20,
+    "title": "Coral Reef Life Collection",
+    "category": "Wildlife Photography Collection",
+    "country": "Global",
+    "source": "Award-winning wildlife photography subjects",
+    "recognition_score": 0.91,
+    "demand_score": 0.88,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 21,
+    "title": "Smithsonian Spaceflight Collection",
+    "category": "Smithsonian Open Access Collection",
+    "country": "United States",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.97,
+    "demand_score": 0.91,
+    "commercial_score": 0.91,
+    "portfolio_score": 0.95,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 22,
+    "title": "Smithsonian Aviation Collection",
+    "category": "Smithsonian Open Access Collection",
+    "country": "United States",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.95,
+    "demand_score": 0.88,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.92,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 23,
+    "title": "Smithsonian Natural History Collection",
+    "category": "Smithsonian Open Access Collection",
+    "country": "United States",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.95,
+    "demand_score": 0.89,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.93,
+    "recommended_products": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 24,
+    "title": "Smithsonian American History Collection",
+    "category": "Smithsonian Open Access Collection",
+    "country": "United States",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.94,
+    "demand_score": 0.86,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 25,
+    "title": "Smithsonian Gems and Minerals Collection",
+    "category": "Smithsonian Open Access Collection",
+    "country": "United States",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.92,
+    "demand_score": 0.86,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 26,
+    "title": "Smithsonian Dinosaur Learning Collection",
+    "category": "Smithsonian Open Access Collection",
+    "country": "United States",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.93,
+    "recommended_products": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 27,
+    "title": "Smithsonian Presidential Portraits Collection",
+    "category": "Smithsonian Open Access Collection",
+    "country": "United States",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.91,
+    "demand_score": 0.83,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 28,
+    "title": "Smithsonian American Design Collection",
+    "category": "Smithsonian Open Access Collection",
+    "country": "United States",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.88,
+    "demand_score": 0.82,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.86,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 29,
+    "title": "Smithsonian Ocean Education Collection",
+    "category": "Smithsonian Open Access Collection",
+    "country": "United States",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 30,
+    "title": "Smithsonian Women in Science Collection",
+    "category": "Smithsonian Open Access Collection",
+    "country": "United States",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.88,
+    "demand_score": 0.83,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.86,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 31,
+    "title": "National Gallery Impressionism Collection",
+    "category": "National Gallery Public Domain Collection",
+    "country": "United Kingdom",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.97,
+    "demand_score": 0.92,
+    "commercial_score": 0.92,
+    "portfolio_score": 0.96,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 32,
+    "title": "National Gallery Turner Collection",
+    "category": "National Gallery Public Domain Collection",
+    "country": "United Kingdom",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.94,
+    "demand_score": 0.86,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 33,
+    "title": "National Gallery Van Gogh Collection",
+    "category": "National Gallery Public Domain Collection",
+    "country": "United Kingdom",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.98,
+    "demand_score": 0.94,
+    "commercial_score": 0.93,
+    "portfolio_score": 0.97,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 34,
+    "title": "National Gallery Renaissance Collection",
+    "category": "National Gallery Public Domain Collection",
+    "country": "United Kingdom",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.94,
+    "demand_score": 0.85,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 35,
+    "title": "National Gallery Landscape Collection",
+    "category": "National Gallery Public Domain Collection",
+    "country": "United Kingdom",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.92,
+    "demand_score": 0.87,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 36,
+    "title": "National Gallery Portrait Collection",
+    "category": "National Gallery Public Domain Collection",
+    "country": "United Kingdom",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.91,
+    "demand_score": 0.83,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 37,
+    "title": "National Gallery Mythology Collection",
+    "category": "National Gallery Public Domain Collection",
+    "country": "United Kingdom",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.9,
+    "demand_score": 0.82,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.86,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 38,
+    "title": "National Gallery Animals in Art Collection",
+    "category": "National Gallery Public Domain Collection",
+    "country": "United Kingdom",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.89,
+    "demand_score": 0.84,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 39,
+    "title": "National Gallery Water and Gardens Collection",
+    "category": "National Gallery Public Domain Collection",
+    "country": "United Kingdom",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.91,
+    "demand_score": 0.88,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 40,
+    "title": "National Gallery Masterworks Collection",
+    "category": "National Gallery Public Domain Collection",
+    "country": "United Kingdom",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.97,
+    "demand_score": 0.9,
+    "commercial_score": 0.91,
+    "portfolio_score": 0.95,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 41,
+    "title": "Rijksmuseum Rembrandt Collection",
+    "category": "Rijksmuseum Public Domain Collection",
+    "country": "Netherlands",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.97,
+    "demand_score": 0.9,
+    "commercial_score": 0.91,
+    "portfolio_score": 0.95,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 42,
+    "title": "Rijksmuseum Vermeer Collection",
+    "category": "Rijksmuseum Public Domain Collection",
+    "country": "Netherlands",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.96,
+    "demand_score": 0.9,
+    "commercial_score": 0.9,
+    "portfolio_score": 0.94,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 43,
+    "title": "Rijksmuseum Dutch Golden Age Collection",
+    "category": "Rijksmuseum Public Domain Collection",
+    "country": "Netherlands",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.95,
+    "demand_score": 0.88,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.93,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 44,
+    "title": "Rijksmuseum Maritime Collection",
+    "category": "Rijksmuseum Public Domain Collection",
+    "country": "Netherlands",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.9,
+    "demand_score": 0.83,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Historic Maps",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 45,
+    "title": "Rijksmuseum Still Life Collection",
+    "category": "Rijksmuseum Public Domain Collection",
+    "country": "Netherlands",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.9,
+    "demand_score": 0.85,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 46,
+    "title": "Rijksmuseum Battle Paintings Collection",
+    "category": "Rijksmuseum Public Domain Collection",
+    "country": "Netherlands",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.88,
+    "demand_score": 0.8,
+    "commercial_score": 0.82,
+    "portfolio_score": 0.84,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 47,
+    "title": "Rijksmuseum Floral Collection",
+    "category": "Rijksmuseum Public Domain Collection",
+    "country": "Netherlands",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.88,
+    "demand_score": 0.85,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 48,
+    "title": "Rijksmuseum City Life Collection",
+    "category": "Rijksmuseum Public Domain Collection",
+    "country": "Netherlands",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.88,
+    "demand_score": 0.82,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.85,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 49,
+    "title": "Rijksmuseum Portraits Collection",
+    "category": "Rijksmuseum Public Domain Collection",
+    "country": "Netherlands",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.89,
+    "demand_score": 0.82,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.85,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 50,
+    "title": "Rijksmuseum Masterworks Collection",
+    "category": "Rijksmuseum Public Domain Collection",
+    "country": "Netherlands",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.96,
+    "demand_score": 0.89,
+    "commercial_score": 0.9,
+    "portfolio_score": 0.94,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "culture"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 51,
+    "title": "Library of Congress Historic Maps Collection",
+    "category": "Library of Congress Collection",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.96,
+    "demand_score": 0.89,
+    "commercial_score": 0.91,
+    "portfolio_score": 0.95,
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "education"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 52,
+    "title": "Library of Congress Panoramic Maps Collection",
+    "category": "Library of Congress Collection",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.92,
+    "demand_score": 0.87,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.91,
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "education"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 53,
+    "title": "Library of Congress Civil War Collection",
+    "category": "Library of Congress Collection",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.93,
+    "demand_score": 0.86,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "education"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 54,
+    "title": "Library of Congress American Revolution Collection",
+    "category": "Library of Congress Collection",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.93,
+    "demand_score": 0.85,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.89,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Historic Maps",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "education"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 55,
+    "title": "Library of Congress Suffrage Collection",
+    "category": "Library of Congress Collection",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.9,
+    "demand_score": 0.84,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "education"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 56,
+    "title": "Library of Congress Great Depression Photography Collection",
+    "category": "Library of Congress Collection",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.92,
+    "demand_score": 0.86,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.89,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "education"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 57,
+    "title": "Library of Congress Jazz Age Collection",
+    "category": "Library of Congress Collection",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.88,
+    "demand_score": 0.84,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "education"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 58,
+    "title": "Library of Congress Posters Collection",
+    "category": "Library of Congress Collection",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.9,
+    "demand_score": 0.85,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "education"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 59,
+    "title": "Library of Congress Baseball Collection",
+    "category": "Library of Congress Collection",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.88,
+    "demand_score": 0.83,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.86,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "education"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 60,
+    "title": "Library of Congress Early Photography Collection",
+    "category": "Library of Congress Collection",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.9,
+    "demand_score": 0.84,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "education"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 61,
+    "title": "World Exploration Maps Collection",
+    "category": "Public Domain Historical Map Collection",
+    "country": "Global",
+    "source": "Public domain historical maps",
+    "recognition_score": 0.95,
+    "demand_score": 0.88,
+    "commercial_score": 0.9,
+    "portfolio_score": 0.93,
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "geography"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 62,
+    "title": "Celestial Maps Collection",
+    "category": "Public Domain Historical Map Collection",
+    "country": "Global",
+    "source": "Public domain historical maps",
+    "recognition_score": 0.93,
+    "demand_score": 0.88,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.91,
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "geography"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 63,
+    "title": "Historic City Plans Collection",
+    "category": "Public Domain Historical Map Collection",
+    "country": "Global",
+    "source": "Public domain historical maps",
+    "recognition_score": 0.91,
+    "demand_score": 0.86,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "geography"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 64,
+    "title": "Maritime Charts Collection",
+    "category": "Public Domain Historical Map Collection",
+    "country": "Global",
+    "source": "Public domain historical maps",
+    "recognition_score": 0.9,
+    "demand_score": 0.84,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "geography"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 65,
+    "title": "Railroad Maps Collection",
+    "category": "Public Domain Historical Map Collection",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.88,
+    "demand_score": 0.82,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.86,
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Puzzles"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "geography"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 66,
+    "title": "National Park Maps Collection",
+    "category": "Public Domain Historical Map Collection",
+    "country": "United States",
+    "source": "Public domain historical maps",
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.89,
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Calendars"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "geography"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 67,
+    "title": "Battlefield Maps Collection",
+    "category": "Public Domain Historical Map Collection",
+    "country": "Global",
+    "source": "Public domain historical maps",
+    "recognition_score": 0.89,
+    "demand_score": 0.82,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.86,
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "geography"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 68,
+    "title": "Ancient World Maps Collection",
+    "category": "Public Domain Historical Map Collection",
+    "country": "Global",
+    "source": "Public domain historical maps",
+    "recognition_score": 0.92,
+    "demand_score": 0.86,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "geography"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 69,
+    "title": "Moon and Space Maps Collection",
+    "category": "Public Domain Historical Map Collection",
+    "country": "Global",
+    "source": "Public domain historical maps",
+    "recognition_score": 0.91,
+    "demand_score": 0.87,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "geography"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 70,
+    "title": "Sanborn Cities Collection",
+    "category": "Library of Congress Collection",
+    "country": "United States",
+    "source": "Library of Congress",
+    "recognition_score": 0.88,
+    "demand_score": 0.83,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Puzzles"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "education"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 71,
+    "title": "Award-Winning Wildlife Subjects Collection",
+    "category": "Wildlife Photography Collection",
+    "country": "Global",
+    "source": "Award-winning wildlife photography subjects",
+    "recognition_score": 0.91,
+    "demand_score": 0.92,
+    "commercial_score": 0.9,
+    "portfolio_score": 0.93,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 72,
+    "title": "Predators in Motion Collection",
+    "category": "Wildlife Photography Collection",
+    "country": "Global",
+    "source": "Award-winning wildlife photography subjects",
+    "recognition_score": 0.9,
+    "demand_score": 0.9,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.91,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 73,
+    "title": "Bird Portraits Collection",
+    "category": "Wildlife Photography Collection",
+    "country": "Global",
+    "source": "Award-winning wildlife photography subjects",
+    "recognition_score": 0.88,
+    "demand_score": 0.89,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 74,
+    "title": "Macro Nature Collection",
+    "category": "Wildlife Photography Collection",
+    "country": "Global",
+    "source": "Award-winning wildlife photography subjects",
+    "recognition_score": 0.85,
+    "demand_score": 0.87,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 75,
+    "title": "Underwater Wildlife Collection",
+    "category": "Wildlife Photography Collection",
+    "country": "Global",
+    "source": "Award-winning wildlife photography subjects",
+    "recognition_score": 0.88,
+    "demand_score": 0.88,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.89,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 76,
+    "title": "Forest Wildlife Collection",
+    "category": "Wildlife Photography Collection",
+    "country": "Global",
+    "source": "Award-winning wildlife photography subjects",
+    "recognition_score": 0.87,
+    "demand_score": 0.88,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.89,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 77,
+    "title": "Desert Wildlife Collection",
+    "category": "Wildlife Photography Collection",
+    "country": "Global",
+    "source": "Award-winning wildlife photography subjects",
+    "recognition_score": 0.86,
+    "demand_score": 0.86,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 78,
+    "title": "Migration and Movement Collection",
+    "category": "Wildlife Photography Collection",
+    "country": "Global",
+    "source": "Award-winning wildlife photography subjects",
+    "recognition_score": 0.88,
+    "demand_score": 0.87,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 79,
+    "title": "Nocturnal Wildlife Collection",
+    "category": "Wildlife Photography Collection",
+    "country": "Global",
+    "source": "Award-winning wildlife photography subjects",
+    "recognition_score": 0.84,
+    "demand_score": 0.86,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.86,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 80,
+    "title": "Conservation Success Stories Collection",
+    "category": "GBIF Flagship Species Collection",
+    "country": "Global",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.89,
+    "demand_score": 0.86,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Posters",
+      "Calendars",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 81,
+    "title": "Heritage Classroom Cards Collection",
+    "category": "Education Collection",
+    "country": "Global",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.9,
+    "demand_score": 0.84,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.89,
+    "recommended_products": [
+      "Educational Card Sets",
+      "Posters",
+      "Puzzles"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "portfolio_balance"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 82,
+    "title": "Species Classroom Cards Collection",
+    "category": "Education Collection",
+    "country": "Global",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.9,
+    "demand_score": 0.85,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Educational Card Sets",
+      "Posters",
+      "Puzzles",
+      "Calendars"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "portfolio_balance"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 83,
+    "title": "Art History Classroom Cards Collection",
+    "category": "Education Collection",
+    "country": "Global",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.9,
+    "demand_score": 0.84,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.88,
+    "recommended_products": [
+      "Educational Card Sets",
+      "Posters",
+      "Framed Prints"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "portfolio_balance"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 84,
+    "title": "Map Literacy Cards Collection",
+    "category": "Education Collection",
+    "country": "Global",
+    "source": "Public domain historical maps",
+    "recognition_score": 0.88,
+    "demand_score": 0.83,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.87,
+    "recommended_products": [
+      "Educational Card Sets",
+      "Historic Maps",
+      "Posters"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "portfolio_balance"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 85,
+    "title": "Museum Masterworks Starter Collection",
+    "category": "Education Collection",
+    "country": "Global",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.92,
+    "demand_score": 0.85,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Educational Card Sets",
+      "Posters",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "portfolio_balance"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 86,
+    "title": "Travel Poster Collection",
+    "category": "Product Collection",
+    "country": "Global",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.94,
+    "demand_score": 0.91,
+    "commercial_score": 0.91,
+    "portfolio_score": 0.94,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "portfolio_balance"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 87,
+    "title": "Fine Art Print Collection",
+    "category": "Product Collection",
+    "country": "Global",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.95,
+    "demand_score": 0.9,
+    "commercial_score": 0.91,
+    "portfolio_score": 0.94,
+    "recommended_products": [
+      "Framed Prints",
+      "Canvas Prints",
+      "Posters",
+      "Calendars"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "portfolio_balance"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 88,
+    "title": "Historic Map Wall Art Collection",
+    "category": "Product Collection",
+    "country": "Global",
+    "source": "Library of Congress",
+    "recognition_score": 0.93,
+    "demand_score": 0.88,
+    "commercial_score": 0.91,
+    "portfolio_score": 0.93,
+    "recommended_products": [
+      "Historic Maps",
+      "Framed Prints",
+      "Canvas Prints",
+      "Posters"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "portfolio_balance"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 89,
+    "title": "Family Puzzle Collection",
+    "category": "Product Collection",
+    "country": "Global",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.92,
+    "demand_score": 0.89,
+    "commercial_score": 0.9,
+    "portfolio_score": 0.92,
+    "recommended_products": [
+      "Puzzles",
+      "Posters",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "portfolio_balance"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 90,
+    "title": "Annual Calendar Collection",
+    "category": "Product Collection",
+    "country": "Global",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.91,
+    "demand_score": 0.9,
+    "commercial_score": 0.89,
+    "portfolio_score": 0.92,
+    "recommended_products": [
+      "Calendars",
+      "Posters",
+      "Canvas Prints"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "portfolio_balance"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 91,
+    "title": "Coffee Table Heritage Books Collection",
+    "category": "Product Collection",
+    "country": "Global",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.94,
+    "demand_score": 0.86,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.91,
+    "recommended_products": [
+      "Coffee Table Books",
+      "Posters",
+      "Framed Prints"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "portfolio_balance"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 92,
+    "title": "Coffee Table Wildlife Books Collection",
+    "category": "Product Collection",
+    "country": "Global",
+    "source": "Award-winning wildlife photography subjects",
+    "recognition_score": 0.9,
+    "demand_score": 0.87,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Coffee Table Books",
+      "Posters",
+      "Canvas Prints",
+      "Calendars"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "portfolio_balance"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 93,
+    "title": "Coffee Table Art Books Collection",
+    "category": "Product Collection",
+    "country": "Global",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.93,
+    "demand_score": 0.86,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.91,
+    "recommended_products": [
+      "Coffee Table Books",
+      "Framed Prints",
+      "Canvas Prints"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "portfolio_balance"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 94,
+    "title": "Founder Demonstration Collection",
+    "category": "Portfolio Collection",
+    "country": "Global",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.88,
+    "demand_score": 0.82,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.92,
+    "recommended_products": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "portfolio_balance"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 95,
+    "title": "Nature and Culture Launch Collection",
+    "category": "Portfolio Collection",
+    "country": "Global",
+    "source": "GBIF flagship species",
+    "recognition_score": 0.91,
+    "demand_score": 0.87,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.94,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "portfolio_balance"
+    ],
+    "public_domain_readiness": "needs_image_clearance"
+  },
+  {
+    "rank": 96,
+    "title": "Global South Heritage Collection",
+    "category": "Portfolio Collection",
+    "country": "Global",
+    "source": "UNESCO World Heritage",
+    "recognition_score": 0.9,
+    "demand_score": 0.84,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.91,
+    "recommended_products": [
+      "Posters",
+      "Canvas Prints",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "portfolio_balance"
+    ],
+    "public_domain_readiness": "image_rights_required"
+  },
+  {
+    "rank": 97,
+    "title": "Public Domain Masterpiece Collection",
+    "category": "Portfolio Collection",
+    "country": "Global",
+    "source": "Rijksmuseum public domain",
+    "recognition_score": 0.95,
+    "demand_score": 0.9,
+    "commercial_score": 0.91,
+    "portfolio_score": 0.95,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "portfolio_balance"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 98,
+    "title": "Open Access Science Collection",
+    "category": "Portfolio Collection",
+    "country": "United States",
+    "source": "Smithsonian Open Access",
+    "recognition_score": 0.92,
+    "demand_score": 0.87,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.9,
+    "recommended_products": [
+      "Posters",
+      "Puzzles",
+      "Coffee Table Books",
+      "Educational Card Sets"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "portfolio_balance"
+    ],
+    "public_domain_readiness": "open_access_ready"
+  },
+  {
+    "rank": 99,
+    "title": "Global Classroom Starter Collection",
+    "category": "Portfolio Collection",
+    "country": "Global",
+    "source": "Library of Congress",
+    "recognition_score": 0.89,
+    "demand_score": 0.84,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.91,
+    "recommended_products": [
+      "Educational Card Sets",
+      "Posters",
+      "Historic Maps",
+      "Puzzles"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "portfolio_balance"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 100,
+    "title": "Giftable Public Memory Collection",
+    "category": "Portfolio Collection",
+    "country": "Global",
+    "source": "National Gallery public domain",
+    "recognition_score": 0.93,
+    "demand_score": 0.89,
+    "commercial_score": 0.9,
+    "portfolio_score": 0.94,
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ],
+    "region": "Global/Existing",
+    "balance_tags": [
+      "portfolio_balance"
+    ],
+    "public_domain_readiness": "public_domain_ready"
+  },
+  {
+    "rank": 101,
+    "title": "African Kingdoms and Cities Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Sub-Saharan Africa",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "heritage"
+    ],
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.96,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 102,
+    "title": "African Rock Art and Knowledge Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Sub-Saharan Africa",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.93,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.95,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 103,
+    "title": "Sub-Saharan Biodiversity Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Sub-Saharan Africa",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.92,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.94,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 104,
+    "title": "Baobab and Forest Giants Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Sub-Saharan Africa",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.91,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.93,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 105,
+    "title": "Swahili Coast Heritage Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Sub-Saharan Africa",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "culture"
+    ],
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.92,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 106,
+    "title": "West African Manuscripts Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Sub-Saharan Africa",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "culture"
+    ],
+    "recognition_score": 0.89,
+    "demand_score": 0.85,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.91,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 107,
+    "title": "Islamic Architecture and Geometry Collection",
+    "category": "Representation Expansion Collection",
+    "country": "West Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "West Asia",
+    "balance_tags": [
+      "culture"
+    ],
+    "recognition_score": 0.88,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "portfolio_score": 0.9,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 108,
+    "title": "Persian Heritage and Miniatures Collection",
+    "category": "Representation Expansion Collection",
+    "country": "West Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "West Asia",
+    "balance_tags": [
+      "culture"
+    ],
+    "recognition_score": 0.87,
+    "demand_score": 0.83,
+    "commercial_score": 0.81,
+    "portfolio_score": 0.89,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 109,
+    "title": "West Asian Archaeology Collection",
+    "category": "Representation Expansion Collection",
+    "country": "West Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "West Asia",
+    "balance_tags": [
+      "heritage"
+    ],
+    "recognition_score": 0.86,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "portfolio_score": 0.88,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 110,
+    "title": "Arabian Biodiversity Collection",
+    "category": "Representation Expansion Collection",
+    "country": "West Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "West Asia",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.85,
+    "demand_score": 0.81,
+    "commercial_score": 0.79,
+    "portfolio_score": 0.87,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 111,
+    "title": "Historic Islamic Maps Collection",
+    "category": "Representation Expansion Collection",
+    "country": "West Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "West Asia",
+    "balance_tags": [
+      "geography"
+    ],
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.96,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 112,
+    "title": "Desert Monasteries and Routes Collection",
+    "category": "Representation Expansion Collection",
+    "country": "West Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "West Asia",
+    "balance_tags": [
+      "heritage"
+    ],
+    "recognition_score": 0.93,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.95,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 113,
+    "title": "Silk Roads Cities Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Central Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Central Asia",
+    "balance_tags": [
+      "heritage"
+    ],
+    "recognition_score": 0.92,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.94,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 114,
+    "title": "Central Asian Steppe Cultures Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Central Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Central Asia",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.91,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.93,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 115,
+    "title": "Central Asian Endangered Species Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Central Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Central Asia",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.92,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 116,
+    "title": "Aral Sea Climate Maps Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Central Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Central Asia",
+    "balance_tags": [
+      "climate"
+    ],
+    "recognition_score": 0.89,
+    "demand_score": 0.85,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.91,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 117,
+    "title": "Nomadic Architecture Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Central Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Central Asia",
+    "balance_tags": [
+      "culture"
+    ],
+    "recognition_score": 0.88,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "portfolio_score": 0.9,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 118,
+    "title": "Central Asian Textile Patterns Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Central Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Central Asia",
+    "balance_tags": [
+      "culture"
+    ],
+    "recognition_score": 0.87,
+    "demand_score": 0.83,
+    "commercial_score": 0.81,
+    "portfolio_score": 0.89,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 119,
+    "title": "South Asian Sacred Sites Collection",
+    "category": "Representation Expansion Collection",
+    "country": "South Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "South Asia",
+    "balance_tags": [
+      "heritage"
+    ],
+    "recognition_score": 0.86,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "portfolio_score": 0.88,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 120,
+    "title": "South Asian Cave Temples Collection",
+    "category": "Representation Expansion Collection",
+    "country": "South Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "South Asia",
+    "balance_tags": [
+      "heritage"
+    ],
+    "recognition_score": 0.85,
+    "demand_score": 0.81,
+    "commercial_score": 0.79,
+    "portfolio_score": 0.87,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 121,
+    "title": "Indian Ocean Trade Maps Collection",
+    "category": "Representation Expansion Collection",
+    "country": "South Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "South Asia",
+    "balance_tags": [
+      "geography"
+    ],
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.96,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 122,
+    "title": "Himalayan Climate Collection",
+    "category": "Representation Expansion Collection",
+    "country": "South Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "South Asia",
+    "balance_tags": [
+      "climate"
+    ],
+    "recognition_score": 0.93,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.95,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 123,
+    "title": "South Asian Flagship Species Collection",
+    "category": "Representation Expansion Collection",
+    "country": "South Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "South Asia",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.92,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.94,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 124,
+    "title": "Mughal and South Asian Public Domain Art Collection",
+    "category": "Representation Expansion Collection",
+    "country": "South Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "South Asia",
+    "balance_tags": [
+      "culture"
+    ],
+    "recognition_score": 0.91,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.93,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 125,
+    "title": "Oceania Climate and Reef Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Oceania",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Oceania",
+    "balance_tags": [
+      "climate"
+    ],
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.92,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 126,
+    "title": "Pacific Indigenous Navigation Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Oceania",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Oceania",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.89,
+    "demand_score": 0.85,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.91,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 127,
+    "title": "Oceania Island Biodiversity Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Oceania",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Oceania",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.88,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "portfolio_score": 0.9,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 128,
+    "title": "Australian and Maori Cultural Context Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Oceania",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Oceania",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.87,
+    "demand_score": 0.83,
+    "commercial_score": 0.81,
+    "portfolio_score": 0.89,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 129,
+    "title": "Pacific Atoll Maps Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Oceania",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Oceania",
+    "balance_tags": [
+      "geography"
+    ],
+    "recognition_score": 0.86,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "portfolio_score": 0.88,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 130,
+    "title": "Birds of Oceania Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Oceania",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Oceania",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.85,
+    "demand_score": 0.81,
+    "commercial_score": 0.79,
+    "portfolio_score": 0.87,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 131,
+    "title": "Indigenous North American Heritage Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Global",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.96,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 132,
+    "title": "Mesoamerican Civilizations Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Global",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "heritage"
+    ],
+    "recognition_score": 0.93,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.95,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 133,
+    "title": "Andean Civilizations Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Global",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "heritage"
+    ],
+    "recognition_score": 0.92,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.94,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 134,
+    "title": "Indigenous Cartography Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Global",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "geography"
+    ],
+    "recognition_score": 0.91,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.93,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 135,
+    "title": "Amazon Biodiversity and Stewardship Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Global",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.92,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 136,
+    "title": "World Indigenous Knowledge Context Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Global",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.89,
+    "demand_score": 0.85,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.91,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 137,
+    "title": "African Kingdoms and Cities Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Sub-Saharan Africa",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.88,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "portfolio_score": 0.9,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 138,
+    "title": "African Rock Art and Knowledge Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Sub-Saharan Africa",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.87,
+    "demand_score": 0.83,
+    "commercial_score": 0.81,
+    "portfolio_score": 0.89,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 139,
+    "title": "Sub-Saharan Biodiversity Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Sub-Saharan Africa",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.86,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "portfolio_score": 0.88,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 140,
+    "title": "Baobab and Forest Giants Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Sub-Saharan Africa",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.85,
+    "demand_score": 0.81,
+    "commercial_score": 0.79,
+    "portfolio_score": 0.87,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 141,
+    "title": "Swahili Coast Heritage Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Sub-Saharan Africa",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.96,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 142,
+    "title": "West African Manuscripts Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Sub-Saharan Africa",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.93,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.95,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 143,
+    "title": "Islamic Architecture and Geometry Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "West Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "West Asia",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.92,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.94,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 144,
+    "title": "Persian Heritage and Miniatures Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "West Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "West Asia",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.91,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.93,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 145,
+    "title": "West Asian Archaeology Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "West Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "West Asia",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.92,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 146,
+    "title": "Arabian Biodiversity Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "West Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "West Asia",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.89,
+    "demand_score": 0.85,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.91,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 147,
+    "title": "Historic Islamic Maps Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "West Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "West Asia",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.88,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "portfolio_score": 0.9,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 148,
+    "title": "Desert Monasteries and Routes Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "West Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "West Asia",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.87,
+    "demand_score": 0.83,
+    "commercial_score": 0.81,
+    "portfolio_score": 0.89,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 149,
+    "title": "Silk Roads Cities Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Central Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Central Asia",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.86,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "portfolio_score": 0.88,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 150,
+    "title": "Central Asian Steppe Cultures Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Central Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Central Asia",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.85,
+    "demand_score": 0.81,
+    "commercial_score": 0.79,
+    "portfolio_score": 0.87,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 151,
+    "title": "Central Asian Endangered Species Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Central Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Central Asia",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.96,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 152,
+    "title": "Aral Sea Climate Maps Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Central Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Central Asia",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.93,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.95,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 153,
+    "title": "Nomadic Architecture Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Central Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Central Asia",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.92,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.94,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 154,
+    "title": "Central Asian Textile Patterns Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Central Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Central Asia",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.91,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.93,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 155,
+    "title": "South Asian Sacred Sites Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "South Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "South Asia",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.92,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 156,
+    "title": "South Asian Cave Temples Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "South Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "South Asia",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.89,
+    "demand_score": 0.85,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.91,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 157,
+    "title": "Indian Ocean Trade Maps Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "South Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "South Asia",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.88,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "portfolio_score": 0.9,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 158,
+    "title": "Himalayan Climate Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "South Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "South Asia",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.87,
+    "demand_score": 0.83,
+    "commercial_score": 0.81,
+    "portfolio_score": 0.89,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 159,
+    "title": "South Asian Flagship Species Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "South Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "South Asia",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.86,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "portfolio_score": 0.88,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 160,
+    "title": "Mughal and South Asian Public Domain Art Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "South Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "South Asia",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.85,
+    "demand_score": 0.81,
+    "commercial_score": 0.79,
+    "portfolio_score": 0.87,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 161,
+    "title": "Oceania Climate and Reef Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Oceania",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Oceania",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.96,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 162,
+    "title": "Pacific Indigenous Navigation Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Oceania",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Oceania",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.93,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.95,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 163,
+    "title": "Oceania Island Biodiversity Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Oceania",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Oceania",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.92,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.94,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 164,
+    "title": "Australian and Maori Cultural Context Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Oceania",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Oceania",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.91,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.93,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 165,
+    "title": "Pacific Atoll Maps Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Oceania",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Oceania",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.92,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 166,
+    "title": "Birds of Oceania Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Oceania",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Oceania",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.89,
+    "demand_score": 0.85,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.91,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 167,
+    "title": "Indigenous North American Heritage Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Global",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.88,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "portfolio_score": 0.9,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 168,
+    "title": "Mesoamerican Civilizations Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Global",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.87,
+    "demand_score": 0.83,
+    "commercial_score": 0.81,
+    "portfolio_score": 0.89,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 169,
+    "title": "Andean Civilizations Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Global",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.86,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "portfolio_score": 0.88,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 170,
+    "title": "Indigenous Cartography Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Global",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.85,
+    "demand_score": 0.81,
+    "commercial_score": 0.79,
+    "portfolio_score": 0.87,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 171,
+    "title": "Amazon Biodiversity and Stewardship Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Global",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.96,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 172,
+    "title": "World Indigenous Knowledge Context Classroom Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Global",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Indigenous Cultures",
+    "balance_tags": [
+      "education"
+    ],
+    "recognition_score": 0.93,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.95,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 173,
+    "title": "African Kingdoms and Cities Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Sub-Saharan Africa",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "heritage"
+    ],
+    "recognition_score": 0.92,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.94,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 174,
+    "title": "African Rock Art and Knowledge Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Sub-Saharan Africa",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.91,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.93,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 175,
+    "title": "Sub-Saharan Biodiversity Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Sub-Saharan Africa",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.92,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 176,
+    "title": "Baobab and Forest Giants Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Sub-Saharan Africa",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.89,
+    "demand_score": 0.85,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.91,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 177,
+    "title": "Swahili Coast Heritage Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Sub-Saharan Africa",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "culture"
+    ],
+    "recognition_score": 0.88,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "portfolio_score": 0.9,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 178,
+    "title": "West African Manuscripts Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Sub-Saharan Africa",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Sub-Saharan Africa",
+    "balance_tags": [
+      "culture"
+    ],
+    "recognition_score": 0.87,
+    "demand_score": 0.83,
+    "commercial_score": 0.81,
+    "portfolio_score": 0.89,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 179,
+    "title": "Islamic Architecture and Geometry Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "West Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "West Asia",
+    "balance_tags": [
+      "culture"
+    ],
+    "recognition_score": 0.86,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "portfolio_score": 0.88,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 180,
+    "title": "Persian Heritage and Miniatures Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "West Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "West Asia",
+    "balance_tags": [
+      "culture"
+    ],
+    "recognition_score": 0.85,
+    "demand_score": 0.81,
+    "commercial_score": 0.79,
+    "portfolio_score": 0.87,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 181,
+    "title": "West Asian Archaeology Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "West Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "West Asia",
+    "balance_tags": [
+      "heritage"
+    ],
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.96,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 182,
+    "title": "Arabian Biodiversity Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "West Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "West Asia",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.93,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.95,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 183,
+    "title": "Historic Islamic Maps Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "West Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "West Asia",
+    "balance_tags": [
+      "geography"
+    ],
+    "recognition_score": 0.92,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.94,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 184,
+    "title": "Desert Monasteries and Routes Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "West Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "West Asia",
+    "balance_tags": [
+      "heritage"
+    ],
+    "recognition_score": 0.91,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.93,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 185,
+    "title": "Silk Roads Cities Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Central Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Central Asia",
+    "balance_tags": [
+      "heritage"
+    ],
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.92,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 186,
+    "title": "Central Asian Steppe Cultures Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Central Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Central Asia",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.89,
+    "demand_score": 0.85,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.91,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 187,
+    "title": "Central Asian Endangered Species Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Central Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Central Asia",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.88,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "portfolio_score": 0.9,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 188,
+    "title": "Aral Sea Climate Maps Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Central Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Central Asia",
+    "balance_tags": [
+      "climate"
+    ],
+    "recognition_score": 0.87,
+    "demand_score": 0.83,
+    "commercial_score": 0.81,
+    "portfolio_score": 0.89,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 189,
+    "title": "Nomadic Architecture Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Central Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Central Asia",
+    "balance_tags": [
+      "culture"
+    ],
+    "recognition_score": 0.86,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "portfolio_score": 0.88,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 190,
+    "title": "Central Asian Textile Patterns Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Central Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Central Asia",
+    "balance_tags": [
+      "culture"
+    ],
+    "recognition_score": 0.85,
+    "demand_score": 0.81,
+    "commercial_score": 0.79,
+    "portfolio_score": 0.87,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 191,
+    "title": "South Asian Sacred Sites Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "South Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "South Asia",
+    "balance_tags": [
+      "heritage"
+    ],
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "portfolio_score": 0.96,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 192,
+    "title": "South Asian Cave Temples Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "South Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "South Asia",
+    "balance_tags": [
+      "heritage"
+    ],
+    "recognition_score": 0.93,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "portfolio_score": 0.95,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 193,
+    "title": "Indian Ocean Trade Maps Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "South Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "South Asia",
+    "balance_tags": [
+      "geography"
+    ],
+    "recognition_score": 0.92,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "portfolio_score": 0.94,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 194,
+    "title": "Himalayan Climate Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "South Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "South Asia",
+    "balance_tags": [
+      "climate"
+    ],
+    "recognition_score": 0.91,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "portfolio_score": 0.93,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 195,
+    "title": "South Asian Flagship Species Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "South Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "South Asia",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "portfolio_score": 0.92,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 196,
+    "title": "Mughal and South Asian Public Domain Art Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "South Asia",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "South Asia",
+    "balance_tags": [
+      "culture"
+    ],
+    "recognition_score": 0.89,
+    "demand_score": 0.85,
+    "commercial_score": 0.83,
+    "portfolio_score": 0.91,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 197,
+    "title": "Oceania Climate and Reef Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Oceania",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Oceania",
+    "balance_tags": [
+      "climate"
+    ],
+    "recognition_score": 0.88,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "portfolio_score": 0.9,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 198,
+    "title": "Pacific Indigenous Navigation Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Oceania",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Oceania",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.87,
+    "demand_score": 0.83,
+    "commercial_score": 0.81,
+    "portfolio_score": 0.89,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 199,
+    "title": "Oceania Island Biodiversity Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Oceania",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Oceania",
+    "balance_tags": [
+      "biodiversity"
+    ],
+    "recognition_score": 0.86,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "portfolio_score": 0.88,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  },
+  {
+    "rank": 200,
+    "title": "Australian and Maori Cultural Context Product Collection",
+    "category": "Representation Expansion Collection",
+    "country": "Oceania",
+    "source": "RC13 portfolio expansion candidates",
+    "region": "Oceania",
+    "balance_tags": [
+      "indigenous_culture"
+    ],
+    "recognition_score": 0.85,
+    "demand_score": 0.81,
+    "commercial_score": 0.79,
+    "portfolio_score": 0.87,
+    "public_domain_readiness": "mixed_item_review_required",
+    "recommended_products": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books",
+      "Historic Maps",
+      "Educational Card Sets"
+    ]
+  }
+]
