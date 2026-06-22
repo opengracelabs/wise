@@ -205,9 +205,11 @@ The platform plane implements the **founder build order** (see [06-build-roadmap
 | Attribute | Specification |
 |-----------|--------------|
 | Inputs | Knowledge graph selections, preserved media, editorial workflows |
-| Outputs | Exhibits, story packages, open datasets, IIIF manifests, API collections |
+| Outputs | Exhibits, story packages, articles, encyclopedias, handbooks, field guides, books, ebooks, audiobooks, videos, podcasts, courses, open datasets, IIIF manifests, API collections |
 | Reference models | Europeana, National Geographic |
 | Agent | [Publishing Agent](15-publishing-agent.md) — assembles encyclopedias, field guides, books, and reports; generates IIIF manifests; enforces editorial gates |
+
+Publishing is the canonical content factory. It may transform approved graph selections and preserved media into public editorial forms, but it does not bypass rights, quality, or translation gates.
 
 ---
 
@@ -222,11 +224,14 @@ The primary public portal: search, explore, entity pages, maps, timelines, and v
 - Consumes: Search, Knowledge Graph, Translation Fabric, Publishing
 - Serves: Web, mobile, low-bandwidth, accessibility-compliant interfaces
 
-### 5.2 Products
+### 5.2 Products and Commercial Operations
 
-Derived public products built on canonical memory: apps, APIs for third parties, embeddable widgets, data products.
+Derived public products built on canonical memory: apps, APIs for third parties, embeddable widgets, data products, print products, educational kits, merchandise, and licensed derivative works.
 
 - Constitutional constraint: Products must not gate access to canonical public memory ([01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md))
+- Product factories include wall art, calendars, puzzles, paint-by-numbers, maps, books, drinkware, apparel, and educational kits.
+- Commercial operations include product sales, memberships, sponsorships, donations, licensing, and endowment support.
+- Revenue operations fund the mission but remain subordinate to ADR-010: public canonical memory stays freely accessible.
 
 ### 5.3 Education
 
