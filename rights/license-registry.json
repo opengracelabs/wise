@@ -1,0 +1,47 @@
+{
+  "registry_version": "rc17-rights-provenance/0.1.0",
+  "licenses": [
+    {
+      "license_id": "noc-oklr",
+      "code": "NoC-OKLR",
+      "label": "No Copyright - Other Known Legal Restrictions",
+      "uri": "http://rightsstatements.org/vocab/NoC-OKLR/1.0/",
+      "rights_category": "known_legal_restrictions",
+      "verified": true,
+      "publication_allowed": true,
+      "requires_attribution": true
+    },
+    {
+      "license_id": "cc0-1.0",
+      "code": "CC0-1.0",
+      "label": "Creative Commons CC0 1.0 Universal",
+      "uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "spdx_id": "CC0-1.0",
+      "rights_category": "public_domain",
+      "verified": true,
+      "publication_allowed": true,
+      "requires_attribution": false
+    },
+    {
+      "license_id": "cc-by-4.0",
+      "code": "CC-BY-4.0",
+      "label": "Creative Commons Attribution 4.0 International",
+      "uri": "https://creativecommons.org/licenses/by/4.0/",
+      "spdx_id": "CC-BY-4.0",
+      "rights_category": "open_license",
+      "verified": true,
+      "publication_allowed": true,
+      "requires_attribution": true
+    },
+    {
+      "license_id": "restricted-cultural",
+      "code": "RESTRICTED-CULTURAL",
+      "label": "Restricted cultural protocol",
+      "uri": "https://example.org/rights/restricted-cultural",
+      "rights_category": "restricted",
+      "verified": true,
+      "publication_allowed": false,
+      "requires_attribution": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "registry_version": "rc17-rights-provenance/0.1.0",
+  "rules": [
+    {
+      "jurisdiction": "GLOBAL",
+      "label": "Global publication baseline",
+      "publication_allowed": true,
+      "restricted_publication_allowed": false,
+      "required_checks": [
+        "source_verified",
+        "license_verified",
+        "provenance_verified",
+        "rights_approved",
+        "publication_approved"
+      ]
+    },
+    {
+      "jurisdiction": "GB",
+      "label": "United Kingdom publication baseline",
+      "publication_allowed": true,
+      "restricted_publication_allowed": false,
+      "required_checks": [
+        "source_verified",
+        "license_verified",
+        "provenance_verified",
+        "rights_approved",
+        "publication_approved"
+      ]
+    },
+    {
+      "jurisdiction": "US",
+      "label": "United States publication baseline",
+      "publication_allowed": true,
+      "restricted_publication_allowed": false,
+      "required_checks": [
+        "source_verified",
+        "license_verified",
+        "provenance_verified",
+        "rights_approved",
+        "publication_approved"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "registry_version": "rc17-rights-provenance/0.1.0",
+  "attributions": [
+    {
+      "attribution_id": "attr-stonehenge",
+      "asset_id": "stonehenge",
+      "required": true,
+      "status": "verified",
+      "display_text": "Source: UNESCO World Heritage Centre, Stonehenge World Heritage List entry."
+    },
+    {
+      "attribution_id": "attr-everglades",
+      "asset_id": "everglades-national-park",
+      "required": true,
+      "status": "verified",
+      "display_text": "Source: Ramsar Sites Information Service and UNESCO World Heritage Centre."
+    },
+    {
+      "attribution_id": "attr-panthera-leo",
+      "asset_id": "panthera-leo",
+      "required": true,
+      "status": "verified",
+      "display_text": "Source: GBIF Backbone Taxonomy, Panthera leo."
+    },
+    {
+      "attribution_id": "attr-wikidata",
+      "asset_id": "wikidata-q140-lion",
+      "required": false,
+      "status": "verified",
+      "display_text": "Source: Wikidata Q140, CC0."
+    },
+    {
+      "attribution_id": "attr-sensitive-oral-history",
+      "asset_id": "sensitive-oral-history-example",
+      "required": true,
+      "status": "verified",
+      "display_text": "Restricted community archive record; public attribution withheld pending steward protocol."
+    }
+  ]
+}
