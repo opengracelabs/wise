@@ -1,0 +1,13 @@
+{
+  "wikidata_id": "Q39671",
+  "label": "Stonehenge",
+  "description": "prehistoric monument in Wiltshire, England",
+  "instance_of": "Q839954",
+  "coordinates": {
+    "latitude": 51.178882,
+    "longitude": -1.826215
+  },
+  "unesco_whc_id": "373",
+  "source_uri": "https://www.wikidata.org/wiki/Q39671",
+  "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/"
+}

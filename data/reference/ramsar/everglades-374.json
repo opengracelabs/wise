@@ -1,0 +1,19 @@
+{
+  "ramsar_site_id": "374",
+  "official_name": "Everglades National Park",
+  "short_title": "Everglades National Park",
+  "description": "The Everglades is a vast, shallow, slow-moving river of grass covering much of the southern tip of Florida. The park protects the largest subtropical wilderness in the United States and provides critical habitat for numerous threatened and endangered species.",
+  "country": "United States of America",
+  "region": "North America",
+  "designation_date": "1987-06-04",
+  "ramsar_criteria": ["1", "2", "3", "4", "5", "6", "7", "8"],
+  "iucn_category": "II",
+  "designation_type": "National Park",
+  "area_hectares": 610493,
+  "coordinates": {
+    "latitude": 25.2866,
+    "longitude": -80.8987
+  },
+  "source_uri": "https://rsis.ramsar.org/ris/374",
+  "rights_uri": "http://rightsstatements.org/vocab/NoC-OKLR/1.0/"
+}

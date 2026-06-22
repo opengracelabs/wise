@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panthera leo — WISE Reference Capability 2</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <p class="eyebrow">WISE Founder Demonstration Surface — Biodiversity</p>
+    <h1 id="object-title">Loading…</h1>
+    <p id="object-subtitle" class="subtitle"></p>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section aria-labelledby="summary-heading">
+      <h2 id="summary-heading">Taxonomic summary</h2>
+      <p id="object-description"></p>
+      <dl class="fact-list">
+        <div>
+          <dt>GBIF taxonKey</dt>
+          <dd id="gbif-taxon-key">—</dd>
+        </div>
+        <div>
+          <dt>GBIF usageKey</dt>
+          <dd id="gbif-usage-key">—</dd>
+        </div>
+        <div>
+          <dt>Wikidata</dt>
+          <dd id="wikidata-id">—</dd>
+        </div>
+        <div>
+          <dt>Encyclopedia of Life</dt>
+          <dd id="eol-id">—</dd>
+        </div>
+        <div>
+          <dt>Taxon rank</dt>
+          <dd id="taxon-rank">—</dd>
+        </div>
+        <div>
+          <dt>Family / Genus</dt>
+          <dd><span id="family">—</span> / <span id="genus">—</span></dd>
+        </div>
+        <div>
+          <dt>ARK</dt>
+          <dd><code id="object-ark">—</code></dd>
+        </div>
+        <div>
+          <dt>Rights</dt>
+          <dd id="rights-status">—</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section aria-labelledby="status-heading">
+      <h2 id="status-heading">Clearance status</h2>
+      <ul class="status-list" id="clearance-list">
+        <li><span class="badge" id="rights-badge">Rights</span></li>
+        <li><span class="badge" id="quality-badge">Quality</span></li>
+        <li><span class="badge" id="accessibility-badge">Accessibility</span></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="backbone-heading">
+      <h2 id="backbone-heading">GBIF Taxonomic Backbone</h2>
+      <ol id="taxonomic-backbone" class="provenance-chain"></ol>
+    </section>
+
+    <section aria-labelledby="provenance-heading">
+      <h2 id="provenance-heading">Provenance chain</h2>
+      <ol id="provenance-chain" class="provenance-chain"></ol>
+    </section>
+
+    <section aria-labelledby="preservation-heading">
+      <h2 id="preservation-heading">Preservation</h2>
+      <dl class="fact-list">
+        <div>
+          <dt>Fixity (SHA-256)</dt>
+          <dd><code id="fixity-digest">—</code></dd>
+        </div>
+        <div>
+          <dt>Storage tier</dt>
+          <dd id="storage-tier">—</dd>
+        </div>
+      </dl>
+      <h3>Preservation events</h3>
+      <ul id="premis-events"></ul>
+    </section>
+
+    <section aria-labelledby="graph-heading">
+      <h2 id="graph-heading">Knowledge graph</h2>
+      <p>Entity type: <code id="entity-type">—</code></p>
+      <ul id="external-links"></ul>
+    </section>
+
+    <section aria-labelledby="quality-heading">
+      <h2 id="quality-heading">Quality review</h2>
+      <p id="quality-finding"></p>
+      <p>Composite score: <strong id="quality-score">—</strong></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      Read-only demonstration record. Source attribution:
+      <a id="source-link" href="https://www.gbif.org/species/5219404/">GBIF</a>.
+      Darwin Core normalized metadata. Not Phase 11 Public Experience.
+    </p>
+  </footer>
+
+  <div id="load-error" class="error-panel" role="alert" hidden>
+    Unable to load species data. Ensure api-service and database migrations are running.
+  </div>
+
+  <script src="/static/species.js" defer></script>
+  <script defer>
+    document.addEventListener("DOMContentLoaded", () => {
+      window.WISE_SPECIES.load("panthera-leo");
+    });
+  </script>
+</body>
+</html>

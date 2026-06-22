@@ -1,0 +1,188 @@
+# Canonical Capability Registry manifest — architecture-v1.0 §4 platform capabilities + §3 governance
+# Do not add capabilities beyond this manifest.
+
+version: "1.0"
+seed_actor: wise-orchestration-seed
+
+capabilities:
+  - capability_id: wise.capability.discovery
+    canonical_section: "03 §4.1"
+    display_name: Discovery
+    build_phase: 1
+    plane: platform
+    contract_producer: wise_contracts.discovery.DiscoveryRecord
+    contract_consumer: null
+
+  - capability_id: wise.capability.ingestion
+    canonical_section: "03 §4.2"
+    display_name: Ingestion
+    build_phase: 2
+    plane: platform
+    contract_producer: wise_contracts.preservation.PreservedObjectDescriptor
+    contract_consumer: wise_contracts.discovery.DiscoveryRecord
+
+  - capability_id: wise.capability.preservation
+    canonical_section: "03 §4.3"
+    display_name: Preservation
+    build_phase: 3
+    plane: platform
+    contract_producer: wise_contracts.preservation.PreservedObjectDescriptor
+    contract_consumer: null
+
+  - capability_id: wise.capability.knowledge-modeling
+    canonical_section: "03 §4.4"
+    display_name: Knowledge Modeling
+    build_phase: 4
+    plane: platform
+    contract_producer: wise_contracts.metadata.EntityAssertion
+    contract_consumer: wise_contracts.preservation.PreservedObjectDescriptor
+
+  - capability_id: wise.capability.knowledge-graph
+    canonical_section: "03 §4.5"
+    display_name: Knowledge Graph
+    build_phase: 5
+    plane: platform
+    contract_producer: wise_contracts.graph.GraphEntity
+    contract_consumer: wise_contracts.metadata.EntityAssertion
+
+  - capability_id: wise.capability.search
+    canonical_section: "03 §4.6"
+    display_name: Search
+    build_phase: 6
+    plane: platform
+    contract_producer: null
+    contract_consumer: wise_contracts.graph.GraphEntity
+
+  - capability_id: wise.capability.quality
+    canonical_section: "03 §4.7"
+    display_name: Quality Platform
+    build_phase: 7
+    plane: platform
+    contract_producer: wise_contracts.quality.QualityReviewRecord
+    contract_consumer: wise_contracts.graph.GraphEntity
+
+  - capability_id: wise.capability.research
+    canonical_section: "03 §4.8"
+    display_name: Research Fabric
+    build_phase: 8
+    plane: platform
+    contract_producer: null
+    contract_consumer: wise_contracts.graph.GraphEntity
+
+  - capability_id: wise.capability.translation
+    canonical_section: "03 §4.9"
+    display_name: Translation Fabric
+    build_phase: 9
+    plane: platform
+    contract_producer: null
+    contract_consumer: wise_contracts.graph.GraphEntity
+
+  - capability_id: wise.capability.publishing
+    canonical_section: "03 §4.10"
+    display_name: Publishing
+    build_phase: 10
+    plane: platform
+    contract_producer: null
+    contract_consumer: wise_contracts.graph.GraphEntity
+
+  - capability_id: wise.capability.standards-conformance
+    canonical_section: "03 §3 Standards Registry"
+    display_name: Standards Conformance
+    build_phase: null
+    plane: constitutional
+    contract_producer: wise_contracts.orchestration.StandardsComplianceReport
+    contract_consumer: null
+
+  - capability_id: wise.capability.benchmarks
+    canonical_section: "03 §3 Benchmark Program"
+    display_name: Benchmark Program
+    build_phase: null
+    plane: constitutional
+    contract_producer: wise_contracts.orchestration.BenchmarkReport
+    contract_consumer: null
+
+capability_agents:
+  - capability_id: wise.capability.discovery
+    agent_id: wise.agent.source-discovery
+    role: primary
+
+  - capability_id: wise.capability.ingestion
+    agent_id: wise.agent.preservation
+    role: primary
+
+  - capability_id: wise.capability.preservation
+    agent_id: wise.agent.preservation
+    role: primary
+
+  - capability_id: wise.capability.knowledge-modeling
+    agent_id: wise.agent.metadata
+    role: primary
+
+  - capability_id: wise.capability.knowledge-graph
+    agent_id: wise.agent.knowledge-graph
+    role: primary
+
+  - capability_id: wise.capability.quality
+    agent_id: wise.agent.quality-review
+    role: primary
+
+  - capability_id: wise.capability.quality
+    agent_id: wise.agent.metadata
+    role: supporting
+
+  - capability_id: wise.capability.translation
+    agent_id: wise.agent.translation
+    role: primary
+
+  - capability_id: wise.capability.publishing
+    agent_id: wise.agent.publishing
+    role: primary
+
+  - capability_id: wise.capability.standards-conformance
+    agent_id: wise.agent.standards
+    role: governance
+
+  - capability_id: wise.capability.benchmarks
+    agent_id: wise.agent.benchmark
+    role: governance
+
+capability_services:
+  - capability_id: wise.capability.discovery
+    service_name: discovery-service
+    base_url_env: DISCOVERY_SERVICE_URL
+    health_path: /health
+
+  - capability_id: wise.capability.ingestion
+    service_name: preservation-service
+    base_url_env: PRESERVATION_SERVICE_URL
+    health_path: /health
+
+  - capability_id: wise.capability.preservation
+    service_name: preservation-service
+    base_url_env: PRESERVATION_SERVICE_URL
+    health_path: /health
+
+  - capability_id: wise.capability.knowledge-modeling
+    service_name: metadata-service
+    base_url_env: METADATA_SERVICE_URL
+    health_path: /health
+
+  - capability_id: wise.capability.knowledge-graph
+    service_name: knowledge-graph-service
+    base_url_env: KNOWLEDGE_GRAPH_SERVICE_URL
+    health_path: /health
+
+  - capability_id: wise.capability.quality
+    service_name: metadata-service
+    base_url_env: METADATA_SERVICE_URL
+    health_path: /health
+
+  - capability_id: wise.capability.standards-conformance
+    service_name: orchestrator-service
+    base_url_env: ORCHESTRATOR_SERVICE_URL
+    health_path: /health
+
+  - capability_id: wise.capability.benchmarks
+    service_name: orchestrator-service
+    base_url_env: ORCHESTRATOR_SERVICE_URL
+    health_path: /health

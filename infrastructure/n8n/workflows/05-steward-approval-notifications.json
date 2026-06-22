@@ -1,0 +1,106 @@
+{
+  "name": "WISE Steward Approval Notifications",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [{ "field": "cronExpression", "expression": "*/30 * * * *" }]
+        }
+      },
+      "id": "a5000005-0005-4005-8005-000000000001",
+      "name": "Every 30 Minutes",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT 'discovery' AS queue_type, stable_id AS artifact_ref, title AS label, created_at::text, 'discovery-record' AS approval_path FROM discovery.records WHERE status = 'proposed' UNION ALL SELECT 'preservation', stable_id, ark, created_at::text, 'preservation-object' FROM preservation.objects WHERE status = 'proposed' UNION ALL SELECT 'modeling', stable_id, title, created_at::text, 'metadata-record' FROM modeling.metadata_records WHERE status = 'proposed' UNION ALL SELECT 'graph', stable_id, label, created_at::text, 'graph-entity' FROM graph.entities WHERE status = 'proposed' UNION ALL SELECT 'quality', entity_uri, review_domain, created_at::text, 'quality-review' FROM quality.reviews WHERE status = 'proposed' ORDER BY created_at;"
+      },
+      "id": "a5000005-0005-4005-8005-000000000002",
+      "name": "Union Approval Queues",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [220, 0]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT dedupe_key FROM ops.steward_notifications WHERE notified_at >= now() - interval '7 days';"
+      },
+      "id": "a5000005-0005-4005-8005-000000000003",
+      "name": "Recent Notifications",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [220, 160]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $('Union Approval Queues').all().map(i => i.json);\nconst sent = new Set($('Recent Notifications').all().map(i => i.json.dedupe_key));\nreturn items.filter(r => {\n  const key = `${r.queue_type}:${r.artifact_ref}`;\n  return !sent.has(key);\n}).map(r => ({ json: { ...r, dedupe_key: `${r.queue_type}:${r.artifact_ref}` } }));"
+      },
+      "id": "a5000005-0005-4005-8005-000000000004",
+      "name": "Dedupe",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [480, 80]
+    },
+    {
+      "parameters": { "batchSize": 10, "options": {} },
+      "id": "a5000005-0005-4005-8005-000000000005",
+      "name": "Batch Notify",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [700, 80]
+    },
+    {
+      "parameters": {
+        "fromEmail": "={{$env.STEWARD_EMAIL_FROM}}",
+        "toEmail": "={{$env.STEWARD_EMAIL_TO}}",
+        "subject": "=WISE approval required: {{$json.queue_type}} / {{$json.artifact_ref}}",
+        "emailType": "text",
+        "message": "=Artifact awaiting steward review.\\nQueue: {{$json.queue_type}}\\nRef: {{$json.artifact_ref}}\\nLabel: {{$json.label}}\\nApprove at: {{$env.WISE_PUBLIC_URL}}/steward/approvals/{{$json.approval_path}}/{{$json.artifact_ref}}"
+      },
+      "id": "a5000005-0005-4005-8005-000000000006",
+      "name": "Email Steward",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [920, 80]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO ops.steward_notifications (queue_type, artifact_ref, channel, dedupe_key) VALUES ($1, $2, 'email', $3) ON CONFLICT (dedupe_key) DO NOTHING;"
+      },
+      "id": "a5000005-0005-4005-8005-000000000007",
+      "name": "Record Notification",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [1140, 80]
+    }
+  ],
+  "connections": {
+    "Every 30 Minutes": {
+      "main": [
+        [
+          { "node": "Union Approval Queues", "type": "main", "index": 0 },
+          { "node": "Recent Notifications", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "Union Approval Queues": { "main": [[{ "node": "Dedupe", "type": "main", "index": 0 }]] },
+    "Recent Notifications": { "main": [[{ "node": "Dedupe", "type": "main", "index": 0 }]] },
+    "Dedupe": { "main": [[{ "node": "Batch Notify", "type": "main", "index": 0 }]] },
+    "Batch Notify": { "main": [[{ "node": "Email Steward", "type": "main", "index": 0 }]] },
+    "Email Steward": { "main": [[{ "node": "Record Notification", "type": "main", "index": 0 }]] },
+    "Record Notification": { "main": [[{ "node": "Batch Notify", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "meta": {
+    "wise": {
+      "workflow_id": "wise-steward-approval-notifications",
+      "catalog": "docs/implementation/n8n-workflow-catalog.md#55-wise-steward-approval-notifications"
+    }
+  },
+  "tags": [{ "name": "wise" }, { "name": "steward" }, { "name": "hil" }]
+}

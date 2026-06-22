@@ -1,0 +1,82 @@
+{
+  "name": "WISE CI Failure Escalation",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "wise-ci-failure",
+        "options": {}
+      },
+      "id": "a6000006-0006-4006-8006-000000000001",
+      "name": "GitHub Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [0, 0],
+      "webhookId": "wise-ci-failure"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "leftValue": "", "typeValidation": "strict" },
+          "conditions": [
+            {
+              "id": "cond-failure",
+              "leftValue": "={{$json.workflow_run?.conclusion || $json.check_run?.conclusion}}",
+              "rightValue": "failure",
+              "operator": { "type": "string", "operation": "equals" }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "a6000006-0006-4006-8006-000000000002",
+      "name": "If CI Failed",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [220, 0]
+    },
+    {
+      "parameters": {
+        "owner": "={{$env.WISE_GITHUB_OWNER}}",
+        "repository": "={{$env.WISE_GITHUB_REPO}}",
+        "title": "=CI failed: {{$json.workflow_run?.name || $json.check_run?.name}}",
+        "labels": ["ci-failure", "n8n"],
+        "body": "=GitHub Actions workflow failed.\\nRun: {{$json.workflow_run?.html_url || $json.check_run?.details_url}}\\nBranch: {{$json.workflow_run?.head_branch}}"
+      },
+      "id": "a6000006-0006-4006-8006-000000000003",
+      "name": "Create GitHub Issue",
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1.1,
+      "position": [440, -40]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO ops.workflow_runs (workflow_id, trigger_type, status, finished_at, summary) VALUES ('wise-ci-failure-escalation', 'webhook', 'succeeded', now(), $1::jsonb);"
+      },
+      "id": "a6000006-0006-4006-8006-000000000004",
+      "name": "Log Escalation",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [440, 120]
+    }
+  ],
+  "connections": {
+    "GitHub Webhook": { "main": [[{ "node": "If CI Failed", "type": "main", "index": 0 }]] },
+    "If CI Failed": {
+      "main": [
+        [{ "node": "Create GitHub Issue", "type": "main", "index": 0 }],
+        []
+      ]
+    },
+    "Create GitHub Issue": { "main": [[{ "node": "Log Escalation", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "meta": {
+    "wise": {
+      "workflow_id": "wise-ci-failure-escalation",
+      "catalog": "docs/implementation/n8n-workflow-catalog.md#56-wise-ci-failure-escalation"
+    }
+  },
+  "tags": [{ "name": "wise" }, { "name": "github" }, { "name": "ci" }]
+}

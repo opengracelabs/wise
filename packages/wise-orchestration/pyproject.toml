@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wise-orchestration"
+version = "0.1.0"
+description = "LangGraph orchestration for Reference Capability 1 (architecture-v1.0)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "wise-contracts",
+    "wise-reference",
+    "wise-registry",
+    "langgraph>=0.2.0",
+    "langchain-core>=0.3.0",
+    "langgraph-checkpoint-postgres>=2.0",
+    "psycopg[binary,pool]>=3.1",
+    "psycopg-pool>=3.2",
+    "pyyaml>=6.0",
+    "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/wise_orchestration"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"src/wise_orchestration/data" = "wise_orchestration/data"
+
+[tool.pytest.ini_options]
+testpaths = ["../../tests/orchestration"]

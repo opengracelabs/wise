@@ -1,0 +1,14 @@
+{
+  "wikidata_id": "Q212174",
+  "label": "Everglades National Park",
+  "description": "national park in Florida, United States",
+  "instance_of": ["Q46169", "Q179049"],
+  "country": "Q30",
+  "geonames_id": "4157029",
+  "coordinates": {
+    "latitude": 25.2866,
+    "longitude": -80.8987
+  },
+  "source_uri": "https://www.wikidata.org/wiki/Q212174",
+  "rights_uri": "https://creativecommons.org/publicdomain/zero/1.0/"
+}

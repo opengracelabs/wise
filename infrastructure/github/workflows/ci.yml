@@ -1,0 +1,66 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  PYTHON_VERSION: "3.12"
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgis/postgis:16-3.4
+        env:
+          POSTGRES_USER: wise
+          POSTGRES_PASSWORD: wise
+          POSTGRES_DB: wise
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U wise -d wise"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+
+      - name: Install shared packages
+        run: |
+          pip install -e packages/wise-common -e packages/wise-contracts -e packages/wise-registry -e packages/wise-reference -e packages/wise-orchestration
+          pip install pytest httpx
+
+      - name: Install service packages
+        run: |
+          for svc in discovery metadata preservation knowledge-graph api orchestrator; do
+            pip install -e services/${svc}-service
+          done
+
+      - name: Run smoke tests
+        run: pytest tests/ -v --tb=short
+        env:
+          WISE_ENVIRONMENT: ci
+          DATABASE_URL: postgresql://wise:wise@localhost:5432/wise
+          WISE_TEST_DATABASE_URL: postgresql://wise:wise@localhost:5432/wise
+
+  docker-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build service images
+        run: docker compose build api-service discovery-service metadata-service preservation-service knowledge-graph-service orchestrator-service
+
+      - name: Verify compose config
+        run: docker compose config --quiet

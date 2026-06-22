@@ -1,0 +1,50 @@
+{
+  "name": "WF-02 Steward Approval Queue",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "steward-queue",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "id": "webhook-steward-queue",
+      "name": "Steward Queue Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [260, 300],
+      "webhookId": "wise-steward-queue"
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "={{ $env.ORCHESTRATOR_SERVICE_URL }}/health",
+        "options": {}
+      },
+      "id": "orchestrator-health",
+      "name": "Verify Orchestrator",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [520, 300]
+    }
+  ],
+  "connections": {
+    "Steward Queue Webhook": {
+      "main": [
+        [
+          {
+            "node": "Verify Orchestrator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "meta": {
+    "templateCredsSetupCompleted": true
+  }
+}

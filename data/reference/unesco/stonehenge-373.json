@@ -1,0 +1,16 @@
+{
+  "unesco_whc_id": "373",
+  "title": "Stonehenge, Avebury and Associated Sites",
+  "short_title": "Stonehenge",
+  "description": "Stonehenge and Avebury, in Wiltshire, are among the most famous groups of megaliths in the world. The two sanctuaries consist of circles of menhirs arranged in a pattern whose astronomical significance is still being explored.",
+  "date_inscribed": "1986",
+  "criteria": ["i", "ii", "iii"],
+  "state_party": "United Kingdom of Great Britain and Northern Ireland",
+  "region": "Europe and North America",
+  "coordinates": {
+    "latitude": 51.1789,
+    "longitude": -1.8262
+  },
+  "source_uri": "https://whc.unesco.org/en/list/373/",
+  "rights_uri": "http://rightsstatements.org/vocab/NoC-OKLR/1.0/"
+}

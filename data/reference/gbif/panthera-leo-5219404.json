@@ -1,0 +1,18 @@
+{
+  "gbif_taxon_key": "5219404",
+  "gbif_usage_key": "5219404",
+  "scientific_name": "Panthera leo",
+  "scientific_name_authorship": "Linnaeus, 1758",
+  "taxon_rank": "species",
+  "kingdom": "Animalia",
+  "phylum": "Chordata",
+  "class": "Mammalia",
+  "order": "Carnivora",
+  "family": "Felidae",
+  "genus": "Panthera",
+  "specific_epithet": "leo",
+  "taxonomic_status": "accepted",
+  "common_name": "Lion",
+  "source_uri": "https://www.gbif.org/species/5219404",
+  "rights_uri": "https://creativecommons.org/publicdomain/zero/1.0/"
+}

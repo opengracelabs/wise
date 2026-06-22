@@ -1,0 +1,16 @@
+{
+  "unesco_whc_id": "76",
+  "title": "Everglades National Park",
+  "short_title": "Everglades National Park",
+  "description": "Everglades National Park is the largest designated sub-tropical wilderness reserve on the North American continent. Its juncture at the interface of temperate and sub-tropical America, fresh and brackish water, shallow bays and deeper coastal waters creates a complex of habitats supporting a high diversity of flora and fauna.",
+  "date_inscribed": "1979",
+  "criteria": ["viii", "ix", "x"],
+  "state_party": "United States of America",
+  "region": "Europe and North America",
+  "coordinates": {
+    "latitude": 25.2866,
+    "longitude": -80.8987
+  },
+  "source_uri": "https://whc.unesco.org/en/list/76/",
+  "rights_uri": "http://rightsstatements.org/vocab/NoC-OKLR/1.0/"
+}
