@@ -1,0 +1,81 @@
+{
+  "registry_version": "rc17-rights-provenance/0.1.0",
+  "description": "Publication-grade asset rights registry for RC17 validation.",
+  "assets": [
+    {
+      "asset_id": "stonehenge",
+      "title": "Stonehenge",
+      "asset_type": "heritage_site",
+      "category": "Heritage",
+      "geography": "Europe",
+      "source_id": "unesco-whc",
+      "license_id": "noc-oklr",
+      "provenance_id": "prov-stonehenge-20260622",
+      "attribution_id": "attr-stonehenge",
+      "publication_approval_id": "pub-stonehenge",
+      "jurisdiction": "GB",
+      "rights_status": "rights_approved",
+      "restricted": false
+    },
+    {
+      "asset_id": "everglades-national-park",
+      "title": "Everglades National Park",
+      "asset_type": "protected_area",
+      "category": "Geography",
+      "geography": "North America",
+      "source_id": "ramsar",
+      "license_id": "noc-oklr",
+      "provenance_id": "prov-everglades-20260622",
+      "attribution_id": "attr-everglades",
+      "publication_approval_id": "pub-everglades",
+      "jurisdiction": "US",
+      "rights_status": "rights_approved",
+      "restricted": false
+    },
+    {
+      "asset_id": "panthera-leo",
+      "title": "Panthera leo",
+      "asset_type": "species",
+      "category": "Biodiversity",
+      "geography": "Africa",
+      "source_id": "gbif",
+      "license_id": "cc-by-4.0",
+      "provenance_id": "prov-panthera-leo-20260622",
+      "attribution_id": "attr-panthera-leo",
+      "publication_approval_id": "pub-panthera-leo",
+      "jurisdiction": "GLOBAL",
+      "rights_status": "rights_approved",
+      "restricted": false
+    },
+    {
+      "asset_id": "wikidata-q140-lion",
+      "title": "Wikidata Q140 lion entity snapshot",
+      "asset_type": "authority_record",
+      "category": "Biodiversity",
+      "geography": "GLOBAL",
+      "source_id": "wikidata",
+      "license_id": "cc0-1.0",
+      "provenance_id": "prov-wikidata-q140-20260622",
+      "attribution_id": "attr-wikidata",
+      "publication_approval_id": "pub-wikidata-q140",
+      "jurisdiction": "GLOBAL",
+      "rights_status": "rights_approved",
+      "restricted": false
+    },
+    {
+      "asset_id": "sensitive-oral-history-example",
+      "title": "Sensitive oral history example",
+      "asset_type": "oral_history",
+      "category": "Culture",
+      "geography": "Africa",
+      "source_id": "community-archive",
+      "license_id": "restricted-cultural",
+      "provenance_id": "prov-sensitive-oral-history-20260622",
+      "attribution_id": "attr-sensitive-oral-history",
+      "publication_approval_id": "pub-sensitive-oral-history",
+      "jurisdiction": "GLOBAL",
+      "rights_status": "restricted",
+      "restricted": true
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "registry_version": "rc17-rights-provenance/0.1.0",
+  "approvals": [
+    {
+      "approval_id": "pub-stonehenge",
+      "asset_id": "stonehenge",
+      "status": "approved",
+      "approved_by": "rights-steward",
+      "approved_at": "2026-06-22T12:00:00Z",
+      "blockers": []
+    },
+    {
+      "approval_id": "pub-everglades",
+      "asset_id": "everglades-national-park",
+      "status": "approved",
+      "approved_by": "rights-steward",
+      "approved_at": "2026-06-22T12:00:00Z",
+      "blockers": []
+    },
+    {
+      "approval_id": "pub-panthera-leo",
+      "asset_id": "panthera-leo",
+      "status": "approved",
+      "approved_by": "rights-steward",
+      "approved_at": "2026-06-22T12:00:00Z",
+      "blockers": []
+    },
+    {
+      "approval_id": "pub-wikidata-q140",
+      "asset_id": "wikidata-q140-lion",
+      "status": "approved",
+      "approved_by": "rights-steward",
+      "approved_at": "2026-06-22T12:00:00Z",
+      "blockers": []
+    },
+    {
+      "approval_id": "pub-sensitive-oral-history",
+      "asset_id": "sensitive-oral-history-example",
+      "status": "blocked",
+      "approved_by": null,
+      "approved_at": null,
+      "blockers": [
+        "restricted_asset",
+        "license_publication_blocked"
+      ]
+    }
+  ]
+}

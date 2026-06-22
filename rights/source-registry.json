@@ -1,0 +1,60 @@
+{
+  "registry_version": "rc17-rights-provenance/0.1.0",
+  "sources": [
+    {
+      "source_id": "unesco-whc",
+      "display_name": "UNESCO World Heritage Centre",
+      "homepage_url": "https://whc.unesco.org/",
+      "source_type": "heritage_authority",
+      "trust_level": "authoritative",
+      "verified": true,
+      "verification_evidence": [
+        "https://whc.unesco.org/en/list/"
+      ]
+    },
+    {
+      "source_id": "ramsar",
+      "display_name": "Ramsar Sites Information Service",
+      "homepage_url": "https://rsis.ramsar.org/",
+      "source_type": "protected_area_authority",
+      "trust_level": "authoritative",
+      "verified": true,
+      "verification_evidence": [
+        "https://rsis.ramsar.org/"
+      ]
+    },
+    {
+      "source_id": "gbif",
+      "display_name": "Global Biodiversity Information Facility",
+      "homepage_url": "https://www.gbif.org/",
+      "source_type": "biodiversity_authority",
+      "trust_level": "authoritative",
+      "verified": true,
+      "verification_evidence": [
+        "https://www.gbif.org/species/"
+      ]
+    },
+    {
+      "source_id": "wikidata",
+      "display_name": "Wikidata",
+      "homepage_url": "https://www.wikidata.org/",
+      "source_type": "authority_record",
+      "trust_level": "linked_open_data",
+      "verified": true,
+      "verification_evidence": [
+        "https://www.wikidata.org/wiki/Wikidata:Licensing"
+      ]
+    },
+    {
+      "source_id": "community-archive",
+      "display_name": "Community Archive Restricted Collection",
+      "homepage_url": "https://example.org/community-archive",
+      "source_type": "community_collection",
+      "trust_level": "steward_review_required",
+      "verified": true,
+      "verification_evidence": [
+        "https://example.org/community-archive/rights-protocol"
+      ]
+    }
+  ]
+}

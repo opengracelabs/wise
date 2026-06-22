@@ -1,0 +1,107 @@
+{
+  "metrics_version": "rc17-rights-provenance-metrics/0.1.0",
+  "asset_count": 5,
+  "publishable_count": 4,
+  "blocked_count": 1,
+  "publishable_assets": [
+    "stonehenge",
+    "everglades-national-park",
+    "panthera-leo",
+    "wikidata-q140-lion"
+  ],
+  "blocked_assets": [
+    "sensitive-oral-history-example"
+  ],
+  "source_coverage": {
+    "referenced_source_count": 5,
+    "verified_referenced_source_count": 5,
+    "coverage": 1.0
+  },
+  "license_coverage": {
+    "referenced_license_count": 4,
+    "verified_referenced_license_count": 4,
+    "coverage": 1.0
+  },
+  "rights_blockers": {
+    "license_publication_blocked": 1,
+    "publication_not_approved": 1,
+    "restricted_asset": 1,
+    "rights_not_approved": 1
+  },
+  "publication_readiness": {
+    "publishable_share": 0.8,
+    "restricted_asset_count": 1
+  },
+  "lifecycle": {
+    "stonehenge": {
+      "publishable": true,
+      "stages": {
+        "Asset": true,
+        "Source Verified": true,
+        "License Verified": true,
+        "Provenance Verified": true,
+        "Rights Approved": true,
+        "Publication Approved": true,
+        "Publishable": true
+      },
+      "blockers": []
+    },
+    "everglades-national-park": {
+      "publishable": true,
+      "stages": {
+        "Asset": true,
+        "Source Verified": true,
+        "License Verified": true,
+        "Provenance Verified": true,
+        "Rights Approved": true,
+        "Publication Approved": true,
+        "Publishable": true
+      },
+      "blockers": []
+    },
+    "panthera-leo": {
+      "publishable": true,
+      "stages": {
+        "Asset": true,
+        "Source Verified": true,
+        "License Verified": true,
+        "Provenance Verified": true,
+        "Rights Approved": true,
+        "Publication Approved": true,
+        "Publishable": true
+      },
+      "blockers": []
+    },
+    "wikidata-q140-lion": {
+      "publishable": true,
+      "stages": {
+        "Asset": true,
+        "Source Verified": true,
+        "License Verified": true,
+        "Provenance Verified": true,
+        "Rights Approved": true,
+        "Publication Approved": true,
+        "Publishable": true
+      },
+      "blockers": []
+    },
+    "sensitive-oral-history-example": {
+      "publishable": false,
+      "stages": {
+        "Asset": true,
+        "Source Verified": true,
+        "License Verified": true,
+        "Provenance Verified": true,
+        "Rights Approved": false,
+        "Publication Approved": false,
+        "Publishable": false
+      },
+      "blockers": [
+        "license_publication_blocked",
+        "publication_not_approved",
+        "restricted_asset",
+        "rights_not_approved"
+      ]
+    }
+  }
+}

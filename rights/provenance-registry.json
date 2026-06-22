@@ -1,0 +1,76 @@
+{
+  "registry_version": "rc17-rights-provenance/0.1.0",
+  "provenance_records": [
+    {
+      "provenance_id": "prov-stonehenge-20260622",
+      "asset_id": "stonehenge",
+      "source_id": "unesco-whc",
+      "status": "verified",
+      "event_chain": [
+        "source-verified-stonehenge",
+        "license-verified-stonehenge",
+        "provenance-verified-stonehenge"
+      ],
+      "evidence_uris": [
+        "https://whc.unesco.org/en/list/373/"
+      ]
+    },
+    {
+      "provenance_id": "prov-everglades-20260622",
+      "asset_id": "everglades-national-park",
+      "source_id": "ramsar",
+      "status": "verified",
+      "event_chain": [
+        "source-verified-everglades",
+        "license-verified-everglades",
+        "provenance-verified-everglades"
+      ],
+      "evidence_uris": [
+        "https://rsis.ramsar.org/ris/374",
+        "https://whc.unesco.org/en/list/76/"
+      ]
+    },
+    {
+      "provenance_id": "prov-panthera-leo-20260622",
+      "asset_id": "panthera-leo",
+      "source_id": "gbif",
+      "status": "verified",
+      "event_chain": [
+        "source-verified-panthera-leo",
+        "license-verified-panthera-leo",
+        "provenance-verified-panthera-leo"
+      ],
+      "evidence_uris": [
+        "https://www.gbif.org/species/5219404"
+      ]
+    },
+    {
+      "provenance_id": "prov-wikidata-q140-20260622",
+      "asset_id": "wikidata-q140-lion",
+      "source_id": "wikidata",
+      "status": "verified",
+      "event_chain": [
+        "source-verified-wikidata-q140",
+        "license-verified-wikidata-q140",
+        "provenance-verified-wikidata-q140"
+      ],
+      "evidence_uris": [
+        "https://www.wikidata.org/wiki/Q140"
+      ]
+    },
+    {
+      "provenance_id": "prov-sensitive-oral-history-20260622",
+      "asset_id": "sensitive-oral-history-example",
+      "source_id": "community-archive",
+      "status": "verified",
+      "event_chain": [
+        "source-verified-sensitive-oral-history",
+        "license-verified-sensitive-oral-history",
+        "provenance-verified-sensitive-oral-history"
+      ],
+      "evidence_uris": [
+        "https://example.org/community-archive/oral-history"
+      ]
+    }
+  ]
+}
