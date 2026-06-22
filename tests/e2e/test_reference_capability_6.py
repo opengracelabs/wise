@@ -500,6 +500,83 @@ def test_rc13_print_youtube_and_pinterest_production():
 
 
 @pytest.mark.e2e
+def test_rc14_first_publishable_launch_artifacts():
+    ebook_dir = Path("content/ebooks/big-cats-of-the-world")
+    audiobook_dir = Path("content/audiobooks/big-cats-of-the-world")
+    youtube_dir = Path("content/youtube")
+    pinterest_dir = Path("content/pinterest")
+    product_dir = Path("content/products")
+
+    for path in [
+        ebook_dir / "manuscript.md",
+        ebook_dir / "outline.md",
+        ebook_dir / "product-description.md",
+        ebook_dir / "rights-checklist.md",
+        audiobook_dir / "narration-script.md",
+        audiobook_dir / "chapter-outline.md",
+        audiobook_dir / "production-notes.md",
+        youtube_dir / "big-cats-of-the-world.md",
+        youtube_dir / "the-story-of-stonehenge.md",
+        youtube_dir / "endangered-earth.md",
+    ]:
+        assert path.is_file()
+        assert "Source dependencies" in path.read_text(encoding="utf-8")
+
+    manuscript = (ebook_dir / "manuscript.md").read_text(encoding="utf-8")
+    assert manuscript.count("## Chapter") >= 3
+
+    for youtube_file in youtube_dir.glob("*.md"):
+        text = youtube_file.read_text(encoding="utf-8")
+        for section in ["## Hook", "## Narration", "## Visual direction", "## CTA", "## Rights/source notes"]:
+            assert section in text
+
+    pin_files = sorted(pinterest_dir.glob("*.md"))
+    assert len(pin_files) == 5
+    for pin_file in pin_files:
+        text = pin_file.read_text(encoding="utf-8")
+        for section in ["## Title", "## Description", "## Image requirements", "## Keywords", "## CTA", "## Linked product or collection"]:
+            assert section in text
+
+    product_files = sorted(product_dir.glob("*.md"))
+    assert len(product_files) == 10
+    for product_file in product_files:
+        text = product_file.read_text(encoding="utf-8")
+        for section in [
+            "## Title",
+            "## Subtitle",
+            "## Short description",
+            "## Long description",
+            "## Educational value",
+            "## Target audience",
+            "## Suggested product type",
+            "## Rights/source notes",
+        ]:
+            assert section in text
+        assert "No payment processing" in text
+
+
+@pytest.mark.e2e
+def test_rc14_source_references_exist():
+    source_paths = [
+        Path("data/publishing/ebooks.json"),
+        Path("data/publishing/audiobooks.json"),
+        Path("data/publishing/youtube_production.json"),
+        Path("data/publishing/pinterest_production.json"),
+        Path("data/publishing/print_products.json"),
+        Path("data/portfolio/top_25_showcase_products.json"),
+    ]
+    for path in source_paths:
+        assert path.is_file()
+        json.loads(path.read_text(encoding="utf-8"))
+
+    report = Path("docs/implementation/rc14-launch-artifacts-report.md")
+    assert report.is_file()
+    text = report.read_text(encoding="utf-8")
+    assert "No payment processing" in text
+    assert "ADR-011" in text
+
+
+@pytest.mark.e2e
 @pytest.mark.parametrize("product_slug", PRODUCT_SLUGS)
 def test_commercial_product_pages_served(product_slug: str):
     client = TestClient(app)
