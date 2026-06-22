@@ -1,0 +1,1921 @@
+{
+  "meta": {
+    "title": "WISE Top 100 Series",
+    "generated": "2026-06-22",
+    "count": 100,
+    "scoring_methodology": "Editorial portfolio heuristic (0-100). portfolio_score = round(0.35*recognition_score + 0.35*demand_score + 0.30*commercial_score, 1). Scores are curatorial estimates for product prioritization, not measured analytics. For curated groups, base scores descend by curatorial priority with deterministic per-id variation.",
+    "category_distribution": {
+      "heritage": 52,
+      "wildlife": 16,
+      "landscape": 11,
+      "marine": 6,
+      "art": 6,
+      "cartography": 4,
+      "natural-history": 3,
+      "conservation": 2
+    },
+    "note": "Curatorial seed for the Phase 12 Products catalogue and Phase 10 Publishing collections."
+  },
+  "series": [
+    {
+      "id": "lions-through-history",
+      "title": "Lions Through History",
+      "category": "wildlife",
+      "description": "The lion in nature, myth, heraldry and art across millennia.",
+      "recognition_score": 93,
+      "demand_score": 94,
+      "commercial_score": 91,
+      "portfolio_score": 92.7,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "The lion in nature, myth, heraldry and art across millennia.",
+      "recommended_length": 8,
+      "portfolio_rank": 1
+    },
+    {
+      "id": "great-civilizations",
+      "title": "Great Civilizations",
+      "category": "heritage",
+      "description": "A sweep through the world's foundational cultures.",
+      "recognition_score": 93,
+      "demand_score": 94,
+      "commercial_score": 91,
+      "portfolio_score": 92.7,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "A sweep through the world's foundational cultures.",
+      "recommended_length": 12,
+      "portfolio_rank": 2
+    },
+    {
+      "id": "the-story-of-petra",
+      "title": "The Story of Petra",
+      "category": "heritage",
+      "description": "The rise of the Nabataean rose-red city and its rediscovery.",
+      "recognition_score": 98,
+      "demand_score": 90,
+      "commercial_score": 87,
+      "portfolio_score": 91.9,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "The rise of the Nabataean rose-red city and its rediscovery.",
+      "recommended_length": 10,
+      "portfolio_rank": 3
+    },
+    {
+      "id": "ancient-trade-routes",
+      "title": "Ancient Trade Routes",
+      "category": "heritage",
+      "description": "The Silk Road, incense routes and the spice trade.",
+      "recognition_score": 92,
+      "demand_score": 93,
+      "commercial_score": 90,
+      "portfolio_score": 91.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "The Silk Road, incense routes and the spice trade.",
+      "recommended_length": 10,
+      "portfolio_rank": 4
+    },
+    {
+      "id": "the-pharaohs-of-egypt",
+      "title": "The Pharaohs of Egypt",
+      "category": "heritage",
+      "description": "Dynasties, tombs and the gods of the Nile.",
+      "recognition_score": 92,
+      "demand_score": 93,
+      "commercial_score": 90,
+      "portfolio_score": 91.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Dynasties, tombs and the gods of the Nile.",
+      "recommended_length": 9,
+      "portfolio_rank": 5
+    },
+    {
+      "id": "tigers-of-asia",
+      "title": "Tigers of Asia",
+      "category": "wildlife",
+      "description": "The great cat across its shrinking Asian range.",
+      "recognition_score": 91,
+      "demand_score": 93,
+      "commercial_score": 90,
+      "portfolio_score": 91.4,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "The great cat across its shrinking Asian range.",
+      "recommended_length": 11,
+      "portfolio_rank": 6
+    },
+    {
+      "id": "the-voyages-of-discovery",
+      "title": "The Voyages of Discovery",
+      "category": "heritage",
+      "description": "Explorers who charted the oceans and continents.",
+      "recognition_score": 91,
+      "demand_score": 92,
+      "commercial_score": 90,
+      "portfolio_score": 91.0,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Explorers who charted the oceans and continents.",
+      "recommended_length": 9,
+      "portfolio_rank": 7
+    },
+    {
+      "id": "endangered-species",
+      "title": "Endangered Species",
+      "category": "conservation",
+      "description": "Portraits and stories of the world's threatened wildlife.",
+      "recognition_score": 96,
+      "demand_score": 88,
+      "commercial_score": 86,
+      "portfolio_score": 90.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Coffee Table Book",
+        "Wall Calendar"
+      ],
+      "narrative_arc": "Portraits and stories of the world's threatened wildlife.",
+      "recommended_length": 13,
+      "portfolio_rank": 8
+    },
+    {
+      "id": "the-rise-and-fall-of-rome",
+      "title": "The Rise and Fall of Rome",
+      "category": "heritage",
+      "description": "From republic to empire to ruin.",
+      "recognition_score": 95,
+      "demand_score": 88,
+      "commercial_score": 85,
+      "portfolio_score": 89.5,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "From republic to empire to ruin.",
+      "recommended_length": 10,
+      "portfolio_rank": 9
+    },
+    {
+      "id": "seven-wonders-of-the-ancient-world",
+      "title": "Seven Wonders of the Ancient World",
+      "category": "heritage",
+      "description": "The classical wonders, surviving and lost.",
+      "recognition_score": 95,
+      "demand_score": 87,
+      "commercial_score": 85,
+      "portfolio_score": 89.2,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "The classical wonders, surviving and lost.",
+      "recommended_length": 11,
+      "portfolio_rank": 10
+    },
+    {
+      "id": "empires-of-the-maya",
+      "title": "Empires of the Maya",
+      "category": "heritage",
+      "description": "Cities, calendars and the Mesoamerican cosmos.",
+      "recognition_score": 88,
+      "demand_score": 89,
+      "commercial_score": 87,
+      "portfolio_score": 88.0,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Cities, calendars and the Mesoamerican cosmos.",
+      "recommended_length": 12,
+      "portfolio_rank": 11
+    },
+    {
+      "id": "the-age-of-sail",
+      "title": "The Age of Sail",
+      "category": "heritage",
+      "description": "Tall ships, navigation and maritime empires.",
+      "recognition_score": 93,
+      "demand_score": 85,
+      "commercial_score": 83,
+      "portfolio_score": 87.2,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Tall ships, navigation and maritime empires.",
+      "recommended_length": 13,
+      "portfolio_rank": 12
+    },
+    {
+      "id": "castles-of-europe",
+      "title": "Castles of Europe",
+      "category": "heritage",
+      "description": "Strongholds across the medieval landscape.",
+      "recognition_score": 92,
+      "demand_score": 85,
+      "commercial_score": 83,
+      "portfolio_score": 86.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Strongholds across the medieval landscape.",
+      "recommended_length": 11,
+      "portfolio_rank": 13
+    },
+    {
+      "id": "whales-of-the-world-ocean",
+      "title": "Whales of the World Ocean",
+      "category": "marine",
+      "description": "The great cetaceans across every sea.",
+      "recognition_score": 86,
+      "demand_score": 88,
+      "commercial_score": 86,
+      "portfolio_score": 86.7,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Jigsaw Puzzle",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "The great cetaceans across every sea.",
+      "recommended_length": 9,
+      "portfolio_rank": 14
+    },
+    {
+      "id": "the-story-of-the-silk-road",
+      "title": "The Story of the Silk Road",
+      "category": "heritage",
+      "description": "Caravans, cities and the exchange of two worlds.",
+      "recognition_score": 92,
+      "demand_score": 85,
+      "commercial_score": 82,
+      "portfolio_score": 86.5,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Caravans, cities and the exchange of two worlds.",
+      "recommended_length": 11,
+      "portfolio_rank": 15
+    },
+    {
+      "id": "the-great-migrations",
+      "title": "The Great Migrations",
+      "category": "wildlife",
+      "description": "Wildebeest, monarchs and the planet's great journeys.",
+      "recognition_score": 92,
+      "demand_score": 85,
+      "commercial_score": 82,
+      "portfolio_score": 86.5,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "Wildebeest, monarchs and the planet's great journeys.",
+      "recommended_length": 15,
+      "portfolio_rank": 16
+    },
+    {
+      "id": "wonders-of-the-deep",
+      "title": "Wonders of the Deep",
+      "category": "marine",
+      "description": "Life and mystery beneath the ocean surface.",
+      "recognition_score": 86,
+      "demand_score": 87,
+      "commercial_score": 85,
+      "portfolio_score": 86.0,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Jigsaw Puzzle",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "Life and mystery beneath the ocean surface.",
+      "recommended_length": 12,
+      "portfolio_rank": 17
+    },
+    {
+      "id": "vanished-worlds-lost-cities",
+      "title": "Vanished Worlds: Lost Cities",
+      "category": "heritage",
+      "description": "The discovery of cities swallowed by time.",
+      "recognition_score": 85,
+      "demand_score": 87,
+      "commercial_score": 85,
+      "portfolio_score": 85.7,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "The discovery of cities swallowed by time.",
+      "recommended_length": 10,
+      "portfolio_rank": 18
+    },
+    {
+      "id": "the-story-of-stonehenge",
+      "title": "The Story of Stonehenge",
+      "category": "heritage",
+      "description": "Building and meaning of the great stone circle.",
+      "recognition_score": 88,
+      "demand_score": 81,
+      "commercial_score": 88,
+      "portfolio_score": 85.5,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Building and meaning of the great stone circle.",
+      "recommended_length": 11,
+      "portfolio_rank": 19
+    },
+    {
+      "id": "elephants-of-africa",
+      "title": "Elephants of Africa",
+      "category": "wildlife",
+      "description": "The lives of the savanna and forest elephants.",
+      "recognition_score": 85,
+      "demand_score": 86,
+      "commercial_score": 84,
+      "portfolio_score": 85.0,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "The lives of the savanna and forest elephants.",
+      "recommended_length": 10,
+      "portfolio_rank": 20
+    },
+    {
+      "id": "sacred-mountains-of-asia",
+      "title": "Sacred Mountains of Asia",
+      "category": "landscape",
+      "description": "Pilgrimage peaks from Fuji to Kailash.",
+      "recognition_score": 84,
+      "demand_score": 86,
+      "commercial_score": 84,
+      "portfolio_score": 84.7,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "Pilgrimage peaks from Fuji to Kailash.",
+      "recommended_length": 12,
+      "portfolio_rank": 21
+    },
+    {
+      "id": "the-cathedral-builders",
+      "title": "The Cathedral Builders",
+      "category": "heritage",
+      "description": "Masons, glass and the rise of Gothic.",
+      "recognition_score": 84,
+      "demand_score": 86,
+      "commercial_score": 83,
+      "portfolio_score": 84.4,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Masons, glass and the rise of Gothic.",
+      "recommended_length": 9,
+      "portfolio_rank": 22
+    },
+    {
+      "id": "the-great-apes",
+      "title": "The Great Apes",
+      "category": "wildlife",
+      "description": "Gorillas, chimpanzees, orangutans and bonobos.",
+      "recognition_score": 89,
+      "demand_score": 82,
+      "commercial_score": 80,
+      "portfolio_score": 83.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "Gorillas, chimpanzees, orangutans and bonobos.",
+      "recommended_length": 14,
+      "portfolio_rank": 23
+    },
+    {
+      "id": "mapping-the-world",
+      "title": "Mapping the World",
+      "category": "cartography",
+      "description": "How humans charted the Earth across the centuries.",
+      "recognition_score": 83,
+      "demand_score": 85,
+      "commercial_score": 83,
+      "portfolio_score": 83.7,
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Coffee Table Book",
+        "Poster"
+      ],
+      "narrative_arc": "How humans charted the Earth across the centuries.",
+      "recommended_length": 13,
+      "portfolio_rank": 24
+    },
+    {
+      "id": "the-aztec-empire",
+      "title": "The Aztec Empire",
+      "category": "heritage",
+      "description": "Tenochtitlan and the world of the Mexica.",
+      "recognition_score": 83,
+      "demand_score": 85,
+      "commercial_score": 83,
+      "portfolio_score": 83.7,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Tenochtitlan and the world of the Mexica.",
+      "recommended_length": 8,
+      "portfolio_rank": 25
+    },
+    {
+      "id": "the-polar-explorers",
+      "title": "The Polar Explorers",
+      "category": "heritage",
+      "description": "Races to the poles and the heroic age.",
+      "recognition_score": 82,
+      "demand_score": 84,
+      "commercial_score": 82,
+      "portfolio_score": 82.7,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Races to the poles and the heroic age.",
+      "recommended_length": 10,
+      "portfolio_rank": 26
+    },
+    {
+      "id": "hokusai-and-the-floating-world",
+      "title": "Hokusai and the Floating World",
+      "category": "art",
+      "description": "The life and prints of a woodblock master.",
+      "recognition_score": 81,
+      "demand_score": 84,
+      "commercial_score": 82,
+      "portfolio_score": 82.3,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Greeting Cards",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "The life and prints of a woodblock master.",
+      "recommended_length": 8,
+      "portfolio_rank": 27
+    },
+    {
+      "id": "the-dutch-masters",
+      "title": "The Dutch Masters",
+      "category": "art",
+      "description": "Rembrandt, Vermeer and the Golden Age studio.",
+      "recognition_score": 81,
+      "demand_score": 83,
+      "commercial_score": 81,
+      "portfolio_score": 81.7,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Greeting Cards",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "Rembrandt, Vermeer and the Golden Age studio.",
+      "recommended_length": 9,
+      "portfolio_rank": 28
+    },
+    {
+      "id": "the-story-of-the-colosseum",
+      "title": "The Story of the Colosseum",
+      "category": "heritage",
+      "description": "Rome's great amphitheatre and its spectacles.",
+      "recognition_score": 86,
+      "demand_score": 80,
+      "commercial_score": 78,
+      "portfolio_score": 81.5,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Rome's great amphitheatre and its spectacles.",
+      "recommended_length": 9,
+      "portfolio_rank": 29
+    },
+    {
+      "id": "renaissance-genius",
+      "title": "Renaissance Genius",
+      "category": "art",
+      "description": "Leonardo, Michelangelo and the rebirth of art.",
+      "recognition_score": 86,
+      "demand_score": 79,
+      "commercial_score": 78,
+      "portfolio_score": 81.2,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Greeting Cards",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "Leonardo, Michelangelo and the rebirth of art.",
+      "recommended_length": 14,
+      "portfolio_rank": 30
+    },
+    {
+      "id": "the-impressionists",
+      "title": "The Impressionists",
+      "category": "art",
+      "description": "The painters who captured fleeting light.",
+      "recognition_score": 79,
+      "demand_score": 81,
+      "commercial_score": 80,
+      "portfolio_score": 80.0,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Greeting Cards",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "The painters who captured fleeting light.",
+      "recommended_length": 9,
+      "portfolio_rank": 31
+    },
+    {
+      "id": "audubons-birds-of-america",
+      "title": "Audubon's Birds of America",
+      "category": "art",
+      "description": "The making of the great ornithological folio.",
+      "recognition_score": 85,
+      "demand_score": 78,
+      "commercial_score": 76,
+      "portfolio_score": 79.8,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Greeting Cards",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "The making of the great ornithological folio.",
+      "recommended_length": 11,
+      "portfolio_rank": 32
+    },
+    {
+      "id": "angkor-city-of-temples",
+      "title": "Angkor: City of Temples",
+      "category": "heritage",
+      "description": "The Khmer capital from glory to jungle.",
+      "recognition_score": 81,
+      "demand_score": 75,
+      "commercial_score": 82,
+      "portfolio_score": 79.2,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "The Khmer capital from glory to jungle.",
+      "recommended_length": 8,
+      "portfolio_rank": 33
+    },
+    {
+      "id": "the-story-of-the-taj-mahal",
+      "title": "The Story of the Taj Mahal",
+      "category": "heritage",
+      "description": "Love, marble and the Mughal masterpiece.",
+      "recognition_score": 78,
+      "demand_score": 80,
+      "commercial_score": 79,
+      "portfolio_score": 79.0,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Love, marble and the Mughal masterpiece.",
+      "recommended_length": 15,
+      "portfolio_rank": 34
+    },
+    {
+      "id": "volcano-forces-of-the-earth",
+      "title": "Volcano: Forces of the Earth",
+      "category": "landscape",
+      "description": "Eruptions that shaped land and history.",
+      "recognition_score": 78,
+      "demand_score": 80,
+      "commercial_score": 79,
+      "portfolio_score": 79.0,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "Eruptions that shaped land and history.",
+      "recommended_length": 16,
+      "portfolio_rank": 35
+    },
+    {
+      "id": "haeckels-art-forms-of-nature",
+      "title": "Haeckel's Art Forms of Nature",
+      "category": "art",
+      "description": "The naturalist-artist's vision of biological form.",
+      "recognition_score": 77,
+      "demand_score": 79,
+      "commercial_score": 78,
+      "portfolio_score": 78.0,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Greeting Cards",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "The naturalist-artist's vision of biological form.",
+      "recommended_length": 10,
+      "portfolio_rank": 36
+    },
+    {
+      "id": "the-living-reef",
+      "title": "The Living Reef",
+      "category": "marine",
+      "description": "A year in the life of a coral ecosystem.",
+      "recognition_score": 82,
+      "demand_score": 76,
+      "commercial_score": 75,
+      "portfolio_score": 77.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Jigsaw Puzzle",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "A year in the life of a coral ecosystem.",
+      "recommended_length": 15,
+      "portfolio_rank": 37
+    },
+    {
+      "id": "the-nile-river-of-life",
+      "title": "The Nile: River of Life",
+      "category": "landscape",
+      "description": "From source to delta across Egypt's history.",
+      "recognition_score": 76,
+      "demand_score": 79,
+      "commercial_score": 78,
+      "portfolio_score": 77.7,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "From source to delta across Egypt's history.",
+      "recommended_length": 12,
+      "portfolio_rank": 38
+    },
+    {
+      "id": "predators-of-the-savanna",
+      "title": "Predators of the Savanna",
+      "category": "wildlife",
+      "description": "Lions, cheetahs, hyenas and the hunt.",
+      "recognition_score": 82,
+      "demand_score": 76,
+      "commercial_score": 74,
+      "portfolio_score": 77.5,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "Lions, cheetahs, hyenas and the hunt.",
+      "recommended_length": 11,
+      "portfolio_rank": 39
+    },
+    {
+      "id": "mountains-of-the-gods",
+      "title": "Mountains of the Gods",
+      "category": "landscape",
+      "description": "Sacred and mythic peaks across cultures.",
+      "recognition_score": 75,
+      "demand_score": 78,
+      "commercial_score": 77,
+      "portfolio_score": 76.6,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "Sacred and mythic peaks across cultures.",
+      "recommended_length": 16,
+      "portfolio_rank": 40
+    },
+    {
+      "id": "the-story-of-machu-picchu",
+      "title": "The Story of Machu Picchu",
+      "category": "heritage",
+      "description": "The Inca citadel from construction to rediscovery.",
+      "recognition_score": 75,
+      "demand_score": 78,
+      "commercial_score": 77,
+      "portfolio_score": 76.6,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "The Inca citadel from construction to rediscovery.",
+      "recommended_length": 8,
+      "portfolio_rank": 41
+    },
+    {
+      "id": "pandas-and-the-bamboo-forest",
+      "title": "Pandas and the Bamboo Forest",
+      "category": "wildlife",
+      "description": "The giant panda and its mountain home.",
+      "recognition_score": 81,
+      "demand_score": 74,
+      "commercial_score": 73,
+      "portfolio_score": 76.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "The giant panda and its mountain home.",
+      "recommended_length": 16,
+      "portfolio_rank": 42
+    },
+    {
+      "id": "the-frozen-north",
+      "title": "The Frozen North",
+      "category": "landscape",
+      "description": "Arctic wildlife, ice and indigenous cultures.",
+      "recognition_score": 75,
+      "demand_score": 77,
+      "commercial_score": 76,
+      "portfolio_score": 76.0,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "Arctic wildlife, ice and indigenous cultures.",
+      "recommended_length": 15,
+      "portfolio_rank": 43
+    },
+    {
+      "id": "the-snow-leopards-realm",
+      "title": "The Snow Leopard's Realm",
+      "category": "wildlife",
+      "description": "The ghost cat of the high Himalaya.",
+      "recognition_score": 80,
+      "demand_score": 74,
+      "commercial_score": 73,
+      "portfolio_score": 75.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "The ghost cat of the high Himalaya.",
+      "recommended_length": 14,
+      "portfolio_rank": 44
+    },
+    {
+      "id": "the-last-rhinos",
+      "title": "The Last Rhinos",
+      "category": "conservation",
+      "description": "The fight to save the world's rhinoceros species.",
+      "recognition_score": 74,
+      "demand_score": 77,
+      "commercial_score": 76,
+      "portfolio_score": 75.6,
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Coffee Table Book",
+        "Wall Calendar"
+      ],
+      "narrative_arc": "The fight to save the world's rhinoceros species.",
+      "recommended_length": 8,
+      "portfolio_rank": 45
+    },
+    {
+      "id": "vikings-seafarers-of-the-north",
+      "title": "Vikings: Seafarers of the North",
+      "category": "heritage",
+      "description": "Raiders, traders and explorers of the Norse world.",
+      "recognition_score": 74,
+      "demand_score": 77,
+      "commercial_score": 76,
+      "portfolio_score": 75.6,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Raiders, traders and explorers of the Norse world.",
+      "recommended_length": 9,
+      "portfolio_rank": 46
+    },
+    {
+      "id": "the-amazon-the-greatest-rainforest",
+      "title": "The Amazon: The Greatest Rainforest",
+      "category": "landscape",
+      "description": "Life along the world's largest river system.",
+      "recognition_score": 74,
+      "demand_score": 76,
+      "commercial_score": 75,
+      "portfolio_score": 75.0,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "Life along the world's largest river system.",
+      "recommended_length": 14,
+      "portfolio_rank": 47
+    },
+    {
+      "id": "samurai-and-shogun",
+      "title": "Samurai and Shogun",
+      "category": "heritage",
+      "description": "The warrior culture of feudal Japan.",
+      "recognition_score": 73,
+      "demand_score": 76,
+      "commercial_score": 76,
+      "portfolio_score": 74.9,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "The warrior culture of feudal Japan.",
+      "recommended_length": 11,
+      "portfolio_rank": 48
+    },
+    {
+      "id": "the-mongol-empire",
+      "title": "The Mongol Empire",
+      "category": "heritage",
+      "description": "The largest contiguous empire in history.",
+      "recognition_score": 72,
+      "demand_score": 75,
+      "commercial_score": 74,
+      "portfolio_score": 73.7,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "The largest contiguous empire in history.",
+      "recommended_length": 9,
+      "portfolio_rank": 49
+    },
+    {
+      "id": "dynasties-of-china",
+      "title": "Dynasties of China",
+      "category": "heritage",
+      "description": "From the first emperor to the last.",
+      "recognition_score": 72,
+      "demand_score": 75,
+      "commercial_score": 74,
+      "portfolio_score": 73.7,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "From the first emperor to the last.",
+      "recommended_length": 15,
+      "portfolio_rank": 50
+    },
+    {
+      "id": "big-cats-apex-predators",
+      "title": "Big Cats: Apex Predators",
+      "category": "wildlife",
+      "description": "The world's great cats and their hunting grounds.",
+      "recognition_score": 71,
+      "demand_score": 74,
+      "commercial_score": 74,
+      "portfolio_score": 73.0,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "The world's great cats and their hunting grounds.",
+      "recommended_length": 16,
+      "portfolio_rank": 51
+    },
+    {
+      "id": "the-ottoman-empire",
+      "title": "The Ottoman Empire",
+      "category": "heritage",
+      "description": "Six centuries across three continents.",
+      "recognition_score": 77,
+      "demand_score": 71,
+      "commercial_score": 70,
+      "portfolio_score": 72.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Six centuries across three continents.",
+      "recommended_length": 12,
+      "portfolio_rank": 52
+    },
+    {
+      "id": "star-maps-and-the-heavens",
+      "title": "Star Maps and the Heavens",
+      "category": "cartography",
+      "description": "Charting the constellations through history.",
+      "recognition_score": 70,
+      "demand_score": 74,
+      "commercial_score": 74,
+      "portfolio_score": 72.6,
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Coffee Table Book",
+        "Poster"
+      ],
+      "narrative_arc": "Charting the constellations through history.",
+      "recommended_length": 11,
+      "portfolio_rank": 53
+    },
+    {
+      "id": "ancient-persia",
+      "title": "Ancient Persia",
+      "category": "heritage",
+      "description": "Persepolis and the Achaemenid world.",
+      "recognition_score": 76,
+      "demand_score": 70,
+      "commercial_score": 70,
+      "portfolio_score": 72.1,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Persepolis and the Achaemenid world.",
+      "recommended_length": 16,
+      "portfolio_rank": 54
+    },
+    {
+      "id": "gods-and-myths-of-antiquity",
+      "title": "Gods and Myths of Antiquity",
+      "category": "heritage",
+      "description": "The pantheons that shaped the ancient mind.",
+      "recognition_score": 75,
+      "demand_score": 69,
+      "commercial_score": 69,
+      "portfolio_score": 71.1,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "The pantheons that shaped the ancient mind.",
+      "recommended_length": 14,
+      "portfolio_rank": 55
+    },
+    {
+      "id": "illuminated-medieval-manuscripts",
+      "title": "Illuminated: Medieval Manuscripts",
+      "category": "heritage",
+      "description": "The craft of the painted book.",
+      "recognition_score": 75,
+      "demand_score": 69,
+      "commercial_score": 69,
+      "portfolio_score": 71.1,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "The craft of the painted book.",
+      "recommended_length": 11,
+      "portfolio_rank": 56
+    },
+    {
+      "id": "darwin-and-the-galapagos",
+      "title": "Darwin and the Galapagos",
+      "category": "heritage",
+      "description": "The voyage that transformed biology.",
+      "recognition_score": 69,
+      "demand_score": 72,
+      "commercial_score": 72,
+      "portfolio_score": 70.9,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "The voyage that transformed biology.",
+      "recommended_length": 11,
+      "portfolio_rank": 57
+    },
+    {
+      "id": "bears-of-the-northern-forests",
+      "title": "Bears of the Northern Forests",
+      "category": "wildlife",
+      "description": "Brown bears across the boreal world.",
+      "recognition_score": 69,
+      "demand_score": 72,
+      "commercial_score": 72,
+      "portfolio_score": 70.9,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "Brown bears across the boreal world.",
+      "recommended_length": 13,
+      "portfolio_rank": 58
+    },
+    {
+      "id": "eagles-and-birds-of-prey",
+      "title": "Eagles and Birds of Prey",
+      "category": "wildlife",
+      "description": "Raptors that rule the skies.",
+      "recognition_score": 68,
+      "demand_score": 72,
+      "commercial_score": 72,
+      "portfolio_score": 70.6,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "Raptors that rule the skies.",
+      "recommended_length": 13,
+      "portfolio_rank": 59
+    },
+    {
+      "id": "the-cartographers",
+      "title": "The Cartographers",
+      "category": "cartography",
+      "description": "Mapmakers who reimagined the world.",
+      "recognition_score": 74,
+      "demand_score": 68,
+      "commercial_score": 68,
+      "portfolio_score": 70.1,
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Coffee Table Book",
+        "Poster"
+      ],
+      "narrative_arc": "Mapmakers who reimagined the world.",
+      "recommended_length": 14,
+      "portfolio_rank": 60
+    },
+    {
+      "id": "penguins-of-the-southern-ocean",
+      "title": "Penguins of the Southern Ocean",
+      "category": "wildlife",
+      "description": "Colonies of the far south.",
+      "recognition_score": 68,
+      "demand_score": 71,
+      "commercial_score": 71,
+      "portfolio_score": 69.9,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "Colonies of the far south.",
+      "recommended_length": 15,
+      "portfolio_rank": 61
+    },
+    {
+      "id": "wolves-of-the-wild",
+      "title": "Wolves of the Wild",
+      "category": "wildlife",
+      "description": "Pack life and the return of the wolf.",
+      "recognition_score": 73,
+      "demand_score": 68,
+      "commercial_score": 68,
+      "portfolio_score": 69.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "Pack life and the return of the wolf.",
+      "recommended_length": 10,
+      "portfolio_rank": 62
+    },
+    {
+      "id": "sea-turtles-ancient-mariners",
+      "title": "Sea Turtles: Ancient Mariners",
+      "category": "marine",
+      "description": "A turtle's life from beach to open sea.",
+      "recognition_score": 72,
+      "demand_score": 67,
+      "commercial_score": 67,
+      "portfolio_score": 68.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Jigsaw Puzzle",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "A turtle's life from beach to open sea.",
+      "recommended_length": 12,
+      "portfolio_rank": 63
+    },
+    {
+      "id": "the-great-sharks",
+      "title": "The Great Sharks",
+      "category": "marine",
+      "description": "Apex predators of the world's oceans.",
+      "recognition_score": 66,
+      "demand_score": 69,
+      "commercial_score": 70,
+      "portfolio_score": 68.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Jigsaw Puzzle",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "Apex predators of the world's oceans.",
+      "recommended_length": 15,
+      "portfolio_rank": 64
+    },
+    {
+      "id": "islands-of-evolution",
+      "title": "Islands of Evolution",
+      "category": "landscape",
+      "description": "How isolation shapes unique life.",
+      "recognition_score": 66,
+      "demand_score": 69,
+      "commercial_score": 70,
+      "portfolio_score": 68.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "How isolation shapes unique life.",
+      "recommended_length": 14,
+      "portfolio_rank": 65
+    },
+    {
+      "id": "rivers-of-the-world",
+      "title": "Rivers of the World",
+      "category": "landscape",
+      "description": "The great waterways and the life along them.",
+      "recognition_score": 71,
+      "demand_score": 66,
+      "commercial_score": 66,
+      "portfolio_score": 67.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "The great waterways and the life along them.",
+      "recommended_length": 16,
+      "portfolio_rank": 66
+    },
+    {
+      "id": "the-worlds-great-deserts",
+      "title": "The World's Great Deserts",
+      "category": "landscape",
+      "description": "Life and landscape in the driest places.",
+      "recognition_score": 65,
+      "demand_score": 69,
+      "commercial_score": 69,
+      "portfolio_score": 67.6,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "Life and landscape in the driest places.",
+      "recommended_length": 9,
+      "portfolio_rank": 67
+    },
+    {
+      "id": "the-monarchs-journey",
+      "title": "The Monarch's Journey",
+      "category": "wildlife",
+      "description": "The butterfly's continental migration.",
+      "recognition_score": 65,
+      "demand_score": 68,
+      "commercial_score": 69,
+      "portfolio_score": 67.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "The butterfly's continental migration.",
+      "recommended_length": 16,
+      "portfolio_rank": 68
+    },
+    {
+      "id": "gothic-cathedrals-of-france",
+      "title": "Gothic Cathedrals of France",
+      "category": "heritage",
+      "description": "Chartres, Notre-Dame and the age of light.",
+      "recognition_score": 64,
+      "demand_score": 68,
+      "commercial_score": 69,
+      "portfolio_score": 66.9,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Chartres, Notre-Dame and the age of light.",
+      "recommended_length": 14,
+      "portfolio_rank": 69
+    },
+    {
+      "id": "glaciers-rivers-of-ice",
+      "title": "Glaciers: Rivers of Ice",
+      "category": "landscape",
+      "description": "Ice fields shaping the world's high places.",
+      "recognition_score": 67,
+      "demand_score": 62,
+      "commercial_score": 72,
+      "portfolio_score": 66.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "Ice fields shaping the world's high places.",
+      "recommended_length": 8,
+      "portfolio_rank": 70
+    },
+    {
+      "id": "waterfalls-power-and-beauty",
+      "title": "Waterfalls: Power and Beauty",
+      "category": "landscape",
+      "description": "The world's most spectacular cascades.",
+      "recognition_score": 64,
+      "demand_score": 68,
+      "commercial_score": 68,
+      "portfolio_score": 66.6,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "The world's most spectacular cascades.",
+      "recommended_length": 15,
+      "portfolio_rank": 71
+    },
+    {
+      "id": "pompeii-a-city-frozen-in-time",
+      "title": "Pompeii: A City Frozen in Time",
+      "category": "heritage",
+      "description": "Daily Roman life sealed by Vesuvius.",
+      "recognition_score": 68,
+      "demand_score": 63,
+      "commercial_score": 63,
+      "portfolio_score": 64.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Daily Roman life sealed by Vesuvius.",
+      "recommended_length": 12,
+      "portfolio_rank": 72
+    },
+    {
+      "id": "the-temples-of-kyoto",
+      "title": "The Temples of Kyoto",
+      "category": "heritage",
+      "description": "Sacred architecture of Japan's old capital.",
+      "recognition_score": 62,
+      "demand_score": 66,
+      "commercial_score": 66,
+      "portfolio_score": 64.6,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Sacred architecture of Japan's old capital.",
+      "recommended_length": 9,
+      "portfolio_rank": 73
+    },
+    {
+      "id": "rock-art-of-the-ancestors",
+      "title": "Rock Art of the Ancestors",
+      "category": "heritage",
+      "description": "Painted caves and carved petroglyphs.",
+      "recognition_score": 61,
+      "demand_score": 66,
+      "commercial_score": 67,
+      "portfolio_score": 64.5,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Painted caves and carved petroglyphs.",
+      "recommended_length": 13,
+      "portfolio_rank": 74
+    },
+    {
+      "id": "the-alhambra-and-moorish-spain",
+      "title": "The Alhambra and Moorish Spain",
+      "category": "heritage",
+      "description": "The palace and the world of Al-Andalus.",
+      "recognition_score": 67,
+      "demand_score": 62,
+      "commercial_score": 63,
+      "portfolio_score": 64.0,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "The palace and the world of Al-Andalus.",
+      "recommended_length": 9,
+      "portfolio_rank": 75
+    },
+    {
+      "id": "the-terracotta-army",
+      "title": "The Terracotta Army",
+      "category": "heritage",
+      "description": "The buried legions of the first emperor.",
+      "recognition_score": 67,
+      "demand_score": 62,
+      "commercial_score": 63,
+      "portfolio_score": 64.0,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "The buried legions of the first emperor.",
+      "recommended_length": 12,
+      "portfolio_rank": 76
+    },
+    {
+      "id": "the-story-of-the-acropolis",
+      "title": "The Story of the Acropolis",
+      "category": "heritage",
+      "description": "Athens' sacred hill across the ages.",
+      "recognition_score": 61,
+      "demand_score": 65,
+      "commercial_score": 66,
+      "portfolio_score": 63.9,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Athens' sacred hill across the ages.",
+      "recommended_length": 14,
+      "portfolio_rank": 77
+    },
+    {
+      "id": "the-age-of-dinosaurs",
+      "title": "The Age of Dinosaurs",
+      "category": "natural-history",
+      "description": "Life across the Mesozoic era.",
+      "recognition_score": 61,
+      "demand_score": 65,
+      "commercial_score": 66,
+      "portfolio_score": 63.9,
+      "product_recommendations": [
+        "Educational Card Set",
+        "Poster",
+        "Coffee Table Book",
+        "Jigsaw Puzzle"
+      ],
+      "narrative_arc": "Life across the Mesozoic era.",
+      "recommended_length": 10,
+      "portfolio_rank": 78
+    },
+    {
+      "id": "easter-island-the-moai",
+      "title": "Easter Island: The Moai",
+      "category": "heritage",
+      "description": "The statues and society of Rapa Nui.",
+      "recognition_score": 60,
+      "demand_score": 64,
+      "commercial_score": 65,
+      "portfolio_score": 62.9,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "The statues and society of Rapa Nui.",
+      "recommended_length": 13,
+      "portfolio_rank": 79
+    },
+    {
+      "id": "stone-circles-and-megaliths",
+      "title": "Stone Circles and Megaliths",
+      "category": "heritage",
+      "description": "Standing stones across prehistoric Europe.",
+      "recognition_score": 65,
+      "demand_score": 60,
+      "commercial_score": 61,
+      "portfolio_score": 62.0,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Standing stones across prehistoric Europe.",
+      "recommended_length": 13,
+      "portfolio_rank": 80
+    },
+    {
+      "id": "forbidden-city-heart-of-china",
+      "title": "Forbidden City: Heart of China",
+      "category": "heritage",
+      "description": "The imperial palace and its dynasties.",
+      "recognition_score": 59,
+      "demand_score": 63,
+      "commercial_score": 64,
+      "portfolio_score": 61.9,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "The imperial palace and its dynasties.",
+      "recommended_length": 12,
+      "portfolio_rank": 81
+    },
+    {
+      "id": "phoenician-traders",
+      "title": "Phoenician Traders",
+      "category": "heritage",
+      "description": "Seafaring merchants of the ancient Mediterranean.",
+      "recognition_score": 58,
+      "demand_score": 63,
+      "commercial_score": 64,
+      "portfolio_score": 61.5,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Seafaring merchants of the ancient Mediterranean.",
+      "recommended_length": 10,
+      "portfolio_rank": 82
+    },
+    {
+      "id": "gems-and-minerals-of-the-earth",
+      "title": "Gems and Minerals of the Earth",
+      "category": "natural-history",
+      "description": "Crystals and the mineral kingdom.",
+      "recognition_score": 64,
+      "demand_score": 59,
+      "commercial_score": 61,
+      "portfolio_score": 61.3,
+      "product_recommendations": [
+        "Educational Card Set",
+        "Poster",
+        "Coffee Table Book",
+        "Jigsaw Puzzle"
+      ],
+      "narrative_arc": "Crystals and the mineral kingdom.",
+      "recommended_length": 14,
+      "portfolio_rank": 83
+    },
+    {
+      "id": "the-night-sky-through-history",
+      "title": "The Night Sky Through History",
+      "category": "cartography",
+      "description": "Astronomy from ancient charts to modern maps.",
+      "recognition_score": 58,
+      "demand_score": 62,
+      "commercial_score": 63,
+      "portfolio_score": 60.9,
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Coffee Table Book",
+        "Poster"
+      ],
+      "narrative_arc": "Astronomy from ancient charts to modern maps.",
+      "recommended_length": 10,
+      "portfolio_rank": 84
+    },
+    {
+      "id": "birds-of-the-americas",
+      "title": "Birds of the Americas",
+      "category": "wildlife",
+      "description": "Avian diversity from tundra to tropics.",
+      "recognition_score": 57,
+      "demand_score": 62,
+      "commercial_score": 63,
+      "portfolio_score": 60.5,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "Avian diversity from tundra to tropics.",
+      "recommended_length": 9,
+      "portfolio_rank": 85
+    },
+    {
+      "id": "the-byzantine-world",
+      "title": "The Byzantine World",
+      "category": "heritage",
+      "description": "Constantinople and the Eastern Roman legacy.",
+      "recognition_score": 57,
+      "demand_score": 61,
+      "commercial_score": 63,
+      "portfolio_score": 60.2,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Constantinople and the Eastern Roman legacy.",
+      "recommended_length": 13,
+      "portfolio_rank": 86
+    },
+    {
+      "id": "fossil-hunters",
+      "title": "Fossil Hunters",
+      "category": "natural-history",
+      "description": "The discovery of deep time.",
+      "recognition_score": 57,
+      "demand_score": 61,
+      "commercial_score": 62,
+      "portfolio_score": 59.9,
+      "product_recommendations": [
+        "Educational Card Set",
+        "Poster",
+        "Coffee Table Book",
+        "Jigsaw Puzzle"
+      ],
+      "narrative_arc": "The discovery of deep time.",
+      "recommended_length": 12,
+      "portfolio_rank": 87
+    },
+    {
+      "id": "desert-kingdoms",
+      "title": "Desert Kingdoms",
+      "category": "heritage",
+      "description": "Civilizations of the world's drylands.",
+      "recognition_score": 55,
+      "demand_score": 60,
+      "commercial_score": 61,
+      "portfolio_score": 58.5,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Civilizations of the world's drylands.",
+      "recommended_length": 9,
+      "portfolio_rank": 88
+    },
+    {
+      "id": "the-story-of-writing",
+      "title": "The Story of Writing",
+      "category": "heritage",
+      "description": "From cuneiform to the printed word.",
+      "recognition_score": 55,
+      "demand_score": 60,
+      "commercial_score": 61,
+      "portfolio_score": 58.5,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "From cuneiform to the printed word.",
+      "recommended_length": 12,
+      "portfolio_rank": 89
+    },
+    {
+      "id": "the-greek-city-states",
+      "title": "The Greek City-States",
+      "category": "heritage",
+      "description": "Athens, Sparta and the classical poleis.",
+      "recognition_score": 58,
+      "demand_score": 54,
+      "commercial_score": 64,
+      "portfolio_score": 58.4,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Athens, Sparta and the classical poleis.",
+      "recommended_length": 15,
+      "portfolio_rank": 90
+    },
+    {
+      "id": "the-coral-triangle",
+      "title": "The Coral Triangle",
+      "category": "marine",
+      "description": "The richest marine biodiversity on Earth.",
+      "recognition_score": 61,
+      "demand_score": 56,
+      "commercial_score": 58,
+      "portfolio_score": 58.3,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Jigsaw Puzzle",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "The richest marine biodiversity on Earth.",
+      "recommended_length": 11,
+      "portfolio_rank": 91
+    },
+    {
+      "id": "petra-and-the-nabataeans",
+      "title": "Petra and the Nabataeans",
+      "category": "heritage",
+      "description": "The desert traders who carved a city.",
+      "recognition_score": 57,
+      "demand_score": 52,
+      "commercial_score": 63,
+      "portfolio_score": 57.0,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "The desert traders who carved a city.",
+      "recommended_length": 9,
+      "portfolio_rank": 92
+    },
+    {
+      "id": "the-great-wall-of-china",
+      "title": "The Great Wall of China",
+      "category": "heritage",
+      "description": "Two thousand years of frontier fortification.",
+      "recognition_score": 53,
+      "demand_score": 58,
+      "commercial_score": 59,
+      "portfolio_score": 56.5,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Two thousand years of frontier fortification.",
+      "recommended_length": 12,
+      "portfolio_rank": 93
+    },
+    {
+      "id": "wonders-of-mesopotamia",
+      "title": "Wonders of Mesopotamia",
+      "category": "heritage",
+      "description": "The cradle of cities between the rivers.",
+      "recognition_score": 59,
+      "demand_score": 54,
+      "commercial_score": 56,
+      "portfolio_score": 56.3,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "The cradle of cities between the rivers.",
+      "recommended_length": 11,
+      "portfolio_rank": 94
+    },
+    {
+      "id": "the-pyramids-of-giza",
+      "title": "The Pyramids of Giza",
+      "category": "heritage",
+      "description": "Building the last ancient wonder.",
+      "recognition_score": 58,
+      "demand_score": 54,
+      "commercial_score": 56,
+      "portfolio_score": 56.0,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Building the last ancient wonder.",
+      "recommended_length": 9,
+      "portfolio_rank": 95
+    },
+    {
+      "id": "lighthouses-and-the-sea",
+      "title": "Lighthouses and the Sea",
+      "category": "heritage",
+      "description": "Beacons guarding the world's coasts.",
+      "recognition_score": 52,
+      "demand_score": 57,
+      "commercial_score": 59,
+      "portfolio_score": 55.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Beacons guarding the world's coasts.",
+      "recommended_length": 10,
+      "portfolio_rank": 96
+    },
+    {
+      "id": "sacred-rivers-of-india",
+      "title": "Sacred Rivers of India",
+      "category": "heritage",
+      "description": "The Ganges and the spiritual geography of India.",
+      "recognition_score": 57,
+      "demand_score": 53,
+      "commercial_score": 55,
+      "portfolio_score": 55.0,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "The Ganges and the spiritual geography of India.",
+      "recommended_length": 15,
+      "portfolio_rank": 97
+    },
+    {
+      "id": "the-naturalists-voyages",
+      "title": "The Naturalists' Voyages",
+      "category": "heritage",
+      "description": "Expeditions that catalogued the living world.",
+      "recognition_score": 51,
+      "demand_score": 56,
+      "commercial_score": 58,
+      "portfolio_score": 54.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Expeditions that catalogued the living world.",
+      "recommended_length": 12,
+      "portfolio_rank": 98
+    },
+    {
+      "id": "butterflies-of-the-world",
+      "title": "Butterflies of the World",
+      "category": "wildlife",
+      "description": "Colour and metamorphosis across the world's Lepidoptera.",
+      "recognition_score": 51,
+      "demand_score": 56,
+      "commercial_score": 58,
+      "portfolio_score": 54.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "narrative_arc": "Colour and metamorphosis across the world's Lepidoptera.",
+      "recommended_length": 8,
+      "portfolio_rank": 99
+    },
+    {
+      "id": "wonders-of-the-world",
+      "title": "Wonders of the World",
+      "category": "heritage",
+      "description": "Ancient and modern marvels in one grand survey.",
+      "recognition_score": 55,
+      "demand_score": 51,
+      "commercial_score": 53,
+      "portfolio_score": 53.0,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "narrative_arc": "Ancient and modern marvels in one grand survey.",
+      "recommended_length": 11,
+      "portfolio_rank": 100
+    }
+  ]
+}

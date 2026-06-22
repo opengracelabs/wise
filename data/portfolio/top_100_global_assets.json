@@ -1,0 +1,1829 @@
+{
+  "meta": {
+    "title": "WISE Top 100 Global Assets",
+    "generated": "2026-06-22",
+    "count": 100,
+    "reference_models": [
+      "UNESCO World Heritage",
+      "GBIF flagship species",
+      "Smithsonian Open Access",
+      "Rijksmuseum",
+      "National Gallery",
+      "Library of Congress",
+      "Europeana",
+      "Public Domain Review"
+    ],
+    "scoring_methodology": "Editorial portfolio heuristic (0-100). portfolio_score = round(0.35*recognition_score + 0.35*demand_score + 0.30*commercial_score, 1). Scores are curatorial estimates for product prioritization, not measured analytics.",
+    "category_distribution": {
+      "species": 25,
+      "artwork": 24,
+      "heritage_site": 23,
+      "natural_site": 14,
+      "map": 8,
+      "manuscript": 6
+    },
+    "note": "Portfolio prioritization seed for the Phase 12 Products catalogue; not a paywall on canonical public memory (ADR-010)."
+  },
+  "assets": [
+    {
+      "id": "taj-mahal",
+      "title": "Taj Mahal",
+      "category": "heritage_site",
+      "country": "India",
+      "recognition_score": 99,
+      "demand_score": 95,
+      "commercial_score": 95,
+      "portfolio_score": 96.4,
+      "historical_significance": "Mughal marble mausoleum (1632-1653), a global symbol of love and Indo-Islamic architecture.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 1
+    },
+    {
+      "id": "machu-picchu",
+      "title": "Machu Picchu",
+      "category": "heritage_site",
+      "country": "Peru",
+      "recognition_score": 98,
+      "demand_score": 96,
+      "commercial_score": 94,
+      "portfolio_score": 96.1,
+      "historical_significance": "15th-century Inca citadel in the Andes, an icon of pre-Columbian engineering and one of the New Seven Wonders.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 2
+    },
+    {
+      "id": "great-wall-of-china",
+      "title": "Great Wall of China",
+      "category": "heritage_site",
+      "country": "China",
+      "recognition_score": 99,
+      "demand_score": 95,
+      "commercial_score": 92,
+      "portfolio_score": 95.5,
+      "historical_significance": "Continuous defensive fortifications begun in the 7th century BCE; the most recognized monument of imperial China.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 3
+    },
+    {
+      "id": "pyramids-of-giza",
+      "title": "Pyramids of Giza",
+      "category": "heritage_site",
+      "country": "Egypt",
+      "recognition_score": 99,
+      "demand_score": 94,
+      "commercial_score": 93,
+      "portfolio_score": 95.4,
+      "historical_significance": "Only surviving Ancient Wonder; Old Kingdom royal tombs and the Great Sphinx.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 4
+    },
+    {
+      "id": "the-starry-night",
+      "title": "The Starry Night",
+      "category": "artwork",
+      "country": "Netherlands",
+      "recognition_score": 96,
+      "demand_score": 94,
+      "commercial_score": 94,
+      "portfolio_score": 94.7,
+      "historical_significance": "Van Gogh's swirling night sky, among the most famous paintings in the world.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 5
+    },
+    {
+      "id": "colosseum",
+      "title": "Colosseum",
+      "category": "heritage_site",
+      "country": "Italy",
+      "recognition_score": 98,
+      "demand_score": 93,
+      "commercial_score": 92,
+      "portfolio_score": 94.4,
+      "historical_significance": "Roman amphitheatre (80 CE), the largest ever built and the enduring emblem of imperial Rome.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 6
+    },
+    {
+      "id": "the-great-wave-off-kanagawa",
+      "title": "The Great Wave off Kanagawa",
+      "category": "artwork",
+      "country": "Japan",
+      "recognition_score": 95,
+      "demand_score": 93,
+      "commercial_score": 94,
+      "portfolio_score": 94.0,
+      "historical_significance": "Hokusai's woodblock print, the most reproduced image of Japanese art.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 7
+    },
+    {
+      "id": "mona-lisa",
+      "title": "Mona Lisa",
+      "category": "artwork",
+      "country": "Italy",
+      "recognition_score": 99,
+      "demand_score": 92,
+      "commercial_score": 90,
+      "portfolio_score": 93.8,
+      "historical_significance": "Leonardo's enigmatic portrait, the most recognized painting on earth.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 8
+    },
+    {
+      "id": "lion-panthera-leo",
+      "title": "Lion (Panthera leo)",
+      "category": "species",
+      "country": "Africa",
+      "recognition_score": 96,
+      "demand_score": 93,
+      "commercial_score": 92,
+      "portfolio_score": 93.7,
+      "historical_significance": "The 'king of beasts', a universal emblem of strength across human cultures.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 9
+    },
+    {
+      "id": "tiger-panthera-tigris",
+      "title": "Tiger (Panthera tigris)",
+      "category": "species",
+      "country": "Asia",
+      "recognition_score": 95,
+      "demand_score": 92,
+      "commercial_score": 92,
+      "portfolio_score": 93.0,
+      "historical_significance": "Largest living cat and an endangered icon of Asian wilderness.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 10
+    },
+    {
+      "id": "petra",
+      "title": "Petra",
+      "category": "heritage_site",
+      "country": "Jordan",
+      "recognition_score": 95,
+      "demand_score": 90,
+      "commercial_score": 92,
+      "portfolio_score": 92.3,
+      "historical_significance": "Rock-cut Nabataean caravan city; the Treasury facade is among the most photographed monuments on earth.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 11
+    },
+    {
+      "id": "grand-canyon",
+      "title": "Grand Canyon",
+      "category": "natural_site",
+      "country": "United States",
+      "recognition_score": 95,
+      "demand_score": 90,
+      "commercial_score": 91,
+      "portfolio_score": 92.0,
+      "historical_significance": "Mile-deep gorge carved by the Colorado River, exposing two billion years of geology.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 12
+    },
+    {
+      "id": "girl-with-a-pearl-earring",
+      "title": "Girl with a Pearl Earring",
+      "category": "artwork",
+      "country": "Netherlands",
+      "recognition_score": 94,
+      "demand_score": 90,
+      "commercial_score": 92,
+      "portfolio_score": 92.0,
+      "historical_significance": "Vermeer's luminous tronie, the 'Mona Lisa of the North'.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 13
+    },
+    {
+      "id": "giant-panda-ailuropoda-melanoleuca",
+      "title": "Giant Panda (Ailuropoda melanoleuca)",
+      "category": "species",
+      "country": "China",
+      "recognition_score": 95,
+      "demand_score": 90,
+      "commercial_score": 90,
+      "portfolio_score": 91.8,
+      "historical_significance": "Bamboo-eating bear, the global symbol of wildlife conservation.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 14
+    },
+    {
+      "id": "angkor-wat",
+      "title": "Angkor Wat",
+      "category": "heritage_site",
+      "country": "Cambodia",
+      "recognition_score": 94,
+      "demand_score": 89,
+      "commercial_score": 91,
+      "portfolio_score": 91.3,
+      "historical_significance": "Largest religious monument in the world, a 12th-century Khmer temple-city.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 15
+    },
+    {
+      "id": "sunflowers",
+      "title": "Sunflowers",
+      "category": "artwork",
+      "country": "Netherlands",
+      "recognition_score": 92,
+      "demand_score": 90,
+      "commercial_score": 92,
+      "portfolio_score": 91.3,
+      "historical_significance": "Van Gogh's series of sunflower still lifes, a National Gallery treasure.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 16
+    },
+    {
+      "id": "acropolis-of-athens",
+      "title": "Acropolis of Athens",
+      "category": "heritage_site",
+      "country": "Greece",
+      "recognition_score": 95,
+      "demand_score": 88,
+      "commercial_score": 89,
+      "portfolio_score": 90.8,
+      "historical_significance": "Classical citadel crowned by the Parthenon, the architectural ideal of Western antiquity.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 17
+    },
+    {
+      "id": "christ-the-redeemer",
+      "title": "Christ the Redeemer",
+      "category": "heritage_site",
+      "country": "Brazil",
+      "recognition_score": 94,
+      "demand_score": 88,
+      "commercial_score": 90,
+      "portfolio_score": 90.7,
+      "historical_significance": "Art Deco statue above Rio de Janeiro; a New Seven Wonder and symbol of Brazil.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 18
+    },
+    {
+      "id": "stonehenge",
+      "title": "Stonehenge",
+      "category": "heritage_site",
+      "country": "United Kingdom",
+      "recognition_score": 95,
+      "demand_score": 88,
+      "commercial_score": 88,
+      "portfolio_score": 90.4,
+      "historical_significance": "Neolithic and Bronze Age stone circle on Salisbury Plain, aligned to the solstices.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 19
+    },
+    {
+      "id": "mount-fuji",
+      "title": "Mount Fuji",
+      "category": "natural_site",
+      "country": "Japan",
+      "recognition_score": 93,
+      "demand_score": 88,
+      "commercial_score": 90,
+      "portfolio_score": 90.3,
+      "historical_significance": "Sacred symmetrical volcano, Japan's most depicted natural icon.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 20
+    },
+    {
+      "id": "the-kiss",
+      "title": "The Kiss",
+      "category": "artwork",
+      "country": "Austria",
+      "recognition_score": 90,
+      "demand_score": 89,
+      "commercial_score": 92,
+      "portfolio_score": 90.2,
+      "historical_significance": "Klimt's gold-leaf masterpiece of the Vienna Secession.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 21
+    },
+    {
+      "id": "chichen-itza",
+      "title": "Chichen Itza",
+      "category": "heritage_site",
+      "country": "Mexico",
+      "recognition_score": 93,
+      "demand_score": 88,
+      "commercial_score": 89,
+      "portfolio_score": 90.0,
+      "historical_significance": "Maya-Toltec city dominated by the pyramid of El Castillo; a New Seven Wonder.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 22
+    },
+    {
+      "id": "the-scream",
+      "title": "The Scream",
+      "category": "artwork",
+      "country": "Norway",
+      "recognition_score": 92,
+      "demand_score": 88,
+      "commercial_score": 90,
+      "portfolio_score": 90.0,
+      "historical_significance": "Munch's icon of modern anxiety.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 23
+    },
+    {
+      "id": "african-elephant-loxodonta-africana",
+      "title": "African Elephant (Loxodonta africana)",
+      "category": "species",
+      "country": "Africa",
+      "recognition_score": 93,
+      "demand_score": 88,
+      "commercial_score": 88,
+      "portfolio_score": 89.8,
+      "historical_significance": "Largest living land animal and a flagship of conservation.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 24
+    },
+    {
+      "id": "great-barrier-reef",
+      "title": "Great Barrier Reef",
+      "category": "natural_site",
+      "country": "Australia",
+      "recognition_score": 93,
+      "demand_score": 87,
+      "commercial_score": 88,
+      "portfolio_score": 89.4,
+      "historical_significance": "World's largest coral reef system, visible from space and rich in marine life.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 25
+    },
+    {
+      "id": "polar-bear-ursus-maritimus",
+      "title": "Polar Bear (Ursus maritimus)",
+      "category": "species",
+      "country": "Arctic",
+      "recognition_score": 92,
+      "demand_score": 88,
+      "commercial_score": 88,
+      "portfolio_score": 89.4,
+      "historical_significance": "Apex predator of the sea ice and a symbol of climate change.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 26
+    },
+    {
+      "id": "the-night-watch",
+      "title": "The Night Watch",
+      "category": "artwork",
+      "country": "Netherlands",
+      "recognition_score": 92,
+      "demand_score": 86,
+      "commercial_score": 90,
+      "portfolio_score": 89.3,
+      "historical_significance": "Rembrandt's monumental 1642 militia portrait, centrepiece of the Rijksmuseum.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 27
+    },
+    {
+      "id": "vitruvian-man",
+      "title": "Vitruvian Man",
+      "category": "artwork",
+      "country": "Italy",
+      "recognition_score": 90,
+      "demand_score": 86,
+      "commercial_score": 90,
+      "portfolio_score": 88.6,
+      "historical_significance": "Leonardo's study of human proportion, an emblem of the Renaissance.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 28
+    },
+    {
+      "id": "water-lilies",
+      "title": "Water Lilies",
+      "category": "artwork",
+      "country": "France",
+      "recognition_score": 88,
+      "demand_score": 88,
+      "commercial_score": 90,
+      "portfolio_score": 88.6,
+      "historical_significance": "Monet's immersive series from his Giverny garden.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 29
+    },
+    {
+      "id": "the-birth-of-venus",
+      "title": "The Birth of Venus",
+      "category": "artwork",
+      "country": "Italy",
+      "recognition_score": 90,
+      "demand_score": 86,
+      "commercial_score": 89,
+      "portfolio_score": 88.3,
+      "historical_significance": "Botticelli's mythological masterpiece of the Florentine Renaissance.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 30
+    },
+    {
+      "id": "sagrada-familia",
+      "title": "Sagrada Familia",
+      "category": "heritage_site",
+      "country": "Spain",
+      "recognition_score": 90,
+      "demand_score": 86,
+      "commercial_score": 88,
+      "portfolio_score": 88.0,
+      "historical_significance": "Gaudi's unfinished Barcelona basilica, a singular work of Catalan Modernism.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 31
+    },
+    {
+      "id": "serengeti",
+      "title": "Serengeti",
+      "category": "natural_site",
+      "country": "Tanzania",
+      "recognition_score": 90,
+      "demand_score": 86,
+      "commercial_score": 88,
+      "portfolio_score": 88.0,
+      "historical_significance": "Vast savanna hosting the great migration of wildebeest and zebra.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 32
+    },
+    {
+      "id": "terracotta-army",
+      "title": "Terracotta Army",
+      "category": "heritage_site",
+      "country": "China",
+      "recognition_score": 92,
+      "demand_score": 85,
+      "commercial_score": 86,
+      "portfolio_score": 87.7,
+      "historical_significance": "Thousands of life-size clay warriors guarding the tomb of China's first emperor.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 33
+    },
+    {
+      "id": "snow-leopard-panthera-uncia",
+      "title": "Snow Leopard (Panthera uncia)",
+      "category": "species",
+      "country": "Central Asia",
+      "recognition_score": 89,
+      "demand_score": 86,
+      "commercial_score": 88,
+      "portfolio_score": 87.7,
+      "historical_significance": "Elusive 'ghost of the mountains' of the high Himalaya.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 34
+    },
+    {
+      "id": "alhambra",
+      "title": "Alhambra",
+      "category": "heritage_site",
+      "country": "Spain",
+      "recognition_score": 90,
+      "demand_score": 85,
+      "commercial_score": 88,
+      "portfolio_score": 87.6,
+      "historical_significance": "Moorish palace-fortress in Granada, the finest surviving example of Islamic Spain.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 35
+    },
+    {
+      "id": "banff-and-the-canadian-rockies",
+      "title": "Banff and the Canadian Rockies",
+      "category": "natural_site",
+      "country": "Canada",
+      "recognition_score": 88,
+      "demand_score": 86,
+      "commercial_score": 89,
+      "portfolio_score": 87.6,
+      "historical_significance": "Glacial peaks and turquoise lakes of Canada's first national park.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 36
+    },
+    {
+      "id": "mont-saint-michel",
+      "title": "Mont-Saint-Michel",
+      "category": "heritage_site",
+      "country": "France",
+      "recognition_score": 90,
+      "demand_score": 84,
+      "commercial_score": 88,
+      "portfolio_score": 87.3,
+      "historical_significance": "Tidal island abbey rising from Normandy's bay, a masterpiece of medieval architecture.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 37
+    },
+    {
+      "id": "northern-lights-of-lapland",
+      "title": "Northern Lights of Lapland",
+      "category": "natural_site",
+      "country": "Finland",
+      "recognition_score": 88,
+      "demand_score": 86,
+      "commercial_score": 88,
+      "portfolio_score": 87.3,
+      "historical_significance": "Aurora borealis over the Arctic, a premier natural-wonder subject.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 38
+    },
+    {
+      "id": "the-milkmaid",
+      "title": "The Milkmaid",
+      "category": "artwork",
+      "country": "Netherlands",
+      "recognition_score": 88,
+      "demand_score": 85,
+      "commercial_score": 89,
+      "portfolio_score": 87.2,
+      "historical_significance": "Vermeer's quiet masterpiece of domestic light, a Rijksmuseum highlight.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 39
+    },
+    {
+      "id": "wanderer-above-the-sea-of-fog",
+      "title": "Wanderer above the Sea of Fog",
+      "category": "artwork",
+      "country": "Germany",
+      "recognition_score": 86,
+      "demand_score": 86,
+      "commercial_score": 89,
+      "portfolio_score": 86.9,
+      "historical_significance": "Friedrich's Romantic icon of the sublime.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 40
+    },
+    {
+      "id": "forbidden-city",
+      "title": "Forbidden City",
+      "category": "heritage_site",
+      "country": "China",
+      "recognition_score": 91,
+      "demand_score": 84,
+      "commercial_score": 85,
+      "portfolio_score": 86.8,
+      "historical_significance": "Ming and Qing imperial palace complex in Beijing, the largest in the world.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 41
+    },
+    {
+      "id": "galapagos-islands",
+      "title": "Galapagos Islands",
+      "category": "natural_site",
+      "country": "Ecuador",
+      "recognition_score": 90,
+      "demand_score": 84,
+      "commercial_score": 86,
+      "portfolio_score": 86.7,
+      "historical_significance": "Volcanic archipelago whose endemic life shaped Darwin's theory of evolution.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 42
+    },
+    {
+      "id": "moai-of-easter-island",
+      "title": "Moai of Easter Island",
+      "category": "heritage_site",
+      "country": "Chile",
+      "recognition_score": 90,
+      "demand_score": 83,
+      "commercial_score": 86,
+      "portfolio_score": 86.3,
+      "historical_significance": "Monumental Rapa Nui stone heads, an enigma of Polynesian sculpture.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 43
+    },
+    {
+      "id": "cheetah-acinonyx-jubatus",
+      "title": "Cheetah (Acinonyx jubatus)",
+      "category": "species",
+      "country": "Africa",
+      "recognition_score": 88,
+      "demand_score": 85,
+      "commercial_score": 86,
+      "portfolio_score": 86.3,
+      "historical_significance": "Fastest land animal, sprinting across the open savanna.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 44
+    },
+    {
+      "id": "red-panda-ailurus-fulgens",
+      "title": "Red Panda (Ailurus fulgens)",
+      "category": "species",
+      "country": "Himalaya",
+      "recognition_score": 86,
+      "demand_score": 86,
+      "commercial_score": 87,
+      "portfolio_score": 86.3,
+      "historical_significance": "Charismatic Himalayan mammal beloved worldwide.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 45
+    },
+    {
+      "id": "antelope-canyon",
+      "title": "Antelope Canyon",
+      "category": "natural_site",
+      "country": "United States",
+      "recognition_score": 85,
+      "demand_score": 86,
+      "commercial_score": 88,
+      "portfolio_score": 86.2,
+      "historical_significance": "Sculpted sandstone slot canyon famed for shafts of light.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 46
+    },
+    {
+      "id": "american-gothic",
+      "title": "American Gothic",
+      "category": "artwork",
+      "country": "United States",
+      "recognition_score": 87,
+      "demand_score": 84,
+      "commercial_score": 88,
+      "portfolio_score": 86.2,
+      "historical_significance": "Grant Wood's enduring image of rural America.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 47
+    },
+    {
+      "id": "blue-whale-balaenoptera-musculus",
+      "title": "Blue Whale (Balaenoptera musculus)",
+      "category": "species",
+      "country": "Oceans",
+      "recognition_score": 90,
+      "demand_score": 84,
+      "commercial_score": 84,
+      "portfolio_score": 86.1,
+      "historical_significance": "Largest animal ever known to have lived.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 48
+    },
+    {
+      "id": "hagia-sophia",
+      "title": "Hagia Sophia",
+      "category": "heritage_site",
+      "country": "Turkey",
+      "recognition_score": 90,
+      "demand_score": 83,
+      "commercial_score": 85,
+      "portfolio_score": 86.0,
+      "historical_significance": "Byzantine cathedral turned mosque (537 CE), a pinnacle of late-antique architecture.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 49
+    },
+    {
+      "id": "bald-eagle-haliaeetus-leucocephalus",
+      "title": "Bald Eagle (Haliaeetus leucocephalus)",
+      "category": "species",
+      "country": "North America",
+      "recognition_score": 88,
+      "demand_score": 84,
+      "commercial_score": 86,
+      "portfolio_score": 86.0,
+      "historical_significance": "National bird of the United States and a raptor icon.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 50
+    },
+    {
+      "id": "iguazu-falls",
+      "title": "Iguazu Falls",
+      "category": "natural_site",
+      "country": "Argentina",
+      "recognition_score": 88,
+      "demand_score": 83,
+      "commercial_score": 87,
+      "portfolio_score": 85.9,
+      "historical_significance": "Sweeping system of 275 waterfalls on the Argentina-Brazil border.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 51
+    },
+    {
+      "id": "thirty-six-views-of-mount-fuji",
+      "title": "Thirty-six Views of Mount Fuji",
+      "category": "artwork",
+      "country": "Japan",
+      "recognition_score": 86,
+      "demand_score": 84,
+      "commercial_score": 88,
+      "portfolio_score": 85.9,
+      "historical_significance": "Hokusai's celebrated woodblock series.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 52
+    },
+    {
+      "id": "the-birds-of-america-plates",
+      "title": "The Birds of America plates",
+      "category": "artwork",
+      "country": "United States",
+      "recognition_score": 84,
+      "demand_score": 84,
+      "commercial_score": 90,
+      "portfolio_score": 85.8,
+      "historical_significance": "Audubon's life-size ornithological engravings, a Library of Congress treasure.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 53
+    },
+    {
+      "id": "cappadocia",
+      "title": "Cappadocia",
+      "category": "heritage_site",
+      "country": "Turkey",
+      "recognition_score": 86,
+      "demand_score": 84,
+      "commercial_score": 87,
+      "portfolio_score": 85.6,
+      "historical_significance": "Volcanic 'fairy chimney' landscape with rock-cut churches and underground cities.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 54
+    },
+    {
+      "id": "monarch-butterfly-danaus-plexippus",
+      "title": "Monarch Butterfly (Danaus plexippus)",
+      "category": "species",
+      "country": "Americas",
+      "recognition_score": 86,
+      "demand_score": 84,
+      "commercial_score": 87,
+      "portfolio_score": 85.6,
+      "historical_significance": "Famous for its multi-generational continental migration.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 55
+    },
+    {
+      "id": "pompeii",
+      "title": "Pompeii",
+      "category": "heritage_site",
+      "country": "Italy",
+      "recognition_score": 89,
+      "demand_score": 82,
+      "commercial_score": 85,
+      "portfolio_score": 85.3,
+      "historical_significance": "Roman city preserved by the 79 CE eruption of Vesuvius, a window into daily antiquity.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 56
+    },
+    {
+      "id": "yellowstone",
+      "title": "Yellowstone",
+      "category": "natural_site",
+      "country": "United States",
+      "recognition_score": 88,
+      "demand_score": 83,
+      "commercial_score": 85,
+      "portfolio_score": 85.3,
+      "historical_significance": "World's first national park, famed for geysers and wildlife.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 57
+    },
+    {
+      "id": "gray-wolf-canis-lupus",
+      "title": "Gray Wolf (Canis lupus)",
+      "category": "species",
+      "country": "Northern Hemisphere",
+      "recognition_score": 86,
+      "demand_score": 84,
+      "commercial_score": 86,
+      "portfolio_score": 85.3,
+      "historical_significance": "Keystone predator central to myth and rewilding.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 58
+    },
+    {
+      "id": "mount-kilimanjaro",
+      "title": "Mount Kilimanjaro",
+      "category": "natural_site",
+      "country": "Tanzania",
+      "recognition_score": 88,
+      "demand_score": 82,
+      "commercial_score": 85,
+      "portfolio_score": 85.0,
+      "historical_significance": "Africa's highest peak, a free-standing volcano above the savanna.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 59
+    },
+    {
+      "id": "victoria-falls",
+      "title": "Victoria Falls",
+      "category": "natural_site",
+      "country": "Zambia",
+      "recognition_score": 87,
+      "demand_score": 82,
+      "commercial_score": 86,
+      "portfolio_score": 85.0,
+      "historical_significance": "One of the world's largest waterfalls on the Zambezi, 'the smoke that thunders'.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 60
+    },
+    {
+      "id": "emperor-penguin-aptenodytes-forsteri",
+      "title": "Emperor Penguin (Aptenodytes forsteri)",
+      "category": "species",
+      "country": "Antarctica",
+      "recognition_score": 87,
+      "demand_score": 83,
+      "commercial_score": 85,
+      "portfolio_score": 85.0,
+      "historical_significance": "Largest penguin, breeding through the Antarctic winter.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 61
+    },
+    {
+      "id": "kiyomizu-dera-and-the-temples-of-kyoto",
+      "title": "Kiyomizu-dera and the Temples of Kyoto",
+      "category": "heritage_site",
+      "country": "Japan",
+      "recognition_score": 87,
+      "demand_score": 82,
+      "commercial_score": 85,
+      "portfolio_score": 84.7,
+      "historical_significance": "Historic Buddhist and Shinto monuments of the former imperial capital.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 62
+    },
+    {
+      "id": "mountain-gorilla-gorilla-beringei",
+      "title": "Mountain Gorilla (Gorilla beringei)",
+      "category": "species",
+      "country": "Africa",
+      "recognition_score": 88,
+      "demand_score": 82,
+      "commercial_score": 84,
+      "portfolio_score": 84.7,
+      "historical_significance": "Critically endangered great ape of the Virunga volcanoes.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 63
+    },
+    {
+      "id": "salar-de-uyuni",
+      "title": "Salar de Uyuni",
+      "category": "natural_site",
+      "country": "Bolivia",
+      "recognition_score": 84,
+      "demand_score": 84,
+      "commercial_score": 86,
+      "portfolio_score": 84.6,
+      "historical_significance": "World's largest salt flat, a vast mirror under the Andean sky.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 64
+    },
+    {
+      "id": "jaguar-panthera-onca",
+      "title": "Jaguar (Panthera onca)",
+      "category": "species",
+      "country": "South America",
+      "recognition_score": 86,
+      "demand_score": 83,
+      "commercial_score": 85,
+      "portfolio_score": 84.6,
+      "historical_significance": "Largest cat of the Americas and apex predator of the Amazon.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 65
+    },
+    {
+      "id": "the-garden-of-earthly-delights",
+      "title": "The Garden of Earthly Delights",
+      "category": "artwork",
+      "country": "Spain",
+      "recognition_score": 86,
+      "demand_score": 82,
+      "commercial_score": 86,
+      "portfolio_score": 84.6,
+      "historical_significance": "Bosch's fantastical triptych in the Prado.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 66
+    },
+    {
+      "id": "great-white-shark-carcharodon-carcharias",
+      "title": "Great White Shark (Carcharodon carcharias)",
+      "category": "species",
+      "country": "Oceans",
+      "recognition_score": 88,
+      "demand_score": 82,
+      "commercial_score": 83,
+      "portfolio_score": 84.4,
+      "historical_significance": "Ocean's most famous predator.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 67
+    },
+    {
+      "id": "koala-phascolarctos-cinereus",
+      "title": "Koala (Phascolarctos cinereus)",
+      "category": "species",
+      "country": "Australia",
+      "recognition_score": 85,
+      "demand_score": 83,
+      "commercial_score": 85,
+      "portfolio_score": 84.3,
+      "historical_significance": "Iconic Australian marsupial of the eucalyptus forest.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 68
+    },
+    {
+      "id": "plitvice-lakes",
+      "title": "Plitvice Lakes",
+      "category": "natural_site",
+      "country": "Croatia",
+      "recognition_score": 84,
+      "demand_score": 82,
+      "commercial_score": 87,
+      "portfolio_score": 84.2,
+      "historical_significance": "Terraced turquoise lakes and waterfalls in karst forest.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Framed Print",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 69
+    },
+    {
+      "id": "declaration-of-independence",
+      "title": "Declaration of Independence",
+      "category": "manuscript",
+      "country": "United States",
+      "recognition_score": 90,
+      "demand_score": 80,
+      "commercial_score": 82,
+      "portfolio_score": 84.1,
+      "historical_significance": "Founding document of the United States, held by the Library of Congress.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Facsimile Print",
+        "Framed Print",
+        "Poster"
+      ],
+      "portfolio_rank": 70
+    },
+    {
+      "id": "book-of-kells-folios",
+      "title": "Book of Kells (folios)",
+      "category": "manuscript",
+      "country": "Ireland",
+      "recognition_score": 84,
+      "demand_score": 82,
+      "commercial_score": 86,
+      "portfolio_score": 83.9,
+      "historical_significance": "Lavishly illuminated Insular Gospel manuscript.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Facsimile Print",
+        "Framed Print",
+        "Poster"
+      ],
+      "portfolio_rank": 71
+    },
+    {
+      "id": "green-sea-turtle-chelonia-mydas",
+      "title": "Green Sea Turtle (Chelonia mydas)",
+      "category": "species",
+      "country": "Oceans",
+      "recognition_score": 84,
+      "demand_score": 82,
+      "commercial_score": 85,
+      "portfolio_score": 83.6,
+      "historical_significance": "Ancient ocean mariner and conservation flagship.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 72
+    },
+    {
+      "id": "axolotl-ambystoma-mexicanum",
+      "title": "Axolotl (Ambystoma mexicanum)",
+      "category": "species",
+      "country": "Mexico",
+      "recognition_score": 82,
+      "demand_score": 84,
+      "commercial_score": 85,
+      "portfolio_score": 83.6,
+      "historical_significance": "Neotenic salamander, a regeneration icon.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 73
+    },
+    {
+      "id": "las-meninas",
+      "title": "Las Meninas",
+      "category": "artwork",
+      "country": "Spain",
+      "recognition_score": 86,
+      "demand_score": 80,
+      "commercial_score": 85,
+      "portfolio_score": 83.6,
+      "historical_significance": "Velazquez's complex meditation on painting and the royal court.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 74
+    },
+    {
+      "id": "borobudur",
+      "title": "Borobudur",
+      "category": "heritage_site",
+      "country": "Indonesia",
+      "recognition_score": 86,
+      "demand_score": 80,
+      "commercial_score": 84,
+      "portfolio_score": 83.3,
+      "historical_significance": "Largest Buddhist temple in the world, a 9th-century Mahayana monument in Java.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 75
+    },
+    {
+      "id": "hummingbird-trochilidae",
+      "title": "Hummingbird (Trochilidae)",
+      "category": "species",
+      "country": "Americas",
+      "recognition_score": 82,
+      "demand_score": 82,
+      "commercial_score": 86,
+      "portfolio_score": 83.2,
+      "historical_significance": "Iridescent nectar-feeders, the smallest birds.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 76
+    },
+    {
+      "id": "kunstformen-der-natur-plates",
+      "title": "Kunstformen der Natur plates",
+      "category": "artwork",
+      "country": "Germany",
+      "recognition_score": 80,
+      "demand_score": 82,
+      "commercial_score": 88,
+      "portfolio_score": 83.1,
+      "historical_significance": "Ernst Haeckel's natural-form lithographs, a Public Domain Review favourite.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 77
+    },
+    {
+      "id": "impression-sunrise",
+      "title": "Impression, Sunrise",
+      "category": "artwork",
+      "country": "France",
+      "recognition_score": 84,
+      "demand_score": 80,
+      "commercial_score": 85,
+      "portfolio_score": 82.9,
+      "historical_significance": "Monet's harbour scene that named Impressionism.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 78
+    },
+    {
+      "id": "a-sunday-on-la-grande-jatte",
+      "title": "A Sunday on La Grande Jatte",
+      "category": "artwork",
+      "country": "France",
+      "recognition_score": 84,
+      "demand_score": 80,
+      "commercial_score": 85,
+      "portfolio_score": 82.9,
+      "historical_significance": "Seurat's pointillist landmark.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 79
+    },
+    {
+      "id": "the-fighting-temeraire",
+      "title": "The Fighting Temeraire",
+      "category": "artwork",
+      "country": "United Kingdom",
+      "recognition_score": 84,
+      "demand_score": 80,
+      "commercial_score": 85,
+      "portfolio_score": 82.9,
+      "historical_significance": "Turner's elegiac National Gallery seascape.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 80
+    },
+    {
+      "id": "orangutan-pongo",
+      "title": "Orangutan (Pongo)",
+      "category": "species",
+      "country": "Indonesia",
+      "recognition_score": 86,
+      "demand_score": 80,
+      "commercial_score": 82,
+      "portfolio_score": 82.7,
+      "historical_significance": "Critically endangered great ape of Borneo and Sumatra.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 81
+    },
+    {
+      "id": "bagan",
+      "title": "Bagan",
+      "category": "heritage_site",
+      "country": "Myanmar",
+      "recognition_score": 84,
+      "demand_score": 79,
+      "commercial_score": 84,
+      "portfolio_score": 82.2,
+      "historical_significance": "Plain of thousands of Buddhist temples and pagodas from the Pagan Kingdom.",
+      "product_recommendations": [
+        "Framed Print",
+        "Canvas Print",
+        "Poster",
+        "Jigsaw Puzzle"
+      ],
+      "portfolio_rank": 82
+    },
+    {
+      "id": "magna-carta",
+      "title": "Magna Carta",
+      "category": "manuscript",
+      "country": "United Kingdom",
+      "recognition_score": 88,
+      "demand_score": 78,
+      "commercial_score": 80,
+      "portfolio_score": 82.1,
+      "historical_significance": "1215 charter foundational to constitutional liberty.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Facsimile Print",
+        "Framed Print",
+        "Poster"
+      ],
+      "portfolio_rank": 83
+    },
+    {
+      "id": "gutenberg-bible",
+      "title": "Gutenberg Bible",
+      "category": "manuscript",
+      "country": "Germany",
+      "recognition_score": 86,
+      "demand_score": 78,
+      "commercial_score": 82,
+      "portfolio_score": 82.0,
+      "historical_significance": "First major book printed with movable type in the West.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Facsimile Print",
+        "Framed Print",
+        "Poster"
+      ],
+      "portfolio_rank": 84
+    },
+    {
+      "id": "voynich-manuscript",
+      "title": "Voynich Manuscript",
+      "category": "manuscript",
+      "country": "Italy",
+      "recognition_score": 80,
+      "demand_score": 82,
+      "commercial_score": 84,
+      "portfolio_score": 81.9,
+      "historical_significance": "Undeciphered illustrated codex, an enduring mystery.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Facsimile Print",
+        "Framed Print",
+        "Poster"
+      ],
+      "portfolio_rank": 85
+    },
+    {
+      "id": "mercator-world-map-1569",
+      "title": "Mercator World Map (1569)",
+      "category": "map",
+      "country": "Belgium",
+      "recognition_score": 80,
+      "demand_score": 78,
+      "commercial_score": 86,
+      "portfolio_score": 81.1,
+      "historical_significance": "Introduced the projection that reshaped navigation.",
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 86
+    },
+    {
+      "id": "american-bison-bison-bison",
+      "title": "American Bison (Bison bison)",
+      "category": "species",
+      "country": "North America",
+      "recognition_score": 82,
+      "demand_score": 79,
+      "commercial_score": 82,
+      "portfolio_score": 80.9,
+      "historical_significance": "Symbol of the Great Plains and conservation recovery.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 87
+    },
+    {
+      "id": "whale-shark-rhincodon-typus",
+      "title": "Whale Shark (Rhincodon typus)",
+      "category": "species",
+      "country": "Oceans",
+      "recognition_score": 82,
+      "demand_score": 79,
+      "commercial_score": 82,
+      "portfolio_score": 80.9,
+      "historical_significance": "Largest living fish, a gentle filter feeder.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 88
+    },
+    {
+      "id": "blaeu-atlas-maior",
+      "title": "Blaeu Atlas Maior",
+      "category": "map",
+      "country": "Netherlands",
+      "recognition_score": 78,
+      "demand_score": 78,
+      "commercial_score": 86,
+      "portfolio_score": 80.4,
+      "historical_significance": "The grandest atlas of the Dutch Golden Age of cartography.",
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 89
+    },
+    {
+      "id": "komodo-dragon-varanus-komodoensis",
+      "title": "Komodo Dragon (Varanus komodoensis)",
+      "category": "species",
+      "country": "Indonesia",
+      "recognition_score": 82,
+      "demand_score": 78,
+      "commercial_score": 81,
+      "portfolio_score": 80.3,
+      "historical_significance": "World's largest living lizard.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 90
+    },
+    {
+      "id": "resplendent-quetzal-pharomachrus-mocinno",
+      "title": "Resplendent Quetzal (Pharomachrus mocinno)",
+      "category": "species",
+      "country": "Central America",
+      "recognition_score": 80,
+      "demand_score": 78,
+      "commercial_score": 83,
+      "portfolio_score": 80.2,
+      "historical_significance": "Sacred Mesoamerican bird of brilliant plumage.",
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Poster",
+        "Wall Calendar"
+      ],
+      "portfolio_rank": 91
+    },
+    {
+      "id": "waldseemuller-world-map-1507",
+      "title": "Waldseemuller World Map (1507)",
+      "category": "map",
+      "country": "Germany",
+      "recognition_score": 80,
+      "demand_score": 76,
+      "commercial_score": 85,
+      "portfolio_score": 80.1,
+      "historical_significance": "First map to name 'America'; the Library of Congress 'birth certificate' of the New World.",
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 92
+    },
+    {
+      "id": "shakespeare-first-folio",
+      "title": "Shakespeare First Folio",
+      "category": "manuscript",
+      "country": "United Kingdom",
+      "recognition_score": 84,
+      "demand_score": 76,
+      "commercial_score": 80,
+      "portfolio_score": 80.0,
+      "historical_significance": "First collected edition of Shakespeare's plays (1623).",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Facsimile Print",
+        "Framed Print",
+        "Poster"
+      ],
+      "portfolio_rank": 93
+    },
+    {
+      "id": "metamorphosis-insectorum-surinamensium",
+      "title": "Metamorphosis insectorum Surinamensium",
+      "category": "artwork",
+      "country": "Netherlands",
+      "recognition_score": 76,
+      "demand_score": 78,
+      "commercial_score": 85,
+      "portfolio_score": 79.4,
+      "historical_significance": "Maria Sibylla Merian's pioneering botanical and entomological plates.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 94
+    },
+    {
+      "id": "the-anatomy-lesson-of-dr-tulp",
+      "title": "The Anatomy Lesson of Dr. Tulp",
+      "category": "artwork",
+      "country": "Netherlands",
+      "recognition_score": 80,
+      "demand_score": 76,
+      "commercial_score": 82,
+      "portfolio_score": 79.2,
+      "historical_significance": "Rembrandt's group portrait of a dissection.",
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 95
+    },
+    {
+      "id": "uranometria-star-atlas-1603",
+      "title": "Uranometria Star Atlas (1603)",
+      "category": "map",
+      "country": "Germany",
+      "recognition_score": 74,
+      "demand_score": 76,
+      "commercial_score": 84,
+      "portfolio_score": 77.7,
+      "historical_significance": "Bayer's celestial atlas, foundational to star charting.",
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 96
+    },
+    {
+      "id": "lewis-and-clark-expedition-map",
+      "title": "Lewis and Clark Expedition Map",
+      "category": "map",
+      "country": "United States",
+      "recognition_score": 76,
+      "demand_score": 74,
+      "commercial_score": 82,
+      "portfolio_score": 77.1,
+      "historical_significance": "Charting the American West, held by the Library of Congress.",
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 97
+    },
+    {
+      "id": "tabula-rogeriana",
+      "title": "Tabula Rogeriana",
+      "category": "map",
+      "country": "Italy",
+      "recognition_score": 74,
+      "demand_score": 72,
+      "commercial_score": 80,
+      "portfolio_score": 75.1,
+      "historical_significance": "Al-Idrisi's 1154 world map, among the most advanced of the Middle Ages.",
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 98
+    },
+    {
+      "id": "carta-marina-1539",
+      "title": "Carta Marina (1539)",
+      "category": "map",
+      "country": "Sweden",
+      "recognition_score": 72,
+      "demand_score": 72,
+      "commercial_score": 80,
+      "portfolio_score": 74.4,
+      "historical_significance": "Olaus Magnus's richly illustrated map of the Nordic seas.",
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 99
+    },
+    {
+      "id": "hereford-mappa-mundi",
+      "title": "Hereford Mappa Mundi",
+      "category": "map",
+      "country": "United Kingdom",
+      "recognition_score": 74,
+      "demand_score": 70,
+      "commercial_score": 78,
+      "portfolio_score": 73.8,
+      "historical_significance": "Largest surviving medieval world map.",
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Canvas Print",
+        "Poster"
+      ],
+      "portfolio_rank": 100
+    }
+  ]
+}
