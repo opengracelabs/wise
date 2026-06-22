@@ -168,6 +168,7 @@ Each observation is emitted as **JSON-LD** with:
 | **Temporal bounds** | ISO 8601 interval for the observation window |
 | **Metric summary** | Quantitative trend or anomaly score with method documentation |
 | **Source provenance** | Contributing datasets, ingest events, and graph entity URIs with `prov:wasDerivedFrom` |
+| **Evidence profile** | [Evidence Output Profile](03-canonical-architecture.md#66-evidence-output-profile): `evidenceURIs[]`, `confidence`, `evidenceSummary`, `method`, `sourceRegistryRefs[]`, `provenanceEventId` |
 | **Alert tier** | Proposed severity per §6.2 |
 | **Review requirement** | Auto-approvable (informational only), steward review, or joint conservation review |
 

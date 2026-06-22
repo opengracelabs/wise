@@ -3,9 +3,10 @@
 | Field | Value |
 |-------|-------|
 | **Version** | 1.0 |
-| **Status** | Canonical |
+| **Status** | Canonical — frozen per [ADR-011](08-decision-record.md#adr-011-architecture-freeze-v10) |
 | **Authority** | Open Grace Architecture Office |
 | **Date** | 2026-06-22 |
+| **Release** | Architecture v1.0 (`architecture-v1.0`) |
 
 ## Document Map
 

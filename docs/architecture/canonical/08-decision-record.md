@@ -71,6 +71,7 @@ Each record follows this structure:
 | [ADR-008](#adr-008-translation-as-platform-capability) | Translation as Platform Capability | Accepted | 2026-06-22 |
 | [ADR-009](#adr-009-oais-preservation-foundation) | OAIS Preservation Foundation | Accepted | 2026-06-22 |
 | [ADR-010](#adr-010-free-access-constitutional-commitment) | Free Access Constitutional Commitment | Accepted | 2026-06-22 |
+| [ADR-011](#adr-011-architecture-freeze-v10) | Architecture Freeze v1.0 | Accepted | 2026-06-22 |
 
 ---
 
@@ -507,6 +508,64 @@ Canonical public memory is **freely accessible to every person** with no paywall
 - [01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md) — Sections 2, 6
 - [03-canonical-architecture.md](03-canonical-architecture.md) — Sections 5.2, 9
 - [06-build-roadmap.md](06-build-roadmap.md) — Phase 12
+
+---
+
+## ADR-011: Architecture Freeze v1.0
+
+| Field | Value |
+|-------|-------|
+| **Status** | Accepted |
+| **Date** | 2026-06-22 |
+| **Deciders** | Open Grace Architecture Office |
+| **Version** | 1.0 |
+
+### Context
+
+The canonical documentation suite now includes constitutional mission, governance structure, reference models, standards framework, architecture definitions, system diagrams, agent specifications, and validation reports. The repository is tagged `architecture-v1.0` at commit `860fdeb`, reflecting a complete constitutional baseline.
+
+Without an explicit freeze decision, teams may continue expanding architecture — adding agents, observatories, and products — instead of implementing the founder build order. The Architecture Office must declare when the baseline is sufficient for implementation and what changes remain permitted.
+
+### Decision
+
+The Open Grace and Nature & Culture Constitutional Architecture is **stable and sufficient for implementation**. The architecture documented in the following canonical documents is designated **Architecture v1.0**:
+
+- [01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md)
+- [02-reference-models.md](02-reference-models.md)
+- [03-canonical-architecture.md](03-canonical-architecture.md)
+- [04-system-diagram.md](04-system-diagram.md)
+- [06-build-roadmap.md](06-build-roadmap.md)
+- [07-reference-standards.md](07-reference-standards.md)
+- [08-decision-record.md](08-decision-record.md)
+
+Architecture v1.0 is recorded in the [Architecture Registry](../../governance/architecture-registry.md) and marked by the Git tag `architecture-v1.0`.
+
+### Rationale
+
+- The repository contains the full constitutional foundation: mission, governance, reference models, standards, architecture layers, system diagrams, agent specifications, and validation reports ([constitutional-validation-report.md](../../governance/constitutional-validation-report.md)).
+- Further architectural expansion is no longer the primary constraint on institutional progress.
+- **Reference Capability 1** (Phase 1: Discovery, [06-build-roadmap.md](06-build-roadmap.md)) becomes the next strategic priority — acquiring and cataloging heritage, nature, and culture sources before downstream platform capabilities.
+- A named release (`architecture-v1.0`) gives implementation teams a stable contract while preserving ADR-governed evolution.
+
+### Consequences
+
+**Positive:**
+- Implementation teams can proceed against a fixed architectural baseline
+- Scope creep from speculative agents, observatories, and products is constrained
+- Architecture changes remain traceable through new ADRs per Section 3
+- Strategic priority shifts from architecture creation to capability implementation
+
+**Negative:**
+- Implementation findings may require ADRs that expand scope sooner than anticipated
+- Planned agent specifications (Architecture, Research, Audit) remain deferred until implementation or governance requires them
+- Operational registries (e.g., Capability Registry) must not precede constitutional completion
+
+### References
+
+- [03-canonical-architecture.md](03-canonical-architecture.md) — Full document
+- [06-build-roadmap.md](06-build-roadmap.md) — Phase 1 (Discovery)
+- [architecture-registry.md](../../governance/architecture-registry.md) — Registry entry
+- [constitutional-validation-report.md](../../governance/constitutional-validation-report.md) — Validation baseline
 
 ---
 

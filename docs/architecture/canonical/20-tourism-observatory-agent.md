@@ -183,6 +183,7 @@ Each candidate observation or series is emitted as an **Observatory Observation 
 | **Temporal extent** | `dcterms:temporal` start/end; aggregation granularity |
 | **Metric values** | Normalized numeric series or snapshot with unit and methodology |
 | **Source provenance** | Partner feed URI, sensor ID, steward submission reference; `prov:wasDerivedFrom` |
+| **Evidence profile** | [Evidence Output Profile](03-canonical-architecture.md#66-evidence-output-profile): `evidenceURIs[]`, `confidence`, `evidenceSummary`, `method`, `sourceRegistryRefs[]`, `provenanceEventId` |
 | **Privacy posture** | Aggregation level, k-anonymity attestation, PII handling declaration |
 | **Framework alignment** | SDG or institutional KPI codes when applicable |
 | **Anomaly signals** | Deviation scores, threshold breaches, recommended steward actions |

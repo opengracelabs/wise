@@ -253,4 +253,4 @@ Aligned with AI Fabric governance completion and constitution accountability cri
 
 ---
 
-*Previous: [22-standards-agent.md](22-standards-agent.md) · Governance: [docs/governance/architecture-registry.md](../../governance/architecture-registry.md)*
+*Previous: [22-standards-agent.md](22-standards-agent.md) · Governance: [docs/governance/architecture-registry.md](../../governance/architecture-registry.md), [docs/governance/agent-checks-registry.md](../../governance/agent-checks-registry.md)*

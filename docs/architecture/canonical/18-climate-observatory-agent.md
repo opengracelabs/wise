@@ -175,6 +175,7 @@ Each candidate observation or derived indicator is emitted as an **Observatory O
 | **Source feed** | Partner dataset URI, retrieval timestamp, and license expression |
 | **Graph anchors** | Canonical place, site, protected-area, or ecosystem entity URIs |
 | **Provenance** | Agent version, processing pipeline ID, upstream observation URIs |
+| **Evidence profile** | [Evidence Output Profile](03-canonical-architecture.md#66-evidence-output-profile): `evidenceURIs[]`, `confidence`, `evidenceSummary`, `method`, `sourceRegistryRefs[]`, `provenanceEventId` |
 | **Confidence tier** | `feed-direct`, `machine-derived`, or `steward-reviewed` |
 | **Review requirement** | Auto-approvable (low-significance indicators), standard steward review, or curator queue (heritage-risk public release) |
 

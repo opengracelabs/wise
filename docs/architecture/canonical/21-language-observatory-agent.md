@@ -175,6 +175,7 @@ Each candidate vitality measurement is emitted as a **Vitality Observation** wit
 | **Geographic extent** | GeoJSON polygon or place-entity references when applicable |
 | **Confidence tier** | Data-quality and authority classification |
 | **Attribution** | Source organization, contributor, and harvest event |
+| **Evidence profile** | [Evidence Output Profile](03-canonical-architecture.md#66-evidence-output-profile): `evidenceURIs[]`, `confidence`, `evidenceSummary`, `method`, `sourceRegistryRefs[]`, `provenanceEventId` |
 | **Review requirement** | Auto-approvable, standard review, or community-sensitive queue |
 
 Vitality Observations are **candidates** until a language steward or curator approves them through the human-approval gate.
@@ -193,6 +194,7 @@ Each candidate program is emitted as a **Revitalization Program Record** with:
 | **Timeline** | Start date, end date (if concluded), milestone events |
 | **Outcome indicators** | Learner counts, publication outputs, broadcast hours, policy adoption — with confidence tier |
 | **Consent and access** | Public, researcher, or restricted-community tier |
+| **Evidence profile** | [Evidence Output Profile](03-canonical-architecture.md#66-evidence-output-profile): `evidenceURIs[]`, `confidence`, `evidenceSummary`, `method`, `sourceRegistryRefs[]`, `provenanceEventId` |
 | **Review requirement** | Auto-approvable, standard review, or community-sensitive queue |
 
 ### 7.3 Observatory Reports and Alerts

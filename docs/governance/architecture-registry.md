@@ -18,6 +18,8 @@ This document is the single source of truth for institutional architecture. All 
 | **Version** | 1.0 |
 | **Date** | 2026-06-22 |
 | **Supersedes** | All previous draft architectures |
+| **Git Tag** | `architecture-v1.0` |
+| **Freeze ADR** | [ADR-011 — Architecture Freeze v1.0](../architecture/canonical/08-decision-record.md#adr-011-architecture-freeze-v10) |
 | **Reference Documents** | `docs/architecture/canonical/*` (canonical authority); [founder-execution-roadmap.md](../constitution/founder-execution-roadmap.md) (execution companion only) |
 
 #### Change Control

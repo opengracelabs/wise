@@ -164,6 +164,8 @@ Low-confidence matches route to the Quality Platform curation queue rather than 
 
 ## 7. Outputs
 
+Entity Assertions and authority proposals conform to the canonical [Evidence Output Profile](03-canonical-architecture.md#66-evidence-output-profile) ([03-canonical-architecture.md](03-canonical-architecture.md), §6.6).
+
 ### 7.1 Normalized Metadata Records
 
 Each processed preserved object or metadata package emits a normalized record with:

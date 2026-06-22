@@ -137,6 +137,8 @@ The agent operates in the **Knowledge** subgraph of the Platform Plane ([04-syst
 
 ## 6. Outputs
 
+Assertion-making outputs conform to the canonical [Evidence Output Profile](03-canonical-architecture.md#66-evidence-output-profile) ([03-canonical-architecture.md](03-canonical-architecture.md), §6.6).
+
 ### 6.1 Entity Link Proposals
 
 Each proposed external link includes:
@@ -144,7 +146,7 @@ Each proposed external link includes:
 - Internal entity URI
 - External authority identifier (Wikidata QID, GBIF taxon key, GeoNames ID)
 - Link type (`sameAs`, `exactMatch`, `closeMatch`)
-- Confidence score and supporting evidence (label match, identifier overlap, spatial/temporal alignment)
+- Evidence profile: `evidenceURIs[]`, `confidence`, `evidenceSummary`, `method`, `sourceRegistryRefs[]`, `provenanceEventId`
 - Provenance: agent version, reconciliation run identifier
 
 ### 6.2 Relationship Assertions
@@ -155,7 +157,7 @@ Each proposed relationship includes:
 - Typed predicate (domain ontology–aligned: CIDOC-CRM, Darwin Core extensions, internal cross-domain predicates)
 - Temporal bounds (`time:hasBeginning`, `time:hasEnd`) when applicable
 - Geographic anchor (GeoSPARQL geometry or place entity link)
-- Confidence score and derivation method (rule-based, graph inference, external authority)
+- Evidence profile: `evidenceURIs[]`, `confidence`, `evidenceSummary`, `method`, `sourceRegistryRefs[]`, `provenanceEventId`
 
 ### 6.3 Deduplication Candidates
 

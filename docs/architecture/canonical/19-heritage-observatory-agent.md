@@ -174,6 +174,7 @@ Each observation is emitted as **JSON-LD** with:
 | **Source attribution** | Link to registered Source Registry entry and original report URI when available |
 | **Confidence score** | Machine-derived confidence with evidence summary |
 | **Provenance** | Agent version, ingest run identifier, steward attribution when human-reviewed |
+| **Evidence profile** | [Evidence Output Profile](03-canonical-architecture.md#66-evidence-output-profile): `evidenceURIs[]`, `confidence`, `evidenceSummary`, `method`, `sourceRegistryRefs[]`, `provenanceEventId` |
 
 Observation proposals are **candidates** until a steward approves them through the human-approval gate when policy requires review (public alerts, sensitive security threats, first-time baseline for a site).
 
