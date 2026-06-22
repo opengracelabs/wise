@@ -125,6 +125,90 @@ def test_write_portfolio_outputs_creates_required_json_files(tmp_path):
     assert result.homepage_candidates == homepage
 
 
+def test_approved_rights_assets_are_publishable_and_written_to_outputs(tmp_path):
+    result = write_portfolio_outputs(
+        [
+            _asset(
+                "approved-homepage",
+                90,
+                92,
+                "premium",
+                "asset",
+                "Heritage",
+                "Italy",
+                family="a",
+                rights_status="Approved",
+            ),
+        ],
+        tmp_path,
+    )
+    homepage = json.loads((tmp_path / HOMEPAGE_CANDIDATES_FILENAME).read_text())
+
+    assert [asset["id"] for asset in result.homepage_candidates] == ["approved-homepage"]
+    assert homepage[0]["rights_status"] == "Approved"
+    assert homepage[0]["rights_publishable"] is True
+    assert homepage[0]["rights_eligibility"] == "eligible"
+
+
+def test_review_required_assets_are_candidate_only_and_not_homepage_publishable():
+    result = select_portfolio(
+        [
+            _asset(
+                "needs-review",
+                90,
+                92,
+                "premium",
+                "asset",
+                "Heritage",
+                "Italy",
+                family="a",
+                rights_status="Review Required",
+            ),
+        ]
+    )
+
+    assert result.homepage_candidates == []
+    assert [asset["id"] for asset in result.product_candidates] == ["needs-review"]
+    assert result.product_candidates[0]["rights_status"] == "Review Required"
+    assert result.product_candidates[0]["rights_publishable"] is False
+    assert result.product_candidates[0]["rights_eligibility"] == "candidate_only"
+    assert "rights_review_required_not_publishable" in result.product_candidates[0]["selection_notes"]
+
+
+def test_restricted_and_unknown_rights_are_excluded():
+    result = select_portfolio(
+        [
+            _asset(
+                "restricted",
+                95,
+                95,
+                "premium",
+                "asset",
+                "Heritage",
+                "Italy",
+                family="a",
+                rights_status="Restricted",
+            ),
+            _asset(
+                "unknown",
+                95,
+                95,
+                "premium",
+                "asset",
+                "Biodiversity",
+                "Kenya",
+                family="b",
+                rights_status="Unknown",
+            ),
+        ]
+    )
+
+    assert result.homepage_candidates == []
+    assert result.product_candidates == []
+    assert {asset["id"] for asset in result.archive_only} == {"restricted", "unknown"}
+    assert all("rights_status_excluded" in asset["selection_notes"] for asset in result.archive_only)
+
+
 def test_load_assets_accepts_assets_wrapper(tmp_path):
     input_file = tmp_path / "assets.json"
     input_file.write_text(json.dumps({"assets": [_asset("wrapped", 70, 70, "product", "asset", "Art", "Japan")]}))
@@ -142,6 +226,7 @@ def _asset(
     region,
     *,
     family=None,
+    rights_status="Approved",
 ):
     asset = {
         "id": asset_id,
@@ -151,6 +236,7 @@ def _asset(
         "asset_type": asset_type,
         "domain": domain,
         "region": region,
+        "rights_status": rights_status,
     }
     if family is not None:
         asset["collection_family"] = family

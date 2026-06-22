@@ -14,7 +14,13 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any, Iterable, Mapping, Sequence
 
-from wise_portfolio_intelligence import BALANCED_GLOBAL_PORTFOLIO_DOMAINS
+from wise_portfolio_intelligence import (
+    BALANCED_GLOBAL_PORTFOLIO_DOMAINS,
+    RIGHTS_STATUS_APPROVED,
+    RIGHTS_STATUS_RESTRICTED,
+    RIGHTS_STATUS_REVIEW_REQUIRED,
+    RIGHTS_STATUS_UNKNOWN,
+)
 
 PORTFOLIO_GOVERNANCE_REPORT_FILENAME = "portfolio_governance_report.json"
 MAX_CONCENTRATION_SHARE = 0.20
@@ -75,6 +81,29 @@ _FIELD_ALIASES = {
         "asset_type",
         "assetType",
     ),
+    "rights_status": (
+        "rights_status",
+        "rightsStatus",
+        "Rights Status",
+        "rc17_rights_status",
+        "rc17RightsStatus",
+    ),
+}
+
+_RIGHTS_STATUS_ALIASES = {
+    "approved": RIGHTS_STATUS_APPROVED,
+    "eligible": RIGHTS_STATUS_APPROVED,
+    "cleared": RIGHTS_STATUS_APPROVED,
+    "publishable": RIGHTS_STATUS_APPROVED,
+    "review required": RIGHTS_STATUS_REVIEW_REQUIRED,
+    "review": RIGHTS_STATUS_REVIEW_REQUIRED,
+    "candidate only": RIGHTS_STATUS_REVIEW_REQUIRED,
+    "needs review": RIGHTS_STATUS_REVIEW_REQUIRED,
+    "restricted": RIGHTS_STATUS_RESTRICTED,
+    "blocked": RIGHTS_STATUS_RESTRICTED,
+    "excluded": RIGHTS_STATUS_RESTRICTED,
+    "unknown": RIGHTS_STATUS_UNKNOWN,
+    "": RIGHTS_STATUS_UNKNOWN,
 }
 
 
@@ -88,8 +117,15 @@ class PortfolioGovernanceReport:
     concentration_risk_score: float
     coverage_score: float
     portfolio_health_score: float
+    publishable_asset_percentage: float
+    blocked_asset_percentage: float
+    review_required_percentage: float
     distributions: dict[str, dict[str, Any]]
     diversity_metrics: dict[str, Any]
+    rights_summary: dict[str, Any]
+    publishable_assets: list[dict[str, Any]]
+    blocked_assets: list[dict[str, Any]]
+    rights_bottlenecks: list[dict[str, Any]]
     overrepresented_areas: list[dict[str, Any]]
     underrepresented_areas: list[dict[str, Any]]
     concentration_risks: list[dict[str, Any]]
@@ -176,6 +212,24 @@ def portfolio_health_score(assets: Iterable[Mapping[str, Any]]) -> float:
     )
 
 
+def publishable_asset_percentage(assets: Iterable[Mapping[str, Any]]) -> float:
+    """Return percentage of assets with approved rights status."""
+    normalized_assets = _coerce_assets(assets)
+    return _rights_percentage(normalized_assets, {RIGHTS_STATUS_APPROVED})
+
+
+def blocked_asset_percentage(assets: Iterable[Mapping[str, Any]]) -> float:
+    """Return percentage of assets blocked by restricted or unknown rights."""
+    normalized_assets = _coerce_assets(assets)
+    return _rights_percentage(normalized_assets, {RIGHTS_STATUS_RESTRICTED, RIGHTS_STATUS_UNKNOWN})
+
+
+def review_required_percentage(assets: Iterable[Mapping[str, Any]]) -> float:
+    """Return percentage of assets requiring rights review before publication."""
+    normalized_assets = _coerce_assets(assets)
+    return _rights_percentage(normalized_assets, {RIGHTS_STATUS_REVIEW_REQUIRED})
+
+
 def generate_portfolio_governance_report(
     assets: Iterable[Mapping[str, Any]] | Mapping[str, Any],
     *,
@@ -199,6 +253,7 @@ def generate_portfolio_governance_report(
         max_concentration_share=max_concentration_share,
     )
     coverage = coverage_score(normalized_assets)
+    rights_summary = _rights_summary(normalized_assets)
     health = _round_score(
         (diversity * 0.30)
         + (representation * 0.25)
@@ -213,8 +268,18 @@ def generate_portfolio_governance_report(
         concentration_risk_score=concentration_risk,
         coverage_score=coverage,
         portfolio_health_score=health,
+        publishable_asset_percentage=rights_summary["publishable_asset_percentage"],
+        blocked_asset_percentage=rights_summary["blocked_asset_percentage"],
+        review_required_percentage=rights_summary["review_required_percentage"],
         distributions=distributions,
         diversity_metrics=_diversity_metrics(distributions),
+        rights_summary=rights_summary,
+        publishable_assets=_rights_assets(normalized_assets, {RIGHTS_STATUS_APPROVED}),
+        blocked_assets=_rights_assets(
+            normalized_assets,
+            {RIGHTS_STATUS_RESTRICTED, RIGHTS_STATUS_UNKNOWN},
+        ),
+        rights_bottlenecks=_rights_bottlenecks(rights_summary),
         overrepresented_areas=overrepresented,
         underrepresented_areas=underrepresented,
         concentration_risks=concentration_risks,
@@ -399,6 +464,103 @@ def _diversity_metrics(distributions: Mapping[str, Mapping[str, Any]]) -> dict[s
         "by_dimension": entropy_by_dimension,
         "average": _round_score(_average(list(entropy_by_dimension.values()))),
     }
+
+
+def _rights_percentage(assets: Sequence[Mapping[str, Any]], statuses: set[str]) -> float:
+    if not assets:
+        return 0.0
+    count = sum(1 for asset in assets if _rights_status(asset) in statuses)
+    return _round_score((count / len(assets)) * 100)
+
+
+def _rights_summary(assets: Sequence[Mapping[str, Any]]) -> dict[str, Any]:
+    counts = Counter(_rights_status(asset) for asset in assets)
+    total = len(assets)
+    return {
+        "total": total,
+        "counts": {
+            RIGHTS_STATUS_APPROVED: counts.get(RIGHTS_STATUS_APPROVED, 0),
+            RIGHTS_STATUS_REVIEW_REQUIRED: counts.get(RIGHTS_STATUS_REVIEW_REQUIRED, 0),
+            RIGHTS_STATUS_RESTRICTED: counts.get(RIGHTS_STATUS_RESTRICTED, 0),
+            RIGHTS_STATUS_UNKNOWN: counts.get(RIGHTS_STATUS_UNKNOWN, 0),
+        },
+        "publishable_asset_percentage": _rights_percentage(assets, {RIGHTS_STATUS_APPROVED}),
+        "blocked_asset_percentage": _rights_percentage(
+            assets,
+            {RIGHTS_STATUS_RESTRICTED, RIGHTS_STATUS_UNKNOWN},
+        ),
+        "review_required_percentage": _rights_percentage(assets, {RIGHTS_STATUS_REVIEW_REQUIRED}),
+    }
+
+
+def _rights_assets(assets: Sequence[Mapping[str, Any]], statuses: set[str]) -> list[dict[str, Any]]:
+    return [
+        _asset_summary(asset, rights_status)
+        for asset in assets
+        if (rights_status := _rights_status(asset)) in statuses
+    ]
+
+
+def _rights_bottlenecks(rights_summary: Mapping[str, Any]) -> list[dict[str, Any]]:
+    total = rights_summary["total"]
+    if total == 0:
+        return []
+
+    bottlenecks: list[dict[str, Any]] = []
+    for rights_status, recommendation in (
+        (
+            RIGHTS_STATUS_REVIEW_REQUIRED,
+            "Resolve rights review before promoting candidate-only assets to publishable surfaces.",
+        ),
+        (
+            RIGHTS_STATUS_RESTRICTED,
+            "Remove restricted assets from publishable portfolio consideration.",
+        ),
+        (
+            RIGHTS_STATUS_UNKNOWN,
+            "Complete rights discovery before considering unknown-rights assets.",
+        ),
+    ):
+        count = rights_summary["counts"].get(rights_status, 0)
+        if count:
+            bottlenecks.append(
+                {
+                    "rights_status": rights_status,
+                    "count": count,
+                    "share_percent": _round_score((count / total) * 100),
+                    "recommendation": recommendation,
+                }
+            )
+    return bottlenecks
+
+
+def _asset_summary(asset: Mapping[str, Any], rights_status: str) -> dict[str, Any]:
+    portfolio_inputs = asset.get("portfolio_inputs") if isinstance(asset.get("portfolio_inputs"), Mapping) else {}
+    return {
+        "id": asset.get("id") or asset.get("asset_id") or asset.get("assetId"),
+        "rights_status": rights_status,
+        "portfolio_category": asset.get("portfolio_category"),
+        "domain": asset.get("domain") or portfolio_inputs.get("domain"),
+        "country": asset.get("country") or portfolio_inputs.get("country") or asset.get("region"),
+        "collection_family": asset.get("collection_family") or portfolio_inputs.get("collection_family"),
+    }
+
+
+def _rights_status(asset: Mapping[str, Any]) -> str:
+    portfolio_inputs = asset.get("portfolio_inputs")
+    if isinstance(portfolio_inputs, Mapping):
+        nested = _read_alias(portfolio_inputs, "rights_status")
+        if nested is not None:
+            return _normalize_rights_status(nested)
+
+    value = _read_alias(asset, "rights_status")
+    if value is not None:
+        return _normalize_rights_status(value)
+    return RIGHTS_STATUS_UNKNOWN
+
+
+def _normalize_rights_status(value: Any) -> str:
+    return _RIGHTS_STATUS_ALIASES.get(_normalize_text(value), RIGHTS_STATUS_UNKNOWN)
 
 
 def _missing_expected_values(

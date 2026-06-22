@@ -2,13 +2,16 @@ import json
 
 from governance import (
     PORTFOLIO_GOVERNANCE_REPORT_FILENAME,
+    blocked_asset_percentage,
     concentration_risk_score,
     coverage_score,
     diversity_score,
     generate_portfolio_governance_report,
     load_portfolio_assets,
     portfolio_health_score,
+    publishable_asset_percentage,
     representation_score,
+    review_required_percentage,
     write_portfolio_governance_report,
 )
 
@@ -105,7 +108,77 @@ def test_report_reads_portfolio_inputs_from_selected_assets():
     assert report.distributions["product"]["counts"]["product candidates"] == 1
 
 
-def _asset(asset_id, country, domain, collection_family, narrative, product):
+def test_rights_metrics_report_publishable_blocked_and_review_required_assets():
+    assets = [
+        _asset("approved", "Italy", "Heritage", "family-a", "origins", "Homepage Assets", rights_status="Approved"),
+        _asset(
+            "review",
+            "Kenya",
+            "Biodiversity",
+            "family-b",
+            "species recovery",
+            "Collection Candidates",
+            rights_status="Review Required",
+        ),
+        _asset("restricted", "Brazil", "Protected Areas", "family-c", "protection", "Archive Only", rights_status="Restricted"),
+        _asset("unknown", "Japan", "Art", "family-d", "craft", "Archive Only", rights_status="Unknown"),
+    ]
+
+    report = generate_portfolio_governance_report(assets)
+
+    assert publishable_asset_percentage(assets) == 25
+    assert review_required_percentage(assets) == 25
+    assert blocked_asset_percentage(assets) == 50
+    assert report.publishable_asset_percentage == 25
+    assert report.review_required_percentage == 25
+    assert report.blocked_asset_percentage == 50
+    assert [asset["id"] for asset in report.publishable_assets] == ["approved"]
+    assert {asset["id"] for asset in report.blocked_assets} == {"restricted", "unknown"}
+    assert {bottleneck["rights_status"] for bottleneck in report.rights_bottlenecks} == {
+        "Review Required",
+        "Restricted",
+        "Unknown",
+    }
+
+
+def test_rights_report_reads_status_from_portfolio_inputs():
+    selected_asset = {
+        "id": "selected-review",
+        "portfolio_category": "Product Candidates",
+        "portfolio_inputs": {
+            "domain": "Art",
+            "region": "Japan",
+            "country": "Japan",
+            "collection_family": "ukiyo-e",
+            "rights_status": "Review Required",
+        },
+        "narrative": "craft",
+    }
+
+    report = generate_portfolio_governance_report([selected_asset])
+
+    assert report.review_required_percentage == 100
+    assert report.rights_bottlenecks[0]["rights_status"] == "Review Required"
+
+
+def test_written_governance_report_includes_rights_sections(tmp_path):
+    assets = [
+        _asset("approved", "Italy", "Heritage", "family-a", "origins", "Homepage Assets", rights_status="Approved"),
+        _asset("restricted", "Brazil", "Protected Areas", "family-c", "protection", "Archive Only", rights_status="Restricted"),
+    ]
+
+    write_portfolio_governance_report(assets, tmp_path)
+    payload = json.loads((tmp_path / PORTFOLIO_GOVERNANCE_REPORT_FILENAME).read_text())
+
+    assert payload["publishable_asset_percentage"] == 50
+    assert payload["blocked_asset_percentage"] == 50
+    assert payload["review_required_percentage"] == 0
+    assert [asset["id"] for asset in payload["publishable_assets"]] == ["approved"]
+    assert [asset["id"] for asset in payload["blocked_assets"]] == ["restricted"]
+    assert payload["rights_bottlenecks"][0]["rights_status"] == "Restricted"
+
+
+def _asset(asset_id, country, domain, collection_family, narrative, product, *, rights_status="Approved"):
     return {
         "id": asset_id,
         "country": country,
@@ -113,4 +186,5 @@ def _asset(asset_id, country, domain, collection_family, narrative, product):
         "collection_family": collection_family,
         "narrative": narrative,
         "product_category": product,
+        "rights_status": rights_status,
     }

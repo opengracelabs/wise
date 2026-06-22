@@ -25,6 +25,15 @@ CATEGORY_SERIES_CANDIDATE = "Series Candidates"
 CATEGORY_PRODUCT_CANDIDATE = "Product Candidates"
 CATEGORY_ARCHIVE_ONLY = "Archive Only"
 
+RIGHTS_STATUS_APPROVED = "Approved"
+RIGHTS_STATUS_REVIEW_REQUIRED = "Review Required"
+RIGHTS_STATUS_RESTRICTED = "Restricted"
+RIGHTS_STATUS_UNKNOWN = "Unknown"
+
+RIGHTS_ELIGIBILITY_ELIGIBLE = "eligible"
+RIGHTS_ELIGIBILITY_CANDIDATE_ONLY = "candidate_only"
+RIGHTS_ELIGIBILITY_EXCLUDED = "excluded"
+
 BALANCED_GLOBAL_PORTFOLIO_DOMAINS = (
     "heritage",
     "biodiversity",
@@ -83,6 +92,29 @@ _FIELD_ALIASES = {
         "collectionId",
         "family",
     ),
+    "rights_status": (
+        "rights_status",
+        "rightsStatus",
+        "Rights Status",
+        "rc17_rights_status",
+        "rc17RightsStatus",
+    ),
+}
+
+_RIGHTS_STATUS_ALIASES = {
+    "approved": RIGHTS_STATUS_APPROVED,
+    "eligible": RIGHTS_STATUS_APPROVED,
+    "cleared": RIGHTS_STATUS_APPROVED,
+    "publishable": RIGHTS_STATUS_APPROVED,
+    "review required": RIGHTS_STATUS_REVIEW_REQUIRED,
+    "review": RIGHTS_STATUS_REVIEW_REQUIRED,
+    "candidate only": RIGHTS_STATUS_REVIEW_REQUIRED,
+    "needs review": RIGHTS_STATUS_REVIEW_REQUIRED,
+    "restricted": RIGHTS_STATUS_RESTRICTED,
+    "blocked": RIGHTS_STATUS_RESTRICTED,
+    "excluded": RIGHTS_STATUS_RESTRICTED,
+    "unknown": RIGHTS_STATUS_UNKNOWN,
+    "": RIGHTS_STATUS_UNKNOWN,
 }
 
 _COMMERCIAL_TIER_SCORES = {
@@ -139,6 +171,9 @@ class PortfolioAsset:
     region: str
     country: str | None
     collection_family: str | None
+    rights_status: str
+    rights_eligibility: str
+    rights_publishable: bool
     portfolio_priority_score: float
     category: str
     concentration_keys: dict[str, str]
@@ -149,6 +184,9 @@ class PortfolioAsset:
         payload = dict(self.source)
         payload["portfolio_priority_score"] = self.portfolio_priority_score
         payload["portfolio_category"] = self.category
+        payload["rights_status"] = self.rights_status
+        payload["rights_eligibility"] = self.rights_eligibility
+        payload["rights_publishable"] = self.rights_publishable
         payload["portfolio_inputs"] = {
             "recognition_score": self.recognition_score,
             "demand_score": self.demand_score,
@@ -158,6 +196,7 @@ class PortfolioAsset:
             "region": self.region,
             "country": self.country,
             "collection_family": self.collection_family,
+            "rights_status": self.rights_status,
         }
         payload["selection_notes"] = list(self.selection_notes)
         return payload
@@ -329,6 +368,9 @@ def _normalize_asset(asset: Mapping[str, Any]) -> PortfolioAsset:
     region = str(_read_required(source, "region")).strip()
     country = _read_optional_text(source, "country") or region
     collection_family = _read_optional_text(source, "collection_family")
+    rights_status = _normalize_rights_status(_read_optional_text(source, "rights_status"))
+    rights_eligibility = _rights_eligibility(rights_status)
+    rights_publishable = rights_status == RIGHTS_STATUS_APPROVED
     priority_score = calculate_portfolio_priority_score(
         recognition_score=recognition_score,
         demand_score=demand_score,
@@ -341,6 +383,7 @@ def _normalize_asset(asset: Mapping[str, Any]) -> PortfolioAsset:
         commercial_tier=commercial_tier,
         asset_type=asset_type,
         portfolio_priority_score=priority_score,
+        rights_status=rights_status,
     )
 
     return PortfolioAsset(
@@ -354,6 +397,9 @@ def _normalize_asset(asset: Mapping[str, Any]) -> PortfolioAsset:
         region=region,
         country=country,
         collection_family=collection_family,
+        rights_status=rights_status,
+        rights_eligibility=rights_eligibility,
+        rights_publishable=rights_publishable,
         portfolio_priority_score=priority_score,
         category=category,
         concentration_keys=_concentration_keys(
@@ -372,20 +418,32 @@ def _assign_category(
     commercial_tier: str,
     asset_type: str,
     portfolio_priority_score: float,
+    rights_status: str,
 ) -> tuple[str, tuple[str, ...]]:
+    if rights_status in {RIGHTS_STATUS_RESTRICTED, RIGHTS_STATUS_UNKNOWN}:
+        return CATEGORY_ARCHIVE_ONLY, ("rights_status_excluded",)
+
     tier = _normalize_text(commercial_tier)
     if tier in _ARCHIVE_TIERS:
         return CATEGORY_ARCHIVE_ONLY, ("commercial_tier_archive_only",)
     if portfolio_priority_score < 50 or recognition_score < 35 or demand_score < 35:
         return CATEGORY_ARCHIVE_ONLY, ("portfolio_priority_below_candidate_floor",)
+
+    rights_notes: tuple[str, ...] = ()
+    review_required = rights_status == RIGHTS_STATUS_REVIEW_REQUIRED
+    if review_required:
+        rights_notes = ("rights_review_required_not_publishable",)
+
     if asset_type in _COLLECTION_TYPES and portfolio_priority_score >= 60:
-        return CATEGORY_COLLECTION_CANDIDATE, ()
+        return CATEGORY_COLLECTION_CANDIDATE, rights_notes
     if asset_type in _SERIES_TYPES and portfolio_priority_score >= 60:
-        return CATEGORY_SERIES_CANDIDATE, ()
+        return CATEGORY_SERIES_CANDIDATE, rights_notes
     if asset_type in _ASSET_TYPES and recognition_score >= 75 and demand_score >= 75:
+        if review_required:
+            return CATEGORY_PRODUCT_CANDIDATE, rights_notes
         return CATEGORY_HOMEPAGE_ASSET, ()
     if portfolio_priority_score >= 60:
-        return CATEGORY_PRODUCT_CANDIDATE, ()
+        return CATEGORY_PRODUCT_CANDIDATE, rights_notes
     return CATEGORY_ARCHIVE_ONLY, ("portfolio_priority_below_product_floor",)
 
 
@@ -505,6 +563,21 @@ def _commercial_tier_score(value: str | int | float) -> float:
     if normalized in _COMMERCIAL_TIER_SCORES:
         return _COMMERCIAL_TIER_SCORES[normalized]
     return 50.0
+
+
+def _normalize_rights_status(value: str | None) -> str:
+    if value is None:
+        return RIGHTS_STATUS_UNKNOWN
+    normalized = _normalize_text(value)
+    return _RIGHTS_STATUS_ALIASES.get(normalized, RIGHTS_STATUS_UNKNOWN)
+
+
+def _rights_eligibility(rights_status: str) -> str:
+    if rights_status == RIGHTS_STATUS_APPROVED:
+        return RIGHTS_ELIGIBILITY_ELIGIBLE
+    if rights_status == RIGHTS_STATUS_REVIEW_REQUIRED:
+        return RIGHTS_ELIGIBILITY_CANDIDATE_ONLY
+    return RIGHTS_ELIGIBILITY_EXCLUDED
 
 
 def _normalize_text(value: str) -> str:
