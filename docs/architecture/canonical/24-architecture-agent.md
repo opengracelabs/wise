@@ -11,6 +11,18 @@
 | **Phase** | Cross-cutting — review support for all implementation phases ([06-build-roadmap.md](06-build-roadmap.md)) |
 | **Human Approval Required** | Yes |
 
+## Lifecycle State Clarification
+
+**Canonical Specification ≠ Operational Agent.**
+
+| State | Definition |
+|-------|------------|
+| **Canonical** | Approved specification |
+| **Draft** | Not operational |
+| **Operational** | Registered, benchmarked, steward approved |
+
+This clarification is vocabulary-only. It does not alter governance authority, registration state, agent scope, or [ADR-011](08-decision-record.md#adr-011-architecture-freeze-v10) constraints.
+
 ## Document Map
 
 | Document | Purpose |
@@ -40,16 +52,16 @@
 | [23-benchmark-agent.md](23-benchmark-agent.md) | Benchmark Agent specification |
 | [24-architecture-agent.md](24-architecture-agent.md) | Architecture Agent specification |
 | [25-research-agent.md](25-research-agent.md) | Research Agent specification |
-| [26-audit-agent.md](26-audit-agent.md) | Audit Agent specification |
-| [27-security-agent.md](27-security-agent.md) | Security Agent specification |
-| [28-platform-engineering-agent.md](28-platform-engineering-agent.md) | Platform Engineering Agent specification |
-| [29-sre-agent.md](29-sre-agent.md) | SRE Agent specification |
-| [30-knowledge-graph-agent.md](30-knowledge-graph-agent.md) | Knowledge Graph Governance Agent specification |
-| [31-preservation-agent.md](31-preservation-agent.md) | Preservation Governance Agent specification |
-| [32-data-governance-agent.md](32-data-governance-agent.md) | Data Governance Agent specification |
-| [33-accessibility-agent.md](33-accessibility-agent.md) | Accessibility Agent specification |
-| [34-standards-compliance-agent.md](34-standards-compliance-agent.md) | Standards Compliance Agent specification |
-| [35-frontend-architecture-agent.md](35-frontend-architecture-agent.md) | Frontend Architecture Agent specification |
+| `26-audit-agent.md` | Audit Agent specification |
+| `27-security-agent.md` | Security Agent specification |
+| `28-platform-engineering-agent.md` | Platform Engineering Agent specification |
+| `29-sre-agent.md` | SRE Agent specification |
+| `30-knowledge-graph-agent.md` | Knowledge Graph Governance Agent specification |
+| `31-preservation-agent.md` | Preservation Governance Agent specification |
+| `32-data-governance-agent.md` | Data Governance Agent specification |
+| `33-accessibility-agent.md` | Accessibility Agent specification |
+| `34-standards-compliance-agent.md` | Standards Compliance Agent specification |
+| `35-frontend-architecture-agent.md` | Frontend Architecture Agent specification |
 
 ---
 
@@ -297,12 +309,12 @@ Evaluated by [Benchmark Agent](23-benchmark-agent.md); Draft registration means 
 | [Standards Agent](22-standards-agent.md) | Supplies standards conformance evidence; Architecture Agent reviews architectural implications of standards gaps or waivers |
 | [Benchmark Agent](23-benchmark-agent.md) | Evaluates Architecture Agent benchmark requirements and consumes architecture compliance signals |
 | [Research Agent](25-research-agent.md) | Routes research findings that imply architecture change to Architecture Agent for ADR and boundary review |
-| [Audit Agent](26-audit-agent.md) | Consumes accepted review dispositions and waiver records for governance audit evidence |
-| [Security Agent](27-security-agent.md) | Coordinates on dependency, connector, and boundary risks with security impact |
-| [Platform Engineering Agent](28-platform-engineering-agent.md) | Receives service-boundary and stack recommendations for implementation remediation |
-| [SRE Agent](29-sre-agent.md) | Receives operational-risk findings affecting reliability, observability, and release readiness |
-| [Data Governance Agent](32-data-governance-agent.md) | Coordinates on data model, lineage, residency, and rights-boundary findings |
-| [Frontend Architecture Agent](35-frontend-architecture-agent.md) | Coordinates on public experience contract, accessibility, and interface-boundary findings |
+| Audit Agent (`26-audit-agent.md`) | Consumes accepted review dispositions and waiver records for governance audit evidence |
+| Security Agent (`27-security-agent.md`) | Coordinates on dependency, connector, and boundary risks with security impact |
+| Platform Engineering Agent (`28-platform-engineering-agent.md`) | Receives service-boundary and stack recommendations for implementation remediation |
+| SRE Agent (`29-sre-agent.md`) | Receives operational-risk findings affecting reliability, observability, and release readiness |
+| Data Governance Agent (`32-data-governance-agent.md`) | Coordinates on data model, lineage, residency, and rights-boundary findings |
+| Frontend Architecture Agent (`35-frontend-architecture-agent.md`) | Coordinates on public experience contract, accessibility, and interface-boundary findings |
 | Platform and observatory agents (09–21) | Reviewed for compliance with canonical boundaries, ADRs, capability declarations, and output contracts |
 
 ---
