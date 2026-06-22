@@ -1,0 +1,290 @@
+{
+  "metrics_version": "wise-portfolio-intelligence-metrics/0.1.0",
+  "source_portfolios": [
+    "homepage_portfolio.json",
+    "collection_portfolio.json",
+    "series_portfolio.json",
+    "product_portfolio.json"
+  ],
+  "score_direction": {
+    "diversity_score": "higher_is_better",
+    "geographic_balance_score": "higher_is_better",
+    "domain_balance_score": "higher_is_better",
+    "asset_type_balance_score": "higher_is_better",
+    "narrative_balance_score": "higher_is_better",
+    "concentration_risk_score": "lower_is_better"
+  },
+  "aggregate_metrics": {
+    "diversity_score": 91.67,
+    "geographic_balance_score": 66.67,
+    "domain_balance_score": 100.0,
+    "asset_type_balance_score": 100.0,
+    "narrative_balance_score": 100.0,
+    "concentration_risk_score": 20.0,
+    "distributions": {
+      "geography": {
+        "Asia": 4,
+        "Europe": 4,
+        "North America": 4,
+        "Oceania": 4,
+        "South America": 4
+      },
+      "domain": {
+        "Biodiversity": 4,
+        "Climate": 4,
+        "Culture": 4,
+        "Geography": 4,
+        "Heritage": 4
+      },
+      "asset_type": {
+        "climate_indicator_site": 4,
+        "cultural_route": 4,
+        "forest_biome": 4,
+        "megalithic_site": 4,
+        "wetland_landscape": 4
+      },
+      "narrative": {
+        "Biodiversity": 4,
+        "Climate": 4,
+        "Culture": 4,
+        "Geography": 4,
+        "Heritage": 4
+      }
+    },
+    "unique_asset_count": 5,
+    "selection_count": 20
+  },
+  "portfolio_metrics": {
+    "homepage_portfolio.json": {
+      "diversity_score": 91.67,
+      "geographic_balance_score": 66.67,
+      "domain_balance_score": 100.0,
+      "asset_type_balance_score": 100.0,
+      "narrative_balance_score": 100.0,
+      "concentration_risk_score": 20.0,
+      "distributions": {
+        "geography": {
+          "Asia": 1,
+          "Europe": 1,
+          "North America": 1,
+          "Oceania": 1,
+          "South America": 1
+        },
+        "domain": {
+          "Biodiversity": 1,
+          "Climate": 1,
+          "Culture": 1,
+          "Geography": 1,
+          "Heritage": 1
+        },
+        "asset_type": {
+          "climate_indicator_site": 1,
+          "cultural_route": 1,
+          "forest_biome": 1,
+          "megalithic_site": 1,
+          "wetland_landscape": 1
+        },
+        "narrative": {
+          "Biodiversity": 1,
+          "Climate": 1,
+          "Culture": 1,
+          "Geography": 1,
+          "Heritage": 1
+        }
+      }
+    },
+    "collection_portfolio.json": {
+      "diversity_score": 91.67,
+      "geographic_balance_score": 66.67,
+      "domain_balance_score": 100.0,
+      "asset_type_balance_score": 100.0,
+      "narrative_balance_score": 100.0,
+      "concentration_risk_score": 20.0,
+      "distributions": {
+        "geography": {
+          "Asia": 1,
+          "Europe": 1,
+          "North America": 1,
+          "Oceania": 1,
+          "South America": 1
+        },
+        "domain": {
+          "Biodiversity": 1,
+          "Climate": 1,
+          "Culture": 1,
+          "Geography": 1,
+          "Heritage": 1
+        },
+        "asset_type": {
+          "climate_indicator_site": 1,
+          "cultural_route": 1,
+          "forest_biome": 1,
+          "megalithic_site": 1,
+          "wetland_landscape": 1
+        },
+        "narrative": {
+          "Biodiversity": 1,
+          "Climate": 1,
+          "Culture": 1,
+          "Geography": 1,
+          "Heritage": 1
+        }
+      }
+    },
+    "series_portfolio.json": {
+      "diversity_score": 91.67,
+      "geographic_balance_score": 66.67,
+      "domain_balance_score": 100.0,
+      "asset_type_balance_score": 100.0,
+      "narrative_balance_score": 100.0,
+      "concentration_risk_score": 20.0,
+      "distributions": {
+        "geography": {
+          "Asia": 1,
+          "Europe": 1,
+          "North America": 1,
+          "Oceania": 1,
+          "South America": 1
+        },
+        "domain": {
+          "Biodiversity": 1,
+          "Climate": 1,
+          "Culture": 1,
+          "Geography": 1,
+          "Heritage": 1
+        },
+        "asset_type": {
+          "climate_indicator_site": 1,
+          "cultural_route": 1,
+          "forest_biome": 1,
+          "megalithic_site": 1,
+          "wetland_landscape": 1
+        },
+        "narrative": {
+          "Biodiversity": 1,
+          "Climate": 1,
+          "Culture": 1,
+          "Geography": 1,
+          "Heritage": 1
+        }
+      }
+    },
+    "product_portfolio.json": {
+      "diversity_score": 91.67,
+      "geographic_balance_score": 66.67,
+      "domain_balance_score": 100.0,
+      "asset_type_balance_score": 100.0,
+      "narrative_balance_score": 100.0,
+      "concentration_risk_score": 20.0,
+      "distributions": {
+        "geography": {
+          "Asia": 1,
+          "Europe": 1,
+          "North America": 1,
+          "Oceania": 1,
+          "South America": 1
+        },
+        "domain": {
+          "Biodiversity": 1,
+          "Climate": 1,
+          "Culture": 1,
+          "Geography": 1,
+          "Heritage": 1
+        },
+        "asset_type": {
+          "climate_indicator_site": 1,
+          "cultural_route": 1,
+          "forest_biome": 1,
+          "megalithic_site": 1,
+          "wetland_landscape": 1
+        },
+        "narrative": {
+          "Biodiversity": 1,
+          "Climate": 1,
+          "Culture": 1,
+          "Geography": 1,
+          "Heritage": 1
+        }
+      }
+    }
+  },
+  "representation": {
+    "top_represented_regions": [
+      {
+        "name": "Asia",
+        "count": 4,
+        "share": 0.2
+      },
+      {
+        "name": "Europe",
+        "count": 4,
+        "share": 0.2
+      },
+      {
+        "name": "North America",
+        "count": 4,
+        "share": 0.2
+      },
+      {
+        "name": "Oceania",
+        "count": 4,
+        "share": 0.2
+      },
+      {
+        "name": "South America",
+        "count": 4,
+        "share": 0.2
+      }
+    ],
+    "underrepresented_regions": [
+      {
+        "name": "Africa",
+        "count": 0,
+        "share": 0.0,
+        "target_share": 0.14
+      },
+      {
+        "name": "Arctic",
+        "count": 0,
+        "share": 0.0,
+        "target_share": 0.14
+      }
+    ],
+    "top_represented_domains": [
+      {
+        "name": "Biodiversity",
+        "count": 4,
+        "share": 0.2
+      },
+      {
+        "name": "Climate",
+        "count": 4,
+        "share": 0.2
+      },
+      {
+        "name": "Culture",
+        "count": 4,
+        "share": 0.2
+      },
+      {
+        "name": "Geography",
+        "count": 4,
+        "share": 0.2
+      },
+      {
+        "name": "Heritage",
+        "count": 4,
+        "share": 0.2
+      }
+    ],
+    "underrepresented_domains": []
+  },
+  "portfolio_risks": [
+    "Geographic balance is below target.",
+    "One or more represented regions fall below target share."
+  ],
+  "recommended_additions": [
+    "Add candidate assets from Africa to improve geographic balance.",
+    "Add candidate assets from Arctic to improve geographic balance."
+  ]
+}
