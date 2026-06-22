@@ -157,6 +157,16 @@ nav a,
   padding: 1rem;
 }
 
+.card {
+  content-visibility: auto;
+  contain-intrinsic-size: 18rem;
+}
+
+.card:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
 .card h2,
 .card h3 {
   margin-top: 0;
@@ -222,5 +232,13 @@ nav a,
 
   .grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
   }
 }

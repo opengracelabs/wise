@@ -742,6 +742,83 @@ def test_rc17_rights_policy_docs_and_report():
 
 
 @pytest.mark.e2e
+def test_rc18_web_metadata_structured_data_and_accessibility_hardening():
+    web_root = Path("apps/web")
+    for route_file in [
+        "index.html",
+        "collections/index.html",
+        "series/index.html",
+        "species/index.html",
+        "places/index.html",
+        "shop/index.html",
+        "education/index.html",
+        "research/index.html",
+        "admin/analytics/index.html",
+    ]:
+        text = (web_root / route_file).read_text(encoding="utf-8")
+        assert '<link rel="canonical"' in text
+        assert 'property="og:url"' in text
+        assert 'name="twitter:card"' in text
+        assert 'type="application/ld+json"' in text
+        assert 'rel="preload"' in text
+        assert 'aria-busy="true"' in text
+
+        marker = '<script type="application/ld+json">'
+        assert marker in text
+        structured_json = text.split(marker, 1)[1].split("</script>", 1)[0].strip()
+        structured = json.loads(structured_json)
+        assert structured["@context"] == "https://schema.org"
+        assert structured["name"]
+        assert structured["url"].startswith("https://nature-and-culture.example")
+
+
+@pytest.mark.e2e
+def test_rc18_security_headers_and_search_privacy():
+    for config_path in [Path("apps/web/vercel.json"), Path("vercel.json")]:
+        config = json.loads(config_path.read_text(encoding="utf-8"))
+        headers = config["headers"]
+        flattened = {
+            header["key"]: header["value"]
+            for group in headers
+            for header in group["headers"]
+        }
+        assert "Content-Security-Policy" in flattened
+        assert "frame-ancestors 'none'" in flattened["Content-Security-Policy"]
+        assert "X-Content-Type-Options" in flattened
+        assert flattened["X-Content-Type-Options"] == "nosniff"
+        assert flattened["X-Frame-Options"] == "DENY"
+        assert "payment=()" in flattened["Permissions-Policy"]
+
+    app_js = Path("apps/web/static/app.js").read_text(encoding="utf-8")
+    assert 'search_query: ""' in app_js
+    assert "query_redacted: true" in app_js
+    assert "search_query: query" not in app_js
+
+
+@pytest.mark.e2e
+def test_rc18_lighthouse_config_and_report():
+    lighthouse_config = json.loads(Path("apps/web/lighthouse.config.json").read_text(encoding="utf-8"))
+    urls = lighthouse_config["ci"]["collect"]["url"]
+    assert "http://127.0.0.1:4173/" in urls
+    assert "categories:accessibility" in lighthouse_config["ci"]["assert"]["assertions"]
+
+    report = Path("docs/implementation/rc18-demonstration-hardening-report.md")
+    assert report.is_file()
+    text = report.read_text(encoding="utf-8")
+    for phrase in [
+        "Accessibility",
+        "SEO",
+        "Structured Data",
+        "OpenGraph",
+        "Sitemap validation",
+        "Lighthouse",
+        "Security headers",
+        "Performance",
+    ]:
+        assert phrase in text
+
+
+@pytest.mark.e2e
 @pytest.mark.parametrize("product_slug", PRODUCT_SLUGS)
 def test_commercial_product_pages_served(product_slug: str):
     client = TestClient(app)

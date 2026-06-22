@@ -3,20 +3,52 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#21482f">
+  <meta name="robots" content="index,follow">
   <title>Nature & Culture Public Beta</title>
-  <meta name="description" content="Nature & Culture public beta: permanent digital memory of humanity's heritage, nature, and culture.">
+  <meta name="description" content="Nature & Culture public beta: the permanent digital memory of humanity's heritage, nature, and culture.">
+  <link rel="canonical" href="https://nature-and-culture.example">
   <meta property="og:title" content="Nature & Culture Public Beta">
-  <meta property="og:description" content="Explore public beta collections, series, species, places, education, research, and read-only shop validation.">
+  <meta property="og:description" content="Nature & Culture public beta: the permanent digital memory of humanity's heritage, nature, and culture.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Nature & Culture">
+  <meta property="og:url" content="https://nature-and-culture.example">
+  <meta property="og:image" content="https://nature-and-culture.example/og/public-beta.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nature & Culture Public Beta">
+  <meta name="twitter:description" content="Nature & Culture public beta: the permanent digital memory of humanity's heritage, nature, and culture.">
+  <meta name="twitter:image" content="https://nature-and-culture.example/og/public-beta.jpg">
+  <link rel="preload" href="/static/styles.css" as="style">
+  <link rel="preload" href="/static/analytics.js" as="script">
+  <link rel="preload" href="/static/app.js" as="script">
   <link rel="stylesheet" href="/static/styles.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Nature & Culture Public Beta",
+  "description": "Nature & Culture public beta: the permanent digital memory of humanity's heritage, nature, and culture.",
+  "url": "https://nature-and-culture.example",
+  "isAccessibleForFree": true,
+  "publisher": {
+    "@type": "Organization",
+    "name": "Nature & Culture",
+    "url": "https://nature-and-culture.example/"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://nature-and-culture.example/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+  </script>
   <script src="/static/analytics.js" defer></script>
   <script src="/static/app.js" defer></script>
 </head>
 <body data-page="home">
   <a class="skip-link" href="#main">Skip to main content</a>
   <header class="site-header" role="banner">
-    <a class="brand" href="/" data-analytics="outbound-safe">Nature & Culture</a>
+    <a class="brand" href="/" data-analytics="outbound-safe" aria-label="Nature & Culture home">Nature & Culture</a>
     <nav aria-label="Primary navigation">
       <a href="/collections">Collections</a>
       <a href="/series">Series</a>
@@ -29,10 +61,10 @@
     </nav>
   </header>
   <main id="main" tabindex="-1">
-    <section id="app" aria-live="polite"></section>
+    <section id="app" aria-live="polite" aria-busy="true"></section>
   </main>
   <footer class="site-footer">
-    <p>Public beta prototype. Analytics are anonymous browser-local events for audience validation. No payment processing.</p>
+    <p>Public beta prototype. Analytics are anonymous browser-local events for audience validation. No payment processing. No checkout. No customer data collection.</p>
   </footer>
 </body>
 </html>

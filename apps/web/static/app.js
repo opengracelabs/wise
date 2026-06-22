@@ -22,6 +22,7 @@
 
   function card(title, body) {
     const article = el("article", "card");
+    article.tabIndex = 0;
     const heading = el("h3", "", title);
     const paragraph = el("p", "", body);
     article.append(heading, paragraph);
@@ -50,6 +51,8 @@
     const button = el("button", "button primary", "Search");
     button.type = "submit";
     const status = el("p", "muted");
+    status.setAttribute("role", "status");
+    status.setAttribute("aria-live", "polite");
     form.append(input, button, status);
     form.addEventListener("submit", (event) => {
       event.preventDefault();
@@ -60,11 +63,12 @@
       status.textContent = query ? `${results.length} prototype results for "${query}"` : "Enter a search term.";
       window.NC_ANALYTICS.track("search", {
         entity_type: "search",
-        search_query: query,
+        search_query: "",
         metadata: {
           result_count: results.length,
           query_length: query.length,
           zero_results: query.length > 0 && results.length === 0,
+          query_redacted: true,
         },
       });
     });
@@ -91,6 +95,20 @@
         },
       });
     }, { once: true });
+    article.addEventListener("focusin", () => {
+      window.NC_ANALYTICS.track("collection_view", {
+        entity_type: "collection",
+        entity_id: collection.collection_id,
+        entity_title: collection.title,
+        collection_id: collection.collection_id,
+        metadata: {
+          geography_region: collection.geography_region,
+          domain: collection.domain,
+          theme: collection.theme,
+          source_component: "keyboard_focus",
+        },
+      });
+    }, { once: true });
     return article;
   }
 
@@ -109,6 +127,19 @@
         },
       });
     }, { once: true });
+    article.addEventListener("focusin", () => {
+      window.NC_ANALYTICS.track("series_view", {
+        entity_type: "series",
+        entity_id: series.series_id,
+        entity_title: series.title,
+        series_id: series.series_id,
+        metadata: {
+          education_level: series.education_level,
+          narrative_theme: series.theme,
+          source_component: "keyboard_focus",
+        },
+      });
+    }, { once: true });
     return article;
   }
 
@@ -124,6 +155,9 @@
     const view = el("button", "button", "Product View");
     const wishlist = el("button", "button", "Wishlist");
     const buy = el("button", "button primary", "Buy Intent");
+    view.setAttribute("aria-label", `Record product view for ${product.title}`);
+    wishlist.setAttribute("aria-label", `Record wishlist interest for ${product.title}`);
+    buy.setAttribute("aria-label", `Record buy intent for ${product.title}`);
     [view, wishlist, buy].forEach((button) => {
       button.type = "button";
       actions.appendChild(button);
@@ -189,13 +223,9 @@
 
   async function render() {
     const page = document.body.dataset.page;
-    const [collections, series, products] = await Promise.all([
-      loadJson("/data/top_25_showcase_collections.json"),
-      loadJson("/data/top_25_showcase_series.json"),
-      loadJson("/data/top_25_showcase_products.json"),
-    ]);
     const root = app();
     root.innerHTML = "";
+    root.setAttribute("aria-busy", "true");
 
     window.NC_ANALYTICS.track("page_view", {
       entity_type: "page",
@@ -208,8 +238,15 @@
 
     if (page === "analytics") {
       root.appendChild(analyticsDashboard());
+      root.setAttribute("aria-busy", "false");
       return;
     }
+
+    const [collections, series, products] = await Promise.all([
+      loadJson("/data/top_25_showcase_collections.json"),
+      loadJson("/data/top_25_showcase_series.json"),
+      loadJson("/data/top_25_showcase_products.json"),
+    ]);
 
     root.appendChild(renderSearch([...collections, ...series, ...products]));
 
@@ -226,42 +263,49 @@
           card("Shop", "Read-only product validation measures wishlist and buy intent without payment processing."),
         ])
       );
+      root.setAttribute("aria-busy", "false");
       return;
     }
 
     if (page === "collections") {
       root.prepend(hero("Collections", "Top 25 Showcase Collections", "Selected from the Top 100 for visual appeal, educational value, global representation, and product potential."));
       root.appendChild(grid(collections.map(collectionCard)));
+      root.setAttribute("aria-busy", "false");
       return;
     }
 
     if (page === "series") {
       root.prepend(hero("Series", "Top 25 Showcase Series", "Educational narratives that connect collections and assets."));
       root.appendChild(grid(series.map(seriesCard)));
+      root.setAttribute("aria-busy", "false");
       return;
     }
 
     if (page === "shop") {
       root.prepend(hero("Shop", "Top 25 Showcase Products", "Read-only validation for product interest. No checkout, payment, or fulfillment."));
       root.appendChild(grid(products.map(productCard)));
+      root.setAttribute("aria-busy", "false");
       return;
     }
 
     if (page === "species") {
       root.prepend(hero("Species", "Flagship Species", "Explore species-led collections and conservation narratives."));
       root.appendChild(grid(collections.filter((item) => item.domain === "Nature").map(collectionCard)));
+      root.setAttribute("aria-busy", "false");
       return;
     }
 
     if (page === "places") {
       root.prepend(hero("Places", "Explore by Place", "Heritage, maps, landscapes, and regional memory across the public beta portfolio."));
       root.appendChild(grid(collections.filter((item) => ["Heritage", "History"].includes(item.domain)).map(collectionCard)));
+      root.setAttribute("aria-busy", "false");
       return;
     }
 
     if (page === "education") {
       root.prepend(hero("Education", "Learning from Collections", "Series, cards, puzzles, and classroom-ready narratives for source-aware learning."));
       root.appendChild(grid(series.slice(0, 12).map(seriesCard)));
+      root.setAttribute("aria-busy", "false");
       return;
     }
 
@@ -272,6 +316,7 @@
         card("Portfolio data", "Showcase datasets are derived from Top 100 collections, series, assets, and Top 50 products."),
         card("Outbound sources", "Outbound clicks are tracked by domain only for privacy-conscious source follow-through."),
       ]));
+      root.setAttribute("aria-busy", "false");
     }
   }
 
