@@ -9,6 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 PORTFOLIO_DIR = ROOT / "data" / "portfolio"
 REPORT = ROOT / "docs" / "implementation" / "rc9-global-asset-report.md"
+AUDIT = ROOT / "docs" / "implementation" / "rc9-portfolio-audit.md"
 
 REQUIRED_FIELDS = {
     "title",
@@ -68,3 +69,13 @@ def test_rc9_report_declares_frozen_architecture_scope() -> None:
     assert "No agents were added or changed" in report
     assert "No ADRs were added or changed" in report
     assert "Top 20 likely best-selling products" in report
+
+
+def test_rc9_audit_declares_score_and_priority_lists() -> None:
+    audit = AUDIT.read_text(encoding="utf-8")
+
+    assert "Architecture v1.0 remains frozen" in audit
+    assert "Portfolio score: 84 / 100" in audit
+    assert "Top 25 highest-priority assets" in audit
+    assert "Top 25 highest-priority collections" in audit
+    assert "Top 25 highest-priority series" in audit
