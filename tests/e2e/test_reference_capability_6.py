@@ -189,6 +189,88 @@ def test_rc9_top_100_global_assets_dataset():
 
 
 @pytest.mark.e2e
+def test_rc10_top_100_collections_dataset():
+    collections = json.loads(Path("data/portfolio/top_100_collections.json").read_text(encoding="utf-8"))
+    assets = json.loads(Path("data/portfolio/top_100_global_assets.json").read_text(encoding="utf-8"))
+    asset_titles = {asset["title"] for asset in assets}
+
+    assert len(collections) == 100
+    assert len({collection["collection_id"] for collection in collections}) == 100
+    assert len({collection["geography_region"] for collection in collections}) >= 6
+    assert len({collection["domain"] for collection in collections}) >= 5
+    assert len({collection["theme"] for collection in collections}) >= 8
+    for collection in collections:
+        assert collection["primary_asset"] in asset_titles
+        assert collection["assets"]
+        assert set(collection["assets"]).issubset(asset_titles)
+        assert collection["portfolio_diversity_role"]
+        assert 0 <= collection["portfolio_score"] <= 1
+
+
+@pytest.mark.e2e
+def test_rc10_top_100_series_dataset():
+    collections = json.loads(Path("data/portfolio/top_100_collections.json").read_text(encoding="utf-8"))
+    series = json.loads(Path("data/portfolio/top_100_series.json").read_text(encoding="utf-8"))
+    collection_ids = {collection["collection_id"] for collection in collections}
+    asset_titles = {asset for collection in collections for asset in collection["assets"]}
+
+    assert len(series) == 100
+    assert len({item["series_id"] for item in series}) == 100
+    for item in series:
+        assert item["collections"]
+        assert set(item["collections"]).issubset(collection_ids)
+        assert item["assets"]
+        assert set(item["assets"]).issubset(asset_titles)
+        assert len(item["educational_narrative"]) > 120
+        assert item["learning_goals"]
+
+
+@pytest.mark.e2e
+def test_rc10_landing_page_experiments():
+    experiment = json.loads(Path("data/portfolio/landing_page_experiments.json").read_text(encoding="utf-8"))
+
+    assert experiment["experiment_id"] == "rc10-landing-message"
+    variants = {variant["variant_id"]: variant for variant in experiment["variants"]}
+    assert variants["A"]["headline"] == "Explore Humanity's Greatest Heritage"
+    assert variants["B"]["headline"] == "Discover Nature, Culture, and History"
+    assert variants["C"]["headline"] == "Permanent Digital Memory of Humanity"
+    for variant in variants.values():
+        assert set(variant["measures"]) == {"clicks", "engagement", "product interest"}
+
+
+@pytest.mark.e2e
+def test_rc10_top_50_products_dataset():
+    products = json.loads(Path("data/portfolio/top_50_products.json").read_text(encoding="utf-8"))
+    collections = json.loads(Path("data/portfolio/top_100_collections.json").read_text(encoding="utf-8"))
+    assets = json.loads(Path("data/portfolio/top_100_global_assets.json").read_text(encoding="utf-8"))
+    collection_ids = {collection["collection_id"] for collection in collections}
+    asset_titles = {asset["title"] for asset in assets}
+    source_families = {asset["category"] for asset in assets}
+    required_categories = {
+        "Posters",
+        "Framed Prints",
+        "Canvas Prints",
+        "Puzzles",
+        "Calendars",
+        "Coffee Table Books",
+        "Historic Maps",
+        "Educational Cards",
+    }
+
+    assert len(products) == 50
+    assert required_categories.issubset({product["category"] for product in products})
+    for product in products:
+        assert product["asset"] in asset_titles
+        assert product["asset_source"] in source_families
+        assert product["collection_id"] in collection_ids
+        assert product["collection"]
+        assert product["demand_rationale"]
+        assert product["commercial_rationale"]
+        assert 0 <= product["demand_score"] <= 1
+        assert 0 <= product["commercial_score"] <= 1
+
+
+@pytest.mark.e2e
 @pytest.mark.parametrize("product_slug", PRODUCT_SLUGS)
 def test_commercial_product_pages_served(product_slug: str):
     client = TestClient(app)

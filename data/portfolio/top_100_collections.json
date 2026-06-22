@@ -1,0 +1,2093 @@
+[
+  {
+    "collection_id": "rc10-collection-001",
+    "title": "Machu Picchu Collection",
+    "primary_asset": "Machu Picchu",
+    "source_category": "UNESCO World Heritage",
+    "country": "Peru",
+    "geography_region": "Latin America",
+    "domain": "Heritage",
+    "theme": "World Heritage",
+    "portfolio_diversity_role": "Latin America / Heritage / World Heritage",
+    "portfolio_score": 0.95,
+    "assets": [
+      "Machu Picchu"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Historic Maps",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-002",
+    "title": "Great Wall of China Collection",
+    "primary_asset": "Great Wall of China",
+    "source_category": "UNESCO World Heritage",
+    "country": "China",
+    "geography_region": "Asia",
+    "domain": "Heritage",
+    "theme": "Flagship Species",
+    "portfolio_diversity_role": "Asia / Heritage / Flagship Species",
+    "portfolio_score": 0.943,
+    "assets": [
+      "Great Wall of China"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-003",
+    "title": "Pyramids of Giza Collection",
+    "primary_asset": "Pyramids of Giza",
+    "source_category": "UNESCO World Heritage",
+    "country": "Egypt",
+    "geography_region": "Africa",
+    "domain": "Heritage",
+    "theme": "Public Domain Art",
+    "portfolio_diversity_role": "Africa / Heritage / Public Domain Art",
+    "portfolio_score": 0.96,
+    "assets": [
+      "Pyramids of Giza"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Historic Maps",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-004",
+    "title": "Taj Mahal Collection",
+    "primary_asset": "Taj Mahal",
+    "source_category": "UNESCO World Heritage",
+    "country": "India",
+    "geography_region": "Asia",
+    "domain": "Heritage",
+    "theme": "Maps and Memory",
+    "portfolio_diversity_role": "Asia / Heritage / Maps and Memory",
+    "portfolio_score": 0.957,
+    "assets": [
+      "Taj Mahal"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-005",
+    "title": "Stonehenge Collection",
+    "primary_asset": "Stonehenge",
+    "source_category": "UNESCO World Heritage",
+    "country": "United Kingdom",
+    "geography_region": "Europe",
+    "domain": "Heritage",
+    "theme": "Conservation",
+    "portfolio_diversity_role": "Europe / Heritage / Conservation",
+    "portfolio_score": 0.887,
+    "assets": [
+      "Stonehenge"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Historic Maps",
+      "Puzzles",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-006",
+    "title": "Angkor Wat Collection",
+    "primary_asset": "Angkor Wat",
+    "source_category": "UNESCO World Heritage",
+    "country": "Cambodia",
+    "geography_region": "Asia",
+    "domain": "Heritage",
+    "theme": "Exploration",
+    "portfolio_diversity_role": "Asia / Heritage / Exploration",
+    "portfolio_score": 0.907,
+    "assets": [
+      "Angkor Wat"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-007",
+    "title": "Petra Collection",
+    "primary_asset": "Petra",
+    "source_category": "UNESCO World Heritage",
+    "country": "Jordan",
+    "geography_region": "Middle East",
+    "domain": "Heritage",
+    "theme": "Education",
+    "portfolio_diversity_role": "Middle East / Heritage / Education",
+    "portfolio_score": 0.9,
+    "assets": [
+      "Petra"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-008",
+    "title": "Colosseum and Historic Centre of Rome Collection",
+    "primary_asset": "Colosseum and Historic Centre of Rome",
+    "source_category": "UNESCO World Heritage",
+    "country": "Italy",
+    "geography_region": "Europe",
+    "domain": "Heritage",
+    "theme": "Cultural Icons",
+    "portfolio_diversity_role": "Europe / Heritage / Cultural Icons",
+    "portfolio_score": 0.933,
+    "assets": [
+      "Colosseum and Historic Centre of Rome"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Historic Maps",
+      "Puzzles",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-009",
+    "title": "Acropolis of Athens Collection",
+    "primary_asset": "Acropolis of Athens",
+    "source_category": "UNESCO World Heritage",
+    "country": "Greece",
+    "geography_region": "Europe",
+    "domain": "Heritage",
+    "theme": "Landscape",
+    "portfolio_diversity_role": "Europe / Heritage / Landscape",
+    "portfolio_score": 0.917,
+    "assets": [
+      "Acropolis of Athens"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Historic Maps",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-010",
+    "title": "Mont-Saint-Michel Collection",
+    "primary_asset": "Mont-Saint-Michel",
+    "source_category": "UNESCO World Heritage",
+    "country": "France",
+    "geography_region": "Europe",
+    "domain": "Heritage",
+    "theme": "Science and Discovery",
+    "portfolio_diversity_role": "Europe / Heritage / Science and Discovery",
+    "portfolio_score": 0.89,
+    "assets": [
+      "Mont-Saint-Michel"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-011",
+    "title": "Serengeti National Park Collection",
+    "primary_asset": "Serengeti National Park",
+    "source_category": "UNESCO World Heritage",
+    "country": "Tanzania",
+    "geography_region": "Africa",
+    "domain": "Heritage",
+    "theme": "World Heritage",
+    "portfolio_diversity_role": "Africa / Heritage / World Heritage",
+    "portfolio_score": 0.923,
+    "assets": [
+      "Serengeti National Park"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-012",
+    "title": "Galapagos Islands Collection",
+    "primary_asset": "Galapagos Islands",
+    "source_category": "UNESCO World Heritage",
+    "country": "Ecuador",
+    "geography_region": "Latin America",
+    "domain": "Heritage",
+    "theme": "Flagship Species",
+    "portfolio_diversity_role": "Latin America / Heritage / Flagship Species",
+    "portfolio_score": 0.923,
+    "assets": [
+      "Galapagos Islands"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-013",
+    "title": "Yellowstone National Park Collection",
+    "primary_asset": "Yellowstone National Park",
+    "source_category": "UNESCO World Heritage",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "Heritage",
+    "theme": "Public Domain Art",
+    "portfolio_diversity_role": "North America / Heritage / Public Domain Art",
+    "portfolio_score": 0.917,
+    "assets": [
+      "Yellowstone National Park"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Historic Maps",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-014",
+    "title": "Great Barrier Reef Collection",
+    "primary_asset": "Great Barrier Reef",
+    "source_category": "UNESCO World Heritage",
+    "country": "Australia",
+    "geography_region": "Oceania",
+    "domain": "Heritage",
+    "theme": "Maps and Memory",
+    "portfolio_diversity_role": "Oceania / Heritage / Maps and Memory",
+    "portfolio_score": 0.933,
+    "assets": [
+      "Great Barrier Reef"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-015",
+    "title": "Everglades National Park Collection",
+    "primary_asset": "Everglades National Park",
+    "source_category": "UNESCO World Heritage",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "Heritage",
+    "theme": "Conservation",
+    "portfolio_diversity_role": "North America / Heritage / Conservation",
+    "portfolio_score": 0.813,
+    "assets": [
+      "Everglades National Park"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Historic Maps",
+      "Calendars",
+      "Puzzles"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-016",
+    "title": "Chichen Itza Collection",
+    "primary_asset": "Chichen Itza",
+    "source_category": "UNESCO World Heritage",
+    "country": "Mexico",
+    "geography_region": "Latin America",
+    "domain": "Heritage",
+    "theme": "Exploration",
+    "portfolio_diversity_role": "Latin America / Heritage / Exploration",
+    "portfolio_score": 0.897,
+    "assets": [
+      "Chichen Itza"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Historic Maps",
+      "Puzzles",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-017",
+    "title": "Easter Island Rapa Nui Collection",
+    "primary_asset": "Easter Island Rapa Nui",
+    "source_category": "UNESCO World Heritage",
+    "country": "Chile",
+    "geography_region": "Latin America",
+    "domain": "Heritage",
+    "theme": "Education",
+    "portfolio_diversity_role": "Latin America / Heritage / Education",
+    "portfolio_score": 0.88,
+    "assets": [
+      "Easter Island Rapa Nui"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-018",
+    "title": "Alhambra Collection",
+    "primary_asset": "Alhambra",
+    "source_category": "UNESCO World Heritage",
+    "country": "Spain",
+    "geography_region": "Europe",
+    "domain": "Heritage",
+    "theme": "Cultural Icons",
+    "portfolio_diversity_role": "Europe / Heritage / Cultural Icons",
+    "portfolio_score": 0.883,
+    "assets": [
+      "Alhambra"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Historic Maps",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-019",
+    "title": "Kyoto Historic Monuments Collection",
+    "primary_asset": "Kyoto Historic Monuments",
+    "source_category": "UNESCO World Heritage",
+    "country": "Japan",
+    "geography_region": "Asia",
+    "domain": "Heritage",
+    "theme": "Landscape",
+    "portfolio_diversity_role": "Asia / Heritage / Landscape",
+    "portfolio_score": 0.903,
+    "assets": [
+      "Kyoto Historic Monuments"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-020",
+    "title": "Venice and its Lagoon Collection",
+    "primary_asset": "Venice and its Lagoon",
+    "source_category": "UNESCO World Heritage",
+    "country": "Italy",
+    "geography_region": "Europe",
+    "domain": "Heritage",
+    "theme": "Science and Discovery",
+    "portfolio_diversity_role": "Europe / Heritage / Science and Discovery",
+    "portfolio_score": 0.94,
+    "assets": [
+      "Venice and its Lagoon"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Historic Maps",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-021",
+    "title": "Lion Collection",
+    "primary_asset": "Lion",
+    "source_category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "geography_region": "Global",
+    "domain": "Nature",
+    "theme": "World Heritage",
+    "portfolio_diversity_role": "Global / Nature / World Heritage",
+    "portfolio_score": 0.95,
+    "assets": [
+      "Lion"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-022",
+    "title": "Tiger Collection",
+    "primary_asset": "Tiger",
+    "source_category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "geography_region": "Global",
+    "domain": "Nature",
+    "theme": "Flagship Species",
+    "portfolio_diversity_role": "Global / Nature / Flagship Species",
+    "portfolio_score": 0.957,
+    "assets": [
+      "Tiger"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-023",
+    "title": "African Elephant Collection",
+    "primary_asset": "African Elephant",
+    "source_category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "geography_region": "Global",
+    "domain": "Nature",
+    "theme": "Public Domain Art",
+    "portfolio_diversity_role": "Global / Nature / Public Domain Art",
+    "portfolio_score": 0.943,
+    "assets": [
+      "African Elephant"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-024",
+    "title": "Giant Panda Collection",
+    "primary_asset": "Giant Panda",
+    "source_category": "GBIF Flagship Species",
+    "country": "China",
+    "geography_region": "Asia",
+    "domain": "Nature",
+    "theme": "Maps and Memory",
+    "portfolio_diversity_role": "Asia / Nature / Maps and Memory",
+    "portfolio_score": 0.95,
+    "assets": [
+      "Giant Panda"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-025",
+    "title": "Snow Leopard Collection",
+    "primary_asset": "Snow Leopard",
+    "source_category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "geography_region": "Global",
+    "domain": "Nature",
+    "theme": "Conservation",
+    "portfolio_diversity_role": "Global / Nature / Conservation",
+    "portfolio_score": 0.897,
+    "assets": [
+      "Snow Leopard"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-026",
+    "title": "Jaguar Collection",
+    "primary_asset": "Jaguar",
+    "source_category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "geography_region": "Global",
+    "domain": "Nature",
+    "theme": "Exploration",
+    "portfolio_diversity_role": "Global / Nature / Exploration",
+    "portfolio_score": 0.877,
+    "assets": [
+      "Jaguar"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-027",
+    "title": "Polar Bear Collection",
+    "primary_asset": "Polar Bear",
+    "source_category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "geography_region": "Global",
+    "domain": "Nature",
+    "theme": "Education",
+    "portfolio_diversity_role": "Global / Nature / Education",
+    "portfolio_score": 0.927,
+    "assets": [
+      "Polar Bear"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-028",
+    "title": "Blue Whale Collection",
+    "primary_asset": "Blue Whale",
+    "source_category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "geography_region": "Global",
+    "domain": "Nature",
+    "theme": "Cultural Icons",
+    "portfolio_diversity_role": "Global / Nature / Cultural Icons",
+    "portfolio_score": 0.9,
+    "assets": [
+      "Blue Whale"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-029",
+    "title": "Humpback Whale Collection",
+    "primary_asset": "Humpback Whale",
+    "source_category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "geography_region": "Global",
+    "domain": "Nature",
+    "theme": "Landscape",
+    "portfolio_diversity_role": "Global / Nature / Landscape",
+    "portfolio_score": 0.89,
+    "assets": [
+      "Humpback Whale"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-030",
+    "title": "Bald Eagle Collection",
+    "primary_asset": "Bald Eagle",
+    "source_category": "GBIF Flagship Species",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "Nature",
+    "theme": "Science and Discovery",
+    "portfolio_diversity_role": "North America / Nature / Science and Discovery",
+    "portfolio_score": 0.88,
+    "assets": [
+      "Bald Eagle"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Calendars",
+      "Puzzles"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-031",
+    "title": "Monarch Butterfly Collection",
+    "primary_asset": "Monarch Butterfly",
+    "source_category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "geography_region": "Global",
+    "domain": "Nature",
+    "theme": "World Heritage",
+    "portfolio_diversity_role": "Global / Nature / World Heritage",
+    "portfolio_score": 0.863,
+    "assets": [
+      "Monarch Butterfly"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Framed Prints"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-032",
+    "title": "Red-Crowned Crane Collection",
+    "primary_asset": "Red-Crowned Crane",
+    "source_category": "GBIF Flagship Species",
+    "country": "Japan",
+    "geography_region": "Asia",
+    "domain": "Nature",
+    "theme": "Flagship Species",
+    "portfolio_diversity_role": "Asia / Nature / Flagship Species",
+    "portfolio_score": 0.817,
+    "assets": [
+      "Red-Crowned Crane"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-033",
+    "title": "Koala Collection",
+    "primary_asset": "Koala",
+    "source_category": "GBIF Flagship Species",
+    "country": "Australia",
+    "geography_region": "Oceania",
+    "domain": "Nature",
+    "theme": "Public Domain Art",
+    "portfolio_diversity_role": "Oceania / Nature / Public Domain Art",
+    "portfolio_score": 0.91,
+    "assets": [
+      "Koala"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Framed Prints"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-034",
+    "title": "Orangutan Collection",
+    "primary_asset": "Orangutan",
+    "source_category": "GBIF Flagship Species",
+    "country": "Indonesia",
+    "geography_region": "Asia",
+    "domain": "Nature",
+    "theme": "Maps and Memory",
+    "portfolio_diversity_role": "Asia / Nature / Maps and Memory",
+    "portfolio_score": 0.873,
+    "assets": [
+      "Orangutan"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-035",
+    "title": "Sea Turtle Collection",
+    "primary_asset": "Sea Turtle",
+    "source_category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "geography_region": "Global",
+    "domain": "Nature",
+    "theme": "Conservation",
+    "portfolio_diversity_role": "Global / Nature / Conservation",
+    "portfolio_score": 0.9,
+    "assets": [
+      "Sea Turtle"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-036",
+    "title": "Apollo 11 Command Module Columbia Collection",
+    "primary_asset": "Apollo 11 Command Module Columbia",
+    "source_category": "Smithsonian Open Access",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "Culture",
+    "theme": "Exploration",
+    "portfolio_diversity_role": "North America / Culture / Exploration",
+    "portfolio_score": 0.91,
+    "assets": [
+      "Apollo 11 Command Module Columbia"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-037",
+    "title": "Wright Flyer Collection",
+    "primary_asset": "Wright Flyer",
+    "source_category": "Smithsonian Open Access",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "Culture",
+    "theme": "Education",
+    "portfolio_diversity_role": "North America / Culture / Education",
+    "portfolio_score": 0.87,
+    "assets": [
+      "Wright Flyer"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Historic Maps",
+      "Puzzles",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-038",
+    "title": "Hope Diamond Collection",
+    "primary_asset": "Hope Diamond",
+    "source_category": "Smithsonian Open Access",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "Culture",
+    "theme": "Cultural Icons",
+    "portfolio_diversity_role": "North America / Culture / Cultural Icons",
+    "portfolio_score": 0.883,
+    "assets": [
+      "Hope Diamond"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-039",
+    "title": "Ruby Slippers Collection",
+    "primary_asset": "Ruby Slippers",
+    "source_category": "Smithsonian Open Access",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "Culture",
+    "theme": "Landscape",
+    "portfolio_diversity_role": "North America / Culture / Landscape",
+    "portfolio_score": 0.9,
+    "assets": [
+      "Ruby Slippers"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Calendars",
+      "Puzzles"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-040",
+    "title": "Star-Spangled Banner Collection",
+    "primary_asset": "Star-Spangled Banner",
+    "source_category": "Smithsonian Open Access",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "Culture",
+    "theme": "Science and Discovery",
+    "portfolio_diversity_role": "North America / Culture / Science and Discovery",
+    "portfolio_score": 0.86,
+    "assets": [
+      "Star-Spangled Banner"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Historic Maps",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-041",
+    "title": "First Ladies Inaugural Gowns Collection",
+    "primary_asset": "First Ladies Inaugural Gowns",
+    "source_category": "Smithsonian Open Access",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "Culture",
+    "theme": "World Heritage",
+    "portfolio_diversity_role": "North America / Culture / World Heritage",
+    "portfolio_score": 0.793,
+    "assets": [
+      "First Ladies Inaugural Gowns"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-042",
+    "title": "Tyrannosaurus rex Hall Specimen Collection",
+    "primary_asset": "Tyrannosaurus rex Hall Specimen",
+    "source_category": "Smithsonian Open Access",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "Culture",
+    "theme": "Flagship Species",
+    "portfolio_diversity_role": "North America / Culture / Flagship Species",
+    "portfolio_score": 0.913,
+    "assets": [
+      "Tyrannosaurus rex Hall Specimen"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-043",
+    "title": "Duke Ellington Collection Collection",
+    "primary_asset": "Duke Ellington Collection",
+    "source_category": "Smithsonian Open Access",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "Culture",
+    "theme": "Public Domain Art",
+    "portfolio_diversity_role": "North America / Culture / Public Domain Art",
+    "portfolio_score": 0.783,
+    "assets": [
+      "Duke Ellington Collection"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-044",
+    "title": "Celia Cruz Collection Collection",
+    "primary_asset": "Celia Cruz Collection",
+    "source_category": "Smithsonian Open Access",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "Culture",
+    "theme": "Maps and Memory",
+    "portfolio_diversity_role": "North America / Culture / Maps and Memory",
+    "portfolio_score": 0.777,
+    "assets": [
+      "Celia Cruz Collection"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-045",
+    "title": "Smithsonian Castle Collection",
+    "primary_asset": "Smithsonian Castle",
+    "source_category": "Smithsonian Open Access",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "Culture",
+    "theme": "Conservation",
+    "portfolio_diversity_role": "North America / Culture / Conservation",
+    "portfolio_score": 0.777,
+    "assets": [
+      "Smithsonian Castle"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Historic Maps",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-046",
+    "title": "Sunflowers Collection",
+    "primary_asset": "Sunflowers",
+    "source_category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "geography_region": "Europe",
+    "domain": "Art",
+    "theme": "Exploration",
+    "portfolio_diversity_role": "Europe / Art / Exploration",
+    "portfolio_score": 0.953,
+    "assets": [
+      "Sunflowers"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-047",
+    "title": "The Arnolfini Portrait Collection",
+    "primary_asset": "The Arnolfini Portrait",
+    "source_category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "geography_region": "Europe",
+    "domain": "Art",
+    "theme": "Education",
+    "portfolio_diversity_role": "Europe / Art / Education",
+    "portfolio_score": 0.9,
+    "assets": [
+      "The Arnolfini Portrait"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-048",
+    "title": "The Fighting Temeraire Collection",
+    "primary_asset": "The Fighting Temeraire",
+    "source_category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "geography_region": "Europe",
+    "domain": "Art",
+    "theme": "Cultural Icons",
+    "portfolio_diversity_role": "Europe / Art / Cultural Icons",
+    "portfolio_score": 0.867,
+    "assets": [
+      "The Fighting Temeraire"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-049",
+    "title": "Bathers at Asnieres Collection",
+    "primary_asset": "Bathers at Asnieres",
+    "source_category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "geography_region": "Europe",
+    "domain": "Art",
+    "theme": "Landscape",
+    "portfolio_diversity_role": "Europe / Art / Landscape",
+    "portfolio_score": 0.817,
+    "assets": [
+      "Bathers at Asnieres"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-050",
+    "title": "The Wilton Diptych Collection",
+    "primary_asset": "The Wilton Diptych",
+    "source_category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "geography_region": "Europe",
+    "domain": "Art",
+    "theme": "Science and Discovery",
+    "portfolio_diversity_role": "Europe / Art / Science and Discovery",
+    "portfolio_score": 0.773,
+    "assets": [
+      "The Wilton Diptych"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-051",
+    "title": "Rain, Steam and Speed Collection",
+    "primary_asset": "Rain, Steam and Speed",
+    "source_category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "geography_region": "Europe",
+    "domain": "Art",
+    "theme": "World Heritage",
+    "portfolio_diversity_role": "Europe / Art / World Heritage",
+    "portfolio_score": 0.827,
+    "assets": [
+      "Rain, Steam and Speed"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-052",
+    "title": "Whistlejacket Collection",
+    "primary_asset": "Whistlejacket",
+    "source_category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "geography_region": "Europe",
+    "domain": "Art",
+    "theme": "Flagship Species",
+    "portfolio_diversity_role": "Europe / Art / Flagship Species",
+    "portfolio_score": 0.843,
+    "assets": [
+      "Whistlejacket"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-053",
+    "title": "The Hay Wain Collection",
+    "primary_asset": "The Hay Wain",
+    "source_category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "geography_region": "Europe",
+    "domain": "Art",
+    "theme": "Public Domain Art",
+    "portfolio_diversity_role": "Europe / Art / Public Domain Art",
+    "portfolio_score": 0.847,
+    "assets": [
+      "The Hay Wain"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-054",
+    "title": "Venus and Mars Collection",
+    "primary_asset": "Venus and Mars",
+    "source_category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "geography_region": "Europe",
+    "domain": "Art",
+    "theme": "Maps and Memory",
+    "portfolio_diversity_role": "Europe / Art / Maps and Memory",
+    "portfolio_score": 0.79,
+    "assets": [
+      "Venus and Mars"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-055",
+    "title": "The Ambassadors Collection",
+    "primary_asset": "The Ambassadors",
+    "source_category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "geography_region": "Europe",
+    "domain": "Art",
+    "theme": "Conservation",
+    "portfolio_diversity_role": "Europe / Art / Conservation",
+    "portfolio_score": 0.827,
+    "assets": [
+      "The Ambassadors"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-056",
+    "title": "The Night Watch Collection",
+    "primary_asset": "The Night Watch",
+    "source_category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "geography_region": "Europe",
+    "domain": "Art",
+    "theme": "Exploration",
+    "portfolio_diversity_role": "Europe / Art / Exploration",
+    "portfolio_score": 0.93,
+    "assets": [
+      "The Night Watch"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-057",
+    "title": "The Milkmaid Collection",
+    "primary_asset": "The Milkmaid",
+    "source_category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "geography_region": "Europe",
+    "domain": "Art",
+    "theme": "Education",
+    "portfolio_diversity_role": "Europe / Art / Education",
+    "portfolio_score": 0.92,
+    "assets": [
+      "The Milkmaid"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-058",
+    "title": "Self-portrait with Felt Hat Collection",
+    "primary_asset": "Self-portrait with Felt Hat",
+    "source_category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "geography_region": "Europe",
+    "domain": "Art",
+    "theme": "Cultural Icons",
+    "portfolio_diversity_role": "Europe / Art / Cultural Icons",
+    "portfolio_score": 0.897,
+    "assets": [
+      "Self-portrait with Felt Hat"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-059",
+    "title": "The Threatened Swan Collection",
+    "primary_asset": "The Threatened Swan",
+    "source_category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "geography_region": "Europe",
+    "domain": "Art",
+    "theme": "Landscape",
+    "portfolio_diversity_role": "Europe / Art / Landscape",
+    "portfolio_score": 0.827,
+    "assets": [
+      "The Threatened Swan"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-060",
+    "title": "Still Life with Flowers in a Glass Vase Collection",
+    "primary_asset": "Still Life with Flowers in a Glass Vase",
+    "source_category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "geography_region": "Europe",
+    "domain": "Art",
+    "theme": "Science and Discovery",
+    "portfolio_diversity_role": "Europe / Art / Science and Discovery",
+    "portfolio_score": 0.837,
+    "assets": [
+      "Still Life with Flowers in a Glass Vase"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-061",
+    "title": "The Merry Family Collection",
+    "primary_asset": "The Merry Family",
+    "source_category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "geography_region": "Europe",
+    "domain": "Art",
+    "theme": "World Heritage",
+    "portfolio_diversity_role": "Europe / Art / World Heritage",
+    "portfolio_score": 0.753,
+    "assets": [
+      "The Merry Family"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Puzzles"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-062",
+    "title": "Girl in a Large Hat Collection",
+    "primary_asset": "Girl in a Large Hat",
+    "source_category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "geography_region": "Europe",
+    "domain": "Art",
+    "theme": "Flagship Species",
+    "portfolio_diversity_role": "Europe / Art / Flagship Species",
+    "portfolio_score": 0.767,
+    "assets": [
+      "Girl in a Large Hat"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-063",
+    "title": "View of Houses in Delft Collection",
+    "primary_asset": "View of Houses in Delft",
+    "source_category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "geography_region": "Europe",
+    "domain": "Art",
+    "theme": "Public Domain Art",
+    "portfolio_diversity_role": "Europe / Art / Public Domain Art",
+    "portfolio_score": 0.787,
+    "assets": [
+      "View of Houses in Delft"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Historic Maps",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-064",
+    "title": "The Jewish Bride Collection",
+    "primary_asset": "The Jewish Bride",
+    "source_category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "geography_region": "Europe",
+    "domain": "Art",
+    "theme": "Maps and Memory",
+    "portfolio_diversity_role": "Europe / Art / Maps and Memory",
+    "portfolio_score": 0.817,
+    "assets": [
+      "The Jewish Bride"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-065",
+    "title": "The Little Street Collection",
+    "primary_asset": "The Little Street",
+    "source_category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "geography_region": "Europe",
+    "domain": "Art",
+    "theme": "Conservation",
+    "portfolio_diversity_role": "Europe / Art / Conservation",
+    "portfolio_score": 0.86,
+    "assets": [
+      "The Little Street"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-066",
+    "title": "Declaration of Independence Collection",
+    "primary_asset": "Declaration of Independence",
+    "source_category": "Library of Congress",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "History",
+    "theme": "Exploration",
+    "portfolio_diversity_role": "North America / History / Exploration",
+    "portfolio_score": 0.907,
+    "assets": [
+      "Declaration of Independence"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Historic Maps",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-067",
+    "title": "Abraham Lincoln Portrait Collection",
+    "primary_asset": "Abraham Lincoln Portrait",
+    "source_category": "Library of Congress",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "History",
+    "theme": "Education",
+    "portfolio_diversity_role": "North America / History / Education",
+    "portfolio_score": 0.89,
+    "assets": [
+      "Abraham Lincoln Portrait"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-068",
+    "title": "Rosa Parks Photograph Collection",
+    "primary_asset": "Rosa Parks Photograph",
+    "source_category": "Library of Congress",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "History",
+    "theme": "Cultural Icons",
+    "portfolio_diversity_role": "North America / History / Cultural Icons",
+    "portfolio_score": 0.883,
+    "assets": [
+      "Rosa Parks Photograph"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-069",
+    "title": "Dorothea Lange Migrant Mother Collection",
+    "primary_asset": "Dorothea Lange Migrant Mother",
+    "source_category": "Library of Congress",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "History",
+    "theme": "Landscape",
+    "portfolio_diversity_role": "North America / History / Landscape",
+    "portfolio_score": 0.897,
+    "assets": [
+      "Dorothea Lange Migrant Mother"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-070",
+    "title": "Waldseemuller Map Collection",
+    "primary_asset": "Waldseemuller Map",
+    "source_category": "Library of Congress",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "History",
+    "theme": "Science and Discovery",
+    "portfolio_diversity_role": "North America / History / Science and Discovery",
+    "portfolio_score": 0.84,
+    "assets": [
+      "Waldseemuller Map"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Historic Maps",
+      "Framed Prints",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-071",
+    "title": "Panoramic Map of New York City Collection",
+    "primary_asset": "Panoramic Map of New York City",
+    "source_category": "Library of Congress",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "History",
+    "theme": "World Heritage",
+    "portfolio_diversity_role": "North America / History / World Heritage",
+    "portfolio_score": 0.807,
+    "assets": [
+      "Panoramic Map of New York City"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Historic Maps",
+      "Puzzles",
+      "Framed Prints"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-072",
+    "title": "Ansel Adams National Parks Photographs Collection",
+    "primary_asset": "Ansel Adams National Parks Photographs",
+    "source_category": "Library of Congress",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "History",
+    "theme": "Flagship Species",
+    "portfolio_diversity_role": "North America / History / Flagship Species",
+    "portfolio_score": 0.913,
+    "assets": [
+      "Ansel Adams National Parks Photographs"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-073",
+    "title": "Baseball Card Collection Collection",
+    "primary_asset": "Baseball Card Collection",
+    "source_category": "Library of Congress",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "History",
+    "theme": "Public Domain Art",
+    "portfolio_diversity_role": "North America / History / Public Domain Art",
+    "portfolio_score": 0.787,
+    "assets": [
+      "Baseball Card Collection"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Puzzles",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-074",
+    "title": "Civil War Maps Collection Collection",
+    "primary_asset": "Civil War Maps Collection",
+    "source_category": "Library of Congress",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "History",
+    "theme": "Maps and Memory",
+    "portfolio_diversity_role": "North America / History / Maps and Memory",
+    "portfolio_score": 0.797,
+    "assets": [
+      "Civil War Maps Collection"
+    ],
+    "product_recommendations": [
+      "Historic Maps",
+      "Posters",
+      "Framed Prints",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-075",
+    "title": "Japanese Fine Prints Collection Collection",
+    "primary_asset": "Japanese Fine Prints Collection",
+    "source_category": "Library of Congress",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "History",
+    "theme": "Conservation",
+    "portfolio_diversity_role": "North America / History / Conservation",
+    "portfolio_score": 0.823,
+    "assets": [
+      "Japanese Fine Prints Collection"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-076",
+    "title": "Snow Leopard in the Himalayas Collection",
+    "primary_asset": "Snow Leopard in the Himalayas",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "Multi-country",
+    "geography_region": "Global",
+    "domain": "Nature",
+    "theme": "Exploration",
+    "portfolio_diversity_role": "Global / Nature / Exploration",
+    "portfolio_score": 0.91,
+    "assets": [
+      "Snow Leopard in the Himalayas"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-077",
+    "title": "Elephant Migration in Amboseli Collection",
+    "primary_asset": "Elephant Migration in Amboseli",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "Kenya",
+    "geography_region": "Africa",
+    "domain": "Nature",
+    "theme": "Education",
+    "portfolio_diversity_role": "Africa / Nature / Education",
+    "portfolio_score": 0.92,
+    "assets": [
+      "Elephant Migration in Amboseli"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-078",
+    "title": "Polar Bear on Arctic Sea Ice Collection",
+    "primary_asset": "Polar Bear on Arctic Sea Ice",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "Multi-country",
+    "geography_region": "Global",
+    "domain": "Nature",
+    "theme": "Cultural Icons",
+    "portfolio_diversity_role": "Global / Nature / Cultural Icons",
+    "portfolio_score": 0.913,
+    "assets": [
+      "Polar Bear on Arctic Sea Ice"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Puzzles"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-079",
+    "title": "Great Migration River Crossing Collection",
+    "primary_asset": "Great Migration River Crossing",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "Tanzania",
+    "geography_region": "Africa",
+    "domain": "Nature",
+    "theme": "Landscape",
+    "portfolio_diversity_role": "Africa / Nature / Landscape",
+    "portfolio_score": 0.923,
+    "assets": [
+      "Great Migration River Crossing"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-080",
+    "title": "Monarch Butterfly Migration Collection",
+    "primary_asset": "Monarch Butterfly Migration",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "Mexico",
+    "geography_region": "Latin America",
+    "domain": "Nature",
+    "theme": "Science and Discovery",
+    "portfolio_diversity_role": "Latin America / Nature / Science and Discovery",
+    "portfolio_score": 0.877,
+    "assets": [
+      "Monarch Butterfly Migration"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Framed Prints"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-081",
+    "title": "Mountain Gorilla Family Collection",
+    "primary_asset": "Mountain Gorilla Family",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "Rwanda",
+    "geography_region": "Africa",
+    "domain": "Nature",
+    "theme": "World Heritage",
+    "portfolio_diversity_role": "Africa / Nature / World Heritage",
+    "portfolio_score": 0.893,
+    "assets": [
+      "Mountain Gorilla Family"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-082",
+    "title": "Coral Reef Biodiversity Collection",
+    "primary_asset": "Coral Reef Biodiversity",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "Australia",
+    "geography_region": "Oceania",
+    "domain": "Nature",
+    "theme": "Flagship Species",
+    "portfolio_diversity_role": "Oceania / Nature / Flagship Species",
+    "portfolio_score": 0.91,
+    "assets": [
+      "Coral Reef Biodiversity"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-083",
+    "title": "Bioluminescent Plankton Shoreline Collection",
+    "primary_asset": "Bioluminescent Plankton Shoreline",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "Maldives",
+    "geography_region": "Asia",
+    "domain": "Nature",
+    "theme": "Public Domain Art",
+    "portfolio_diversity_role": "Asia / Nature / Public Domain Art",
+    "portfolio_score": 0.87,
+    "assets": [
+      "Bioluminescent Plankton Shoreline"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-084",
+    "title": "Northern Lights over Arctic Landscape Collection",
+    "primary_asset": "Northern Lights over Arctic Landscape",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "Iceland",
+    "geography_region": "Europe",
+    "domain": "Nature",
+    "theme": "Maps and Memory",
+    "portfolio_diversity_role": "Europe / Nature / Maps and Memory",
+    "portfolio_score": 0.93,
+    "assets": [
+      "Northern Lights over Arctic Landscape"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Puzzles"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-085",
+    "title": "Sahara Desert Caravan Collection",
+    "primary_asset": "Sahara Desert Caravan",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "Morocco",
+    "geography_region": "Africa",
+    "domain": "Nature",
+    "theme": "Conservation",
+    "portfolio_diversity_role": "Africa / Nature / Conservation",
+    "portfolio_score": 0.84,
+    "assets": [
+      "Sahara Desert Caravan"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-086",
+    "title": "Amazon Rainforest Canopy Collection",
+    "primary_asset": "Amazon Rainforest Canopy",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "Brazil",
+    "geography_region": "Latin America",
+    "domain": "Nature",
+    "theme": "Exploration",
+    "portfolio_diversity_role": "Latin America / Nature / Exploration",
+    "portfolio_score": 0.907,
+    "assets": [
+      "Amazon Rainforest Canopy"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-087",
+    "title": "Emperor Penguins on Sea Ice Collection",
+    "primary_asset": "Emperor Penguins on Sea Ice",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "Antarctica",
+    "geography_region": "Antarctica",
+    "domain": "Nature",
+    "theme": "Education",
+    "portfolio_diversity_role": "Antarctica / Nature / Education",
+    "portfolio_score": 0.897,
+    "assets": [
+      "Emperor Penguins on Sea Ice"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Canvas Prints"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-088",
+    "title": "Humpback Whale Breach Collection",
+    "primary_asset": "Humpback Whale Breach",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "Multi-country",
+    "geography_region": "Global",
+    "domain": "Nature",
+    "theme": "Cultural Icons",
+    "portfolio_diversity_role": "Global / Nature / Cultural Icons",
+    "portfolio_score": 0.913,
+    "assets": [
+      "Humpback Whale Breach"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-089",
+    "title": "Tiger in Mangrove Forest Collection",
+    "primary_asset": "Tiger in Mangrove Forest",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "India",
+    "geography_region": "Asia",
+    "domain": "Nature",
+    "theme": "Landscape",
+    "portfolio_diversity_role": "Asia / Nature / Landscape",
+    "portfolio_score": 0.933,
+    "assets": [
+      "Tiger in Mangrove Forest"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Puzzles"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-090",
+    "title": "Cheetah Sprint on Savanna Collection",
+    "primary_asset": "Cheetah Sprint on Savanna",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "Kenya",
+    "geography_region": "Africa",
+    "domain": "Nature",
+    "theme": "Science and Discovery",
+    "portfolio_diversity_role": "Africa / Nature / Science and Discovery",
+    "portfolio_score": 0.893,
+    "assets": [
+      "Cheetah Sprint on Savanna"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Puzzles"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-091",
+    "title": "Okavango Delta Aerial Wetlands Collection",
+    "primary_asset": "Okavango Delta Aerial Wetlands",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "Botswana",
+    "geography_region": "Africa",
+    "domain": "Nature",
+    "theme": "World Heritage",
+    "portfolio_diversity_role": "Africa / Nature / World Heritage",
+    "portfolio_score": 0.84,
+    "assets": [
+      "Okavango Delta Aerial Wetlands"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-092",
+    "title": "Grand Canyon Storm Light Collection",
+    "primary_asset": "Grand Canyon Storm Light",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "Nature",
+    "theme": "Flagship Species",
+    "portfolio_diversity_role": "North America / Nature / Flagship Species",
+    "portfolio_score": 0.927,
+    "assets": [
+      "Grand Canyon Storm Light"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Historic Maps",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-093",
+    "title": "Yosemite Valley Granite Walls Collection",
+    "primary_asset": "Yosemite Valley Granite Walls",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "Nature",
+    "theme": "Public Domain Art",
+    "portfolio_diversity_role": "North America / Nature / Public Domain Art",
+    "portfolio_score": 0.917,
+    "assets": [
+      "Yosemite Valley Granite Walls"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Historic Maps",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-094",
+    "title": "Iceland Glacier Lagoon Collection",
+    "primary_asset": "Iceland Glacier Lagoon",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "Iceland",
+    "geography_region": "Europe",
+    "domain": "Nature",
+    "theme": "Maps and Memory",
+    "portfolio_diversity_role": "Europe / Nature / Maps and Memory",
+    "portfolio_score": 0.887,
+    "assets": [
+      "Iceland Glacier Lagoon"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Puzzles"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-095",
+    "title": "Borneo Orangutan Canopy Collection",
+    "primary_asset": "Borneo Orangutan Canopy",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "Indonesia",
+    "geography_region": "Asia",
+    "domain": "Nature",
+    "theme": "Conservation",
+    "portfolio_diversity_role": "Asia / Nature / Conservation",
+    "portfolio_score": 0.86,
+    "assets": [
+      "Borneo Orangutan Canopy"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-096",
+    "title": "Galapagos Marine Iguana Collection",
+    "primary_asset": "Galapagos Marine Iguana",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "Ecuador",
+    "geography_region": "Latin America",
+    "domain": "Nature",
+    "theme": "Exploration",
+    "portfolio_diversity_role": "Latin America / Nature / Exploration",
+    "portfolio_score": 0.84,
+    "assets": [
+      "Galapagos Marine Iguana"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-097",
+    "title": "Namib Desert Dunes Collection",
+    "primary_asset": "Namib Desert Dunes",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "Namibia",
+    "geography_region": "Africa",
+    "domain": "Nature",
+    "theme": "Education",
+    "portfolio_diversity_role": "Africa / Nature / Education",
+    "portfolio_score": 0.883,
+    "assets": [
+      "Namib Desert Dunes"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Framed Prints"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-098",
+    "title": "Antelope Canyon Light Beams Collection",
+    "primary_asset": "Antelope Canyon Light Beams",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "United States",
+    "geography_region": "North America",
+    "domain": "Nature",
+    "theme": "Cultural Icons",
+    "portfolio_diversity_role": "North America / Nature / Cultural Icons",
+    "portfolio_score": 0.92,
+    "assets": [
+      "Antelope Canyon Light Beams"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Puzzles"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-099",
+    "title": "Bengal Tiger Cub Portrait Collection",
+    "primary_asset": "Bengal Tiger Cub Portrait",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "India",
+    "geography_region": "Asia",
+    "domain": "Nature",
+    "theme": "Landscape",
+    "portfolio_diversity_role": "Asia / Nature / Landscape",
+    "portfolio_score": 0.92,
+    "assets": [
+      "Bengal Tiger Cub Portrait"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ]
+  },
+  {
+    "collection_id": "rc10-collection-100",
+    "title": "Ancient City at Sunrise Collection",
+    "primary_asset": "Ancient City at Sunrise",
+    "source_category": "National Geographic Award-Winning Subject",
+    "country": "Jordan",
+    "geography_region": "Middle East",
+    "domain": "Nature",
+    "theme": "Science and Discovery",
+    "portfolio_diversity_role": "Middle East / Nature / Science and Discovery",
+    "portfolio_score": 0.877,
+    "assets": [
+      "Ancient City at Sunrise"
+    ],
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Historic Maps",
+      "Coffee Table Books"
+    ]
+  }
+]
