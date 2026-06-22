@@ -1,0 +1,27 @@
+# WISE backup retention — example crontab (install on the backup host)
+#
+# Assumes the repo is checked out at /opt/wise and backups go to /var/backups/wise.
+# Adjust paths, schedule and RETENTION_DAYS to your RPO policy (see backup-automation.md).
+#
+# Environment for the jobs (or export in a sourced env file):
+#   WISE_DATABASE_URL=postgresql://wise:wise@db-host:5432/wise
+#   MINIO_ENDPOINT=http://minio-host:9000
+#   MINIO_ACCESS_KEY=...  MINIO_SECRET_KEY=...  MINIO_BUCKET=wise-preservation
+
+# ── Daily PostgreSQL logical dump @ 02:00, keep 30 days ───────────────────────
+0 2 * * *   cd /opt/wise && RETENTION_DAYS=30 BACKUP_DIR=/var/backups/wise/postgres \
+            scripts/backups/backup_postgres.sh >> /var/log/wise-backup.log 2>&1
+
+# ── Daily MinIO mirror @ 02:30, keep 30 days ─────────────────────────────────
+30 2 * * *  cd /opt/wise && RETENTION_DAYS=30 BACKUP_DIR=/var/backups/wise/minio \
+            scripts/backups/backup_minio.sh >> /var/log/wise-backup.log 2>&1
+
+# ── Weekly long-retention PostgreSQL dump @ Sun 03:00, keep 365 days ──────────
+0 3 * * 0   cd /opt/wise && RETENTION_DAYS=365 BACKUP_DIR=/var/backups/wise/postgres-weekly \
+            scripts/backups/backup_postgres.sh >> /var/log/wise-backup.log 2>&1
+
+# ── Quarterly restore drill reminder (see docs/implementation/recovery-test-plan.md) ──
+# 0 9 1 1,4,7,10 *  echo "WISE: run quarterly restore drill" | mail -s "WISE restore drill" ops@example.org
+#
+# For point-in-time recovery (production): enable WAL archiving + pg_basebackup
+# in addition to these logical dumps.
