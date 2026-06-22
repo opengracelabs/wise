@@ -25,9 +25,13 @@ class License(Base, UUIDPrimaryKeyMixin, AuditMixin):
     description: Mapped[str | None] = mapped_column(Text, nullable=True)
 
     sources: Mapped[list["Source"]] = relationship(back_populates="license")
+    assets: Mapped[list["Asset"]] = relationship(back_populates="license")
+    attributions: Mapped[list["Attribution"]] = relationship(back_populates="license")
 
     def __repr__(self) -> str:
         return f"<License code={self.code!r}>"
 
 
 from wise_registry.models.source import Source  # noqa: E402, F401
+from wise_registry.models.asset import Asset  # noqa: E402, F401
+from wise_registry.models.attribution import Attribution  # noqa: E402, F401
