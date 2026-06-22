@@ -1,0 +1,482 @@
+{
+  "meta": {
+    "title": "WISE RC11 Top 25 Showcase Products",
+    "generated": "2026-06-22",
+    "count": 25,
+    "categories": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ],
+    "category_distribution": {
+      "Posters": 4,
+      "Canvas Prints": 4,
+      "Framed Prints": 4,
+      "Puzzles": 4,
+      "Calendars": 4,
+      "Coffee Table Books": 5
+    },
+    "scoring_methodology": "showcase_score = round(0.30*design_appeal + 0.30*market_demand + 0.20*production_feasibility + 0.20*margin_potential, 1). Editorial 0-100 factor scores.",
+    "note": "Fulfilment providers are candidate print-on-demand partners, not contracted vendors. Products are derived goods; canonical public memory is never paywalled (ADR-010)."
+  },
+  "products": [
+    {
+      "id": "poster-starry-night",
+      "title": "Starry Night Poster",
+      "category": "Posters",
+      "design_appeal": 95,
+      "market_demand": 94,
+      "production_feasibility": 96,
+      "margin_potential": 72,
+      "showcase_score": 90.3,
+      "fulfilment_provider": "Prodigi",
+      "target_audience": "Art lovers, students",
+      "recommended_retail_category": "Wall Art > Posters",
+      "source_asset_ids": [
+        "the-starry-night"
+      ],
+      "showcase_rank": 1
+    },
+    {
+      "id": "poster-the-great-wave",
+      "title": "The Great Wave Poster",
+      "category": "Posters",
+      "design_appeal": 95,
+      "market_demand": 93,
+      "production_feasibility": 96,
+      "margin_potential": 72,
+      "showcase_score": 90.0,
+      "fulfilment_provider": "Prodigi",
+      "target_audience": "Art lovers, students, dorm/decor",
+      "recommended_retail_category": "Wall Art > Posters",
+      "source_asset_ids": [
+        "the-great-wave-off-kanagawa"
+      ],
+      "showcase_rank": 2
+    },
+    {
+      "id": "canvas-starry-night",
+      "title": "Starry Night Gallery Canvas",
+      "category": "Canvas Prints",
+      "design_appeal": 95,
+      "market_demand": 90,
+      "production_feasibility": 88,
+      "margin_potential": 82,
+      "showcase_score": 89.5,
+      "fulfilment_provider": "Gelato",
+      "target_audience": "Art lovers, premium decorators",
+      "recommended_retail_category": "Wall Art > Canvas",
+      "source_asset_ids": [
+        "the-starry-night"
+      ],
+      "showcase_rank": 3
+    },
+    {
+      "id": "framed-masterpiece",
+      "title": "Fine Art Masterpiece Framed Print",
+      "category": "Framed Prints",
+      "design_appeal": 94,
+      "market_demand": 90,
+      "production_feasibility": 84,
+      "margin_potential": 86,
+      "showcase_score": 89.2,
+      "fulfilment_provider": "Prodigi (giclee)",
+      "target_audience": "Art lovers, museum-shop buyers",
+      "recommended_retail_category": "Wall Art > Fine Art Prints",
+      "source_asset_ids": [
+        "the-starry-night",
+        "girl-with-a-pearl-earring",
+        "the-night-watch"
+      ],
+      "showcase_rank": 4
+    },
+    {
+      "id": "canvas-wildlife",
+      "title": "Wildlife Canvas Print",
+      "category": "Canvas Prints",
+      "design_appeal": 92,
+      "market_demand": 92,
+      "production_feasibility": 88,
+      "margin_potential": 82,
+      "showcase_score": 89.2,
+      "fulfilment_provider": "Gelato / Printful",
+      "target_audience": "Wildlife enthusiasts, family decor",
+      "recommended_retail_category": "Wall Art > Canvas",
+      "source_asset_ids": [
+        "lion-panthera-leo",
+        "snow-leopard-panthera-uncia",
+        "tiger-panthera-tigris"
+      ],
+      "showcase_rank": 5
+    },
+    {
+      "id": "poster-iconic-wonders",
+      "title": "Iconic Wonders Poster",
+      "category": "Posters",
+      "design_appeal": 90,
+      "market_demand": 95,
+      "production_feasibility": 96,
+      "margin_potential": 70,
+      "showcase_score": 88.7,
+      "fulfilment_provider": "Prodigi / Gelato",
+      "target_audience": "Students, budget decorators, gift buyers",
+      "recommended_retail_category": "Wall Art > Posters",
+      "source_asset_ids": [
+        "taj-mahal",
+        "machu-picchu",
+        "great-wall-of-china"
+      ],
+      "showcase_rank": 6
+    },
+    {
+      "id": "framed-vermeer",
+      "title": "Girl with a Pearl Earring Framed Print",
+      "category": "Framed Prints",
+      "design_appeal": 93,
+      "market_demand": 88,
+      "production_feasibility": 84,
+      "margin_potential": 86,
+      "showcase_score": 88.3,
+      "fulfilment_provider": "Prodigi (giclee)",
+      "target_audience": "Art lovers, gift buyers",
+      "recommended_retail_category": "Wall Art > Fine Art Prints",
+      "source_asset_ids": [
+        "girl-with-a-pearl-earring"
+      ],
+      "showcase_rank": 7
+    },
+    {
+      "id": "canvas-landscape",
+      "title": "Natural Wonder Canvas Print",
+      "category": "Canvas Prints",
+      "design_appeal": 92,
+      "market_demand": 88,
+      "production_feasibility": 88,
+      "margin_potential": 82,
+      "showcase_score": 88.0,
+      "fulfilment_provider": "Gelato",
+      "target_audience": "Home decorators, outdoor lovers",
+      "recommended_retail_category": "Wall Art > Canvas",
+      "source_asset_ids": [
+        "grand-canyon",
+        "mount-fuji",
+        "great-barrier-reef"
+      ],
+      "showcase_rank": 8
+    },
+    {
+      "id": "puzzle-starry-night",
+      "title": "Starry Night Jigsaw (1000 pc)",
+      "category": "Puzzles",
+      "design_appeal": 93,
+      "market_demand": 89,
+      "production_feasibility": 88,
+      "margin_potential": 78,
+      "showcase_score": 87.8,
+      "fulfilment_provider": "Cloudprinter",
+      "target_audience": "Art lovers, families",
+      "recommended_retail_category": "Games & Puzzles > Jigsaw",
+      "source_asset_ids": [
+        "the-starry-night"
+      ],
+      "showcase_rank": 9
+    },
+    {
+      "id": "puzzle-great-wave",
+      "title": "The Great Wave Jigsaw (1000 pc)",
+      "category": "Puzzles",
+      "design_appeal": 93,
+      "market_demand": 88,
+      "production_feasibility": 88,
+      "margin_potential": 78,
+      "showcase_score": 87.5,
+      "fulfilment_provider": "Cloudprinter",
+      "target_audience": "Art lovers, hobbyists",
+      "recommended_retail_category": "Games & Puzzles > Jigsaw",
+      "source_asset_ids": [
+        "the-great-wave-off-kanagawa"
+      ],
+      "showcase_rank": 10
+    },
+    {
+      "id": "puzzle-wonders-1000",
+      "title": "Wonders of the World Jigsaw (1000 pc)",
+      "category": "Puzzles",
+      "design_appeal": 90,
+      "market_demand": 90,
+      "production_feasibility": 88,
+      "margin_potential": 78,
+      "showcase_score": 87.2,
+      "fulfilment_provider": "Cloudprinter",
+      "target_audience": "Families, hobbyists, gift buyers",
+      "recommended_retail_category": "Games & Puzzles > Jigsaw",
+      "source_asset_ids": [
+        "machu-picchu",
+        "petra",
+        "angkor-wat"
+      ],
+      "showcase_rank": 11
+    },
+    {
+      "id": "puzzle-wildlife-1000",
+      "title": "Wildlife Jigsaw (1000 pc)",
+      "category": "Puzzles",
+      "design_appeal": 90,
+      "market_demand": 90,
+      "production_feasibility": 88,
+      "margin_potential": 78,
+      "showcase_score": 87.2,
+      "fulfilment_provider": "Cloudprinter",
+      "target_audience": "Families, animal lovers",
+      "recommended_retail_category": "Games & Puzzles > Jigsaw",
+      "source_asset_ids": [
+        "african-elephant-loxodonta-africana",
+        "tiger-panthera-tigris"
+      ],
+      "showcase_rank": 12
+    },
+    {
+      "id": "calendar-wildlife",
+      "title": "Wildlife Wall Calendar",
+      "category": "Calendars",
+      "design_appeal": 88,
+      "market_demand": 92,
+      "production_feasibility": 90,
+      "margin_potential": 76,
+      "showcase_score": 87.2,
+      "fulfilment_provider": "Gelato",
+      "target_audience": "Nature lovers, gift buyers",
+      "recommended_retail_category": "Stationery > Calendars",
+      "source_asset_ids": [
+        "lion-panthera-leo",
+        "african-elephant-loxodonta-africana"
+      ],
+      "showcase_rank": 13
+    },
+    {
+      "id": "poster-big-cats",
+      "title": "Big Cats Poster",
+      "category": "Posters",
+      "design_appeal": 90,
+      "market_demand": 90,
+      "production_feasibility": 95,
+      "margin_potential": 70,
+      "showcase_score": 87.0,
+      "fulfilment_provider": "Gelato",
+      "target_audience": "Wildlife fans, children/teens",
+      "recommended_retail_category": "Wall Art > Posters",
+      "source_asset_ids": [
+        "lion-panthera-leo",
+        "tiger-panthera-tigris"
+      ],
+      "showcase_rank": 14
+    },
+    {
+      "id": "framed-heritage-site",
+      "title": "Heritage Site Framed Print",
+      "category": "Framed Prints",
+      "design_appeal": 90,
+      "market_demand": 86,
+      "production_feasibility": 84,
+      "margin_potential": 85,
+      "showcase_score": 86.6,
+      "fulfilment_provider": "Prodigi",
+      "target_audience": "Home decorators, travelers",
+      "recommended_retail_category": "Wall Art > Framed Prints",
+      "source_asset_ids": [
+        "taj-mahal",
+        "machu-picchu",
+        "colosseum"
+      ],
+      "showcase_rank": 15
+    },
+    {
+      "id": "canvas-endangered",
+      "title": "Endangered Species Canvas Series",
+      "category": "Canvas Prints",
+      "design_appeal": 90,
+      "market_demand": 86,
+      "production_feasibility": 86,
+      "margin_potential": 82,
+      "showcase_score": 86.4,
+      "fulfilment_provider": "Gelato (eco substrate)",
+      "target_audience": "Conservation donors, eco-gift buyers",
+      "recommended_retail_category": "Wall Art > Canvas (Conservation)",
+      "source_asset_ids": [
+        "giant-panda-ailuropoda-melanoleuca",
+        "snow-leopard-panthera-uncia"
+      ],
+      "showcase_rank": 16
+    },
+    {
+      "id": "calendar-world-heritage",
+      "title": "World Heritage Wall Calendar",
+      "category": "Calendars",
+      "design_appeal": 88,
+      "market_demand": 88,
+      "production_feasibility": 90,
+      "margin_potential": 76,
+      "showcase_score": 86.0,
+      "fulfilment_provider": "Gelato",
+      "target_audience": "Office/home planners, gift buyers",
+      "recommended_retail_category": "Stationery > Calendars",
+      "source_asset_ids": [
+        "taj-mahal",
+        "great-wall-of-china",
+        "colosseum"
+      ],
+      "showcase_rank": 17
+    },
+    {
+      "id": "calendar-natural-wonders",
+      "title": "Natural Wonders Wall Calendar",
+      "category": "Calendars",
+      "design_appeal": 88,
+      "market_demand": 88,
+      "production_feasibility": 90,
+      "margin_potential": 76,
+      "showcase_score": 86.0,
+      "fulfilment_provider": "Gelato",
+      "target_audience": "Travel and outdoor enthusiasts",
+      "recommended_retail_category": "Stationery > Calendars",
+      "source_asset_ids": [
+        "grand-canyon",
+        "mount-fuji",
+        "great-barrier-reef"
+      ],
+      "showcase_rank": 18
+    },
+    {
+      "id": "framed-audubon-set",
+      "title": "Audubon Birds Framed Print Set",
+      "category": "Framed Prints",
+      "design_appeal": 90,
+      "market_demand": 84,
+      "production_feasibility": 82,
+      "margin_potential": 86,
+      "showcase_score": 85.8,
+      "fulfilment_provider": "Prodigi",
+      "target_audience": "Naturalists, classic-decor buyers",
+      "recommended_retail_category": "Wall Art > Botanical & Natural History",
+      "source_asset_ids": [
+        "the-birds-of-america-plates"
+      ],
+      "showcase_rank": 19
+    },
+    {
+      "id": "book-big-cats",
+      "title": "Big Cats Coffee Table Book",
+      "category": "Coffee Table Books",
+      "design_appeal": 90,
+      "market_demand": 84,
+      "production_feasibility": 80,
+      "margin_potential": 86,
+      "showcase_score": 85.4,
+      "fulfilment_provider": "Blurb",
+      "target_audience": "Wildlife enthusiasts, gift buyers",
+      "recommended_retail_category": "Books > Nature",
+      "source_asset_ids": [
+        "lion-panthera-leo",
+        "tiger-panthera-tigris",
+        "snow-leopard-panthera-uncia"
+      ],
+      "showcase_rank": 20
+    },
+    {
+      "id": "book-impressionists",
+      "title": "Masters of Art Coffee Table Book",
+      "category": "Coffee Table Books",
+      "design_appeal": 91,
+      "market_demand": 82,
+      "production_feasibility": 78,
+      "margin_potential": 87,
+      "showcase_score": 84.9,
+      "fulfilment_provider": "Blurb",
+      "target_audience": "Art lovers, gift buyers",
+      "recommended_retail_category": "Books > Art & Photography",
+      "source_asset_ids": [
+        "the-starry-night",
+        "sunflowers",
+        "girl-with-a-pearl-earring"
+      ],
+      "showcase_rank": 21
+    },
+    {
+      "id": "book-world-heritage",
+      "title": "World Heritage Coffee Table Book",
+      "category": "Coffee Table Books",
+      "design_appeal": 92,
+      "market_demand": 80,
+      "production_feasibility": 78,
+      "margin_potential": 88,
+      "showcase_score": 84.8,
+      "fulfilment_provider": "Blurb / premium book POD",
+      "target_audience": "Affluent gift buyers, libraries",
+      "recommended_retail_category": "Books > Art & Photography",
+      "source_asset_ids": [
+        "taj-mahal",
+        "machu-picchu",
+        "pyramids-of-giza"
+      ],
+      "showcase_rank": 22
+    },
+    {
+      "id": "calendar-endangered",
+      "title": "Endangered Species Calendar",
+      "category": "Calendars",
+      "design_appeal": 86,
+      "market_demand": 84,
+      "production_feasibility": 90,
+      "margin_potential": 75,
+      "showcase_score": 84.0,
+      "fulfilment_provider": "Gelato",
+      "target_audience": "Conservation supporters, educators",
+      "recommended_retail_category": "Stationery > Calendars",
+      "source_asset_ids": [
+        "giant-panda-ailuropoda-melanoleuca",
+        "emperor-penguin-aptenodytes-forsteri"
+      ],
+      "showcase_rank": 23
+    },
+    {
+      "id": "book-great-civilizations",
+      "title": "Great Civilizations Coffee Table Book",
+      "category": "Coffee Table Books",
+      "design_appeal": 90,
+      "market_demand": 80,
+      "production_feasibility": 78,
+      "margin_potential": 86,
+      "showcase_score": 83.8,
+      "fulfilment_provider": "Blurb",
+      "target_audience": "History readers, educators",
+      "recommended_retail_category": "Books > History",
+      "source_asset_ids": [
+        "pyramids-of-giza",
+        "colosseum",
+        "angkor-wat"
+      ],
+      "showcase_rank": 24
+    },
+    {
+      "id": "book-ancient-maps",
+      "title": "Ancient Maps Coffee Table Book",
+      "category": "Coffee Table Books",
+      "design_appeal": 88,
+      "market_demand": 78,
+      "production_feasibility": 78,
+      "margin_potential": 86,
+      "showcase_score": 82.6,
+      "fulfilment_provider": "Blurb",
+      "target_audience": "Map collectors, history readers",
+      "recommended_retail_category": "Books > Cartography",
+      "source_asset_ids": [
+        "waldseemuller-world-map-1507",
+        "mercator-world-map-1569"
+      ],
+      "showcase_rank": 25
+    }
+  ]
+}

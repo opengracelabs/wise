@@ -1,0 +1,491 @@
+{
+  "meta": {
+    "title": "WISE RC11 Top 25 Showcase Series",
+    "generated": "2026-06-22",
+    "count": 25,
+    "selection_factors": [
+      "narrative_strength",
+      "educational_value",
+      "product_potential"
+    ],
+    "scoring_methodology": "showcase_score = round(0.40*narrative_strength + 0.30*educational_value + 0.30*product_potential, 1). Editorial 0-100 factor scores.",
+    "source": "data/portfolio/top_100_series.json"
+  },
+  "series": [
+    {
+      "id": "great-civilizations",
+      "title": "Great Civilizations",
+      "category": "heritage",
+      "narrative_arc": "A sweep through the world's foundational cultures.",
+      "portfolio_score": 92.7,
+      "recommended_length": 12,
+      "narrative_strength": 95,
+      "educational_value": 95,
+      "product_potential": 90,
+      "showcase_score": 93.5,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 1
+    },
+    {
+      "id": "lions-through-history",
+      "title": "Lions Through History",
+      "category": "wildlife",
+      "narrative_arc": "The lion in nature, myth, heraldry and art across millennia.",
+      "portfolio_score": 92.7,
+      "recommended_length": 8,
+      "narrative_strength": 95,
+      "educational_value": 90,
+      "product_potential": 93,
+      "showcase_score": 92.9,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 2
+    },
+    {
+      "id": "the-pharaohs-of-egypt",
+      "title": "The Pharaohs of Egypt",
+      "category": "heritage",
+      "narrative_arc": "Dynasties, tombs and the gods of the Nile.",
+      "portfolio_score": 91.8,
+      "recommended_length": 9,
+      "narrative_strength": 94,
+      "educational_value": 92,
+      "product_potential": 90,
+      "showcase_score": 92.2,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 3
+    },
+    {
+      "id": "the-rise-and-fall-of-rome",
+      "title": "The Rise and Fall of Rome",
+      "category": "heritage",
+      "narrative_arc": "From republic to empire to ruin.",
+      "portfolio_score": 89.5,
+      "recommended_length": 10,
+      "narrative_strength": 93,
+      "educational_value": 92,
+      "product_potential": 87,
+      "showcase_score": 90.9,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 4
+    },
+    {
+      "id": "seven-wonders-of-the-ancient-world",
+      "title": "Seven Wonders of the Ancient World",
+      "category": "heritage",
+      "narrative_arc": "The classical wonders, surviving and lost.",
+      "portfolio_score": 89.2,
+      "recommended_length": 11,
+      "narrative_strength": 92,
+      "educational_value": 90,
+      "product_potential": 90,
+      "showcase_score": 90.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 5
+    },
+    {
+      "id": "endangered-species",
+      "title": "Endangered Species",
+      "category": "conservation",
+      "narrative_arc": "Portraits and stories of the world's threatened wildlife.",
+      "portfolio_score": 90.2,
+      "recommended_length": 13,
+      "narrative_strength": 90,
+      "educational_value": 93,
+      "product_potential": 88,
+      "showcase_score": 90.3,
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Coffee Table Book",
+        "Wall Calendar"
+      ],
+      "showcase_rank": 6
+    },
+    {
+      "id": "the-story-of-petra",
+      "title": "The Story of Petra",
+      "category": "heritage",
+      "narrative_arc": "The rise of the Nabataean rose-red city and its rediscovery.",
+      "portfolio_score": 91.9,
+      "recommended_length": 10,
+      "narrative_strength": 92,
+      "educational_value": 88,
+      "product_potential": 90,
+      "showcase_score": 90.2,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 7
+    },
+    {
+      "id": "tigers-of-asia",
+      "title": "Tigers of Asia",
+      "category": "wildlife",
+      "narrative_arc": "The great cat across its shrinking Asian range.",
+      "portfolio_score": 91.4,
+      "recommended_length": 11,
+      "narrative_strength": 90,
+      "educational_value": 88,
+      "product_potential": 92,
+      "showcase_score": 90.0,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 8
+    },
+    {
+      "id": "the-voyages-of-discovery",
+      "title": "The Voyages of Discovery",
+      "category": "heritage",
+      "narrative_arc": "Explorers who charted the oceans and continents.",
+      "portfolio_score": 91.0,
+      "recommended_length": 9,
+      "narrative_strength": 92,
+      "educational_value": 90,
+      "product_potential": 86,
+      "showcase_score": 89.6,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 9
+    },
+    {
+      "id": "darwin-and-the-galapagos",
+      "title": "Darwin and the Galapagos",
+      "category": "heritage",
+      "narrative_arc": "The voyage that transformed biology.",
+      "portfolio_score": 70.9,
+      "recommended_length": 11,
+      "narrative_strength": 90,
+      "educational_value": 94,
+      "product_potential": 84,
+      "showcase_score": 89.4,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 10
+    },
+    {
+      "id": "the-story-of-the-silk-road",
+      "title": "The Story of the Silk Road",
+      "category": "heritage",
+      "narrative_arc": "Caravans, cities and the exchange of two worlds.",
+      "portfolio_score": 86.5,
+      "recommended_length": 11,
+      "narrative_strength": 90,
+      "educational_value": 90,
+      "product_potential": 86,
+      "showcase_score": 88.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 11
+    },
+    {
+      "id": "the-story-of-the-taj-mahal",
+      "title": "The Story of the Taj Mahal",
+      "category": "heritage",
+      "narrative_arc": "Love, marble and the Mughal masterpiece.",
+      "portfolio_score": 79.0,
+      "recommended_length": 15,
+      "narrative_strength": 90,
+      "educational_value": 86,
+      "product_potential": 90,
+      "showcase_score": 88.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 12
+    },
+    {
+      "id": "pompeii-a-city-frozen-in-time",
+      "title": "Pompeii: A City Frozen in Time",
+      "category": "heritage",
+      "narrative_arc": "Daily Roman life sealed by Vesuvius.",
+      "portfolio_score": 64.8,
+      "recommended_length": 12,
+      "narrative_strength": 90,
+      "educational_value": 90,
+      "product_potential": 86,
+      "showcase_score": 88.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 13
+    },
+    {
+      "id": "mapping-the-world",
+      "title": "Mapping the World",
+      "category": "cartography",
+      "narrative_arc": "How humans charted the Earth across the centuries.",
+      "portfolio_score": 83.7,
+      "recommended_length": 13,
+      "narrative_strength": 88,
+      "educational_value": 92,
+      "product_potential": 86,
+      "showcase_score": 88.6,
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Coffee Table Book",
+        "Poster"
+      ],
+      "showcase_rank": 14
+    },
+    {
+      "id": "renaissance-genius",
+      "title": "Renaissance Genius",
+      "category": "art",
+      "narrative_arc": "Leonardo, Michelangelo and the rebirth of art.",
+      "portfolio_score": 81.2,
+      "recommended_length": 14,
+      "narrative_strength": 88,
+      "educational_value": 90,
+      "product_potential": 88,
+      "showcase_score": 88.6,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Greeting Cards",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 15
+    },
+    {
+      "id": "the-great-migrations",
+      "title": "The Great Migrations",
+      "category": "wildlife",
+      "narrative_arc": "Wildebeest, monarchs and the planet's great journeys.",
+      "portfolio_score": 86.5,
+      "recommended_length": 15,
+      "narrative_strength": 89,
+      "educational_value": 88,
+      "product_potential": 88,
+      "showcase_score": 88.4,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 16
+    },
+    {
+      "id": "the-story-of-machu-picchu",
+      "title": "The Story of Machu Picchu",
+      "category": "heritage",
+      "narrative_arc": "The Inca citadel from construction to rediscovery.",
+      "portfolio_score": 76.6,
+      "recommended_length": 8,
+      "narrative_strength": 89,
+      "educational_value": 86,
+      "product_potential": 89,
+      "showcase_score": 88.1,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 17
+    },
+    {
+      "id": "empires-of-the-maya",
+      "title": "Empires of the Maya",
+      "category": "heritage",
+      "narrative_arc": "Cities, calendars and the Mesoamerican cosmos.",
+      "portfolio_score": 88.0,
+      "recommended_length": 12,
+      "narrative_strength": 88,
+      "educational_value": 88,
+      "product_potential": 85,
+      "showcase_score": 87.1,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 18
+    },
+    {
+      "id": "vikings-seafarers-of-the-north",
+      "title": "Vikings: Seafarers of the North",
+      "category": "heritage",
+      "narrative_arc": "Raiders, traders and explorers of the Norse world.",
+      "portfolio_score": 75.6,
+      "recommended_length": 9,
+      "narrative_strength": 88,
+      "educational_value": 84,
+      "product_potential": 88,
+      "showcase_score": 86.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 19
+    },
+    {
+      "id": "whales-of-the-world-ocean",
+      "title": "Whales of the World Ocean",
+      "category": "marine",
+      "narrative_arc": "The great cetaceans across every sea.",
+      "portfolio_score": 86.7,
+      "recommended_length": 9,
+      "narrative_strength": 86,
+      "educational_value": 88,
+      "product_potential": 86,
+      "showcase_score": 86.6,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Jigsaw Puzzle",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 20
+    },
+    {
+      "id": "elephants-of-africa",
+      "title": "Elephants of Africa",
+      "category": "wildlife",
+      "narrative_arc": "The lives of the savanna and forest elephants.",
+      "portfolio_score": 85.0,
+      "recommended_length": 10,
+      "narrative_strength": 86,
+      "educational_value": 86,
+      "product_potential": 88,
+      "showcase_score": 86.6,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 21
+    },
+    {
+      "id": "hokusai-and-the-floating-world",
+      "title": "Hokusai and the Floating World",
+      "category": "art",
+      "narrative_arc": "The life and prints of a woodblock master.",
+      "portfolio_score": 82.3,
+      "recommended_length": 8,
+      "narrative_strength": 86,
+      "educational_value": 84,
+      "product_potential": 90,
+      "showcase_score": 86.6,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Greeting Cards",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 22
+    },
+    {
+      "id": "the-story-of-stonehenge",
+      "title": "The Story of Stonehenge",
+      "category": "heritage",
+      "narrative_arc": "Building and meaning of the great stone circle.",
+      "portfolio_score": 85.5,
+      "recommended_length": 11,
+      "narrative_strength": 87,
+      "educational_value": 86,
+      "product_potential": 86,
+      "showcase_score": 86.4,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 23
+    },
+    {
+      "id": "the-great-apes",
+      "title": "The Great Apes",
+      "category": "wildlife",
+      "narrative_arc": "Gorillas, chimpanzees, orangutans and bonobos.",
+      "portfolio_score": 83.8,
+      "recommended_length": 14,
+      "narrative_strength": 85,
+      "educational_value": 88,
+      "product_potential": 84,
+      "showcase_score": 85.6,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 24
+    },
+    {
+      "id": "the-polar-explorers",
+      "title": "The Polar Explorers",
+      "category": "heritage",
+      "narrative_arc": "Races to the poles and the heroic age.",
+      "portfolio_score": 82.7,
+      "recommended_length": 10,
+      "narrative_strength": 88,
+      "educational_value": 84,
+      "product_potential": 84,
+      "showcase_score": 85.6,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 25
+    }
+  ]
+}

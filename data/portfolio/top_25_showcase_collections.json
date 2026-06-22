@@ -1,0 +1,525 @@
+{
+  "meta": {
+    "title": "WISE RC11 Top 25 Showcase Collections",
+    "generated": "2026-06-22",
+    "count": 25,
+    "theme_balance": {
+      "Biodiversity": 5,
+      "Climate": 5,
+      "Culture": 5,
+      "Geography": 5,
+      "Heritage": 5
+    },
+    "themes": [
+      "Heritage",
+      "Biodiversity",
+      "Geography",
+      "Culture",
+      "Climate"
+    ],
+    "scoring_methodology": "showcase_score = round(0.30*collection_strength + 0.20*breadth + 0.25*educational_value + 0.25*commercial_potential, 1). Five themes balanced at 5 each.",
+    "source": "data/portfolio/top_100_collections.json"
+  },
+  "collections": [
+    {
+      "id": "big-cats-of-the-world",
+      "title": "Big Cats of the World",
+      "showcase_theme": "Biodiversity",
+      "source_category": "wildlife",
+      "description": "Lions, tigers, leopards, jaguars and other great cats across continents.",
+      "portfolio_score": 92.7,
+      "collection_strength": 95,
+      "breadth": 86,
+      "educational_value": 90,
+      "commercial_potential": 94,
+      "showcase_score": 91.7,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 3
+    },
+    {
+      "id": "endangered-earth",
+      "title": "Endangered Earth",
+      "showcase_theme": "Biodiversity",
+      "source_category": "conservation",
+      "description": "Threatened species and habitats at the heart of global conservation.",
+      "portfolio_score": 90.9,
+      "collection_strength": 90,
+      "breadth": 90,
+      "educational_value": 93,
+      "commercial_potential": 86,
+      "showcase_score": 89.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Educational Card Set",
+        "Coffee Table Book",
+        "Wall Calendar"
+      ],
+      "showcase_rank": 5
+    },
+    {
+      "id": "african-wildlife",
+      "title": "African Wildlife",
+      "showcase_theme": "Biodiversity",
+      "source_category": "wildlife",
+      "description": "The big game and birdlife of the African savanna.",
+      "portfolio_score": 85.5,
+      "collection_strength": 89,
+      "breadth": 88,
+      "educational_value": 88,
+      "commercial_potential": 90,
+      "showcase_score": 88.8,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 8
+    },
+    {
+      "id": "coral-reefs",
+      "title": "Coral Reefs",
+      "showcase_theme": "Biodiversity",
+      "source_category": "marine",
+      "description": "The Great Barrier Reef and the world's vibrant coral ecosystems.",
+      "portfolio_score": 87.9,
+      "collection_strength": 87,
+      "breadth": 82,
+      "educational_value": 90,
+      "commercial_potential": 86,
+      "showcase_score": 86.5,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Jigsaw Puzzle",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 15
+    },
+    {
+      "id": "birds-of-paradise",
+      "title": "Birds of Paradise",
+      "showcase_theme": "Biodiversity",
+      "source_category": "wildlife",
+      "description": "The dazzling plumage of the world's most spectacular birds.",
+      "portfolio_score": 90.4,
+      "collection_strength": 88,
+      "breadth": 80,
+      "educational_value": 85,
+      "commercial_potential": 90,
+      "showcase_score": 86.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Educational Card Set",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 18
+    },
+    {
+      "id": "rainforests-of-the-world",
+      "title": "Rainforests of the World",
+      "showcase_theme": "Climate",
+      "source_category": "landscape",
+      "description": "The Amazon, Congo and Southeast Asian rainforests.",
+      "portfolio_score": 85.5,
+      "collection_strength": 86,
+      "breadth": 86,
+      "educational_value": 92,
+      "commercial_potential": 85,
+      "showcase_score": 87.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 12
+    },
+    {
+      "id": "polar-regions",
+      "title": "Polar Regions",
+      "showcase_theme": "Climate",
+      "source_category": "landscape",
+      "description": "Arctic and Antarctic ice, wildlife and explorers.",
+      "portfolio_score": 86.0,
+      "collection_strength": 86,
+      "breadth": 84,
+      "educational_value": 90,
+      "commercial_potential": 84,
+      "showcase_score": 86.1,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 20
+    },
+    {
+      "id": "volcanoes-of-the-world",
+      "title": "Volcanoes of the World",
+      "showcase_theme": "Climate",
+      "source_category": "landscape",
+      "description": "Active and dormant volcanoes and the forces of the Earth.",
+      "portfolio_score": 87.0,
+      "collection_strength": 86,
+      "breadth": 82,
+      "educational_value": 88,
+      "commercial_potential": 86,
+      "showcase_score": 85.7,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 22
+    },
+    {
+      "id": "the-northern-lights",
+      "title": "The Northern Lights",
+      "showcase_theme": "Climate",
+      "source_category": "landscape",
+      "description": "Aurora borealis over the Arctic skies.",
+      "portfolio_score": 87.2,
+      "collection_strength": 87,
+      "breadth": 76,
+      "educational_value": 82,
+      "commercial_potential": 90,
+      "showcase_score": 84.3,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 24
+    },
+    {
+      "id": "glaciers-and-ice",
+      "title": "Glaciers and Ice",
+      "showcase_theme": "Climate",
+      "source_category": "landscape",
+      "description": "The frozen rivers and ice fields of the world.",
+      "portfolio_score": 72.1,
+      "collection_strength": 82,
+      "breadth": 80,
+      "educational_value": 90,
+      "commercial_potential": 82,
+      "showcase_score": 83.6,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 25
+    },
+    {
+      "id": "ancient-maps",
+      "title": "Ancient Maps",
+      "showcase_theme": "Culture",
+      "source_category": "cartography",
+      "description": "Historic world maps and atlases from the age of discovery.",
+      "portfolio_score": 92.0,
+      "collection_strength": 92,
+      "breadth": 84,
+      "educational_value": 92,
+      "commercial_potential": 90,
+      "showcase_score": 89.9,
+      "product_recommendations": [
+        "Historic Map Reproduction",
+        "Framed Print",
+        "Coffee Table Book",
+        "Poster"
+      ],
+      "showcase_rank": 4
+    },
+    {
+      "id": "renaissance-masterpieces",
+      "title": "Renaissance Masterpieces",
+      "showcase_theme": "Culture",
+      "source_category": "art",
+      "description": "The paintings and sculpture of the European Renaissance.",
+      "portfolio_score": 80.0,
+      "collection_strength": 90,
+      "breadth": 82,
+      "educational_value": 90,
+      "commercial_potential": 92,
+      "showcase_score": 88.9,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Greeting Cards",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 7
+    },
+    {
+      "id": "japanese-woodblock-prints",
+      "title": "Japanese Woodblock Prints",
+      "showcase_theme": "Culture",
+      "source_category": "art",
+      "description": "Hokusai, Hiroshige and the ukiyo-e floating world.",
+      "portfolio_score": 78.7,
+      "collection_strength": 88,
+      "breadth": 78,
+      "educational_value": 86,
+      "commercial_potential": 92,
+      "showcase_score": 86.5,
+      "product_recommendations": [
+        "Fine Art Print",
+        "Framed Print",
+        "Greeting Cards",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 16
+    },
+    {
+      "id": "temples-of-asia",
+      "title": "Temples of Asia",
+      "showcase_theme": "Culture",
+      "source_category": "heritage",
+      "description": "Angkor, Borobudur and the great temple complexes of Asia.",
+      "portfolio_score": 86.2,
+      "collection_strength": 86,
+      "breadth": 84,
+      "educational_value": 86,
+      "commercial_potential": 87,
+      "showcase_score": 85.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 21
+    },
+    {
+      "id": "cathedrals-of-europe",
+      "title": "Cathedrals of Europe",
+      "showcase_theme": "Culture",
+      "source_category": "heritage",
+      "description": "Gothic and Romanesque masterpieces of sacred architecture.",
+      "portfolio_score": 87.7,
+      "collection_strength": 87,
+      "breadth": 80,
+      "educational_value": 86,
+      "commercial_potential": 88,
+      "showcase_score": 85.6,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 23
+    },
+    {
+      "id": "oceans-of-the-world",
+      "title": "Oceans of the World",
+      "showcase_theme": "Geography",
+      "source_category": "marine",
+      "description": "Marine life and seascapes from reef to abyss.",
+      "portfolio_score": 90.8,
+      "collection_strength": 89,
+      "breadth": 90,
+      "educational_value": 90,
+      "commercial_potential": 87,
+      "showcase_score": 89.0,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Jigsaw Puzzle",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 6
+    },
+    {
+      "id": "sacred-mountains",
+      "title": "Sacred Mountains",
+      "showcase_theme": "Geography",
+      "source_category": "landscape",
+      "description": "Fuji, Kailash, Olympus and peaks revered across cultures.",
+      "portfolio_score": 91.2,
+      "collection_strength": 90,
+      "breadth": 86,
+      "educational_value": 88,
+      "commercial_potential": 90,
+      "showcase_score": 88.7,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 9
+    },
+    {
+      "id": "great-rivers-of-the-world",
+      "title": "Great Rivers of the World",
+      "showcase_theme": "Geography",
+      "source_category": "landscape",
+      "description": "The Nile, Amazon, Ganges and the rivers that shaped civilizations.",
+      "portfolio_score": 89.4,
+      "collection_strength": 87,
+      "breadth": 88,
+      "educational_value": 88,
+      "commercial_potential": 86,
+      "showcase_score": 87.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 13
+    },
+    {
+      "id": "great-deserts",
+      "title": "Great Deserts",
+      "showcase_theme": "Geography",
+      "source_category": "landscape",
+      "description": "The Sahara, Atacama, Namib and the world's vast arid landscapes.",
+      "portfolio_score": 90.9,
+      "collection_strength": 88,
+      "breadth": 85,
+      "educational_value": 86,
+      "commercial_potential": 88,
+      "showcase_score": 86.9,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 14
+    },
+    {
+      "id": "mountains-of-the-world",
+      "title": "Mountains of the World",
+      "showcase_theme": "Geography",
+      "source_category": "landscape",
+      "description": "The Himalayas, Andes, Alps and great ranges.",
+      "portfolio_score": 82.8,
+      "collection_strength": 86,
+      "breadth": 86,
+      "educational_value": 86,
+      "commercial_potential": 87,
+      "showcase_score": 86.2,
+      "product_recommendations": [
+        "Canvas Print",
+        "Wall Calendar",
+        "Framed Print",
+        "Coffee Table Book"
+      ],
+      "showcase_rank": 19
+    },
+    {
+      "id": "wonders-of-the-ancient-world",
+      "title": "Wonders of the Ancient World",
+      "showcase_theme": "Heritage",
+      "source_category": "heritage",
+      "description": "The classical seven wonders and the great monuments of antiquity.",
+      "portfolio_score": 92.7,
+      "collection_strength": 95,
+      "breadth": 90,
+      "educational_value": 92,
+      "commercial_potential": 93,
+      "showcase_score": 92.8,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 1
+    },
+    {
+      "id": "world-heritage-icons",
+      "title": "World Heritage Icons",
+      "showcase_theme": "Heritage",
+      "source_category": "heritage",
+      "description": "The most celebrated UNESCO World Heritage sites.",
+      "portfolio_score": 90.5,
+      "collection_strength": 94,
+      "breadth": 92,
+      "educational_value": 90,
+      "commercial_potential": 92,
+      "showcase_score": 92.1,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 2
+    },
+    {
+      "id": "ancient-egypt",
+      "title": "Ancient Egypt",
+      "showcase_theme": "Heritage",
+      "source_category": "heritage",
+      "description": "Pyramids, pharaohs, temples and the Nile civilization.",
+      "portfolio_score": 85.7,
+      "collection_strength": 90,
+      "breadth": 80,
+      "educational_value": 92,
+      "commercial_potential": 90,
+      "showcase_score": 88.5,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 10
+    },
+    {
+      "id": "castles-and-fortresses",
+      "title": "Castles and Fortresses",
+      "showcase_theme": "Heritage",
+      "source_category": "heritage",
+      "description": "Medieval strongholds and palaces across Europe and beyond.",
+      "portfolio_score": 89.0,
+      "collection_strength": 88,
+      "breadth": 85,
+      "educational_value": 86,
+      "commercial_potential": 90,
+      "showcase_score": 87.4,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 11
+    },
+    {
+      "id": "lost-cities",
+      "title": "Lost Cities",
+      "showcase_theme": "Heritage",
+      "source_category": "heritage",
+      "description": "Petra, Machu Picchu, Pompeii and the great vanished cities.",
+      "portfolio_score": 88.0,
+      "collection_strength": 87,
+      "breadth": 82,
+      "educational_value": 88,
+      "commercial_potential": 88,
+      "showcase_score": 86.5,
+      "product_recommendations": [
+        "Framed Print",
+        "Coffee Table Book",
+        "Jigsaw Puzzle",
+        "Poster"
+      ],
+      "showcase_rank": 17
+    }
+  ]
+}
