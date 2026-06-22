@@ -1,0 +1,495 @@
+{
+  "report_version": "rc19-public-collection-validation-v1",
+  "generated_at": "2026-06-22T00:00:00Z",
+  "collection": {
+    "collection_id": "big-cats-of-the-world",
+    "title": "Big Cats of the World",
+    "publication_policy": "rights-approved-assets-only"
+  },
+  "validation_pipeline": [
+    "Asset",
+    "Source Check",
+    "License Check",
+    "Attribution Check",
+    "Provenance Check",
+    "Publication Approval Check",
+    "Collection Eligibility"
+  ],
+  "policy": {
+    "required_status": "approved",
+    "allowed_rights_categories": [
+      "open_license",
+      "public_domain"
+    ],
+    "failure_rules": [
+      "Unknown rights fail",
+      "Missing source fails",
+      "Missing attribution fails",
+      "Restricted assets fail",
+      "Unapproved assets fail"
+    ]
+  },
+  "summary": {
+    "assets_reviewed": 9,
+    "approved_assets": 3,
+    "blocked_assets": 6,
+    "missing_provenance": 1,
+    "missing_attribution": 1,
+    "publication_readiness_score": 33.33
+  },
+  "approved_assets": [
+    "bigcats-lion-gbif-profile",
+    "bigcats-tiger-commons-photo",
+    "bigcats-snow-leopard-eol-summary"
+  ],
+  "blocked_assets": [
+    {
+      "asset_id": "bigcats-jaguar-museum-scan",
+      "title": "Jaguar historical museum scan",
+      "blocked_reasons": [
+        "restricted_asset"
+      ]
+    },
+    {
+      "asset_id": "bigcats-leopard-field-audio",
+      "title": "Leopard field audio",
+      "blocked_reasons": [
+        "unknown_rights"
+      ]
+    },
+    {
+      "asset_id": "bigcats-cheetah-range-map",
+      "title": "Cheetah range map",
+      "blocked_reasons": [
+        "missing_source"
+      ]
+    },
+    {
+      "asset_id": "bigcats-cougar-education-card",
+      "title": "Cougar education card",
+      "blocked_reasons": [
+        "missing_attribution"
+      ]
+    },
+    {
+      "asset_id": "bigcats-clouded-leopard-archive-photo",
+      "title": "Clouded leopard archive photograph",
+      "blocked_reasons": [
+        "missing_provenance"
+      ]
+    },
+    {
+      "asset_id": "bigcats-lynx-draft-profile",
+      "title": "Lynx draft profile",
+      "blocked_reasons": [
+        "unapproved_asset"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "bigcats-lion-gbif-profile",
+      "title": "Lion species profile",
+      "species": "Panthera leo",
+      "asset_status": "approved",
+      "source_record": {
+        "source_record_id": "source-gbif-panthera-leo-5219404",
+        "status": "approved",
+        "authority": "GBIF",
+        "uri": "https://www.gbif.org/species/5219404"
+      },
+      "rights_record": {
+        "rights_record_id": "rights-gbif-cc0",
+        "status": "approved",
+        "rights_category": "public_domain",
+        "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "restricted": false
+      },
+      "attribution_record": {
+        "attribution_record_id": "attr-gbif-panthera-leo",
+        "status": "approved",
+        "credit_line": "GBIF Backbone Taxonomy"
+      },
+      "provenance_record": {
+        "provenance_record_id": "prov-gbif-panthera-leo",
+        "status": "approved",
+        "event_type": "register"
+      },
+      "publication_approval": {
+        "publication_approval_id": "pub-lion-profile",
+        "status": "approved",
+        "approved_by": "steward-review"
+      },
+      "checks": {
+        "Asset": "pass",
+        "Source Check": "pass",
+        "License Check": "pass",
+        "Attribution Check": "pass",
+        "Provenance Check": "pass",
+        "Publication Approval Check": "pass",
+        "Collection Eligibility": "pass"
+      },
+      "eligible": true,
+      "blocked_reasons": []
+    },
+    {
+      "asset_id": "bigcats-tiger-commons-photo",
+      "title": "Tiger open-license photograph",
+      "species": "Panthera tigris",
+      "asset_status": "approved",
+      "source_record": {
+        "source_record_id": "source-commons-panthera-tigris",
+        "status": "approved",
+        "authority": "Wikimedia Commons",
+        "uri": "https://commons.wikimedia.org/wiki/Panthera_tigris"
+      },
+      "rights_record": {
+        "rights_record_id": "rights-tiger-cc-by-sa",
+        "status": "approved",
+        "rights_category": "open_license",
+        "license_uri": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "restricted": false
+      },
+      "attribution_record": {
+        "attribution_record_id": "attr-tiger-commons",
+        "status": "approved",
+        "credit_line": "Wikimedia Commons contributors, CC BY-SA 4.0"
+      },
+      "provenance_record": {
+        "provenance_record_id": "prov-tiger-commons",
+        "status": "approved",
+        "event_type": "rights-review"
+      },
+      "publication_approval": {
+        "publication_approval_id": "pub-tiger-photo",
+        "status": "approved",
+        "approved_by": "steward-review"
+      },
+      "checks": {
+        "Asset": "pass",
+        "Source Check": "pass",
+        "License Check": "pass",
+        "Attribution Check": "pass",
+        "Provenance Check": "pass",
+        "Publication Approval Check": "pass",
+        "Collection Eligibility": "pass"
+      },
+      "eligible": true,
+      "blocked_reasons": []
+    },
+    {
+      "asset_id": "bigcats-snow-leopard-eol-summary",
+      "title": "Snow leopard education summary",
+      "species": "Panthera uncia",
+      "asset_status": "approved",
+      "source_record": {
+        "source_record_id": "source-eol-panthera-uncia",
+        "status": "approved",
+        "authority": "Encyclopedia of Life",
+        "uri": "https://eol.org/"
+      },
+      "rights_record": {
+        "rights_record_id": "rights-eol-cc-by",
+        "status": "approved",
+        "rights_category": "open_license",
+        "license_uri": "https://creativecommons.org/licenses/by/4.0/",
+        "restricted": false
+      },
+      "attribution_record": {
+        "attribution_record_id": "attr-snow-leopard-eol",
+        "status": "approved",
+        "credit_line": "Encyclopedia of Life contributors, CC BY 4.0"
+      },
+      "provenance_record": {
+        "provenance_record_id": "prov-snow-leopard-eol",
+        "status": "approved",
+        "event_type": "source-harvest"
+      },
+      "publication_approval": {
+        "publication_approval_id": "pub-snow-leopard-summary",
+        "status": "approved",
+        "approved_by": "steward-review"
+      },
+      "checks": {
+        "Asset": "pass",
+        "Source Check": "pass",
+        "License Check": "pass",
+        "Attribution Check": "pass",
+        "Provenance Check": "pass",
+        "Publication Approval Check": "pass",
+        "Collection Eligibility": "pass"
+      },
+      "eligible": true,
+      "blocked_reasons": []
+    },
+    {
+      "asset_id": "bigcats-jaguar-museum-scan",
+      "title": "Jaguar historical museum scan",
+      "species": "Panthera onca",
+      "asset_status": "approved",
+      "source_record": {
+        "source_record_id": "source-museum-jaguar-scan",
+        "status": "approved",
+        "authority": "Partner Museum",
+        "uri": "https://example.org/partner-museum/jaguar"
+      },
+      "rights_record": {
+        "rights_record_id": "rights-jaguar-restricted",
+        "status": "approved",
+        "rights_category": "restricted",
+        "license_uri": "partner-internal-only",
+        "restricted": true
+      },
+      "attribution_record": {
+        "attribution_record_id": "attr-jaguar-museum",
+        "status": "approved",
+        "credit_line": "Partner Museum"
+      },
+      "provenance_record": {
+        "provenance_record_id": "prov-jaguar-museum",
+        "status": "approved",
+        "event_type": "partner-deposit"
+      },
+      "publication_approval": {
+        "publication_approval_id": "pub-jaguar-scan",
+        "status": "approved",
+        "approved_by": "steward-review"
+      },
+      "checks": {
+        "Asset": "pass",
+        "Source Check": "pass",
+        "License Check": "fail",
+        "Attribution Check": "pass",
+        "Provenance Check": "pass",
+        "Publication Approval Check": "pass",
+        "Collection Eligibility": "fail"
+      },
+      "eligible": false,
+      "blocked_reasons": [
+        "restricted_asset"
+      ]
+    },
+    {
+      "asset_id": "bigcats-leopard-field-audio",
+      "title": "Leopard field audio",
+      "species": "Panthera pardus",
+      "asset_status": "approved",
+      "source_record": {
+        "source_record_id": "source-leopard-field-audio",
+        "status": "approved",
+        "authority": "Field Recording Archive",
+        "uri": "https://example.org/field-recordings/leopard"
+      },
+      "rights_record": {
+        "rights_record_id": "rights-leopard-unknown",
+        "status": "unknown",
+        "rights_category": "unknown",
+        "license_uri": null,
+        "restricted": false
+      },
+      "attribution_record": {
+        "attribution_record_id": "attr-leopard-field-audio",
+        "status": "approved",
+        "credit_line": "Field Recording Archive"
+      },
+      "provenance_record": {
+        "provenance_record_id": "prov-leopard-field-audio",
+        "status": "approved",
+        "event_type": "source-harvest"
+      },
+      "publication_approval": {
+        "publication_approval_id": "pub-leopard-audio",
+        "status": "approved",
+        "approved_by": "steward-review"
+      },
+      "checks": {
+        "Asset": "pass",
+        "Source Check": "pass",
+        "License Check": "fail",
+        "Attribution Check": "pass",
+        "Provenance Check": "pass",
+        "Publication Approval Check": "pass",
+        "Collection Eligibility": "fail"
+      },
+      "eligible": false,
+      "blocked_reasons": [
+        "unknown_rights"
+      ]
+    },
+    {
+      "asset_id": "bigcats-cheetah-range-map",
+      "title": "Cheetah range map",
+      "species": "Acinonyx jubatus",
+      "asset_status": "approved",
+      "source_record": null,
+      "rights_record": {
+        "rights_record_id": "rights-cheetah-map-cc-by",
+        "status": "approved",
+        "rights_category": "open_license",
+        "license_uri": "https://creativecommons.org/licenses/by/4.0/",
+        "restricted": false
+      },
+      "attribution_record": {
+        "attribution_record_id": "attr-cheetah-map",
+        "status": "approved",
+        "credit_line": "Range map contributor"
+      },
+      "provenance_record": {
+        "provenance_record_id": "prov-cheetah-map",
+        "status": "approved",
+        "event_type": "geospatial-import"
+      },
+      "publication_approval": {
+        "publication_approval_id": "pub-cheetah-map",
+        "status": "approved",
+        "approved_by": "steward-review"
+      },
+      "checks": {
+        "Asset": "pass",
+        "Source Check": "fail",
+        "License Check": "pass",
+        "Attribution Check": "pass",
+        "Provenance Check": "pass",
+        "Publication Approval Check": "pass",
+        "Collection Eligibility": "fail"
+      },
+      "eligible": false,
+      "blocked_reasons": [
+        "missing_source"
+      ]
+    },
+    {
+      "asset_id": "bigcats-cougar-education-card",
+      "title": "Cougar education card",
+      "species": "Puma concolor",
+      "asset_status": "approved",
+      "source_record": {
+        "source_record_id": "source-cougar-education-card",
+        "status": "approved",
+        "authority": "Education Partner",
+        "uri": "https://example.org/education/cougar"
+      },
+      "rights_record": {
+        "rights_record_id": "rights-cougar-card-cc-by",
+        "status": "approved",
+        "rights_category": "open_license",
+        "license_uri": "https://creativecommons.org/licenses/by/4.0/",
+        "restricted": false
+      },
+      "attribution_record": null,
+      "provenance_record": {
+        "provenance_record_id": "prov-cougar-card",
+        "status": "approved",
+        "event_type": "education-import"
+      },
+      "publication_approval": {
+        "publication_approval_id": "pub-cougar-card",
+        "status": "approved",
+        "approved_by": "steward-review"
+      },
+      "checks": {
+        "Asset": "pass",
+        "Source Check": "pass",
+        "License Check": "pass",
+        "Attribution Check": "fail",
+        "Provenance Check": "pass",
+        "Publication Approval Check": "pass",
+        "Collection Eligibility": "fail"
+      },
+      "eligible": false,
+      "blocked_reasons": [
+        "missing_attribution"
+      ]
+    },
+    {
+      "asset_id": "bigcats-clouded-leopard-archive-photo",
+      "title": "Clouded leopard archive photograph",
+      "species": "Neofelis nebulosa",
+      "asset_status": "approved",
+      "source_record": {
+        "source_record_id": "source-clouded-leopard-archive",
+        "status": "approved",
+        "authority": "Archive Partner",
+        "uri": "https://example.org/archive/clouded-leopard"
+      },
+      "rights_record": {
+        "rights_record_id": "rights-clouded-leopard-cc-by",
+        "status": "approved",
+        "rights_category": "open_license",
+        "license_uri": "https://creativecommons.org/licenses/by/4.0/",
+        "restricted": false
+      },
+      "attribution_record": {
+        "attribution_record_id": "attr-clouded-leopard-archive",
+        "status": "approved",
+        "credit_line": "Archive Partner"
+      },
+      "provenance_record": null,
+      "publication_approval": {
+        "publication_approval_id": "pub-clouded-leopard-photo",
+        "status": "approved",
+        "approved_by": "steward-review"
+      },
+      "checks": {
+        "Asset": "pass",
+        "Source Check": "pass",
+        "License Check": "pass",
+        "Attribution Check": "pass",
+        "Provenance Check": "fail",
+        "Publication Approval Check": "pass",
+        "Collection Eligibility": "fail"
+      },
+      "eligible": false,
+      "blocked_reasons": [
+        "missing_provenance"
+      ]
+    },
+    {
+      "asset_id": "bigcats-lynx-draft-profile",
+      "title": "Lynx draft profile",
+      "species": "Lynx lynx",
+      "asset_status": "proposed",
+      "source_record": {
+        "source_record_id": "source-lynx-draft-profile",
+        "status": "approved",
+        "authority": "Draft Partner",
+        "uri": "https://example.org/drafts/lynx"
+      },
+      "rights_record": {
+        "rights_record_id": "rights-lynx-cc-by",
+        "status": "approved",
+        "rights_category": "open_license",
+        "license_uri": "https://creativecommons.org/licenses/by/4.0/",
+        "restricted": false
+      },
+      "attribution_record": {
+        "attribution_record_id": "attr-lynx-draft-profile",
+        "status": "approved",
+        "credit_line": "Draft Partner"
+      },
+      "provenance_record": {
+        "provenance_record_id": "prov-lynx-draft-profile",
+        "status": "approved",
+        "event_type": "draft-import"
+      },
+      "publication_approval": {
+        "publication_approval_id": "pub-lynx-draft-profile",
+        "status": "approved",
+        "approved_by": "steward-review"
+      },
+      "checks": {
+        "Asset": "fail",
+        "Source Check": "pass",
+        "License Check": "pass",
+        "Attribution Check": "pass",
+        "Provenance Check": "pass",
+        "Publication Approval Check": "pass",
+        "Collection Eligibility": "fail"
+      },
+      "eligible": false,
+      "blocked_reasons": [
+        "unapproved_asset"
+      ]
+    }
+  ]
+}
