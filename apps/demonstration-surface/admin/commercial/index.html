@@ -3,21 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Commercial Analytics — RC6 Commercial Validation Surface</title>
+  <title>Commercial Analytics — Nature & Culture</title>
   <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body class="commercial-surface">
   <a class="skip-link" href="#main">Skip to main content</a>
 
   <header class="site-header commercial-hero" role="banner">
-    <p class="eyebrow">WISE Admin — Local Commercial Analytics</p>
-    <h1>RC6 Commercial Validation Dashboard</h1>
+    <p class="eyebrow">Nature & Culture Admin — Local Commercial Analytics</p>
+    <h1>RC7 Product Intelligence Dashboard</h1>
     <p class="subtitle">
-      Read-only local dashboard for the Big Cats of the World product concepts. It summarizes demand
-      events stored in this browser only.
+      Read-only local dashboard for commercial demand and product intelligence. It summarizes demand
+      events stored in this browser only and pairs them with RC7 category and fit scores.
     </p>
-    <nav class="surface-nav" aria-label="Commercial validation navigation">
-      <a href="/shop">Shop concepts</a>
+    <nav class="surface-nav" aria-label="Commercial analytics navigation">
+      <a href="/">Nature & Culture</a>
+      <a href="/shop">Shop</a>
+      <a href="/shop/maps">Maps</a>
+      <a href="/shop/education">Education</a>
+      <a href="/shop/gifts">Gifts</a>
       <a href="/admin/commercial">Dashboard</a>
     </nav>
   </header>
@@ -43,6 +47,13 @@
           </dd>
         </div>
         <div>
+          <dt>Commercial intelligence</dt>
+          <dd>
+            <code>product_category_score</code>, <code>product_fit_score</code>,
+            <code>estimated_giftability</code>, <code>estimated_repeat_purchase</code>
+          </dd>
+        </div>
+        <div>
           <dt>Processing mode</dt>
           <dd>Local browser storage only; no payment or server write path.</dd>
         </div>
@@ -51,7 +62,15 @@
 
     <section aria-labelledby="viewed-heading" class="analytics-grid">
       <article class="analytics-card">
-        <h2 id="viewed-heading">Most viewed products</h2>
+        <h2 id="viewed-heading">Top Products</h2>
+        <ol id="top-products" class="analytics-list"></ol>
+      </article>
+      <article class="analytics-card">
+        <h2>Top Categories</h2>
+        <ol id="top-categories" class="analytics-list"></ol>
+      </article>
+      <article class="analytics-card">
+        <h2>Most viewed products</h2>
         <ol id="most-viewed-products" class="analytics-list"></ol>
       </article>
       <article class="analytics-card">
@@ -62,6 +81,10 @@
         <h2>Highest wishlist rate</h2>
         <ol id="highest-wishlist-rate" class="analytics-list"></ol>
       </article>
+      <article class="analytics-card">
+        <h2>Highest Product Fit Score</h2>
+        <ol id="highest-product-fit-score" class="analytics-list"></ol>
+      </article>
     </section>
 
     <section aria-labelledby="notes-heading">
@@ -69,13 +92,14 @@
       <p>
         Buy Interest creates both <code>buy_interest</code> and <code>checkout_intent</code> signals
         to validate purchase funnel appetite without collecting payment details, creating orders, or
-        leaving the demonstration surface.
+        leaving the demonstration surface. Product fit rankings are recommendation estimates, not
+        automated merchandising decisions.
       </p>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>RC6 Commercial Validation Surface. Steward-facing local analytics only.</p>
+    <p>RC7 Product Intelligence. Steward-facing local analytics only. No architecture changes.</p>
   </footer>
 
   <script src="/static/commercial.js" defer></script>

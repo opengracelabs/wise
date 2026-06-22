@@ -4,12 +4,28 @@
   "trailingSlash": false,
   "rewrites": [
     {
+      "source": "/",
+      "destination": "/apps/demonstration-surface/index.html"
+    },
+    {
       "source": "/shop",
       "destination": "/apps/demonstration-surface/shop/index.html"
     },
     {
+      "source": "/shop/maps",
+      "destination": "/apps/demonstration-surface/shop/maps/index.html"
+    },
+    {
+      "source": "/shop/education",
+      "destination": "/apps/demonstration-surface/shop/education/index.html"
+    },
+    {
+      "source": "/shop/gifts",
+      "destination": "/apps/demonstration-surface/shop/gifts/index.html"
+    },
+    {
       "source": "/shop/products/:slug",
-      "destination": "/apps/demonstration-surface/shop/products/:slug/index.html"
+      "destination": "/apps/demonstration-surface/shop/product-detail/index.html"
     },
     {
       "source": "/admin/commercial",

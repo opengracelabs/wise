@@ -59,9 +59,18 @@ async def health() -> dict[str, str]:
     }
 
 
+@app.get("/")
+async def nature_culture_home_page():
+    """Nature & Culture brand experience homepage."""
+    page = surface_path / "index.html"
+    if not page.is_file():
+        raise HTTPException(status_code=404, detail="Nature & Culture homepage not found")
+    return FileResponse(page, media_type="text/html")
+
+
 @app.get("/shop")
 async def commercial_shop_page():
-    """Read-only RC6 commercial validation shop surface."""
+    """Read-only commercial validation shop surface."""
     page = surface_path / "shop" / "index.html"
     if not page.is_file():
         raise HTTPException(status_code=404, detail="Commercial shop page not found")
@@ -70,16 +79,30 @@ async def commercial_shop_page():
 
 @app.get("/shop/products/{product_slug}")
 async def commercial_product_page(product_slug: str):
-    """Read-only RC6 commercial product detail surface."""
-    page = surface_path / "shop" / "products" / product_slug / "index.html"
+    """Read-only commercial product detail surface."""
+    page = surface_path / "shop" / "product-detail" / "index.html"
+    if not page.is_file():
+        page = surface_path / "shop" / "products" / product_slug / "index.html"
     if not page.is_file():
         raise HTTPException(status_code=404, detail=f"Commercial product page not found: {product_slug}")
     return FileResponse(page, media_type="text/html")
 
 
+@app.get("/shop/{shop_section}")
+async def commercial_shop_section_page(shop_section: str):
+    """Read-only commercial shop section surface."""
+    allowed_sections = {"maps", "education", "gifts"}
+    if shop_section not in allowed_sections:
+        raise HTTPException(status_code=404, detail=f"Commercial shop section not found: {shop_section}")
+    page = surface_path / "shop" / shop_section / "index.html"
+    if not page.is_file():
+        raise HTTPException(status_code=404, detail=f"Commercial shop section not found: {shop_section}")
+    return FileResponse(page, media_type="text/html")
+
+
 @app.get("/admin/commercial")
 async def commercial_dashboard_page():
-    """Local RC6 commercial demand analytics dashboard."""
+    """Local commercial demand analytics dashboard."""
     page = surface_path / "admin" / "commercial" / "index.html"
     if not page.is_file():
         raise HTTPException(status_code=404, detail="Commercial analytics dashboard not found")
