@@ -16,7 +16,7 @@ dev = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/wise_portfolio_intelligence"]
+packages = ["src/wise_portfolio_intelligence", "governance"]
 
 [tool.pytest.ini_options]
 testpaths = ["../../tests/portfolio_intelligence"]
