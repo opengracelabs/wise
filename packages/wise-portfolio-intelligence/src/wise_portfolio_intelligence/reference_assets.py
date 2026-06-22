@@ -1,0 +1,136 @@
+"""Reference inputs used to generate committed portfolio artifacts."""
+
+from __future__ import annotations
+
+from wise_portfolio_intelligence.models import CommercialTier, PortfolioAssetInput
+from wise_portfolio_intelligence.optimizer import portfolio_optimizer
+
+
+REFERENCE_ASSETS: tuple[PortfolioAssetInput, ...] = (
+    PortfolioAssetInput(
+        stable_id="stonehenge",
+        title="Stonehenge",
+        global_rank_score=95.60,
+        recognition_score=96,
+        demand_score=94,
+        commercial_tier=CommercialTier.TIER_1,
+        asset_type="megalithic_site",
+        category="Heritage",
+        domain="Heritage",
+        geography="Europe",
+    ),
+    PortfolioAssetInput(
+        stable_id="panthera-leo",
+        title="Panthera leo",
+        global_rank_score=90.50,
+        recognition_score=88,
+        demand_score=96,
+        commercial_tier=CommercialTier.TIER_2,
+        asset_type="species",
+        category="Biodiversity",
+        domain="Biodiversity",
+        geography="Africa",
+    ),
+    PortfolioAssetInput(
+        stable_id="everglades-national-park",
+        title="Everglades National Park",
+        global_rank_score=91.95,
+        recognition_score=90,
+        demand_score=96,
+        commercial_tier=CommercialTier.TIER_1,
+        asset_type="wetland_landscape",
+        category="Geography",
+        domain="Geography",
+        geography="North America",
+    ),
+    PortfolioAssetInput(
+        stable_id="silk-road-cultural-routes",
+        title="Silk Road Cultural Routes",
+        global_rank_score=89.25,
+        recognition_score=91,
+        demand_score=87,
+        commercial_tier=CommercialTier.TIER_2,
+        asset_type="cultural_route",
+        category="Culture",
+        domain="Culture",
+        geography="Asia",
+    ),
+    PortfolioAssetInput(
+        stable_id="great-barrier-reef",
+        title="Great Barrier Reef",
+        global_rank_score=93.20,
+        recognition_score=94,
+        demand_score=92,
+        commercial_tier=CommercialTier.TIER_1,
+        asset_type="climate_indicator_site",
+        category="Climate",
+        domain="Climate",
+        geography="Oceania",
+    ),
+    PortfolioAssetInput(
+        stable_id="machu-picchu",
+        title="Machu Picchu",
+        global_rank_score=94.10,
+        recognition_score=95,
+        demand_score=93,
+        commercial_tier=CommercialTier.TIER_1,
+        asset_type="mountain_city",
+        category="Heritage",
+        domain="Heritage",
+        geography="South America",
+    ),
+    PortfolioAssetInput(
+        stable_id="amazon-rainforest",
+        title="Amazon Rainforest",
+        global_rank_score=92.40,
+        recognition_score=90,
+        demand_score=91,
+        commercial_tier=CommercialTier.TIER_2,
+        asset_type="forest_biome",
+        category="Biodiversity",
+        domain="Biodiversity",
+        geography="South America",
+    ),
+    PortfolioAssetInput(
+        stable_id="himalayas",
+        title="Himalayas",
+        global_rank_score=88.80,
+        recognition_score=89,
+        demand_score=86,
+        commercial_tier=CommercialTier.TIER_2,
+        asset_type="mountain_system",
+        category="Geography",
+        domain="Geography",
+        geography="Asia",
+    ),
+    PortfolioAssetInput(
+        stable_id="oral-heritage-griots",
+        title="West African Griot Oral Heritage",
+        global_rank_score=84.50,
+        recognition_score=82,
+        demand_score=78,
+        commercial_tier=CommercialTier.TIER_3,
+        asset_type="oral_tradition",
+        category="Culture",
+        domain="Culture",
+        geography="Africa",
+    ),
+    PortfolioAssetInput(
+        stable_id="arctic-sea-ice",
+        title="Arctic Sea Ice",
+        global_rank_score=86.70,
+        recognition_score=84,
+        demand_score=80,
+        commercial_tier=CommercialTier.TIER_3,
+        asset_type="climate_indicator",
+        category="Climate",
+        domain="Climate",
+        geography="Arctic",
+    ),
+)
+
+
+def build_reference_portfolios() -> dict:
+    """Build all reference portfolio outputs."""
+
+    return portfolio_optimizer(REFERENCE_ASSETS)

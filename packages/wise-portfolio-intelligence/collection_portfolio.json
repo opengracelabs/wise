@@ -1,0 +1,96 @@
+{
+  "portfolio_type": "collection",
+  "title": "Balanced Collection Portfolio",
+  "output_file": "collection_portfolio.json",
+  "target_size": 5,
+  "diversity_constraints": {
+    "domain": 0.2,
+    "geography": 0.2,
+    "asset_type": 0.2
+  },
+  "narrative_balance": {
+    "Heritage": 1,
+    "Climate": 1,
+    "Geography": 1,
+    "Biodiversity": 1,
+    "Culture": 1
+  },
+  "ranking_stabilization": "Selection uses 5-point score bands and hard 20% domain, geography, and asset-type caps to prevent single-category domination.",
+  "assets": [
+    {
+      "portfolio_rank": 1,
+      "stable_id": "stonehenge",
+      "title": "Stonehenge",
+      "global_rank_score": 95.6,
+      "recognition_score": 96.0,
+      "demand_score": 94.0,
+      "stabilized_selection_score": 95.42,
+      "commercial_tier": "Tier 1",
+      "asset_type": "megalithic_site",
+      "category": "Heritage",
+      "domain": "Heritage",
+      "geography": "Europe",
+      "why_this_asset_was_selected": "Selected for the Balanced Collection Portfolio because it anchors the Heritage narrative, has global rank 95.60, recognition 96.00, demand 94.00, and preserves diversity across domain Heritage, geography Europe, and asset type megalithic_site."
+    },
+    {
+      "portfolio_rank": 2,
+      "stable_id": "great-barrier-reef",
+      "title": "Great Barrier Reef",
+      "global_rank_score": 93.2,
+      "recognition_score": 94.0,
+      "demand_score": 92.0,
+      "stabilized_selection_score": 93.14,
+      "commercial_tier": "Tier 1",
+      "asset_type": "climate_indicator_site",
+      "category": "Climate",
+      "domain": "Climate",
+      "geography": "Oceania",
+      "why_this_asset_was_selected": "Selected for the Balanced Collection Portfolio because it anchors the Climate narrative, has global rank 93.20, recognition 94.00, demand 92.00, and preserves diversity across domain Climate, geography Oceania, and asset type climate_indicator_site."
+    },
+    {
+      "portfolio_rank": 3,
+      "stable_id": "everglades-national-park",
+      "title": "Everglades National Park",
+      "global_rank_score": 91.95,
+      "recognition_score": 90.0,
+      "demand_score": 96.0,
+      "stabilized_selection_score": 92.26,
+      "commercial_tier": "Tier 1",
+      "asset_type": "wetland_landscape",
+      "category": "Geography",
+      "domain": "Geography",
+      "geography": "North America",
+      "why_this_asset_was_selected": "Selected for the Balanced Collection Portfolio because it anchors the Geography narrative, has global rank 91.95, recognition 90.00, demand 96.00, and preserves diversity across domain Geography, geography North America, and asset type wetland_landscape."
+    },
+    {
+      "portfolio_rank": 4,
+      "stable_id": "amazon-rainforest",
+      "title": "Amazon Rainforest",
+      "global_rank_score": 92.4,
+      "recognition_score": 90.0,
+      "demand_score": 91.0,
+      "stabilized_selection_score": 91.83,
+      "commercial_tier": "Tier 2",
+      "asset_type": "forest_biome",
+      "category": "Biodiversity",
+      "domain": "Biodiversity",
+      "geography": "South America",
+      "why_this_asset_was_selected": "Selected for the Balanced Collection Portfolio because it anchors the Biodiversity narrative, has global rank 92.40, recognition 90.00, demand 91.00, and preserves diversity across domain Biodiversity, geography South America, and asset type forest_biome."
+    },
+    {
+      "portfolio_rank": 5,
+      "stable_id": "silk-road-cultural-routes",
+      "title": "Silk Road Cultural Routes",
+      "global_rank_score": 89.25,
+      "recognition_score": 91.0,
+      "demand_score": 87.0,
+      "stabilized_selection_score": 89.17,
+      "commercial_tier": "Tier 2",
+      "asset_type": "cultural_route",
+      "category": "Culture",
+      "domain": "Culture",
+      "geography": "Asia",
+      "why_this_asset_was_selected": "Selected for the Balanced Collection Portfolio because it anchors the Culture narrative, has global rank 89.25, recognition 91.00, demand 87.00, and preserves diversity across domain Culture, geography Asia, and asset type cultural_route."
+    }
+  ]
+}
