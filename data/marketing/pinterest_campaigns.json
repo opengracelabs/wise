@@ -1,0 +1,1356 @@
+{
+  "assets": [
+    {
+      "title": "Machu Picchu: a visual learning pin",
+      "description": "Discover why Machu Picchu belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "machu",
+        "picchu",
+        "unesco",
+        "world",
+        "heritage",
+        "peru",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "Great Pyramid of Giza: a visual learning pin",
+      "description": "Discover why Great Pyramid of Giza belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "great",
+        "pyramid",
+        "giza",
+        "unesco",
+        "world",
+        "heritage",
+        "egypt",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "The Great Wall: a visual learning pin",
+      "description": "Discover why The Great Wall belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "great",
+        "wall",
+        "unesco",
+        "world",
+        "heritage",
+        "china",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "Taj Mahal: a visual learning pin",
+      "description": "Discover why Taj Mahal belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "taj",
+        "mahal",
+        "unesco",
+        "world",
+        "heritage",
+        "india",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "African Lion: a visual learning pin",
+      "description": "Discover why African Lion belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "african",
+        "lion",
+        "gbif",
+        "flagship",
+        "species",
+        "multiple",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "Sunflowers: a visual learning pin",
+      "description": "Discover why Sunflowers belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "sunflowers",
+        "national",
+        "gallery",
+        "public",
+        "domain",
+        "united",
+        "kingdom",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "Great Barrier Reef: a visual learning pin",
+      "description": "Discover why Great Barrier Reef belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "great",
+        "barrier",
+        "reef",
+        "unesco",
+        "world",
+        "heritage",
+        "australia",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "Tiger: a visual learning pin",
+      "description": "Discover why Tiger belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "tiger",
+        "gbif",
+        "flagship",
+        "species",
+        "multiple",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "The Night Watch: a visual learning pin",
+      "description": "Discover why The Night Watch belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "night",
+        "watch",
+        "rijksmuseum",
+        "public",
+        "domain",
+        "netherlands",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "Stonehenge: a visual learning pin",
+      "description": "Discover why Stonehenge belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "stonehenge",
+        "unesco",
+        "world",
+        "heritage",
+        "united",
+        "kingdom",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "Waldseemuller World Map: a visual learning pin",
+      "description": "Discover why Waldseemuller World Map belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "waldseemuller",
+        "world",
+        "map",
+        "public",
+        "domain",
+        "historical",
+        "united",
+        "states",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "Apollo 11 Command Module Columbia: a visual learning pin",
+      "description": "Discover why Apollo 11 Command Module Columbia belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "apollo",
+        "command",
+        "module",
+        "columbia",
+        "smithsonian",
+        "open",
+        "access",
+        "united",
+        "states",
+        "showcase",
+        "asset",
+        "museum quality"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "Petra: a visual learning pin",
+      "description": "Discover why Petra belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "petra",
+        "unesco",
+        "world",
+        "heritage",
+        "jordan",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "Angkor Wat: a visual learning pin",
+      "description": "Discover why Angkor Wat belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "angkor",
+        "wat",
+        "unesco",
+        "world",
+        "heritage",
+        "cambodia",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "African Elephant: a visual learning pin",
+      "description": "Discover why African Elephant belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "african",
+        "elephant",
+        "gbif",
+        "flagship",
+        "species",
+        "multiple",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "Giant Panda: a visual learning pin",
+      "description": "Discover why Giant Panda belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "giant",
+        "panda",
+        "gbif",
+        "flagship",
+        "species",
+        "china",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "Galapagos Islands: a visual learning pin",
+      "description": "Discover why Galapagos Islands belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "galapagos",
+        "islands",
+        "unesco",
+        "world",
+        "heritage",
+        "ecuador",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "Serengeti National Park: a visual learning pin",
+      "description": "Discover why Serengeti National Park belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "serengeti",
+        "national",
+        "park",
+        "unesco",
+        "world",
+        "heritage",
+        "tanzania",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "Acropolis of Athens: a visual learning pin",
+      "description": "Discover why Acropolis of Athens belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "acropolis",
+        "athens",
+        "unesco",
+        "world",
+        "heritage",
+        "greece",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "Hubble Space Telescope Imagery: a visual learning pin",
+      "description": "Discover why Hubble Space Telescope Imagery belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "hubble",
+        "space",
+        "telescope",
+        "imagery",
+        "smithsonian",
+        "open",
+        "access",
+        "united",
+        "states",
+        "showcase",
+        "asset",
+        "museum quality"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "The Milkmaid: a visual learning pin",
+      "description": "Discover why The Milkmaid belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "milkmaid",
+        "rijksmuseum",
+        "public",
+        "domain",
+        "netherlands",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "Historic Centre of Rome: a visual learning pin",
+      "description": "Discover why Historic Centre of Rome belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "historic",
+        "centre",
+        "rome",
+        "unesco",
+        "world",
+        "heritage",
+        "italy",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "Chichen Itza: a visual learning pin",
+      "description": "Discover why Chichen Itza belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "chichen",
+        "itza",
+        "unesco",
+        "world",
+        "heritage",
+        "mexico",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "Polar Bear: a visual learning pin",
+      "description": "Discover why Polar Bear belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "polar",
+        "bear",
+        "gbif",
+        "flagship",
+        "species",
+        "multiple",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    },
+    {
+      "title": "Migrant Mother: a visual learning pin",
+      "description": "Discover why Migrant Mother belongs in a global showcase of heritage, biodiversity, art, science, and public memory.",
+      "keywords": [
+        "migrant",
+        "mother",
+        "library",
+        "congress",
+        "united",
+        "states",
+        "showcase",
+        "asset",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "Explore the showcase asset"
+    }
+  ],
+  "collections": [
+    {
+      "title": "World Heritage Icons Collection showcase board",
+      "description": "A curated RC12 collection balancing heritage, geography, culture with educational and product potential.",
+      "keywords": [
+        "world",
+        "heritage",
+        "icons",
+        "collection",
+        "unesco",
+        "geography",
+        "culture",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "UNESCO Natural Wonders Collection showcase board",
+      "description": "A curated RC12 collection balancing biodiversity, geography, climate with educational and product potential.",
+      "keywords": [
+        "unesco",
+        "natural",
+        "wonders",
+        "collection",
+        "world",
+        "heritage",
+        "biodiversity",
+        "geography",
+        "climate",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "Big Cats Collection showcase board",
+      "description": "A curated RC12 collection balancing biodiversity, culture with educational and product potential.",
+      "keywords": [
+        "big",
+        "cats",
+        "collection",
+        "gbif",
+        "flagship",
+        "species",
+        "biodiversity",
+        "culture",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "National Gallery Van Gogh Collection showcase board",
+      "description": "A curated RC12 collection balancing culture with educational and product potential.",
+      "keywords": [
+        "national",
+        "gallery",
+        "van",
+        "gogh",
+        "collection",
+        "public",
+        "domain",
+        "culture",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "Library of Congress Historic Maps Collection showcase board",
+      "description": "A curated RC12 collection balancing geography, culture, education with educational and product potential.",
+      "keywords": [
+        "library",
+        "congress",
+        "historic",
+        "maps",
+        "collection",
+        "geography",
+        "culture",
+        "education",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "Endangered Species Collection showcase board",
+      "description": "A curated RC12 collection balancing biodiversity, climate, education with educational and product potential.",
+      "keywords": [
+        "endangered",
+        "species",
+        "collection",
+        "gbif",
+        "flagship",
+        "biodiversity",
+        "climate",
+        "education",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "Smithsonian Spaceflight Collection showcase board",
+      "description": "A curated RC12 collection balancing culture, education with educational and product potential.",
+      "keywords": [
+        "smithsonian",
+        "spaceflight",
+        "collection",
+        "open",
+        "access",
+        "culture",
+        "education",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "Rijksmuseum Rembrandt Collection showcase board",
+      "description": "A curated RC12 collection balancing culture with educational and product potential.",
+      "keywords": [
+        "rijksmuseum",
+        "rembrandt",
+        "collection",
+        "public",
+        "domain",
+        "culture",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "National Parks of the World Collection showcase board",
+      "description": "A curated RC12 collection balancing biodiversity, geography, climate with educational and product potential.",
+      "keywords": [
+        "national",
+        "parks",
+        "world",
+        "collection",
+        "unesco",
+        "heritage",
+        "biodiversity",
+        "geography",
+        "climate",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "Biodiversity Classroom Collection showcase board",
+      "description": "A curated RC12 collection balancing biodiversity, education, climate with educational and product potential.",
+      "keywords": [
+        "biodiversity",
+        "classroom",
+        "collection",
+        "gbif",
+        "flagship",
+        "species",
+        "education",
+        "climate",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "National Gallery Impressionism Collection showcase board",
+      "description": "A curated RC12 collection balancing culture with educational and product potential.",
+      "keywords": [
+        "national",
+        "gallery",
+        "impressionism",
+        "collection",
+        "public",
+        "domain",
+        "culture",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "Rijksmuseum Vermeer Collection showcase board",
+      "description": "A curated RC12 collection balancing culture with educational and product potential.",
+      "keywords": [
+        "rijksmuseum",
+        "vermeer",
+        "collection",
+        "public",
+        "domain",
+        "culture",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "Coral Reef Life Collection showcase board",
+      "description": "A curated RC12 collection balancing biodiversity, climate, education with educational and product potential.",
+      "keywords": [
+        "coral",
+        "reef",
+        "life",
+        "collection",
+        "wildlife",
+        "photography",
+        "award",
+        "winning",
+        "subjects",
+        "biodiversity",
+        "climate",
+        "education"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "World Exploration Maps Collection showcase board",
+      "description": "A curated RC12 collection balancing geography, culture, education with educational and product potential.",
+      "keywords": [
+        "world",
+        "exploration",
+        "maps",
+        "collection",
+        "public",
+        "domain",
+        "historical",
+        "map",
+        "geography",
+        "culture",
+        "education",
+        "museum quality"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "Ocean Giants Collection showcase board",
+      "description": "A curated RC12 collection balancing biodiversity, climate with educational and product potential.",
+      "keywords": [
+        "ocean",
+        "giants",
+        "collection",
+        "gbif",
+        "flagship",
+        "species",
+        "biodiversity",
+        "climate",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "Smithsonian Natural History Collection showcase board",
+      "description": "A curated RC12 collection balancing biodiversity, education, culture with educational and product potential.",
+      "keywords": [
+        "smithsonian",
+        "natural",
+        "history",
+        "collection",
+        "open",
+        "access",
+        "biodiversity",
+        "education",
+        "culture",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "Ancient Wonders Collection showcase board",
+      "description": "A curated RC12 collection balancing heritage, geography, culture with educational and product potential.",
+      "keywords": [
+        "ancient",
+        "wonders",
+        "collection",
+        "unesco",
+        "world",
+        "heritage",
+        "geography",
+        "culture",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "Great Civilizations Collection showcase board",
+      "description": "A curated RC12 collection balancing heritage, culture, education with educational and product potential.",
+      "keywords": [
+        "great",
+        "civilizations",
+        "collection",
+        "unesco",
+        "world",
+        "heritage",
+        "culture",
+        "education",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "Celestial Maps Collection showcase board",
+      "description": "A curated RC12 collection balancing geography, education, culture with educational and product potential.",
+      "keywords": [
+        "celestial",
+        "maps",
+        "collection",
+        "public",
+        "domain",
+        "historical",
+        "map",
+        "geography",
+        "education",
+        "culture",
+        "museum quality",
+        "educational gift"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "Award-Winning Wildlife Subjects Collection showcase board",
+      "description": "A curated RC12 collection balancing biodiversity, climate with educational and product potential.",
+      "keywords": [
+        "award",
+        "winning",
+        "wildlife",
+        "subjects",
+        "collection",
+        "photography",
+        "biodiversity",
+        "climate",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "Art History Classroom Cards Collection showcase board",
+      "description": "A curated RC12 collection balancing culture, education with educational and product potential.",
+      "keywords": [
+        "art",
+        "history",
+        "classroom",
+        "cards",
+        "collection",
+        "education",
+        "national",
+        "gallery",
+        "public",
+        "domain",
+        "culture",
+        "museum quality"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "Map Literacy Cards Collection showcase board",
+      "description": "A curated RC12 collection balancing geography, education with educational and product potential.",
+      "keywords": [
+        "map",
+        "literacy",
+        "cards",
+        "collection",
+        "education",
+        "public",
+        "domain",
+        "historical",
+        "maps",
+        "geography",
+        "museum quality",
+        "educational gift"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "Open Access Science Collection showcase board",
+      "description": "A curated RC12 collection balancing education, culture, climate with educational and product potential.",
+      "keywords": [
+        "open",
+        "access",
+        "science",
+        "collection",
+        "portfolio",
+        "smithsonian",
+        "education",
+        "culture",
+        "climate",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "Nature and Culture Launch Collection showcase board",
+      "description": "A curated RC12 collection balancing heritage, biodiversity, culture, climate with educational and product potential.",
+      "keywords": [
+        "nature",
+        "culture",
+        "launch",
+        "collection",
+        "portfolio",
+        "gbif",
+        "flagship",
+        "species",
+        "heritage",
+        "biodiversity",
+        "climate",
+        "museum quality"
+      ],
+      "CTA": "View the collection story"
+    },
+    {
+      "title": "Giftable Public Memory Collection showcase board",
+      "description": "A curated RC12 collection balancing heritage, culture, education with educational and product potential.",
+      "keywords": [
+        "giftable",
+        "public",
+        "memory",
+        "collection",
+        "portfolio",
+        "national",
+        "gallery",
+        "domain",
+        "heritage",
+        "culture",
+        "education",
+        "museum quality"
+      ],
+      "CTA": "View the collection story"
+    }
+  ],
+  "products": [
+    {
+      "title": "Machu Picchu Travel Poster gift idea",
+      "description": "A validation-ready posters inspired by Machu Picchu: Highest combined recognition, travel demand, wall-art fit, and global significance.",
+      "keywords": [
+        "machu",
+        "picchu",
+        "travel",
+        "poster",
+        "posters",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "Great Pyramid Educational Puzzle gift idea",
+      "description": "A validation-ready puzzles inspired by Great Pyramid of Giza: Family-friendly ancient-world product with exceptional learning value.",
+      "keywords": [
+        "great",
+        "pyramid",
+        "educational",
+        "puzzle",
+        "puzzles",
+        "giza",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "Sunflowers Framed Print gift idea",
+      "description": "A validation-ready framed prints inspired by Sunflowers: High-demand public-domain art product with immediate decor appeal.",
+      "keywords": [
+        "sunflowers",
+        "framed",
+        "print",
+        "prints",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "World Heritage Icons Calendar gift idea",
+      "description": "A validation-ready calendars inspired by World Heritage Icons Collection: Seasonal global collection product with broad imagery and giftability.",
+      "keywords": [
+        "world",
+        "heritage",
+        "icons",
+        "calendar",
+        "calendars",
+        "collection",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "African Lion Conservation Poster gift idea",
+      "description": "A validation-ready posters inspired by African Lion: Flagship biodiversity story with strong visual and educational appeal.",
+      "keywords": [
+        "african",
+        "lion",
+        "conservation",
+        "poster",
+        "posters",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "Waldseemuller World Map Framed Print gift idea",
+      "description": "A validation-ready framed prints inspired by Waldseemuller World Map: Distinctive historic map product with geography and public-domain value.",
+      "keywords": [
+        "waldseemuller",
+        "world",
+        "map",
+        "framed",
+        "print",
+        "prints",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "Taj Mahal Framed Print gift idea",
+      "description": "A validation-ready framed prints inspired by Taj Mahal: Global monument with simple visual clarity and strong gift fit.",
+      "keywords": [
+        "taj",
+        "mahal",
+        "framed",
+        "print",
+        "prints",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "Van Gogh Color Puzzle gift idea",
+      "description": "A validation-ready puzzles inspired by National Gallery Van Gogh Collection: Puzzle-friendly color, texture, and recognition from public-domain art.",
+      "keywords": [
+        "van",
+        "gogh",
+        "color",
+        "puzzle",
+        "puzzles",
+        "national",
+        "gallery",
+        "collection",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "Great Wall Canvas Print gift idea",
+      "description": "A validation-ready canvas prints inspired by The Great Wall: Panoramic heritage subject suited to premium wall decor.",
+      "keywords": [
+        "great",
+        "wall",
+        "canvas",
+        "print",
+        "prints",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "Great Barrier Reef Canvas Print gift idea",
+      "description": "A validation-ready canvas prints inspired by Great Barrier Reef: Climate and biodiversity showcase with high visual impact.",
+      "keywords": [
+        "great",
+        "barrier",
+        "reef",
+        "canvas",
+        "print",
+        "prints",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "Tiger Conservation Canvas Print gift idea",
+      "description": "A validation-ready canvas prints inspired by Tiger: High-demand wildlife subject with premium decor potential.",
+      "keywords": [
+        "tiger",
+        "conservation",
+        "canvas",
+        "print",
+        "prints",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "The Night Watch Canvas Print gift idea",
+      "description": "A validation-ready canvas prints inspired by The Night Watch: Premium public-domain museum masterwork for large-format validation.",
+      "keywords": [
+        "night",
+        "watch",
+        "canvas",
+        "print",
+        "prints",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "Big Cats Portfolio Book gift idea",
+      "description": "A validation-ready coffee table books inspired by Big Cats Collection: Strong wildlife narrative for an editorial product after demand validation.",
+      "keywords": [
+        "big",
+        "cats",
+        "portfolio",
+        "book",
+        "coffee",
+        "table",
+        "books",
+        "collection",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "Apollo 11 Space Mission Poster gift idea",
+      "description": "A validation-ready posters inspired by Apollo 11 Command Module Columbia: Science/history poster with broad education appeal.",
+      "keywords": [
+        "apollo",
+        "space",
+        "mission",
+        "poster",
+        "posters",
+        "command",
+        "module",
+        "columbia",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "Stonehenge Educational Puzzle gift idea",
+      "description": "A validation-ready puzzles inspired by Stonehenge: Existing RC1 anchor with strong classroom and family-learning fit.",
+      "keywords": [
+        "stonehenge",
+        "educational",
+        "puzzle",
+        "puzzles",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "Ancient Civilizations Puzzle Set gift idea",
+      "description": "A validation-ready puzzles inspired by Ancient Civilizations Puzzle Series: Multi-asset heritage puzzle set with strong education value.",
+      "keywords": [
+        "ancient",
+        "civilizations",
+        "puzzle",
+        "puzzles",
+        "series",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "Smithsonian Spaceflight Coffee Table Book gift idea",
+      "description": "A validation-ready coffee table books inspired by Smithsonian Spaceflight Collection: Recognizable artifacts and editorial depth for science learning.",
+      "keywords": [
+        "smithsonian",
+        "spaceflight",
+        "coffee",
+        "table",
+        "book",
+        "books",
+        "collection",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "Petra Desert Rose Poster gift idea",
+      "description": "A validation-ready posters inspired by Petra: Dramatic heritage image with strong poster and travel appeal.",
+      "keywords": [
+        "petra",
+        "desert",
+        "rose",
+        "poster",
+        "posters",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "Giant Panda Family Puzzle gift idea",
+      "description": "A validation-ready puzzles inspired by Giant Panda: Family-friendly conservation product with high recognition.",
+      "keywords": [
+        "giant",
+        "panda",
+        "family",
+        "puzzle",
+        "puzzles",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "Historic World Maps Coffee Table Book gift idea",
+      "description": "A validation-ready coffee table books inspired by Historic World Maps Series: Archive-backed editorial product with geography education value.",
+      "keywords": [
+        "historic",
+        "world",
+        "maps",
+        "coffee",
+        "table",
+        "book",
+        "books",
+        "series",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "National Parks of the World Poster Set gift idea",
+      "description": "A validation-ready posters inspired by National Parks of the World Collection: Outdoor and geography collection with strong poster-set potential.",
+      "keywords": [
+        "national",
+        "parks",
+        "world",
+        "poster",
+        "posters",
+        "collection",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "Yellowstone National Park Poster gift idea",
+      "description": "A validation-ready posters inspired by Yellowstone National Park: Evergreen nature, travel, and conservation product.",
+      "keywords": [
+        "yellowstone",
+        "national",
+        "park",
+        "poster",
+        "posters",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "National Gallery Impressionism Calendar gift idea",
+      "description": "A validation-ready calendars inspired by National Gallery Impressionism Collection: Seasonal public-domain art product with broad visual appeal.",
+      "keywords": [
+        "national",
+        "gallery",
+        "impressionism",
+        "calendar",
+        "calendars",
+        "collection",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "World Exploration Maps Poster Set gift idea",
+      "description": "A validation-ready posters inspired by World Exploration Maps Collection: Map-literacy wall-art bundle with distinctive positioning.",
+      "keywords": [
+        "world",
+        "exploration",
+        "maps",
+        "poster",
+        "posters",
+        "collection",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "See the showcase product"
+    },
+    {
+      "title": "The Milkmaid Framed Print gift idea",
+      "description": "A validation-ready framed prints inspired by The Milkmaid: Premium Vermeer image with museum-shop evergreen fit.",
+      "keywords": [
+        "milkmaid",
+        "framed",
+        "print",
+        "prints",
+        "gift",
+        "idea",
+        "museum quality",
+        "educational gift",
+        "public memory"
+      ],
+      "CTA": "See the showcase product"
+    }
+  ]
+}
