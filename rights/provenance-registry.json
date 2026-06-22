@@ -1,0 +1,380 @@
+{
+  "registry": "provenance-registry",
+  "records": [
+    {
+      "provenance_id": "prov-pyramids-of-giza",
+      "asset_id": "asset-pyramids-of-giza",
+      "original_source": "UNESCO World Heritage Centre",
+      "source_id": "source-unesco-whc",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-taj-mahal",
+      "asset_id": "asset-taj-mahal",
+      "original_source": "UNESCO World Heritage Centre",
+      "source_id": "source-unesco-whc",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-sunflowers",
+      "asset_id": "asset-sunflowers",
+      "original_source": "The National Gallery, London",
+      "source_id": "source-national-gallery",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-machu-picchu",
+      "asset_id": "asset-machu-picchu",
+      "original_source": "UNESCO World Heritage Centre",
+      "source_id": "source-unesco-whc",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-grand-canyon-storm-light",
+      "asset_id": "asset-grand-canyon-storm-light",
+      "original_source": "National Geographic subject taxonomy / editorial inspiration",
+      "source_id": "source-national-geographic-subjects",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-great-barrier-reef",
+      "asset_id": "asset-great-barrier-reef",
+      "original_source": "UNESCO World Heritage Centre",
+      "source_id": "source-unesco-whc",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-tiger",
+      "asset_id": "asset-tiger",
+      "original_source": "Global Biodiversity Information Facility",
+      "source_id": "source-gbif",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-great-wall-of-china",
+      "asset_id": "asset-great-wall-of-china",
+      "original_source": "UNESCO World Heritage Centre",
+      "source_id": "source-unesco-whc",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-lion",
+      "asset_id": "asset-lion",
+      "original_source": "Global Biodiversity Information Facility",
+      "source_id": "source-gbif",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-the-night-watch",
+      "asset_id": "asset-the-night-watch",
+      "original_source": "Rijksmuseum",
+      "source_id": "source-rijksmuseum",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-ansel-adams-national-parks-photographs",
+      "asset_id": "asset-ansel-adams-national-parks-photographs",
+      "original_source": "Library of Congress",
+      "source_id": "source-library-of-congress",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-tyrannosaurus-rex-hall-specimen",
+      "asset_id": "asset-tyrannosaurus-rex-hall-specimen",
+      "original_source": "Smithsonian Open Access",
+      "source_id": "source-smithsonian-open-access",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-giant-panda",
+      "asset_id": "asset-giant-panda",
+      "original_source": "Global Biodiversity Information Facility",
+      "source_id": "source-gbif",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-african-elephant",
+      "asset_id": "asset-african-elephant",
+      "original_source": "Global Biodiversity Information Facility",
+      "source_id": "source-gbif",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-venice-and-its-lagoon",
+      "asset_id": "asset-venice-and-its-lagoon",
+      "original_source": "UNESCO World Heritage Centre",
+      "source_id": "source-unesco-whc",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-tiger-in-mangrove-forest",
+      "asset_id": "asset-tiger-in-mangrove-forest",
+      "original_source": "National Geographic subject taxonomy / editorial inspiration",
+      "source_id": "source-national-geographic-subjects",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-northern-lights-over-arctic-landscape",
+      "asset_id": "asset-northern-lights-over-arctic-landscape",
+      "original_source": "National Geographic subject taxonomy / editorial inspiration",
+      "source_id": "source-national-geographic-subjects",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-colosseum-and-historic-centre-of-rome",
+      "asset_id": "asset-colosseum-and-historic-centre-of-rome",
+      "original_source": "UNESCO World Heritage Centre",
+      "source_id": "source-unesco-whc",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-serengeti-national-park",
+      "asset_id": "asset-serengeti-national-park",
+      "original_source": "UNESCO World Heritage Centre",
+      "source_id": "source-unesco-whc",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-great-migration-river-crossing",
+      "asset_id": "asset-great-migration-river-crossing",
+      "original_source": "National Geographic subject taxonomy / editorial inspiration",
+      "source_id": "source-national-geographic-subjects",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-elephant-migration-in-amboseli",
+      "asset_id": "asset-elephant-migration-in-amboseli",
+      "original_source": "National Geographic subject taxonomy / editorial inspiration",
+      "source_id": "source-national-geographic-subjects",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-antelope-canyon-light-beams",
+      "asset_id": "asset-antelope-canyon-light-beams",
+      "original_source": "National Geographic subject taxonomy / editorial inspiration",
+      "source_id": "source-national-geographic-subjects",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-polar-bear",
+      "asset_id": "asset-polar-bear",
+      "original_source": "Global Biodiversity Information Facility",
+      "source_id": "source-gbif",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-galapagos-islands",
+      "asset_id": "asset-galapagos-islands",
+      "original_source": "UNESCO World Heritage Centre",
+      "source_id": "source-unesco-whc",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    },
+    {
+      "provenance_id": "prov-bengal-tiger-cub-portrait",
+      "asset_id": "asset-bengal-tiger-cub-portrait",
+      "original_source": "National Geographic subject taxonomy / editorial inspiration",
+      "source_id": "source-national-geographic-subjects",
+      "acquisition_method": "Prototype dataset curation from public source family and showcase portfolio",
+      "validation_status": "validated_for_demo_metadata",
+      "review_history": [
+        {
+          "date": "2026-06-22",
+          "reviewer": "RC17 rights-provenance implementation",
+          "finding": "Represented in asset registry with explicit non-unknown rights classification."
+        }
+      ]
+    }
+  ]
+}

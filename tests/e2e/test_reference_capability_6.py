@@ -652,6 +652,95 @@ def test_rc16_public_demo_release_package():
     assert "ADR-011" in report_text
 
 
+def _rights_validation_errors(asset_registry: dict) -> list[str]:
+    return [
+        asset["asset_id"]
+        for asset in asset_registry["assets"]
+        if asset["rights_status"] == "Unknown"
+    ]
+
+
+@pytest.mark.e2e
+def test_rc17_rights_registries_cover_showcase_assets_and_collections():
+    asset_registry = json.loads(Path("rights/asset-registry.json").read_text(encoding="utf-8"))
+    source_registry = json.loads(Path("rights/source-registry.json").read_text(encoding="utf-8"))
+    license_registry = json.loads(Path("rights/license-registry.json").read_text(encoding="utf-8"))
+    provenance_registry = json.loads(Path("rights/provenance-registry.json").read_text(encoding="utf-8"))
+    attribution_registry = json.loads(Path("rights/attribution-registry.json").read_text(encoding="utf-8"))
+    approvals = json.loads(Path("rights/publication-approvals.json").read_text(encoding="utf-8"))
+    jurisdiction_rules = json.loads(Path("rights/jurisdiction-rules.json").read_text(encoding="utf-8"))
+    showcase_assets = json.loads(Path("data/publishing/top_25_showcase_assets.json").read_text(encoding="utf-8"))
+    showcase_collections = json.loads(Path("data/portfolio/top_25_showcase_collections.json").read_text(encoding="utf-8"))
+
+    assets_by_title = {asset["title"]: asset for asset in asset_registry["assets"]}
+    asset_ids = {asset["asset_id"] for asset in asset_registry["assets"]}
+    source_ids = {source["source_id"] for source in source_registry["sources"]}
+    license_ids = {license_["license_id"] for license_ in license_registry["licenses"]}
+    approval_asset_ids = {approval["asset_id"] for approval in approvals["approvals"]}
+    provenance_asset_ids = {record["asset_id"] for record in provenance_registry["records"]}
+    attribution_asset_ids = {record["asset_id"] for record in attribution_registry["records"]}
+
+    assert len(asset_registry["assets"]) == len(showcase_assets) == 25
+    assert asset_registry["summary_statistics"]["unknown_rights_count"] == 0
+    assert _rights_validation_errors(asset_registry) == []
+    assert {"Public Domain", "CC0", "CC-BY", "CC-BY-SA", "Rights Restricted", "Unknown"} == {
+        license_["name"] for license_ in license_registry["licenses"]
+    }
+    assert jurisdiction_rules["rules"]
+
+    for asset in asset_registry["assets"]:
+        assert asset["asset_id"] in approval_asset_ids
+        assert asset["asset_id"] in provenance_asset_ids
+        assert asset["asset_id"] in attribution_asset_ids
+        assert asset["source_id"] in source_ids
+        assert asset["license_id"] in license_ids
+        assert asset["approval_status"] == "Approved"
+        assert asset["rights_status"] != "Unknown"
+
+    for showcase_asset in showcase_assets:
+        assert showcase_asset["title"] in assets_by_title
+
+    for collection in showcase_collections:
+        asset = assets_by_title[collection["primary_asset"]]
+        assert asset["approval_status"] == "Approved"
+        assert asset["collection_id"] == collection["collection_id"]
+        assert asset["asset_id"] in asset_ids
+
+
+@pytest.mark.e2e
+def test_rc17_unknown_rights_validation_fails():
+    asset_registry = json.loads(Path("rights/asset-registry.json").read_text(encoding="utf-8"))
+    simulated = json.loads(json.dumps(asset_registry))
+    simulated["assets"][0]["rights_status"] = "Unknown"
+    assert _rights_validation_errors(simulated) == [simulated["assets"][0]["asset_id"]]
+
+
+@pytest.mark.e2e
+def test_rc17_rights_policy_docs_and_report():
+    for path in [
+        Path("docs/rights/rights-policy.md"),
+        Path("docs/rights/provenance-policy.md"),
+        Path("docs/rights/attribution-policy.md"),
+        Path("docs/rights/publication-approval-process.md"),
+        Path("docs/rights/jurisdiction-guidelines.md"),
+        Path("docs/implementation/rc17-rights-provenance-report.md"),
+    ]:
+        assert path.is_file()
+        text = path.read_text(encoding="utf-8")
+        assert "Architecture v1.0 remains frozen" in text or "ADR-011" in text
+
+    report = Path("docs/implementation/rc17-rights-provenance-report.md").read_text(encoding="utf-8")
+    for section in [
+        "Assets reviewed",
+        "Sources reviewed",
+        "Rights classifications",
+        "Unknown rights blockers",
+        "Publication approval readiness",
+        "Recommended next actions",
+    ]:
+        assert section in report
+
+
 @pytest.mark.e2e
 @pytest.mark.parametrize("product_slug", PRODUCT_SLUGS)
 def test_commercial_product_pages_served(product_slug: str):

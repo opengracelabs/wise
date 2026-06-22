@@ -1,0 +1,34 @@
+{
+  "registry": "jurisdiction-rules",
+  "default_rule": "When jurisdiction-specific rights are unclear, block production publication and allow metadata/text-only demonstration use.",
+  "rules": [
+    {
+      "jurisdiction": "United States",
+      "rule": "Check public-domain status, rights advisory, privacy/publicity, and trademark issues before commercial publication."
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "rule": "Check copyright term, database rights, museum open-access terms, and moral rights attribution."
+    },
+    {
+      "jurisdiction": "European Union",
+      "rule": "Check copyright term, database rights, cultural heritage restrictions, and attribution requirements."
+    },
+    {
+      "jurisdiction": "India",
+      "rule": "Check monument/heritage photography restrictions, copyright, and cultural sensitivity before product use."
+    },
+    {
+      "jurisdiction": "China",
+      "rule": "Check local heritage, image, and cultural property restrictions before commercial use."
+    },
+    {
+      "jurisdiction": "Multi-country",
+      "rule": "Apply the most restrictive relevant source/license term until item-level rights review is complete."
+    },
+    {
+      "jurisdiction": "Global",
+      "rule": "Use metadata/text-only until source-specific, asset-level rights and permitted uses are documented."
+    }
+  ]
+}

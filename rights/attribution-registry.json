@@ -1,0 +1,280 @@
+{
+  "registry": "attribution-registry",
+  "records": [
+    {
+      "attribution_id": "attr-pyramids-of-giza",
+      "asset_id": "asset-pyramids-of-giza",
+      "display_title": "Pyramids of Giza",
+      "source_authority": "UNESCO World Heritage Centre",
+      "source_url": "https://whc.unesco.org/",
+      "required_credit_line": "Source: UNESCO World Heritage Centre (UNESCO World Heritage). Individual asset URL required before production publication.",
+      "license_id": "rights-restricted",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-taj-mahal",
+      "asset_id": "asset-taj-mahal",
+      "display_title": "Taj Mahal",
+      "source_authority": "UNESCO World Heritage Centre",
+      "source_url": "https://whc.unesco.org/",
+      "required_credit_line": "Source: UNESCO World Heritage Centre (UNESCO World Heritage). Individual asset URL required before production publication.",
+      "license_id": "rights-restricted",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-sunflowers",
+      "asset_id": "asset-sunflowers",
+      "display_title": "Sunflowers",
+      "source_authority": "The National Gallery, London",
+      "source_url": "https://www.nationalgallery.org.uk/",
+      "required_credit_line": "Source: The National Gallery, London (National Gallery Public Domain). Individual asset URL required before production publication.",
+      "license_id": "public-domain",
+      "attribution_required": false,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-machu-picchu",
+      "asset_id": "asset-machu-picchu",
+      "display_title": "Machu Picchu",
+      "source_authority": "UNESCO World Heritage Centre",
+      "source_url": "https://whc.unesco.org/",
+      "required_credit_line": "Source: UNESCO World Heritage Centre (UNESCO World Heritage). Individual asset URL required before production publication.",
+      "license_id": "rights-restricted",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-grand-canyon-storm-light",
+      "asset_id": "asset-grand-canyon-storm-light",
+      "display_title": "Grand Canyon Storm Light",
+      "source_authority": "National Geographic subject taxonomy / editorial inspiration",
+      "source_url": "https://www.nationalgeographic.com/",
+      "required_credit_line": "Source: National Geographic subject taxonomy / editorial inspiration (National Geographic Award-Winning Subject). Individual asset URL required before production publication.",
+      "license_id": "rights-restricted",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-great-barrier-reef",
+      "asset_id": "asset-great-barrier-reef",
+      "display_title": "Great Barrier Reef",
+      "source_authority": "UNESCO World Heritage Centre",
+      "source_url": "https://whc.unesco.org/",
+      "required_credit_line": "Source: UNESCO World Heritage Centre (UNESCO World Heritage). Individual asset URL required before production publication.",
+      "license_id": "rights-restricted",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-tiger",
+      "asset_id": "asset-tiger",
+      "display_title": "Tiger",
+      "source_authority": "Global Biodiversity Information Facility",
+      "source_url": "https://www.gbif.org/",
+      "required_credit_line": "Source: Global Biodiversity Information Facility (GBIF Flagship Species). Individual asset URL required before production publication.",
+      "license_id": "cc-by",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-great-wall-of-china",
+      "asset_id": "asset-great-wall-of-china",
+      "display_title": "Great Wall of China",
+      "source_authority": "UNESCO World Heritage Centre",
+      "source_url": "https://whc.unesco.org/",
+      "required_credit_line": "Source: UNESCO World Heritage Centre (UNESCO World Heritage). Individual asset URL required before production publication.",
+      "license_id": "rights-restricted",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-lion",
+      "asset_id": "asset-lion",
+      "display_title": "Lion",
+      "source_authority": "Global Biodiversity Information Facility",
+      "source_url": "https://www.gbif.org/",
+      "required_credit_line": "Source: Global Biodiversity Information Facility (GBIF Flagship Species). Individual asset URL required before production publication.",
+      "license_id": "cc-by",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-the-night-watch",
+      "asset_id": "asset-the-night-watch",
+      "display_title": "The Night Watch",
+      "source_authority": "Rijksmuseum",
+      "source_url": "https://www.rijksmuseum.nl/",
+      "required_credit_line": "Source: Rijksmuseum (Rijksmuseum Public Domain). Individual asset URL required before production publication.",
+      "license_id": "public-domain",
+      "attribution_required": false,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-ansel-adams-national-parks-photographs",
+      "asset_id": "asset-ansel-adams-national-parks-photographs",
+      "display_title": "Ansel Adams National Parks Photographs",
+      "source_authority": "Library of Congress",
+      "source_url": "https://www.loc.gov/",
+      "required_credit_line": "Source: Library of Congress (Library of Congress). Individual asset URL required before production publication.",
+      "license_id": "rights-restricted",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-tyrannosaurus-rex-hall-specimen",
+      "asset_id": "asset-tyrannosaurus-rex-hall-specimen",
+      "display_title": "Tyrannosaurus rex Hall Specimen",
+      "source_authority": "Smithsonian Open Access",
+      "source_url": "https://www.si.edu/openaccess",
+      "required_credit_line": "Source: Smithsonian Open Access (Smithsonian Open Access). Individual asset URL required before production publication.",
+      "license_id": "cc0",
+      "attribution_required": false,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-giant-panda",
+      "asset_id": "asset-giant-panda",
+      "display_title": "Giant Panda",
+      "source_authority": "Global Biodiversity Information Facility",
+      "source_url": "https://www.gbif.org/",
+      "required_credit_line": "Source: Global Biodiversity Information Facility (GBIF Flagship Species). Individual asset URL required before production publication.",
+      "license_id": "cc-by",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-african-elephant",
+      "asset_id": "asset-african-elephant",
+      "display_title": "African Elephant",
+      "source_authority": "Global Biodiversity Information Facility",
+      "source_url": "https://www.gbif.org/",
+      "required_credit_line": "Source: Global Biodiversity Information Facility (GBIF Flagship Species). Individual asset URL required before production publication.",
+      "license_id": "cc-by",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-venice-and-its-lagoon",
+      "asset_id": "asset-venice-and-its-lagoon",
+      "display_title": "Venice and its Lagoon",
+      "source_authority": "UNESCO World Heritage Centre",
+      "source_url": "https://whc.unesco.org/",
+      "required_credit_line": "Source: UNESCO World Heritage Centre (UNESCO World Heritage). Individual asset URL required before production publication.",
+      "license_id": "rights-restricted",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-tiger-in-mangrove-forest",
+      "asset_id": "asset-tiger-in-mangrove-forest",
+      "display_title": "Tiger in Mangrove Forest",
+      "source_authority": "National Geographic subject taxonomy / editorial inspiration",
+      "source_url": "https://www.nationalgeographic.com/",
+      "required_credit_line": "Source: National Geographic subject taxonomy / editorial inspiration (National Geographic Award-Winning Subject). Individual asset URL required before production publication.",
+      "license_id": "rights-restricted",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-northern-lights-over-arctic-landscape",
+      "asset_id": "asset-northern-lights-over-arctic-landscape",
+      "display_title": "Northern Lights over Arctic Landscape",
+      "source_authority": "National Geographic subject taxonomy / editorial inspiration",
+      "source_url": "https://www.nationalgeographic.com/",
+      "required_credit_line": "Source: National Geographic subject taxonomy / editorial inspiration (National Geographic Award-Winning Subject). Individual asset URL required before production publication.",
+      "license_id": "rights-restricted",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-colosseum-and-historic-centre-of-rome",
+      "asset_id": "asset-colosseum-and-historic-centre-of-rome",
+      "display_title": "Colosseum and Historic Centre of Rome",
+      "source_authority": "UNESCO World Heritage Centre",
+      "source_url": "https://whc.unesco.org/",
+      "required_credit_line": "Source: UNESCO World Heritage Centre (UNESCO World Heritage). Individual asset URL required before production publication.",
+      "license_id": "rights-restricted",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-serengeti-national-park",
+      "asset_id": "asset-serengeti-national-park",
+      "display_title": "Serengeti National Park",
+      "source_authority": "UNESCO World Heritage Centre",
+      "source_url": "https://whc.unesco.org/",
+      "required_credit_line": "Source: UNESCO World Heritage Centre (UNESCO World Heritage). Individual asset URL required before production publication.",
+      "license_id": "rights-restricted",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-great-migration-river-crossing",
+      "asset_id": "asset-great-migration-river-crossing",
+      "display_title": "Great Migration River Crossing",
+      "source_authority": "National Geographic subject taxonomy / editorial inspiration",
+      "source_url": "https://www.nationalgeographic.com/",
+      "required_credit_line": "Source: National Geographic subject taxonomy / editorial inspiration (National Geographic Award-Winning Subject). Individual asset URL required before production publication.",
+      "license_id": "rights-restricted",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-elephant-migration-in-amboseli",
+      "asset_id": "asset-elephant-migration-in-amboseli",
+      "display_title": "Elephant Migration in Amboseli",
+      "source_authority": "National Geographic subject taxonomy / editorial inspiration",
+      "source_url": "https://www.nationalgeographic.com/",
+      "required_credit_line": "Source: National Geographic subject taxonomy / editorial inspiration (National Geographic Award-Winning Subject). Individual asset URL required before production publication.",
+      "license_id": "rights-restricted",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-antelope-canyon-light-beams",
+      "asset_id": "asset-antelope-canyon-light-beams",
+      "display_title": "Antelope Canyon Light Beams",
+      "source_authority": "National Geographic subject taxonomy / editorial inspiration",
+      "source_url": "https://www.nationalgeographic.com/",
+      "required_credit_line": "Source: National Geographic subject taxonomy / editorial inspiration (National Geographic Award-Winning Subject). Individual asset URL required before production publication.",
+      "license_id": "rights-restricted",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-polar-bear",
+      "asset_id": "asset-polar-bear",
+      "display_title": "Polar Bear",
+      "source_authority": "Global Biodiversity Information Facility",
+      "source_url": "https://www.gbif.org/",
+      "required_credit_line": "Source: Global Biodiversity Information Facility (GBIF Flagship Species). Individual asset URL required before production publication.",
+      "license_id": "cc-by",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-galapagos-islands",
+      "asset_id": "asset-galapagos-islands",
+      "display_title": "Galapagos Islands",
+      "source_authority": "UNESCO World Heritage Centre",
+      "source_url": "https://whc.unesco.org/",
+      "required_credit_line": "Source: UNESCO World Heritage Centre (UNESCO World Heritage). Individual asset URL required before production publication.",
+      "license_id": "rights-restricted",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    },
+    {
+      "attribution_id": "attr-bengal-tiger-cub-portrait",
+      "asset_id": "asset-bengal-tiger-cub-portrait",
+      "display_title": "Bengal Tiger Cub Portrait",
+      "source_authority": "National Geographic subject taxonomy / editorial inspiration",
+      "source_url": "https://www.nationalgeographic.com/",
+      "required_credit_line": "Source: National Geographic subject taxonomy / editorial inspiration (National Geographic Award-Winning Subject). Individual asset URL required before production publication.",
+      "license_id": "rights-restricted",
+      "attribution_required": true,
+      "attribution_status": "template_ready_requires_asset_url"
+    }
+  ]
+}
