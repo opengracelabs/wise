@@ -1,0 +1,604 @@
+{
+  "audiobooks": [
+    {
+      "audiobook_id": "rc13-audiobook-001",
+      "title": "Listen to Pyramids of Giza: A Nature & Culture Story",
+      "audience": "General listeners",
+      "chapters": [
+        "Introduction: Why Pyramids of Giza matters",
+        "Collection context: Heritage and Public Domain Art",
+        "Visual reading guide for Pyramids of Giza",
+        "Connected story: Maps, Routes, and Place: Taj Mahal",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-003",
+        "rc10-collection-004",
+        "rc10-collection-021"
+      ],
+      "source_assets": [
+        "Pyramids of Giza",
+        "Taj Mahal",
+        "Lion"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-002",
+      "title": "Listen to Taj Mahal: A Nature & Culture Story",
+      "audience": "Family listening",
+      "chapters": [
+        "Introduction: Why Taj Mahal matters",
+        "Collection context: Heritage and Maps and Memory",
+        "Visual reading guide for Taj Mahal",
+        "Connected story: Art in Public Trust: Pyramids of Giza",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-004",
+        "rc10-collection-003",
+        "rc10-collection-020"
+      ],
+      "source_assets": [
+        "Taj Mahal",
+        "Pyramids of Giza",
+        "Venice and its Lagoon"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-003",
+      "title": "Listen to Sunflowers: A Nature & Culture Story",
+      "audience": "Classroom listening",
+      "chapters": [
+        "Introduction: Why Sunflowers matters",
+        "Collection context: Art and Exploration",
+        "Visual reading guide for Sunflowers",
+        "Connected story: Maps, Routes, and Place: Northern Lights over Arctic Landscape",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-046",
+        "rc10-collection-084",
+        "rc10-collection-001"
+      ],
+      "source_assets": [
+        "Sunflowers",
+        "Northern Lights over Arctic Landscape",
+        "Machu Picchu"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-004",
+      "title": "Listen to Machu Picchu: A Nature & Culture Story",
+      "audience": "Travel listening",
+      "chapters": [
+        "Introduction: Why Machu Picchu matters",
+        "Collection context: Heritage and World Heritage",
+        "Visual reading guide for Machu Picchu",
+        "Connected story: Species and Stewardship: Ansel Adams National Parks Photographs",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-001",
+        "rc10-collection-072",
+        "rc10-collection-089"
+      ],
+      "source_assets": [
+        "Machu Picchu",
+        "Ansel Adams National Parks Photographs",
+        "Tiger in Mangrove Forest"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-005",
+      "title": "Listen to Grand Canyon Storm Light: A Nature & Culture Story",
+      "audience": "Museum audio audiences",
+      "chapters": [
+        "Introduction: Why Grand Canyon Storm Light matters",
+        "Collection context: Nature and Flagship Species",
+        "Visual reading guide for Grand Canyon Storm Light",
+        "Connected story: Origins and Memory: Amazon Rainforest Canopy",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-092",
+        "rc10-collection-086",
+        "rc10-collection-003"
+      ],
+      "source_assets": [
+        "Grand Canyon Storm Light",
+        "Amazon Rainforest Canopy",
+        "Pyramids of Giza"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-006",
+      "title": "Listen to Great Barrier Reef: A Nature & Culture Story",
+      "audience": "General listeners",
+      "chapters": [
+        "Introduction: Why Great Barrier Reef matters",
+        "Collection context: Heritage and Maps and Memory",
+        "Visual reading guide for Great Barrier Reef",
+        "Connected story: Species and Stewardship: Tiger",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-014",
+        "rc10-collection-022",
+        "rc10-collection-039"
+      ],
+      "source_assets": [
+        "Great Barrier Reef",
+        "Tiger",
+        "Ruby Slippers"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-007",
+      "title": "Listen to Tiger: A Nature & Culture Story",
+      "audience": "Family listening",
+      "chapters": [
+        "Introduction: Why Tiger matters",
+        "Collection context: Nature and Flagship Species",
+        "Visual reading guide for Tiger",
+        "Connected story: Species and Stewardship: Emperor Penguins on Sea Ice",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-022",
+        "rc10-collection-087",
+        "rc10-collection-004"
+      ],
+      "source_assets": [
+        "Tiger",
+        "Emperor Penguins on Sea Ice",
+        "Taj Mahal"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-008",
+      "title": "Listen to Great Wall of China: A Nature & Culture Story",
+      "audience": "Classroom listening",
+      "chapters": [
+        "Introduction: Why Great Wall of China matters",
+        "Collection context: Heritage and Flagship Species",
+        "Visual reading guide for Great Wall of China",
+        "Connected story: Species and Stewardship: Great Wall of China",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-002",
+        "rc10-collection-002",
+        "rc10-collection-019"
+      ],
+      "source_assets": [
+        "Great Wall of China",
+        "Great Wall of China",
+        "Kyoto Historic Monuments"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-009",
+      "title": "Listen to Lion: A Nature & Culture Story",
+      "audience": "Travel listening",
+      "chapters": [
+        "Introduction: Why Lion matters",
+        "Collection context: Nature and World Heritage",
+        "Visual reading guide for Lion",
+        "Connected story: Origins and Memory: Angkor Wat",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-021",
+        "rc10-collection-006",
+        "rc10-collection-023"
+      ],
+      "source_assets": [
+        "Lion",
+        "Angkor Wat",
+        "African Elephant"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-010",
+      "title": "Listen to The Night Watch: A Nature & Culture Story",
+      "audience": "Museum audio audiences",
+      "chapters": [
+        "Introduction: Why The Night Watch matters",
+        "Collection context: Art and Exploration",
+        "Visual reading guide for The Night Watch",
+        "Connected story: Species and Stewardship: Petra",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-056",
+        "rc10-collection-007",
+        "rc10-collection-024"
+      ],
+      "source_assets": [
+        "The Night Watch",
+        "Petra",
+        "Giant Panda"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-011",
+      "title": "Listen to Ansel Adams National Parks Photographs: A Nature & Culture Story",
+      "audience": "General listeners",
+      "chapters": [
+        "Introduction: Why Ansel Adams National Parks Photographs matters",
+        "Collection context: History and Flagship Species",
+        "Visual reading guide for Ansel Adams National Parks Photographs",
+        "Connected story: Icons of Discovery: Stonehenge",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-072",
+        "rc10-collection-005",
+        "rc10-collection-022"
+      ],
+      "source_assets": [
+        "Ansel Adams National Parks Photographs",
+        "Stonehenge",
+        "Tiger"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-012",
+      "title": "Listen to Tyrannosaurus rex Hall Specimen: A Nature & Culture Story",
+      "audience": "Family listening",
+      "chapters": [
+        "Introduction: Why Tyrannosaurus rex Hall Specimen matters",
+        "Collection context: Culture and Flagship Species",
+        "Visual reading guide for Tyrannosaurus rex Hall Specimen",
+        "Connected story: Maps, Routes, and Place: Humpback Whale",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-042",
+        "rc10-collection-029",
+        "rc10-collection-046"
+      ],
+      "source_assets": [
+        "Tyrannosaurus rex Hall Specimen",
+        "Humpback Whale",
+        "Sunflowers"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-013",
+      "title": "Listen to Giant Panda: A Nature & Culture Story",
+      "audience": "Classroom listening",
+      "chapters": [
+        "Introduction: Why Giant Panda matters",
+        "Collection context: Nature and Maps and Memory",
+        "Visual reading guide for Giant Panda",
+        "Connected story: Species and Stewardship: Coral Reef Biodiversity",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-024",
+        "rc10-collection-082",
+        "rc10-collection-099"
+      ],
+      "source_assets": [
+        "Giant Panda",
+        "Coral Reef Biodiversity",
+        "Bengal Tiger Cub Portrait"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-014",
+      "title": "Listen to African Elephant: A Nature & Culture Story",
+      "audience": "Travel listening",
+      "chapters": [
+        "Introduction: Why African Elephant matters",
+        "Collection context: Nature and Public Domain Art",
+        "Visual reading guide for African Elephant",
+        "Connected story: Maps, Routes, and Place: Tiger in Mangrove Forest",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-023",
+        "rc10-collection-089",
+        "rc10-collection-006"
+      ],
+      "source_assets": [
+        "African Elephant",
+        "Tiger in Mangrove Forest",
+        "Angkor Wat"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-015",
+      "title": "Listen to Venice and its Lagoon: A Nature & Culture Story",
+      "audience": "Museum audio audiences",
+      "chapters": [
+        "Introduction: Why Venice and its Lagoon matters",
+        "Collection context: Heritage and Science and Discovery",
+        "Visual reading guide for Venice and its Lagoon",
+        "Connected story: Species and Stewardship: Grand Canyon Storm Light",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-020",
+        "rc10-collection-092",
+        "rc10-collection-009"
+      ],
+      "source_assets": [
+        "Venice and its Lagoon",
+        "Grand Canyon Storm Light",
+        "Acropolis of Athens"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-016",
+      "title": "Listen to Tiger in Mangrove Forest: A Nature & Culture Story",
+      "audience": "General listeners",
+      "chapters": [
+        "Introduction: Why Tiger in Mangrove Forest matters",
+        "Collection context: Nature and Landscape",
+        "Visual reading guide for Tiger in Mangrove Forest",
+        "Connected story: Origins and Memory: Machu Picchu",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-089",
+        "rc10-collection-001",
+        "rc10-collection-018"
+      ],
+      "source_assets": [
+        "Tiger in Mangrove Forest",
+        "Machu Picchu",
+        "Alhambra"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-017",
+      "title": "Listen to Northern Lights over Arctic Landscape: A Nature & Culture Story",
+      "audience": "Family listening",
+      "chapters": [
+        "Introduction: Why Northern Lights over Arctic Landscape matters",
+        "Collection context: Nature and Maps and Memory",
+        "Visual reading guide for Northern Lights over Arctic Landscape",
+        "Connected story: Art in Public Trust: Colosseum and Historic Centre of Rome",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-084",
+        "rc10-collection-008",
+        "rc10-collection-025"
+      ],
+      "source_assets": [
+        "Northern Lights over Arctic Landscape",
+        "Colosseum and Historic Centre of Rome",
+        "Snow Leopard"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-018",
+      "title": "Listen to Colosseum and Historic Centre of Rome: A Nature & Culture Story",
+      "audience": "Classroom listening",
+      "chapters": [
+        "Introduction: Why Colosseum and Historic Centre of Rome matters",
+        "Collection context: Heritage and Cultural Icons",
+        "Visual reading guide for Colosseum and Historic Centre of Rome",
+        "Connected story: Origins and Memory: Lion",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-008",
+        "rc10-collection-021",
+        "rc10-collection-038"
+      ],
+      "source_assets": [
+        "Colosseum and Historic Centre of Rome",
+        "Lion",
+        "Hope Diamond"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-019",
+      "title": "Listen to Serengeti National Park: A Nature & Culture Story",
+      "audience": "Travel listening",
+      "chapters": [
+        "Introduction: Why Serengeti National Park matters",
+        "Collection context: Heritage and World Heritage",
+        "Visual reading guide for Serengeti National Park",
+        "Connected story: Origins and Memory: Serengeti National Park",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-011",
+        "rc10-collection-011",
+        "rc10-collection-028"
+      ],
+      "source_assets": [
+        "Serengeti National Park",
+        "Serengeti National Park",
+        "Blue Whale"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-020",
+      "title": "Listen to Great Migration River Crossing: A Nature & Culture Story",
+      "audience": "Museum audio audiences",
+      "chapters": [
+        "Introduction: Why Great Migration River Crossing matters",
+        "Collection context: Nature and Landscape",
+        "Visual reading guide for Great Migration River Crossing",
+        "Connected story: Maps, Routes, and Place: Ruby Slippers",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-079",
+        "rc10-collection-039",
+        "rc10-collection-056"
+      ],
+      "source_assets": [
+        "Great Migration River Crossing",
+        "Ruby Slippers",
+        "The Night Watch"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-021",
+      "title": "Listen to Elephant Migration in Amboseli: A Nature & Culture Story",
+      "audience": "General listeners",
+      "chapters": [
+        "Introduction: Why Elephant Migration in Amboseli matters",
+        "Collection context: Nature and Education",
+        "Visual reading guide for Elephant Migration in Amboseli",
+        "Connected story: Origins and Memory: Mountain Gorilla Family",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-077",
+        "rc10-collection-081",
+        "rc10-collection-098"
+      ],
+      "source_assets": [
+        "Elephant Migration in Amboseli",
+        "Mountain Gorilla Family",
+        "Antelope Canyon Light Beams"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-022",
+      "title": "Listen to Antelope Canyon Light Beams: A Nature & Culture Story",
+      "audience": "Family listening",
+      "chapters": [
+        "Introduction: Why Antelope Canyon Light Beams matters",
+        "Collection context: Nature and Cultural Icons",
+        "Visual reading guide for Antelope Canyon Light Beams",
+        "Connected story: Species and Stewardship: Namib Desert Dunes",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-098",
+        "rc10-collection-097",
+        "rc10-collection-014"
+      ],
+      "source_assets": [
+        "Antelope Canyon Light Beams",
+        "Namib Desert Dunes",
+        "Great Barrier Reef"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-023",
+      "title": "Listen to Polar Bear: A Nature & Culture Story",
+      "audience": "Classroom listening",
+      "chapters": [
+        "Introduction: Why Polar Bear matters",
+        "Collection context: Nature and Education",
+        "Visual reading guide for Polar Bear",
+        "Connected story: Maps, Routes, and Place: Bengal Tiger Cub Portrait",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-027",
+        "rc10-collection-099",
+        "rc10-collection-016"
+      ],
+      "source_assets": [
+        "Polar Bear",
+        "Bengal Tiger Cub Portrait",
+        "Chichen Itza"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-024",
+      "title": "Listen to Galapagos Islands: A Nature & Culture Story",
+      "audience": "Travel listening",
+      "chapters": [
+        "Introduction: Why Galapagos Islands matters",
+        "Collection context: Heritage and Flagship Species",
+        "Visual reading guide for Galapagos Islands",
+        "Connected story: Icons of Discovery: Mont-Saint-Michel",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-012",
+        "rc10-collection-010",
+        "rc10-collection-027"
+      ],
+      "source_assets": [
+        "Galapagos Islands",
+        "Mont-Saint-Michel",
+        "Polar Bear"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    },
+    {
+      "audiobook_id": "rc13-audiobook-025",
+      "title": "Listen to Bengal Tiger Cub Portrait: A Nature & Culture Story",
+      "audience": "Museum audio audiences",
+      "chapters": [
+        "Introduction: Why Bengal Tiger Cub Portrait matters",
+        "Collection context: Nature and Landscape",
+        "Visual reading guide for Bengal Tiger Cub Portrait",
+        "Connected story: Species and Stewardship: Galapagos Islands",
+        "Stewardship, memory, and learning activities"
+      ],
+      "source_collections": [
+        "rc10-collection-099",
+        "rc10-collection-012",
+        "rc10-collection-029"
+      ],
+      "source_assets": [
+        "Bengal Tiger Cub Portrait",
+        "Galapagos Islands",
+        "Humpback Whale"
+      ],
+      "narration_style": "Warm documentary narration with source-aware educational pacing",
+      "audio_requirements": "Five to seven minute chapters, clear pronunciation guide, rights-cleared music only"
+    }
+  ]
+}

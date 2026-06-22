@@ -435,6 +435,71 @@ def test_rc12_seo_and_launch_selection_datasets():
 
 
 @pytest.mark.e2e
+def test_rc13_content_factory_and_book_pipelines():
+    factory = json.loads(Path("data/publishing/content_factory.json").read_text(encoding="utf-8"))
+    showcase_assets = json.loads(Path("data/publishing/top_25_showcase_assets.json").read_text(encoding="utf-8"))
+    ebooks = json.loads(Path("data/publishing/ebooks.json").read_text(encoding="utf-8"))["ebooks"]
+    audiobooks = json.loads(Path("data/publishing/audiobooks.json").read_text(encoding="utf-8"))["audiobooks"]
+
+    assert len(showcase_assets) == 25
+    assert {
+        "Articles",
+        "Collection Pages",
+        "Series Pages",
+        "Product Pages",
+        "Educational Resources",
+    } == {pipeline["name"] for pipeline in factory["pipelines"]}
+    assert len(ebooks) == 25
+    assert len(audiobooks) == 25
+    for concept in ebooks:
+        assert concept["title"]
+        assert concept["audience"]
+        assert concept["chapters"]
+        assert concept["source_collections"]
+        assert concept["source_assets"]
+    for concept in audiobooks:
+        assert concept["title"]
+        assert concept["chapters"]
+        assert concept["source_collections"]
+        assert concept["source_assets"]
+
+
+@pytest.mark.e2e
+def test_rc13_print_youtube_and_pinterest_production():
+    print_products = json.loads(Path("data/publishing/print_products.json").read_text(encoding="utf-8"))
+    youtube = json.loads(Path("data/publishing/youtube_production.json").read_text(encoding="utf-8"))
+    pinterest = json.loads(Path("data/publishing/pinterest_production.json").read_text(encoding="utf-8"))
+
+    for group in [
+        "coffee_table_books",
+        "calendars",
+        "educational_card_sets",
+        "historic_map_collections",
+    ]:
+        assert print_products[group]
+        for item in print_products[group]:
+            assert item["title"]
+            assert item["source_asset"]
+            assert item["source_collection"]
+            assert item["format_requirements"]
+
+    assert len(youtube["videos"]) == 25
+    for video in youtube["videos"]:
+        assert video["script"]
+        assert video["narration"]
+        assert video["image_requirements"]
+        assert video["CTA"]
+
+    for group in ["heritage_pins", "wildlife_pins", "product_pins", "collection_pins"]:
+        assert len(pinterest[group]) == 25
+        for pin in pinterest[group]:
+            assert pin["title"]
+            assert pin["description"]
+            assert pin["image_requirements"]
+            assert pin["CTA"] if "CTA" in pin else pin["production_status"]
+
+
+@pytest.mark.e2e
 @pytest.mark.parametrize("product_slug", PRODUCT_SLUGS)
 def test_commercial_product_pages_served(product_slug: str):
     client = TestClient(app)

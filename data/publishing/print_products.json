@@ -1,0 +1,357 @@
+{
+  "coffee_table_books": [
+    {
+      "print_product_id": "rc13-coffee-table-book-001",
+      "title": "Pyramids of Giza Coffee Table Book",
+      "source_asset": "Pyramids of Giza",
+      "source_collection": "Pyramids of Giza Collection",
+      "source_category": "UNESCO World Heritage",
+      "format_requirements": "Large-format editorial layout, 80-140 pages, source captions, rights-cleared full-bleed imagery",
+      "distribution_targets": [
+        "Amazon KDP"
+      ]
+    },
+    {
+      "print_product_id": "rc13-coffee-table-book-002",
+      "title": "Machu Picchu Coffee Table Book",
+      "source_asset": "Machu Picchu",
+      "source_collection": "Machu Picchu Collection",
+      "source_category": "UNESCO World Heritage",
+      "format_requirements": "Large-format editorial layout, 80-140 pages, source captions, rights-cleared full-bleed imagery",
+      "distribution_targets": [
+        "Amazon KDP"
+      ]
+    }
+  ],
+  "calendars": [
+    {
+      "print_product_id": "rc13-calendar-001",
+      "title": "Sunflowers Calendar",
+      "source_asset": "Sunflowers",
+      "source_collection": "Sunflowers Collection",
+      "source_category": "National Gallery Public Domain",
+      "format_requirements": "12-month calendar, seasonal captions, source and educational note per month",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-calendar-002",
+      "title": "Taj Mahal Calendar",
+      "source_asset": "Taj Mahal",
+      "source_collection": "Taj Mahal Collection",
+      "source_category": "UNESCO World Heritage",
+      "format_requirements": "12-month calendar, seasonal captions, source and educational note per month",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-calendar-003",
+      "title": "Tiger Calendar",
+      "source_asset": "Tiger",
+      "source_collection": "Tiger Collection",
+      "source_category": "GBIF Flagship Species",
+      "format_requirements": "12-month calendar, seasonal captions, source and educational note per month",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-calendar-004",
+      "title": "Lion Calendar",
+      "source_asset": "Lion",
+      "source_collection": "Lion Collection",
+      "source_category": "GBIF Flagship Species",
+      "format_requirements": "12-month calendar, seasonal captions, source and educational note per month",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-calendar-005",
+      "title": "Giant Panda Calendar",
+      "source_asset": "Giant Panda",
+      "source_collection": "Giant Panda Collection",
+      "source_category": "GBIF Flagship Species",
+      "format_requirements": "12-month calendar, seasonal captions, source and educational note per month",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    }
+  ],
+  "educational_card_sets": [
+    {
+      "print_product_id": "rc13-educational-card-set-001",
+      "title": "Pyramids of Giza Educational Card Set",
+      "source_asset": "Pyramids of Giza",
+      "source_collection": "Pyramids of Giza Collection",
+      "source_category": "UNESCO World Heritage",
+      "format_requirements": "48-card deck, front image, back facts, activity prompts, classroom-safe language",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-educational-card-set-002",
+      "title": "Pyramids of Giza Educational Card Set",
+      "source_asset": "Pyramids of Giza",
+      "source_collection": "Pyramids of Giza Collection",
+      "source_category": "UNESCO World Heritage",
+      "format_requirements": "48-card deck, front image, back facts, activity prompts, classroom-safe language",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-educational-card-set-003",
+      "title": "Pyramids of Giza Educational Card Set",
+      "source_asset": "Pyramids of Giza",
+      "source_collection": "Pyramids of Giza Collection",
+      "source_category": "UNESCO World Heritage",
+      "format_requirements": "48-card deck, front image, back facts, activity prompts, classroom-safe language",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-educational-card-set-004",
+      "title": "Sunflowers Educational Card Set",
+      "source_asset": "Sunflowers",
+      "source_collection": "Sunflowers Collection",
+      "source_category": "National Gallery Public Domain",
+      "format_requirements": "48-card deck, front image, back facts, activity prompts, classroom-safe language",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-educational-card-set-005",
+      "title": "Sunflowers Educational Card Set",
+      "source_asset": "Sunflowers",
+      "source_collection": "Sunflowers Collection",
+      "source_category": "National Gallery Public Domain",
+      "format_requirements": "48-card deck, front image, back facts, activity prompts, classroom-safe language",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-educational-card-set-006",
+      "title": "Sunflowers Educational Card Set",
+      "source_asset": "Sunflowers",
+      "source_collection": "Sunflowers Collection",
+      "source_category": "National Gallery Public Domain",
+      "format_requirements": "48-card deck, front image, back facts, activity prompts, classroom-safe language",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-educational-card-set-007",
+      "title": "Sunflowers Educational Card Set",
+      "source_asset": "Sunflowers",
+      "source_collection": "Sunflowers Collection",
+      "source_category": "National Gallery Public Domain",
+      "format_requirements": "48-card deck, front image, back facts, activity prompts, classroom-safe language",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-educational-card-set-008",
+      "title": "Taj Mahal Educational Card Set",
+      "source_asset": "Taj Mahal",
+      "source_collection": "Taj Mahal Collection",
+      "source_category": "UNESCO World Heritage",
+      "format_requirements": "48-card deck, front image, back facts, activity prompts, classroom-safe language",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-educational-card-set-009",
+      "title": "Taj Mahal Educational Card Set",
+      "source_asset": "Taj Mahal",
+      "source_collection": "Taj Mahal Collection",
+      "source_category": "UNESCO World Heritage",
+      "format_requirements": "48-card deck, front image, back facts, activity prompts, classroom-safe language",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-educational-card-set-010",
+      "title": "Taj Mahal Educational Card Set",
+      "source_asset": "Taj Mahal",
+      "source_collection": "Taj Mahal Collection",
+      "source_category": "UNESCO World Heritage",
+      "format_requirements": "48-card deck, front image, back facts, activity prompts, classroom-safe language",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    }
+  ],
+  "historic_map_collections": [
+    {
+      "print_product_id": "rc13-historic-map-collection-001",
+      "title": "Pyramids of Giza Historic Map Collection",
+      "source_asset": "Pyramids of Giza",
+      "source_collection": "Pyramids of Giza Collection",
+      "source_category": "UNESCO World Heritage",
+      "format_requirements": "Foldout or portfolio map set, place labels, timeline notes, source attribution",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-historic-map-collection-002",
+      "title": "Pyramids of Giza Historic Map Collection",
+      "source_asset": "Pyramids of Giza",
+      "source_collection": "Pyramids of Giza Collection",
+      "source_category": "UNESCO World Heritage",
+      "format_requirements": "Foldout or portfolio map set, place labels, timeline notes, source attribution",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-historic-map-collection-003",
+      "title": "Pyramids of Giza Historic Map Collection",
+      "source_asset": "Pyramids of Giza",
+      "source_collection": "Pyramids of Giza Collection",
+      "source_category": "UNESCO World Heritage",
+      "format_requirements": "Foldout or portfolio map set, place labels, timeline notes, source attribution",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-historic-map-collection-004",
+      "title": "Sunflowers Historic Map Collection",
+      "source_asset": "Sunflowers",
+      "source_collection": "Sunflowers Collection",
+      "source_category": "National Gallery Public Domain",
+      "format_requirements": "Foldout or portfolio map set, place labels, timeline notes, source attribution",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-historic-map-collection-005",
+      "title": "Sunflowers Historic Map Collection",
+      "source_asset": "Sunflowers",
+      "source_collection": "Sunflowers Collection",
+      "source_category": "National Gallery Public Domain",
+      "format_requirements": "Foldout or portfolio map set, place labels, timeline notes, source attribution",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-historic-map-collection-006",
+      "title": "Taj Mahal Historic Map Collection",
+      "source_asset": "Taj Mahal",
+      "source_collection": "Taj Mahal Collection",
+      "source_category": "UNESCO World Heritage",
+      "format_requirements": "Foldout or portfolio map set, place labels, timeline notes, source attribution",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-historic-map-collection-007",
+      "title": "Taj Mahal Historic Map Collection",
+      "source_asset": "Taj Mahal",
+      "source_collection": "Taj Mahal Collection",
+      "source_category": "UNESCO World Heritage",
+      "format_requirements": "Foldout or portfolio map set, place labels, timeline notes, source attribution",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-historic-map-collection-008",
+      "title": "Tiger Historic Map Collection",
+      "source_asset": "Tiger",
+      "source_collection": "Tiger Collection",
+      "source_category": "GBIF Flagship Species",
+      "format_requirements": "Foldout or portfolio map set, place labels, timeline notes, source attribution",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-historic-map-collection-009",
+      "title": "Tiger Historic Map Collection",
+      "source_asset": "Tiger",
+      "source_collection": "Tiger Collection",
+      "source_category": "GBIF Flagship Species",
+      "format_requirements": "Foldout or portfolio map set, place labels, timeline notes, source attribution",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    },
+    {
+      "print_product_id": "rc13-historic-map-collection-010",
+      "title": "Machu Picchu Historic Map Collection",
+      "source_asset": "Machu Picchu",
+      "source_collection": "Machu Picchu Collection",
+      "source_category": "UNESCO World Heritage",
+      "format_requirements": "Foldout or portfolio map set, place labels, timeline notes, source attribution",
+      "distribution_targets": [
+        "Gelato",
+        "Printful",
+        "Shopify validation"
+      ]
+    }
+  ]
+}
