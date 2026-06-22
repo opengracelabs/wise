@@ -14,7 +14,11 @@ from wise_api.repository import get_heritage_object
 def test_heritage_object_aggregate(rc1_session: Session):
     view = get_heritage_object(rc1_session, "stonehenge")
     assert view.stable_id == "stonehenge"
-    assert view.source_registry.stable_id == "unesco"
+    # The canonical UNESCO source (registry seed 002) has canonical_name "unesco"
+    # and stable_id "unesco-whc"; the discovery record's source_registry_ref
+    # "unesco" resolves via canonical_name, so the resolved stable_id is "unesco-whc"
+    # (cf. tests/discovery/test_agent_integration.py and registry seed 002).
+    assert view.source_registry.stable_id == "unesco-whc"
     assert view.rights_verified is True
     assert view.quality_approved is True
     assert view.accessibility_compliant is True
