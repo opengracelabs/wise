@@ -18,7 +18,7 @@ This document is the single source of truth for institutional architecture. All 
 | **Version** | 1.0 |
 | **Date** | 2026-06-22 |
 | **Supersedes** | All previous draft architectures |
-| **Reference Documents** | `docs/architecture/canonical/*` |
+| **Reference Documents** | `docs/architecture/canonical/*` (canonical authority); [founder-execution-roadmap.md](../constitution/founder-execution-roadmap.md) (execution companion only) |
 
 #### Change Control
 

@@ -13,7 +13,7 @@
 
 | Document | Purpose |
 |----------|---------|
-| [01-mission.md](01-mission.md) | Mission, charter, and constitutional relationship |
+| [01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md) | Mission, charter, and constitutional relationship |
 | [02-reference-models.md](02-reference-models.md) | Institutional reference models informing design |
 | [03-canonical-architecture.md](03-canonical-architecture.md) | Canonical 100-year logical architecture |
 | [04-system-diagram.md](04-system-diagram.md) | Canonical system diagram |
@@ -27,12 +27,15 @@
 | [12-knowledge-graph-agent.md](12-knowledge-graph-agent.md) | Knowledge Graph Agent specification |
 | [13-quality-review-agent.md](13-quality-review-agent.md) | Quality Review Agent specification |
 | [14-translation-agent.md](14-translation-agent.md) | Translation Agent specification |
-| [15-education-agent.md](15-education-agent.md) | Education Agent specification |
-| [16-heritage-observatory-agent.md](16-heritage-observatory-agent.md) | Heritage Observatory Agent specification |
-| [16-biodiversity-observatory-agent.md](16-biodiversity-observatory-agent.md) | Biodiversity Observatory Agent specification |
-| [16-climate-observatory-agent.md](16-climate-observatory-agent.md) | Climate Observatory Agent specification |
-| [16-tourism-observatory-agent.md](16-tourism-observatory-agent.md) | Tourism Observatory Agent specification |
-| [17-language-observatory-agent.md](17-language-observatory-agent.md) | Language Observatory Agent specification |
+| [15-publishing-agent.md](15-publishing-agent.md) | Publishing Agent specification |
+| [16-education-agent.md](16-education-agent.md) | Education Agent specification |
+| [17-biodiversity-observatory-agent.md](17-biodiversity-observatory-agent.md) | Biodiversity Observatory Agent specification |
+| [18-climate-observatory-agent.md](18-climate-observatory-agent.md) | Climate Observatory Agent specification |
+| [19-heritage-observatory-agent.md](19-heritage-observatory-agent.md) | Heritage Observatory Agent specification |
+| [20-tourism-observatory-agent.md](20-tourism-observatory-agent.md) | Tourism Observatory Agent specification |
+| [21-language-observatory-agent.md](21-language-observatory-agent.md) | Language Observatory Agent specification |
+| [22-standards-agent.md](22-standards-agent.md) | Standards Agent specification |
+| [23-benchmark-agent.md](23-benchmark-agent.md) | Benchmark Agent specification |
 
 ---
 
@@ -91,9 +94,9 @@ The agent operates in the **Observatories** subgraph of the Experience Plane ([0
 
 **Upstream inputs:** Knowledge Graph place and heritage-site entities ([12-knowledge-graph-agent.md](12-knowledge-graph-agent.md)), observatory feeds via Ingestion, Research Fabric datasets, quality and rights clearance signals from the Quality Review Agent ([13-quality-review-agent.md](13-quality-review-agent.md)).
 
-**Downstream consumers:** Observatory Network dashboards, Tourism Portal, Conservation Portal, Research Fabric (citable data packages), Public Experience (trend visualizations), Education Agent (classroom-safe observatory excerpts where cleared, [15-education-agent.md](15-education-agent.md)).
+**Downstream consumers:** Observatory Network dashboards, Tourism Portal, Conservation Portal, Research Fabric (citable data packages), Public Experience (trend visualizations), Education Agent (classroom-safe observatory excerpts where cleared, [16-education-agent.md](16-education-agent.md)).
 
-**Peer observatories:** Heritage Observatory Agent (tourism-pressure threat correlation, [16-heritage-observatory-agent.md](16-heritage-observatory-agent.md)), Biodiversity Observatory Agent (ecosystem stress correlation, [16-biodiversity-observatory-agent.md](16-biodiversity-observatory-agent.md)), Climate Observatory Agent (environmental load correlation, [16-climate-observatory-agent.md](16-climate-observatory-agent.md)).
+**Peer observatories:** Heritage Observatory Agent (tourism-pressure threat correlation, [19-heritage-observatory-agent.md](19-heritage-observatory-agent.md)), Biodiversity Observatory Agent (ecosystem stress correlation, [17-biodiversity-observatory-agent.md](17-biodiversity-observatory-agent.md)), Climate Observatory Agent (environmental load correlation, [18-climate-observatory-agent.md](18-climate-observatory-agent.md)).
 
 ---
 
@@ -237,7 +240,7 @@ Approved longitudinal series are packaged for Research Fabric release with:
 
 ## 10. Success Criteria
 
-Aligned with Observatories phase completion criteria ([06-build-roadmap.md](06-build-roadmap.md), [06-build-roadmap.md](../constitution/06-build-roadmap.md) Phase 12):
+Aligned with Observatories phase completion criteria ([06-build-roadmap.md](06-build-roadmap.md), Phase 15):
 
 - Tourism observatory operational at ≥ 10 World Heritage or protected-area sites with baseline visitor-pattern data
 - Sustainability indicators tracked and SDG-mapped for ≥ 5 sites with steward-approved methodology
@@ -257,9 +260,9 @@ Aligned with Observatories phase completion criteria ([06-build-roadmap.md](06-b
 - **Provenance mandatory.** Every metric links to source feed, sensor, or steward submission with PREMIS-aligned audit events ([03-canonical-architecture.md](03-canonical-architecture.md), Provenance).
 - **Site authority respected.** UNESCO and partner site-management decisions override machine-generated recommendations on carrying capacity and access policy.
 - **Covenant compliance.** Partner withholding and redistribution restrictions block publication regardless of data quality ([08-decision-record.md](08-decision-record.md)).
-- **Cross-observatory integrity.** Correlation proposals require approved inputs from contributing observatory layers; the agent does not infer causation without steward or researcher validation. Tourism pressure supplements but does not replace Heritage conservation status assessments ([16-heritage-observatory-agent.md](16-heritage-observatory-agent.md)) or Biodiversity threatened-taxa signals ([16-biodiversity-observatory-agent.md](16-biodiversity-observatory-agent.md)).
-- **Free access preserved.** Public dashboards expose approved aggregates without gating underlying canonical place and site memory ([01-mission.md](01-mission.md)).
+- **Cross-observatory integrity.** Correlation proposals require approved inputs from contributing observatory layers; the agent does not infer causation without steward or researcher validation. Tourism pressure supplements but does not replace Heritage conservation status assessments ([19-heritage-observatory-agent.md](19-heritage-observatory-agent.md)) or Biodiversity threatened-taxa signals ([17-biodiversity-observatory-agent.md](17-biodiversity-observatory-agent.md)).
+- **Free access preserved.** Public dashboards expose approved aggregates without gating underlying canonical place and site memory ([01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md)).
 
 ---
 
-*Previous: [15-education-agent.md](15-education-agent.md) · Observatory peers: [16-heritage-observatory-agent.md](16-heritage-observatory-agent.md), [16-biodiversity-observatory-agent.md](16-biodiversity-observatory-agent.md), [16-climate-observatory-agent.md](16-climate-observatory-agent.md)*
+*Previous: [16-education-agent.md](16-education-agent.md) · Observatory peers: [19-heritage-observatory-agent.md](19-heritage-observatory-agent.md), [17-biodiversity-observatory-agent.md](17-biodiversity-observatory-agent.md), [18-climate-observatory-agent.md](18-climate-observatory-agent.md)*

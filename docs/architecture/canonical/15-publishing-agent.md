@@ -13,7 +13,7 @@
 
 | Document | Purpose |
 |----------|---------|
-| [01-mission.md](01-mission.md) | Mission, charter, and constitutional relationship |
+| [01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md) | Mission, charter, and constitutional relationship |
 | [02-reference-models.md](02-reference-models.md) | Institutional reference models informing design |
 | [03-canonical-architecture.md](03-canonical-architecture.md) | Canonical 100-year logical architecture |
 | [04-system-diagram.md](04-system-diagram.md) | Canonical system diagram |
@@ -28,6 +28,14 @@
 | [13-quality-review-agent.md](13-quality-review-agent.md) | Quality Review Agent specification |
 | [14-translation-agent.md](14-translation-agent.md) | Translation Agent specification |
 | [15-publishing-agent.md](15-publishing-agent.md) | Publishing Agent specification |
+| [16-education-agent.md](16-education-agent.md) | Education Agent specification |
+| [17-biodiversity-observatory-agent.md](17-biodiversity-observatory-agent.md) | Biodiversity Observatory Agent specification |
+| [18-climate-observatory-agent.md](18-climate-observatory-agent.md) | Climate Observatory Agent specification |
+| [19-heritage-observatory-agent.md](19-heritage-observatory-agent.md) | Heritage Observatory Agent specification |
+| [20-tourism-observatory-agent.md](20-tourism-observatory-agent.md) | Tourism Observatory Agent specification |
+| [21-language-observatory-agent.md](21-language-observatory-agent.md) | Language Observatory Agent specification |
+| [22-standards-agent.md](22-standards-agent.md) | Standards Agent specification |
+| [23-benchmark-agent.md](23-benchmark-agent.md) | Benchmark Agent specification |
 
 ---
 
@@ -254,4 +262,4 @@ Aligned with Publishing phase completion criteria ([06-build-roadmap.md](06-buil
 - **Rights before reuse.** Embedded media and excerpts require cleared rights metadata; ambiguous rights block publication.
 - **Provenance mandatory.** Every published artifact traces to content graph snapshot, agent version, quality clearance, and approving steward event ([03-canonical-architecture.md](03-canonical-architecture.md), Provenance).
 - **Experience Plane isolation.** Public-facing components consume Publishing APIs; they do not write directly to canonical storage (ADR-003, [08-decision-record.md](08-decision-record.md)).
-- **Canonical memory is not gated.** Publications are curated views on open canonical memory; Products must not restrict access to underlying public entities ([01-mission.md](01-mission.md)).
+- **Canonical memory is not gated.** Publications are curated views on open canonical memory; Products must not restrict access to underlying public entities ([01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md)).

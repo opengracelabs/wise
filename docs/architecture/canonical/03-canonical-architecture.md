@@ -26,14 +26,14 @@
 | [13-quality-review-agent.md](13-quality-review-agent.md) | Quality Review Agent specification |
 | [14-translation-agent.md](14-translation-agent.md) | Translation Agent specification |
 | [15-publishing-agent.md](15-publishing-agent.md) | Publishing Agent specification |
-| [15-education-agent.md](15-education-agent.md) | Education Agent specification |
-| [16-heritage-observatory-agent.md](16-heritage-observatory-agent.md) | Heritage Observatory Agent specification |
-| [16-biodiversity-observatory-agent.md](16-biodiversity-observatory-agent.md) | Biodiversity Observatory Agent specification |
-| [16-climate-observatory-agent.md](16-climate-observatory-agent.md) | Climate Observatory Agent specification |
-| [16-tourism-observatory-agent.md](16-tourism-observatory-agent.md) | Tourism Observatory Agent specification |
-| [17-language-observatory-agent.md](17-language-observatory-agent.md) | Language Observatory Agent specification |
-| [18-standards-agent.md](18-standards-agent.md) | Standards Agent specification |
-| [19-benchmark-agent.md](19-benchmark-agent.md) | Benchmark Agent specification |
+| [16-education-agent.md](16-education-agent.md) | Education Agent specification |
+| [17-biodiversity-observatory-agent.md](17-biodiversity-observatory-agent.md) | Biodiversity Observatory Agent specification |
+| [18-climate-observatory-agent.md](18-climate-observatory-agent.md) | Climate Observatory Agent specification |
+| [19-heritage-observatory-agent.md](19-heritage-observatory-agent.md) | Heritage Observatory Agent specification |
+| [20-tourism-observatory-agent.md](20-tourism-observatory-agent.md) | Tourism Observatory Agent specification |
+| [21-language-observatory-agent.md](21-language-observatory-agent.md) | Language Observatory Agent specification |
+| [22-standards-agent.md](22-standards-agent.md) | Standards Agent specification |
+| [23-benchmark-agent.md](23-benchmark-agent.md) | Benchmark Agent specification |
 
 ---
 
@@ -78,11 +78,11 @@ Open Grace is not implemented as a single application. It is expressed through:
 |-----------|----------|
 | **Constitutional Charter** | Mission, amendments, non-negotiable commitments ([01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md)) |
 | **Architecture Office** | Canonical architecture authority; maintains this document suite |
-| **Standards Registry** | Binding technical standards ([07-reference-standards.md](07-reference-standards.md)); automated conformance verification via [Standards Agent](18-standards-agent.md) |
+| **Standards Registry** | Binding technical standards ([07-reference-standards.md](07-reference-standards.md)); automated conformance verification via [Standards Agent](22-standards-agent.md) |
 | **Decision Record** | Immutable log of architectural decisions ([08-decision-record.md](08-decision-record.md)) |
 | **Stewardship Policy** | Preservation tiers, provenance requirements, access rules |
 | **Covenant Framework** | Agreements with partner institutions (UNESCO-aligned, GBIF nodes, museums, archives) |
-| **Benchmark Program** | Agent performance, quality metric, and architecture compliance evaluation ([19-benchmark-agent.md](19-benchmark-agent.md)) |
+| **Benchmark Program** | Agent performance, quality metric, and architecture compliance evaluation ([23-benchmark-agent.md](23-benchmark-agent.md)) |
 
 Open Grace has no public user interface. Its artifacts are governance documents, policies, and architectural contracts.
 
@@ -172,6 +172,7 @@ The platform plane implements the **founder build order** (see [06-build-roadmap
 | Outputs | Quality scores, curation queues, correction workflows, authority reconciliation |
 | Functions | Duplicate detection, attribution verification, taxonomy validation, rights audit |
 | Reference models | Harvard, Smithsonian |
+| Agent | [Quality Review Agent](13-quality-review-agent.md) — evaluates metadata quality, rights clearance, accessibility compliance, and content completeness; routes items to curatorial review queues |
 
 ### 4.8 Research Fabric
 
@@ -232,6 +233,7 @@ Curriculum-aligned learning experiences, lesson plans, interactive explorations,
 
 - Consumes: Publishing, Knowledge Graph, Translation Fabric
 - Reference models: MIT OpenCourseWare, Smithsonian education
+- Agent: [Education Agent](16-education-agent.md) — generates curriculum-aligned learning resources, curriculum mappings, and teacher guides for educator approval
 
 ### 5.4 Community
 
@@ -244,12 +246,13 @@ Contributor tools, citizen science interfaces, translation participation, and lo
 
 Live and longitudinal monitoring interfaces for nature (species, ecosystems) and culture (language vitality, site conditions, tourism impact, sustainability metrics).
 
-- Agent: [Tourism Observatory Agent](16-tourism-observatory-agent.md) — tracks visitor patterns and sustainability indicators at heritage and natural sites
-- Agent: [Biodiversity Observatory Agent](16-biodiversity-observatory-agent.md) — tracks **species**, **occurrences**, and **threatened taxa**; emits trend signals and conservation alerts for steward approval
+- Agent: [Heritage Observatory Agent](19-heritage-observatory-agent.md) — tracks World Heritage site condition, threats, and conservation status; emits Observatory Observation Records for steward review
+- Agent: [Tourism Observatory Agent](20-tourism-observatory-agent.md) — tracks visitor patterns and sustainability indicators at heritage and natural sites
+- Agent: [Biodiversity Observatory Agent](17-biodiversity-observatory-agent.md) — tracks **species**, **occurrences**, and **threatened taxa**; emits trend signals and conservation alerts for steward approval
 - Consumes: Ingestion, Knowledge Graph, Research Fabric
 - Reference models: GBIF, National Geographic, UNESCO World Heritage monitoring
-- Agent: [Climate Observatory Agent](16-climate-observatory-agent.md) — ingests climate and conservation feeds; operates **climate impacts**, **protected areas**, and **heritage risk** tracks; emits Observatory Observation Proposals for steward approval before canonical observatory writes
-- Agent: [Language Observatory Agent](17-language-observatory-agent.md) — tracks **endangered languages** and **revitalization programs**; ingests vitality signals from partner feeds; emits Vitality Observations and Revitalization Program Records for language-steward approval before canonical observatory writes
+- Agent: [Climate Observatory Agent](18-climate-observatory-agent.md) — ingests climate and conservation feeds; operates **climate impacts**, **protected areas**, and **heritage risk** tracks; emits Observatory Observation Proposals for steward approval before canonical observatory writes
+- Agent: [Language Observatory Agent](21-language-observatory-agent.md) — tracks **endangered languages** and **revitalization programs**; ingests vitality signals from partner feeds; emits Vitality Observations and Revitalization Program Records for language-steward approval before canonical observatory writes
 
 ---
 
@@ -293,6 +296,21 @@ Rights metadata follows Europeana Rights Statements and Creative Commons. No obj
 ### 6.5 Events and Observability
 
 All platform components emit structured events to a central observability plane (not public-facing). Events support audit, capacity planning, and quality analytics.
+
+### 6.6 Evidence Output Profile
+
+Assertion-making agents attach the following fields to every factual assertion, link proposal, and observatory observation. The profile is normative for agents that emit Entity Assertions, relationship or link proposals, and Observatory Observation Records or Proposals.
+
+| Field | Requirement |
+|-------|-------------|
+| **evidenceURIs[]** | URIs of supporting source records, preserved objects, partner feeds, or steward-reviewed documents |
+| **confidence** | Numeric score (0.0–1.0) or enumerated confidence tier per agent output schema |
+| **evidenceSummary** | Human-readable summary of the supporting material and derivation context |
+| **method** | Derivation method identifier (e.g., `rule-based`, `spatial-join`, `machine-inferred`, `feed-direct`, `steward-reviewed`) |
+| **sourceRegistryRefs[]** | Registered Source Registry entry URIs for upstream sources |
+| **provenanceEventId** | PREMIS-aligned or institutional event identifier linking the output to the agent run |
+
+Agents without sufficient supporting material MUST NOT emit the assertion; they route to steward review or emit a data-gap signal instead.
 
 ---
 

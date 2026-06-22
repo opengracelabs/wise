@@ -13,7 +13,7 @@
 
 | Document | Purpose |
 |----------|---------|
-| [01-mission.md](01-mission.md) | Mission, charter, and constitutional relationship |
+| [01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md) | Mission, charter, and constitutional relationship |
 | [02-reference-models.md](02-reference-models.md) | Institutional reference models informing design |
 | [03-canonical-architecture.md](03-canonical-architecture.md) | Canonical 100-year logical architecture |
 | [04-system-diagram.md](04-system-diagram.md) | Canonical system diagram |
@@ -27,12 +27,15 @@
 | [12-knowledge-graph-agent.md](12-knowledge-graph-agent.md) | Knowledge Graph Agent specification |
 | [13-quality-review-agent.md](13-quality-review-agent.md) | Quality Review Agent specification |
 | [14-translation-agent.md](14-translation-agent.md) | Translation Agent specification |
-| [15-education-agent.md](15-education-agent.md) | Education Agent specification |
-| [16-heritage-observatory-agent.md](16-heritage-observatory-agent.md) | Heritage Observatory Agent specification |
-| [16-biodiversity-observatory-agent.md](16-biodiversity-observatory-agent.md) | Biodiversity Observatory Agent specification |
-| [16-climate-observatory-agent.md](16-climate-observatory-agent.md) | Climate Observatory Agent specification |
-| [16-tourism-observatory-agent.md](16-tourism-observatory-agent.md) | Tourism Observatory Agent specification |
-| [17-language-observatory-agent.md](17-language-observatory-agent.md) | Language Observatory Agent specification |
+| [15-publishing-agent.md](15-publishing-agent.md) | Publishing Agent specification |
+| [16-education-agent.md](16-education-agent.md) | Education Agent specification |
+| [17-biodiversity-observatory-agent.md](17-biodiversity-observatory-agent.md) | Biodiversity Observatory Agent specification |
+| [18-climate-observatory-agent.md](18-climate-observatory-agent.md) | Climate Observatory Agent specification |
+| [19-heritage-observatory-agent.md](19-heritage-observatory-agent.md) | Heritage Observatory Agent specification |
+| [20-tourism-observatory-agent.md](20-tourism-observatory-agent.md) | Tourism Observatory Agent specification |
+| [21-language-observatory-agent.md](21-language-observatory-agent.md) | Language Observatory Agent specification |
+| [22-standards-agent.md](22-standards-agent.md) | Standards Agent specification |
+| [23-benchmark-agent.md](23-benchmark-agent.md) | Benchmark Agent specification |
 
 ---
 
@@ -229,8 +232,8 @@ Approved observation sets are packaged for Research Fabric with:
 | **Publishing (Phase 10)** | Conservation narrative hooks; no public risk storytelling without curator approval |
 | **Public Experience (Phase 11)** | Map layers and entity risk panels consume approved observations only |
 | **Observatories (Phase 15)** | Full three-track operation: climate impacts, protected areas, heritage risk; steward and curator review queues; live dashboards |
-| **Education (Phase 13)** | Classroom-cleared observatory datasets exposed to Education Agent ([15-education-agent.md](15-education-agent.md)) |
-| **Digital Twin (Phase 16)** | Approved climate and risk layers feed geospatial simulation substrates |
+| **Education (Phase 13)** | Classroom-cleared observatory datasets exposed to Education Agent ([16-education-agent.md](16-education-agent.md)) |
+| **Digital Twin (post-founder)** | Approved climate and risk layers feed geospatial simulation substrates ([06-build-roadmap.md](06-build-roadmap.md), Section 7) |
 
 ---
 
@@ -251,12 +254,13 @@ Aligned with Observatories phase completion criteria ([06-build-roadmap.md](06-b
 
 - **No public heritage-risk publish without approval.** The agent proposes; observatory stewards and heritage curators approve.
 - **Graph anchors mandatory.** Every spatial observation links to a canonical place, site, or protected-area entity ([03-canonical-architecture.md](03-canonical-architecture.md), Provenance).
+- **Provenance chain intact.** Every observation traces to partner feed URI, ingest or harvest event, graph anchors, and agent version ([03-canonical-architecture.md](03-canonical-architecture.md), §6.2).
 - **Partner attribution non-negotiable.** Every indicator carries source feed URI, license, and retrieval provenance.
 - **Uncertainty explicit.** Heritage-risk outputs state confidence tier, model version, and known gaps — never implied precision.
-- **Peer observatory boundaries.** Climate exposure supplements but does not replace Heritage observatory condition assessments ([16-heritage-observatory-agent.md](16-heritage-observatory-agent.md), Conservation status track).
-- **Free access preserved.** Observatory data packages must not gate access to underlying canonical public memory ([01-mission.md](01-mission.md)).
+- **Peer observatory boundaries.** Climate exposure supplements but does not replace Heritage observatory condition assessments ([19-heritage-observatory-agent.md](19-heritage-observatory-agent.md), Conservation status track).
+- **Free access preserved.** Observatory data packages must not gate access to underlying canonical public memory ([01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md)).
 - **No management assertions.** The agent reports stress and risk signals; it does not direct conservation interventions or alter protected-area designations.
 
 ---
 
-*Previous: [15-education-agent.md](15-education-agent.md) · Next: [04-system-diagram.md](04-system-diagram.md)*
+*Previous: [16-education-agent.md](16-education-agent.md) · Next: [04-system-diagram.md](04-system-diagram.md)*

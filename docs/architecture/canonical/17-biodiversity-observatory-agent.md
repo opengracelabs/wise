@@ -13,7 +13,7 @@
 
 | Document | Purpose |
 |----------|---------|
-| [01-mission.md](01-mission.md) | Mission, charter, and constitutional relationship |
+| [01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md) | Mission, charter, and constitutional relationship |
 | [02-reference-models.md](02-reference-models.md) | Institutional reference models informing design |
 | [03-canonical-architecture.md](03-canonical-architecture.md) | Canonical 100-year logical architecture |
 | [04-system-diagram.md](04-system-diagram.md) | Canonical system diagram |
@@ -23,14 +23,19 @@
 | [08-decision-record.md](08-decision-record.md) | Architecture decision records |
 | [09-source-discovery-agent.md](09-source-discovery-agent.md) | Source Discovery Agent specification |
 | [10-metadata-agent.md](10-metadata-agent.md) | Metadata Agent specification |
+| [11-preservation-agent.md](11-preservation-agent.md) | Preservation Agent specification |
 | [12-knowledge-graph-agent.md](12-knowledge-graph-agent.md) | Knowledge Graph Agent specification |
 | [13-quality-review-agent.md](13-quality-review-agent.md) | Quality Review Agent specification |
 | [14-translation-agent.md](14-translation-agent.md) | Translation Agent specification |
-| [15-education-agent.md](15-education-agent.md) | Education Agent specification |
-| [16-heritage-observatory-agent.md](16-heritage-observatory-agent.md) | Heritage Observatory Agent specification |
-| [16-biodiversity-observatory-agent.md](16-biodiversity-observatory-agent.md) | Biodiversity Observatory Agent specification |
-| [16-climate-observatory-agent.md](16-climate-observatory-agent.md) | Climate Observatory Agent specification |
-| [16-tourism-observatory-agent.md](16-tourism-observatory-agent.md) | Tourism Observatory Agent specification |
+| [15-publishing-agent.md](15-publishing-agent.md) | Publishing Agent specification |
+| [16-education-agent.md](16-education-agent.md) | Education Agent specification |
+| [17-biodiversity-observatory-agent.md](17-biodiversity-observatory-agent.md) | Biodiversity Observatory Agent specification |
+| [18-climate-observatory-agent.md](18-climate-observatory-agent.md) | Climate Observatory Agent specification |
+| [19-heritage-observatory-agent.md](19-heritage-observatory-agent.md) | Heritage Observatory Agent specification |
+| [20-tourism-observatory-agent.md](20-tourism-observatory-agent.md) | Tourism Observatory Agent specification |
+| [21-language-observatory-agent.md](21-language-observatory-agent.md) | Language Observatory Agent specification |
+| [22-standards-agent.md](22-standards-agent.md) | Standards Agent specification |
+| [23-benchmark-agent.md](23-benchmark-agent.md) | Benchmark Agent specification |
 
 ---
 
@@ -86,7 +91,7 @@ The agent operates in the **Observatory Network** subgraph of the Experience Pla
 
 **Upstream inputs:** Species Registry and GBIF-synchronized entities ([10-metadata-agent.md](10-metadata-agent.md), [12-knowledge-graph-agent.md](12-knowledge-graph-agent.md)), occurrence ingest from Phase 2 Biodiversity capabilities, quality-cleared citizen science submissions, IUCN and national red-list status datasets, World Heritage and protected-area geometries from the Knowledge Graph.
 
-**Downstream consumers:** Research Fabric (observatory data packages with DOI candidacy), Public Experience conservation portal and maps, Education Agent classroom-safe observatory datasets ([15-education-agent.md](15-education-agent.md)), Digital Twin conservation intelligence ([04-system-diagram.md](04-system-diagram.md)).
+**Downstream consumers:** Research Fabric (observatory data packages with DOI candidacy), Public Experience conservation portal and maps, Education Agent classroom-safe observatory datasets ([16-education-agent.md](16-education-agent.md)), Digital Twin conservation intelligence ([04-system-diagram.md](04-system-diagram.md)).
 
 ---
 
@@ -212,7 +217,7 @@ Approved observations are packaged for Research Fabric export with:
 | **Knowledge Graph (Phase 5)** | Taxon–occurrence–place relationship integrity required for cross-domain alerts |
 | **Research Fabric (Phase 8)** | Observatory data package export contract; citation metadata |
 | **Observatories (Phase 15)** | Full species, occurrence, and threatened-taxa tracking; alert workflows; public and researcher dashboards |
-| **Digital Twin (Phase 16+)** | Approved observatory layers feed conservation intelligence correlation |
+| **Digital Twin (post-founder)** | Approved observatory layers feed conservation intelligence correlation ([06-build-roadmap.md](06-build-roadmap.md), Section 7) |
 | **Community (Phase 14)** | Citizen science occurrence submissions as monitored input after quality clearance |
 
 ---
@@ -236,6 +241,7 @@ Aligned with Observatories phase completion criteria ([06-build-roadmap.md](06-b
 
 - **No conservation status invention.** IUCN and national red-list categories are authoritative; the agent correlates and alerts, it does not assess species de novo.
 - **Canonical taxon anchors mandatory.** Every trend or alert links to Species Registry and GBIF backbone identifiers ([03-canonical-architecture.md](03-canonical-architecture.md), Provenance).
+- **Provenance chain intact.** Every observation traces to contributing datasets, ingest events, graph entity URIs, and agent version with `prov:wasDerivedFrom` ([03-canonical-architecture.md](03-canonical-architecture.md), §6.2).
 - **Coordinate sensitivity.** Occurrence coordinates subject to partner embargoes, taxon sensitivity flags, and indigenous territory policies are aggregated or withheld per governance rules — never exposed in public alerts without clearance.
 - **Steward approval before public alert.** Priority and critical tiers require human review before conservation portal publication.
 - **Open science alignment.** Observatory data packages follow GBIF open-access patterns; restrictions propagate from source dataset rights metadata ([02-reference-models.md](02-reference-models.md), §5).

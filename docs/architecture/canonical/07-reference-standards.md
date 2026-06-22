@@ -11,7 +11,7 @@
 
 | Document | Purpose |
 |----------|---------|
-| [01-mission.md](01-mission.md) | Mission, charter, and constitutional relationship |
+| [01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md) | Mission, charter, and constitutional relationship |
 | [02-reference-models.md](02-reference-models.md) | Institutional reference models informing design |
 | [03-canonical-architecture.md](03-canonical-architecture.md) | Canonical 100-year logical architecture |
 | [04-system-diagram.md](04-system-diagram.md) | Canonical system diagram |
@@ -20,9 +20,20 @@
 | [07-reference-standards.md](07-reference-standards.md) | Standards, protocols, and interoperability |
 | [08-decision-record.md](08-decision-record.md) | Architecture decision records |
 | [09-source-discovery-agent.md](09-source-discovery-agent.md) | Source Discovery Agent specification |
-| [12-knowledge-graph-agent.md](12-knowledge-graph-agent.md) | Knowledge Graph Agent specification |
+| [10-metadata-agent.md](10-metadata-agent.md) | Metadata Agent specification |
 | [11-preservation-agent.md](11-preservation-agent.md) | Preservation Agent specification |
-| [18-standards-agent.md](18-standards-agent.md) | Standards Agent specification |
+| [12-knowledge-graph-agent.md](12-knowledge-graph-agent.md) | Knowledge Graph Agent specification |
+| [13-quality-review-agent.md](13-quality-review-agent.md) | Quality Review Agent specification |
+| [14-translation-agent.md](14-translation-agent.md) | Translation Agent specification |
+| [15-publishing-agent.md](15-publishing-agent.md) | Publishing Agent specification |
+| [16-education-agent.md](16-education-agent.md) | Education Agent specification |
+| [17-biodiversity-observatory-agent.md](17-biodiversity-observatory-agent.md) | Biodiversity Observatory Agent specification |
+| [18-climate-observatory-agent.md](18-climate-observatory-agent.md) | Climate Observatory Agent specification |
+| [19-heritage-observatory-agent.md](19-heritage-observatory-agent.md) | Heritage Observatory Agent specification |
+| [20-tourism-observatory-agent.md](20-tourism-observatory-agent.md) | Tourism Observatory Agent specification |
+| [21-language-observatory-agent.md](21-language-observatory-agent.md) | Language Observatory Agent specification |
+| [22-standards-agent.md](22-standards-agent.md) | Standards Agent specification |
+| [23-benchmark-agent.md](23-benchmark-agent.md) | Benchmark Agent specification |
 
 ---
 
@@ -266,7 +277,7 @@ Cross-reference to [02-reference-models.md](02-reference-models.md):
 
 ## 13. Format Migration Schedule
 
-To maintain 100-year readability ([01-mission.md](01-mission.md), Section 4):
+To maintain 100-year readability ([01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md), Section 4):
 
 | Assessment | Frequency | Action |
 |-----------|-----------|--------|
@@ -282,7 +293,7 @@ To maintain 100-year readability ([01-mission.md](01-mission.md), Section 4):
 
 Milestone gates ([06-build-roadmap.md](06-build-roadmap.md), Section 6) require standards compliance verification:
 
-1. **Automated** — [Standards Agent](18-standards-agent.md) conformance checks (CIDOC-CRM SHACL, Darwin Core term and DwC-A validation, schema.org JSON-LD profiles); schema validation, format identification, API contract testing
+1. **Automated** — [Standards Agent](22-standards-agent.md) conformance checks (CIDOC-CRM SHACL, Darwin Core term and DwC-A validation, schema.org JSON-LD profiles); schema validation, format identification, API contract testing
 2. **Manual** — Architecture Office review for Recommended standards
 3. **External** — Partner institution audit for covenant compliance
 

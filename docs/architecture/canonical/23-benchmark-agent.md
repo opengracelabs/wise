@@ -21,9 +21,21 @@
 | [06-build-roadmap.md](06-build-roadmap.md) | Implementation roadmap and founder build order |
 | [07-reference-standards.md](07-reference-standards.md) | Standards, protocols, and interoperability |
 | [08-decision-record.md](08-decision-record.md) | Architecture decision records |
-| [09-source-discovery-agent.md](09-source-discovery-agent.md) through [17-language-observatory-agent.md](17-language-observatory-agent.md) | Platform and observatory agent specifications (benchmark targets) |
-| [18-standards-agent.md](18-standards-agent.md) | Standards Agent specification |
-| [19-benchmark-agent.md](19-benchmark-agent.md) | Benchmark Agent specification |
+| [09-source-discovery-agent.md](09-source-discovery-agent.md) | Source Discovery Agent specification |
+| [10-metadata-agent.md](10-metadata-agent.md) | Metadata Agent specification |
+| [11-preservation-agent.md](11-preservation-agent.md) | Preservation Agent specification |
+| [12-knowledge-graph-agent.md](12-knowledge-graph-agent.md) | Knowledge Graph Agent specification |
+| [13-quality-review-agent.md](13-quality-review-agent.md) | Quality Review Agent specification |
+| [14-translation-agent.md](14-translation-agent.md) | Translation Agent specification |
+| [15-publishing-agent.md](15-publishing-agent.md) | Publishing Agent specification |
+| [16-education-agent.md](16-education-agent.md) | Education Agent specification |
+| [17-biodiversity-observatory-agent.md](17-biodiversity-observatory-agent.md) | Biodiversity Observatory Agent specification |
+| [18-climate-observatory-agent.md](18-climate-observatory-agent.md) | Climate Observatory Agent specification |
+| [19-heritage-observatory-agent.md](19-heritage-observatory-agent.md) | Heritage Observatory Agent specification |
+| [20-tourism-observatory-agent.md](20-tourism-observatory-agent.md) | Tourism Observatory Agent specification |
+| [21-language-observatory-agent.md](21-language-observatory-agent.md) | Language Observatory Agent specification |
+| [22-standards-agent.md](22-standards-agent.md) | Standards Agent specification |
+| [23-benchmark-agent.md](23-benchmark-agent.md) | Benchmark Agent specification |
 
 ---
 
@@ -106,16 +118,40 @@ The agent operates in the **Constitutional Plane** AI Fabric — Benchmarks subg
 | **Inputs** | Per-agent benchmark suites from registered agent specifications; held-out gold datasets; human-validated spot-check samples; steward disposition outcomes |
 | **Checks** | Execute domain benchmarks (e.g., mapping coverage for Metadata Agent, link precision/recall for Knowledge Graph Agent, translation BLEU/chrF for Translation Agent); aggregate pass rates against registered thresholds; detect quality regressions on version promotion |
 | **Output signals** | Quality metric scorecard by agent and dimension, threshold pass/fail, benchmark run identifier, comparison to prior version |
-| **Standards** | Agent-specific benchmarks as declared in [09-source-discovery-agent.md](09-source-discovery-agent.md) through [17-language-observatory-agent.md](17-language-observatory-agent.md) §AI Fabric Governance |
+| **Standards** | Agent-specific benchmarks as declared in §5.4 Registered Canonical Agent Fleet and each agent's §AI Fabric Governance |
 
 ### 5.3 Architecture Compliance
 
 | Attribute | Specification |
 |-----------|---------------|
 | **Inputs** | Agent capability declarations, connector allowlists, output schema samples, dependency manifests, architecture registry ([docs/governance/architecture-registry.md](../../governance/architecture-registry.md)) |
-| **Checks** | Conformance to canonical layer boundaries (no unauthorized preservation writes, no publication without gates); schema validation against registered output types; ADR constraint satisfaction; standards registry binding compliance; detection of shadow connectors or undocumented side effects |
+| **Checks** | Conformance to canonical layer boundaries (no unauthorized preservation writes, no publication without gates); schema validation against registered output types; ADR constraint satisfaction; standards registry binding compliance; detection of shadow connectors or undocumented side effects; Evidence Output Profile presence on assertion-making agent outputs ([03-canonical-architecture.md](03-canonical-architecture.md), §6.6) |
 | **Output signals** | Compliance status (`compliant`, `drift`, `violation`), finding list with document references, recommended remediation (ADR, registry update, agent scope reduction) |
 | **Standards** | Canonical architecture suite, [07-reference-standards.md](07-reference-standards.md), [08-decision-record.md](08-decision-record.md) |
+
+### 5.4 Registered Canonical Agent Fleet
+
+The Benchmark Agent evaluates **every** registered canonical agent specification. Fleet enumeration is authoritative; Agent Registry entries MUST map one-to-one to this list.
+
+| # | Agent | Specification | Plane | Benchmark source |
+|---|-------|---------------|-------|------------------|
+| 1 | Source Discovery Agent | [09-source-discovery-agent.md](09-source-discovery-agent.md) | Platform | §AI Fabric Governance |
+| 2 | Metadata Agent | [10-metadata-agent.md](10-metadata-agent.md) | Platform | §AI Fabric Governance |
+| 3 | Preservation Agent | [11-preservation-agent.md](11-preservation-agent.md) | Platform | §AI Fabric Governance |
+| 4 | Knowledge Graph Agent | [12-knowledge-graph-agent.md](12-knowledge-graph-agent.md) | Platform | §AI Fabric Governance |
+| 5 | Quality Review Agent | [13-quality-review-agent.md](13-quality-review-agent.md) | Platform | §AI Fabric Governance |
+| 6 | Translation Agent | [14-translation-agent.md](14-translation-agent.md) | Platform | §AI Fabric Governance |
+| 7 | Publishing Agent | [15-publishing-agent.md](15-publishing-agent.md) | Platform | §AI Fabric Governance |
+| 8 | Education Agent | [16-education-agent.md](16-education-agent.md) | Experience | §AI Fabric Governance |
+| 9 | Biodiversity Observatory Agent | [17-biodiversity-observatory-agent.md](17-biodiversity-observatory-agent.md) | Experience — Observatories | §AI Fabric Governance |
+| 10 | Climate Observatory Agent | [18-climate-observatory-agent.md](18-climate-observatory-agent.md) | Experience — Observatories | §AI Fabric Governance |
+| 11 | Heritage Observatory Agent | [19-heritage-observatory-agent.md](19-heritage-observatory-agent.md) | Experience — Observatories | §AI Fabric Governance |
+| 12 | Tourism Observatory Agent | [20-tourism-observatory-agent.md](20-tourism-observatory-agent.md) | Experience — Observatories | §AI Fabric Governance |
+| 13 | Language Observatory Agent | [21-language-observatory-agent.md](21-language-observatory-agent.md) | Experience — Observatories | §AI Fabric Governance |
+| 14 | Standards Agent | [22-standards-agent.md](22-standards-agent.md) | Constitutional | §AI Fabric Governance |
+| 15 | Benchmark Agent | [23-benchmark-agent.md](23-benchmark-agent.md) | Constitutional | §7 AI Fabric Governance (meta-benchmarks / self-checks) |
+
+**Self-checks:** The Benchmark Agent runs meta-benchmarks against itself before fleet-wide production runs: scoring reproducibility, false-pass rate on injected violations, regression detection latency, and compliance rule coverage across the full fleet enumeration above (§7).
 
 ---
 
@@ -196,7 +232,7 @@ After reviewer approval, persisted audit records include:
 
 Aligned with AI Fabric governance completion and constitution accountability criteria:
 
-- Benchmark suites registered for 100% of production agents before clearance
+- Benchmark suites registered for 100% of agents in §5.4 Registered Canonical Agent Fleet before clearance
 - Agent performance SLAs measured and reported for all registered agents
 - Quality metric benchmarks executed on every agent version promotion
 - Architecture compliance checks pass before new agents enter Evaluations gate
@@ -217,4 +253,4 @@ Aligned with AI Fabric governance completion and constitution accountability cri
 
 ---
 
-*Previous: [18-standards-agent.md](18-standards-agent.md) · Governance: [docs/governance/architecture-registry.md](../../governance/architecture-registry.md)*
+*Previous: [22-standards-agent.md](22-standards-agent.md) · Governance: [docs/governance/architecture-registry.md](../../governance/architecture-registry.md)*

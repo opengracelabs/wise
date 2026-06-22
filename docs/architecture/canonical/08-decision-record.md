@@ -1,5 +1,7 @@
 # Architecture Decision Records
 
+> **Filename note:** Canonical file is `08-decision-record.md` (singular). The document title uses the plural form *Architecture Decision Records*; both refer to the same ADR corpus.
+
 | Field | Value |
 |-------|-------|
 | **Version** | 1.0 |
@@ -11,7 +13,7 @@
 
 | Document | Purpose |
 |----------|---------|
-| [01-mission.md](01-mission.md) | Mission, charter, and constitutional relationship |
+| [01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md) | Mission, charter, and constitutional relationship |
 | [02-reference-models.md](02-reference-models.md) | Institutional reference models informing design |
 | [03-canonical-architecture.md](03-canonical-architecture.md) | Canonical 100-year logical architecture |
 | [04-system-diagram.md](04-system-diagram.md) | Canonical system diagram |
@@ -20,8 +22,20 @@
 | [07-reference-standards.md](07-reference-standards.md) | Standards, protocols, and interoperability |
 | [08-decision-record.md](08-decision-record.md) | Architecture decision records |
 | [09-source-discovery-agent.md](09-source-discovery-agent.md) | Source Discovery Agent specification |
-| [12-knowledge-graph-agent.md](12-knowledge-graph-agent.md) | Knowledge Graph Agent specification |
+| [10-metadata-agent.md](10-metadata-agent.md) | Metadata Agent specification |
 | [11-preservation-agent.md](11-preservation-agent.md) | Preservation Agent specification |
+| [12-knowledge-graph-agent.md](12-knowledge-graph-agent.md) | Knowledge Graph Agent specification |
+| [13-quality-review-agent.md](13-quality-review-agent.md) | Quality Review Agent specification |
+| [14-translation-agent.md](14-translation-agent.md) | Translation Agent specification |
+| [15-publishing-agent.md](15-publishing-agent.md) | Publishing Agent specification |
+| [16-education-agent.md](16-education-agent.md) | Education Agent specification |
+| [17-biodiversity-observatory-agent.md](17-biodiversity-observatory-agent.md) | Biodiversity Observatory Agent specification |
+| [18-climate-observatory-agent.md](18-climate-observatory-agent.md) | Climate Observatory Agent specification |
+| [19-heritage-observatory-agent.md](19-heritage-observatory-agent.md) | Heritage Observatory Agent specification |
+| [20-tourism-observatory-agent.md](20-tourism-observatory-agent.md) | Tourism Observatory Agent specification |
+| [21-language-observatory-agent.md](21-language-observatory-agent.md) | Language Observatory Agent specification |
+| [22-standards-agent.md](22-standards-agent.md) | Standards Agent specification |
+| [23-benchmark-agent.md](23-benchmark-agent.md) | Benchmark Agent specification |
 
 ---
 
@@ -99,7 +113,7 @@ Establish two distinct institutions:
 
 ### References
 
-- [01-mission.md](01-mission.md) — Sections 2, 3
+- [01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md) — Sections 2, 3
 - [04-system-diagram.md](04-system-diagram.md) — Section 5
 
 ---
@@ -253,7 +267,7 @@ Adopt a **100-year canonical architecture horizon** with generational sub-horizo
 - Harvard Library's 400-year operation proves multi-century stewardship is achievable with correct governance ([02-reference-models.md](02-reference-models.md))
 - Internet Archive's permanence ethic targets "forever" but plans concretely in decades
 - 100 years spans ~3 technology generations (analog → digital → AI → unknown), sufficient for format migration planning
-- Nature & Culture mission explicitly references "all future generations" ([01-mission.md](01-mission.md))
+- Nature & Culture mission explicitly references "all future generations" ([01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md))
 
 ### Consequences
 
@@ -269,7 +283,7 @@ Adopt a **100-year canonical architecture horizon** with generational sub-horizo
 
 ### References
 
-- [01-mission.md](01-mission.md) — Section 4
+- [01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md) — Section 4
 - [05-physical-architecture.md](05-physical-architecture.md) — Sections 3, 7
 - [06-build-roadmap.md](06-build-roadmap.md) — Section 7
 
@@ -379,7 +393,7 @@ Translation Fabric is a **Platform Plane capability** (Phase 9), not an Experien
 - UNESCO's six official languages and Wikimedia's 300+ language editions demonstrate that multilingualism must be structural ([02-reference-models.md](02-reference-models.md))
 - Entity labels in the Knowledge Graph must be multilingual for cross-lingual search to function
 - Source-language content is always preserved; translations are additive with provenance
-- Mission statement explicitly requires "every language" ([01-mission.md](01-mission.md))
+- Mission statement explicitly requires "every language" ([01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md))
 
 ### Consequences
 
@@ -473,7 +487,7 @@ Canonical public memory is **freely accessible to every person** with no paywall
 - Wikimedia's radical accessibility demonstrates sustainability without paywalls ([02-reference-models.md](02-reference-models.md))
 - Europeana's free access model enables cross-institutional discovery at scale
 - MIT Open Access Policy establishes academic precedent for open knowledge
-- Mission statement: "freely accessible to every person" ([01-mission.md](01-mission.md))
+- Mission statement: "freely accessible to every person" ([01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md))
 - Internet Archive's "Universal access to all knowledge" as institutional north star
 
 ### Consequences
@@ -490,7 +504,7 @@ Canonical public memory is **freely accessible to every person** with no paywall
 
 ### References
 
-- [01-mission.md](01-mission.md) — Sections 2, 6
+- [01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md) — Sections 2, 6
 - [03-canonical-architecture.md](03-canonical-architecture.md) — Sections 5.2, 9
 - [06-build-roadmap.md](06-build-roadmap.md) — Phase 12
 
@@ -524,4 +538,4 @@ The Open Grace Architecture Office is the sole authority for accepting, supersed
 
 ---
 
-*Previous: [07-reference-standards.md](07-reference-standards.md) · Return to: [01-mission.md](01-mission.md)*
+*Previous: [07-reference-standards.md](07-reference-standards.md) · Return to: [01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md)*

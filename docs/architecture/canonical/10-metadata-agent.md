@@ -13,7 +13,7 @@
 
 | Document | Purpose |
 |----------|---------|
-| [01-mission.md](01-mission.md) | Mission, charter, and constitutional relationship |
+| [01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md) | Mission, charter, and constitutional relationship |
 | [02-reference-models.md](02-reference-models.md) | Institutional reference models informing design |
 | [03-canonical-architecture.md](03-canonical-architecture.md) | Canonical 100-year logical architecture |
 | [04-system-diagram.md](04-system-diagram.md) | Canonical system diagram |
@@ -27,9 +27,15 @@
 | [12-knowledge-graph-agent.md](12-knowledge-graph-agent.md) | Knowledge Graph Agent specification |
 | [13-quality-review-agent.md](13-quality-review-agent.md) | Quality Review Agent specification |
 | [14-translation-agent.md](14-translation-agent.md) | Translation Agent specification |
-| [15-education-agent.md](15-education-agent.md) | Education Agent specification |
-| [16-heritage-observatory-agent.md](16-heritage-observatory-agent.md) | Heritage Observatory Agent specification |
-| [16-tourism-observatory-agent.md](16-tourism-observatory-agent.md) | Tourism Observatory Agent specification |
+| [15-publishing-agent.md](15-publishing-agent.md) | Publishing Agent specification |
+| [16-education-agent.md](16-education-agent.md) | Education Agent specification |
+| [17-biodiversity-observatory-agent.md](17-biodiversity-observatory-agent.md) | Biodiversity Observatory Agent specification |
+| [18-climate-observatory-agent.md](18-climate-observatory-agent.md) | Climate Observatory Agent specification |
+| [19-heritage-observatory-agent.md](19-heritage-observatory-agent.md) | Heritage Observatory Agent specification |
+| [20-tourism-observatory-agent.md](20-tourism-observatory-agent.md) | Tourism Observatory Agent specification |
+| [21-language-observatory-agent.md](21-language-observatory-agent.md) | Language Observatory Agent specification |
+| [22-standards-agent.md](22-standards-agent.md) | Standards Agent specification |
+| [23-benchmark-agent.md](23-benchmark-agent.md) | Benchmark Agent specification |
 
 ---
 
@@ -180,8 +186,9 @@ Each candidate knowledge entity is emitted as **RDF triples** with:
 | **Geographic anchors** | `crm:P53_has_former_or_current_location`, GeoJSON, or `dwc:` georeference terms |
 | **Rights metadata** | RightsStatements.org or Creative Commons URI propagated from source |
 | **Provenance** | Modeling event identifier, source preserved-object ARK, agent version |
+| **Evidence profile** | [Evidence Output Profile](03-canonical-architecture.md#66-evidence-output-profile): `evidenceURIs[]`, `confidence`, `evidenceSummary`, `method`, `sourceRegistryRefs[]`, `provenanceEventId` |
 
-Entity Assertions are **candidates** until a steward approves them through the human-approval gate.
+Entity Assertions are **candidates** until a steward approves them through the human-approval gate. Assertions without a complete Evidence Output Profile route to the Quality Platform curation queue.
 
 ### 7.3 Validation Reports
 
@@ -236,6 +243,7 @@ Aligned with Knowledge Modeling phase completion criteria ([06-build-roadmap.md]
 
 - **No canonical graph writes without approval.** The agent proposes Entity Assertions; stewards approve.
 - **Source fidelity preserved.** Normalization adds canonical representations; original metadata literals are never discarded ([03-canonical-architecture.md](03-canonical-architecture.md), Provenance).
+- **Provenance chain intact.** Every Entity Assertion traces to a modeling event, source preserved-object ARK, and agent version ([03-canonical-architecture.md](03-canonical-architecture.md), §6.2).
 - **Unified graph, domain-aware mapping.** Heritage and biodiversity metadata coexist in one knowledge graph per ADR-004 ([08-decision-record.md](08-decision-record.md)); the agent routes fields to the correct ontology layer without siloing domains.
 - **Authority proposals, not assertions.** External authority links require steward approval or Quality Platform reconciliation before becoming canonical.
 - **Rights metadata mandatory.** No entity assertion omits machine-readable rights inherited from source metadata ([07-reference-standards.md](07-reference-standards.md), §4.3).

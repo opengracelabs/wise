@@ -20,11 +20,20 @@
 | [07-reference-standards.md](07-reference-standards.md) | Standards, protocols, and interoperability |
 | [08-decision-record.md](08-decision-record.md) | Architecture decision records |
 | [09-source-discovery-agent.md](09-source-discovery-agent.md) | Source Discovery Agent specification |
-| [12-knowledge-graph-agent.md](12-knowledge-graph-agent.md) | Knowledge Graph Agent specification |
-| [11-preservation-agent.md](11-preservation-agent.md) | Preservation Agent specification |
 | [10-metadata-agent.md](10-metadata-agent.md) | Metadata Agent specification |
+| [11-preservation-agent.md](11-preservation-agent.md) | Preservation Agent specification |
+| [12-knowledge-graph-agent.md](12-knowledge-graph-agent.md) | Knowledge Graph Agent specification |
+| [13-quality-review-agent.md](13-quality-review-agent.md) | Quality Review Agent specification |
 | [14-translation-agent.md](14-translation-agent.md) | Translation Agent specification |
 | [15-publishing-agent.md](15-publishing-agent.md) | Publishing Agent specification |
+| [16-education-agent.md](16-education-agent.md) | Education Agent specification |
+| [17-biodiversity-observatory-agent.md](17-biodiversity-observatory-agent.md) | Biodiversity Observatory Agent specification |
+| [18-climate-observatory-agent.md](18-climate-observatory-agent.md) | Climate Observatory Agent specification |
+| [19-heritage-observatory-agent.md](19-heritage-observatory-agent.md) | Heritage Observatory Agent specification |
+| [20-tourism-observatory-agent.md](20-tourism-observatory-agent.md) | Tourism Observatory Agent specification |
+| [21-language-observatory-agent.md](21-language-observatory-agent.md) | Language Observatory Agent specification |
+| [22-standards-agent.md](22-standards-agent.md) | Standards Agent specification |
+| [23-benchmark-agent.md](23-benchmark-agent.md) | Benchmark Agent specification |
 
 ---
 
@@ -32,7 +41,7 @@
 
 This document defines the **implementation roadmap** for Open Grace and Nature & Culture, including the **founder build order** — the canonical sequence in which capabilities must be built. The build order reflects the principle that preservation and knowledge come before public experience.
 
-Architecture definitions: [03-canonical-architecture.md](03-canonical-architecture.md). Physical milestones: [05-physical-architecture.md](05-physical-architecture.md). Decision rationale: [08-decision-record.md](08-decision-record.md), ADR-003.
+Architecture definitions: [03-canonical-architecture.md](03-canonical-architecture.md). Physical milestones: [05-physical-architecture.md](05-physical-architecture.md). Decision rationale: [08-decision-record.md](08-decision-record.md), ADR-003. Founder execution companion (engineering substrate, gates, demonstration surface): [founder-execution-roadmap.md](../../constitution/founder-execution-roadmap.md).
 
 ---
 
@@ -72,6 +81,19 @@ The founder build order is **canonical and sequential**. Each phase depends on t
 
 Build order diagram: [04-system-diagram.md](04-system-diagram.md), Section 4.
 
+### 3.1 Founder Demonstration Surface (Phases 1–3)
+
+During Discovery, Ingestion, and Preservation, the institution MAY operate a **Founder Demonstration Surface** — a steward-gated, read-only preview demonstrating the provenance chain to funders and partners. This is **not** Public Experience (Phase 11) and does not satisfy public launch criteria.
+
+| Attribute | Specification |
+|-----------|--------------|
+| **Permitted phases** | 1 (Discovery), 2 (Ingestion), 3 (Preservation) only |
+| **Purpose** | Demonstrate source → discovery → acquisition → preservation; display institutional charter |
+| **Constraints** | No canonical writes from the surface; all acquisition through Ingestion; WCAG 2.1 A minimum |
+| **Explicitly not** | Public Experience, Products, or Phase 11 success criteria |
+
+Execution guidance: [founder-execution-roadmap.md](../../constitution/founder-execution-roadmap.md), Section 3.
+
 ---
 
 ## 4. Phase Specifications
@@ -89,7 +111,7 @@ Build order diagram: [04-system-diagram.md](04-system-diagram.md), Section 4.
 
 **Key capabilities:**
 - [Source Discovery Agent](09-source-discovery-agent.md) — UNESCO sites, GBIF datasets, public-domain collections, metadata sources
-- [Benchmark Agent](19-benchmark-agent.md) — agent performance, quality metrics, and architecture compliance evaluation for registered agents
+- [Benchmark Agent](23-benchmark-agent.md) — agent performance, quality metrics, and architecture compliance evaluation for registered agents
 - OAI-PMH and API harvest connectors
 - GBIF IPT feed discovery
 - Web crawl for open cultural datasets
@@ -381,10 +403,10 @@ Build order diagram: [04-system-diagram.md](04-system-diagram.md), Section 4.
 **Key capabilities:**
 - Real-time data ingestion from field sensors and partner feeds
 - Species occurrence monitoring
-- Language Observatory Agent ([17-language-observatory-agent.md](17-language-observatory-agent.md)): endangered languages and revitalization programs tracks
+- Language Observatory Agent ([21-language-observatory-agent.md](21-language-observatory-agent.md)): endangered languages and revitalization programs tracks
 - World Heritage site condition dashboards
-- Climate Observatory Agent ([16-climate-observatory-agent.md](16-climate-observatory-agent.md)): climate impacts, protected areas, and heritage risk tracks
-- Tourism Observatory Agent ([16-tourism-observatory-agent.md](16-tourism-observatory-agent.md)): visitor patterns and sustainability indicators tracks
+- Climate Observatory Agent ([18-climate-observatory-agent.md](18-climate-observatory-agent.md)): climate impacts, protected areas, and heritage risk tracks
+- Tourism Observatory Agent ([20-tourism-observatory-agent.md](20-tourism-observatory-agent.md)): visitor patterns and sustainability indicators tracks
 - Public and researcher views
 
 ---

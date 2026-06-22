@@ -11,7 +11,7 @@
 
 | Document | Purpose |
 |----------|---------|
-| [01-mission.md](01-mission.md) | Mission, charter, and constitutional relationship |
+| [01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md) | Mission, charter, and constitutional relationship |
 | [02-reference-models.md](02-reference-models.md) | Institutional reference models informing design |
 | [03-canonical-architecture.md](03-canonical-architecture.md) | Canonical 100-year logical architecture |
 | [04-system-diagram.md](04-system-diagram.md) | Canonical system diagram |
@@ -20,8 +20,20 @@
 | [07-reference-standards.md](07-reference-standards.md) | Standards, protocols, and interoperability |
 | [08-decision-record.md](08-decision-record.md) | Architecture decision records |
 | [09-source-discovery-agent.md](09-source-discovery-agent.md) | Source Discovery Agent specification |
-| [12-knowledge-graph-agent.md](12-knowledge-graph-agent.md) | Knowledge Graph Agent specification |
+| [10-metadata-agent.md](10-metadata-agent.md) | Metadata Agent specification |
 | [11-preservation-agent.md](11-preservation-agent.md) | Preservation Agent specification |
+| [12-knowledge-graph-agent.md](12-knowledge-graph-agent.md) | Knowledge Graph Agent specification |
+| [13-quality-review-agent.md](13-quality-review-agent.md) | Quality Review Agent specification |
+| [14-translation-agent.md](14-translation-agent.md) | Translation Agent specification |
+| [15-publishing-agent.md](15-publishing-agent.md) | Publishing Agent specification |
+| [16-education-agent.md](16-education-agent.md) | Education Agent specification |
+| [17-biodiversity-observatory-agent.md](17-biodiversity-observatory-agent.md) | Biodiversity Observatory Agent specification |
+| [18-climate-observatory-agent.md](18-climate-observatory-agent.md) | Climate Observatory Agent specification |
+| [19-heritage-observatory-agent.md](19-heritage-observatory-agent.md) | Heritage Observatory Agent specification |
+| [20-tourism-observatory-agent.md](20-tourism-observatory-agent.md) | Tourism Observatory Agent specification |
+| [21-language-observatory-agent.md](21-language-observatory-agent.md) | Language Observatory Agent specification |
+| [22-standards-agent.md](22-standards-agent.md) | Standards Agent specification |
+| [23-benchmark-agent.md](23-benchmark-agent.md) | Benchmark Agent specification |
 
 ---
 
@@ -68,7 +80,7 @@ Reference models are cited in [08-decision-record.md](08-decision-record.md) as 
 |---------|---------------|
 | World Heritage Sites ontology | Knowledge graph place and site modeling ([03-canonical-architecture.md](03-canonical-architecture.md)) |
 | Intangible heritage records | Non-object entity types in knowledge modeling layer |
-| State-party cooperation model | Inter-institutional covenant under Open Grace ([01-mission.md](01-mission.md)) |
+| State-party cooperation model | Inter-institutional covenant under Open Grace ([01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md)) |
 | Multilingual mandate | Translation Fabric ([06-build-roadmap.md](06-build-roadmap.md)) |
 
 ---
@@ -91,7 +103,7 @@ Reference models are cited in [08-decision-record.md](08-decision-record.md) as 
 | Unified collection registry | Canonical object store in preservation layer |
 | Research-public dual mandate | Research Fabric and Public Experience ([06-build-roadmap.md](06-build-roadmap.md)) |
 | Conservation metadata | Provenance and condition records in knowledge modeling |
-| Institutional trust | Open Grace constitutional governance ([01-mission.md](01-mission.md)) |
+| Institutional trust | Open Grace constitutional governance ([01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md)) |
 
 ---
 
@@ -177,7 +189,7 @@ Reference models are cited in [08-decision-record.md](08-decision-record.md) as 
 | Pattern | Implementation |
 |---------|---------------|
 | Research object preservation | Research Fabric archival deposits |
-| Open access mandate | Constitutional free-access commitment ([01-mission.md](01-mission.md)) |
+| Open access mandate | Constitutional free-access commitment ([01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md)) |
 | Educational publishing | Education platform in build roadmap |
 | Repository pattern | Preservation layer design ([05-physical-architecture.md](05-physical-architecture.md)) |
 
@@ -267,7 +279,7 @@ Reference models are cited in [08-decision-record.md](08-decision-record.md) as 
 | Format migration pipeline | Preservation layer migration workflows |
 | Temporal versioning | Object version history in canonical store |
 | Web capture | Ingestion of web-origin cultural content |
-| Permanence ethic | 100-year architecture horizon ([01-mission.md](01-mission.md)) |
+| Permanence ethic | 100-year architecture horizon ([01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md)) |
 
 ---
 
@@ -324,11 +336,11 @@ When evaluating architectural proposals:
 
 1. Identify which reference model(s) support the proposal
 2. Document the pattern being adopted in an ADR ([08-decision-record.md](08-decision-record.md))
-3. Verify alignment with constitutional commitments ([01-mission.md](01-mission.md))
+3. Verify alignment with constitutional commitments ([01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md))
 4. Confirm standards compliance ([07-reference-standards.md](07-reference-standards.md))
 
 Reference models inform; they do not override Open Grace constitutional authority.
 
 ---
 
-*Previous: [01-mission.md](01-mission.md) · Next: [03-canonical-architecture.md](03-canonical-architecture.md)*
+*Previous: [01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md) · Next: [03-canonical-architecture.md](03-canonical-architecture.md)*

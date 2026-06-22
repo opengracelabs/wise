@@ -20,11 +20,20 @@
 | [07-reference-standards.md](07-reference-standards.md) | Standards, protocols, and interoperability |
 | [08-decision-record.md](08-decision-record.md) | Architecture decision records |
 | [09-source-discovery-agent.md](09-source-discovery-agent.md) | Source Discovery Agent specification |
-| [12-knowledge-graph-agent.md](12-knowledge-graph-agent.md) | Knowledge Graph Agent specification |
-| [11-preservation-agent.md](11-preservation-agent.md) | Preservation Agent specification |
 | [10-metadata-agent.md](10-metadata-agent.md) | Metadata Agent specification |
-| [16-tourism-observatory-agent.md](16-tourism-observatory-agent.md) | Tourism Observatory Agent specification |
-| [16-biodiversity-observatory-agent.md](16-biodiversity-observatory-agent.md) | Biodiversity Observatory Agent specification |
+| [11-preservation-agent.md](11-preservation-agent.md) | Preservation Agent specification |
+| [12-knowledge-graph-agent.md](12-knowledge-graph-agent.md) | Knowledge Graph Agent specification |
+| [13-quality-review-agent.md](13-quality-review-agent.md) | Quality Review Agent specification |
+| [14-translation-agent.md](14-translation-agent.md) | Translation Agent specification |
+| [15-publishing-agent.md](15-publishing-agent.md) | Publishing Agent specification |
+| [16-education-agent.md](16-education-agent.md) | Education Agent specification |
+| [17-biodiversity-observatory-agent.md](17-biodiversity-observatory-agent.md) | Biodiversity Observatory Agent specification |
+| [18-climate-observatory-agent.md](18-climate-observatory-agent.md) | Climate Observatory Agent specification |
+| [19-heritage-observatory-agent.md](19-heritage-observatory-agent.md) | Heritage Observatory Agent specification |
+| [20-tourism-observatory-agent.md](20-tourism-observatory-agent.md) | Tourism Observatory Agent specification |
+| [21-language-observatory-agent.md](21-language-observatory-agent.md) | Language Observatory Agent specification |
+| [22-standards-agent.md](22-standards-agent.md) | Standards Agent specification |
+| [23-benchmark-agent.md](23-benchmark-agent.md) | Benchmark Agent specification |
 
 ---
 
@@ -197,19 +206,21 @@ Agent councils support architecture, implementation, research, and execution. Al
 
 Platform agents automate discovery, preservation, knowledge modeling, and knowledge-graph operations under AI Fabric governance:
 
+- **Publishing Agent** ([15-publishing-agent.md](15-publishing-agent.md)) — assembles encyclopedias, field guides, books, and reports; generates IIIF manifests; enforces editorial gates before publication release.
 - **Source Discovery Agent** ([09-source-discovery-agent.md](09-source-discovery-agent.md)) — discovers UNESCO sites, GBIF datasets, public-domain collections, and metadata sources (OAI-PMH, APIs), emitting candidate Discovery Records for steward approval before ingestion.
 - **Preservation Agent** ([11-preservation-agent.md](11-preservation-agent.md)) — verifies file integrity, generates checksums, tracks provenance via PREMIS events, and monitors preservation risk, emitting fixity records and AIP descriptors while requiring steward approval for migrations and restores.
 - **Metadata Agent** ([10-metadata-agent.md](10-metadata-agent.md)) — normalizes metadata, maps fields to CIDOC-CRM, Dublin Core, and Darwin Core, validates schemas, and proposes authority records, emitting candidate Entity Assertions for steward approval before knowledge-graph placement.
 - **Knowledge Graph Agent** ([12-knowledge-graph-agent.md](12-knowledge-graph-agent.md)) — links entities, builds cross-domain relationships, detects duplicates, and maintains graph integrity, emitting link proposals and reconciliation candidates for curator approval before canonical graph writes.
 - **Quality Review Agent** ([13-quality-review-agent.md](13-quality-review-agent.md)) — evaluates metadata quality, rights clearance, accessibility compliance, and content completeness, emitting quality scores and curation queue entries for steward approval before publication or research-channel release.
 - **Translation Agent** ([14-translation-agent.md](14-translation-agent.md)) — translates entity labels, narratives, and UI strings; manages terminology and translation memory; routes indigenous-language content through community-governed review, emitting Translation Proposals for steward approval before localized graph writes.
-- **Biodiversity Observatory Agent** ([16-biodiversity-observatory-agent.md](16-biodiversity-observatory-agent.md)) — tracks **species**, **occurrences**, and **threatened taxa**; emits trend signals and conservation alerts as Observatory Observation Records for steward approval before observatory feeds enter dashboards and Research Fabric exports.
-- **Language Observatory Agent** ([17-language-observatory-agent.md](17-language-observatory-agent.md)) — tracks endangered languages and revitalization programs over time; ingests vitality signals from partner feeds; emits Vitality Observations and Revitalization Program Records for language-steward approval before observatory time series enter the Knowledge Graph and public dashboards.
-- **Education Agent** ([15-education-agent.md](15-education-agent.md)) — generates curriculum-aligned learning resources, curriculum mappings, and teacher guides, emitting Learning Resource Proposals for educator approval before Education catalog writes.
-- **Climate Observatory Agent** ([16-climate-observatory-agent.md](16-climate-observatory-agent.md)) — ingests climate and conservation feeds across **climate impacts**, **protected areas**, and **heritage risk** tracks; correlates indicators with graph-linked sites and protected estates; emits Observatory Observation Proposals for steward and curator approval before observatory writes.
-- **Tourism Observatory Agent** ([16-tourism-observatory-agent.md](16-tourism-observatory-agent.md)) — tracks **visitor patterns** and **sustainability indicators** at heritage and natural sites; detects trend anomalies; emits Observatory Observation Proposals for steward approval before observatory catalog and dashboard publication.
-- **Standards Agent** ([18-standards-agent.md](18-standards-agent.md)) — verifies conformance against the Standards Registry for **CIDOC-CRM**, **Darwin Core**, and **schema.org**; aggregates automated compliance evidence; emits Standards Compliance Reports for Architecture Office review before milestone gates advance.
-- **Benchmark Agent** ([19-benchmark-agent.md](19-benchmark-agent.md)) — evaluates registered agents for **agent performance**, **quality metrics**, and **architecture compliance**; emits Benchmark Reports for Architecture Office and council review before Evaluations and production clearance.
+- **Biodiversity Observatory Agent** ([17-biodiversity-observatory-agent.md](17-biodiversity-observatory-agent.md)) — tracks **species**, **occurrences**, and **threatened taxa**; emits trend signals and conservation alerts as Observatory Observation Records for steward approval before observatory feeds enter dashboards and Research Fabric exports.
+- **Heritage Observatory Agent** ([19-heritage-observatory-agent.md](19-heritage-observatory-agent.md)) — tracks World Heritage site condition, threats, and conservation status; emits Observatory Observation Records for steward review before canonical observatory writes.
+- **Language Observatory Agent** ([21-language-observatory-agent.md](21-language-observatory-agent.md)) — tracks endangered languages and revitalization programs over time; ingests vitality signals from partner feeds; emits Vitality Observations and Revitalization Program Records for language-steward approval before observatory time series enter the Knowledge Graph and public dashboards.
+- **Education Agent** ([16-education-agent.md](16-education-agent.md)) — generates curriculum-aligned learning resources, curriculum mappings, and teacher guides, emitting Learning Resource Proposals for educator approval before Education catalog writes.
+- **Climate Observatory Agent** ([18-climate-observatory-agent.md](18-climate-observatory-agent.md)) — ingests climate and conservation feeds across **climate impacts**, **protected areas**, and **heritage risk** tracks; correlates indicators with graph-linked sites and protected estates; emits Observatory Observation Proposals for steward and curator approval before observatory writes.
+- **Tourism Observatory Agent** ([20-tourism-observatory-agent.md](20-tourism-observatory-agent.md)) — tracks **visitor patterns** and **sustainability indicators** at heritage and natural sites; detects trend anomalies; emits Observatory Observation Proposals for steward approval before observatory catalog and dashboard publication.
+- **Standards Agent** ([22-standards-agent.md](22-standards-agent.md)) — verifies conformance against the Standards Registry for **CIDOC-CRM**, **Darwin Core**, and **schema.org**; aggregates automated compliance evidence; emits Standards Compliance Reports for Architecture Office review before milestone gates advance.
+- **Benchmark Agent** ([23-benchmark-agent.md](23-benchmark-agent.md)) — evaluates registered agents for **agent performance**, **quality metrics**, and **architecture compliance**; emits Benchmark Reports for Architecture Office and council review before Evaluations and production clearance.
 
 ```
 Claude        → Architecture Council
