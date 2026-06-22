@@ -18,7 +18,14 @@ from sqlalchemy.dialects import postgresql
 revision: str = "001_initial_modeling_schema"
 down_revision: Union[str, None] = None
 branch_labels: Union[str, Sequence[str], None] = None
-depends_on: Union[str, Sequence[str], None] = ("001_initial_source_registry",)
+# NOTE: The registry schema (wise-registry migration 001_initial_source_registry)
+# must be applied before this migration — the modeling tables declare foreign keys
+# into registry.sources / registry.provenance_events. This ordering is enforced
+# operationally (registry → metadata) and by those FK constraints at DDL time.
+# A cross-package Alembic ``depends_on`` cannot be used here because the registry
+# revision lives in a separate version directory and is not on this package's
+# revision path (resolving it raises KeyError during revision-map construction).
+depends_on: Union[str, Sequence[str], None] = None
 
 AUDIT_COLUMNS = [
     sa.Column("created_at", sa.DateTime(timezone=True), server_default=sa.text("now()"), nullable=False),
