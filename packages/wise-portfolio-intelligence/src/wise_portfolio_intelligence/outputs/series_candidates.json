@@ -1,0 +1,34 @@
+[
+  {
+    "id": "wildlife-photographer-series",
+    "title": "Wildlife Photographer Conservation Series",
+    "recognition_score": 80,
+    "commercial_appeal_score": 76,
+    "final_selection_score": 78,
+    "commercial_tier": "Strong Product",
+    "portfolio_category": "series",
+    "rights_status": "Open",
+    "publishable": true,
+    "country": "Kenya",
+    "domain": "nature",
+    "collection_family": "wildlife-conservation",
+    "balanced_portfolio_score": 74,
+    "why_this_asset_was_selected": "balanced portfolio score 74; recognition score 80; commercial appeal 76; commercial tier Strong Product; rights status Open"
+  },
+  {
+    "id": "pulitzer-journalism-series",
+    "title": "Pulitzer Journalism Series",
+    "recognition_score": 84,
+    "commercial_appeal_score": 73,
+    "final_selection_score": 77,
+    "commercial_tier": "Strong Product",
+    "portfolio_category": "series",
+    "rights_status": "Licensed",
+    "publishable": true,
+    "country": "United States",
+    "domain": "journalism",
+    "collection_family": "pulitzer-archives",
+    "balanced_portfolio_score": 80,
+    "why_this_asset_was_selected": "balanced portfolio score 80; recognition score 84; commercial appeal 73; commercial tier Strong Product; rights status Licensed"
+  }
+]

@@ -85,3 +85,11 @@ def test_wise_commercial_intelligence_imports() -> None:
 
     assert callable(calculate_commercial_score)
     assert callable(rank_assets)
+
+
+@pytest.mark.smoke
+def test_wise_portfolio_intelligence_imports() -> None:
+    from wise_portfolio_intelligence import adapt_commercial_portfolio_input, select_portfolio_candidates
+
+    assert callable(adapt_commercial_portfolio_input)
+    assert callable(select_portfolio_candidates)

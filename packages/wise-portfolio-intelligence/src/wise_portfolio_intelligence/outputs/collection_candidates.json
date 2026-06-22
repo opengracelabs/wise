@@ -1,0 +1,34 @@
+[
+  {
+    "id": "smithsonian-collection-study",
+    "title": "Smithsonian Featured Collection Study",
+    "recognition_score": 82,
+    "commercial_appeal_score": 67,
+    "final_selection_score": 73,
+    "commercial_tier": "Strong Product",
+    "portfolio_category": "collection",
+    "rights_status": "Open",
+    "publishable": true,
+    "country": "United States",
+    "domain": "culture",
+    "collection_family": "smithsonian-featured",
+    "balanced_portfolio_score": 77,
+    "why_this_asset_was_selected": "balanced portfolio score 77; recognition score 82; commercial appeal 67; commercial tier Strong Product; rights status Open"
+  },
+  {
+    "id": "nobel-lab-notebook-review",
+    "title": "Nobel Lab Notebook",
+    "recognition_score": 78,
+    "commercial_appeal_score": 36,
+    "final_selection_score": 53,
+    "commercial_tier": "Educational Product",
+    "portfolio_category": "collection",
+    "rights_status": "Review Required",
+    "publishable": false,
+    "country": "Sweden",
+    "domain": "science",
+    "collection_family": "nobel-related",
+    "balanced_portfolio_score": 68,
+    "why_this_asset_was_selected": "balanced portfolio score 68; recognition score 78; commercial appeal 36; commercial tier Educational Product; rights status Review Required"
+  }
+]

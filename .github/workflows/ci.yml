@@ -44,7 +44,7 @@ jobs:
 
       - name: Install shared packages
         run: |
-          pip install -e packages/wise-common -e packages/wise-contracts -e packages/wise-registry -e packages/wise-metadata -e packages/wise-discovery -e packages/wise-reference -e packages/wise-recognition-intelligence -e packages/wise-commercial-intelligence
+          pip install -e packages/wise-common -e packages/wise-contracts -e packages/wise-registry -e packages/wise-metadata -e packages/wise-discovery -e packages/wise-reference -e packages/wise-recognition-intelligence -e packages/wise-commercial-intelligence -e packages/wise-portfolio-intelligence
           pip install pytest httpx geoalchemy2
 
       - name: Install service packages
@@ -96,6 +96,9 @@ jobs:
 
       - name: Run commercial intelligence tests
         run: pytest tests/commercial -v
+
+      - name: Run portfolio intelligence tests
+        run: pytest tests/portfolio -v
 
       - name: Run smoke tests
         run: pytest tests/ -v --tb=short -m smoke

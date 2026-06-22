@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wise-portfolio-intelligence"
+version = "0.1.0"
+description = "Balanced portfolio candidate selection with commercial intelligence inputs (architecture-v1.0 frozen)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "wise-commercial-intelligence",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/wise_portfolio_intelligence"]
+
+[tool.pytest.ini_options]
+testpaths = ["../../tests/portfolio"]
