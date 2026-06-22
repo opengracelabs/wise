@@ -5,39 +5,71 @@ import { BarChart3, MousePointerClick, RefreshCcw, Timer } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  backendItemToAssetInsight,
+  fetchBackendInsights,
+  type BackendInsightsResponse,
+} from "@/lib/analytics-insights";
 import { getDemandInsights, readDemandEvents, type AssetInsight, type DemandEvent } from "@/lib/demand-events";
 
 function useInsights() {
   const [insights, setInsights] = useState<AssetInsight[]>([]);
   const [events, setEvents] = useState<DemandEvent[]>([]);
+  const [backendInsights, setBackendInsights] = useState<BackendInsightsResponse | null>(null);
 
   useEffect(() => {
-    const refresh = () => {
+    const refresh = async () => {
+      const backend = await fetchBackendInsights();
+      setBackendInsights(backend);
       setInsights(getDemandInsights());
       setEvents(readDemandEvents());
     };
 
-    refresh();
+    void refresh();
     window.addEventListener("wise-demand-events-updated", refresh);
     return () => window.removeEventListener("wise-demand-events-updated", refresh);
   }, []);
 
-  return { insights, events };
+  return { insights, events, backendInsights };
 }
 
 export function InsightsDashboard() {
-  const { insights, events } = useInsights();
+  const { insights, events, backendInsights } = useInsights();
   const collections = useMemo(
-    () => insights.filter((insight) => insight.assetType === "collection"),
-    [insights],
+    () =>
+      backendInsights
+        ? backendInsights.top_viewed_collections.map(backendItemToAssetInsight)
+        : insights.filter((insight) => insight.assetType === "collection"),
+    [backendInsights, insights],
   );
-  const series = useMemo(() => insights.filter((insight) => insight.assetType === "series"), [insights]);
-  const topClicked = useMemo(() => insights.filter((insight) => insight.clicks > 0).slice(0, 8), [insights]);
+  const series = useMemo(
+    () =>
+      backendInsights
+        ? backendInsights.top_series_engagement.map(backendItemToAssetInsight)
+        : insights.filter((insight) => insight.assetType === "series"),
+    [backendInsights, insights],
+  );
+  const topClicked = useMemo(
+    () =>
+      backendInsights
+        ? backendInsights.top_clicked_species.map(backendItemToAssetInsight)
+        : insights.filter((insight) => insight.clicks > 0).slice(0, 8),
+    [backendInsights, insights],
+  );
   const totalClicks = insights.reduce((sum, insight) => sum + insight.clicks + insight.ctaClicks, 0);
   const totalDwell = insights.reduce((sum, insight) => sum + insight.dwellTimeSeconds, 0);
+  const conversion = backendInsights?.cta_response_conversion_rate;
 
   return (
     <div className="space-y-8">
+      <Card>
+        <CardContent className="p-5 text-sm text-[var(--muted-foreground)]">
+          Insight source:{" "}
+          <span className="font-bold text-[var(--foreground)]">
+            {backendInsights ? "analytics-service user_events" : "local fallback"}
+          </span>
+        </CardContent>
+      </Card>
       <div className="grid gap-4 md:grid-cols-3">
         <MetricCard icon={<MousePointerClick />} label="Tracked clicks" value={totalClicks.toString()} />
         <MetricCard icon={<Timer />} label="Dwell seconds" value={Math.round(totalDwell).toString()} />
@@ -47,6 +79,17 @@ export function InsightsDashboard() {
       <InsightTable title="Top clicked assets" insights={topClicked} empty="No click events yet." />
       <InsightTable title="Collection interest ranking" insights={collections} empty="No collection interest yet." />
       <InsightTable title="Series interest ranking" insights={series} empty="No series interest yet." />
+      <Card>
+        <CardHeader>
+          <CardTitle>CTA response conversion rate</CardTitle>
+        </CardHeader>
+        <CardContent className="grid gap-4 md:grid-cols-4">
+          <MetricCard icon={<BarChart3 />} label="Yes" value={(conversion?.yes ?? 0).toString()} />
+          <MetricCard icon={<BarChart3 />} label="Maybe" value={(conversion?.maybe ?? 0).toString()} />
+          <MetricCard icon={<BarChart3 />} label="No" value={(conversion?.no ?? 0).toString()} />
+          <MetricCard icon={<BarChart3 />} label="Total" value={(conversion?.total ?? 0).toString()} />
+        </CardContent>
+      </Card>
 
       <Card>
         <CardHeader className="flex-row items-center justify-between gap-4">

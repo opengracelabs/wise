@@ -18,6 +18,7 @@ export interface DemandEvent {
   path: string;
   timestamp: number;
   dwellTimeSeconds?: number;
+  response?: InterestResponse;
 }
 
 export interface InterestVote {
@@ -44,6 +45,8 @@ export interface AssetInsight {
 
 const EVENTS_KEY = "wise:demand-events";
 const VOTES_KEY = "wise:interest-votes";
+const SESSION_KEY = "wise:anonymous-session-id";
+const ANALYTICS_API_URL = process.env.NEXT_PUBLIC_ANALYTICS_API_URL;
 
 function readJson<T>(key: string, fallback: T): T {
   if (typeof window === "undefined") {
@@ -75,7 +78,83 @@ function createId() {
   return `${Date.now()}-${Math.random().toString(16).slice(2)}`;
 }
 
-export function recordDemandEvent(input: Omit<DemandEvent, "id" | "timestamp" | "path"> & { path?: string }) {
+function getAnonymousSessionId() {
+  if (typeof window === "undefined") {
+    return "anon_server_render";
+  }
+
+  const existing = window.localStorage.getItem(SESSION_KEY);
+  if (existing?.startsWith("anon_")) {
+    return existing;
+  }
+
+  const next = `anon_${createId()}`;
+  window.localStorage.setItem(SESSION_KEY, next);
+  return next;
+}
+
+function deviceType() {
+  if (typeof window === "undefined") {
+    return "unknown";
+  }
+  if (window.matchMedia("(pointer: coarse)").matches) {
+    return "touch";
+  }
+  return "desktop";
+}
+
+function safeReferrer() {
+  if (typeof document === "undefined" || !document.referrer) {
+    return undefined;
+  }
+
+  try {
+    const referrer = new URL(document.referrer);
+    return `${referrer.origin}${referrer.pathname}`;
+  } catch {
+    return undefined;
+  }
+}
+
+function backendEntityType(event: DemandEvent) {
+  if (event.type === "cta_click" && event.response) {
+    return `${event.assetType}:${event.response}`;
+  }
+  return event.assetType;
+}
+
+function postDemandEvent(event: DemandEvent) {
+  if (!ANALYTICS_API_URL || typeof window === "undefined") {
+    return;
+  }
+
+  const payload = {
+    type: event.type,
+    entity_id: event.assetId,
+    entity_type: backendEntityType(event),
+    timestamp: new Date(event.timestamp).toISOString(),
+    session_id: getAnonymousSessionId(),
+    metadata: {
+      ...(event.dwellTimeSeconds !== undefined ? { dwell_time: event.dwellTimeSeconds } : {}),
+      referrer: safeReferrer(),
+      device_type: deviceType(),
+    },
+  };
+
+  void fetch(`${ANALYTICS_API_URL}/api/events`, {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify(payload),
+    keepalive: true,
+  }).catch(() => {
+    // Local storage is the fallback source when the telemetry backend is unavailable.
+  });
+}
+
+export function recordDemandEvent(
+  input: Omit<DemandEvent, "id" | "timestamp" | "path"> & { path?: string },
+  options: { sendToBackend?: boolean } = {},
+) {
   const events = readDemandEvents();
   const event: DemandEvent = {
     ...input,
@@ -85,6 +164,9 @@ export function recordDemandEvent(input: Omit<DemandEvent, "id" | "timestamp" | 
   };
 
   writeJson(EVENTS_KEY, [event, ...events].slice(0, 500));
+  if (options.sendToBackend !== false) {
+    postDemandEvent(event);
+  }
   return event.id;
 }
 
@@ -92,7 +174,7 @@ export function startPageView(input: Omit<DemandEvent, "id" | "timestamp" | "pat
   return recordDemandEvent({
     ...input,
     type: "page_view",
-  });
+  }, { sendToBackend: false });
 }
 
 export function endPageView(eventId: string, dwellTimeSeconds: number) {
@@ -107,6 +189,10 @@ export function endPageView(eventId: string, dwellTimeSeconds: number) {
   );
 
   writeJson(EVENTS_KEY, updated);
+  const event = updated.find((item) => item.id === eventId);
+  if (event) {
+    postDemandEvent(event);
+  }
 }
 
 export function readDemandEvents(): DemandEvent[] {
@@ -124,6 +210,7 @@ export function saveInterestVote(vote: Omit<InterestVote, "timestamp">) {
     assetId: vote.assetId,
     assetType: vote.assetType,
     label: `Interest response: ${vote.response}`,
+    response: vote.response,
   });
 }
 

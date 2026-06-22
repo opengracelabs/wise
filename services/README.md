@@ -10,6 +10,7 @@ Platform-plane microservices implementing architecture-v1.0 capabilities (03 §4
 | [metadata-service](metadata-service/) | 4 — Knowledge Modeling | 8002 | `/health` |
 | [knowledge-graph-service](knowledge-graph-service/) | 5 — Knowledge Graph | 8004 | `/health` |
 | [orchestrator-service](orchestrator-service/) | Orchestration — LangGraph | 8005 | `/health` |
+| [analytics-service](analytics-service/) | RC6 — Demand telemetry | 8006 | `/health` |
 
 Each service is a FastAPI application with structured logging via `packages/wise-common`.
 Business logic is added in Reference Capability 1 implementation phases.

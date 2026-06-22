@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wise-demand-intelligence"
+version = "0.1.0"
+description = "WISE demand intelligence helpers for real and synthetic telemetry inputs"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/wise_demand_intelligence"]

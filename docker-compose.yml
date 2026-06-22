@@ -225,6 +225,26 @@ services:
       - wise-internal
       - wise-public
 
+  analytics-service:
+    build:
+      context: .
+      dockerfile: services/analytics-service/Dockerfile
+    container_name: wise-analytics-service
+    restart: unless-stopped
+    environment:
+      <<: *service-env
+      WISE_SERVICE_NAME: analytics-service
+      WISE_DATABASE_URL: ${DATABASE_URL:-postgresql://wise:wise@postgres:5432/wise}
+      WISE_CORS_ORIGINS: ${WISE_ANALYTICS_CORS_ORIGINS:-*}
+    ports:
+      - "${ANALYTICS_SERVICE_PORT:-8006}:8006"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - wise-internal
+      - wise-public
+
   orchestrator-service:
     build:
       context: .
