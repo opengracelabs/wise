@@ -35,7 +35,7 @@ def get_heritage_object(session: Session, stable_id: str) -> HeritageObjectView:
         select(PreservationObject)
         .where(PreservationObject.stable_id == stable_id)
         .options(joinedload(PreservationObject.premis_events))
-    ).one()
+    ).unique().one()
 
     metadata = session.scalars(
         select(MetadataRecord).where(MetadataRecord.stable_id == stable_id)
@@ -49,7 +49,7 @@ def get_heritage_object(session: Session, stable_id: str) -> HeritageObjectView:
         select(GraphEntity)
         .where(GraphEntity.stable_id == stable_id)
         .options(joinedload(GraphEntity.external_links))
-    ).one()
+    ).unique().one()
 
     quality = session.scalars(
         select(QualityReview).where(QualityReview.graph_entity_id == graph_entity.id)
