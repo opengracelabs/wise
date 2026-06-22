@@ -11,6 +11,7 @@ from fastapi.staticfiles import StaticFiles
 from wise_common.logging import configure_logging
 
 from wise_api.routes.areas import router as areas_router
+from wise_api.routes.commerce import router as commerce_router
 from wise_api.routes.map import router as map_router
 from wise_api.routes.objects import router as objects_router
 from wise_api.routes.species import router as species_router
@@ -45,6 +46,7 @@ app.include_router(objects_router)
 app.include_router(species_router)
 app.include_router(areas_router)
 app.include_router(map_router)
+app.include_router(commerce_router)
 
 if surface_path.is_dir():
     app.mount("/static", StaticFiles(directory=str(surface_path)), name="static")
@@ -75,3 +77,41 @@ async def public_object_page(stable_id: str):
     if not page.is_file():
         raise HTTPException(status_code=404, detail=f"Object page not found: {stable_id}")
     return FileResponse(page, media_type="text/html")
+
+
+def _surface_page(*segments: str) -> FileResponse:
+    page = surface_path.joinpath(*segments, "index.html")
+    if not page.is_file():
+        route = "/" + "/".join(segments)
+        raise HTTPException(status_code=404, detail=f"Surface page not found: {route}")
+    return FileResponse(page, media_type="text/html")
+
+
+@app.get("/shop")
+async def shop_page():
+    """RC7 shop landing page."""
+
+    return _surface_page("shop")
+
+
+@app.get("/shop/{category}")
+async def shop_category_page(category: str):
+    """RC7 shop category page."""
+
+    if category not in {"posters", "prints", "puzzles", "calendars", "books"}:
+        raise HTTPException(status_code=404, detail=f"Shop category not found: {category}")
+    return _surface_page("shop", category)
+
+
+@app.get("/admin/marketing")
+async def marketing_dashboard_page():
+    """RC7 marketing dashboard page."""
+
+    return _surface_page("admin", "marketing")
+
+
+@app.get("/marketing/youtube")
+async def youtube_promo_page():
+    """RC7 YouTube promo validation page."""
+
+    return _surface_page("marketing", "youtube")

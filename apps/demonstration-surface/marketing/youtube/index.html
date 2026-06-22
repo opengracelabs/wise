@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YouTube Promo - RC7 Commerce & Distribution Prototype</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <p class="eyebrow">WISE Marketing</p>
+    <h1>YouTube promo page</h1>
+    <p class="subtitle">
+      AI promotion pipeline design for collection-to-video validation:
+      Collection &rarr; Script &rarr; Narration &rarr; Images &rarr; Promo Video.
+    </p>
+    <ul class="nav-list" aria-label="Commerce navigation">
+      <li><a href="/shop">Shop prototype</a></li>
+      <li><a href="/admin/marketing">Marketing dashboard</a></li>
+    </ul>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section aria-labelledby="storyboard-heading">
+      <h2 id="storyboard-heading">Promo storyboard validation</h2>
+      <p>
+        This page validates story structure, image requirements, captions, and
+        governance gates for a future YouTube promo. It does not publish video,
+        collect payments, or activate commerce checkout.
+      </p>
+      <ol id="pipeline-list" class="pipeline-list"></ol>
+    </section>
+
+    <section aria-labelledby="asset-heading">
+      <h2 id="asset-heading">Pinterest and video image inputs</h2>
+      <p>
+        Pinterest-ready 1000x1500 pins, product pins, and collection pins are
+        specified as reusable visual inputs for social and video validation.
+      </p>
+      <div id="asset-list" class="card-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      Reference models: Smithsonian interpretive clarity, National Geographic
+      visual storytelling, British Museum object authority, and Shopify Commerce
+      product discovery conventions.
+    </p>
+  </footer>
+
+  <div id="load-error" class="error-panel" role="alert" hidden>
+    Unable to load YouTube promotion data.
+  </div>
+
+  <script src="/static/commerce.js" defer></script>
+  <script defer>
+    document.addEventListener("DOMContentLoaded", () => {
+      window.WISE_COMMERCE.loadYoutubePromo();
+    });
+  </script>
+</body>
+</html>

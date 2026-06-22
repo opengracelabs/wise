@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop - RC7 Commerce & Distribution Prototype</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <p class="eyebrow">WISE Founder Demonstration Surface</p>
+    <h1 id="page-title">Shop</h1>
+    <p class="subtitle">
+      RC7 Commerce & Distribution Prototype for catalog validation, marketing validation,
+      and provider readiness. No payment processing.
+    </p>
+    <ul class="nav-list" aria-label="Shop categories">
+      <li><a href="/shop/posters">Posters</a></li>
+      <li><a href="/shop/prints">Prints</a></li>
+      <li><a href="/shop/puzzles">Puzzles</a></li>
+      <li><a href="/shop/calendars">Calendars</a></li>
+      <li><a href="/shop/books">Books</a></li>
+    </ul>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section aria-labelledby="catalog-heading">
+      <p class="eyebrow" id="prototype-name">RC7 Commerce & Distribution Prototype</p>
+      <h2 id="catalog-heading">Product catalog</h2>
+      <p id="product-count">Loading validation products...</p>
+      <div id="product-list" class="card-grid" aria-live="polite"></div>
+    </section>
+
+    <section aria-labelledby="provider-heading">
+      <h2 id="provider-heading">Shopify, Printful, and Gelato validation layer</h2>
+      <p>
+        Provider adapters validate catalog, mockup, and distribution readiness only.
+        Checkout, order capture, and fulfillment submission remain disabled.
+      </p>
+      <div id="provider-list" class="card-grid"></div>
+    </section>
+
+    <section aria-labelledby="pipeline-heading">
+      <h2 id="pipeline-heading">AI promotion pipeline design</h2>
+      <ol id="pipeline-list" class="pipeline-list"></ol>
+    </section>
+
+    <section aria-labelledby="assets-heading">
+      <h2 id="assets-heading">Pinterest-ready assets</h2>
+      <p>Includes 1000x1500 pins, product pins, and collection pins.</p>
+      <div id="asset-list" class="card-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      Reference models: Smithsonian, National Geographic, British Museum, and Shopify Commerce.
+      YouTube promo validation: <a id="youtube-route" href="/marketing/youtube">/marketing/youtube</a>.
+    </p>
+  </footer>
+
+  <div id="load-error" class="error-panel" role="alert" hidden>
+    Unable to load RC7 commerce data.
+  </div>
+
+  <script src="/static/commerce.js" defer></script>
+  <script defer>
+    document.addEventListener("DOMContentLoaded", () => {
+      window.WISE_COMMERCE.loadShop();
+    });
+  </script>
+</body>
+</html>
