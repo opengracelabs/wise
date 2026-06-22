@@ -1,0 +1,23 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/shop",
+      "destination": "/apps/demonstration-surface/shop/index.html"
+    },
+    {
+      "source": "/shop/products/:slug",
+      "destination": "/apps/demonstration-surface/shop/products/:slug/index.html"
+    },
+    {
+      "source": "/admin/commercial",
+      "destination": "/apps/demonstration-surface/admin/commercial/index.html"
+    },
+    {
+      "source": "/static/:path*",
+      "destination": "/apps/demonstration-surface/:path*"
+    }
+  ]
+}

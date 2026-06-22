@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop — RC6 Commercial Validation Surface</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body class="commercial-surface">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header commercial-hero" role="banner">
+    <p class="eyebrow">WISE Founder Demonstration Surface — RC6</p>
+    <h1>Big Cats of the World Shop Concepts</h1>
+    <p class="subtitle">
+      Read-only commercial validation surface for the RC4 collection. Product concepts test demand
+      signals only; prices are placeholders and payment processing is intentionally absent.
+    </p>
+    <nav class="surface-nav" aria-label="Commercial validation navigation">
+      <a href="/shop">Shop concepts</a>
+      <a href="/admin/commercial">Local analytics dashboard</a>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section aria-labelledby="collection-heading" class="commercial-panel">
+      <p class="eyebrow">Existing RC4 collection</p>
+      <h2 id="collection-heading">Big Cats of the World</h2>
+      <p>
+        The assortment follows Smithsonian and National Geographic merchandising patterns:
+        education-first object labels, field-note storytelling, conservation context, and
+        institutionally restrained design language.
+      </p>
+      <ul class="status-list" aria-label="Commercial validation safeguards">
+        <li><span class="badge pass">Read-only</span></li>
+        <li><span class="badge pass">No payment processing</span></li>
+        <li><span class="badge pass">Local demand tracking</span></li>
+        <li><span class="badge pass">Vercel-compatible static assets</span></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="products-heading">
+      <p class="eyebrow">Validation assortment</p>
+      <h2 id="products-heading">Product cards</h2>
+      <p class="map-note">
+        Buy Interest records <code>buy_interest</code> and simulated <code>checkout_intent</code>
+        events in local browser storage. Add to Wishlist records <code>add_to_wishlist</code>.
+      </p>
+      <div id="product-grid" class="product-grid" aria-live="polite"></div>
+      <p id="commercial-action-status" class="action-status" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      RC6 Commercial Validation Surface. Concepts are not merchandise for sale. Demand telemetry is
+      stored locally in this browser for steward review at <a href="/admin/commercial">/admin/commercial</a>.
+    </p>
+  </footer>
+
+  <script src="/static/commercial.js" defer></script>
+</body>
+</html>

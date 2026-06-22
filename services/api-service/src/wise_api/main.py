@@ -59,6 +59,33 @@ async def health() -> dict[str, str]:
     }
 
 
+@app.get("/shop")
+async def commercial_shop_page():
+    """Read-only RC6 commercial validation shop surface."""
+    page = surface_path / "shop" / "index.html"
+    if not page.is_file():
+        raise HTTPException(status_code=404, detail="Commercial shop page not found")
+    return FileResponse(page, media_type="text/html")
+
+
+@app.get("/shop/products/{product_slug}")
+async def commercial_product_page(product_slug: str):
+    """Read-only RC6 commercial product detail surface."""
+    page = surface_path / "shop" / "products" / product_slug / "index.html"
+    if not page.is_file():
+        raise HTTPException(status_code=404, detail=f"Commercial product page not found: {product_slug}")
+    return FileResponse(page, media_type="text/html")
+
+
+@app.get("/admin/commercial")
+async def commercial_dashboard_page():
+    """Local RC6 commercial demand analytics dashboard."""
+    page = surface_path / "admin" / "commercial" / "index.html"
+    if not page.is_file():
+        raise HTTPException(status_code=404, detail="Commercial analytics dashboard not found")
+    return FileResponse(page, media_type="text/html")
+
+
 @app.get("/areas/{stable_id}")
 async def public_area_page(stable_id: str):
     """Public protected area page for Reference Capability 3 demonstration."""
