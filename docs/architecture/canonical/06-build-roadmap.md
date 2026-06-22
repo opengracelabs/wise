@@ -11,7 +11,7 @@
 
 | Document | Purpose |
 |----------|---------|
-| [01-mission.md](01-mission.md) | Mission, charter, and constitutional relationship |
+| [01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md) | Mission, charter, and constitutional relationship |
 | [02-reference-models.md](02-reference-models.md) | Institutional reference models informing design |
 | [03-canonical-architecture.md](03-canonical-architecture.md) | Canonical 100-year logical architecture |
 | [04-system-diagram.md](04-system-diagram.md) | Canonical system diagram |
@@ -314,7 +314,7 @@ Build order diagram: [04-system-diagram.md](04-system-diagram.md), Section 4.
 | **Depends on** | Phase 11 (Public Experience), Phase 8 (Research Fabric) |
 | **Delivers** | Public APIs, embeddable widgets, mobile apps, data products |
 | **Success criteria** | Public API documented; ≥ 3 third-party integrations; mobile app launched |
-| **Constitutional constraint** | Products must not gate canonical public memory ([01-mission.md](01-mission.md)) |
+| **Constitutional constraint** | Products must not gate canonical public memory ([01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md)) |
 | **Reference models** | National Geographic |
 | **Target** | Year 6–7 |
 
@@ -460,7 +460,7 @@ Beyond the founder build order:
 
 Before Phase 1 begins, Open Grace must establish:
 
-1. Constitutional charter ratified ([01-mission.md](01-mission.md))
+1. Constitutional charter ratified ([01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md))
 2. Architecture Office operational
 3. Standards registry initialized ([07-reference-standards.md](07-reference-standards.md))
 4. Initial ADRs filed ([08-decision-record.md](08-decision-record.md))
