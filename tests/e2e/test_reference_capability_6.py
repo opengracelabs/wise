@@ -577,6 +577,42 @@ def test_rc14_source_references_exist():
 
 
 @pytest.mark.e2e
+def test_rc15_publication_quality_review_artifacts():
+    report = Path("docs/implementation/rc15-publication-quality-report.md")
+    assert report.is_file()
+    report_text = report.read_text(encoding="utf-8")
+    for section in [
+        "Pass/fail by artifact group",
+        "Required edits",
+        "Rights blockers",
+        "Top 10 publishable artifacts",
+        "Top 10 not-ready artifacts",
+        "ADR-011",
+    ]:
+        assert section in report_text
+
+    revised_root = Path("content/revised")
+    revised_files = sorted(revised_root.glob("**/*.md"))
+    assert len(revised_files) >= 20
+    for path in [
+        revised_root / "ebooks/big-cats-of-the-world/manuscript.md",
+        revised_root / "audiobooks/big-cats-of-the-world/narration-script.md",
+        revised_root / "youtube/big-cats-of-the-world.md",
+        revised_root / "youtube/the-story-of-stonehenge.md",
+        revised_root / "youtube/endangered-earth.md",
+    ]:
+        assert path.is_file()
+        text = path.read_text(encoding="utf-8")
+        assert "Source dependencies" in text
+        assert "rights" in text.lower()
+
+    for product_file in (revised_root / "products").glob("*.md"):
+        text = product_file.read_text(encoding="utf-8")
+        assert "No payment processing enabled" in text
+        assert "Do not remove rights warnings" in text
+
+
+@pytest.mark.e2e
 @pytest.mark.parametrize("product_slug", PRODUCT_SLUGS)
 def test_commercial_product_pages_served(product_slug: str):
     client = TestClient(app)
