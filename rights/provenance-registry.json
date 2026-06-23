@@ -1,0 +1,518 @@
+{
+  "registry": "RC17 provenance registry",
+  "version": "0.1.0",
+  "events": [
+    {
+      "provenance_id": "RC17-PROV-001",
+      "asset_id": "RC17-ASSET-001",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "UNESCO-WHC",
+      "derived_from": [
+        "Great Civilizations"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-002",
+      "asset_id": "RC17-ASSET-002",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "GBIF",
+      "derived_from": [
+        "Endangered Earth"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-003",
+      "asset_id": "RC17-ASSET-003",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "GBIF",
+      "derived_from": [
+        "Big Cats of the World"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-004",
+      "asset_id": "RC17-ASSET-004",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "UNESCO-WHC",
+      "derived_from": [
+        "African Kingdoms"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-005",
+      "asset_id": "RC17-ASSET-005",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "UNESCO-WHC",
+      "derived_from": [
+        "Cities of the Silk Road"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-006",
+      "asset_id": "RC17-ASSET-006",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "UNESCO-WHC",
+      "derived_from": [
+        "Great Civilizations"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-007",
+      "asset_id": "RC17-ASSET-007",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "UNESCO-WHC",
+      "derived_from": [
+        "Cities of the Silk Road"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-008",
+      "asset_id": "RC17-ASSET-008",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "GBIF",
+      "derived_from": [
+        "Big Cats of the World"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-009",
+      "asset_id": "RC17-ASSET-009",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "GBIF",
+      "derived_from": [
+        "Oceans of the World"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-010",
+      "asset_id": "RC17-ASSET-010",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "UNESCO-WHC",
+      "derived_from": [
+        "Endangered Earth"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-011",
+      "asset_id": "RC17-ASSET-011",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "GBIF",
+      "derived_from": [
+        "Oceans of the World"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-012",
+      "asset_id": "RC17-ASSET-012",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "GBIF",
+      "derived_from": [
+        "Endangered Earth",
+        "Oceans of the World",
+        "Wonders of Australia"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-013",
+      "asset_id": "RC17-ASSET-013",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "UNESCO-WHC",
+      "derived_from": [
+        "Great Civilizations",
+        "World Heritage Icons"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-014",
+      "asset_id": "RC17-ASSET-014",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "UNESCO-WHC",
+      "derived_from": [
+        "African Kingdoms"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-015",
+      "asset_id": "RC17-ASSET-015",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "GBIF",
+      "derived_from": [
+        "Big Cats of the World"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-016",
+      "asset_id": "RC17-ASSET-016",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "UNESCO-WHC",
+      "derived_from": [
+        "Wonders of Australia"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-017",
+      "asset_id": "RC17-ASSET-017",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "UNESCO-WHC",
+      "derived_from": [
+        "Cities of the Silk Road"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-018",
+      "asset_id": "RC17-ASSET-018",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "UNESCO-WHC",
+      "derived_from": [
+        "Sacred Mountains"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-019",
+      "asset_id": "RC17-ASSET-019",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "UNESCO-WHC",
+      "derived_from": [
+        "African Kingdoms"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-020",
+      "asset_id": "RC17-ASSET-020",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "UNESCO-WHC",
+      "derived_from": [
+        "Sacred Mountains",
+        "World Heritage Icons"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-021",
+      "asset_id": "RC17-ASSET-021",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "PUBLIC-DOMAIN-MAPS",
+      "derived_from": [
+        "Ancient Maps"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-022",
+      "asset_id": "RC17-ASSET-022",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "PARTNER-CULTURAL-REVIEW",
+      "derived_from": [
+        "Sacred Mountains"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-023",
+      "asset_id": "RC17-ASSET-023",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "UNESCO-WHC",
+      "derived_from": [
+        "Oceans of the World"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-024",
+      "asset_id": "RC17-ASSET-024",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "PUBLIC-DOMAIN-MAPS",
+      "derived_from": [
+        "Oceans of the World"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-025",
+      "asset_id": "RC17-ASSET-025",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "PARTNER-CULTURAL-REVIEW",
+      "derived_from": [
+        "Sacred Mountains"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-026",
+      "asset_id": "RC17-ASSET-026",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "PUBLIC-DOMAIN-MAPS",
+      "derived_from": [
+        "Ancient Maps"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-027",
+      "asset_id": "RC17-ASSET-027",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "GBIF",
+      "derived_from": [
+        "Endangered Earth"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-028",
+      "asset_id": "RC17-ASSET-028",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "UNESCO-WHC",
+      "derived_from": [
+        "Cities of the Silk Road"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-029",
+      "asset_id": "RC17-ASSET-029",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "UNESCO-WHC",
+      "derived_from": [
+        "Wonders of Australia"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-030",
+      "asset_id": "RC17-ASSET-030",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "UNESCO-WHC",
+      "derived_from": [
+        "Cities of the Silk Road"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-031",
+      "asset_id": "RC17-ASSET-031",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "GBIF",
+      "derived_from": [
+        "Big Cats of the World"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-032",
+      "asset_id": "RC17-ASSET-032",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "UNESCO-WHC",
+      "derived_from": [
+        "World Heritage Icons"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-033",
+      "asset_id": "RC17-ASSET-033",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "UNESCO-WHC",
+      "derived_from": [
+        "African Kingdoms"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-034",
+      "asset_id": "RC17-ASSET-034",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "PUBLIC-DOMAIN-MAPS",
+      "derived_from": [
+        "Ancient Maps"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-035",
+      "asset_id": "RC17-ASSET-035",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "UNESCO-WHC",
+      "derived_from": [
+        "Great Civilizations",
+        "World Heritage Icons"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-036",
+      "asset_id": "RC17-ASSET-036",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "GBIF",
+      "derived_from": [
+        "Wonders of Australia"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-037",
+      "asset_id": "RC17-ASSET-037",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "UNESCO-WHC",
+      "derived_from": [
+        "Great Civilizations",
+        "World Heritage Icons"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-038",
+      "asset_id": "RC17-ASSET-038",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "GBIF",
+      "derived_from": [
+        "Big Cats of the World",
+        "Endangered Earth"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-039",
+      "asset_id": "RC17-ASSET-039",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "PARTNER-CULTURAL-REVIEW",
+      "derived_from": [
+        "African Kingdoms"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-040",
+      "asset_id": "RC17-ASSET-040",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "PARTNER-CULTURAL-REVIEW",
+      "derived_from": [
+        "Sacred Mountains",
+        "Wonders of Australia"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-041",
+      "asset_id": "RC17-ASSET-041",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "PUBLIC-DOMAIN-MAPS",
+      "derived_from": [
+        "Ancient Maps"
+      ],
+      "evidence": "content/collections key asset list"
+    },
+    {
+      "provenance_id": "RC17-PROV-042",
+      "asset_id": "RC17-ASSET-042",
+      "event_type": "collection_asset_registered",
+      "event_date": "2026-06-22",
+      "actor": "RC17 rights-provenance implementation",
+      "source_id": "PUBLIC-DOMAIN-MAPS",
+      "derived_from": [
+        "Ancient Maps"
+      ],
+      "evidence": "content/collections key asset list"
+    }
+  ]
+}

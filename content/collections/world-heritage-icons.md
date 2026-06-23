@@ -3,12 +3,17 @@
 > The most celebrated places humanity has agreed to protect.
 
 **Type:** Collection · **Portfolio score:** 90.5 · **Key assets:** 8
-
 *Status: draft for review (RC14). Not yet published.*
+
+**Architecture boundary:** Implementation content only; Architecture v1.0 remains frozen under ADR-011.
 
 ## Introduction
 
 Some places belong to everyone. The UNESCO World Heritage list names the sites of 'outstanding universal value' — and a handful have become global shorthand for human achievement itself. This collection brings together the most recognized of them, the icons that anchor any first encounter with world heritage.
+
+## Educational narrative
+
+World Heritage status is a promise: that a place matters beyond borders and beyond our own lifetimes. The icons gathered here — a Mughal mausoleum, an Inca citadel, a Roman arena, a Nabataean city carved from rock — span faith, power, science and art. Reading them as a set introduces the very idea of shared, protected memory, and the stewardship that keeps it alive.
 
 ## Key assets
 
@@ -20,10 +25,14 @@ Some places belong to everyone. The UNESCO World Heritage list names the sites o
 - **Stonehenge** (United Kingdom) — Neolithic and Bronze Age stone circle on Salisbury Plain, aligned to the solstices.
 - **Angkor Wat** (Cambodia) — Largest religious monument in the world, a 12th-century Khmer temple-city.
 - **Chichen Itza** (Mexico) — Maya-Toltec city dominated by the pyramid of El Castillo; a New Seven Wonder.
+- Great Pyramid of Giza
+- The Great Wall
 
-## Educational narrative
+## Key facts
 
-World Heritage status is a promise: that a place matters beyond borders and beyond our own lifetimes. The icons gathered here — a Mughal mausoleum, an Inca citadel, a Roman arena, a Nabataean city carved from rock — span faith, power, science and art. Reading them as a set introduces the very idea of shared, protected memory, and the stewardship that keeps it alive.
+- World Heritage status signals global significance but does not replace local stewardship.
+- Iconic sites can introduce geography, archaeology, conservation, and cultural continuity.
+- Rights-cleared imagery is required before production use.
 
 ## Product opportunities
 
@@ -31,6 +40,18 @@ The flagship retail collection: poster and framed-print sets, the world-heritage
 
 _Recommended formats (from catalogue): Framed Print, Coffee Table Book, Jigsaw Puzzle, Poster._
 
+- Travel posters
+- Wall calendars
+- Jigsaw puzzles
+- Framed prints
+- Introductory classroom sets
+
 ## Rights & attribution
 
 > **Rights & attribution (draft gate).** Public-domain artworks, maps and manuscripts (museum open-access, Library of Congress, Europeana, Public Domain Review) are reproduction-ready. Heritage sites, landscapes and species require own/commissioned or CC-licensed photography before publication or sale. No item ships until it passes discovery -> preservation -> metadata -> rights/quality and carries machine-readable rights. Per ADR-010, products are derived goods and never gate canonical public memory.
+
+## Readiness notes
+
+- Educational draft is ready for internal validation.
+- Publication requires source review, image clearance, and sensitivity review where applicable.
+- Product use remains validation-only; no payment processing or fulfillment is enabled.

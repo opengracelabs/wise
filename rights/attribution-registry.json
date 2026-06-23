@@ -1,0 +1,384 @@
+{
+  "registry": "RC17 attribution registry",
+  "version": "0.1.0",
+  "attributions": [
+    {
+      "attribution_id": "RC17-ATTR-001",
+      "asset_id": "RC17-ASSET-001",
+      "title": "Acropolis of Athens",
+      "source_id": "UNESCO-WHC",
+      "credit_line": "Acropolis of Athens. Source: UNESCO World Heritage Centre / site-level reference. License/status: Rights review required before publication.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-002",
+      "asset_id": "RC17-ASSET-002",
+      "title": "African Elephant",
+      "source_id": "GBIF",
+      "credit_line": "African Elephant. Source: GBIF species occurrence and taxonomy reference. License/status: Visual asset/image rights review required.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-003",
+      "asset_id": "RC17-ASSET-003",
+      "title": "African Lion",
+      "source_id": "GBIF",
+      "credit_line": "African Lion. Source: GBIF species occurrence and taxonomy reference. License/status: Visual asset/image rights review required.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-004",
+      "asset_id": "RC17-ASSET-004",
+      "title": "Aksum Obelisks",
+      "source_id": "UNESCO-WHC",
+      "credit_line": "Aksum Obelisks. Source: UNESCO World Heritage Centre / site-level reference. License/status: Rights review required before publication.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-005",
+      "asset_id": "RC17-ASSET-005",
+      "title": "Ancient Silk Road Caravanserai",
+      "source_id": "UNESCO-WHC",
+      "credit_line": "Ancient Silk Road Caravanserai. Source: UNESCO World Heritage Centre / site-level reference. License/status: Rights review required before publication.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-006",
+      "asset_id": "RC17-ASSET-006",
+      "title": "Angkor Wat",
+      "source_id": "UNESCO-WHC",
+      "credit_line": "Angkor Wat. Source: UNESCO World Heritage Centre / site-level reference. License/status: Rights review required before publication.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-007",
+      "asset_id": "RC17-ASSET-007",
+      "title": "Bukhara Historic Centre",
+      "source_id": "UNESCO-WHC",
+      "credit_line": "Bukhara Historic Centre. Source: UNESCO World Heritage Centre / site-level reference. License/status: Rights review required before publication.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-008",
+      "asset_id": "RC17-ASSET-008",
+      "title": "Cheetah",
+      "source_id": "GBIF",
+      "credit_line": "Cheetah. Source: GBIF species occurrence and taxonomy reference. License/status: Visual asset/image rights review required.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-009",
+      "asset_id": "RC17-ASSET-009",
+      "title": "Coral Reef Biodiversity",
+      "source_id": "GBIF",
+      "credit_line": "Coral Reef Biodiversity. Source: GBIF species occurrence and taxonomy reference. License/status: Visual asset/image rights review required.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-010",
+      "asset_id": "RC17-ASSET-010",
+      "title": "Galapagos Islands",
+      "source_id": "UNESCO-WHC",
+      "credit_line": "Galapagos Islands. Source: UNESCO World Heritage Centre / site-level reference. License/status: Rights review required before publication.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-011",
+      "asset_id": "RC17-ASSET-011",
+      "title": "Ganges River Dolphin",
+      "source_id": "GBIF",
+      "credit_line": "Ganges River Dolphin. Source: GBIF species occurrence and taxonomy reference. License/status: Visual asset/image rights review required.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-012",
+      "asset_id": "RC17-ASSET-012",
+      "title": "Great Barrier Reef",
+      "source_id": "GBIF",
+      "credit_line": "Great Barrier Reef. Source: GBIF species occurrence and taxonomy reference. License/status: Visual asset/image rights review required.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-013",
+      "asset_id": "RC17-ASSET-013",
+      "title": "Great Pyramid of Giza",
+      "source_id": "UNESCO-WHC",
+      "credit_line": "Great Pyramid of Giza. Source: UNESCO World Heritage Centre / site-level reference. License/status: Rights review required before publication.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-014",
+      "asset_id": "RC17-ASSET-014",
+      "title": "Great Zimbabwe",
+      "source_id": "UNESCO-WHC",
+      "credit_line": "Great Zimbabwe. Source: UNESCO World Heritage Centre / site-level reference. License/status: Rights review required before publication.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-015",
+      "asset_id": "RC17-ASSET-015",
+      "title": "Jaguar",
+      "source_id": "GBIF",
+      "credit_line": "Jaguar. Source: GBIF species occurrence and taxonomy reference. License/status: Visual asset/image rights review required.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-016",
+      "asset_id": "RC17-ASSET-016",
+      "title": "Kakadu National Park",
+      "source_id": "UNESCO-WHC",
+      "credit_line": "Kakadu National Park. Source: UNESCO World Heritage Centre / site-level reference. License/status: Rights review required before publication.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-017",
+      "asset_id": "RC17-ASSET-017",
+      "title": "Khiva Itchan Kala",
+      "source_id": "UNESCO-WHC",
+      "credit_line": "Khiva Itchan Kala. Source: UNESCO World Heritage Centre / site-level reference. License/status: Rights review required before publication.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-018",
+      "asset_id": "RC17-ASSET-018",
+      "title": "Kilimanjaro National Park",
+      "source_id": "UNESCO-WHC",
+      "credit_line": "Kilimanjaro National Park. Source: UNESCO World Heritage Centre / site-level reference. License/status: Rights review required before publication.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-019",
+      "asset_id": "RC17-ASSET-019",
+      "title": "Lalibela Rock-Hewn Churches",
+      "source_id": "UNESCO-WHC",
+      "credit_line": "Lalibela Rock-Hewn Churches. Source: UNESCO World Heritage Centre / site-level reference. License/status: Rights review required before publication.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-020",
+      "asset_id": "RC17-ASSET-020",
+      "title": "Machu Picchu",
+      "source_id": "UNESCO-WHC",
+      "credit_line": "Machu Picchu. Source: UNESCO World Heritage Centre / site-level reference. License/status: Rights review required before publication.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-021",
+      "asset_id": "RC17-ASSET-021",
+      "title": "Map of the Moon",
+      "source_id": "PUBLIC-DOMAIN-MAPS",
+      "credit_line": "Map of the Moon. Source: Public domain historical maps. License/status: Public Domain Mark / public-domain item.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-022",
+      "asset_id": "RC17-ASSET-022",
+      "title": "Mount Fuji",
+      "source_id": "PARTNER-CULTURAL-REVIEW",
+      "credit_line": "Mount Fuji. Source: Partner or cultural sensitivity review source. License/status: Partner permission and sensitivity review required.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-023",
+      "asset_id": "RC17-ASSET-023",
+      "title": "Ocean Giants Collection",
+      "source_id": "UNESCO-WHC",
+      "credit_line": "Ocean Giants Collection. Source: UNESCO World Heritage Centre / site-level reference. License/status: Rights review required before publication.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-024",
+      "asset_id": "RC17-ASSET-024",
+      "title": "Pacific Atoll Climate Maps",
+      "source_id": "PUBLIC-DOMAIN-MAPS",
+      "credit_line": "Pacific Atoll Climate Maps. Source: Public domain historical maps. License/status: Public Domain Mark / public-domain item.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-025",
+      "asset_id": "RC17-ASSET-025",
+      "title": "Pamir Mountains",
+      "source_id": "PARTNER-CULTURAL-REVIEW",
+      "credit_line": "Pamir Mountains. Source: Partner or cultural sensitivity review source. License/status: Partner permission and sensitivity review required.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-026",
+      "asset_id": "RC17-ASSET-026",
+      "title": "Piri Reis Map",
+      "source_id": "PUBLIC-DOMAIN-MAPS",
+      "credit_line": "Piri Reis Map. Source: Public domain historical maps. License/status: Public Domain Mark / public-domain item.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-027",
+      "asset_id": "RC17-ASSET-027",
+      "title": "Polar Bear",
+      "source_id": "GBIF",
+      "credit_line": "Polar Bear. Source: GBIF species occurrence and taxonomy reference. License/status: Visual asset/image rights review required.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-028",
+      "asset_id": "RC17-ASSET-028",
+      "title": "Samarkand Registan",
+      "source_id": "UNESCO-WHC",
+      "credit_line": "Samarkand Registan. Source: UNESCO World Heritage Centre / site-level reference. License/status: Rights review required before publication.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-029",
+      "asset_id": "RC17-ASSET-029",
+      "title": "Shark Bay",
+      "source_id": "UNESCO-WHC",
+      "credit_line": "Shark Bay. Source: UNESCO World Heritage Centre / site-level reference. License/status: Rights review required before publication.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-030",
+      "asset_id": "RC17-ASSET-030",
+      "title": "Silk Roads Tien-Shan Corridor",
+      "source_id": "UNESCO-WHC",
+      "credit_line": "Silk Roads Tien-Shan Corridor. Source: UNESCO World Heritage Centre / site-level reference. License/status: Rights review required before publication.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-031",
+      "asset_id": "RC17-ASSET-031",
+      "title": "Snow Leopard",
+      "source_id": "GBIF",
+      "credit_line": "Snow Leopard. Source: GBIF species occurrence and taxonomy reference. License/status: Visual asset/image rights review required.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-032",
+      "asset_id": "RC17-ASSET-032",
+      "title": "Stonehenge",
+      "source_id": "UNESCO-WHC",
+      "credit_line": "Stonehenge. Source: UNESCO World Heritage Centre / site-level reference. License/status: Rights review required before publication.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-033",
+      "asset_id": "RC17-ASSET-033",
+      "title": "Swahili Coast Stone Towns",
+      "source_id": "UNESCO-WHC",
+      "credit_line": "Swahili Coast Stone Towns. Source: UNESCO World Heritage Centre / site-level reference. License/status: Rights review required before publication.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-034",
+      "asset_id": "RC17-ASSET-034",
+      "title": "Tabula Rogeriana",
+      "source_id": "PUBLIC-DOMAIN-MAPS",
+      "credit_line": "Tabula Rogeriana. Source: Public domain historical maps. License/status: Public Domain Mark / public-domain item.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-035",
+      "asset_id": "RC17-ASSET-035",
+      "title": "Taj Mahal",
+      "source_id": "UNESCO-WHC",
+      "credit_line": "Taj Mahal. Source: UNESCO World Heritage Centre / site-level reference. License/status: Rights review required before publication.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-036",
+      "asset_id": "RC17-ASSET-036",
+      "title": "Tasmanian Devil",
+      "source_id": "GBIF",
+      "credit_line": "Tasmanian Devil. Source: GBIF species occurrence and taxonomy reference. License/status: Visual asset/image rights review required.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-037",
+      "asset_id": "RC17-ASSET-037",
+      "title": "The Great Wall",
+      "source_id": "UNESCO-WHC",
+      "credit_line": "The Great Wall. Source: UNESCO World Heritage Centre / site-level reference. License/status: Rights review required before publication.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-038",
+      "asset_id": "RC17-ASSET-038",
+      "title": "Tiger",
+      "source_id": "GBIF",
+      "credit_line": "Tiger. Source: GBIF species occurrence and taxonomy reference. License/status: Visual asset/image rights review required.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-039",
+      "asset_id": "RC17-ASSET-039",
+      "title": "Timbuktu Manuscript Heritage",
+      "source_id": "PARTNER-CULTURAL-REVIEW",
+      "credit_line": "Timbuktu Manuscript Heritage. Source: Partner or cultural sensitivity review source. License/status: Partner permission and sensitivity review required.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-040",
+      "asset_id": "RC17-ASSET-040",
+      "title": "Uluru-Kata Tjuta National Park",
+      "source_id": "PARTNER-CULTURAL-REVIEW",
+      "credit_line": "Uluru-Kata Tjuta National Park. Source: Partner or cultural sensitivity review source. License/status: Partner permission and sensitivity review required.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-041",
+      "asset_id": "RC17-ASSET-041",
+      "title": "Waldseemuller World Map",
+      "source_id": "PUBLIC-DOMAIN-MAPS",
+      "credit_line": "Waldseemuller World Map. Source: Public domain historical maps. License/status: Public Domain Mark / public-domain item.",
+      "attribution_required": true,
+      "display_required": true
+    },
+    {
+      "attribution_id": "RC17-ATTR-042",
+      "asset_id": "RC17-ASSET-042",
+      "title": "World Exploration Maps Collection",
+      "source_id": "PUBLIC-DOMAIN-MAPS",
+      "credit_line": "World Exploration Maps Collection. Source: Public domain historical maps. License/status: Public Domain Mark / public-domain item.",
+      "attribution_required": true,
+      "display_required": true
+    }
+  ]
+}

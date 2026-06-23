@@ -1,0 +1,94 @@
+[
+  {
+    "sequence": "Welcome",
+    "emails": [
+      {
+        "subject": "Welcome to the RC12 Showcase Portfolio",
+        "preview": "A new way to explore heritage, biodiversity, maps, art, and science.",
+        "body": "Start with the top showcase assets and learn why each was selected for recognition, education, and launch validation.",
+        "CTA": "Explore the showcase"
+      },
+      {
+        "subject": "How the showcase was selected",
+        "preview": "Recognition, visual appeal, educational value, commercial value, and global significance.",
+        "body": "RC12 turns portfolio intelligence into launch-ready content without changing architecture, governance, agents, or ADRs.",
+        "CTA": "See the selection method"
+      },
+      {
+        "subject": "The first launch products",
+        "preview": "Posters, puzzles, prints, calendars, and books ready for validation.",
+        "body": "Review the top 10 products recommended for the first validation wave.",
+        "CTA": "View launch products"
+      }
+    ]
+  },
+  {
+    "sequence": "Collections",
+    "emails": [
+      {
+        "subject": "World Heritage Icons lead the showcase",
+        "preview": "Global places selected for recognition and educational power.",
+        "body": "Explore collections that balance heritage, geography, and culture across the RC12 launch portfolio.",
+        "CTA": "View heritage collections"
+      },
+      {
+        "subject": "Biodiversity and climate collections",
+        "preview": "From big cats to coral reefs and natural wonders.",
+        "body": "These collections bring conservation, climate, and classroom value into the launch content factory.",
+        "CTA": "Explore biodiversity collections"
+      },
+      {
+        "subject": "Maps, science, and public-domain art",
+        "preview": "Differentiated collections for education and giftability.",
+        "body": "Historic maps, public-domain masterworks, and Smithsonian science assets widen the showcase beyond travel icons.",
+        "CTA": "Browse culture and science"
+      }
+    ]
+  },
+  {
+    "sequence": "Species",
+    "emails": [
+      {
+        "subject": "Flagship species, stronger stories",
+        "preview": "Lion, tiger, panda, elephant, polar bear, and reef stories.",
+        "body": "RC12 species content links biodiversity recognition to conservation learning and family-friendly products.",
+        "CTA": "Explore species stories"
+      },
+      {
+        "subject": "Why biodiversity belongs in the launch",
+        "preview": "Visual appeal plus educational value.",
+        "body": "Species-led posters, puzzles, calendars, and books help balance the showcase portfolio with nature and climate themes.",
+        "CTA": "View biodiversity products"
+      },
+      {
+        "subject": "Conservation content for classrooms",
+        "preview": "Turn species recognition into learning prompts.",
+        "body": "Use flagship species content to introduce ecosystems, climate, stewardship, and global public memory.",
+        "CTA": "See classroom ideas"
+      }
+    ]
+  },
+  {
+    "sequence": "Products",
+    "emails": [
+      {
+        "subject": "Top 10 products to launch first",
+        "preview": "The highest-confidence validation wave.",
+        "body": "Start with Machu Picchu, Giza, Sunflowers, World Heritage Icons, African Lion, and other high-scoring showcase products.",
+        "CTA": "Review the launch list"
+      },
+      {
+        "subject": "Why posters and puzzles lead validation",
+        "preview": "Fast formats for visual learning and demand testing.",
+        "body": "Posters, framed prints, canvas prints, puzzles, calendars, and books each serve a distinct launch role.",
+        "CTA": "Compare product formats"
+      },
+      {
+        "subject": "From showcase to campaign",
+        "preview": "Product copy, Pinterest pins, SEO pages, YouTube scripts, and email sequences.",
+        "body": "RC12 packages every top showcase product with reusable launch content for validation-only marketing.",
+        "CTA": "Open the content factory"
+      }
+    ]
+  }
+]

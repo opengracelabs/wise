@@ -1,0 +1,466 @@
+{
+  "registry": "RC17 publication approvals",
+  "version": "0.1.0",
+  "approvals": [
+    {
+      "asset_id": "RC17-ASSET-001",
+      "title": "Acropolis of Athens",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-002",
+      "title": "African Elephant",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-003",
+      "title": "African Lion",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-004",
+      "title": "Aksum Obelisks",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-005",
+      "title": "Ancient Silk Road Caravanserai",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-006",
+      "title": "Angkor Wat",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-007",
+      "title": "Bukhara Historic Centre",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-008",
+      "title": "Cheetah",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-009",
+      "title": "Coral Reef Biodiversity",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-010",
+      "title": "Galapagos Islands",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-011",
+      "title": "Ganges River Dolphin",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-012",
+      "title": "Great Barrier Reef",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-013",
+      "title": "Great Pyramid of Giza",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-014",
+      "title": "Great Zimbabwe",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-015",
+      "title": "Jaguar",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-016",
+      "title": "Kakadu National Park",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-017",
+      "title": "Khiva Itchan Kala",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-018",
+      "title": "Kilimanjaro National Park",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-019",
+      "title": "Lalibela Rock-Hewn Churches",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-020",
+      "title": "Machu Picchu",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-021",
+      "title": "Map of the Moon",
+      "publication_status": "Editorial Review",
+      "rights_status": "Approved",
+      "approved_for_publication": true,
+      "required_next_action": "editorial_review",
+      "blockers": []
+    },
+    {
+      "asset_id": "RC17-ASSET-022",
+      "title": "Mount Fuji",
+      "publication_status": "Rights Review",
+      "rights_status": "Restricted",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "partner_clearance_required",
+        "sensitivity_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-023",
+      "title": "Ocean Giants Collection",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-024",
+      "title": "Pacific Atoll Climate Maps",
+      "publication_status": "Editorial Review",
+      "rights_status": "Approved",
+      "approved_for_publication": true,
+      "required_next_action": "editorial_review",
+      "blockers": []
+    },
+    {
+      "asset_id": "RC17-ASSET-025",
+      "title": "Pamir Mountains",
+      "publication_status": "Rights Review",
+      "rights_status": "Restricted",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "partner_clearance_required",
+        "sensitivity_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-026",
+      "title": "Piri Reis Map",
+      "publication_status": "Editorial Review",
+      "rights_status": "Approved",
+      "approved_for_publication": true,
+      "required_next_action": "editorial_review",
+      "blockers": []
+    },
+    {
+      "asset_id": "RC17-ASSET-027",
+      "title": "Polar Bear",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-028",
+      "title": "Samarkand Registan",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-029",
+      "title": "Shark Bay",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-030",
+      "title": "Silk Roads Tien-Shan Corridor",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-031",
+      "title": "Snow Leopard",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-032",
+      "title": "Stonehenge",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-033",
+      "title": "Swahili Coast Stone Towns",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-034",
+      "title": "Tabula Rogeriana",
+      "publication_status": "Editorial Review",
+      "rights_status": "Approved",
+      "approved_for_publication": true,
+      "required_next_action": "editorial_review",
+      "blockers": []
+    },
+    {
+      "asset_id": "RC17-ASSET-035",
+      "title": "Taj Mahal",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-036",
+      "title": "Tasmanian Devil",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-037",
+      "title": "The Great Wall",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-038",
+      "title": "Tiger",
+      "publication_status": "Rights Review",
+      "rights_status": "Review Required",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "item_level_rights_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-039",
+      "title": "Timbuktu Manuscript Heritage",
+      "publication_status": "Rights Review",
+      "rights_status": "Restricted",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "partner_clearance_required",
+        "sensitivity_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-040",
+      "title": "Uluru-Kata Tjuta National Park",
+      "publication_status": "Rights Review",
+      "rights_status": "Restricted",
+      "approved_for_publication": false,
+      "required_next_action": "rights_clearance",
+      "blockers": [
+        "partner_clearance_required",
+        "sensitivity_review_required"
+      ]
+    },
+    {
+      "asset_id": "RC17-ASSET-041",
+      "title": "Waldseemuller World Map",
+      "publication_status": "Editorial Review",
+      "rights_status": "Approved",
+      "approved_for_publication": true,
+      "required_next_action": "editorial_review",
+      "blockers": []
+    },
+    {
+      "asset_id": "RC17-ASSET-042",
+      "title": "World Exploration Maps Collection",
+      "publication_status": "Editorial Review",
+      "rights_status": "Approved",
+      "approved_for_publication": true,
+      "required_next_action": "editorial_review",
+      "blockers": []
+    }
+  ],
+  "summary_metrics": {
+    "assets_total": 42,
+    "assets_approved": 6,
+    "assets_blocked": 4,
+    "assets_requiring_review": 32
+  }
+}

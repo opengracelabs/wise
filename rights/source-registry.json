@@ -1,0 +1,62 @@
+{
+  "registry": "RC17 source registry",
+  "version": "0.1.0",
+  "sources": [
+    {
+      "source_id": "UNESCO-WHC",
+      "name": "UNESCO World Heritage Centre / site-level reference",
+      "source_type": "heritage_reference",
+      "default_license_id": "RIGHTS-REVIEW-REQUIRED",
+      "default_rights_status": "Review Required",
+      "notes": "UNESCO recognition supports context; publication imagery requires item-level rights clearance."
+    },
+    {
+      "source_id": "GBIF",
+      "name": "GBIF species occurrence and taxonomy reference",
+      "source_type": "biodiversity_reference",
+      "default_license_id": "IMAGE-RIGHTS-REVIEW",
+      "default_rights_status": "Review Required",
+      "notes": "Species data can inform context; visual assets require rights-cleared imagery."
+    },
+    {
+      "source_id": "LIBRARY-OF-CONGRESS",
+      "name": "Library of Congress public-domain/open collections",
+      "source_type": "public_domain_archive",
+      "default_license_id": "PUBLIC-DOMAIN-MARK",
+      "default_rights_status": "Approved",
+      "notes": "Item-level confirmation still required before publication."
+    },
+    {
+      "source_id": "SMITHSONIAN-OPEN-ACCESS",
+      "name": "Smithsonian Open Access",
+      "source_type": "open_access_archive",
+      "default_license_id": "CC0-1.0",
+      "default_rights_status": "Approved",
+      "notes": "Open Access content is generally reusable; item metadata should be retained."
+    },
+    {
+      "source_id": "PUBLIC-DOMAIN-MAPS",
+      "name": "Public domain historical maps",
+      "source_type": "public_domain_map_reference",
+      "default_license_id": "PUBLIC-DOMAIN-MARK",
+      "default_rights_status": "Approved",
+      "notes": "Public-domain map candidates require item-level source citation."
+    },
+    {
+      "source_id": "PARTNER-CULTURAL-REVIEW",
+      "name": "Partner or cultural sensitivity review source",
+      "source_type": "partner_review_required",
+      "default_license_id": "PARTNER-PERMISSION-REQUIRED",
+      "default_rights_status": "Restricted",
+      "notes": "Culturally sensitive or partner-governed content cannot publish without review."
+    },
+    {
+      "source_id": "CLIMATE-DATA-DESIGN",
+      "name": "Public climate/geospatial data requiring original design",
+      "source_type": "data_design_reference",
+      "default_license_id": "RIGHTS-REVIEW-REQUIRED",
+      "default_rights_status": "Review Required",
+      "notes": "Data sources and derived design attribution must be verified."
+    }
+  ]
+}
