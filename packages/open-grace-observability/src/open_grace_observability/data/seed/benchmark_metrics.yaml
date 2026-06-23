@@ -1,0 +1,42 @@
+benchmark_metrics:
+  - metric_id: wise.metric.benchmark.standards-conformance-observed
+    display_name: Standards conformance observed score
+    benchmark_id: wise.benchmark.standards-conformance
+    agent_id: wise.agent.standards
+    metric_kind: observed
+    observed_value: 0.92
+    unit: ratio
+    passed: true
+    lifecycle_stage: audit
+    steward_actor: observability-steward
+    reference_models:
+      - prometheus
+      - iso-42001
+
+  - metric_id: wise.metric.benchmark.discovery-safety-observed
+    display_name: Discovery safety benchmark result
+    benchmark_id: wise.benchmark.discovery-safety
+    agent_id: wise.agent.source-discovery
+    metric_kind: observed
+    observed_value: 0.98
+    unit: ratio
+    passed: true
+    lifecycle_stage: audit
+    steward_actor: observability-steward
+    reference_models:
+      - prometheus
+      - nist-ai-rmf
+
+  - metric_id: wise.metric.benchmark.translation-cost-observed
+    display_name: Translation cost benchmark
+    benchmark_id: wise.benchmark.translation-cost
+    agent_id: wise.agent.translation
+    metric_kind: observed
+    observed_value: 0.0042
+    unit: usd
+    passed: true
+    lifecycle_stage: audit
+    steward_actor: observability-steward
+    reference_models:
+      - prometheus
+      - langsmith

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "open-grace-governance"
+version = "1.0.0"
+description = "Open Grace Agent Governance System v1 — lifecycle, schemas, validation, execution infrastructure"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.0",
+    "pyyaml>=6.0",
+    "langgraph>=0.2.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/open_grace_governance"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"src/open_grace_governance/data" = "open_grace_governance/data"
+
+[tool.pytest.ini_options]
+testpaths = ["../../tests/open_grace"]

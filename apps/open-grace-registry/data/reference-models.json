@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "wikidata",
+    "display_name": "Wikidata",
+    "domain": "linked_open_data",
+    "governance_use": "Entity authority, provenance, and schema conformance checks"
+  },
+  {
+    "slug": "gbif",
+    "display_name": "GBIF",
+    "domain": "biodiversity",
+    "governance_use": "Occurrence data quality, Darwin Core binding, and taxonomic validation"
+  },
+  {
+    "slug": "unesco",
+    "display_name": "UNESCO World Heritage List",
+    "domain": "heritage_preservation",
+    "governance_use": "Stewardship, covenant review, and heritage-risk classification"
+  },
+  {
+    "slug": "internet-archive",
+    "display_name": "Internet Archive",
+    "domain": "digital_preservation",
+    "governance_use": "Fixity, format migration, and long-term access obligations"
+  },
+  {
+    "slug": "nist-ai-rmf",
+    "display_name": "NIST AI RMF",
+    "domain": "ai_risk_management",
+    "governance_use": "Risk registry taxonomy, impact assessment, and mitigation mapping"
+  },
+  {
+    "slug": "iso-42001",
+    "display_name": "ISO 42001",
+    "domain": "ai_management_system",
+    "governance_use": "Agent lifecycle controls, approval gates, and continual improvement"
+  },
+  {
+    "slug": "iso-27001",
+    "display_name": "ISO 27001",
+    "domain": "information_security",
+    "governance_use": "Access control, audit evidence, and security risk treatment"
+  },
+  {
+    "slug": "opentelemetry",
+    "display_name": "OpenTelemetry",
+    "domain": "observability",
+    "governance_use": "Trace context, metric dimensions, and audit telemetry correlation"
+  }
+]

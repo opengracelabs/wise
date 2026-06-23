@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "open-grace-agent-registry"
+version = "1.0.0"
+description = "Open Grace Agent, Capability, and Model registries (v1)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "open-grace-governance",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/open_grace_agent_registry"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"src/open_grace_agent_registry/data" = "open_grace_agent_registry/data"
+
+[tool.pytest.ini_options]
+testpaths = ["../../tests/open_grace"]

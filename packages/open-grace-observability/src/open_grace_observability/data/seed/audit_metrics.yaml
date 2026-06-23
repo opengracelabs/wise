@@ -1,0 +1,39 @@
+audit_metrics:
+  - metric_id: wise.metric.audit.metadata-review-duration
+    display_name: Metadata agent review duration
+    subject_type: agent
+    subject_id: wise.agent.metadata
+    metric_kind: review_duration
+    value: 45.0
+    unit: s
+    lifecycle_stage: audit
+    steward_actor: observability-steward
+    reference_models:
+      - loki
+      - opentelemetry
+
+  - metric_id: wise.metric.audit.knowledge-graph-evidence-count
+    display_name: Knowledge graph audit evidence count
+    subject_type: capability
+    subject_id: wise.capability.knowledge-graph
+    metric_kind: evidence_count
+    value: 7.0
+    unit: count
+    lifecycle_stage: audit
+    steward_actor: observability-steward
+    reference_models:
+      - loki
+      - iso-42001
+
+  - metric_id: wise.metric.audit.standards-outcome-score
+    display_name: Standards benchmark audit outcome
+    subject_type: benchmark
+    subject_id: wise.benchmark.standards-conformance
+    metric_kind: outcome_score
+    value: 1.0
+    unit: ratio
+    lifecycle_stage: audit
+    steward_actor: observability-steward
+    reference_models:
+      - loki
+      - nist-ai-rmf

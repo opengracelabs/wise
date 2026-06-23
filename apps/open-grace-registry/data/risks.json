@@ -1,0 +1,62 @@
+[
+  {
+    "risk_id": "wise.risk.unauthorized-canonical-write",
+    "display_name": "Unauthorized canonical write",
+    "severity": "critical",
+    "framework": "iso-27001",
+    "control_id": "A.8.2",
+    "mitigation": "Enforce read_only graphs and steward approval gates",
+    "agent_id": "wise.agent.preservation",
+    "reference_models": [
+      "iso-27001",
+      "nist-ai-rmf"
+    ],
+    "lifecycle_stage": "publication",
+    "steward_actor": "open-grace-governance-seed",
+    "created_at": "2026-06-23T08:00:47.060Z",
+    "updated_at": "2026-06-23T08:00:47.060Z",
+    "threshold_min": null,
+    "threshold_max": null,
+    "gold_dataset_ref": null
+  },
+  {
+    "risk_id": "wise.risk.model-hallucination",
+    "display_name": "Model hallucination in entity linking",
+    "severity": "high",
+    "framework": "nist-ai-rmf",
+    "control_id": "MAP-1.1",
+    "mitigation": "Benchmark accuracy thresholds and human curator approval",
+    "agent_id": "wise.agent.knowledge-graph",
+    "reference_models": [
+      "nist-ai-rmf",
+      "iso-42001"
+    ],
+    "lifecycle_stage": "publication",
+    "steward_actor": "open-grace-governance-seed",
+    "created_at": "2026-06-23T08:00:47.060Z",
+    "updated_at": "2026-06-23T08:00:47.060Z",
+    "threshold_min": null,
+    "threshold_max": null,
+    "gold_dataset_ref": null
+  },
+  {
+    "risk_id": "wise.risk.rights-clearance-gap",
+    "display_name": "Rights clearance gap",
+    "severity": "high",
+    "framework": "iso-42001",
+    "control_id": "6.1.2",
+    "mitigation": "Quality review gate and restricted-rights routing",
+    "capability_id": "wise.capability.quality",
+    "reference_models": [
+      "iso-42001",
+      "unesco"
+    ],
+    "lifecycle_stage": "publication",
+    "steward_actor": "open-grace-governance-seed",
+    "created_at": "2026-06-23T08:00:47.060Z",
+    "updated_at": "2026-06-23T08:00:47.060Z",
+    "threshold_min": null,
+    "threshold_max": null,
+    "gold_dataset_ref": null
+  }
+]

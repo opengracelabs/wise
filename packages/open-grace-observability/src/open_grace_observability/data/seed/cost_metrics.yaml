@@ -1,0 +1,42 @@
+cost_metrics:
+  - metric_id: wise.metric.cost.metadata-inference-daily
+    display_name: Metadata agent daily inference cost
+    agent_id: wise.agent.metadata
+    model_id: wise.model.gpt-4o
+    cost_kind: inference
+    cost_usd: 1.24
+    token_count: 185000
+    unit: usd
+    lifecycle_stage: audit
+    steward_actor: observability-steward
+    reference_models:
+      - prometheus
+      - langsmith
+
+  - metric_id: wise.metric.cost.translation-inference-daily
+    display_name: Translation agent daily inference cost
+    agent_id: wise.agent.translation
+    model_id: wise.model.gpt-4o
+    cost_kind: inference
+    cost_usd: 3.87
+    token_count: 42000
+    unit: usd
+    lifecycle_stage: audit
+    steward_actor: observability-steward
+    reference_models:
+      - prometheus
+      - langsmith
+
+  - metric_id: wise.metric.cost.knowledge-graph-embedding
+    display_name: Knowledge graph embedding cost
+    agent_id: wise.agent.knowledge-graph
+    model_id: wise.model.qwen-research
+    cost_kind: embedding
+    cost_usd: 0.15
+    token_count: 250000
+    unit: usd
+    lifecycle_stage: audit
+    steward_actor: observability-steward
+    reference_models:
+      - prometheus
+      - iso-42001

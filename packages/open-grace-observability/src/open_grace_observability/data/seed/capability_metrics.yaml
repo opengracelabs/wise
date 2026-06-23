@@ -1,0 +1,39 @@
+capability_metrics:
+  - metric_id: wise.metric.capability.knowledge-modeling-latency
+    display_name: Knowledge modeling capability latency
+    capability_id: wise.capability.knowledge-modeling
+    agent_id: wise.agent.metadata
+    metric_kind: latency
+    value: 320.0
+    unit: ms
+    lifecycle_stage: audit
+    steward_actor: observability-steward
+    reference_models:
+      - opentelemetry
+      - prometheus
+
+  - metric_id: wise.metric.capability.knowledge-graph-coverage
+    display_name: Knowledge graph coverage
+    capability_id: wise.capability.knowledge-graph
+    agent_id: wise.agent.knowledge-graph
+    metric_kind: coverage
+    value: 0.88
+    unit: ratio
+    lifecycle_stage: audit
+    steward_actor: observability-steward
+    reference_models:
+      - prometheus
+      - iso-42001
+
+  - metric_id: wise.metric.capability.source-discovery-success
+    display_name: Source discovery success rate
+    capability_id: wise.capability.discovery
+    agent_id: wise.agent.source-discovery
+    metric_kind: success
+    value: 0.95
+    unit: ratio
+    lifecycle_stage: audit
+    steward_actor: observability-steward
+    reference_models:
+      - opentelemetry
+      - langsmith

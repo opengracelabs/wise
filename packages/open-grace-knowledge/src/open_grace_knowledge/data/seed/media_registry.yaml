@@ -1,0 +1,78 @@
+media:
+  - media_id: wise.media.everglades-aerial-1940
+    display_name: Everglades Aerial Survey 1940
+    media_type: image
+    format_mime: image/tiff
+    description: Historical aerial photograph of Everglades marsh landscape
+    internet_archive_identifier: everglades-aerial-1940
+    iiif_manifest_ref: https://archive.org/iiif/everglades-aerial-1940/manifest.json
+    collection_id: wise.collection.internet-archive-everglades
+    lifecycle_stage: publication
+    steward_actor: preservation-steward
+    reference_models:
+      - internet-archive
+      - prov-o
+      - dublin-core
+    entity_ids:
+      - wise.entity.everglades-nps
+    place_ids:
+      - wise.place.everglades-national-park
+    prov_activity: digitization
+    external_ids:
+      internet-archive: everglades-aerial-1940
+    steward_agent_id: wise.agent.preservation
+    backing_stores:
+      - store: postgresql
+        schema_ref: knowledge.media
+        table_or_index: knowledge.media
+      - store: json_file
+
+  - media_id: wise.media.lion-serengeti-photo
+    display_name: African Lion — Serengeti
+    media_type: image
+    format_mime: image/jpeg
+    description: Field photograph of Panthera leo in Serengeti National Park
+    collection_id: wise.collection.gbif-everglades-occurrences
+    lifecycle_stage: publication
+    steward_actor: biodiversity-steward
+    reference_models:
+      - gbif
+      - prov-o
+      - dublin-core
+    entity_ids: []
+    place_ids:
+      - wise.place.serengeti-national-park
+    prov_activity: field_observation
+    external_ids:
+      gbif: MEDIA_LION_001
+    steward_agent_id: wise.agent.source-discovery
+    backing_stores:
+      - store: postgresql
+        schema_ref: knowledge.media
+        table_or_index: knowledge.media
+      - store: pgvector
+        schema_ref: knowledge.media
+        table_or_index: knowledge.media_embeddings
+
+  - media_id: wise.media.venice-canal-painting
+    display_name: Venetian Canal — Heritage Painting
+    media_type: image
+    format_mime: image/jpeg
+    description: Digitized painting from Europeana Venice cultural heritage collection
+    collection_id: wise.collection.europeana-venice-heritage
+    lifecycle_stage: publication
+    steward_actor: heritage-steward
+    reference_models:
+      - europeana
+      - cidoc-crm
+      - prov-o
+    place_ids:
+      - wise.place.venice-lagoon
+    prov_activity: aggregation
+    external_ids:
+      europeana: "2020601/ITEM_42"
+    steward_agent_id: wise.agent.knowledge-graph
+    backing_stores:
+      - store: postgresql
+        schema_ref: knowledge.media
+        table_or_index: knowledge.media

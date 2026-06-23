@@ -1,0 +1,133 @@
+version: "1.0"
+benchmarks:
+  - benchmark_id: wise.benchmark.standards-conformance
+    display_name: Standards conformance pass rate
+    agent_id: wise.agent.standards
+    metric: accuracy
+    threshold_min: 0.95
+    unit: ratio
+    gold_dataset_ref: governance/standards-gold-v1
+    reference_models: [unesco, wikidata, gbif]
+    lifecycle_stage: publication
+    steward_actor: open-grace-governance-seed
+
+  - benchmark_id: wise.benchmark.benchmark-latency
+    display_name: Benchmark agent p95 latency
+    agent_id: wise.agent.benchmark
+    metric: latency
+    threshold_max: 30.0
+    unit: seconds
+    reference_models: [opentelemetry]
+    lifecycle_stage: publication
+    steward_actor: open-grace-governance-seed
+
+  - benchmark_id: wise.benchmark.discovery-safety
+    display_name: Discovery rights pre-screen safety
+    agent_id: wise.agent.source-discovery
+    metric: safety
+    threshold_min: 0.99
+    unit: ratio
+    reference_models: [nist-ai-rmf, iso-42001]
+    lifecycle_stage: publication
+    steward_actor: open-grace-governance-seed
+
+  - benchmark_id: wise.benchmark.kg-reliability
+    display_name: Knowledge graph link precision
+    agent_id: wise.agent.knowledge-graph
+    metric: reliability
+    threshold_min: 0.90
+    unit: ratio
+    gold_dataset_ref: governance/kg-links-gold-v1
+    reference_models: [wikidata, gbif]
+    lifecycle_stage: publication
+    steward_actor: open-grace-governance-seed
+
+  - benchmark_id: wise.benchmark.translation-cost
+    display_name: Translation cost per 1k tokens
+    agent_id: wise.agent.translation
+    metric: cost
+    threshold_max: 0.05
+    unit: usd_per_1k_tokens
+    reference_models: [iso-42001]
+    lifecycle_stage: publication
+    steward_actor: open-grace-governance-seed
+
+  - benchmark_id: wise.benchmark.research-coverage
+    display_name: Research corpus coverage ratio
+    agent_id: wise.agent.standards
+    metric: accuracy
+    threshold_min: 0.85
+    unit: ratio
+    reference_models: [unesco, gbif, wikidata]
+    lifecycle_stage: publication
+    steward_actor: open-grace-capability-seed
+
+  - benchmark_id: wise.benchmark.translation-quality
+    display_name: Translation BLEU floor
+    agent_id: wise.agent.translation
+    metric: accuracy
+    threshold_min: 0.80
+    unit: ratio
+    reference_models: [wikidata, iso-42001]
+    lifecycle_stage: publication
+    steward_actor: open-grace-capability-seed
+
+  - benchmark_id: wise.benchmark.classification-precision
+    display_name: Metadata classification precision
+    agent_id: wise.agent.metadata
+    metric: accuracy
+    threshold_min: 0.92
+    unit: ratio
+    reference_models: [gbif, wikidata]
+    lifecycle_stage: publication
+    steward_actor: open-grace-capability-seed
+
+  - benchmark_id: wise.benchmark.extraction-recall
+    display_name: Discovery extraction recall
+    agent_id: wise.agent.source-discovery
+    metric: reliability
+    threshold_min: 0.88
+    unit: ratio
+    reference_models: [unesco, nist-ai-rmf]
+    lifecycle_stage: publication
+    steward_actor: open-grace-capability-seed
+
+  - benchmark_id: wise.benchmark.analysis-latency
+    display_name: Graph analysis p95 latency
+    agent_id: wise.agent.knowledge-graph
+    metric: latency
+    threshold_max: 45.0
+    unit: seconds
+    reference_models: [opentelemetry]
+    lifecycle_stage: publication
+    steward_actor: open-grace-capability-seed
+
+  - benchmark_id: wise.benchmark.coding-static-analysis
+    display_name: Static analysis pass rate
+    agent_id: wise.agent.benchmark
+    metric: safety
+    threshold_min: 0.98
+    unit: ratio
+    reference_models: [nist-ai-rmf, iso-42001]
+    lifecycle_stage: publication
+    steward_actor: open-grace-capability-seed
+
+  - benchmark_id: wise.benchmark.preservation-fixity
+    display_name: Preservation fixity verification rate
+    agent_id: wise.agent.preservation
+    metric: reliability
+    threshold_min: 0.999
+    unit: ratio
+    reference_models: [unesco, iso-42001]
+    lifecycle_stage: publication
+    steward_actor: open-grace-capability-seed
+
+  - benchmark_id: wise.benchmark.publishing-quality
+    display_name: Publishing quality gate pass rate
+    agent_id: wise.agent.publishing
+    metric: accuracy
+    threshold_min: 0.93
+    unit: ratio
+    reference_models: [unesco, wikidata]
+    lifecycle_stage: publication
+    steward_actor: open-grace-capability-seed

@@ -1,0 +1,41 @@
+version: "1.0"
+standards:
+  - standard_id: wise.standard.cidoc-crm
+    display_name: CIDOC CRM
+    binding_uri: https://www.cidoc-crm.org/
+    schema_family: heritage
+    conformance_level: binding
+    reference_model_slug: unesco
+    reference_models: [unesco, wikidata]
+    lifecycle_stage: publication
+    steward_actor: open-grace-governance-seed
+
+  - standard_id: wise.standard.darwin-core
+    display_name: Darwin Core
+    binding_uri: https://rs.tdwg.org/dwc/
+    schema_family: biodiversity
+    conformance_level: binding
+    reference_model_slug: gbif
+    reference_models: [gbif]
+    lifecycle_stage: publication
+    steward_actor: open-grace-governance-seed
+
+  - standard_id: wise.standard.schema-org
+    display_name: schema.org
+    binding_uri: https://schema.org/
+    schema_family: web
+    conformance_level: binding
+    reference_model_slug: wikidata
+    reference_models: [wikidata, internet-archive]
+    lifecycle_stage: publication
+    steward_actor: open-grace-governance-seed
+
+  - standard_id: wise.standard.opentelemetry
+    display_name: OpenTelemetry
+    binding_uri: https://opentelemetry.io/
+    schema_family: observability
+    conformance_level: binding
+    reference_model_slug: opentelemetry
+    reference_models: [opentelemetry]
+    lifecycle_stage: publication
+    steward_actor: open-grace-governance-seed

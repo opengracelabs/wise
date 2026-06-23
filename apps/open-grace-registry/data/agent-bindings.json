@@ -1,0 +1,46 @@
+[
+  {
+    "agent_id": "wise.agent.metadata",
+    "capability_class_id": "wise.capability.class.classification"
+  },
+  {
+    "agent_id": "wise.agent.metadata",
+    "capability_class_id": "wise.capability.class.extraction"
+  },
+  {
+    "agent_id": "wise.agent.source-discovery",
+    "capability_class_id": "wise.capability.class.extraction"
+  },
+  {
+    "agent_id": "wise.agent.knowledge-graph",
+    "capability_class_id": "wise.capability.class.analysis"
+  },
+  {
+    "agent_id": "wise.agent.translation",
+    "capability_class_id": "wise.capability.class.translation"
+  },
+  {
+    "agent_id": "wise.agent.preservation",
+    "capability_class_id": "wise.capability.class.preservation"
+  },
+  {
+    "agent_id": "wise.agent.publishing",
+    "capability_class_id": "wise.capability.class.publishing"
+  },
+  {
+    "agent_id": "wise.agent.quality-review",
+    "capability_class_id": "wise.capability.class.classification"
+  },
+  {
+    "agent_id": "wise.agent.standards",
+    "capability_class_id": "wise.capability.class.research"
+  },
+  {
+    "agent_id": "wise.agent.benchmark",
+    "capability_class_id": "wise.capability.class.coding"
+  },
+  {
+    "agent_id": "wise.agent.benchmark",
+    "capability_class_id": "wise.capability.class.research"
+  }
+]

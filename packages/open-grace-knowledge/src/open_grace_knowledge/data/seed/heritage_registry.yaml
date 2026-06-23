@@ -1,0 +1,71 @@
+heritage:
+  - heritage_id: wise.heritage.venice-lagoon
+    display_name: Venice and its Lagoon
+    heritage_type: world_heritage
+    description: Outstanding universal value cultural landscape
+    unesco_id: "394"
+    place_id: wise.place.venice-lagoon
+    cidoc_class: E22_Human-Made_Object
+    lifecycle_stage: publication
+    steward_actor: heritage-steward
+    reference_models:
+      - wikidata
+      - cidoc-crm
+      - europeana
+    entity_ids:
+      - wise.entity.unesco
+    external_ids:
+      wikidata: Q641
+      unesco: "394"
+    steward_agent_id: wise.agent.knowledge-graph
+    backing_stores:
+      - store: postgresql
+        schema_ref: knowledge.heritage
+        table_or_index: knowledge.heritage
+      - store: json_file
+
+  - heritage_id: wise.heritage.everglades-wetland
+    display_name: Everglades National Park
+    heritage_type: world_heritage
+    description: UNESCO natural heritage wetland ecosystem
+    unesco_id: "76"
+    place_id: wise.place.everglades-national-park
+    cidoc_class: E27_Site
+    lifecycle_stage: publication
+    steward_actor: heritage-steward
+    reference_models:
+      - wikidata
+      - cidoc-crm
+      - gbif
+    entity_ids:
+      - wise.entity.everglades-nps
+    external_ids:
+      wikidata: Q604659
+      unesco: "76"
+    steward_agent_id: wise.agent.preservation
+    backing_stores:
+      - store: postgresql
+        schema_ref: knowledge.heritage
+        table_or_index: knowledge.heritage
+
+  - heritage_id: wise.heritage.serengeti-ecosystem
+    display_name: Serengeti National Park
+    heritage_type: world_heritage
+    description: UNESCO natural heritage savanna and migration corridor
+    unesco_id: "156"
+    place_id: wise.place.serengeti-national-park
+    cidoc_class: E27_Site
+    lifecycle_stage: publication
+    steward_actor: heritage-steward
+    reference_models:
+      - wikidata
+      - cidoc-crm
+      - gbif
+    external_ids:
+      wikidata: Q419036
+      unesco: "156"
+    steward_agent_id: wise.agent.knowledge-graph
+    backing_stores:
+      - store: postgresql
+        schema_ref: knowledge.heritage
+        table_or_index: knowledge.heritage

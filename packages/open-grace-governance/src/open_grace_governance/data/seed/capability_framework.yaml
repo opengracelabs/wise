@@ -1,0 +1,214 @@
+version: "1.0"
+capability_classes:
+  - id: wise.capability.class.research
+    name: Research
+    description: >-
+      Curate and synthesize evidence from canonical memory, observatory feeds,
+      and partner datasets for steward-reviewed research outputs.
+    owner: Open Grace Architecture Office
+    benchmark_set:
+      - wise.benchmark.research-coverage
+      - wise.benchmark.standards-conformance
+    risk_profile:
+      - wise.risk.model-hallucination
+    approved_models:
+      - wise.model.qwen-research
+      - wise.model.claude-sonnet
+    required_standards:
+      - wise.standard.cidoc-crm
+      - wise.standard.darwin-core
+    audit_requirements:
+      - provenance_chain_verified
+      - steward_review_recorded
+    reference_models: [unesco, gbif, wikidata, nist-ai-rmf, iso-42001]
+    lifecycle_stage: publication
+    steward_actor: open-grace-capability-seed
+
+  - id: wise.capability.class.translation
+    name: Translation
+    description: >-
+      Translate entity labels, narratives, and UI strings with terminology
+      governance and community review for indigenous languages.
+    owner: Translation Fabric Steward
+    benchmark_set:
+      - wise.benchmark.translation-cost
+      - wise.benchmark.translation-quality
+    risk_profile:
+      - wise.risk.rights-clearance-gap
+    approved_models:
+      - wise.model.claude-sonnet
+      - wise.model.gpt-4o
+    required_standards:
+      - wise.standard.schema-org
+    audit_requirements:
+      - terminology_memory_versioned
+      - community_consent_when_required
+    reference_models: [wikidata, iso-42001]
+    lifecycle_stage: publication
+    steward_actor: open-grace-capability-seed
+
+  - id: wise.capability.class.classification
+    name: Classification
+    description: >-
+      Normalize metadata, map authority records, and classify entities against
+      canonical vocabularies before knowledge-graph placement.
+    owner: Knowledge Modeling Steward
+    benchmark_set:
+      - wise.benchmark.classification-precision
+      - wise.benchmark.standards-conformance
+    risk_profile:
+      - wise.risk.model-hallucination
+    approved_models:
+      - wise.model.gpt-4o
+      - wise.model.qwen-research
+    required_standards:
+      - wise.standard.cidoc-crm
+      - wise.standard.darwin-core
+      - wise.standard.schema-org
+    audit_requirements:
+      - schema_validation_logged
+      - authority_record_linked
+    reference_models: [gbif, wikidata, nist-ai-rmf]
+    lifecycle_stage: publication
+    steward_actor: open-grace-capability-seed
+
+  - id: wise.capability.class.extraction
+    name: Extraction
+    description: >-
+      Discover and extract candidate records from partner feeds, APIs, and
+      public collections with rights pre-screening.
+    owner: Discovery Steward
+    benchmark_set:
+      - wise.benchmark.discovery-safety
+      - wise.benchmark.extraction-recall
+    risk_profile:
+      - wise.risk.rights-clearance-gap
+      - wise.risk.unauthorized-canonical-write
+    approved_models:
+      - wise.model.gpt-4o
+      - wise.model.deepseek-engineering
+    required_standards:
+      - wise.standard.schema-org
+    audit_requirements:
+      - rights_pre_screen_passed
+      - discovery_provenance_attached
+    reference_models: [unesco, wikidata, nist-ai-rmf, iso-42001]
+    lifecycle_stage: publication
+    steward_actor: open-grace-capability-seed
+
+  - id: wise.capability.class.analysis
+    name: Analysis
+    description: >-
+      Link entities, detect duplicates, and maintain graph integrity across
+      heritage, biodiversity, and cultural domains.
+    owner: Knowledge Graph Steward
+    benchmark_set:
+      - wise.benchmark.kg-reliability
+      - wise.benchmark.analysis-latency
+    risk_profile:
+      - wise.risk.model-hallucination
+    approved_models:
+      - wise.model.qwen-research
+      - wise.model.gemini-pro
+    required_standards:
+      - wise.standard.cidoc-crm
+      - wise.standard.darwin-core
+    audit_requirements:
+      - link_proposal_reviewed
+      - duplicate_resolution_logged
+    reference_models: [gbif, wikidata, nist-ai-rmf]
+    lifecycle_stage: publication
+    steward_actor: open-grace-capability-seed
+
+  - id: wise.capability.class.coding
+    name: Coding
+    description: >-
+      Generate and review implementation artifacts under Architecture Office
+      governance without direct canonical writes.
+    owner: Platform Engineering Council
+    benchmark_set:
+      - wise.benchmark.coding-static-analysis
+      - wise.benchmark.benchmark-latency
+    risk_profile:
+      - wise.risk.unauthorized-canonical-write
+    approved_models:
+      - wise.model.deepseek-engineering
+      - wise.model.gpt-4o
+    required_standards:
+      - wise.standard.opentelemetry
+    audit_requirements:
+      - no_canonical_write_path
+      - ci_static_analysis_passed
+    reference_models: [nist-ai-rmf, iso-42001]
+    lifecycle_stage: publication
+    steward_actor: open-grace-capability-seed
+
+  - id: wise.capability.class.preservation
+    name: Preservation
+    description: >-
+      Verify fixity, track provenance, and monitor preservation risk for
+      long-term digital memory objects.
+    owner: Preservation Steward
+    benchmark_set:
+      - wise.benchmark.preservation-fixity
+      - wise.benchmark.discovery-safety
+    risk_profile:
+      - wise.risk.unauthorized-canonical-write
+    approved_models:
+      - wise.model.deepseek-engineering
+    required_standards:
+      - wise.standard.opentelemetry
+    audit_requirements:
+      - fixity_checksum_recorded
+      - premis_event_logged
+    reference_models: [unesco, iso-42001]
+    lifecycle_stage: publication
+    steward_actor: open-grace-capability-seed
+
+  - id: wise.capability.class.publishing
+    name: Publishing
+    description: >-
+      Assemble editorial products, IIIF manifests, and publication releases
+      after quality and rights gates pass.
+    owner: Publishing Steward
+    benchmark_set:
+      - wise.benchmark.publishing-quality
+      - wise.benchmark.standards-conformance
+    risk_profile:
+      - wise.risk.rights-clearance-gap
+    approved_models:
+      - wise.model.claude-sonnet
+      - wise.model.gpt-4o
+    required_standards:
+      - wise.standard.schema-org
+      - wise.standard.cidoc-crm
+    audit_requirements:
+      - editorial_gate_signed
+      - iiif_manifest_validated
+    reference_models: [unesco, wikidata, iso-42001]
+    lifecycle_stage: publication
+    steward_actor: open-grace-capability-seed
+
+agent_bindings:
+  - agent_id: wise.agent.metadata
+    capability_class_id: wise.capability.class.classification
+  - agent_id: wise.agent.metadata
+    capability_class_id: wise.capability.class.extraction
+  - agent_id: wise.agent.source-discovery
+    capability_class_id: wise.capability.class.extraction
+  - agent_id: wise.agent.knowledge-graph
+    capability_class_id: wise.capability.class.analysis
+  - agent_id: wise.agent.translation
+    capability_class_id: wise.capability.class.translation
+  - agent_id: wise.agent.preservation
+    capability_class_id: wise.capability.class.preservation
+  - agent_id: wise.agent.publishing
+    capability_class_id: wise.capability.class.publishing
+  - agent_id: wise.agent.quality-review
+    capability_class_id: wise.capability.class.classification
+  - agent_id: wise.agent.standards
+    capability_class_id: wise.capability.class.research
+  - agent_id: wise.agent.benchmark
+    capability_class_id: wise.capability.class.coding
+  - agent_id: wise.agent.benchmark
+    capability_class_id: wise.capability.class.research

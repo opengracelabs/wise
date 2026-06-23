@@ -1,0 +1,70 @@
+collections:
+  - collection_id: wise.collection.gbif-everglades-occurrences
+    display_name: GBIF Occurrences — Everglades National Park
+    holder: GBIF Secretariat
+    description: Darwin Core occurrence records for Everglades biodiversity
+    dublin_core_profile: dcterms:Dataset
+    lifecycle_stage: publication
+    steward_actor: biodiversity-steward
+    reference_models:
+      - gbif
+      - dublin-core
+      - prov-o
+    item_entity_ids:
+      - wise.entity.gbif-secretariat
+    place_ids:
+      - wise.place.everglades-national-park
+    europeana_dataset_id: null
+    external_ids:
+      gbif: DATASET_EVERGLADES
+    steward_agent_id: wise.agent.source-discovery
+    backing_stores:
+      - store: postgresql
+        schema_ref: knowledge.collections
+        table_or_index: knowledge.collections
+      - store: json_file
+
+  - collection_id: wise.collection.europeana-venice-heritage
+    display_name: Europeana — Venice Cultural Heritage
+    holder: Europeana Foundation
+    description: Aggregated cultural heritage objects from Venetian institutions
+    dublin_core_profile: dcterms:Collection
+    lifecycle_stage: publication
+    steward_actor: heritage-steward
+    reference_models:
+      - europeana
+      - dublin-core
+      - cidoc-crm
+    item_entity_ids:
+      - wise.entity.unesco
+    place_ids:
+      - wise.place.venice-lagoon
+    europeana_dataset_id: "2020601"
+    external_ids:
+      europeana: "2020601"
+    steward_agent_id: wise.agent.knowledge-graph
+    backing_stores:
+      - store: postgresql
+        schema_ref: knowledge.collections
+        table_or_index: knowledge.collections
+
+  - collection_id: wise.collection.internet-archive-everglades
+    display_name: Internet Archive — Everglades Historical Imagery
+    holder: Internet Archive
+    description: Digitized aerial and documentary photography of the Everglades
+    dublin_core_profile: dcterms:Collection
+    lifecycle_stage: publication
+    steward_actor: preservation-steward
+    reference_models:
+      - internet-archive
+      - dublin-core
+      - prov-o
+    place_ids:
+      - wise.place.everglades-national-park
+    external_ids:
+      internet-archive: everglades-historical
+    steward_agent_id: wise.agent.preservation
+    backing_stores:
+      - store: postgresql
+        schema_ref: knowledge.collections
+        table_or_index: knowledge.collections

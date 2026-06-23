@@ -1,0 +1,111 @@
+[
+  {
+    "audit_id": "wise.audit.standards-publication-seed",
+    "display_name": "Lifecycle approval to publication",
+    "subject_type": "agent",
+    "subject_id": "wise.agent.standards",
+    "evidence_ref": "otel://traces/standards-pub",
+    "trace_id": "standards-pub",
+    "outcome": "pass",
+    "reviewer_id": "architecture-office",
+    "lifecycle_stage": "audit",
+    "reference_models": [
+      "opentelemetry",
+      "iso-27001"
+    ],
+    "created_at": "2026-06-23T08:00:47.061Z",
+    "updated_at": "2026-06-23T08:00:47.061Z",
+    "steward_actor": "architecture-office",
+    "threshold_min": null,
+    "threshold_max": null,
+    "gold_dataset_ref": null
+  },
+  {
+    "audit_id": "wise.audit.benchmark-publication-seed",
+    "display_name": "Lifecycle approval to publication",
+    "subject_type": "agent",
+    "subject_id": "wise.agent.benchmark",
+    "evidence_ref": "otel://traces/benchmark-pub",
+    "trace_id": "benchmark-pub",
+    "outcome": "pass",
+    "reviewer_id": "architecture-office",
+    "lifecycle_stage": "audit",
+    "reference_models": [
+      "opentelemetry",
+      "iso-27001"
+    ],
+    "created_at": "2026-06-23T08:00:47.061Z",
+    "updated_at": "2026-06-23T08:00:47.061Z",
+    "steward_actor": "architecture-office",
+    "threshold_min": null,
+    "threshold_max": null,
+    "gold_dataset_ref": null
+  },
+  {
+    "audit_id": "wise.audit.research-standards-seed",
+    "display_name": "Standards conformance review — Research",
+    "subject_type": "capability",
+    "subject_id": "wise.capability.class.research",
+    "evidence_ref": "governance/audits/research-v1",
+    "trace_id": null,
+    "outcome": "pass",
+    "reviewer_id": "standards-steward",
+    "lifecycle_stage": "audit",
+    "reference_models": [
+      "unesco",
+      "gbif",
+      "wikidata",
+      "nist-ai-rmf",
+      "iso-42001"
+    ],
+    "created_at": "2026-06-23T08:00:47.061Z",
+    "updated_at": "2026-06-23T08:00:47.061Z",
+    "steward_actor": "standards-steward",
+    "threshold_min": null,
+    "threshold_max": null,
+    "gold_dataset_ref": null
+  },
+  {
+    "audit_id": "wise.audit.translation-standards-seed",
+    "display_name": "Standards conformance review — Translation",
+    "subject_type": "capability",
+    "subject_id": "wise.capability.class.translation",
+    "evidence_ref": "governance/audits/translation-v1",
+    "trace_id": null,
+    "outcome": "pass",
+    "reviewer_id": "standards-steward",
+    "lifecycle_stage": "audit",
+    "reference_models": [
+      "wikidata",
+      "iso-42001"
+    ],
+    "created_at": "2026-06-23T08:00:47.061Z",
+    "updated_at": "2026-06-23T08:00:47.061Z",
+    "steward_actor": "standards-steward",
+    "threshold_min": null,
+    "threshold_max": null,
+    "gold_dataset_ref": null
+  },
+  {
+    "audit_id": "wise.audit.classification-standards-seed",
+    "display_name": "Standards conformance review — Classification",
+    "subject_type": "capability",
+    "subject_id": "wise.capability.class.classification",
+    "evidence_ref": "governance/audits/classification-v1",
+    "trace_id": null,
+    "outcome": "pass",
+    "reviewer_id": "standards-steward",
+    "lifecycle_stage": "audit",
+    "reference_models": [
+      "gbif",
+      "wikidata",
+      "nist-ai-rmf"
+    ],
+    "created_at": "2026-06-23T08:00:47.061Z",
+    "updated_at": "2026-06-23T08:00:47.061Z",
+    "steward_actor": "standards-steward",
+    "threshold_min": null,
+    "threshold_max": null,
+    "gold_dataset_ref": null
+  }
+]

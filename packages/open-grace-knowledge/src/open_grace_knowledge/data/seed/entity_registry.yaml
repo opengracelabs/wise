@@ -1,0 +1,57 @@
+entities:
+  - entity_id: wise.entity.unesco
+    display_name: UNESCO
+    entity_type: organization
+    description: United Nations Educational, Scientific and Cultural Organization
+    lifecycle_stage: publication
+    steward_actor: heritage-steward
+    reference_models:
+      - wikidata
+      - dublin-core
+    external_ids:
+      wikidata: Q7809
+    steward_agent_id: wise.agent.knowledge-graph
+    capability_id: wise.capability.knowledge-modeling
+    backing_stores:
+      - store: postgresql
+        schema_ref: knowledge.entities
+        table_or_index: knowledge.entities
+      - store: json_file
+        notes: v1 development store
+
+  - entity_id: wise.entity.everglades-nps
+    display_name: Everglades National Park (NPS)
+    entity_type: organization
+    description: National Park Service unit administering Everglades National Park
+    lifecycle_stage: publication
+    steward_actor: place-steward
+    reference_models:
+      - wikidata
+      - prov-o
+    external_ids:
+      wikidata: Q604659
+    steward_agent_id: wise.agent.metadata
+    backing_stores:
+      - store: postgresql
+        schema_ref: knowledge.entities
+        table_or_index: knowledge.entities
+      - store: json_file
+
+  - entity_id: wise.entity.gbif-secretariat
+    display_name: GBIF Secretariat
+    entity_type: organization
+    description: Global Biodiversity Information Facility coordinating institution
+    lifecycle_stage: publication
+    steward_actor: biodiversity-steward
+    reference_models:
+      - gbif
+      - wikidata
+    external_ids:
+      wikidata: Q1531570
+      gbif: GBIF_ORG
+    steward_agent_id: wise.agent.source-discovery
+    capability_id: wise.capability.knowledge-graph
+    backing_stores:
+      - store: postgresql
+        schema_ref: knowledge.entities
+        table_or_index: knowledge.entities

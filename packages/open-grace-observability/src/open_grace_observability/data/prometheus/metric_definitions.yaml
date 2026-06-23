@@ -1,0 +1,47 @@
+metrics:
+  - name: open_grace_agent_execution_latency_seconds
+    type: histogram
+    help: Agent execution latency in seconds
+    labels:
+      - agent_id
+      - metric_kind
+      - trace_id
+
+  - name: open_grace_agent_execution_total
+    type: counter
+    help: Total agent executions
+    labels:
+      - agent_id
+      - outcome
+
+  - name: open_grace_capability_metric_gauge
+    type: gauge
+    help: Capability performance gauge
+    labels:
+      - capability_id
+      - agent_id
+      - metric_kind
+
+  - name: open_grace_benchmark_observed_value
+    type: gauge
+    help: Observed benchmark metric value
+    labels:
+      - benchmark_id
+      - agent_id
+      - passed
+
+  - name: open_grace_audit_metric_gauge
+    type: gauge
+    help: Audit trail metric values
+    labels:
+      - subject_type
+      - subject_id
+      - metric_kind
+
+  - name: open_grace_cost_usd_total
+    type: counter
+    help: Accumulated cost in USD
+    labels:
+      - agent_id
+      - model_id
+      - cost_kind

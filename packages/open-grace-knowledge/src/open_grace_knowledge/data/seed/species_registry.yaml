@@ -1,0 +1,74 @@
+species:
+  - species_id: wise.species.panthera-leo
+    scientific_name: Panthera leo
+    common_names:
+      - African lion
+      - Lion
+    taxon_rank: species
+    gbif_taxon_key: 5219404
+    parent_species_id: wise.species.panthera
+    lifecycle_stage: publication
+    steward_actor: biodiversity-steward
+    reference_models:
+      - gbif
+      - wikidata
+      - skos
+    place_ids:
+      - wise.place.serengeti-national-park
+    external_ids:
+      wikidata: Q140
+      gbif: "5219404"
+    steward_agent_id: wise.agent.source-discovery
+    backing_stores:
+      - store: postgresql
+        schema_ref: knowledge.species
+        table_or_index: knowledge.species
+      - store: pgvector
+        schema_ref: knowledge.species
+        table_or_index: knowledge.species_embeddings
+      - store: json_file
+
+  - species_id: wise.species.alligator-mississippiensis
+    scientific_name: Alligator mississippiensis
+    common_names:
+      - American alligator
+    taxon_rank: species
+    gbif_taxon_key: 2440874
+    lifecycle_stage: publication
+    steward_actor: biodiversity-steward
+    reference_models:
+      - gbif
+      - wikidata
+    place_ids:
+      - wise.place.everglades-national-park
+    external_ids:
+      wikidata: Q48228
+      gbif: "2440874"
+    steward_agent_id: wise.agent.source-discovery
+    backing_stores:
+      - store: postgresql
+        schema_ref: knowledge.species
+        table_or_index: knowledge.species
+      - store: pgvector
+        schema_ref: knowledge.species
+        table_or_index: knowledge.species_embeddings
+
+  - species_id: wise.species.panthera
+    scientific_name: Panthera
+    common_names:
+      - Big cats
+    taxon_rank: genus
+    gbif_taxon_key: 5219403
+    lifecycle_stage: publication
+    steward_actor: biodiversity-steward
+    reference_models:
+      - gbif
+      - skos
+    external_ids:
+      wikidata: Q127960
+      gbif: "5219403"
+    steward_agent_id: wise.agent.source-discovery
+    backing_stores:
+      - store: postgresql
+        schema_ref: knowledge.species
+        table_or_index: knowledge.species

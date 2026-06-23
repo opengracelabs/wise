@@ -1,0 +1,67 @@
+places:
+  - place_id: wise.place.everglades-national-park
+    display_name: Everglades National Park
+    place_type: protected_area
+    description: UNESCO World Heritage wetland in Florida, USA
+    lifecycle_stage: publication
+    steward_actor: place-steward
+    reference_models:
+      - wikidata
+      - gbif
+    geometry_ref: postgis://wise/places/everglades-national-park
+    external_ids:
+      wikidata: Q604659
+      unesco: "76"
+    steward_agent_id: wise.agent.metadata
+    backing_stores:
+      - store: postgresql
+        schema_ref: knowledge.places
+        table_or_index: knowledge.places
+      - store: postgis
+        schema_ref: knowledge.places
+        table_or_index: knowledge.place_geometries
+      - store: json_file
+
+  - place_id: wise.place.serengeti-national-park
+    display_name: Serengeti National Park
+    place_type: protected_area
+    description: UNESCO World Heritage savanna ecosystem in Tanzania
+    lifecycle_stage: publication
+    steward_actor: place-steward
+    reference_models:
+      - wikidata
+      - gbif
+    geometry_ref: postgis://wise/places/serengeti-national-park
+    external_ids:
+      wikidata: Q419036
+      unesco: "156"
+    steward_agent_id: wise.agent.metadata
+    backing_stores:
+      - store: postgresql
+        schema_ref: knowledge.places
+        table_or_index: knowledge.places
+      - store: postgis
+        schema_ref: knowledge.places
+        table_or_index: knowledge.place_geometries
+
+  - place_id: wise.place.venice-lagoon
+    display_name: Venice and its Lagoon
+    place_type: world_heritage_site
+    description: UNESCO cultural landscape in Veneto, Italy
+    lifecycle_stage: publication
+    steward_actor: heritage-steward
+    reference_models:
+      - wikidata
+      - cidoc-crm
+    geometry_ref: postgis://wise/places/venice-lagoon
+    external_ids:
+      wikidata: Q641
+      unesco: "394"
+    steward_agent_id: wise.agent.knowledge-graph
+    backing_stores:
+      - store: postgresql
+        schema_ref: knowledge.places
+        table_or_index: knowledge.places
+      - store: postgis
+        schema_ref: knowledge.places
+        table_or_index: knowledge.place_geometries

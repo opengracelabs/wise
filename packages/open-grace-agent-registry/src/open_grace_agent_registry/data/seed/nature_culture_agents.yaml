@@ -1,0 +1,233 @@
+# Nature & Culture agent role mappings — Open Grace registration v1
+# Maps Nature & Culture operational roles to canonical wise.agent.* IDs,
+# capability framework classes, knowledge registry links, benchmarks, and audit hooks.
+#
+# Role → wise.agent.* → capability class:
+#   Research       → wise.agent.standards         → wise.capability.class.research
+#   Translation    → wise.agent.translation       → wise.capability.class.translation
+#   Classification → wise.agent.metadata          → wise.capability.class.classification
+#   Extraction     → wise.agent.source-discovery  → wise.capability.class.extraction
+#   Analysis       → wise.agent.knowledge-graph   → wise.capability.class.analysis
+#   Preservation   → wise.agent.preservation      → wise.capability.class.preservation
+#   Publishing     → wise.agent.publishing        → wise.capability.class.publishing
+
+version: "1.0"
+steward_actor: open-grace-nature-culture-seed
+
+agents:
+  - role_id: nature-culture.role.research
+    display_name: Research Agent
+    agent_id: wise.agent.standards
+    capability_class_id: wise.capability.class.research
+    knowledge_links:
+      entity:
+        - wise.entity.unesco
+        - wise.entity.gbif-secretariat
+      heritage:
+        - wise.heritage.venice-lagoon
+        - wise.heritage.everglades-wetland
+        - wise.heritage.serengeti-ecosystem
+      knowledge_graph:
+        - wise.knowledge.graph.heritage-venice
+        - wise.knowledge.graph.serengeti-wildlife
+    benchmark_ids:
+      - wise.benchmark.research-coverage
+      - wise.benchmark.standards-conformance
+    audit_requirements:
+      - provenance_chain_verified
+      - steward_review_recorded
+    audit_hooks:
+      - hook_id: wise.audit.nc-research-provenance
+        display_name: Research provenance chain verification
+        requirement: provenance_chain_verified
+      - hook_id: wise.audit.nc-research-steward-review
+        display_name: Research steward review gate
+        requirement: steward_review_recorded
+
+  - role_id: nature-culture.role.translation
+    display_name: Translation Agent
+    agent_id: wise.agent.translation
+    capability_class_id: wise.capability.class.translation
+    knowledge_links:
+      entity:
+        - wise.entity.unesco
+      place:
+        - wise.place.venice-lagoon
+      heritage:
+        - wise.heritage.venice-lagoon
+      collection:
+        - wise.collection.europeana-venice-heritage
+      media:
+        - wise.media.venice-canal-painting
+      knowledge_graph:
+        - wise.knowledge.graph.heritage-venice
+    benchmark_ids:
+      - wise.benchmark.translation-cost
+      - wise.benchmark.translation-quality
+    audit_requirements:
+      - terminology_memory_versioned
+      - community_consent_when_required
+    audit_hooks:
+      - hook_id: wise.audit.nc-translation-terminology
+        display_name: Translation terminology memory versioning
+        requirement: terminology_memory_versioned
+      - hook_id: wise.audit.nc-translation-consent
+        display_name: Translation community consent gate
+        requirement: community_consent_when_required
+
+  - role_id: nature-culture.role.classification
+    display_name: Classification Agent
+    agent_id: wise.agent.metadata
+    capability_class_id: wise.capability.class.classification
+    knowledge_links:
+      entity:
+        - wise.entity.everglades-nps
+      place:
+        - wise.place.everglades-national-park
+        - wise.place.serengeti-national-park
+      species:
+        - wise.species.panthera-leo
+        - wise.species.alligator-mississippiensis
+      knowledge_graph:
+        - wise.knowledge.graph.biodiversity-everglades
+    benchmark_ids:
+      - wise.benchmark.classification-precision
+      - wise.benchmark.standards-conformance
+    audit_requirements:
+      - schema_validation_logged
+      - authority_record_linked
+    audit_hooks:
+      - hook_id: wise.audit.nc-classification-schema
+        display_name: Classification schema validation log
+        requirement: schema_validation_logged
+      - hook_id: wise.audit.nc-classification-authority
+        display_name: Classification authority record linkage
+        requirement: authority_record_linked
+
+  - role_id: nature-culture.role.extraction
+    display_name: Extraction Agent
+    agent_id: wise.agent.source-discovery
+    capability_class_id: wise.capability.class.extraction
+    knowledge_links:
+      entity:
+        - wise.entity.gbif-secretariat
+      species:
+        - wise.species.panthera-leo
+        - wise.species.alligator-mississippiensis
+        - wise.species.panthera
+      collection:
+        - wise.collection.gbif-everglades-occurrences
+      media:
+        - wise.media.lion-serengeti-photo
+      knowledge_graph:
+        - wise.knowledge.graph.biodiversity-everglades
+    benchmark_ids:
+      - wise.benchmark.discovery-safety
+      - wise.benchmark.extraction-recall
+    audit_requirements:
+      - rights_pre_screen_passed
+      - discovery_provenance_attached
+    audit_hooks:
+      - hook_id: wise.audit.nc-extraction-rights
+        display_name: Extraction rights pre-screen gate
+        requirement: rights_pre_screen_passed
+      - hook_id: wise.audit.nc-extraction-provenance
+        display_name: Extraction discovery provenance attachment
+        requirement: discovery_provenance_attached
+
+  - role_id: nature-culture.role.analysis
+    display_name: Analysis Agent
+    agent_id: wise.agent.knowledge-graph
+    capability_class_id: wise.capability.class.analysis
+    knowledge_links:
+      entity:
+        - wise.entity.unesco
+      place:
+        - wise.place.venice-lagoon
+        - wise.place.serengeti-national-park
+      species:
+        - wise.species.panthera-leo
+      heritage:
+        - wise.heritage.venice-lagoon
+        - wise.heritage.serengeti-ecosystem
+      collection:
+        - wise.collection.europeana-venice-heritage
+      media:
+        - wise.media.venice-canal-painting
+      knowledge_graph:
+        - wise.knowledge.graph.biodiversity-everglades
+        - wise.knowledge.graph.heritage-venice
+        - wise.knowledge.graph.serengeti-wildlife
+    benchmark_ids:
+      - wise.benchmark.kg-reliability
+      - wise.benchmark.analysis-latency
+    audit_requirements:
+      - link_proposal_reviewed
+      - duplicate_resolution_logged
+    audit_hooks:
+      - hook_id: wise.audit.nc-analysis-link-review
+        display_name: Analysis link proposal review
+        requirement: link_proposal_reviewed
+      - hook_id: wise.audit.nc-analysis-duplicate-resolution
+        display_name: Analysis duplicate resolution log
+        requirement: duplicate_resolution_logged
+
+  - role_id: nature-culture.role.preservation
+    display_name: Preservation Agent
+    agent_id: wise.agent.preservation
+    capability_class_id: wise.capability.class.preservation
+    knowledge_links:
+      heritage:
+        - wise.heritage.everglades-wetland
+      collection:
+        - wise.collection.internet-archive-everglades
+      media:
+        - wise.media.everglades-aerial-1940
+      place:
+        - wise.place.everglades-national-park
+      knowledge_graph:
+        - wise.knowledge.graph.biodiversity-everglades
+    benchmark_ids:
+      - wise.benchmark.preservation-fixity
+      - wise.benchmark.discovery-safety
+    audit_requirements:
+      - fixity_checksum_recorded
+      - premis_event_logged
+    audit_hooks:
+      - hook_id: wise.audit.nc-preservation-fixity
+        display_name: Preservation fixity checksum recording
+        requirement: fixity_checksum_recorded
+      - hook_id: wise.audit.nc-preservation-premis
+        display_name: Preservation PREMIS event logging
+        requirement: premis_event_logged
+
+  - role_id: nature-culture.role.publishing
+    display_name: Publishing Agent
+    agent_id: wise.agent.publishing
+    capability_class_id: wise.capability.class.publishing
+    knowledge_links:
+      entity:
+        - wise.entity.unesco
+      place:
+        - wise.place.venice-lagoon
+      heritage:
+        - wise.heritage.venice-lagoon
+      collection:
+        - wise.collection.europeana-venice-heritage
+      media:
+        - wise.media.venice-canal-painting
+      knowledge_graph:
+        - wise.knowledge.graph.heritage-venice
+    benchmark_ids:
+      - wise.benchmark.publishing-quality
+      - wise.benchmark.standards-conformance
+    audit_requirements:
+      - editorial_gate_signed
+      - iiif_manifest_validated
+    audit_hooks:
+      - hook_id: wise.audit.nc-publishing-editorial
+        display_name: Publishing editorial gate signature
+        requirement: editorial_gate_signed
+      - hook_id: wise.audit.nc-publishing-iiif
+        display_name: Publishing IIIF manifest validation
+        requirement: iiif_manifest_validated

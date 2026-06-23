@@ -1,0 +1,104 @@
+knowledge_graphs:
+  - graph_id: wise.knowledge.graph.biodiversity-everglades
+    display_name: Everglades Biodiversity Graph
+    graph_type: biodiversity_graph
+    description: Species, places, and occurrence relationships for Everglades
+    lifecycle_stage: publication
+    steward_actor: knowledge-graph-steward
+    reference_models:
+      - gbif
+      - wikidata
+      - skos
+      - prov-o
+    node_registry_refs:
+      place:
+        - wise.place.everglades-national-park
+      species:
+        - wise.species.alligator-mississippiensis
+      collection:
+        - wise.collection.gbif-everglades-occurrences
+      media:
+        - wise.media.everglades-aerial-1940
+    skos_concept_scheme: wise.skos.biodiversity-everglades
+    opensearch_index: wise-kg-biodiversity-everglades
+    steward_agent_id: wise.agent.knowledge-graph
+    capability_id: wise.capability.knowledge-graph
+    audit_requirement_ids: []
+    benchmark_ids: []
+    backing_stores:
+      - store: postgresql
+        schema_ref: knowledge.graphs
+        table_or_index: knowledge.graph_nodes
+      - store: opensearch
+        schema_ref: knowledge.graphs
+        table_or_index: wise-kg-biodiversity-everglades
+      - store: json_file
+
+  - graph_id: wise.knowledge.graph.heritage-venice
+    display_name: Venice Heritage Graph
+    graph_type: heritage_graph
+    description: Heritage sites, collections, and media for Venice lagoon
+    lifecycle_stage: publication
+    steward_actor: knowledge-graph-steward
+    reference_models:
+      - wikidata
+      - cidoc-crm
+      - europeana
+      - skos
+    node_registry_refs:
+      entity:
+        - wise.entity.unesco
+      place:
+        - wise.place.venice-lagoon
+      heritage:
+        - wise.heritage.venice-lagoon
+      collection:
+        - wise.collection.europeana-venice-heritage
+      media:
+        - wise.media.venice-canal-painting
+    skos_concept_scheme: wise.skos.heritage-venice
+    opensearch_index: wise-kg-heritage-venice
+    steward_agent_id: wise.agent.knowledge-graph
+    capability_id: wise.capability.knowledge-graph
+    backing_stores:
+      - store: postgresql
+        schema_ref: knowledge.graphs
+        table_or_index: knowledge.graph_nodes
+      - store: opensearch
+        schema_ref: knowledge.graphs
+        table_or_index: wise-kg-heritage-venice
+
+  - graph_id: wise.knowledge.graph.serengeti-wildlife
+    display_name: Serengeti Wildlife Graph
+    graph_type: entity_graph
+    description: Lion taxonomy and protected-area linkage for Serengeti
+    lifecycle_stage: publication
+    steward_actor: knowledge-graph-steward
+    reference_models:
+      - gbif
+      - wikidata
+      - skos
+    node_registry_refs:
+      place:
+        - wise.place.serengeti-national-park
+      species:
+        - wise.species.panthera-leo
+        - wise.species.panthera
+      heritage:
+        - wise.heritage.serengeti-ecosystem
+      media:
+        - wise.media.lion-serengeti-photo
+    skos_concept_scheme: wise.skos.serengeti-taxonomy
+    opensearch_index: wise-kg-serengeti-wildlife
+    steward_agent_id: wise.agent.knowledge-graph
+    capability_id: wise.capability.knowledge-modeling
+    backing_stores:
+      - store: postgresql
+        schema_ref: knowledge.graphs
+        table_or_index: knowledge.graph_nodes
+      - store: opensearch
+        schema_ref: knowledge.graphs
+        table_or_index: wise-kg-serengeti-wildlife
+      - store: pgvector
+        schema_ref: knowledge.graphs
+        table_or_index: knowledge.graph_embeddings

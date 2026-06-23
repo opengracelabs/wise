@@ -1,0 +1,42 @@
+label_schemas:
+  - name: agent_id
+    description: WISE agent identifier (wise.agent.{slug})
+    required: true
+  - name: capability_id
+    description: WISE capability identifier
+    required: false
+  - name: trace_id
+    description: OpenTelemetry trace identifier
+    required: false
+  - name: level
+    description: Log severity level
+    required: true
+
+log_streams:
+  - stream: agent_execution
+    description: Agent execution lifecycle and runtime events
+    labels:
+      job: open-grace
+      component: agent
+      level: info
+
+  - stream: audit_evidence
+    description: Audit evidence and review trail logs
+    labels:
+      job: open-grace
+      component: audit
+      level: info
+
+  - stream: benchmark_run
+    description: Benchmark execution and result logs
+    labels:
+      job: open-grace
+      component: benchmark
+      level: info
+
+  - stream: cost_telemetry
+    description: Cost and token usage telemetry
+    labels:
+      job: open-grace
+      component: cost
+      level: info

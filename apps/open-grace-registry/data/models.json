@@ -1,0 +1,106 @@
+[
+  {
+    "model_id": "wise.model.gpt-4o",
+    "provider": "openai",
+    "model_name": "gpt-4o",
+    "council_role": "implementation",
+    "allowed_planes": [
+      "platform"
+    ],
+    "safety_tier": "standard",
+    "reference_models": [
+      "nist-ai-rmf",
+      "iso-42001"
+    ],
+    "lifecycle_stage": "publication",
+    "steward_actor": "open-grace-governance-seed",
+    "created_at": "2026-06-23T08:00:47.060Z",
+    "updated_at": "2026-06-23T08:00:47.060Z",
+    "threshold_min": null,
+    "threshold_max": null,
+    "gold_dataset_ref": null
+  },
+  {
+    "model_id": "wise.model.claude-sonnet",
+    "provider": "anthropic",
+    "model_name": "claude-sonnet-4",
+    "council_role": "architecture",
+    "allowed_planes": [
+      "platform",
+      "constitutional"
+    ],
+    "safety_tier": "elevated",
+    "reference_models": [
+      "nist-ai-rmf",
+      "iso-42001"
+    ],
+    "lifecycle_stage": "publication",
+    "steward_actor": "open-grace-governance-seed",
+    "created_at": "2026-06-23T08:00:47.061Z",
+    "updated_at": "2026-06-23T08:00:47.061Z",
+    "threshold_min": null,
+    "threshold_max": null,
+    "gold_dataset_ref": null
+  },
+  {
+    "model_id": "wise.model.gemini-pro",
+    "provider": "google",
+    "model_name": "gemini-2.5-pro",
+    "council_role": "independent-audit",
+    "allowed_planes": [
+      "constitutional"
+    ],
+    "safety_tier": "elevated",
+    "reference_models": [
+      "nist-ai-rmf"
+    ],
+    "lifecycle_stage": "publication",
+    "steward_actor": "open-grace-governance-seed",
+    "created_at": "2026-06-23T08:00:47.061Z",
+    "updated_at": "2026-06-23T08:00:47.061Z",
+    "threshold_min": null,
+    "threshold_max": null,
+    "gold_dataset_ref": null
+  },
+  {
+    "model_id": "wise.model.qwen-research",
+    "provider": "alibaba",
+    "model_name": "qwen-max",
+    "council_role": "research",
+    "allowed_planes": [
+      "platform"
+    ],
+    "safety_tier": "standard",
+    "reference_models": [
+      "gbif",
+      "wikidata"
+    ],
+    "lifecycle_stage": "publication",
+    "steward_actor": "open-grace-governance-seed",
+    "created_at": "2026-06-23T08:00:47.061Z",
+    "updated_at": "2026-06-23T08:00:47.061Z",
+    "threshold_min": null,
+    "threshold_max": null,
+    "gold_dataset_ref": null
+  },
+  {
+    "model_id": "wise.model.deepseek-engineering",
+    "provider": "deepseek",
+    "model_name": "deepseek-v3",
+    "council_role": "engineering",
+    "allowed_planes": [
+      "platform"
+    ],
+    "safety_tier": "standard",
+    "reference_models": [
+      "iso-27001"
+    ],
+    "lifecycle_stage": "publication",
+    "steward_actor": "open-grace-governance-seed",
+    "created_at": "2026-06-23T08:00:47.061Z",
+    "updated_at": "2026-06-23T08:00:47.061Z",
+    "threshold_min": null,
+    "threshold_max": null,
+    "gold_dataset_ref": null
+  }
+]
