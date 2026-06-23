@@ -72,6 +72,7 @@ Each record follows this structure:
 | [ADR-009](#adr-009-oais-preservation-foundation) | OAIS Preservation Foundation | Accepted | 2026-06-22 |
 | [ADR-010](#adr-010-free-access-constitutional-commitment) | Free Access Constitutional Commitment | Accepted | 2026-06-22 |
 | [ADR-011](#adr-011-architecture-freeze-v10) | Architecture Freeze v1.0 | Accepted | 2026-06-22 |
+| [ADR-012](#adr-012-expanded-operational-stack) | Expanded Operational Stack | Accepted | 2026-06-22 |
 
 ---
 
@@ -566,6 +567,53 @@ Architecture v1.0 is recorded in the [Architecture Registry](../../governance/ar
 - [06-build-roadmap.md](06-build-roadmap.md) — Phase 1 (Discovery)
 - [architecture-registry.md](../../governance/architecture-registry.md) — Registry entry
 - [constitutional-validation-report.md](../../governance/constitutional-validation-report.md) — Validation baseline
+
+---
+
+## ADR-012: Expanded Operational Stack
+
+| Field | Value |
+|-------|-------|
+| **Status** | Accepted |
+| **Date** | 2026-06-22 |
+| **Deciders** | Open Grace Architecture Office |
+
+### Context
+
+The canonical system diagram needed a more complete operational expression of the mission-to-outcomes chain. Architecture v1.0 defined the three logical planes and founder build order, but the diagram did not explicitly name several operational layers required for mission durability: content factories, product factories, commercial operations, platform engineering, SRE operations, and the global preservation network.
+
+### Decision
+
+Expand [04-system-diagram.md](04-system-diagram.md) Section 2 to include the full mission-to-outcomes operational stack:
+
+Mission → Open Grace → Nature & Culture → Knowledge Pipeline → Source Ecosystem → Data Platform → Knowledge Graph Core → Application Platform → AI Platform → Public Experience → Content Factory → Product Factory → Commercial Operations → Platform Engineering → SRE & Operations → Global Preservation Network → Outcomes.
+
+This expansion does not change the founder build order in ADR-003. It clarifies how downstream publishing, education, product, commerce, engineering, reliability, and preservation-network capabilities support the 100-year mission once their governing platform capabilities exist.
+
+### Rationale
+
+- Mission durability requires explicit operational ownership for reliability, disaster recovery, replication, integrity verification, and format migration.
+- Commercial activity is already allowed under ADR-010, but it must be shown as subordinate to public access and mission support rather than as a separate platform purpose.
+- Product and content factories translate canonical memory into public, educational, and revenue-supporting outputs without bypassing preservation, rights, quality, or translation gates.
+- Naming platform engineering and AI platform responsibilities makes implementation tooling and agent governance auditable.
+
+### Consequences
+
+**Positive:**
+- The canonical diagram now represents the complete operating model from source ecosystems to future-generation outcomes.
+- Product and commerce capabilities have explicit constitutional constraints.
+- SRE and preservation-network capabilities are visible as mission-critical, not optional operations.
+
+**Negative:**
+- The operational diagram is broader than the founder implementation scope and requires careful reading with the build roadmap.
+- Product factory examples may need future standards for rights, brand, sourcing, and quality controls.
+
+### References
+
+- [03-canonical-architecture.md](03-canonical-architecture.md) — Sections 4.10, 5.2, 6.5
+- [04-system-diagram.md](04-system-diagram.md) — Section 2
+- [06-build-roadmap.md](06-build-roadmap.md) — Phases 10 and 12
+- [01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md) — Section 6
 
 ---
 

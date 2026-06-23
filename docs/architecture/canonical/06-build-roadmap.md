@@ -300,6 +300,7 @@ Execution guidance: [founder-execution-roadmap.md](../../constitution/founder-ex
 **Key capabilities:**
 - [Publishing Agent](15-publishing-agent.md) — encyclopedias, field guides, books, reports; IIIF manifests; editorial workflow
 - Exhibit and story builder
+- Content factory for articles, collections, encyclopedias, handbooks, field guides, books, ebooks, audiobooks, videos, podcasts, and courses
 - IIIF Presentation API manifest generation
 - Collection curation and scheduling
 - Multilingual publishing via Translation Fabric
@@ -334,8 +335,8 @@ Execution guidance: [founder-execution-roadmap.md](../../constitution/founder-ex
 |-----------|--------|
 | **Objective** | Build derived public products on canonical memory |
 | **Depends on** | Phase 11 (Public Experience), Phase 8 (Research Fabric) |
-| **Delivers** | Public APIs, embeddable widgets, mobile apps, data products |
-| **Success criteria** | Public API documented; ≥ 3 third-party integrations; mobile app launched |
+| **Delivers** | Public APIs, embeddable widgets, mobile apps, data products, product factories, commercial operations |
+| **Success criteria** | Public API documented; ≥ 3 third-party integrations; mobile app launched; ≥ 3 product factories operating under mission constraints |
 | **Constitutional constraint** | Products must not gate canonical public memory ([01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md)) |
 | **Reference models** | National Geographic |
 | **Target** | Year 6–7 |
@@ -345,6 +346,8 @@ Execution guidance: [founder-execution-roadmap.md](../../constitution/founder-ex
 - Embeddable collection widgets
 - Mobile applications (iOS, Android)
 - Data product catalog
+- Product factories: wall art, calendars, puzzles, paint-by-numbers, maps, books, drinkware, apparel, and educational kits
+- Commercial operations: product sales, memberships, sponsorships, donations, licensing, and endowment support
 - Usage analytics (privacy-preserving)
 
 ---

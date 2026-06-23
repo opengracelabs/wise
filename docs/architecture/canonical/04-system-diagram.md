@@ -45,141 +45,381 @@ This document presents two complementary views:
 
 | View | Section | Use |
 |------|---------|-----|
-| **Operational stack** | §2 | Founder build order, authoritative sources, engineering stack, and AI fabric |
+| **Operational stack** | §2 | Mission-to-outcomes stack, source ecosystem, platform, AI, factories, commerce, engineering, SRE, and preservation network |
 | **Logical planes** | §3 | Constitutional, platform, and experience planes per [03-canonical-architecture.md](03-canonical-architecture.md) |
 
 ---
 
 ## 2. Operational Canonical Diagram
 
-The authoritative end-to-end stack from mission through public experience. Engineering and AI fabric are founder-phase implementation choices; they are documented here for execution alignment and do not alter the technology-agnostic logical architecture in [03-canonical-architecture.md](03-canonical-architecture.md).
+The authoritative end-to-end stack from mission through outcomes. Engineering, AI, commerce, factory, and SRE layers are operational capabilities that support the technology-agnostic logical architecture in [03-canonical-architecture.md](03-canonical-architecture.md).
 
 ```
-═══════════════════════════════════════════════════════════════════════
-                    OPEN GRACE + NATURE & CULTURE
-                       CANONICAL SYSTEM DIAGRAM
-═══════════════════════════════════════════════════════════════════════
-                              MISSION
+╔══════════════════════════════════════════════════════════════════════╗
+║                               MISSION                              ║
+╠══════════════════════════════════════════════════════════════════════╣
+║ Permanent Digital Memory of Humanity                               ║
+║ Heritage • Nature • Culture • Knowledge                            ║
+╚══════════════════════════════════════════════════════════════════════╝
                                    │
                                    ▼
-┌─────────────────────────────────────────────────────────────┐
-│                        OPEN GRACE                           │
-├─────────────────────────────────────────────────────────────┤
-│ Constitution │ Governance │ Standards │ Ethics │ Audit     │
-│ Security │ Architecture │ Benchmarks │ Mission │ Future    │
-└───────────────────────┬─────────────────────────────────────┘
-                        │
-                        ▼
-┌─────────────────────────────────────────────────────────────┐
-│                    GLOBAL FRAMEWORKS                        │
-├─────────────────────────────────────────────────────────────┤
-│ UNESCO │ SDGs │ CBD │ Ramsar │ UNDRIP │ OAIS │ ISO27001    │
-│ WCAG │ CIDOC CRM │ Darwin Core │ Dublin Core │ PREMIS      │
-└───────────────────────┬─────────────────────────────────────┘
-                        │
-                        ▼
-┌─────────────────────────────────────────────────────────────┐
-│                  AUTHORITATIVE SOURCES                      │
-├─────────────────────────────────────────────────────────────┤
-│ UNESCO │ GBIF │ Wikidata │ Wikimedia Commons               │
-│ OpenStreetMap │ GeoNames │ Europeana │ Smithsonian         │
-│ MIA │ NARA │ Atlas of Living Australia                     │
-└───────────────────────┬─────────────────────────────────────┘
-                        │
-                        ▼
-┌─────────────────────────────────────────────────────────────┐
-│                 DISCOVERY & INGESTION                       │
-├─────────────────────────────────────────────────────────────┤
-│ Discovery │ Validation │ Rights Review │ Provenance        │
-│ Harvesting │ Deduplication │ Quality Controls             │
-└───────────────────────┬─────────────────────────────────────┘
-                        │
-                        ▼
-┌─────────────────────────────────────────────────────────────┐
-│                   PRESERVATION PLATFORM                     │
-├─────────────────────────────────────────────────────────────┤
-│ MinIO │ Versioning │ Replication │ Checksums │ PREMIS      │
-│ Images │ Audio │ Video │ Maps │ GIS │ 3D │ Documents      │
-└───────────────────────┬─────────────────────────────────────┘
-                        │
-                        ▼
-┌─────────────────────────────────────────────────────────────┐
-│                  KNOWLEDGE INFRASTRUCTURE                   │
-├─────────────────────────────────────────────────────────────┤
-│ Heritage │ Nature │ Culture │ Biodiversity │ Tourism       │
-│ Conservation │ Education │ Languages │ Collections        │
-└───────────────────────┬─────────────────────────────────────┘
-                        │
-                        ▼
-┌─────────────────────────────────────────────────────────────┐
-│                     KNOWLEDGE GRAPH                         │
-├─────────────────────────────────────────────────────────────┤
-│ Places │ Species │ Heritage Sites │ Ecosystems             │
-│ Collections │ Artifacts │ People │ Organizations           │
-│ Languages │ Traditions │ Historical Events                │
-└───────────────────────┬─────────────────────────────────────┘
-                        │
-                        ▼
-┌─────────────────────────────────────────────────────────────┐
-│                     QUALITY PLATFORM                        │
-├─────────────────────────────────────────────────────────────┤
-│ Data Quality │ Scientific Review │ Editorial Review        │
-│ Rights Review │ Accessibility │ Security │ AI Evaluation   │
-└───────────────────────┬─────────────────────────────────────┘
-                        │
-                        ▼
-┌─────────────────────────────────────────────────────────────┐
-│                  RESEARCH & TRANSLATION                     │
-├─────────────────────────────────────────────────────────────┤
-│ Research Fabric │ Translation Fabric │ Terminology         │
-│ Indigenous Languages │ Human Review │ Reproducibility     │
-└───────────────────────┬─────────────────────────────────────┘
-                        │
-                        ▼
-┌─────────────────────────────────────────────────────────────┐
-│                PUBLISHING & PRODUCT PLATFORM                │
-├─────────────────────────────────────────────────────────────┤
-│ Encyclopedia │ Field Guides │ Atlases │ Books              │
-│ Ebooks │ Audiobooks │ Reports │ Educational Kits          │
-│ Maps │ Posters │ Wall Art │ Mobile Apps                   │
-└───────────────────────┬─────────────────────────────────────┘
-                        │
-                        ▼
-┌─────────────────────────────────────────────────────────────┐
-│                    COMMUNITY & EDUCATION                    │
-├─────────────────────────────────────────────────────────────┤
-│ Contributors │ Experts │ Volunteers │ Schools              │
-│ Universities │ Courses │ Certifications                   │
-└───────────────────────┬─────────────────────────────────────┘
-                        │
-                        ▼
-┌─────────────────────────────────────────────────────────────┐
-│                   OBSERVATORY NETWORK                       │
-├─────────────────────────────────────────────────────────────┤
-│ Heritage │ Biodiversity │ Climate │ Conservation           │
-│ Tourism │ Sustainability │ Language │ Accessibility        │
-└───────────────────────┬─────────────────────────────────────┘
-                        │
-                        ▼
-┌─────────────────────────────────────────────────────────────┐
-│                    PUBLIC EXPERIENCE                        │
-├─────────────────────────────────────────────────────────────┤
-│ Website │ Search │ Maps │ Learning Platform                │
-│ Research Portal │ APIs │ Citizen Science │ Digital Twin    │
-│ Mobile Apps │ Tourism Portal │ Conservation Portal         │
-└─────────────────────────────────────────────────────────────┘
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                            OPEN GRACE                              ║
+║               Governance + Standards + Authority                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+ Constitution
+ Governance
+ Standards
+ Systems Engineering
+ Security
+ Audit
+ Risk
+ AI Governance
+ Strategy
+ Performance
+
+                                   │
+                                   ▼
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        NATURE & CULTURE                            ║
+║                    Public Institution Layer                        ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+ Heritage
+ Nature
+ Culture
+ Knowledge
+
+                                   │
+                                   ▼
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        KNOWLEDGE PIPELINE                          ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+ Discovery
+     ↓
+ Acquisition
+     ↓
+ Ingestion
+     ↓
+ Validation
+     ↓
+ Preservation
+     ↓
+ Knowledge Modeling
+     ↓
+ Knowledge Graph
+     ↓
+ Translation
+     ↓
+ Publishing
+     ↓
+ Education
+     ↓
+ Commerce
+
+                                   │
+                                   ▼
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        SOURCE ECOSYSTEM                            ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+ UNESCO
+ GBIF
+ Wikidata
+ Wikimedia Commons
+ OpenStreetMap
+ Europeana
+ Internet Archive
+ Museums
+ Libraries
+ Archives
+
+                                   │
+                                   ▼
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                          DATA PLATFORM                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+ PostgreSQL
+ PostGIS
+ pgvector
+ MinIO
+
+                                   │
+                                   ▼
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                      KNOWLEDGE GRAPH CORE                          ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+ CIDOC CRM
+ Darwin Core
+ Dublin Core
+ RDF
+ OWL
+ SKOS
+ PROV
+ IIIF
+
+                                   │
+                                   ▼
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                     APPLICATION PLATFORM                           ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+ Objects Service
+ Collections Service
+ Search Service
+ Media Service
+ Translation Service
+ Publishing Service
+ Education Service
+ Commerce Service
+ Analytics Service
+
+                                   │
+                                   ▼
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                           AI PLATFORM                              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+ Qwen        → Research
+ Claude      → Architecture
+ DeepSeek    → Engineering
+ Gemini      → Independent Audit
+ Codex       → Implementation
+
+ Agent Registry
+ Benchmark Registry
+ Evaluation Framework
+ LangGraph Runtime
+
+                                   │
+                                   ▼
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        PUBLIC EXPERIENCE                           ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+ Website
+ Search
+ Collections
+ Maps
+ Timelines
+ Heritage Pages
+ Species Pages
+ Learning Resources
+ Digital Exhibitions
+
+                                   │
+                 ┌─────────────────┼─────────────────┐
+                 ▼                 ▼                 ▼
+
+            Publishing       Education        Community
+
+                                   │
+                                   ▼
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                         CONTENT FACTORY                            ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+ Articles
+ Collections
+ Encyclopedias
+ Handbooks
+ Field Guides
+ Books
+ Ebooks
+ Audiobooks
+ Videos
+ Podcasts
+ Courses
+
+                                   │
+                                   ▼
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                         PRODUCT FACTORY                            ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+ Wall Art Factory
+ Calendar Factory
+ Puzzle Factory
+ Paint-by-Numbers Factory
+ Map Factory
+ Book Factory
+ Drinkware Factory
+ Apparel Factory
+ Educational Kit Factory
+
+                                   │
+        ┌────────────┬─────────────┬─────────────┬─────────────┐
+        ▼            ▼             ▼             ▼
+
+   Wall Art     Calendars      Puzzles     Paint-by-Numbers
+
+        ▼            ▼             ▼             ▼
+
+ Heritage      Heritage       Heritage      Heritage
+ Wildlife      Wildlife       Wildlife      Wildlife
+ Maps          Maps           Maps          Maps
+ Nature        Nature         Nature        Nature
+
+                                   │
+                                   ▼
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        DRINKWARE FACTORY                           ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+ Heritage Mugs
+ Wildlife Mugs
+ Historical Map Mugs
+ National Park Mugs
+ Educational Mugs
+
+ Ceramic Mugs
+ Travel Mugs
+ Enamel Mugs
+ Tumblers
+ Water Bottles
+
+                                   │
+                                   ▼
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                       COMMERCIAL OPERATIONS                        ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+ Wall Art
+ Calendars
+ Jigsaw Puzzles
+ Paint-by-Numbers
+ Maps
+ Books
+ Mugs
+ Water Bottles
+ Apparel
+ Educational Kits
+
+ Memberships
+ Sponsorships
+ Donations
+ Licensing
+ Endowment
+
+                                   │
+                                   ▼
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                     PLATFORM ENGINEERING                           ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+ Cursor
+ Git
+ Claude Code
+ Codex CLI
+ Ollama
+ Docker
+ CI/CD
+
+                                   │
+                                   ▼
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                         SRE & OPERATIONS                           ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+ Monitoring
+ Logging
+ Alerting
+ Incident Response
+ Reliability Reviews
+ Disaster Recovery
+
+ Prometheus
+ Grafana
+
+                                   │
+                                   ▼
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                   GLOBAL PRESERVATION NETWORK                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+ Primary Archive
+ Regional Mirrors
+ Archive Nodes
+ Search Nodes
+ Knowledge Nodes
+ AI Nodes
+
+ Replication
+ Integrity Verification
+ Format Migration
+
+                                   │
+                                   ▼
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                              OUTCOMES                              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+ Global Knowledge Commons
+ Heritage Preservation
+ Biodiversity Preservation
+ Cultural Preservation
+
+ Publishing Infrastructure
+ Education Infrastructure
+ Commerce Infrastructure
+
+ Civilizational Memory
+ For Future Generations
 ```
 
-### 2.1 Engineering Stack
+### 2.1 Operational Layer Definitions
+
+| Operational Layer | Role | Logical Mapping |
+|-------------------|------|-----------------|
+| Mission | Constitutional north star for permanent digital memory | [01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md) |
+| Open Grace | Governance, standards, authority, risk, audit, and AI governance | Constitutional Plane (§3) |
+| Nature & Culture | Public institution for heritage, nature, culture, and knowledge | Experience Plane (§5) |
+| Knowledge Pipeline | Sequential value chain from discovery through commerce | Platform Plane (§4) + Experience Plane (§5) |
+| Source Ecosystem | Partner and public source authorities | Discovery inputs (§4.1) |
+| Data Platform | Relational, geospatial, vector, and object storage substrate | Physical Plane and data platform (§7) |
+| Knowledge Graph Core | Ontologies, graph standards, provenance, and presentation standards | Knowledge Modeling (§4.4) + Knowledge Graph (§4.5) |
+| Application Platform | Service layer serving platform and experience capabilities | Interface contracts (§7) |
+| AI Platform | Model councils, agent registry, benchmarks, evaluations, and LangGraph runtime | AI Fabric governance (§2.3) |
+| Public Experience | Website, search, maps, entity pages, learning, and exhibitions | Experience Plane (§5.1) |
+| Content Factory | Editorial production from canonical memory | Publishing (§4.10) + Education (§5.3) |
+| Product Factory | Mission-aligned product generation from canonical assets | Products (§5.2) |
+| Commercial Operations | Revenue operations that fund mission without gating public memory | Products (§5.2) under ADR-010 |
+| Platform Engineering | Engineering tools, source control, containers, and delivery pipelines | Founder implementation stack (§2.2) |
+| SRE & Operations | Reliability, monitoring, incident response, and disaster recovery | Events and observability (§6.5) + Physical Architecture |
+| Global Preservation Network | Archives, mirrors, nodes, replication, fixity, and migration | Physical Architecture + Preservation (§4.3) |
+| Outcomes | Public, preservation, education, commerce, and civilizational-memory outcomes | Mission fulfillment |
+
+### 2.2 Engineering and SRE Stack
 
 Founder-phase implementation stack. Physical deployment detail is in [05-physical-architecture.md](05-physical-architecture.md).
 
 ```
 Cursor
    │
-GitHub
+Git
    │
-GitHub Actions
+GitHub / CI-CD
    │
 Docker
    │
@@ -200,11 +440,13 @@ Grafana
 Loki
 ```
 
-### 2.2 AI Fabric
+SRE capabilities include monitoring, logging, alerting, incident response, reliability reviews, disaster recovery, replication verification, fixity verification, and format-migration readiness.
 
-Agent councils support architecture, implementation, research, and execution. All agent outputs pass through registry, benchmarks, evaluations, safety reviews, and human approval before affecting canonical systems.
+### 2.3 AI Platform
 
-Platform agents automate discovery, preservation, knowledge modeling, and knowledge-graph operations under AI Fabric governance:
+Agent councils support architecture, implementation, research, engineering, and independent audit. All agent outputs pass through registry, benchmarks, evaluations, safety reviews, and human approval before affecting canonical systems.
+
+Platform agents automate discovery, preservation, knowledge modeling, and knowledge-graph operations under AI Platform governance:
 
 - **Publishing Agent** ([15-publishing-agent.md](15-publishing-agent.md)) — assembles encyclopedias, field guides, books, and reports; generates IIIF manifests; enforces editorial gates before publication release.
 - **Source Discovery Agent** ([09-source-discovery-agent.md](09-source-discovery-agent.md)) — discovers UNESCO sites, GBIF datasets, public-domain collections, and metadata sources (OAI-PMH, APIs), emitting candidate Discovery Records for steward approval before ingestion.
@@ -223,20 +465,21 @@ Platform agents automate discovery, preservation, knowledge modeling, and knowle
 - **Benchmark Agent** ([23-benchmark-agent.md](23-benchmark-agent.md)) — evaluates registered agents for **agent performance**, **quality metrics**, and **architecture compliance**; emits Benchmark Reports for Architecture Office and council review before Evaluations and production clearance.
 
 ```
-Claude        → Architecture Council
-Codex         → Implementation Council
-Antigravity   → Execution Council
-DeepSeek      → Engineering Council
-Qwen          → Research Council
+Qwen        → Research Council
+Claude      → Architecture Council
+DeepSeek    → Engineering Council
+Gemini      → Independent Audit Council
+Codex       → Implementation Council
                 ↓
 Agent Registry
-Benchmarks
-Evaluations
+Benchmark Registry
+Evaluation Framework
 Safety Reviews
 Human Approval
+LangGraph Runtime
 ```
 
-### 2.3 Core Principle
+### 2.4 Core Principle
 
 The non-negotiable value chain from source to future generations:
 
@@ -257,27 +500,33 @@ Education
   ↓
 Public Access
   ↓
+Sustainable Mission Support
+  ↓
 Future Generations
 ```
 
-### 2.4 Operational-to-Logical Mapping
+### 2.5 Operational-to-Logical Mapping
 
 | Operational Layer (§2) | Logical Plane ([03-canonical-architecture.md](03-canonical-architecture.md)) |
 |------------------------|-------------------------------------------------------------------------------|
 | Mission | [01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md) — Nature & Culture public mandate |
 | Open Grace | §3 Constitutional Plane |
-| Global Frameworks | §3 Standards Registry + [07-reference-standards.md](07-reference-standards.md) |
-| Authoritative Sources | §4.1 Discovery inputs + [02-reference-models.md](02-reference-models.md) |
-| Discovery & Ingestion | §4.1 Discovery + §4.2 Ingestion |
-| Preservation Platform | §4.3 Preservation + [05-physical-architecture.md](05-physical-architecture.md) |
-| Knowledge Infrastructure | §4.4 Knowledge Modeling (domain schemas) |
-| Knowledge Graph | §4.5 Knowledge Graph |
-| Quality Platform | §4.7 Quality Platform |
-| Research & Translation | §4.8 Research Fabric + §4.9 Translation Fabric |
-| Publishing & Product Platform | §4.10 Publishing + §5.2 Products |
-| Community & Education | §5.3 Education + §5.4 Community |
-| Observatory Network | §5.5 Observatories |
+| Nature & Culture | §5 Experience Plane |
+| Knowledge Pipeline | §4 Platform Plane + §5 Experience Plane |
+| Source Ecosystem | §4.1 Discovery inputs + [02-reference-models.md](02-reference-models.md) |
+| Data Platform | §4.3 Preservation + [05-physical-architecture.md](05-physical-architecture.md) |
+| Knowledge Graph Core | §4.4 Knowledge Modeling + §4.5 Knowledge Graph |
+| Application Platform | §7 Interface Contracts |
+| AI Platform | §2.3 AI Platform + agent specifications 09–23 |
 | Public Experience | §5.1 Public Experience |
+| Content Factory | §4.10 Publishing + §5.3 Education |
+| Product Factory | §5.2 Products |
+| Drinkware Factory | §5.2 Products |
+| Commercial Operations | §5.2 Products, constrained by [ADR-010](08-decision-record.md#adr-010-free-access-constitutional-commitment) |
+| Platform Engineering | Founder-phase implementation stack (§2.2) |
+| SRE & Operations | §6.5 Events and Observability + [05-physical-architecture.md](05-physical-architecture.md) |
+| Global Preservation Network | §4.3 Preservation + [05-physical-architecture.md](05-physical-architecture.md) |
+| Outcomes | Mission fulfillment under [01-mission-and-constitutional-charter.md](01-mission-and-constitutional-charter.md) |
 
 ---
 

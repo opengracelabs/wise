@@ -20,6 +20,7 @@ This document is the single source of truth for institutional architecture. All 
 | **Supersedes** | All previous draft architectures |
 | **Git Tag** | `architecture-v1.0` |
 | **Freeze ADR** | [ADR-011 — Architecture Freeze v1.0](../architecture/canonical/08-decision-record.md#adr-011-architecture-freeze-v10) |
+| **Operational Amendment** | [ADR-012 — Expanded Operational Stack](../architecture/canonical/08-decision-record.md#adr-012-expanded-operational-stack) |
 | **Reference Documents** | `docs/architecture/canonical/*` (canonical authority); [founder-execution-roadmap.md](../constitution/founder-execution-roadmap.md) (execution companion only) |
 
 #### Change Control
