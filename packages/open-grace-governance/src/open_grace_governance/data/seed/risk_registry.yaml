@@ -7,7 +7,15 @@ risks:
     control_id: A.8.2
     mitigation: Enforce read_only graphs and steward approval gates
     agent_id: wise.agent.preservation
-    reference_models: [iso-27001, nist-ai-rmf]
+    risk_domain: privacy-security
+    harm_type: rights-violation
+    affected_party: organization
+    causal_source: human
+    intent: unintentional
+    timing: runtime
+    residual_risk: low
+    evidence: packages/open-grace-runtime/src/open_grace_runtime/gates.py validate_risk_gate
+    reference_models: [iso-27001, nist-ai-rmf, mit-ai-risk]
     lifecycle_stage: publication
     steward_actor: open-grace-governance-seed
 
@@ -18,7 +26,15 @@ risks:
     control_id: MAP-1.1
     mitigation: Benchmark accuracy thresholds and human curator approval
     agent_id: wise.agent.knowledge-graph
-    reference_models: [nist-ai-rmf, iso-42001]
+    risk_domain: ai-system-safety
+    harm_type: reputational
+    affected_party: society
+    causal_source: ai-system
+    intent: unintentional
+    timing: post-deployment
+    residual_risk: medium
+    evidence: packages/open-grace-benchmarking/src/open_grace_benchmarking/benchmark_registry.py
+    reference_models: [nist-ai-rmf, iso-42001, mit-ai-risk]
     lifecycle_stage: publication
     steward_actor: open-grace-governance-seed
 
@@ -29,6 +45,52 @@ risks:
     control_id: 6.1.2
     mitigation: Quality review gate and restricted-rights routing
     capability_id: wise.capability.quality
-    reference_models: [iso-42001, unesco]
+    risk_domain: socioeconomic-environmental
+    harm_type: rights-violation
+    affected_party: marginalized-population
+    causal_source: organizational
+    intent: unintentional
+    timing: pre-deployment
+    residual_risk: medium
+    evidence: packages/open-grace-governance/src/open_grace_governance/data/seed/capability_framework.yaml
+    reference_models: [iso-42001, unesco, mit-ai-risk]
+    lifecycle_stage: publication
+    steward_actor: open-grace-governance-seed
+
+  - risk_id: wise.risk.prompt-injection-attack
+    display_name: Prompt injection via untrusted retrieval context
+    severity: high
+    framework: mit-ai-risk
+    control_id: MIT-4.1.2
+    mitigation: Sandboxed tool execution, input sanitization, and capability gate validation
+    agent_id: wise.agent.orchestrator
+    risk_domain: malicious-actors
+    harm_type: societal
+    affected_party: organization
+    causal_source: third-party
+    intent: intentional
+    timing: runtime
+    residual_risk: medium
+    evidence: packages/open-grace-runtime/src/open_grace_runtime/gates.py validate_capability_gate
+    reference_models: [mit-ai-risk, iso-27001, nist-ai-rmf]
+    lifecycle_stage: publication
+    steward_actor: open-grace-governance-seed
+
+  - risk_id: wise.risk.biodiversity-misclassification
+    display_name: Biodiversity taxonomic misclassification
+    severity: medium
+    framework: mit-ai-risk
+    control_id: MIT-7.2.1
+    mitigation: GBIF taxon key validation and classification benchmark thresholds
+    agent_id: wise.agent.metadata
+    risk_domain: ai-system-safety
+    harm_type: environmental
+    affected_party: ecosystem
+    causal_source: ai-system
+    intent: unintentional
+    timing: post-deployment
+    residual_risk: low
+    evidence: packages/open-grace-knowledge/src/open_grace_knowledge/validation/rules.py validate_species_record
+    reference_models: [mit-ai-risk, gbif, nist-ai-rmf]
     lifecycle_stage: publication
     steward_actor: open-grace-governance-seed

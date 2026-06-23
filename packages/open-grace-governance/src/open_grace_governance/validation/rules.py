@@ -96,15 +96,28 @@ def validate_standards_record(record: StandardsRegistryRecord) -> ValidationResu
     return ValidationResult(valid=not errors, errors=errors)
 
 
+_MIT_FRAMEWORKS = frozenset({"mit-ai-risk", "nist-ai-rmf"})
+
+
 def validate_risk_record(record: RiskRegistryRecord) -> ValidationResult:
     errors: list[str] = []
+    warnings: list[str] = []
     validate_reference_models(record, errors)
     _require_publication_fields(record, errors)
 
     if not record.agent_id and not record.capability_id:
         errors.append("risk must reference agent_id or capability_id")
 
-    return ValidationResult(valid=not errors, errors=errors)
+    if record.framework in _MIT_FRAMEWORKS and "mit-ai-risk" not in record.reference_models:
+        warnings.append("MIT-aligned framework should declare mit-ai-risk reference model")
+
+    if record.lifecycle_stage == LifecycleStage.PUBLICATION:
+        if not record.evidence.strip():
+            errors.append("evidence required at publication stage")
+        if record.framework == "mit-ai-risk" and not record.mitigation.strip():
+            errors.append("mit-ai-risk framework requires documented mitigation")
+
+    return ValidationResult(valid=not errors, errors=errors, warnings=warnings)
 
 
 def validate_benchmark_record(record: BenchmarkRegistryRecord) -> ValidationResult:

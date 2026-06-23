@@ -27,5 +27,5 @@ def test_seed_risk_registry(tmp_path):
     count = registry.seed_from_yaml()
     risks = registry.list()
 
-    assert count == 3
+    assert count == 5
     assert any(risk.framework == "nist-ai-rmf" for risk in risks)

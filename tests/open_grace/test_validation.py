@@ -68,6 +68,14 @@ def test_risk_requires_subject_reference():
         framework="nist-ai-rmf",
         control_id="MAP-1",
         mitigation="Review",
+        risk_domain="ai-system-safety",
+        harm_type="reputational",
+        affected_party="society",
+        causal_source="ai-system",
+        intent="unintentional",
+        timing="post-deployment",
+        residual_risk="low",
+        evidence="tests/open_grace/test_validation.py",
     )
     result = validate_entry(record)
     assert not result.valid

@@ -41,4 +41,37 @@ class GovernedRecord(BaseModel):
 AgentPlane = Annotated[str, Field(pattern=r"^(platform|experience|constitutional)$")]
 CapabilityRole = Annotated[str, Field(pattern=r"^(primary|supporting|governance)$")]
 RiskSeverity = Annotated[str, Field(pattern=r"^(low|medium|high|critical)$")]
+MitRiskDomain = Annotated[
+    str,
+    Field(
+        pattern=r"^(discrimination-toxicity|privacy-security|misinformation|"
+        r"malicious-actors|human-computer-interaction|socioeconomic-environmental|"
+        r"ai-system-safety)$"
+    ),
+]
+MitHarmType = Annotated[
+    str,
+    Field(
+        pattern=r"^(psychological|physical|financial|reputational|environmental|"
+        r"rights-violation|societal)$"
+    ),
+]
+MitAffectedParty = Annotated[
+    str,
+    Field(
+        pattern=r"^(individual|group|society|organization|ecosystem|"
+        r"marginalized-population)$"
+    ),
+]
+MitCausalSource = Annotated[
+    str,
+    Field(pattern=r"^(human|ai-system|third-party|organizational|environmental)$")
+]
+MitRiskIntent = Annotated[str, Field(pattern=r"^(intentional|unintentional|unknown)$")]
+MitRiskTiming = Annotated[
+    str,
+    Field(pattern=r"^(pre-deployment|post-deployment|runtime|both)$")
+]
 BenchmarkMetric = Annotated[str, Field(pattern=r"^(accuracy|cost|latency|safety|reliability)$")]
+
+_SEVERITY_ORDINAL = {"low": 0, "medium": 1, "high": 2, "critical": 3}

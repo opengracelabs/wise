@@ -41,10 +41,22 @@ REFERENCE_MODELS: tuple[ReferenceModelProfile, ...] = (
         governance_use="Fixity, format migration, and long-term access obligations",
     ),
     ReferenceModelProfile(
+        slug="mit-ai-risk",
+        display_name="MIT AI Risk Repository",
+        domain="ai_risk_taxonomy",
+        governance_use="Harm taxonomy, causal attribution, timing, and residual risk classification",
+    ),
+    ReferenceModelProfile(
         slug="nist-ai-rmf",
         display_name="NIST AI RMF",
         domain="ai_risk_management",
         governance_use="Risk registry taxonomy, impact assessment, and mitigation mapping",
+    ),
+    ReferenceModelProfile(
+        slug="openssf",
+        display_name="OpenSSF",
+        domain="software_supply_chain",
+        governance_use="Dependency provenance, secure development practices, and package integrity",
     ),
     ReferenceModelProfile(
         slug="iso-42001",

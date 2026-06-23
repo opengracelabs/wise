@@ -10,7 +10,7 @@ def test_governance_system_seed_and_summary(tmp_path):
     assert seeded["capabilities"] == 12
     assert seeded["capability_classes"] == 8
     assert seeded["standards"] == 4
-    assert seeded["risks"] == 3
+    assert seeded["risks"] == 5
     assert seeded["benchmarks"] == 13
     assert seeded["models"] == 5
     assert seeded["entities"] == 3
