@@ -3,9 +3,9 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "open-grace-runtime"
-version = "2.0.0"
-description = "Open Grace Agent Runtime v2 — gated LangGraph execution, records, and governance integration"
+name = "open-grace-registry-db"
+version = "1.0.0"
+description = "Open Grace registry persistence — SQLAlchemy models, Alembic migrations, YAML import/export"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -14,19 +14,21 @@ dependencies = [
     "open-grace-benchmarking",
     "open-grace-audit",
     "open-grace-knowledge",
-    "open-grace-observability",
-    "langgraph>=0.2.0",
-    "opentelemetry-api>=1.20",
-    "opentelemetry-sdk>=1.20",
-    "opentelemetry-exporter-prometheus>=0.49b0",
+    "open-grace-runtime",
+    "sqlalchemy>=2.0",
+    "alembic>=1.13",
+    "pyyaml>=6.0",
 ]
 
 [project.optional-dependencies]
-otel = ["opentelemetry-api>=1.20", "opentelemetry-sdk>=1.20"]
+postgres = ["psycopg[binary]>=3.1"]
 dev = ["pytest>=8.0"]
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/open_grace_runtime"]
+packages = ["src/open_grace_registry_db"]
 
 [tool.pytest.ini_options]
 testpaths = ["../../tests/open_grace"]
+markers = [
+    "integration: tests requiring database connectivity",
+]

@@ -45,3 +45,41 @@ metrics:
       - agent_id
       - model_id
       - cost_kind
+
+  - name: open_grace_runtime_execution_count
+    type: counter
+    help: Runtime v2 graph execution count
+    labels:
+      - agent_id
+      - run_id
+
+  - name: open_grace_runtime_execution_success_rate
+    type: gauge
+    help: Runtime execution success rate (0-1)
+    labels: []
+
+  - name: open_grace_runtime_execution_latency_ms
+    type: gauge
+    help: Mean runtime execution latency in milliseconds
+    labels: []
+
+  - name: open_grace_runtime_benchmark_score
+    type: gauge
+    help: Mean observed benchmark score from runtime evaluate node
+    labels:
+      - benchmark_id
+      - agent_id
+
+  - name: open_grace_runtime_risk_gate_failures
+    type: counter
+    help: Risk gate failures in runtime v2
+    labels:
+      - agent_id
+      - run_id
+
+  - name: open_grace_runtime_capability_gate_failures
+    type: counter
+    help: Capability gate failures in runtime v2
+    labels:
+      - agent_id
+      - run_id

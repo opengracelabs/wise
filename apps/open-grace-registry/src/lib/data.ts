@@ -6,6 +6,8 @@ import type {
   CapabilityRecord,
   ModelRecord,
   ReferenceModelProfile,
+  BenchmarkRunRecord,
+  ExecutionRecord,
   RegistryData,
   RiskRecord,
   StandardRecord,
@@ -21,6 +23,8 @@ import standards from "../../data/standards.json";
 import models from "../../data/models.json";
 import audits from "../../data/audits.json";
 import referenceModels from "../../data/reference-models.json";
+import executions from "../../data/executions.json";
+import benchmarkRuns from "../../data/benchmark-runs.json";
 
 let cache: RegistryData | null = null;
 
@@ -37,6 +41,8 @@ export function loadRegistryData(): RegistryData {
     models: models as ModelRecord[],
     audits: audits as AuditRecord[],
     referenceModels: referenceModels as ReferenceModelProfile[],
+    executions: executions as ExecutionRecord[],
+    benchmarkRuns: benchmarkRuns as BenchmarkRunRecord[],
   };
   return cache;
 }
@@ -99,7 +105,23 @@ export function getReferenceModel(slug: string): ReferenceModelProfile | undefin
   return loadRegistryData().referenceModels.find((r) => r.slug === slug);
 }
 
-export function evaluateBenchmark(
+export function getExecution(runId: string): ExecutionRecord | undefined {
+  return loadRegistryData().executions.find((e) => e.run_id === runId);
+}
+
+export function getBenchmarkRunsForExecution(runId: string): BenchmarkRunRecord[] {
+  return loadRegistryData().benchmarkRuns.filter((r) => r.run_id === runId);
+}
+
+export function getAuditForExecution(execution: ExecutionRecord): AuditRecord | undefined {
+  if (!execution.audit_id) return undefined;
+  return loadRegistryData().audits.find((a) => a.audit_id === execution.audit_id);
+}
+
+export function getCapabilitiesForExecution(execution: ExecutionRecord): CapabilityRecord[] {
+  const data = loadRegistryData();
+  return data.capabilities.filter((c) => execution.capability_class_ids.includes(c.id));
+}
   benchmark: BenchmarkRecord,
   observed: number,
 ): { passed: boolean; reason: string } {

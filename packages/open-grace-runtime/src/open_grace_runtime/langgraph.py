@@ -19,6 +19,7 @@ from open_grace_runtime.gates import (
     validate_knowledge_context,
     validate_risk_gate,
 )
+from open_grace_runtime.instrumentation import get_runtime_instrumentation
 from open_grace_runtime.schemas import ExecutionStatus, GateResult
 
 if TYPE_CHECKING:
@@ -56,6 +57,19 @@ def _make_run_id(agent_id: str) -> str:
 
 def build_runtime_graph(runtime: RuntimeSystem):
     """Compile the gated agent execution graph."""
+    instrumentation = get_runtime_instrumentation()
+
+    def _instrumented(node_name: str, handler):
+        def wrapped(state: RuntimeState) -> RuntimeState:
+            with instrumentation.trace_node(
+                node_name,
+                agent_id=state["agent_id"],
+                run_id=state["run_id"],
+            ):
+                return handler(state)
+
+        wrapped.__name__ = node_name
+        return wrapped
 
     def select_agent(state: RuntimeState) -> RuntimeState:
         if state.get("halted"):
@@ -276,14 +290,14 @@ def build_runtime_graph(runtime: RuntimeSystem):
         }
 
     graph = StateGraph(RuntimeState)
-    graph.add_node("select_agent", select_agent)
-    graph.add_node("validate_capability", validate_capability)
-    graph.add_node("validate_risk", validate_risk)
-    graph.add_node("select_model", select_model)
-    graph.add_node("execute", execute)
-    graph.add_node("evaluate", evaluate)
-    graph.add_node("audit", audit)
-    graph.add_node("persist", persist)
+    graph.add_node("select_agent", _instrumented("select_agent", select_agent))
+    graph.add_node("validate_capability", _instrumented("validate_capability", validate_capability))
+    graph.add_node("validate_risk", _instrumented("validate_risk", validate_risk))
+    graph.add_node("select_model", _instrumented("select_model", select_model))
+    graph.add_node("execute", _instrumented("execute", execute))
+    graph.add_node("evaluate", _instrumented("evaluate", evaluate))
+    graph.add_node("audit", _instrumented("audit", audit))
+    graph.add_node("persist", _instrumented("persist", persist))
 
     graph.add_edge(START, "select_agent")
     graph.add_edge("select_agent", "validate_capability")

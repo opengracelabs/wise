@@ -128,4 +128,39 @@ export interface RegistryData {
   models: ModelRecord[];
   audits: AuditRecord[];
   referenceModels: ReferenceModelProfile[];
+  executions: ExecutionRecord[];
+  benchmarkRuns: BenchmarkRunRecord[];
+}
+
+export type ExecutionStatus = "pending" | "running" | "completed" | "failed" | "blocked";
+
+export interface GateResult {
+  gate_name: string;
+  passed: boolean;
+  errors: string[];
+}
+
+export interface ExecutionRecord {
+  run_id: string;
+  agent_id: string;
+  model_id: string | null;
+  capability_class_ids: string[];
+  status: ExecutionStatus;
+  started_at: string;
+  completed_at: string | null;
+  gate_results: GateResult[];
+  output_ref: string | null;
+  audit_id: string | null;
+}
+
+export interface BenchmarkRunRecord {
+  benchmark_run_id: string;
+  run_id: string;
+  agent_id: string;
+  capability_class_id: string;
+  benchmark_id: string;
+  passed: boolean;
+  observed_value: number;
+  reason: string;
+  recorded_at: string;
 }

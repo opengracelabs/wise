@@ -1,0 +1,42 @@
+name: Open Grace SBOM
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "packages/open-grace-**/pyproject.toml"
+  workflow_dispatch:
+
+jobs:
+  generate-sbom:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Open Grace packages
+        run: |
+          pip install -e packages/open-grace-governance \
+                      -e packages/open-grace-agent-registry \
+                      -e packages/open-grace-benchmarking \
+                      -e packages/open-grace-audit \
+                      -e packages/open-grace-knowledge \
+                      -e packages/open-grace-observability \
+                      -e packages/open-grace-runtime \
+                      -e packages/open-grace-registry-db
+          pip install cyclonedx-bom
+
+      - name: Generate CycloneDX SBOM
+        run: |
+          mkdir -p sbom
+          cyclonedx-py environment -o sbom/open-grace-sbom.json
+
+      - name: Upload SBOM artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: open-grace-sbom
+          path: sbom/open-grace-sbom.json

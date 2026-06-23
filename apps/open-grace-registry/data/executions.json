@@ -1,0 +1,80 @@
+[
+  {
+    "run_id": "wise.execution.translation-6de3b494",
+    "agent_id": "wise.agent.translation",
+    "model_id": "wise.model.claude-sonnet",
+    "capability_class_ids": ["wise.capability.class.translation"],
+    "status": "completed",
+    "started_at": "2026-06-23T08:11:52.363104Z",
+    "completed_at": "2026-06-23T08:11:52.379426Z",
+    "gate_results": [
+      {"gate_name": "agent_registry", "passed": true, "errors": []},
+      {"gate_name": "knowledge_context", "passed": true, "errors": []},
+      {"gate_name": "capability_validation", "passed": true, "errors": []},
+      {"gate_name": "risk_validation", "passed": true, "errors": []},
+      {"gate_name": "benchmark_validation", "passed": true, "errors": []}
+    ],
+    "output_ref": "stub://execution/wise.execution.translation-6de3b494",
+    "audit_id": "wise.audit.translation-audit-f32c38d3"
+  },
+  {
+    "run_id": "wise.execution.translation-69a2eabb",
+    "agent_id": "wise.agent.translation",
+    "model_id": "wise.model.claude-sonnet",
+    "capability_class_ids": ["wise.capability.class.translation"],
+    "status": "completed",
+    "started_at": "2026-06-23T08:11:52.587664Z",
+    "completed_at": "2026-06-23T08:11:52.602926Z",
+    "gate_results": [
+      {"gate_name": "agent_registry", "passed": true, "errors": []},
+      {"gate_name": "knowledge_context", "passed": true, "errors": []},
+      {"gate_name": "capability_validation", "passed": true, "errors": []},
+      {"gate_name": "risk_validation", "passed": true, "errors": []},
+      {"gate_name": "benchmark_validation", "passed": true, "errors": []}
+    ],
+    "output_ref": "stub://execution/wise.execution.translation-69a2eabb",
+    "audit_id": "wise.audit.translation-audit-8b2a1c4e"
+  },
+  {
+    "run_id": "wise.execution.runtime-candidate-777710a7",
+    "agent_id": "wise.agent.runtime-candidate",
+    "model_id": null,
+    "capability_class_ids": [],
+    "status": "blocked",
+    "started_at": "2026-06-23T08:11:51.881112Z",
+    "completed_at": "2026-06-23T08:11:51.892209Z",
+    "gate_results": [
+      {
+        "gate_name": "agent_registry",
+        "passed": false,
+        "errors": ["agent wise.agent.runtime-candidate not approved for execution (stage=proposal)"]
+      },
+      {"gate_name": "knowledge_context", "passed": true, "errors": []}
+    ],
+    "output_ref": null,
+    "audit_id": null
+  },
+  {
+    "run_id": "wise.execution.translation-blocked-01",
+    "agent_id": "wise.agent.translation",
+    "model_id": null,
+    "capability_class_ids": [],
+    "status": "blocked",
+    "started_at": "2026-06-23T08:11:51.964923Z",
+    "completed_at": "2026-06-23T08:11:51.974734Z",
+    "gate_results": [
+      {"gate_name": "agent_registry", "passed": true, "errors": []},
+      {"gate_name": "knowledge_context", "passed": true, "errors": []},
+      {
+        "gate_name": "capability_validation",
+        "passed": false,
+        "errors": [
+          "wise.capability.class.translation: missing observed value for: wise.benchmark.translation-cost",
+          "wise.capability.class.translation: missing observed value for: wise.benchmark.translation-quality"
+        ]
+      }
+    ],
+    "output_ref": null,
+    "audit_id": null
+  }
+]

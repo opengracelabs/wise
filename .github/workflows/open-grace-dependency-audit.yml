@@ -1,0 +1,36 @@
+name: Open Grace Dependency Audit
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "packages/open-grace-**/pyproject.toml"
+      - ".github/workflows/open-grace-dependency-audit.yml"
+
+jobs:
+  pip-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Open Grace packages
+        run: |
+          pip install -e packages/open-grace-governance \
+                      -e packages/open-grace-agent-registry \
+                      -e packages/open-grace-benchmarking \
+                      -e packages/open-grace-audit \
+                      -e packages/open-grace-knowledge \
+                      -e packages/open-grace-observability \
+                      -e packages/open-grace-runtime \
+                      -e packages/open-grace-registry-db
+          pip install pip-audit
+
+      - name: Audit dependencies
+        run: pip-audit

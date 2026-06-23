@@ -1,0 +1,46 @@
+[
+  {
+    "benchmark_run_id": "wise.benchmark-run.translation-cost-26a01fbe",
+    "run_id": "wise.execution.translation-69a2eabb",
+    "agent_id": "wise.agent.translation",
+    "capability_class_id": "wise.capability.class.translation",
+    "benchmark_id": "wise.benchmark.translation-cost",
+    "passed": true,
+    "observed_value": 0.03,
+    "reason": "within thresholds",
+    "recorded_at": "2026-06-23T08:11:52.603143Z"
+  },
+  {
+    "benchmark_run_id": "wise.benchmark-run.translation-quality-79807a36",
+    "run_id": "wise.execution.translation-69a2eabb",
+    "agent_id": "wise.agent.translation",
+    "capability_class_id": "wise.capability.class.translation",
+    "benchmark_id": "wise.benchmark.translation-quality",
+    "passed": true,
+    "observed_value": 0.85,
+    "reason": "within thresholds",
+    "recorded_at": "2026-06-23T08:11:52.603151Z"
+  },
+  {
+    "benchmark_run_id": "wise.benchmark-run.translation-cost-6de3",
+    "run_id": "wise.execution.translation-6de3b494",
+    "agent_id": "wise.agent.translation",
+    "capability_class_id": "wise.capability.class.translation",
+    "benchmark_id": "wise.benchmark.translation-cost",
+    "passed": true,
+    "observed_value": 0.03,
+    "reason": "within thresholds",
+    "recorded_at": "2026-06-23T08:11:52.379400Z"
+  },
+  {
+    "benchmark_run_id": "wise.benchmark-run.translation-quality-6de3",
+    "run_id": "wise.execution.translation-6de3b494",
+    "agent_id": "wise.agent.translation",
+    "capability_class_id": "wise.capability.class.translation",
+    "benchmark_id": "wise.benchmark.translation-quality",
+    "passed": true,
+    "observed_value": 0.85,
+    "reason": "within thresholds",
+    "recorded_at": "2026-06-23T08:11:52.379410Z"
+  }
+]

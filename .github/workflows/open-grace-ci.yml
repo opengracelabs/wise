@@ -1,0 +1,45 @@
+name: Open Grace CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "packages/open-grace-**"
+      - "tests/open_grace/**"
+      - ".github/workflows/open-grace-ci.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "packages/open-grace-**"
+      - "tests/open_grace/**"
+      - ".github/workflows/open-grace-ci.yml"
+
+env:
+  PYTHON_VERSION: "3.12"
+
+jobs:
+  open-grace-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+
+      - name: Install Open Grace packages
+        run: |
+          pip install -e packages/open-grace-governance \
+                      -e packages/open-grace-agent-registry \
+                      -e packages/open-grace-benchmarking \
+                      -e packages/open-grace-audit \
+                      -e packages/open-grace-knowledge \
+                      -e packages/open-grace-observability \
+                      -e packages/open-grace-runtime \
+                      -e packages/open-grace-registry-db
+          pip install pytest
+
+      - name: Run Open Grace tests
+        run: python -m pytest tests/open_grace -q

@@ -258,6 +258,32 @@ function main() {
   writeJson("models.json", models);
   writeJson("audits.json", audits);
 
+  const runtimeDir = path.join(REPO_ROOT, ".open-grace-runtime");
+  const executionStore = path.join(runtimeDir, "execution_records.json");
+  const benchmarkRunStore = path.join(runtimeDir, "benchmark_run_records.json");
+  let executionRows = [];
+  let benchmarkRunRows = [];
+  if (fs.existsSync(executionStore)) {
+    const payload = JSON.parse(fs.readFileSync(executionStore, "utf8"));
+    executionRows = payload.entries ?? [];
+    console.log(`imported ${executionRows.length} executions from runtime store`);
+  } else {
+    executionRows = JSON.parse(
+      fs.readFileSync(path.join(DATA_DIR, "executions.json"), "utf8"),
+    );
+  }
+  if (fs.existsSync(benchmarkRunStore)) {
+    const payload = JSON.parse(fs.readFileSync(benchmarkRunStore, "utf8"));
+    benchmarkRunRows = payload.entries ?? [];
+    console.log(`imported ${benchmarkRunRows.length} benchmark runs from runtime store`);
+  } else {
+    benchmarkRunRows = JSON.parse(
+      fs.readFileSync(path.join(DATA_DIR, "benchmark-runs.json"), "utf8"),
+    );
+  }
+  writeJson("executions.json", executionRows);
+  writeJson("benchmark-runs.json", benchmarkRunRows);
+
   console.log(
     `synced ${agents.length} agents, ${capabilities.length} capabilities, ` +
       `${benchmarks.length} benchmarks, ${audits.length} audits, ${models.length} models`,

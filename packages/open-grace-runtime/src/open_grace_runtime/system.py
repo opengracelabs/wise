@@ -77,6 +77,18 @@ class RuntimeSystem:
             GateResult.model_validate(row) for row in final_state.get("gate_results", [])
         ]
         execution = self.executions.get(final_state["run_id"])
+        from open_grace_runtime.instrumentation import get_runtime_instrumentation
+
+        instrumentation = get_runtime_instrumentation()
+        success = final_state["status"] == ExecutionStatus.COMPLETED.value
+        instrumentation.record_execution_outcome(
+            agent_id=agent_id,
+            run_id=final_state["run_id"],
+            success=success,
+            halted=final_state.get("halted", False),
+            gate_results=final_state.get("gate_results", []),
+            benchmark_evaluations=final_state.get("benchmark_evaluations", []),
+        )
         return AgentRunResult(
             run_id=final_state["run_id"],
             agent_id=agent_id,
