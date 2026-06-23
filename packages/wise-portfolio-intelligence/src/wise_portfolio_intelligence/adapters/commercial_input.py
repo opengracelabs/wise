@@ -6,6 +6,7 @@ from dataclasses import dataclass
 from typing import Any, Mapping
 
 from wise_commercial_intelligence import calculate_commercial_score
+from wise_portfolio_intelligence.constants import read_rights_status
 
 
 @dataclass(frozen=True)
@@ -83,6 +84,6 @@ def adapt_commercial_portfolio_input(asset: Mapping[str, Any]) -> PortfolioCandi
         domain=_string(asset.get("domain"), "unknown"),
         collection_family=_string(asset.get("collection_family"), "uncategorized"),
         portfolio_category=_string(asset.get("portfolio_category"), "homepage"),
-        rights_status=_string(asset.get("rights_status"), "Unknown"),
+        rights_status=read_rights_status(asset),
         source_asset=asset,
     )

@@ -46,6 +46,7 @@ def _to_output(candidate: PortfolioCandidate, score: int, rights_decision: Right
         "commercial_tier": candidate.commercial_tier,
         "portfolio_category": candidate.portfolio_category,
         "rights_status": rights_decision.rights_status,
+        "rights_eligibility": rights_decision.eligibility,
         "publishable": rights_decision.publishable,
         "country": candidate.country,
         "domain": candidate.domain,

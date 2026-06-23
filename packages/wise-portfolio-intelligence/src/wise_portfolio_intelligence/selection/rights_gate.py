@@ -4,8 +4,15 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-EXCLUDED_RIGHTS_STATUSES = {"unknown", "restricted"}
-REVIEW_REQUIRED_STATUS = "review required"
+from wise_portfolio_intelligence.constants import (
+    RIGHTS_ELIGIBILITY_ELIGIBLE,
+    RIGHTS_STATUS_RESTRICTED,
+    RIGHTS_STATUS_REVIEW_REQUIRED,
+    RIGHTS_STATUS_UNKNOWN,
+    normalize_rights_status,
+    read_rights_status,
+    rights_eligibility,
+)
 
 
 @dataclass(frozen=True)
@@ -13,35 +20,31 @@ class RightsDecision:
     """Decision produced by the portfolio rights gate."""
 
     rights_status: str
+    eligibility: str
     excluded: bool
     publishable: bool
     reason: str
-
-
-def normalize_rights_status(rights_status: str | None) -> str:
-    """Normalize rights status labels while preserving display casing."""
-
-    text = str(rights_status or "Unknown").strip()
-    return text or "Unknown"
 
 
 def rights_gate(rights_status: str | None) -> RightsDecision:
     """Exclude blocked rights and mark review-required assets as not publishable."""
 
     normalized = normalize_rights_status(rights_status)
-    key = normalized.lower()
+    eligibility = rights_eligibility(normalized)
 
-    if key in EXCLUDED_RIGHTS_STATUSES:
+    if normalized in {RIGHTS_STATUS_RESTRICTED, RIGHTS_STATUS_UNKNOWN}:
         return RightsDecision(
             rights_status=normalized,
+            eligibility=eligibility,
             excluded=True,
             publishable=False,
             reason=f"Excluded because rights status is {normalized}.",
         )
 
-    if key == REVIEW_REQUIRED_STATUS:
+    if normalized == RIGHTS_STATUS_REVIEW_REQUIRED:
         return RightsDecision(
             rights_status=normalized,
+            eligibility=eligibility,
             excluded=False,
             publishable=False,
             reason="Included for internal review only; rights require steward review before publication.",
@@ -49,6 +52,7 @@ def rights_gate(rights_status: str | None) -> RightsDecision:
 
     return RightsDecision(
         rights_status=normalized,
+        eligibility=RIGHTS_ELIGIBILITY_ELIGIBLE,
         excluded=False,
         publishable=True,
         reason=f"Rights status {normalized} permits portfolio consideration.",
