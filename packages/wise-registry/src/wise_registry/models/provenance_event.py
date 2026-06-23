@@ -74,9 +74,11 @@ class ProvenanceEvent(Base, UUIDPrimaryKeyMixin, AuditMixin):
         foreign_keys="ProvenanceEvent.previous_event_id",
         back_populates="previous_event",
     )
+    assets: Mapped[list["Asset"]] = relationship(back_populates="provenance_event")
 
     def __repr__(self) -> str:
         return f"<ProvenanceEvent type={self.event_type!r} source={self.source_id!r}>"
 
 
 from wise_registry.models.source import Source  # noqa: E402, F401
+from wise_registry.models.asset import Asset  # noqa: E402, F401

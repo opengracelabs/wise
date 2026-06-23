@@ -8,10 +8,13 @@ from uuid import uuid4
 import pytest
 from pydantic import ValidationError
 
-from wise_registry.enums import ProvenanceEventType, TrustLevel
+from wise_registry.enums import ApprovalWorkflowStatus, ProvenanceEventType, TrustLevel, VerificationStatus
 from wise_registry.schemas.audit import AuditFields, AuditFieldsCreate
+from wise_registry.schemas.asset import AssetCreate
+from wise_registry.schemas.attribution import AttributionCreate
 from wise_registry.schemas.license import LicenseCreate, LicenseRead
 from wise_registry.schemas.provenance_event import ProvenanceEventCreate
+from wise_registry.schemas.publication_approval import PublicationApprovalCreate
 from wise_registry.schemas.rights_status import RightsStatusCreate
 from wise_registry.schemas.source import SourceCreate, SourceUpdate
 from wise_registry.schemas.source_type import SourceTypeCreate
@@ -32,6 +35,8 @@ def test_source_create_defaults():
         homepage_url="https://example.org/",
     )
     assert source.trust_level == TrustLevel.UNVERIFIED
+    assert source.source_verification_status == VerificationStatus.PENDING
+    assert source.rights_status_id is None
     assert source.active is True
     assert source.created_by == "system"
 
@@ -50,6 +55,40 @@ def test_source_update_partial():
     assert update.display_name == "Renamed"
     assert update.api_url is None
     assert update.updated_by == "system"
+
+
+def test_asset_create_defaults():
+    asset = AssetCreate(
+        stable_id="asset-1",
+        title="Asset One",
+        asset_type="image",
+        source_id=uuid4(),
+    )
+
+    assert asset.source_verification_status == VerificationStatus.PENDING
+    assert asset.license_verification_status == VerificationStatus.PENDING
+    assert asset.provenance_verification_status == VerificationStatus.PENDING
+    assert asset.rights_approval_status == ApprovalWorkflowStatus.PENDING
+    assert asset.publication_approval_status == ApprovalWorkflowStatus.PENDING
+
+
+def test_attribution_create():
+    attribution = AttributionCreate(
+        asset_id=uuid4(),
+        source_id=uuid4(),
+        display_text="Credit: Example Institution",
+    )
+
+    assert attribution.required is True
+    assert attribution.sort_order == 0
+
+
+def test_publication_approval_create_defaults():
+    approval = PublicationApprovalCreate(asset_id=uuid4())
+
+    assert approval.approval_status == ApprovalWorkflowStatus.PENDING
+    assert approval.source_verified_snapshot is False
+    assert approval.attribution_snapshot == {}
 
 
 def test_source_type_create():

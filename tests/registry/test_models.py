@@ -2,13 +2,24 @@
 
 from __future__ import annotations
 
+from uuid import uuid4
+
 import pytest
 from sqlalchemy import inspect
 from sqlalchemy.exc import IntegrityError
 
 from wise_registry.base import AuditMixin, Base
-from wise_registry.enums import ProvenanceEventType, TrustLevel
-from wise_registry.models import License, ProvenanceEvent, RightsStatus, Source, SourceType
+from wise_registry.enums import ApprovalWorkflowStatus, ProvenanceEventType, TrustLevel, VerificationStatus
+from wise_registry.models import (
+    Asset,
+    Attribution,
+    License,
+    ProvenanceEvent,
+    PublicationApproval,
+    RightsStatus,
+    Source,
+    SourceType,
+)
 
 
 EXPECTED_TABLES = {
@@ -17,6 +28,9 @@ EXPECTED_TABLES = {
     "registry.rights_statuses",
     "registry.sources",
     "registry.provenance_events",
+    "registry.assets",
+    "registry.attributions",
+    "registry.publication_approvals",
 }
 
 
@@ -27,7 +41,16 @@ def test_all_registry_tables_registered():
 
 @pytest.mark.parametrize(
     "model",
-    [SourceType, License, RightsStatus, Source, ProvenanceEvent],
+    [
+        SourceType,
+        License,
+        RightsStatus,
+        Source,
+        ProvenanceEvent,
+        Asset,
+        Attribution,
+        PublicationApproval,
+    ],
 )
 def test_models_include_audit_mixin(model):
     assert issubclass(model, AuditMixin)
@@ -50,7 +73,11 @@ def test_source_required_columns():
         "homepage_url",
         "api_url",
         "license_id",
+        "rights_status_id",
         "trust_level",
+        "source_verification_status",
+        "source_verified_at",
+        "source_verified_by",
         "active",
         "created_at",
         "updated_at",
@@ -71,6 +98,68 @@ def test_provenance_event_required_columns():
         "notes",
         "created_at",
         "updated_at",
+    }.issubset(column_names)
+
+
+def test_asset_required_columns():
+    mapper = inspect(Asset)
+    column_names = {col.key for col in mapper.columns}
+    assert {
+        "id",
+        "stable_id",
+        "title",
+        "asset_type",
+        "source_id",
+        "license_id",
+        "rights_status_id",
+        "provenance_event_id",
+        "source_verification_status",
+        "license_verification_status",
+        "provenance_verification_status",
+        "rights_approval_status",
+        "publication_approval_status",
+        "created_at",
+        "updated_at",
+    }.issubset(column_names)
+
+
+def test_asset_publishable_requires_full_rc17_sequence():
+    asset = Asset(
+        stable_id="asset-1",
+        title="Asset",
+        asset_type="image",
+        source_id=uuid4(),
+        source_verification_status=VerificationStatus.VERIFIED,
+        license_verification_status=VerificationStatus.VERIFIED,
+        provenance_verification_status=VerificationStatus.VERIFIED,
+        rights_approval_status=ApprovalWorkflowStatus.APPROVED,
+        publication_approval_status=ApprovalWorkflowStatus.PENDING,
+    )
+
+    assert asset.rc17_sequence_complete is True
+    assert asset.publishable is False
+
+    asset.publication_approval_status = ApprovalWorkflowStatus.APPROVED
+    assert asset.publishable is True
+
+
+def test_publication_approval_required_columns():
+    mapper = inspect(PublicationApproval)
+    column_names = {col.key for col in mapper.columns}
+    assert {
+        "id",
+        "asset_id",
+        "approval_status",
+        "requested_by",
+        "requested_at",
+        "approved_by",
+        "approved_at",
+        "source_verified_snapshot",
+        "license_verified_snapshot",
+        "provenance_verified_snapshot",
+        "rights_approved_snapshot",
+        "attribution_snapshot",
+        "decision_notes",
     }.issubset(column_names)
 
 

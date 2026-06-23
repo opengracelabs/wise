@@ -3,17 +3,26 @@
 from __future__ import annotations
 
 import uuid
+from datetime import datetime
 
-from sqlalchemy import Boolean, ForeignKey, String, UniqueConstraint
+from sqlalchemy import Boolean, DateTime, ForeignKey, String, UniqueConstraint
 from sqlalchemy.dialects.postgresql import ENUM, UUID
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from wise_registry.base import AuditMixin, Base, UUIDPrimaryKeyMixin
-from wise_registry.enums import TrustLevel
+from wise_registry.enums import TrustLevel, VerificationStatus
 
 TRUST_LEVEL_ENUM = ENUM(
     TrustLevel,
     name="trust_level_enum",
+    schema="registry",
+    create_type=False,
+    values_callable=lambda enum: [member.value for member in enum],
+)
+
+VERIFICATION_STATUS_ENUM = ENUM(
+    VerificationStatus,
+    name="verification_status_enum",
     schema="registry",
     create_type=False,
     values_callable=lambda enum: [member.value for member in enum],
@@ -53,15 +62,33 @@ class Source(Base, UUIDPrimaryKeyMixin, AuditMixin):
         ForeignKey("registry.licenses.id"),
         nullable=True,
     )
+    rights_status_id: Mapped[uuid.UUID | None] = mapped_column(
+        UUID(as_uuid=True),
+        ForeignKey("registry.rights_statuses.id"),
+        nullable=True,
+    )
     trust_level: Mapped[TrustLevel] = mapped_column(
         TRUST_LEVEL_ENUM,
         nullable=False,
         server_default=TrustLevel.UNVERIFIED.value,
     )
+    source_verification_status: Mapped[VerificationStatus] = mapped_column(
+        VERIFICATION_STATUS_ENUM,
+        nullable=False,
+        server_default=VerificationStatus.PENDING.value,
+    )
+    source_verified_at: Mapped[datetime | None] = mapped_column(
+        DateTime(timezone=True),
+        nullable=True,
+    )
+    source_verified_by: Mapped[str | None] = mapped_column(String(255), nullable=True)
     active: Mapped[bool] = mapped_column(Boolean, nullable=False, server_default="true")
 
     source_type: Mapped["SourceType"] = relationship(back_populates="sources")
     license: Mapped["License | None"] = relationship(back_populates="sources")
+    rights_status: Mapped["RightsStatus | None"] = relationship(back_populates="sources")
+    assets: Mapped[list["Asset"]] = relationship(back_populates="source")
+    attributions: Mapped[list["Attribution"]] = relationship(back_populates="source")
     provenance_events: Mapped[list["ProvenanceEvent"]] = relationship(
         back_populates="source",
         foreign_keys="ProvenanceEvent.source_id",
@@ -73,4 +100,7 @@ class Source(Base, UUIDPrimaryKeyMixin, AuditMixin):
 
 from wise_registry.models.license import License  # noqa: E402, F401
 from wise_registry.models.provenance_event import ProvenanceEvent  # noqa: E402, F401
+from wise_registry.models.rights_status import RightsStatus  # noqa: E402, F401
 from wise_registry.models.source_type import SourceType  # noqa: E402, F401
+from wise_registry.models.asset import Asset  # noqa: E402, F401
+from wise_registry.models.attribution import Attribution  # noqa: E402, F401

@@ -26,6 +26,23 @@ class ProvenanceEventType(str, enum.Enum):
     LINK = "link"
 
 
+class VerificationStatus(str, enum.Enum):
+    """RC17 verification gate state for source, license, and provenance checks."""
+
+    PENDING = "pending"
+    VERIFIED = "verified"
+    FAILED = "failed"
+
+
+class ApprovalWorkflowStatus(str, enum.Enum):
+    """RC17 human approval workflow state."""
+
+    PENDING = "pending"
+    APPROVED = "approved"
+    REJECTED = "rejected"
+    REVOKED = "revoked"
+
+
 class AgentPlane(str, enum.Enum):
     PLATFORM = "platform"
     EXPERIENCE = "experience"

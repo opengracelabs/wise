@@ -36,6 +36,9 @@ def test_registry_schema_tables_exist(db_session: Session):
     )
     tables = {row[0] for row in result}
     assert {
+        "assets",
+        "attributions",
+        "publication_approvals",
         "sources",
         "source_types",
         "licenses",
@@ -150,6 +153,51 @@ def test_v1_1_migration_columns_exist(db_session: Session):
     assert "evidence_uris" in columns
     assert "previous_event_id" in columns
     assert "evidence_uri" not in columns
+
+
+@pytest.mark.integration
+def test_rc17_migration_columns_exist(db_session: Session):
+    source_columns = {
+        row[0]
+        for row in db_session.execute(
+            text(
+                """
+                SELECT column_name
+                FROM information_schema.columns
+                WHERE table_schema = 'registry'
+                  AND table_name = 'sources'
+                """
+            )
+        )
+    }
+    assert {
+        "rights_status_id",
+        "source_verification_status",
+        "source_verified_at",
+        "source_verified_by",
+    }.issubset(source_columns)
+
+    asset_columns = {
+        row[0]
+        for row in db_session.execute(
+            text(
+                """
+                SELECT column_name
+                FROM information_schema.columns
+                WHERE table_schema = 'registry'
+                  AND table_name = 'assets'
+                """
+            )
+        )
+    }
+    assert {
+        "stable_id",
+        "source_verification_status",
+        "license_verification_status",
+        "provenance_verification_status",
+        "rights_approval_status",
+        "publication_approval_status",
+    }.issubset(asset_columns)
 
 
 @pytest.mark.integration

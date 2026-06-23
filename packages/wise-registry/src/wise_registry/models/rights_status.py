@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from sqlalchemy import String, Text, UniqueConstraint
-from sqlalchemy.orm import Mapped, mapped_column
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from wise_registry.base import AuditMixin, Base, UUIDPrimaryKeyMixin
 
@@ -23,5 +23,14 @@ class RightsStatus(Base, UUIDPrimaryKeyMixin, AuditMixin):
     label: Mapped[str] = mapped_column(String(255), nullable=False)
     description: Mapped[str | None] = mapped_column(Text, nullable=True)
 
+    sources: Mapped[list["Source"]] = relationship(back_populates="rights_status")
+    assets: Mapped[list["Asset"]] = relationship(back_populates="rights_status")
+    attributions: Mapped[list["Attribution"]] = relationship(back_populates="rights_status")
+
     def __repr__(self) -> str:
         return f"<RightsStatus code={self.code!r}>"
+
+
+from wise_registry.models.source import Source  # noqa: E402, F401
+from wise_registry.models.asset import Asset  # noqa: E402, F401
+from wise_registry.models.attribution import Attribution  # noqa: E402, F401
