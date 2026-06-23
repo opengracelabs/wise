@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marketing Dashboard - RC7 Commerce & Distribution Prototype</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <p class="eyebrow">WISE Admin</p>
+    <h1>Marketing dashboard</h1>
+    <p class="subtitle">
+      Prototype dashboard for Pinterest clicks, product views, wishlist rate,
+      buy intent, and conversion estimate. Validation metrics only.
+    </p>
+    <ul class="nav-list" aria-label="Commerce navigation">
+      <li><a href="/shop">Shop prototype</a></li>
+      <li><a href="/marketing/youtube">YouTube promo page</a></li>
+    </ul>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section aria-labelledby="metrics-heading">
+      <h2 id="metrics-heading">Tracked validation metrics</h2>
+      <div class="metric-grid">
+        <div class="metric">
+          <span>Pinterest clicks</span>
+          <strong id="pinterest-clicks">0</strong>
+        </div>
+        <div class="metric">
+          <span>Product views</span>
+          <strong id="product-views">0</strong>
+        </div>
+        <div class="metric">
+          <span>Wishlist rate</span>
+          <strong id="wishlist-rate">0%</strong>
+        </div>
+        <div class="metric">
+          <span>Buy intent</span>
+          <strong id="buy-intent">0%</strong>
+        </div>
+        <div class="metric">
+          <span>Conversion estimate</span>
+          <strong id="conversion-estimate">0%</strong>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="surfaces-heading">
+      <h2 id="surfaces-heading">Tracked surfaces</h2>
+      <ul id="tracked-surfaces" class="compact-list"></ul>
+      <p>
+        Buy intent is a validation signal from disabled purchase calls-to-action.
+        It does not represent checkout, payment authorization, or order capture.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Admin prototype only. No third-party tracking pixel is installed.</p>
+  </footer>
+
+  <div id="load-error" class="error-panel" role="alert" hidden>
+    Unable to load marketing dashboard data.
+  </div>
+
+  <script src="/static/commerce.js" defer></script>
+  <script defer>
+    document.addEventListener("DOMContentLoaded", () => {
+      window.WISE_COMMERCE.loadMarketingDashboard();
+    });
+  </script>
+</body>
+</html>

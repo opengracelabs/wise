@@ -1,6 +1,15 @@
 """WISE canonical interface contracts."""
 
 from wise_contracts.common import ApprovalStatus, EvidenceOutputProfile, ProvenanceRef
+from wise_contracts.commerce import (
+    CommerceProduct,
+    CommercePrototype,
+    CommerceProviderValidation,
+    IntelligenceSignal,
+    MarketingDashboardMetrics,
+    PinterestAssetSpec,
+    PromotionPipelineStage,
+)
 from wise_contracts.discovery import DiscoveryRecord, ExternalIdentifiers
 from wise_contracts.graph import ExternalLink, GraphEntity
 from wise_contracts.metadata import AuthorityLink, EntityAssertion, MetadataRecord
@@ -53,6 +62,9 @@ __all__ = [
     "CapabilityRole",
     "ApprovalStatus",
     "AuthorityLink",
+    "CommerceProduct",
+    "CommercePrototype",
+    "CommerceProviderValidation",
     "DarwinCoreOverlay",
     "DiscoveryRecord",
     "EntityAssertion",
@@ -64,13 +76,17 @@ __all__ = [
     "GraphEntity",
     "ConservationMetadata",
     "HeritageObjectView",
+    "IntelligenceSignal",
     "MapAreaSummary",
     "MapSearchResult",
+    "MarketingDashboardMetrics",
     "MetadataRecord",
+    "PinterestAssetSpec",
     "ProtectedAreaIdentifiers",
     "ProtectedAreaObjectView",
     "ProtectedAreaRegistryEntry",
     "PremisEvent",
+    "PromotionPipelineStage",
     "PreservedObjectDescriptor",
     "ProvenanceRef",
     "QualityDimensionScore",

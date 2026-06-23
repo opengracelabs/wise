@@ -3,18 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Shop — Nature & Culture</title>
+  <title>Shop — Nature & Culture · RC7 Commerce</title>
   <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body class="commercial-surface">
   <a class="skip-link" href="#main">Skip to main content</a>
 
   <header class="site-header commercial-hero" role="banner">
-    <p class="eyebrow">Nature & Culture Shop — RC7 Product Intelligence</p>
-    <h1>Featured products for heritage, nature, and culture</h1>
+    <p class="eyebrow">Nature & Culture Shop — RC7 Commerce & Distribution Prototype</p>
+    <h1 id="page-title">Featured products for heritage, nature, and culture</h1>
     <p class="subtitle">
-      Read-only commercial validation surface for product category fit, giftability, and repeat
-      purchase signals. Prices are placeholders and payment processing is intentionally absent.
+      Read-only commercial validation for product category fit, provider readiness, marketing
+      validation, and AI promotion pipeline design. Prices are placeholders and payment
+      processing is intentionally absent.
     </p>
     <nav class="surface-nav" aria-label="Shop navigation">
       <a href="/">Nature & Culture</a>
@@ -22,7 +23,14 @@
       <a href="/shop/maps">Maps</a>
       <a href="/shop/education">Education</a>
       <a href="/shop/gifts">Gifts</a>
+      <a href="/shop/posters">Posters</a>
+      <a href="/shop/prints">Prints</a>
+      <a href="/shop/puzzles">Puzzles</a>
+      <a href="/shop/calendars">Calendars</a>
+      <a href="/shop/books">Books</a>
       <a href="/admin/commercial">Commercial dashboard</a>
+      <a href="/admin/marketing">Marketing dashboard</a>
+      <a id="youtube-route" href="/marketing/youtube">YouTube promo</a>
     </nav>
   </header>
 
@@ -59,15 +67,56 @@
       <div id="product-grid" class="product-grid" aria-live="polite"></div>
       <p id="commercial-action-status" class="action-status" role="status" aria-live="polite"></p>
     </section>
+
+    <section aria-labelledby="catalog-heading">
+      <p class="eyebrow" id="prototype-name">RC7 Commerce & Distribution Prototype</p>
+      <h2 id="catalog-heading">Product catalog</h2>
+      <p id="product-count">Loading validation products...</p>
+      <div id="product-list" class="card-grid" aria-live="polite"></div>
+    </section>
+
+    <section aria-labelledby="provider-heading">
+      <h2 id="provider-heading">Shopify, Printful, and Gelato validation layer</h2>
+      <p>
+        Provider adapters validate catalog, mockup, and distribution readiness only.
+        Checkout, order capture, and fulfillment submission remain disabled.
+      </p>
+      <div id="provider-list" class="card-grid"></div>
+    </section>
+
+    <section aria-labelledby="pipeline-heading">
+      <h2 id="pipeline-heading">AI promotion pipeline design</h2>
+      <ol id="pipeline-list" class="pipeline-list"></ol>
+    </section>
+
+    <section aria-labelledby="assets-heading">
+      <h2 id="assets-heading">Pinterest-ready assets</h2>
+      <p>Includes 1000x1500 pins, product pins, and collection pins.</p>
+      <div id="asset-list" class="card-grid"></div>
+    </section>
   </main>
 
   <footer class="site-footer">
     <p>
-      RC6 Commercial Validation Surface. Concepts are not merchandise for sale. Demand telemetry is
-      stored locally in this browser for steward review at <a href="/admin/commercial">/admin/commercial</a>.
+      RC6 Commercial Validation Surface and RC7 Commerce & Distribution Prototype. Concepts are
+      not merchandise for sale. Demand telemetry is stored locally in this browser for steward
+      review at <a href="/admin/commercial">/admin/commercial</a> and marketing validation at
+      <a href="/admin/marketing">/admin/marketing</a>.
     </p>
   </footer>
 
+  <div id="load-error" class="error-panel" role="alert" hidden>
+    Unable to load commerce data.
+  </div>
+
   <script src="/static/commercial.js" defer></script>
+  <script src="/static/commerce.js" defer></script>
+  <script defer>
+    document.addEventListener("DOMContentLoaded", () => {
+      if (window.WISE_COMMERCE) {
+        window.WISE_COMMERCE.loadShop();
+      }
+    });
+  </script>
 </body>
 </html>

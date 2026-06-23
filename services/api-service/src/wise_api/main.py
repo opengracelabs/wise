@@ -11,6 +11,7 @@ from fastapi.staticfiles import StaticFiles
 from wise_common.logging import configure_logging
 
 from wise_api.routes.areas import router as areas_router
+from wise_api.routes.commerce import router as commerce_router
 from wise_api.routes.map import router as map_router
 from wise_api.routes.objects import router as objects_router
 from wise_api.routes.species import router as species_router
@@ -45,9 +46,22 @@ app.include_router(objects_router)
 app.include_router(species_router)
 app.include_router(areas_router)
 app.include_router(map_router)
+app.include_router(commerce_router)
 
 if surface_path.is_dir():
     app.mount("/static", StaticFiles(directory=str(surface_path)), name="static")
+
+RC6_SHOP_SECTIONS = frozenset({"maps", "education", "gifts"})
+RC7_SHOP_CATEGORIES = frozenset({"posters", "prints", "puzzles", "calendars", "books"})
+ALLOWED_SHOP_SECTIONS = RC6_SHOP_SECTIONS | RC7_SHOP_CATEGORIES
+
+
+def _surface_page(*segments: str) -> FileResponse:
+    page = surface_path.joinpath(*segments, "index.html")
+    if not page.is_file():
+        route = "/" + "/".join(segments)
+        raise HTTPException(status_code=404, detail=f"Surface page not found: {route}")
+    return FileResponse(page, media_type="text/html")
 
 
 @app.get("/health")
@@ -69,12 +83,10 @@ async def nature_culture_home_page():
 
 
 @app.get("/shop")
-async def commercial_shop_page():
-    """Read-only commercial validation shop surface."""
-    page = surface_path / "shop" / "index.html"
-    if not page.is_file():
-        raise HTTPException(status_code=404, detail="Commercial shop page not found")
-    return FileResponse(page, media_type="text/html")
+async def shop_page():
+    """Combined RC6/RC7 shop landing page."""
+
+    return _surface_page("shop")
 
 
 @app.get("/shop/products/{product_slug}")
@@ -89,15 +101,12 @@ async def commercial_product_page(product_slug: str):
 
 
 @app.get("/shop/{shop_section}")
-async def commercial_shop_section_page(shop_section: str):
-    """Read-only commercial shop section surface."""
-    allowed_sections = {"maps", "education", "gifts"}
-    if shop_section not in allowed_sections:
-        raise HTTPException(status_code=404, detail=f"Commercial shop section not found: {shop_section}")
-    page = surface_path / "shop" / shop_section / "index.html"
-    if not page.is_file():
-        raise HTTPException(status_code=404, detail=f"Commercial shop section not found: {shop_section}")
-    return FileResponse(page, media_type="text/html")
+async def shop_section_page(shop_section: str):
+    """Read-only shop section or RC7 category page."""
+
+    if shop_section not in ALLOWED_SHOP_SECTIONS:
+        raise HTTPException(status_code=404, detail=f"Shop section not found: {shop_section}")
+    return _surface_page("shop", shop_section)
 
 
 @app.get("/admin/commercial")
@@ -107,6 +116,20 @@ async def commercial_dashboard_page():
     if not page.is_file():
         raise HTTPException(status_code=404, detail="Commercial analytics dashboard not found")
     return FileResponse(page, media_type="text/html")
+
+
+@app.get("/admin/marketing")
+async def marketing_dashboard_page():
+    """RC7 marketing dashboard page."""
+
+    return _surface_page("admin", "marketing")
+
+
+@app.get("/marketing/youtube")
+async def youtube_promo_page():
+    """RC7 YouTube promo validation page."""
+
+    return _surface_page("marketing", "youtube")
 
 
 @app.get("/areas/{stable_id}")
