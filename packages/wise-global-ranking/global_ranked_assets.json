@@ -1,0 +1,138 @@
+{
+  "ranking_version": "wise-global-ranking/0.1.0",
+  "score_scale": "0-100",
+  "weights": {
+    "demand": 0.35,
+    "recognition": 0.2,
+    "emotional": 0.15,
+    "visual_impact": 0.15,
+    "historical_importance": 0.15
+  },
+  "classification_rule": {
+    "tier_1": "UNESCO + award/prize winners + high demand",
+    "tier_2": "Historically important OR widely recognized",
+    "tier_3": "Useful but low commercial demand",
+    "tier_4": "No commercial or product use"
+  },
+  "eligibility_rule": "Only Tier 1-2 assets can enter Series, Products, and Marketplace.",
+  "assets": [
+    {
+      "rank": 1,
+      "stable_id": "stonehenge",
+      "title": "Stonehenge",
+      "asset_type": "heritage_site",
+      "global_rank_score": 95.6,
+      "tier": "Tier 1",
+      "classification": "ICONIC GLOBAL HERITAGE",
+      "eligibility": {
+        "series": true,
+        "products": true,
+        "marketplace": true
+      },
+      "component_scores": {
+        "demand": 94.0,
+        "recognition": 96.0,
+        "emotional": 92.0,
+        "visual_impact": 98.0,
+        "historical_importance": 100.0
+      },
+      "recognition": {
+        "unesco_whc_id": "373",
+        "awards_prizes": [
+          "UNESCO World Heritage inscription"
+        ],
+        "evidence_uris": [
+          "https://whc.unesco.org/en/list/373/",
+          "https://www.wikidata.org/wiki/Q39671"
+        ]
+      },
+      "metadata": {
+        "source_registry_refs": [
+          "unesco",
+          "wikidata"
+        ],
+        "source_asset": "data/reference/unesco/stonehenge-373.json"
+      }
+    },
+    {
+      "rank": 2,
+      "stable_id": "everglades-national-park",
+      "title": "Everglades National Park",
+      "asset_type": "protected_area",
+      "global_rank_score": 91.95,
+      "tier": "Tier 1",
+      "classification": "ICONIC GLOBAL HERITAGE",
+      "eligibility": {
+        "series": true,
+        "products": true,
+        "marketplace": true
+      },
+      "component_scores": {
+        "demand": 96.0,
+        "recognition": 90.0,
+        "emotional": 88.0,
+        "visual_impact": 93.0,
+        "historical_importance": 88.0
+      },
+      "recognition": {
+        "unesco_whc_id": "76",
+        "awards_prizes": [
+          "UNESCO World Heritage inscription",
+          "Ramsar Wetland of International Importance"
+        ],
+        "evidence_uris": [
+          "https://whc.unesco.org/en/list/76/",
+          "https://www.wikidata.org/wiki/Q212174"
+        ]
+      },
+      "metadata": {
+        "source_registry_refs": [
+          "ramsar",
+          "unesco-whc",
+          "wikidata",
+          "geonames"
+        ],
+        "source_asset": "data/reference/ramsar/everglades-374.json"
+      }
+    },
+    {
+      "rank": 3,
+      "stable_id": "panthera-leo",
+      "title": "Panthera leo",
+      "asset_type": "species",
+      "global_rank_score": 90.5,
+      "tier": "Tier 2",
+      "classification": "HIGH CULTURAL VALUE",
+      "eligibility": {
+        "series": true,
+        "products": true,
+        "marketplace": true
+      },
+      "component_scores": {
+        "demand": 96.0,
+        "recognition": 88.0,
+        "emotional": 90.0,
+        "visual_impact": 94.0,
+        "historical_importance": 78.0
+      },
+      "recognition": {
+        "unesco_whc_id": null,
+        "awards_prizes": [
+          "GBIF backbone taxon recognition"
+        ],
+        "evidence_uris": [
+          "https://www.gbif.org/species/5219404",
+          "https://www.wikidata.org/wiki/Q140"
+        ]
+      },
+      "metadata": {
+        "source_registry_refs": [
+          "gbif",
+          "wikidata",
+          "eol"
+        ],
+        "source_asset": "data/reference/gbif/panthera-leo-5219404.json"
+      }
+    }
+  ]
+}
