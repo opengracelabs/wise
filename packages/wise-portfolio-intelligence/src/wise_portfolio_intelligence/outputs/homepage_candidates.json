@@ -1,0 +1,34 @@
+[
+  {
+    "id": "stonehenge-homepage",
+    "title": "Stonehenge",
+    "recognition_score": 92,
+    "commercial_appeal_score": 88,
+    "final_selection_score": 90,
+    "commercial_tier": "Icon Product",
+    "portfolio_category": "homepage",
+    "rights_status": "Open",
+    "publishable": true,
+    "country": "United Kingdom",
+    "domain": "heritage",
+    "collection_family": "megalithic-sites",
+    "balanced_portfolio_score": 93,
+    "why_this_asset_was_selected": "balanced portfolio score 93; recognition score 92; commercial appeal 88; commercial tier Icon Product; rights status Open"
+  },
+  {
+    "id": "everglades-homepage",
+    "title": "Everglades National Park",
+    "recognition_score": 88,
+    "commercial_appeal_score": 78,
+    "final_selection_score": 82,
+    "commercial_tier": "Strong Product",
+    "portfolio_category": "homepage",
+    "rights_status": "Open",
+    "publishable": true,
+    "country": "United States",
+    "domain": "nature",
+    "collection_family": "wetlands",
+    "balanced_portfolio_score": 88,
+    "why_this_asset_was_selected": "balanced portfolio score 88; recognition score 88; commercial appeal 78; commercial tier Strong Product; rights status Open"
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "id": "stonehenge",
+    "title": "Stonehenge",
+    "recognition_score": 92,
+    "award_tags": ["unesco_world_heritage", "smithsonian_featured_collection"],
+    "historical_significance_level": "global",
+    "hero_image": true,
+    "visually_distinctive": true,
+    "cultural_identity": true,
+    "curriculum_relevance": true,
+    "visitor_destination": true,
+    "decorative_fit": true,
+    "collectible_fit": true
+  },
+  {
+    "id": "pulitzer-feature-photo",
+    "title": "Pulitzer Feature Photograph",
+    "recognition_score": 84,
+    "award_tags": ["pulitzer_prize", "major_photography_award"],
+    "historical_significance_level": "high",
+    "hero_image": true,
+    "iconic_visual": true,
+    "human_story": true,
+    "museum_learning_value": true,
+    "broad_audience": true
+  },
+  {
+    "id": "nobel-lab-notebook",
+    "title": "Nobel Lab Notebook",
+    "recognition_score": 78,
+    "award_tags": ["nobel_related"],
+    "historical_significance_level": "high",
+    "human_story": true,
+    "curriculum_relevance": true,
+    "museum_learning_value": true
+  },
+  {
+    "id": "uncurated-archive-print",
+    "title": "Uncurated Archive Print",
+    "recognition_score": 38,
+    "award_tags": [],
+    "historical_significance_level": "limited"
+  }
+]

@@ -69,3 +69,27 @@ def test_wise_metadata_imports() -> None:
 
     assert Base.metadata is not None
     assert {EntityAssertionProposal, NormalizedRecord, SchemaMapping}
+
+
+@pytest.mark.smoke
+def test_wise_recognition_intelligence_imports() -> None:
+    from wise_recognition_intelligence import calculate_recognition_score, evaluate_asset
+
+    assert callable(calculate_recognition_score)
+    assert callable(evaluate_asset)
+
+
+@pytest.mark.smoke
+def test_wise_commercial_intelligence_imports() -> None:
+    from wise_commercial_intelligence import calculate_commercial_score, rank_assets
+
+    assert callable(calculate_commercial_score)
+    assert callable(rank_assets)
+
+
+@pytest.mark.smoke
+def test_wise_portfolio_intelligence_imports() -> None:
+    from wise_portfolio_intelligence import adapt_commercial_portfolio_input, select_portfolio_candidates
+
+    assert callable(adapt_commercial_portfolio_input)
+    assert callable(select_portfolio_candidates)
