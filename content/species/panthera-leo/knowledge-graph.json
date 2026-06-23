@@ -1,0 +1,54 @@
+{
+  "graph_id": "wise.knowledge.graph.serengeti-wildlife",
+  "species_id": "wise.species.panthera-leo",
+  "nodes": [
+    {
+      "id": "wise.species.panthera-leo",
+      "type": "species",
+      "label": "Panthera leo"
+    },
+    {
+      "id": "wise.place.serengeti-national-park",
+      "type": "place",
+      "label": "Serengeti National Park"
+    },
+    {
+      "id": "wise.heritage.serengeti-ecosystem",
+      "type": "heritage",
+      "label": "Serengeti Ecosystem"
+    },
+    {
+      "id": "wise.entity.gbif-secretariat",
+      "type": "entity",
+      "label": "GBIF Secretariat"
+    }
+  ],
+  "edges": [
+    {
+      "source": "wise.species.panthera-leo",
+      "target": "wise.place.serengeti-national-park",
+      "predicate": "occursIn"
+    },
+    {
+      "source": "wise.species.panthera-leo",
+      "target": "wise.heritage.serengeti-ecosystem",
+      "predicate": "memberOf"
+    },
+    {
+      "source": "wise.species.panthera-leo",
+      "target": "wise.entity.gbif-secretariat",
+      "predicate": "sourcedFrom"
+    }
+  ],
+  "provenance": {
+    "pipeline": "nature-culture-demo-v1",
+    "stage": "knowledge_graph",
+    "agent_id": "wise.agent.knowledge-graph",
+    "run_id": "wise.execution.nc-knowledge-graph-panthera-leo",
+    "audit_id": "wise.audit.knowledge-graph-audit-dc06fb40",
+    "model_id": "wise.model.qwen-research",
+    "output_ref": "stub://execution/wise.execution.nc-knowledge-graph-panthera-leo",
+    "generated_at": "2026-06-23T09:29:12.095325+00:00",
+    "steward_actor": "open-grace-nature-culture-demo"
+  }
+}

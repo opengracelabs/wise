@@ -1,0 +1,37 @@
+{
+  "species_id": "wise.species.panthera-leo",
+  "classification": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Felidae",
+    "genus": "Panthera",
+    "species": "Panthera leo"
+  },
+  "authority_records": [
+    {
+      "authority": "GBIF Backbone",
+      "taxon_key": "5219404"
+    },
+    {
+      "authority": "Wikidata",
+      "entity_id": "Q140"
+    }
+  ],
+  "schema_validation": {
+    "darwin_core": "pass",
+    "schema_org": "pass"
+  },
+  "provenance": {
+    "pipeline": "nature-culture-demo-v1",
+    "stage": "classification",
+    "agent_id": "wise.agent.quality-review",
+    "run_id": "wise.execution.nc-classification-panthera-leo",
+    "audit_id": "wise.audit.quality-review-audit-63247e50",
+    "model_id": "wise.model.gpt-4o",
+    "output_ref": "stub://execution/wise.execution.nc-classification-panthera-leo",
+    "generated_at": "2026-06-23T09:29:12.082732+00:00",
+    "steward_actor": "open-grace-nature-culture-demo"
+  }
+}

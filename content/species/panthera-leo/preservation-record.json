@@ -1,0 +1,36 @@
+{
+  "species_id": "wise.species.panthera-leo",
+  "fixity": {
+    "algorithm": "sha256",
+    "checksum": "demo-fixity-panthera-leo-v1",
+    "verified": true
+  },
+  "premis_events": [
+    {
+      "event_type": "ingestion",
+      "event_datetime": "2026-06-23T09:29:12.099582+00:00",
+      "outcome": "success"
+    },
+    {
+      "event_type": "fixity_check",
+      "event_datetime": "2026-06-23T09:29:12.099584+00:00",
+      "outcome": "pass"
+    }
+  ],
+  "backing_stores": [
+    "postgresql",
+    "pgvector",
+    "json_file"
+  ],
+  "provenance": {
+    "pipeline": "nature-culture-demo-v1",
+    "stage": "preservation",
+    "agent_id": "wise.agent.preservation",
+    "run_id": "wise.execution.nc-preservation-panthera-leo",
+    "audit_id": "wise.audit.preservation-audit-432d7de1",
+    "model_id": "wise.model.deepseek-engineering",
+    "output_ref": "stub://execution/wise.execution.nc-preservation-panthera-leo",
+    "generated_at": "2026-06-23T09:29:12.099585+00:00",
+    "steward_actor": "open-grace-nature-culture-demo"
+  }
+}

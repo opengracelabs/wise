@@ -1,0 +1,45 @@
+{
+  "species_id": "wise.species.panthera-leo",
+  "stable_id": "panthera-leo",
+  "scientific_name": "Panthera leo",
+  "scientific_name_authorship": "Linnaeus, 1758",
+  "common_names": [
+    "African lion",
+    "Lion"
+  ],
+  "taxon_rank": "species",
+  "gbif_taxon_key": "5219404",
+  "external_ids": {
+    "wikidata": "Q140",
+    "gbif": "5219404",
+    "eol": "328450"
+  },
+  "place_ids": [
+    "wise.place.serengeti-national-park"
+  ],
+  "darwin_core": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Felidae",
+    "genus": "Panthera",
+    "specificEpithet": "leo",
+    "taxonomicStatus": "accepted"
+  },
+  "rights": {
+    "source_uri": "https://www.gbif.org/species/5219404",
+    "rights_uri": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "provenance": {
+    "pipeline": "nature-culture-demo-v1",
+    "stage": "metadata",
+    "agent_id": "wise.agent.metadata",
+    "run_id": "wise.execution.nc-metadata-panthera-leo",
+    "audit_id": "wise.audit.metadata-audit-6ac65a24",
+    "model_id": "wise.model.gpt-4o",
+    "output_ref": "stub://execution/wise.execution.nc-metadata-panthera-leo",
+    "generated_at": "2026-06-23T09:29:12.076522+00:00",
+    "steward_actor": "open-grace-nature-culture-demo"
+  }
+}
