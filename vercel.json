@@ -1,0 +1,136 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self'; img-src 'self' data: https:; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'; upgrade-insecure-requests"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), payment=(), usb=(), browsing-topics=()"
+        }
+      ]
+    },
+    {
+      "source": "/static/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/data/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, stale-while-revalidate=86400"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/apps/web/index.html"
+    },
+    {
+      "source": "/collections",
+      "destination": "/apps/web/collections/index.html"
+    },
+    {
+      "source": "/collections/big-cats-of-the-world",
+      "destination": "/apps/web/collections/big-cats-of-the-world/index.html"
+    },
+    {
+      "source": "/series",
+      "destination": "/apps/web/series/index.html"
+    },
+    {
+      "source": "/species",
+      "destination": "/apps/web/species/index.html"
+    },
+    {
+      "source": "/places",
+      "destination": "/apps/web/places/index.html"
+    },
+    {
+      "source": "/shop",
+      "destination": "/apps/web/shop/index.html"
+    },
+    {
+      "source": "/education",
+      "destination": "/apps/web/education/index.html"
+    },
+    {
+      "source": "/research",
+      "destination": "/apps/web/research/index.html"
+    },
+    {
+      "source": "/admin/analytics",
+      "destination": "/apps/web/admin/analytics/index.html"
+    },
+    {
+      "source": "/robots.txt",
+      "destination": "/apps/web/robots.txt"
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/apps/web/sitemap.xml"
+    },
+    {
+      "source": "/metadata-templates.json",
+      "destination": "/apps/web/metadata-templates.json"
+    },
+    {
+      "source": "/opengraph-templates.json",
+      "destination": "/apps/web/opengraph-templates.json"
+    },
+    {
+      "source": "/data/:path*",
+      "destination": "/apps/web/data/:path*"
+    },
+    {
+      "source": "/static/:path*",
+      "destination": "/apps/web/static/:path*"
+    },
+    {
+      "source": "/shop/maps",
+      "destination": "/apps/demonstration-surface/shop/maps/index.html"
+    },
+    {
+      "source": "/shop/education",
+      "destination": "/apps/demonstration-surface/shop/education/index.html"
+    },
+    {
+      "source": "/shop/gifts",
+      "destination": "/apps/demonstration-surface/shop/gifts/index.html"
+    },
+    {
+      "source": "/shop/products/:slug",
+      "destination": "/apps/demonstration-surface/shop/product-detail/index.html"
+    },
+    {
+      "source": "/admin/commercial",
+      "destination": "/apps/demonstration-surface/admin/commercial/index.html"
+    }
+  ]
+}

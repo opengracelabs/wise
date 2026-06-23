@@ -1,0 +1,47 @@
+{
+  "registry": "license-registry",
+  "licenses": [
+    {
+      "license_id": "public-domain",
+      "name": "Public Domain",
+      "allows_commercial_use": true,
+      "requires_attribution": false,
+      "publication_note": "Still record source and credit line when available."
+    },
+    {
+      "license_id": "cc0",
+      "name": "CC0",
+      "allows_commercial_use": true,
+      "requires_attribution": false,
+      "publication_note": "Attribution recommended as institutional practice."
+    },
+    {
+      "license_id": "cc-by",
+      "name": "CC-BY",
+      "allows_commercial_use": true,
+      "requires_attribution": true,
+      "publication_note": "Credit creator/source and preserve license notice."
+    },
+    {
+      "license_id": "cc-by-sa",
+      "name": "CC-BY-SA",
+      "allows_commercial_use": true,
+      "requires_attribution": true,
+      "publication_note": "Derivative works must preserve share-alike license terms."
+    },
+    {
+      "license_id": "rights-restricted",
+      "name": "Rights Restricted",
+      "allows_commercial_use": false,
+      "requires_attribution": true,
+      "publication_note": "Metadata/text-only use until explicit image/content license is secured."
+    },
+    {
+      "license_id": "unknown",
+      "name": "Unknown",
+      "allows_commercial_use": false,
+      "requires_attribution": true,
+      "publication_note": "Validation fails for publishable assets with Unknown rights status."
+    }
+  ]
+}

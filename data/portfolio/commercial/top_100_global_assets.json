@@ -1,0 +1,902 @@
+[
+  {
+    "title": "Machu Picchu",
+    "category": "UNESCO World Heritage",
+    "country": "Peru",
+    "recognition_score": 0.99,
+    "demand_score": 0.94,
+    "commercial_score": 0.92,
+    "product_recommendations": ["Posters", "Framed Prints", "Historic Maps", "Coffee Table Books"]
+  },
+  {
+    "title": "Great Wall of China",
+    "category": "UNESCO World Heritage",
+    "country": "China",
+    "recognition_score": 0.99,
+    "demand_score": 0.93,
+    "commercial_score": 0.91,
+    "product_recommendations": ["Posters", "Canvas Prints", "Puzzles", "Coffee Table Books"]
+  },
+  {
+    "title": "Pyramids of Giza",
+    "category": "UNESCO World Heritage",
+    "country": "Egypt",
+    "recognition_score": 0.99,
+    "demand_score": 0.95,
+    "commercial_score": 0.94,
+    "product_recommendations": ["Posters", "Framed Prints", "Historic Maps", "Coffee Table Books"]
+  },
+  {
+    "title": "Taj Mahal",
+    "category": "UNESCO World Heritage",
+    "country": "India",
+    "recognition_score": 0.99,
+    "demand_score": 0.95,
+    "commercial_score": 0.93,
+    "product_recommendations": ["Posters", "Framed Prints", "Canvas Prints", "Calendars"]
+  },
+  {
+    "title": "Stonehenge",
+    "category": "UNESCO World Heritage",
+    "country": "United Kingdom",
+    "recognition_score": 0.96,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "product_recommendations": ["Posters", "Historic Maps", "Puzzles", "Coffee Table Books"]
+  },
+  {
+    "title": "Angkor Wat",
+    "category": "UNESCO World Heritage",
+    "country": "Cambodia",
+    "recognition_score": 0.96,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Petra",
+    "category": "UNESCO World Heritage",
+    "country": "Jordan",
+    "recognition_score": 0.96,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "product_recommendations": ["Posters", "Framed Prints", "Canvas Prints", "Calendars"]
+  },
+  {
+    "title": "Colosseum and Historic Centre of Rome",
+    "category": "UNESCO World Heritage",
+    "country": "Italy",
+    "recognition_score": 0.98,
+    "demand_score": 0.92,
+    "commercial_score": 0.9,
+    "product_recommendations": ["Posters", "Historic Maps", "Puzzles", "Coffee Table Books"]
+  },
+  {
+    "title": "Acropolis of Athens",
+    "category": "UNESCO World Heritage",
+    "country": "Greece",
+    "recognition_score": 0.97,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "product_recommendations": ["Posters", "Framed Prints", "Historic Maps", "Coffee Table Books"]
+  },
+  {
+    "title": "Mont-Saint-Michel",
+    "category": "UNESCO World Heritage",
+    "country": "France",
+    "recognition_score": 0.94,
+    "demand_score": 0.87,
+    "commercial_score": 0.86,
+    "product_recommendations": ["Posters", "Canvas Prints", "Puzzles", "Calendars"]
+  },
+  {
+    "title": "Serengeti National Park",
+    "category": "UNESCO World Heritage",
+    "country": "Tanzania",
+    "recognition_score": 0.96,
+    "demand_score": 0.91,
+    "commercial_score": 0.9,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Galapagos Islands",
+    "category": "UNESCO World Heritage",
+    "country": "Ecuador",
+    "recognition_score": 0.97,
+    "demand_score": 0.91,
+    "commercial_score": 0.89,
+    "product_recommendations": ["Posters", "Puzzles", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Yellowstone National Park",
+    "category": "UNESCO World Heritage",
+    "country": "United States",
+    "recognition_score": 0.97,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "product_recommendations": ["Posters", "Canvas Prints", "Historic Maps", "Calendars"]
+  },
+  {
+    "title": "Great Barrier Reef",
+    "category": "UNESCO World Heritage",
+    "country": "Australia",
+    "recognition_score": 0.98,
+    "demand_score": 0.92,
+    "commercial_score": 0.9,
+    "product_recommendations": ["Posters", "Canvas Prints", "Puzzles", "Calendars"]
+  },
+  {
+    "title": "Everglades National Park",
+    "category": "UNESCO World Heritage",
+    "country": "United States",
+    "recognition_score": 0.9,
+    "demand_score": 0.78,
+    "commercial_score": 0.76,
+    "product_recommendations": ["Posters", "Historic Maps", "Calendars", "Puzzles"]
+  },
+  {
+    "title": "Chichen Itza",
+    "category": "UNESCO World Heritage",
+    "country": "Mexico",
+    "recognition_score": 0.95,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "product_recommendations": ["Posters", "Historic Maps", "Puzzles", "Coffee Table Books"]
+  },
+  {
+    "title": "Easter Island Rapa Nui",
+    "category": "UNESCO World Heritage",
+    "country": "Chile",
+    "recognition_score": 0.94,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "product_recommendations": ["Posters", "Framed Prints", "Canvas Prints", "Coffee Table Books"]
+  },
+  {
+    "title": "Alhambra",
+    "category": "UNESCO World Heritage",
+    "country": "Spain",
+    "recognition_score": 0.94,
+    "demand_score": 0.86,
+    "commercial_score": 0.85,
+    "product_recommendations": ["Posters", "Framed Prints", "Historic Maps", "Calendars"]
+  },
+  {
+    "title": "Kyoto Historic Monuments",
+    "category": "UNESCO World Heritage",
+    "country": "Japan",
+    "recognition_score": 0.95,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "product_recommendations": ["Posters", "Framed Prints", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Venice and its Lagoon",
+    "category": "UNESCO World Heritage",
+    "country": "Italy",
+    "recognition_score": 0.98,
+    "demand_score": 0.93,
+    "commercial_score": 0.91,
+    "product_recommendations": ["Posters", "Framed Prints", "Historic Maps", "Calendars"]
+  },
+  {
+    "title": "Lion",
+    "category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "recognition_score": 0.99,
+    "demand_score": 0.94,
+    "commercial_score": 0.92,
+    "product_recommendations": ["Posters", "Canvas Prints", "Puzzles", "Calendars"]
+  },
+  {
+    "title": "Tiger",
+    "category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "recognition_score": 0.99,
+    "demand_score": 0.95,
+    "commercial_score": 0.93,
+    "product_recommendations": ["Posters", "Framed Prints", "Canvas Prints", "Calendars"]
+  },
+  {
+    "title": "African Elephant",
+    "category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "recognition_score": 0.99,
+    "demand_score": 0.93,
+    "commercial_score": 0.91,
+    "product_recommendations": ["Posters", "Canvas Prints", "Puzzles", "Coffee Table Books"]
+  },
+  {
+    "title": "Giant Panda",
+    "category": "GBIF Flagship Species",
+    "country": "China",
+    "recognition_score": 0.99,
+    "demand_score": 0.94,
+    "commercial_score": 0.92,
+    "product_recommendations": ["Posters", "Framed Prints", "Puzzles", "Calendars"]
+  },
+  {
+    "title": "Snow Leopard",
+    "category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "recognition_score": 0.94,
+    "demand_score": 0.88,
+    "commercial_score": 0.87,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Jaguar",
+    "category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "recognition_score": 0.93,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "product_recommendations": ["Posters", "Canvas Prints", "Puzzles", "Calendars"]
+  },
+  {
+    "title": "Polar Bear",
+    "category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "recognition_score": 0.98,
+    "demand_score": 0.91,
+    "commercial_score": 0.89,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Blue Whale",
+    "category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "recognition_score": 0.97,
+    "demand_score": 0.88,
+    "commercial_score": 0.85,
+    "product_recommendations": ["Posters", "Canvas Prints", "Puzzles", "Coffee Table Books"]
+  },
+  {
+    "title": "Humpback Whale",
+    "category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "recognition_score": 0.95,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Bald Eagle",
+    "category": "GBIF Flagship Species",
+    "country": "United States",
+    "recognition_score": 0.96,
+    "demand_score": 0.85,
+    "commercial_score": 0.83,
+    "product_recommendations": ["Posters", "Framed Prints", "Calendars", "Puzzles"]
+  },
+  {
+    "title": "Monarch Butterfly",
+    "category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "recognition_score": 0.93,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "product_recommendations": ["Posters", "Puzzles", "Calendars", "Framed Prints"]
+  },
+  {
+    "title": "Red-Crowned Crane",
+    "category": "GBIF Flagship Species",
+    "country": "Japan",
+    "recognition_score": 0.88,
+    "demand_score": 0.79,
+    "commercial_score": 0.78,
+    "product_recommendations": ["Posters", "Framed Prints", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Koala",
+    "category": "GBIF Flagship Species",
+    "country": "Australia",
+    "recognition_score": 0.97,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "product_recommendations": ["Posters", "Puzzles", "Calendars", "Framed Prints"]
+  },
+  {
+    "title": "Orangutan",
+    "category": "GBIF Flagship Species",
+    "country": "Indonesia",
+    "recognition_score": 0.94,
+    "demand_score": 0.85,
+    "commercial_score": 0.83,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Sea Turtle",
+    "category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "recognition_score": 0.96,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "product_recommendations": ["Posters", "Canvas Prints", "Puzzles", "Calendars"]
+  },
+  {
+    "title": "Apollo 11 Command Module Columbia",
+    "category": "Smithsonian Open Access",
+    "country": "United States",
+    "recognition_score": 0.97,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "product_recommendations": ["Posters", "Framed Prints", "Puzzles", "Coffee Table Books"]
+  },
+  {
+    "title": "Wright Flyer",
+    "category": "Smithsonian Open Access",
+    "country": "United States",
+    "recognition_score": 0.95,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "product_recommendations": ["Posters", "Historic Maps", "Puzzles", "Coffee Table Books"]
+  },
+  {
+    "title": "Hope Diamond",
+    "category": "Smithsonian Open Access",
+    "country": "United States",
+    "recognition_score": 0.95,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "product_recommendations": ["Posters", "Framed Prints", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Ruby Slippers",
+    "category": "Smithsonian Open Access",
+    "country": "United States",
+    "recognition_score": 0.96,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "product_recommendations": ["Posters", "Framed Prints", "Calendars", "Puzzles"]
+  },
+  {
+    "title": "Star-Spangled Banner",
+    "category": "Smithsonian Open Access",
+    "country": "United States",
+    "recognition_score": 0.95,
+    "demand_score": 0.83,
+    "commercial_score": 0.8,
+    "product_recommendations": ["Posters", "Framed Prints", "Historic Maps", "Coffee Table Books"]
+  },
+  {
+    "title": "First Ladies Inaugural Gowns",
+    "category": "Smithsonian Open Access",
+    "country": "United States",
+    "recognition_score": 0.88,
+    "demand_score": 0.76,
+    "commercial_score": 0.74,
+    "product_recommendations": ["Posters", "Framed Prints", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Tyrannosaurus rex Hall Specimen",
+    "category": "Smithsonian Open Access",
+    "country": "United States",
+    "recognition_score": 0.96,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "product_recommendations": ["Posters", "Puzzles", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Duke Ellington Collection",
+    "category": "Smithsonian Open Access",
+    "country": "United States",
+    "recognition_score": 0.86,
+    "demand_score": 0.76,
+    "commercial_score": 0.73,
+    "product_recommendations": ["Posters", "Framed Prints", "Coffee Table Books"]
+  },
+  {
+    "title": "Celia Cruz Collection",
+    "category": "Smithsonian Open Access",
+    "country": "United States",
+    "recognition_score": 0.85,
+    "demand_score": 0.75,
+    "commercial_score": 0.73,
+    "product_recommendations": ["Posters", "Framed Prints", "Calendars"]
+  },
+  {
+    "title": "Smithsonian Castle",
+    "category": "Smithsonian Open Access",
+    "country": "United States",
+    "recognition_score": 0.87,
+    "demand_score": 0.74,
+    "commercial_score": 0.72,
+    "product_recommendations": ["Posters", "Framed Prints", "Historic Maps", "Calendars"]
+  },
+  {
+    "title": "Sunflowers",
+    "category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "recognition_score": 0.98,
+    "demand_score": 0.94,
+    "commercial_score": 0.94,
+    "product_recommendations": ["Posters", "Framed Prints", "Canvas Prints", "Calendars"]
+  },
+  {
+    "title": "The Arnolfini Portrait",
+    "category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "recognition_score": 0.96,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "product_recommendations": ["Posters", "Framed Prints", "Puzzles", "Coffee Table Books"]
+  },
+  {
+    "title": "The Fighting Temeraire",
+    "category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "recognition_score": 0.94,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "product_recommendations": ["Posters", "Framed Prints", "Canvas Prints", "Calendars"]
+  },
+  {
+    "title": "Bathers at Asnieres",
+    "category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "recognition_score": 0.89,
+    "demand_score": 0.79,
+    "commercial_score": 0.77,
+    "product_recommendations": ["Posters", "Framed Prints", "Canvas Prints", "Coffee Table Books"]
+  },
+  {
+    "title": "The Wilton Diptych",
+    "category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "recognition_score": 0.86,
+    "demand_score": 0.74,
+    "commercial_score": 0.72,
+    "product_recommendations": ["Posters", "Framed Prints", "Coffee Table Books"]
+  },
+  {
+    "title": "Rain, Steam and Speed",
+    "category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "recognition_score": 0.9,
+    "demand_score": 0.8,
+    "commercial_score": 0.78,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Whistlejacket",
+    "category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "recognition_score": 0.91,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "product_recommendations": ["Posters", "Framed Prints", "Canvas Prints", "Calendars"]
+  },
+  {
+    "title": "The Hay Wain",
+    "category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "recognition_score": 0.92,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "product_recommendations": ["Posters", "Framed Prints", "Canvas Prints", "Puzzles"]
+  },
+  {
+    "title": "Venus and Mars",
+    "category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "recognition_score": 0.87,
+    "demand_score": 0.76,
+    "commercial_score": 0.74,
+    "product_recommendations": ["Posters", "Framed Prints", "Puzzles", "Coffee Table Books"]
+  },
+  {
+    "title": "The Ambassadors",
+    "category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "recognition_score": 0.9,
+    "demand_score": 0.8,
+    "commercial_score": 0.78,
+    "product_recommendations": ["Posters", "Framed Prints", "Puzzles", "Coffee Table Books"]
+  },
+  {
+    "title": "The Night Watch",
+    "category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "recognition_score": 0.98,
+    "demand_score": 0.91,
+    "commercial_score": 0.9,
+    "product_recommendations": ["Posters", "Framed Prints", "Puzzles", "Coffee Table Books"]
+  },
+  {
+    "title": "The Milkmaid",
+    "category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "recognition_score": 0.97,
+    "demand_score": 0.9,
+    "commercial_score": 0.89,
+    "product_recommendations": ["Posters", "Framed Prints", "Canvas Prints", "Calendars"]
+  },
+  {
+    "title": "Self-portrait with Felt Hat",
+    "category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "recognition_score": 0.95,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "product_recommendations": ["Posters", "Framed Prints", "Canvas Prints", "Coffee Table Books"]
+  },
+  {
+    "title": "The Threatened Swan",
+    "category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "recognition_score": 0.9,
+    "demand_score": 0.8,
+    "commercial_score": 0.78,
+    "product_recommendations": ["Posters", "Framed Prints", "Canvas Prints", "Calendars"]
+  },
+  {
+    "title": "Still Life with Flowers in a Glass Vase",
+    "category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "recognition_score": 0.88,
+    "demand_score": 0.82,
+    "commercial_score": 0.81,
+    "product_recommendations": ["Posters", "Framed Prints", "Canvas Prints", "Calendars"]
+  },
+  {
+    "title": "The Merry Family",
+    "category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "recognition_score": 0.84,
+    "demand_score": 0.72,
+    "commercial_score": 0.7,
+    "product_recommendations": ["Posters", "Framed Prints", "Puzzles"]
+  },
+  {
+    "title": "Girl in a Large Hat",
+    "category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "recognition_score": 0.84,
+    "demand_score": 0.74,
+    "commercial_score": 0.72,
+    "product_recommendations": ["Posters", "Framed Prints", "Canvas Prints"]
+  },
+  {
+    "title": "View of Houses in Delft",
+    "category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "recognition_score": 0.86,
+    "demand_score": 0.76,
+    "commercial_score": 0.74,
+    "product_recommendations": ["Posters", "Framed Prints", "Historic Maps", "Calendars"]
+  },
+  {
+    "title": "The Jewish Bride",
+    "category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "recognition_score": 0.89,
+    "demand_score": 0.79,
+    "commercial_score": 0.77,
+    "product_recommendations": ["Posters", "Framed Prints", "Coffee Table Books"]
+  },
+  {
+    "title": "The Little Street",
+    "category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "recognition_score": 0.92,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "product_recommendations": ["Posters", "Framed Prints", "Canvas Prints", "Calendars"]
+  },
+  {
+    "title": "Declaration of Independence",
+    "category": "Library of Congress",
+    "country": "United States",
+    "recognition_score": 0.99,
+    "demand_score": 0.88,
+    "commercial_score": 0.85,
+    "product_recommendations": ["Posters", "Framed Prints", "Historic Maps", "Coffee Table Books"]
+  },
+  {
+    "title": "Abraham Lincoln Portrait",
+    "category": "Library of Congress",
+    "country": "United States",
+    "recognition_score": 0.98,
+    "demand_score": 0.86,
+    "commercial_score": 0.83,
+    "product_recommendations": ["Posters", "Framed Prints", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Rosa Parks Photograph",
+    "category": "Library of Congress",
+    "country": "United States",
+    "recognition_score": 0.96,
+    "demand_score": 0.86,
+    "commercial_score": 0.83,
+    "product_recommendations": ["Posters", "Framed Prints", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Dorothea Lange Migrant Mother",
+    "category": "Library of Congress",
+    "country": "United States",
+    "recognition_score": 0.97,
+    "demand_score": 0.87,
+    "commercial_score": 0.85,
+    "product_recommendations": ["Posters", "Framed Prints", "Coffee Table Books"]
+  },
+  {
+    "title": "Waldseemuller Map",
+    "category": "Library of Congress",
+    "country": "United States",
+    "recognition_score": 0.91,
+    "demand_score": 0.81,
+    "commercial_score": 0.8,
+    "product_recommendations": ["Posters", "Historic Maps", "Framed Prints", "Coffee Table Books"]
+  },
+  {
+    "title": "Panoramic Map of New York City",
+    "category": "Library of Congress",
+    "country": "United States",
+    "recognition_score": 0.87,
+    "demand_score": 0.78,
+    "commercial_score": 0.77,
+    "product_recommendations": ["Posters", "Historic Maps", "Puzzles", "Framed Prints"]
+  },
+  {
+    "title": "Ansel Adams National Parks Photographs",
+    "category": "Library of Congress",
+    "country": "United States",
+    "recognition_score": 0.95,
+    "demand_score": 0.9,
+    "commercial_score": 0.89,
+    "product_recommendations": ["Posters", "Framed Prints", "Canvas Prints", "Calendars"]
+  },
+  {
+    "title": "Baseball Card Collection",
+    "category": "Library of Congress",
+    "country": "United States",
+    "recognition_score": 0.86,
+    "demand_score": 0.76,
+    "commercial_score": 0.74,
+    "product_recommendations": ["Posters", "Puzzles", "Calendars"]
+  },
+  {
+    "title": "Civil War Maps Collection",
+    "category": "Library of Congress",
+    "country": "United States",
+    "recognition_score": 0.86,
+    "demand_score": 0.77,
+    "commercial_score": 0.76,
+    "product_recommendations": ["Historic Maps", "Posters", "Framed Prints", "Coffee Table Books"]
+  },
+  {
+    "title": "Japanese Fine Prints Collection",
+    "category": "Library of Congress",
+    "country": "United States",
+    "recognition_score": 0.88,
+    "demand_score": 0.8,
+    "commercial_score": 0.79,
+    "product_recommendations": ["Posters", "Framed Prints", "Canvas Prints", "Calendars"]
+  },
+  {
+    "title": "Snow Leopard in the Himalayas",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Multi-country",
+    "recognition_score": 0.94,
+    "demand_score": 0.9,
+    "commercial_score": 0.89,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Elephant Migration in Amboseli",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Kenya",
+    "recognition_score": 0.95,
+    "demand_score": 0.91,
+    "commercial_score": 0.9,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Polar Bear on Arctic Sea Ice",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Multi-country",
+    "recognition_score": 0.96,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Puzzles"]
+  },
+  {
+    "title": "Great Migration River Crossing",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Tanzania",
+    "recognition_score": 0.96,
+    "demand_score": 0.91,
+    "commercial_score": 0.9,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Monarch Butterfly Migration",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Mexico",
+    "recognition_score": 0.93,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "product_recommendations": ["Posters", "Puzzles", "Calendars", "Framed Prints"]
+  },
+  {
+    "title": "Mountain Gorilla Family",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Rwanda",
+    "recognition_score": 0.94,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Coral Reef Biodiversity",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Australia",
+    "recognition_score": 0.95,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "product_recommendations": ["Posters", "Canvas Prints", "Puzzles", "Calendars"]
+  },
+  {
+    "title": "Bioluminescent Plankton Shoreline",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Maldives",
+    "recognition_score": 0.9,
+    "demand_score": 0.86,
+    "commercial_score": 0.85,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars"]
+  },
+  {
+    "title": "Northern Lights over Arctic Landscape",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Iceland",
+    "recognition_score": 0.96,
+    "demand_score": 0.92,
+    "commercial_score": 0.91,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Puzzles"]
+  },
+  {
+    "title": "Sahara Desert Caravan",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Morocco",
+    "recognition_score": 0.9,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Amazon Rainforest Canopy",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Brazil",
+    "recognition_score": 0.96,
+    "demand_score": 0.89,
+    "commercial_score": 0.87,
+    "product_recommendations": ["Posters", "Canvas Prints", "Puzzles", "Calendars"]
+  },
+  {
+    "title": "Emperor Penguins on Sea Ice",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Antarctica",
+    "recognition_score": 0.95,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "product_recommendations": ["Posters", "Puzzles", "Calendars", "Canvas Prints"]
+  },
+  {
+    "title": "Humpback Whale Breach",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Multi-country",
+    "recognition_score": 0.96,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Tiger in Mangrove Forest",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "India",
+    "recognition_score": 0.97,
+    "demand_score": 0.92,
+    "commercial_score": 0.91,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Puzzles"]
+  },
+  {
+    "title": "Cheetah Sprint on Savanna",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Kenya",
+    "recognition_score": 0.94,
+    "demand_score": 0.88,
+    "commercial_score": 0.86,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Puzzles"]
+  },
+  {
+    "title": "Okavango Delta Aerial Wetlands",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Botswana",
+    "recognition_score": 0.9,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Grand Canyon Storm Light",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "United States",
+    "recognition_score": 0.97,
+    "demand_score": 0.91,
+    "commercial_score": 0.9,
+    "product_recommendations": ["Posters", "Canvas Prints", "Historic Maps", "Calendars"]
+  },
+  {
+    "title": "Yosemite Valley Granite Walls",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "United States",
+    "recognition_score": 0.96,
+    "demand_score": 0.9,
+    "commercial_score": 0.89,
+    "product_recommendations": ["Posters", "Canvas Prints", "Historic Maps", "Calendars"]
+  },
+  {
+    "title": "Iceland Glacier Lagoon",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Iceland",
+    "recognition_score": 0.93,
+    "demand_score": 0.87,
+    "commercial_score": 0.86,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Puzzles"]
+  },
+  {
+    "title": "Borneo Orangutan Canopy",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Indonesia",
+    "recognition_score": 0.92,
+    "demand_score": 0.84,
+    "commercial_score": 0.82,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Galapagos Marine Iguana",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Ecuador",
+    "recognition_score": 0.9,
+    "demand_score": 0.82,
+    "commercial_score": 0.8,
+    "product_recommendations": ["Posters", "Puzzles", "Calendars", "Coffee Table Books"]
+  },
+  {
+    "title": "Namib Desert Dunes",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Namibia",
+    "recognition_score": 0.92,
+    "demand_score": 0.87,
+    "commercial_score": 0.86,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Framed Prints"]
+  },
+  {
+    "title": "Antelope Canyon Light Beams",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "United States",
+    "recognition_score": 0.95,
+    "demand_score": 0.91,
+    "commercial_score": 0.9,
+    "product_recommendations": ["Posters", "Canvas Prints", "Calendars", "Puzzles"]
+  },
+  {
+    "title": "Bengal Tiger Cub Portrait",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "India",
+    "recognition_score": 0.96,
+    "demand_score": 0.91,
+    "commercial_score": 0.89,
+    "product_recommendations": ["Posters", "Framed Prints", "Canvas Prints", "Calendars"]
+  },
+  {
+    "title": "Ancient City at Sunrise",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Jordan",
+    "recognition_score": 0.93,
+    "demand_score": 0.86,
+    "commercial_score": 0.84,
+    "product_recommendations": ["Posters", "Framed Prints", "Historic Maps", "Coffee Table Books"]
+  }
+]

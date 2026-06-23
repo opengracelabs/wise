@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Historic Maps — Nature & Culture Shop</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body class="commercial-surface" data-shop-filter="maps">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header commercial-hero" role="banner">
+    <p class="eyebrow">Nature & Culture Shop</p>
+    <h1>Historic Maps</h1>
+    <p class="subtitle">
+      Place-based product concepts inspired by Europeana, the British Museum, and Google Arts &
+      Culture exploration patterns.
+    </p>
+    <nav class="surface-nav" aria-label="Shop navigation">
+      <a href="/shop">Shop</a>
+      <a href="/shop/maps">Maps</a>
+      <a href="/shop/education">Education</a>
+      <a href="/shop/gifts">Gifts</a>
+      <a href="/admin/commercial">Commercial dashboard</a>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="commercial-panel" aria-labelledby="maps-heading">
+      <p class="eyebrow">Explore by Place</p>
+      <h2 id="maps-heading">Map-led heritage discovery</h2>
+      <p>
+        Historic map products validate demand for geography-first cultural storytelling while keeping
+        all interactions read-only and local.
+      </p>
+    </section>
+
+    <section aria-labelledby="products-heading">
+      <h2 id="products-heading">Map products</h2>
+      <div id="product-grid" class="product-grid" aria-live="polite"></div>
+      <p id="commercial-action-status" class="action-status" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>RC7 Product Intelligence. Local analytics only. No payment processing.</p>
+  </footer>
+
+  <script src="/static/commercial.js" defer></script>
+</body>
+</html>

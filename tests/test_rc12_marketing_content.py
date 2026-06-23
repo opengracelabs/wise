@@ -37,27 +37,29 @@ def test_rc12_product_catalog_covers_top_25_products() -> None:
 def test_rc12_pinterest_campaigns_cover_assets_collections_products() -> None:
     campaigns = _load("pinterest_campaigns.json")
 
-    assert set(campaigns) == {"assets", "collections", "products"}
+    assert {"assets", "collections", "products"}.issubset(set(campaigns))
+    assert "pin_groups" in campaigns
     assert len(campaigns["assets"]) == 25
     assert len(campaigns["collections"]) == 25
     assert len(campaigns["products"]) == 25
 
-    for group in campaigns.values():
-        for campaign in group:
+    for group_name in ("assets", "collections", "products"):
+        for campaign in campaigns[group_name]:
             assert {"title", "description", "keywords", "CTA"}.issubset(campaign)
             assert campaign["keywords"]
 
 
 def test_rc12_youtube_campaigns_cover_required_segments() -> None:
     campaigns = _load("youtube_campaigns.json")
+    segments = campaigns["segments"]
 
-    assert {campaign["segment"] for campaign in campaigns} == {
+    assert {campaign["segment"] for campaign in segments} == {
         "Heritage",
         "Species",
         "Collections",
         "Series",
     }
-    for campaign in campaigns:
+    for campaign in segments:
         assert {"title", "hook", "outline", "CTA"}.issubset(campaign)
         assert len(campaign["outline"]) >= 3
 

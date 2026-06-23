@@ -1,0 +1,155 @@
+{
+  "reference_capability": "RC13 Publishing & Distribution Platform",
+  "authority": "architecture-v1.0, ADR-011",
+  "inputs": {
+    "top_25_showcase_assets": "data/publishing/top_25_showcase_assets.json",
+    "top_25_showcase_collections": "data/portfolio/top_25_showcase_collections.json",
+    "top_25_showcase_series": "data/portfolio/top_25_showcase_series.json",
+    "top_25_showcase_products": "data/portfolio/top_25_showcase_products.json"
+  },
+  "pipelines": [
+    {
+      "pipeline_id": "rc13-articles",
+      "name": "Articles",
+      "purpose": "Long-form editorial and search-friendly narratives",
+      "input_sets": [
+        "top_25_showcase_assets",
+        "top_25_showcase_collections",
+        "top_25_showcase_series",
+        "top_25_showcase_products"
+      ],
+      "stages": [
+        "select source asset and related collection",
+        "draft educational narrative and source-aware summary",
+        "attach rights and image requirements placeholder",
+        "generate channel-specific metadata",
+        "queue for editorial review before distribution"
+      ],
+      "outputs": [
+        "draft_articles.json",
+        "articles_metadata.json"
+      ],
+      "distribution_targets": [
+        "Nature & Culture web",
+        "SEO",
+        "Pinterest",
+        "YouTube",
+        "Email newsletter"
+      ]
+    },
+    {
+      "pipeline_id": "rc13-collection_pages",
+      "name": "Collection Pages",
+      "purpose": "Public collection pages for showcase collections",
+      "input_sets": [
+        "top_25_showcase_assets",
+        "top_25_showcase_collections",
+        "top_25_showcase_series",
+        "top_25_showcase_products"
+      ],
+      "stages": [
+        "select source asset and related collection",
+        "draft educational narrative and source-aware summary",
+        "attach rights and image requirements placeholder",
+        "generate channel-specific metadata",
+        "queue for editorial review before distribution"
+      ],
+      "outputs": [
+        "draft_collection_pages.json",
+        "collection_pages_metadata.json"
+      ],
+      "distribution_targets": [
+        "Nature & Culture web",
+        "SEO",
+        "Pinterest",
+        "YouTube",
+        "Email newsletter"
+      ]
+    },
+    {
+      "pipeline_id": "rc13-series_pages",
+      "name": "Series Pages",
+      "purpose": "Educational narrative sequence pages",
+      "input_sets": [
+        "top_25_showcase_assets",
+        "top_25_showcase_collections",
+        "top_25_showcase_series",
+        "top_25_showcase_products"
+      ],
+      "stages": [
+        "select source asset and related collection",
+        "draft educational narrative and source-aware summary",
+        "attach rights and image requirements placeholder",
+        "generate channel-specific metadata",
+        "queue for editorial review before distribution"
+      ],
+      "outputs": [
+        "draft_series_pages.json",
+        "series_pages_metadata.json"
+      ],
+      "distribution_targets": [
+        "Nature & Culture web",
+        "SEO",
+        "Pinterest",
+        "YouTube",
+        "Email newsletter"
+      ]
+    },
+    {
+      "pipeline_id": "rc13-product_pages",
+      "name": "Product Pages",
+      "purpose": "Read-only product validation pages",
+      "input_sets": [
+        "top_25_showcase_assets",
+        "top_25_showcase_collections",
+        "top_25_showcase_series",
+        "top_25_showcase_products"
+      ],
+      "stages": [
+        "select source asset and related collection",
+        "draft educational narrative and source-aware summary",
+        "attach rights and image requirements placeholder",
+        "generate channel-specific metadata",
+        "queue for editorial review before distribution"
+      ],
+      "outputs": [
+        "draft_product_pages.json",
+        "product_pages_metadata.json"
+      ],
+      "distribution_targets": [
+        "Nature & Culture shop",
+        "Pinterest",
+        "Email newsletter"
+      ]
+    },
+    {
+      "pipeline_id": "rc13-educational_resources",
+      "name": "Educational Resources",
+      "purpose": "Classroom and family learning resources",
+      "input_sets": [
+        "top_25_showcase_assets",
+        "top_25_showcase_collections",
+        "top_25_showcase_series",
+        "top_25_showcase_products"
+      ],
+      "stages": [
+        "select source asset and related collection",
+        "draft educational narrative and source-aware summary",
+        "attach rights and image requirements placeholder",
+        "generate channel-specific metadata",
+        "queue for editorial review before distribution"
+      ],
+      "outputs": [
+        "draft_educational_resources.json",
+        "educational_resources_metadata.json"
+      ],
+      "distribution_targets": [
+        "Nature & Culture web",
+        "SEO",
+        "Pinterest",
+        "YouTube",
+        "Email newsletter"
+      ]
+    }
+  ]
+}

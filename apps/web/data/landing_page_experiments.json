@@ -1,0 +1,47 @@
+{
+  "experiment_id": "rc10-landing-message",
+  "status": "prototype",
+  "assignment_unit": "anonymous_session",
+  "variants": [
+    {
+      "variant_id": "A",
+      "headline": "Explore Humanity's Greatest Heritage",
+      "hypothesis": "Heritage-led framing will increase collection and place exploration.",
+      "measures": [
+        "clicks",
+        "engagement",
+        "product interest"
+      ]
+    },
+    {
+      "variant_id": "B",
+      "headline": "Discover Nature, Culture, and History",
+      "hypothesis": "Balanced domain framing will increase broad navigation across collections, species, and shop routes.",
+      "measures": [
+        "clicks",
+        "engagement",
+        "product interest"
+      ]
+    },
+    {
+      "variant_id": "C",
+      "headline": "Permanent Digital Memory of Humanity",
+      "hypothesis": "Mission-led framing will increase session duration and research/education engagement.",
+      "measures": [
+        "clicks",
+        "engagement",
+        "product interest"
+      ]
+    }
+  ],
+  "primary_metrics": [
+    "homepage_click_through",
+    "engaged_session_rate",
+    "product_interest_rate"
+  ],
+  "guardrails": [
+    "no payment processing",
+    "anonymous sessions only",
+    "ADR-011 followed"
+  ]
+}

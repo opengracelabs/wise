@@ -1,0 +1,38 @@
+{
+  "site_name": "Nature & Culture",
+  "mission": "The permanent digital memory of humanity's heritage, nature, and culture.",
+  "templates": {
+    "home": {
+      "title": "Nature & Culture Public Beta",
+      "description": "Explore humanity's heritage, nature, culture, collections, series, species, places, education, research, and read-only product validation."
+    },
+    "collections": {
+      "title": "Collections — Nature & Culture",
+      "description": "Top 25 showcase collections selected for visual appeal, educational value, global representation, and product potential."
+    },
+    "series": {
+      "title": "Series — Nature & Culture",
+      "description": "Educational series connecting public collections and assets through source-aware narratives."
+    },
+    "species": {
+      "title": "Species — Nature & Culture",
+      "description": "Flagship species and conservation narratives for public beta exploration."
+    },
+    "places": {
+      "title": "Places — Nature & Culture",
+      "description": "Explore heritage sites, regions, maps, landscapes, and place-based public memory."
+    },
+    "shop": {
+      "title": "Shop — Nature & Culture",
+      "description": "Read-only product validation for posters, framed prints, canvas prints, puzzles, calendars, and coffee table books."
+    },
+    "education": {
+      "title": "Education — Nature & Culture",
+      "description": "Learning series, educational product concepts, and classroom-ready narratives."
+    },
+    "research": {
+      "title": "Research — Nature & Culture",
+      "description": "Source-aware research notes, provenance context, and audience validation data."
+    }
+  }
+}

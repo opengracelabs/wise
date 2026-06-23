@@ -1,0 +1,77 @@
+{
+  "collection_id": "public-collection-big-cats-of-the-world",
+  "title": "Big Cats of the World",
+  "notice": "Public collection demonstration only. No payment processing. No checkout. No customer data collection.",
+  "summary": "Rights-gated public collection release using only RC17-approved non-restricted Lion and Tiger metadata assets.",
+  "assets": [
+    {
+      "asset_id": "asset-lion",
+      "title": "Lion",
+      "common_name": "Lion",
+      "scientific_context": "Panthera species public demo metadata",
+      "source_id": "source-gbif",
+      "source_authority": "Global Biodiversity Information Facility",
+      "source_url": "https://www.gbif.org/",
+      "license_id": "cc-by",
+      "license_name": "CC-BY",
+      "rights_status": "CC-BY",
+      "approval_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "attribution_id": "attr-lion",
+      "required_credit_line": "Source: Global Biodiversity Information Facility (GBIF Flagship Species). Individual asset URL required before production publication.",
+      "attribution_status": "template_ready_requires_asset_url",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "display_note": "Text and metadata only. No final species image is displayed until item-level media rights are cleared."
+    },
+    {
+      "asset_id": "asset-tiger",
+      "title": "Tiger",
+      "common_name": "Tiger",
+      "scientific_context": "Panthera species public demo metadata",
+      "source_id": "source-gbif",
+      "source_authority": "Global Biodiversity Information Facility",
+      "source_url": "https://www.gbif.org/",
+      "license_id": "cc-by",
+      "license_name": "CC-BY",
+      "rights_status": "CC-BY",
+      "approval_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "attribution_id": "attr-tiger",
+      "required_credit_line": "Source: Global Biodiversity Information Facility (GBIF Flagship Species). Individual asset URL required before production publication.",
+      "attribution_status": "template_ready_requires_asset_url",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "display_note": "Text and metadata only. No final species image is displayed until item-level media rights are cleared."
+    }
+  ],
+  "species_links": [
+    {
+      "label": "Lion",
+      "href": "#lion"
+    },
+    {
+      "label": "Tiger",
+      "href": "#tiger"
+    }
+  ],
+  "education": {
+    "title": "Education resource",
+    "body": "Use this collection to teach species literacy, rights-aware publishing, and attribution practices."
+  },
+  "product_cta": "Demo only \u2014 not for sale. No checkout or payment processing enabled."
+}

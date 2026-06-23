@@ -1,0 +1,972 @@
+"""Commercial validation, product intelligence, and brand surface tests."""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+import pytest
+from fastapi.testclient import TestClient
+
+from wise_api.main import app
+
+
+COMMERCIAL_PORTFOLIO = Path("data/portfolio/commercial")
+COMMERCIAL_RIGHTS = Path("rights/commercial")
+
+
+PRODUCT_SLUGS = [
+    "big-cats-poster",
+    "big-cats-framed-print",
+    "big-cats-canvas",
+    "big-cats-metal-print",
+    "big-cats-puzzle",
+    "big-cats-calendar",
+    "big-cats-coffee-table-book",
+    "world-heritage-museum-print",
+    "world-heritage-historic-map",
+    "world-heritage-coffee-table-book",
+    "education-big-cats-card-set",
+    "education-discovery-pack",
+    "education-paint-by-numbers",
+    "education-classroom-kit",
+]
+
+
+@pytest.mark.e2e
+def test_commercial_shop_page_served():
+    client = TestClient(app)
+    response = client.get("/shop")
+    if response.status_code == 404:
+        pytest.skip("Demonstration surface assets not mounted in test environment")
+
+    assert response.status_code == 200
+    assert "Nature & Culture" in response.text
+    assert "Product cards with intelligence scores" in response.text
+    assert "No payment processing" in response.text
+    assert "commercial.js" in response.text
+
+
+@pytest.mark.e2e
+def test_nature_culture_homepage_served():
+    client = TestClient(app)
+    response = client.get("/")
+    if response.status_code == 404:
+        pytest.skip("Demonstration surface assets not mounted in test environment")
+
+    assert response.status_code == 200
+    assert "Nature & Culture" in response.text
+    assert "The permanent digital memory of humanity's heritage, nature, and culture." in response.text
+    for section in [
+        "Hero",
+        "Featured Collections",
+        "Featured Series",
+        "Featured Products",
+        "Explore by Place",
+        "Explore by Species",
+        "Explore by Theme",
+        "Education",
+        "Research",
+        "Shop",
+    ]:
+        assert section in response.text
+    for reference_model in [
+        "Smithsonian",
+        "National Geographic",
+        "Europeana",
+        "British Museum",
+        "Google Arts & Culture",
+    ]:
+        assert reference_model in response.text
+
+
+@pytest.mark.e2e
+def test_commercial_catalog_script_contains_required_surface():
+    client = TestClient(app)
+    response = client.get("/static/commercial.js")
+    if response.status_code == 404:
+        pytest.skip("Demonstration surface assets not mounted in test environment")
+
+    assert response.status_code == 200
+    assert "Big Cats of the World" in response.text
+    for product_type in [
+        "Poster",
+        "Framed Print",
+        "Canvas Prints",
+        "Museum Prints",
+        "Historic Maps",
+        "Educational Card Sets",
+        "Discovery Packs",
+        "Paint-by-Numbers",
+        "Classroom Kits",
+        "Puzzle",
+        "Calendar",
+        "Coffee Table Book",
+    ]:
+        assert product_type in response.text
+    for event_name in [
+        "product_view",
+        "add_to_wishlist",
+        "buy_interest",
+        "checkout_intent",
+    ]:
+        assert event_name in response.text
+    for intelligence_field in [
+        "product_category_score",
+        "product_fit_score",
+        "estimated_giftability",
+        "estimated_repeat_purchase",
+    ]:
+        assert intelligence_field in response.text
+
+
+@pytest.mark.e2e
+def test_rc7_recommended_products_output():
+    output_path = Path("packages/wise-product-intelligence/recommended_products.json")
+    payload = json.loads(output_path.read_text(encoding="utf-8"))
+
+    assert payload["reference_capability"] == "RC7 Product Intelligence"
+    assert "ADR-011" in payload["architecture_note"]
+    products = payload["recommended_products"]
+    assert len(products) >= 12
+    categories = {product["product_category"] for product in products}
+    for category in [
+        "Canvas Prints",
+        "Metal Prints",
+        "Museum Prints",
+        "Historic Maps",
+        "Educational Card Sets",
+        "Discovery Packs",
+        "Paint-by-Numbers",
+        "Classroom Kits",
+    ]:
+        assert category in categories
+    for product in products:
+        for field in payload["commercial_intelligence_fields"]:
+            assert field in product
+
+
+@pytest.mark.e2e
+def test_rc9_top_100_global_assets_dataset():
+    output_path = COMMERCIAL_PORTFOLIO / "top_100_global_assets.json"
+    assets = json.loads(output_path.read_text(encoding="utf-8"))
+
+    assert len(assets) == 100
+    categories = {asset["category"] for asset in assets}
+    for source_family in [
+        "UNESCO World Heritage",
+        "GBIF Flagship Species",
+        "Smithsonian Open Access",
+        "National Gallery Public Domain",
+        "Rijksmuseum Public Domain",
+        "Library of Congress",
+        "National Geographic Award-Winning Subject",
+    ]:
+        assert source_family in categories
+
+    allowed_products = {
+        "Posters",
+        "Framed Prints",
+        "Canvas Prints",
+        "Puzzles",
+        "Calendars",
+        "Coffee Table Books",
+        "Historic Maps",
+    }
+    for asset in assets:
+        assert set(asset) == {
+            "title",
+            "category",
+            "country",
+            "recognition_score",
+            "demand_score",
+            "commercial_score",
+            "product_recommendations",
+        }
+        assert asset["title"]
+        assert asset["category"]
+        assert asset["country"]
+        for score_field in ["recognition_score", "demand_score", "commercial_score"]:
+            assert 0 <= asset[score_field] <= 1
+        assert asset["product_recommendations"]
+        assert set(asset["product_recommendations"]).issubset(allowed_products)
+
+
+@pytest.mark.e2e
+def test_rc10_top_100_collections_dataset():
+    collections = json.loads((COMMERCIAL_PORTFOLIO / "top_100_collections.json").read_text(encoding="utf-8"))
+    assets = json.loads((COMMERCIAL_PORTFOLIO / "top_100_global_assets.json").read_text(encoding="utf-8"))
+    asset_titles = {asset["title"] for asset in assets}
+
+    assert len(collections) == 100
+    assert len({collection["collection_id"] for collection in collections}) == 100
+    assert len({collection["geography_region"] for collection in collections}) >= 6
+    assert len({collection["domain"] for collection in collections}) >= 5
+    assert len({collection["theme"] for collection in collections}) >= 8
+    for collection in collections:
+        assert collection["primary_asset"] in asset_titles
+        assert collection["assets"]
+        assert set(collection["assets"]).issubset(asset_titles)
+        assert collection["portfolio_diversity_role"]
+        assert 0 <= collection["portfolio_score"] <= 1
+
+
+@pytest.mark.e2e
+def test_rc10_top_100_series_dataset():
+    collections = json.loads((COMMERCIAL_PORTFOLIO / "top_100_collections.json").read_text(encoding="utf-8"))
+    series = json.loads((COMMERCIAL_PORTFOLIO / "top_100_series.json").read_text(encoding="utf-8"))
+    collection_ids = {collection["collection_id"] for collection in collections}
+    asset_titles = {asset for collection in collections for asset in collection["assets"]}
+
+    assert len(series) == 100
+    assert len({item["series_id"] for item in series}) == 100
+    for item in series:
+        assert item["collections"]
+        assert set(item["collections"]).issubset(collection_ids)
+        assert item["assets"]
+        assert set(item["assets"]).issubset(asset_titles)
+        assert len(item["educational_narrative"]) > 120
+        assert item["learning_goals"]
+
+
+@pytest.mark.e2e
+def test_rc10_landing_page_experiments():
+    experiment = json.loads(Path("data/portfolio/landing_page_experiments.json").read_text(encoding="utf-8"))
+
+    assert experiment["experiment_id"] == "rc10-landing-message"
+    variants = {variant["variant_id"]: variant for variant in experiment["variants"]}
+    assert variants["A"]["headline"] == "Explore Humanity's Greatest Heritage"
+    assert variants["B"]["headline"] == "Discover Nature, Culture, and History"
+    assert variants["C"]["headline"] == "Permanent Digital Memory of Humanity"
+    for variant in variants.values():
+        assert set(variant["measures"]) == {"clicks", "engagement", "product interest"}
+
+
+@pytest.mark.e2e
+def test_rc10_top_50_products_dataset():
+    products = json.loads((COMMERCIAL_PORTFOLIO / "top_50_products.json").read_text(encoding="utf-8"))
+    collections = json.loads((COMMERCIAL_PORTFOLIO / "top_100_collections.json").read_text(encoding="utf-8"))
+    assets = json.loads((COMMERCIAL_PORTFOLIO / "top_100_global_assets.json").read_text(encoding="utf-8"))
+    collection_ids = {collection["collection_id"] for collection in collections}
+    asset_titles = {asset["title"] for asset in assets}
+    source_families = {asset["category"] for asset in assets}
+    required_categories = {
+        "Posters",
+        "Framed Prints",
+        "Canvas Prints",
+        "Puzzles",
+        "Calendars",
+        "Coffee Table Books",
+        "Historic Maps",
+        "Educational Cards",
+    }
+
+    assert len(products) == 50
+    assert required_categories.issubset({product["category"] for product in products})
+    for product in products:
+        assert product["asset"] in asset_titles
+        assert product["asset_source"] in source_families
+        assert product["collection_id"] in collection_ids
+        assert product["collection"]
+        assert product["demand_rationale"]
+        assert product["commercial_rationale"]
+        assert 0 <= product["demand_score"] <= 1
+        assert 0 <= product["commercial_score"] <= 1
+
+
+@pytest.mark.e2e
+def test_rc11_showcase_datasets():
+    collections = json.loads((COMMERCIAL_PORTFOLIO / "top_25_showcase_collections.json").read_text(encoding="utf-8"))
+    series = json.loads((COMMERCIAL_PORTFOLIO / "top_25_showcase_series.json").read_text(encoding="utf-8"))
+    products = json.loads((COMMERCIAL_PORTFOLIO / "top_25_showcase_products.json").read_text(encoding="utf-8"))
+    collection_ids = {collection["collection_id"] for collection in collections}
+    product_categories = {product["category"] for product in products}
+
+    assert len(collections) == 25
+    assert len(series) == 25
+    assert len(products) == 25
+    assert len({collection["geography_region"] for collection in collections}) >= 6
+    for collection in collections:
+        assert collection["visual_appeal_score"] >= 0
+        assert collection["educational_value_score"] >= 0
+        assert collection["global_representation_role"]
+        assert collection["product_potential_score"] >= 0
+    for item in series:
+        assert item["collections"]
+        assert any(collection_id in collection_ids for collection_id in item["collections"])
+        assert item["educational_narrative"]
+    for category in [
+        "Posters",
+        "Framed Prints",
+        "Canvas Prints",
+        "Puzzles",
+        "Calendars",
+        "Coffee Table Books",
+    ]:
+        assert category in product_categories
+
+
+@pytest.mark.e2e
+def test_rc11_apps_web_routes_and_analytics_files():
+    web_root = Path("apps/web")
+    for route_file in [
+        "index.html",
+        "collections/index.html",
+        "series/index.html",
+        "species/index.html",
+        "places/index.html",
+        "shop/index.html",
+        "education/index.html",
+        "research/index.html",
+        "admin/analytics/index.html",
+    ]:
+        path = web_root / route_file
+        assert path.is_file()
+        text = path.read_text(encoding="utf-8")
+        assert "Nature & Culture" in text
+        assert "/static/analytics.js" in text
+        assert "/static/app.js" in text
+
+    analytics = (web_root / "static/analytics.js").read_text(encoding="utf-8")
+    for event_name in [
+        "page_view",
+        "collection_view",
+        "series_view",
+        "product_view",
+        "wishlist",
+        "buy_intent",
+        "outbound_click",
+        "search",
+        "session_duration",
+    ]:
+        assert event_name in analytics
+
+
+@pytest.mark.e2e
+def test_rc11_seo_artifacts():
+    web_root = Path("apps/web")
+    sitemap = (web_root / "sitemap.xml").read_text(encoding="utf-8")
+    robots = (web_root / "robots.txt").read_text(encoding="utf-8")
+    metadata = json.loads((web_root / "metadata-templates.json").read_text(encoding="utf-8"))
+    opengraph = json.loads((web_root / "opengraph-templates.json").read_text(encoding="utf-8"))
+
+    for route in [
+        "/",
+        "/collections",
+        "/series",
+        "/species",
+        "/places",
+        "/shop",
+        "/education",
+        "/research",
+        "/admin/analytics",
+    ]:
+        assert route in sitemap
+    assert "Sitemap:" in robots
+    assert metadata["site_name"] == "Nature & Culture"
+    assert opengraph["site_name"] == "Nature & Culture"
+
+
+@pytest.mark.e2e
+def test_rc12_pinterest_campaigns_dataset():
+    campaigns = json.loads(Path("data/marketing/pinterest_campaigns.json").read_text(encoding="utf-8"))
+    pin_groups = campaigns["pin_groups"]
+
+    assert campaigns["platform"] == "Pinterest"
+    for group_name in [
+        "top_25_collection_pins",
+        "top_25_product_pins",
+        "top_25_heritage_pins",
+        "top_25_wildlife_pins",
+    ]:
+        pins = pin_groups[group_name]
+        assert len(pins) == 25
+        for pin in pins:
+            assert pin["title"]
+            assert pin["description"]
+            assert pin["image_requirements"]
+            assert pin["target_audience"]
+            assert pin["keywords"]
+
+
+@pytest.mark.e2e
+def test_rc12_youtube_campaigns_dataset():
+    campaigns = json.loads(Path("data/marketing/youtube_campaigns.json").read_text(encoding="utf-8"))
+    videos = campaigns["videos"]
+
+    assert campaigns["platform"] == "YouTube"
+    assert len(videos) == 25
+    assert {
+        "World Heritage",
+        "Big Cats",
+        "Endangered Species",
+        "Ancient Civilizations",
+        "Historic Maps",
+    }.issubset({video["category"] for video in videos})
+    for video in videos:
+        assert video["title"]
+        assert video["script_outline"]
+        assert video["narration_outline"]
+        assert video["image_requirements"]
+        assert video["CTA"]
+
+
+@pytest.mark.e2e
+def test_rc12_seo_and_launch_selection_datasets():
+    seo = json.loads(Path("data/marketing/seo_landing_pages.json").read_text(encoding="utf-8"))
+    selections = json.loads(Path("data/marketing/launch_selections.json").read_text(encoding="utf-8"))
+
+    assert len(seo["pages"]) == 100
+    for page in seo["pages"]:
+        assert page["title"]
+        assert page["slug"]
+        assert page["keywords"]
+        assert page["collections"]
+        assert page["products"]
+
+    assert len(selections["top_10_launch_collections"]) == 10
+    assert len(selections["top_10_launch_products"]) == 10
+    for collection in selections["top_10_launch_collections"]:
+        assert collection["selection_factors"]["educational_value"] >= 0
+        assert collection["selection_factors"]["visual_appeal"] >= 0
+        assert collection["selection_factors"]["commercial_potential"] >= 0
+        assert collection["selection_factors"]["audience_size"] >= 0
+    for product in selections["top_10_launch_products"]:
+        assert product["title"]
+        assert product["category"]
+        assert product["asset"]
+        assert product["collection"]
+
+
+@pytest.mark.e2e
+def test_rc13_content_factory_and_book_pipelines():
+    factory = json.loads(Path("data/publishing/content_factory.json").read_text(encoding="utf-8"))
+    showcase_assets = json.loads(Path("data/publishing/top_25_showcase_assets.json").read_text(encoding="utf-8"))
+    ebooks = json.loads(Path("data/publishing/ebooks.json").read_text(encoding="utf-8"))["ebooks"]
+    audiobooks = json.loads(Path("data/publishing/audiobooks.json").read_text(encoding="utf-8"))["audiobooks"]
+
+    assert len(showcase_assets) == 25
+    assert {
+        "Articles",
+        "Collection Pages",
+        "Series Pages",
+        "Product Pages",
+        "Educational Resources",
+    } == {pipeline["name"] for pipeline in factory["pipelines"]}
+    assert len(ebooks) == 25
+    assert len(audiobooks) == 25
+    for concept in ebooks:
+        assert concept["title"]
+        assert concept["audience"]
+        assert concept["chapters"]
+        assert concept["source_collections"]
+        assert concept["source_assets"]
+    for concept in audiobooks:
+        assert concept["title"]
+        assert concept["chapters"]
+        assert concept["source_collections"]
+        assert concept["source_assets"]
+
+
+@pytest.mark.e2e
+def test_rc13_print_youtube_and_pinterest_production():
+    print_products = json.loads(Path("data/publishing/print_products.json").read_text(encoding="utf-8"))
+    youtube = json.loads(Path("data/publishing/youtube_production.json").read_text(encoding="utf-8"))
+    pinterest = json.loads(Path("data/publishing/pinterest_production.json").read_text(encoding="utf-8"))
+
+    for group in [
+        "coffee_table_books",
+        "calendars",
+        "educational_card_sets",
+        "historic_map_collections",
+    ]:
+        assert print_products[group]
+        for item in print_products[group]:
+            assert item["title"]
+            assert item["source_asset"]
+            assert item["source_collection"]
+            assert item["format_requirements"]
+
+    assert len(youtube["videos"]) == 25
+    for video in youtube["videos"]:
+        assert video["script"]
+        assert video["narration"]
+        assert video["image_requirements"]
+        assert video["CTA"]
+
+    for group in ["heritage_pins", "wildlife_pins", "product_pins", "collection_pins"]:
+        assert len(pinterest[group]) == 25
+        for pin in pinterest[group]:
+            assert pin["title"]
+            assert pin["description"]
+            assert pin["image_requirements"]
+            assert pin["CTA"] if "CTA" in pin else pin["production_status"]
+
+
+@pytest.mark.e2e
+def test_rc14_first_publishable_launch_artifacts():
+    ebook_dir = Path("content/ebooks/big-cats-of-the-world")
+    audiobook_dir = Path("content/audiobooks/big-cats-of-the-world")
+    youtube_dir = Path("content/youtube")
+    pinterest_dir = Path("content/pinterest")
+    product_dir = Path("content/products")
+
+    for path in [
+        ebook_dir / "manuscript.md",
+        ebook_dir / "outline.md",
+        ebook_dir / "product-description.md",
+        ebook_dir / "rights-checklist.md",
+        audiobook_dir / "narration-script.md",
+        audiobook_dir / "chapter-outline.md",
+        audiobook_dir / "production-notes.md",
+        youtube_dir / "big-cats-of-the-world.md",
+        youtube_dir / "the-story-of-stonehenge.md",
+        youtube_dir / "endangered-earth.md",
+    ]:
+        assert path.is_file()
+        assert "Source dependencies" in path.read_text(encoding="utf-8")
+
+    manuscript = (ebook_dir / "manuscript.md").read_text(encoding="utf-8")
+    assert manuscript.count("## Chapter") >= 3
+
+    for youtube_file in youtube_dir.glob("*.md"):
+        text = youtube_file.read_text(encoding="utf-8")
+        for section in ["## Hook", "## Narration", "## Visual direction", "## CTA", "## Rights/source notes"]:
+            assert section in text
+
+    pin_files = sorted(pinterest_dir.glob("*.md"))
+    assert len(pin_files) == 5
+    for pin_file in pin_files:
+        text = pin_file.read_text(encoding="utf-8")
+        for section in ["## Title", "## Description", "## Image requirements", "## Keywords", "## CTA", "## Linked product or collection"]:
+            assert section in text
+
+    product_files = sorted(product_dir.glob("*.md"))
+    rc6_products = [path for path in product_files if "## Title" in path.read_text(encoding="utf-8")]
+    assert len(rc6_products) >= 10
+    for product_file in rc6_products:
+        text = product_file.read_text(encoding="utf-8")
+        for section in [
+            "## Title",
+            "## Subtitle",
+            "## Short description",
+            "## Long description",
+            "## Educational value",
+            "## Target audience",
+            "## Suggested product type",
+            "## Rights/source notes",
+        ]:
+            assert section in text
+        assert "No payment processing" in text
+
+
+@pytest.mark.e2e
+def test_rc14_source_references_exist():
+    source_paths = [
+        Path("data/publishing/ebooks.json"),
+        Path("data/publishing/audiobooks.json"),
+        Path("data/publishing/youtube_production.json"),
+        Path("data/publishing/pinterest_production.json"),
+        Path("data/publishing/print_products.json"),
+        Path("data/portfolio/top_25_showcase_products.json"),
+    ]
+    for path in source_paths:
+        assert path.is_file()
+        json.loads(path.read_text(encoding="utf-8"))
+
+    report = Path("docs/implementation/rc14-launch-artifacts-report.md")
+    assert report.is_file()
+    text = report.read_text(encoding="utf-8")
+    assert "No payment processing" in text
+    assert "ADR-011" in text
+
+
+@pytest.mark.e2e
+def test_rc15_publication_quality_review_artifacts():
+    report = Path("docs/implementation/rc15-publication-quality-report.md")
+    assert report.is_file()
+    report_text = report.read_text(encoding="utf-8")
+    for section in [
+        "Pass/fail by artifact group",
+        "Required edits",
+        "Rights blockers",
+        "Top 10 publishable artifacts",
+        "Top 10 not-ready artifacts",
+        "ADR-011",
+    ]:
+        assert section in report_text
+
+    revised_root = Path("content/revised")
+    revised_files = sorted(revised_root.glob("**/*.md"))
+    assert len(revised_files) >= 20
+    for path in [
+        revised_root / "ebooks/big-cats-of-the-world/manuscript.md",
+        revised_root / "audiobooks/big-cats-of-the-world/narration-script.md",
+        revised_root / "youtube/big-cats-of-the-world.md",
+        revised_root / "youtube/the-story-of-stonehenge.md",
+        revised_root / "youtube/endangered-earth.md",
+    ]:
+        assert path.is_file()
+        text = path.read_text(encoding="utf-8")
+        assert "Source dependencies" in text
+        assert "rights" in text.lower()
+
+    for product_file in (revised_root / "products").glob("*.md"):
+        text = product_file.read_text(encoding="utf-8")
+        assert "No payment processing enabled" in text
+        assert "Do not remove rights warnings" in text
+
+
+@pytest.mark.e2e
+def test_rc16_public_demo_release_package():
+    release_root = Path("content/public-demo")
+    assert (release_root / "README.md").is_file()
+    assert (release_root / "preflight-checklist.md").is_file()
+    assert (release_root / "publishable-artifact-index.md").is_file()
+
+    for path in [
+        release_root / "README.md",
+        release_root / "preflight-checklist.md",
+        release_root / "publishable-artifact-index.md",
+    ]:
+        text = path.read_text(encoding="utf-8")
+        assert "Public demonstration only" in text
+        assert "No payment processing enabled" in text
+        assert "No checkout" in text
+        assert "No customer data collection" in text
+
+    artifacts = sorted((release_root / "artifacts").glob("**/*.md"))
+    assert len(artifacts) == 10
+    for artifact in artifacts:
+        text = artifact.read_text(encoding="utf-8")
+        assert text.startswith("> **Public demonstration only.")
+        assert "No payment processing enabled" in text
+        assert "No checkout" in text
+        assert "No customer data collection" in text
+        assert "Rights" in text or "rights" in text
+
+    index_text = (release_root / "publishable-artifact-index.md").read_text(encoding="utf-8")
+    for artifact in artifacts:
+        rel = artifact.relative_to(release_root).as_posix()
+        assert rel in index_text
+
+    report = Path("docs/implementation/rc16-public-demo-release-report.md")
+    assert report.is_file()
+    report_text = report.read_text(encoding="utf-8")
+    assert "No customer data collection" in report_text
+    assert "ADR-011" in report_text
+
+
+def _rights_validation_errors(asset_registry: dict) -> list[str]:
+    return [
+        asset["asset_id"]
+        for asset in asset_registry["assets"]
+        if asset["rights_status"] == "Unknown"
+    ]
+
+
+@pytest.mark.e2e
+def test_rc17_rights_registries_cover_showcase_assets_and_collections():
+    asset_registry = json.loads((COMMERCIAL_RIGHTS / "asset-registry.json").read_text(encoding="utf-8"))
+    source_registry = json.loads((COMMERCIAL_RIGHTS / "source-registry.json").read_text(encoding="utf-8"))
+    license_registry = json.loads((COMMERCIAL_RIGHTS / "license-registry.json").read_text(encoding="utf-8"))
+    provenance_registry = json.loads((COMMERCIAL_RIGHTS / "provenance-registry.json").read_text(encoding="utf-8"))
+    attribution_registry = json.loads((COMMERCIAL_RIGHTS / "attribution-registry.json").read_text(encoding="utf-8"))
+    approvals = json.loads((COMMERCIAL_RIGHTS / "publication-approvals.json").read_text(encoding="utf-8"))
+    jurisdiction_rules = json.loads((COMMERCIAL_RIGHTS / "jurisdiction-rules.json").read_text(encoding="utf-8"))
+    showcase_assets = json.loads(Path("data/publishing/top_25_showcase_assets.json").read_text(encoding="utf-8"))
+    showcase_collections = json.loads((COMMERCIAL_PORTFOLIO / "top_25_showcase_collections.json").read_text(encoding="utf-8"))
+
+    assets_by_title = {asset["title"]: asset for asset in asset_registry["assets"]}
+    asset_ids = {asset["asset_id"] for asset in asset_registry["assets"]}
+    source_ids = {source["source_id"] for source in source_registry["sources"]}
+    license_ids = {license_["license_id"] for license_ in license_registry["licenses"]}
+    approval_asset_ids = {approval["asset_id"] for approval in approvals["approvals"]}
+    provenance_asset_ids = {record["asset_id"] for record in provenance_registry["records"]}
+    attribution_asset_ids = {record["asset_id"] for record in attribution_registry["records"]}
+
+    assert len(asset_registry["assets"]) == len(showcase_assets) == 25
+    assert asset_registry["summary_statistics"]["unknown_rights_count"] == 0
+    assert _rights_validation_errors(asset_registry) == []
+    assert {"Public Domain", "CC0", "CC-BY", "CC-BY-SA", "Rights Restricted", "Unknown"} == {
+        license_["name"] for license_ in license_registry["licenses"]
+    }
+    assert jurisdiction_rules["rules"]
+
+    for asset in asset_registry["assets"]:
+        assert asset["asset_id"] in approval_asset_ids
+        assert asset["asset_id"] in provenance_asset_ids
+        assert asset["asset_id"] in attribution_asset_ids
+        assert asset["source_id"] in source_ids
+        assert asset["license_id"] in license_ids
+        assert asset["approval_status"] == "Approved"
+        assert asset["rights_status"] != "Unknown"
+
+    for showcase_asset in showcase_assets:
+        assert showcase_asset["title"] in assets_by_title
+
+    for collection in showcase_collections:
+        asset = assets_by_title[collection["primary_asset"]]
+        assert asset["approval_status"] == "Approved"
+        assert asset["collection_id"] == collection["collection_id"]
+        assert asset["asset_id"] in asset_ids
+
+
+@pytest.mark.e2e
+def test_rc17_unknown_rights_validation_fails():
+    asset_registry = json.loads((COMMERCIAL_RIGHTS / "asset-registry.json").read_text(encoding="utf-8"))
+    simulated = json.loads(json.dumps(asset_registry))
+    simulated["assets"][0]["rights_status"] = "Unknown"
+    assert _rights_validation_errors(simulated) == [simulated["assets"][0]["asset_id"]]
+
+
+@pytest.mark.e2e
+def test_rc17_rights_policy_docs_and_report():
+    for path in [
+        Path("docs/rights/rights-policy.md"),
+        Path("docs/rights/provenance-policy.md"),
+        Path("docs/rights/attribution-policy.md"),
+        Path("docs/rights/publication-approval-process.md"),
+        Path("docs/rights/jurisdiction-guidelines.md"),
+        Path("docs/implementation/rc17-rights-provenance-report.md"),
+    ]:
+        assert path.is_file()
+        text = path.read_text(encoding="utf-8")
+        if path.name == "rc17-rights-provenance-report.md":
+            assert "RC17" in text and "wise-registry" in text
+        else:
+            assert (
+                "Architecture v1.0 remains frozen" in text
+                or "ADR-011" in text
+                or "Does not modify architecture" in text
+            )
+
+    report = Path("docs/implementation/rc17-rights-provenance-report.md").read_text(encoding="utf-8")
+    for section in [
+        "Implementation Summary",
+        "RC17",
+        "publication gate",
+    ]:
+        assert section in report
+
+
+@pytest.mark.e2e
+def test_rc18_web_metadata_structured_data_and_accessibility_hardening():
+    web_root = Path("apps/web")
+    for route_file in [
+        "index.html",
+        "collections/index.html",
+        "series/index.html",
+        "species/index.html",
+        "places/index.html",
+        "shop/index.html",
+        "education/index.html",
+        "research/index.html",
+        "admin/analytics/index.html",
+    ]:
+        text = (web_root / route_file).read_text(encoding="utf-8")
+        assert '<link rel="canonical"' in text
+        assert 'property="og:url"' in text
+        assert 'name="twitter:card"' in text
+        assert 'type="application/ld+json"' in text
+        assert 'rel="preload"' in text
+        assert 'aria-busy="true"' in text
+
+        marker = '<script type="application/ld+json">'
+        assert marker in text
+        structured_json = text.split(marker, 1)[1].split("</script>", 1)[0].strip()
+        structured = json.loads(structured_json)
+        assert structured["@context"] == "https://schema.org"
+        assert structured["name"]
+        assert structured["url"].startswith("https://nature-and-culture.example")
+
+
+@pytest.mark.e2e
+def test_rc18_security_headers_and_search_privacy():
+    for config_path in [Path("apps/web/vercel.json"), Path("vercel.json")]:
+        config = json.loads(config_path.read_text(encoding="utf-8"))
+        headers = config["headers"]
+        flattened = {
+            header["key"]: header["value"]
+            for group in headers
+            for header in group["headers"]
+        }
+        assert "Content-Security-Policy" in flattened
+        assert "frame-ancestors 'none'" in flattened["Content-Security-Policy"]
+        assert "X-Content-Type-Options" in flattened
+        assert flattened["X-Content-Type-Options"] == "nosniff"
+        assert flattened["X-Frame-Options"] == "DENY"
+        assert "payment=()" in flattened["Permissions-Policy"]
+
+    app_js = Path("apps/web/static/app.js").read_text(encoding="utf-8")
+    assert 'search_query: ""' in app_js
+    assert "query_redacted: true" in app_js
+    assert "search_query: query" not in app_js
+
+
+@pytest.mark.e2e
+def test_rc18_lighthouse_config_and_report():
+    lighthouse_config = json.loads(Path("apps/web/lighthouse.config.json").read_text(encoding="utf-8"))
+    urls = lighthouse_config["ci"]["collect"]["url"]
+    assert "http://127.0.0.1:4173/" in urls
+    assert "categories:accessibility" in lighthouse_config["ci"]["assert"]["assertions"]
+
+    report = Path("docs/implementation/rc18-demonstration-hardening-report.md")
+    assert report.is_file()
+    text = report.read_text(encoding="utf-8")
+    for phrase in [
+        "Accessibility",
+        "SEO",
+        "Structured Data",
+        "OpenGraph",
+        "Sitemap validation",
+        "Lighthouse",
+        "Security headers",
+        "Performance",
+    ]:
+        assert phrase in text
+
+
+def _rc19_asset_validation_errors(collection_data: dict) -> list[str]:
+    errors = []
+    for asset in collection_data["assets"]:
+        if asset["rights_status"] in {"Rights Restricted", "Unknown"}:
+            errors.append(f"{asset['asset_id']}: invalid rights status")
+        if not asset.get("source_id") or not asset.get("source_url"):
+            errors.append(f"{asset['asset_id']}: missing source")
+        if not asset.get("license_id") or not asset.get("license_name"):
+            errors.append(f"{asset['asset_id']}: missing license")
+        if not asset.get("attribution_id") or not asset.get("required_credit_line"):
+            errors.append(f"{asset['asset_id']}: missing attribution")
+        if asset.get("approval_status") != "Approved":
+            errors.append(f"{asset['asset_id']}: not approved")
+    return errors
+
+
+@pytest.mark.e2e
+def test_rc19_big_cats_public_collection_content_and_route():
+    content_root = Path("content/public-collections/big-cats-of-the-world")
+    for path in [
+        content_root / "collection-page.md",
+        content_root / "species-pages/lion.md",
+        content_root / "species-pages/tiger.md",
+        content_root / "education-guide.md",
+        content_root / "image-attribution.md",
+        content_root / "rights-summary.md",
+        content_root / "publication-readiness-checklist.md",
+    ]:
+        assert path.is_file()
+        text = path.read_text(encoding="utf-8")
+        assert "No payment processing" in text
+        assert "No checkout" in text
+        assert "No customer data collection" in text
+
+    route = Path("apps/web/collections/big-cats-of-the-world/index.html")
+    assert route.is_file()
+    route_text = route.read_text(encoding="utf-8")
+    assert "Big Cats of the World" in route_text
+    assert 'data-page="big-cats-collection"' in route_text
+    assert "Taxon" in route_text
+
+
+@pytest.mark.e2e
+def test_rc19_big_cats_rights_gate_validation():
+    collection_data = json.loads(Path("apps/web/data/big_cats_public_collection.json").read_text(encoding="utf-8"))
+    assert collection_data["title"] == "Big Cats of the World"
+    assert [asset["title"] for asset in collection_data["assets"]] == ["Lion", "Tiger"]
+    assert _rc19_asset_validation_errors(collection_data) == []
+
+    for asset in collection_data["assets"]:
+        assert asset["rights_status"] == "CC-BY"
+        assert asset["license_id"] == "cc-by"
+        assert asset["approval_status"] == "Approved"
+        assert asset["source_authority"] == "Global Biodiversity Information Facility"
+        assert asset["required_credit_line"]
+
+    invalid = json.loads(json.dumps(collection_data))
+    invalid["assets"][0]["rights_status"] = "Rights Restricted"
+    assert _rc19_asset_validation_errors(invalid)
+
+    missing_source = json.loads(json.dumps(collection_data))
+    missing_source["assets"][0]["source_url"] = ""
+    assert _rc19_asset_validation_errors(missing_source)
+
+    missing_license = json.loads(json.dumps(collection_data))
+    missing_license["assets"][0]["license_id"] = ""
+    assert _rc19_asset_validation_errors(missing_license)
+
+    missing_attribution = json.loads(json.dumps(collection_data))
+    missing_attribution["assets"][0]["required_credit_line"] = ""
+    assert _rc19_asset_validation_errors(missing_attribution)
+
+
+@pytest.mark.e2e
+def test_rc19_route_wiring_sitemap_and_report():
+    app_vercel = json.loads(Path("apps/web/vercel.json").read_text(encoding="utf-8"))
+    root_vercel = json.loads(Path("vercel.json").read_text(encoding="utf-8"))
+    assert any(route["source"] == "/collections/big-cats-of-the-world" for route in app_vercel["rewrites"])
+    assert any(route["source"] == "/collections/big-cats-of-the-world" for route in root_vercel["rewrites"])
+    assert "/collections/big-cats-of-the-world" in Path("apps/web/sitemap.xml").read_text(encoding="utf-8")
+
+    app_js = Path("apps/web/static/app.js").read_text(encoding="utf-8")
+    assert "renderBigCatsCollection" in app_js
+    assert "collection.product_cta" in app_js
+    assert "Restricted or Unknown rights assets are excluded" in app_js
+
+    report = Path("docs/implementation/rc19-first-public-collection-report.md")
+    assert report.is_file()
+    report_text = report.read_text(encoding="utf-8")
+    for phrase in ["Assets used", "Rights status", "Attribution status", "Routes added", "Known gaps", "Publication recommendation"]:
+        assert phrase in report_text
+
+
+@pytest.mark.e2e
+@pytest.mark.parametrize("product_slug", PRODUCT_SLUGS)
+def test_commercial_product_pages_served(product_slug: str):
+    client = TestClient(app)
+    response = client.get(f"/shop/products/{product_slug}")
+    if response.status_code == 404:
+        pytest.skip("Demonstration surface assets not mounted in test environment")
+
+    assert response.status_code == 200
+    assert "Product detail page" in response.text
+    assert "Price placeholder" in response.text
+    assert "Add to Wishlist" in response.text or "product-detail-actions" in response.text
+    assert "Buy Interest" in response.text or "product-detail-actions" in response.text
+    assert "No payment processing" in response.text
+
+
+@pytest.mark.e2e
+@pytest.mark.parametrize("route,expected", [
+    ("/shop/maps", "Historic Maps"),
+    ("/shop/education", "Education products"),
+    ("/shop/gifts", "Gifts"),
+])
+def test_commercial_shop_section_routes_served(route: str, expected: str):
+    client = TestClient(app)
+    response = client.get(route)
+    if response.status_code == 404:
+        pytest.skip("Demonstration surface assets not mounted in test environment")
+
+    assert response.status_code == 200
+    assert expected in response.text
+    assert "product-grid" in response.text
+    assert "No payment processing" in response.text
+
+
+@pytest.mark.e2e
+def test_commercial_dashboard_page_served():
+    client = TestClient(app)
+    response = client.get("/admin/commercial")
+    if response.status_code == 404:
+        pytest.skip("Demonstration surface assets not mounted in test environment")
+
+    assert response.status_code == 200
+    assert "Top Products" in response.text
+    assert "Top Categories" in response.text
+    assert "Most viewed products" in response.text
+    assert "Highest buy intent" in response.text
+    assert "Highest wishlist rate" in response.text
+    assert "Highest Product Fit Score" in response.text
+    assert "product_view" in response.text
+    assert "checkout_intent" in response.text

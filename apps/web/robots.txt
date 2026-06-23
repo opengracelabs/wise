@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nature-and-culture.example/sitemap.xml

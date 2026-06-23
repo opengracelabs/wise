@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gifts — Nature & Culture Shop</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body class="commercial-surface" data-shop-filter="gifts">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header commercial-hero" role="banner">
+    <p class="eyebrow">Nature & Culture Shop</p>
+    <h1>Gifts</h1>
+    <p class="subtitle">
+      Gift-oriented products modeled on Smithsonian museum shops and National Geographic editorial
+      merchandising.
+    </p>
+    <nav class="surface-nav" aria-label="Shop navigation">
+      <a href="/shop">Shop</a>
+      <a href="/shop/maps">Maps</a>
+      <a href="/shop/education">Education</a>
+      <a href="/shop/gifts">Gifts</a>
+      <a href="/admin/commercial">Commercial dashboard</a>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="commercial-panel" aria-labelledby="gifts-heading">
+      <p class="eyebrow">Featured Products</p>
+      <h2 id="gifts-heading">High-giftability validation set</h2>
+      <p>
+        Posters, framed prints, canvas prints, puzzles, calendars, museum prints, and books test
+        gift demand while preserving a read-only commercial surface.
+      </p>
+    </section>
+
+    <section aria-labelledby="products-heading">
+      <h2 id="products-heading">Gift product cards</h2>
+      <div id="product-grid" class="product-grid" aria-live="polite"></div>
+      <p id="commercial-action-status" class="action-status" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>RC7 Product Intelligence. Local analytics only. No payment processing.</p>
+  </footer>
+
+  <script src="/static/commercial.js" defer></script>
+</body>
+</html>

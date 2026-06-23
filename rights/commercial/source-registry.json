@@ -1,0 +1,76 @@
+{
+  "registry": "source-registry",
+  "verification_date": "2026-06-22",
+  "sources": [
+    {
+      "source_id": "source-unesco-whc",
+      "source_authority": "UNESCO World Heritage Centre",
+      "source_url": "https://whc.unesco.org/",
+      "verification_method": "Authority homepage and public World Heritage listing review",
+      "license_id": "rights-restricted",
+      "rights_status": "Rights Restricted",
+      "commercial_image_use": false,
+      "notes": "Metadata/reference use only until individual image licenses are verified."
+    },
+    {
+      "source_id": "source-gbif",
+      "source_authority": "Global Biodiversity Information Facility",
+      "source_url": "https://www.gbif.org/",
+      "verification_method": "GBIF public species/taxonomy source review",
+      "license_id": "cc-by",
+      "rights_status": "CC-BY",
+      "commercial_image_use": false,
+      "notes": "Taxonomic metadata can be attributed; occurrence/media licenses require per-record verification."
+    },
+    {
+      "source_id": "source-national-gallery",
+      "source_authority": "The National Gallery, London",
+      "source_url": "https://www.nationalgallery.org.uk/",
+      "verification_method": "Public-domain/open-access collection policy review",
+      "license_id": "public-domain",
+      "rights_status": "Public Domain",
+      "commercial_image_use": true,
+      "notes": "Individual artwork image records still require source URL and credit-line capture."
+    },
+    {
+      "source_id": "source-rijksmuseum",
+      "source_authority": "Rijksmuseum",
+      "source_url": "https://www.rijksmuseum.nl/",
+      "verification_method": "Rijksmuseum public-domain collection policy review",
+      "license_id": "public-domain",
+      "rights_status": "Public Domain",
+      "commercial_image_use": true,
+      "notes": "Individual object records still require source URL and credit-line capture."
+    },
+    {
+      "source_id": "source-library-of-congress",
+      "source_authority": "Library of Congress",
+      "source_url": "https://www.loc.gov/",
+      "verification_method": "Library of Congress public collection rights advisory review",
+      "license_id": "rights-restricted",
+      "rights_status": "Rights Restricted",
+      "commercial_image_use": false,
+      "notes": "Many items are public domain, but rights advisory must be checked per item."
+    },
+    {
+      "source_id": "source-smithsonian-open-access",
+      "source_authority": "Smithsonian Open Access",
+      "source_url": "https://www.si.edu/openaccess",
+      "verification_method": "Smithsonian Open Access policy review",
+      "license_id": "cc0",
+      "rights_status": "CC0",
+      "commercial_image_use": true,
+      "notes": "Open Access assets are generally CC0, but object-level metadata should be captured."
+    },
+    {
+      "source_id": "source-national-geographic-subjects",
+      "source_authority": "National Geographic subject taxonomy / editorial inspiration",
+      "source_url": "https://www.nationalgeographic.com/",
+      "verification_method": "Subject-level editorial reference only; no image license assumed",
+      "license_id": "rights-restricted",
+      "rights_status": "Rights Restricted",
+      "commercial_image_use": false,
+      "notes": "Use as subject inspiration only. Do not use National Geographic images without license."
+    }
+  ]
+}

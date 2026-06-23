@@ -1,0 +1,377 @@
+[
+  {
+    "rank": 1,
+    "title": "Pyramids of Giza",
+    "category": "UNESCO World Heritage",
+    "country": "Egypt",
+    "recognition_score": 0.99,
+    "demand_score": 0.95,
+    "commercial_score": 0.94,
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Historic Maps",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 2,
+    "title": "Taj Mahal",
+    "category": "UNESCO World Heritage",
+    "country": "India",
+    "recognition_score": 0.99,
+    "demand_score": 0.95,
+    "commercial_score": 0.93,
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ]
+  },
+  {
+    "rank": 3,
+    "title": "Sunflowers",
+    "category": "National Gallery Public Domain",
+    "country": "United Kingdom",
+    "recognition_score": 0.98,
+    "demand_score": 0.94,
+    "commercial_score": 0.94,
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ]
+  },
+  {
+    "rank": 4,
+    "title": "Machu Picchu",
+    "category": "UNESCO World Heritage",
+    "country": "Peru",
+    "recognition_score": 0.99,
+    "demand_score": 0.94,
+    "commercial_score": 0.92,
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Historic Maps",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 5,
+    "title": "Grand Canyon Storm Light",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "United States",
+    "recognition_score": 0.97,
+    "demand_score": 0.91,
+    "commercial_score": 0.9,
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Historic Maps",
+      "Calendars"
+    ]
+  },
+  {
+    "rank": 6,
+    "title": "Great Barrier Reef",
+    "category": "UNESCO World Heritage",
+    "country": "Australia",
+    "recognition_score": 0.98,
+    "demand_score": 0.92,
+    "commercial_score": 0.9,
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ]
+  },
+  {
+    "rank": 7,
+    "title": "Tiger",
+    "category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "recognition_score": 0.99,
+    "demand_score": 0.95,
+    "commercial_score": 0.93,
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ]
+  },
+  {
+    "rank": 8,
+    "title": "Great Wall of China",
+    "category": "UNESCO World Heritage",
+    "country": "China",
+    "recognition_score": 0.99,
+    "demand_score": 0.93,
+    "commercial_score": 0.91,
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 9,
+    "title": "Lion",
+    "category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "recognition_score": 0.99,
+    "demand_score": 0.94,
+    "commercial_score": 0.92,
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Calendars"
+    ]
+  },
+  {
+    "rank": 10,
+    "title": "The Night Watch",
+    "category": "Rijksmuseum Public Domain",
+    "country": "Netherlands",
+    "recognition_score": 0.98,
+    "demand_score": 0.91,
+    "commercial_score": 0.9,
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 11,
+    "title": "Ansel Adams National Parks Photographs",
+    "category": "Library of Congress",
+    "country": "United States",
+    "recognition_score": 0.95,
+    "demand_score": 0.9,
+    "commercial_score": 0.89,
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ]
+  },
+  {
+    "rank": 12,
+    "title": "Tyrannosaurus rex Hall Specimen",
+    "category": "Smithsonian Open Access",
+    "country": "United States",
+    "recognition_score": 0.96,
+    "demand_score": 0.9,
+    "commercial_score": 0.88,
+    "product_recommendations": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 13,
+    "title": "Giant Panda",
+    "category": "GBIF Flagship Species",
+    "country": "China",
+    "recognition_score": 0.99,
+    "demand_score": 0.94,
+    "commercial_score": 0.92,
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Puzzles",
+      "Calendars"
+    ]
+  },
+  {
+    "rank": 14,
+    "title": "African Elephant",
+    "category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "recognition_score": 0.99,
+    "demand_score": 0.93,
+    "commercial_score": 0.91,
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Puzzles",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 15,
+    "title": "Venice and its Lagoon",
+    "category": "UNESCO World Heritage",
+    "country": "Italy",
+    "recognition_score": 0.98,
+    "demand_score": 0.93,
+    "commercial_score": 0.91,
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Historic Maps",
+      "Calendars"
+    ]
+  },
+  {
+    "rank": 16,
+    "title": "Tiger in Mangrove Forest",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "India",
+    "recognition_score": 0.97,
+    "demand_score": 0.92,
+    "commercial_score": 0.91,
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Puzzles"
+    ]
+  },
+  {
+    "rank": 17,
+    "title": "Northern Lights over Arctic Landscape",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Iceland",
+    "recognition_score": 0.96,
+    "demand_score": 0.92,
+    "commercial_score": 0.91,
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Puzzles"
+    ]
+  },
+  {
+    "rank": 18,
+    "title": "Colosseum and Historic Centre of Rome",
+    "category": "UNESCO World Heritage",
+    "country": "Italy",
+    "recognition_score": 0.98,
+    "demand_score": 0.92,
+    "commercial_score": 0.9,
+    "product_recommendations": [
+      "Posters",
+      "Historic Maps",
+      "Puzzles",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 19,
+    "title": "Serengeti National Park",
+    "category": "UNESCO World Heritage",
+    "country": "Tanzania",
+    "recognition_score": 0.96,
+    "demand_score": 0.91,
+    "commercial_score": 0.9,
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 20,
+    "title": "Great Migration River Crossing",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Tanzania",
+    "recognition_score": 0.96,
+    "demand_score": 0.91,
+    "commercial_score": 0.9,
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 21,
+    "title": "Elephant Migration in Amboseli",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "Kenya",
+    "recognition_score": 0.95,
+    "demand_score": 0.91,
+    "commercial_score": 0.9,
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 22,
+    "title": "Antelope Canyon Light Beams",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "United States",
+    "recognition_score": 0.95,
+    "demand_score": 0.91,
+    "commercial_score": 0.9,
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Puzzles"
+    ]
+  },
+  {
+    "rank": 23,
+    "title": "Polar Bear",
+    "category": "GBIF Flagship Species",
+    "country": "Multi-country",
+    "recognition_score": 0.98,
+    "demand_score": 0.91,
+    "commercial_score": 0.89,
+    "product_recommendations": [
+      "Posters",
+      "Canvas Prints",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 24,
+    "title": "Galapagos Islands",
+    "category": "UNESCO World Heritage",
+    "country": "Ecuador",
+    "recognition_score": 0.97,
+    "demand_score": 0.91,
+    "commercial_score": 0.89,
+    "product_recommendations": [
+      "Posters",
+      "Puzzles",
+      "Calendars",
+      "Coffee Table Books"
+    ]
+  },
+  {
+    "rank": 25,
+    "title": "Bengal Tiger Cub Portrait",
+    "category": "National Geographic Award-Winning Subject",
+    "country": "India",
+    "recognition_score": 0.96,
+    "demand_score": 0.91,
+    "commercial_score": 0.89,
+    "product_recommendations": [
+      "Posters",
+      "Framed Prints",
+      "Canvas Prints",
+      "Calendars"
+    ]
+  }
+]

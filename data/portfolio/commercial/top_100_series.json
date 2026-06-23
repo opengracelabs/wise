@@ -1,0 +1,2002 @@
+[
+  {
+    "series_id": "rc10-series-001",
+    "title": "Origins and Memory: Machu Picchu",
+    "theme": "World Heritage",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-001",
+      "rc10-collection-018"
+    ],
+    "assets": [
+      "Machu Picchu",
+      "Alhambra"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Machu Picchu and connects it to Alhambra so learners can compare heritage and heritage evidence across Latin America and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-002",
+    "title": "Species and Stewardship: Great Wall of China",
+    "theme": "Flagship Species",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-002",
+      "rc10-collection-019"
+    ],
+    "assets": [
+      "Great Wall of China",
+      "Kyoto Historic Monuments"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Great Wall of China and connects it to Kyoto Historic Monuments so learners can compare heritage and heritage evidence across Asia and Asia.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-003",
+    "title": "Art in Public Trust: Pyramids of Giza",
+    "theme": "Public Domain Art",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-003",
+      "rc10-collection-020"
+    ],
+    "assets": [
+      "Pyramids of Giza",
+      "Venice and its Lagoon"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with Pyramids of Giza and connects it to Venice and its Lagoon so learners can compare heritage and heritage evidence across Africa and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-004",
+    "title": "Maps, Routes, and Place: Taj Mahal",
+    "theme": "Maps and Memory",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-004",
+      "rc10-collection-021"
+    ],
+    "assets": [
+      "Taj Mahal",
+      "Lion"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Taj Mahal and connects it to Lion so learners can compare heritage and nature evidence across Asia and Global.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-005",
+    "title": "Icons of Discovery: Stonehenge",
+    "theme": "Conservation",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-005",
+      "rc10-collection-022"
+    ],
+    "assets": [
+      "Stonehenge",
+      "Tiger"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with Stonehenge and connects it to Tiger so learners can compare heritage and nature evidence across Europe and Global.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-006",
+    "title": "Origins and Memory: Angkor Wat",
+    "theme": "Exploration",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-006",
+      "rc10-collection-023"
+    ],
+    "assets": [
+      "Angkor Wat",
+      "African Elephant"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Angkor Wat and connects it to African Elephant so learners can compare heritage and nature evidence across Asia and Global.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-007",
+    "title": "Species and Stewardship: Petra",
+    "theme": "Education",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-007",
+      "rc10-collection-024"
+    ],
+    "assets": [
+      "Petra",
+      "Giant Panda"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Petra and connects it to Giant Panda so learners can compare heritage and nature evidence across Middle East and Asia.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-008",
+    "title": "Art in Public Trust: Colosseum and Historic Centre of Rome",
+    "theme": "Cultural Icons",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-008",
+      "rc10-collection-025"
+    ],
+    "assets": [
+      "Colosseum and Historic Centre of Rome",
+      "Snow Leopard"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with Colosseum and Historic Centre of Rome and connects it to Snow Leopard so learners can compare heritage and nature evidence across Europe and Global.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-009",
+    "title": "Maps, Routes, and Place: Acropolis of Athens",
+    "theme": "Landscape",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-009",
+      "rc10-collection-026"
+    ],
+    "assets": [
+      "Acropolis of Athens",
+      "Jaguar"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Acropolis of Athens and connects it to Jaguar so learners can compare heritage and nature evidence across Europe and Global.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-010",
+    "title": "Icons of Discovery: Mont-Saint-Michel",
+    "theme": "Science and Discovery",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-010",
+      "rc10-collection-027"
+    ],
+    "assets": [
+      "Mont-Saint-Michel",
+      "Polar Bear"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with Mont-Saint-Michel and connects it to Polar Bear so learners can compare heritage and nature evidence across Europe and Global.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-011",
+    "title": "Origins and Memory: Serengeti National Park",
+    "theme": "World Heritage",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-011",
+      "rc10-collection-028"
+    ],
+    "assets": [
+      "Serengeti National Park",
+      "Blue Whale"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Serengeti National Park and connects it to Blue Whale so learners can compare heritage and nature evidence across Africa and Global.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-012",
+    "title": "Species and Stewardship: Galapagos Islands",
+    "theme": "Flagship Species",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-012",
+      "rc10-collection-029"
+    ],
+    "assets": [
+      "Galapagos Islands",
+      "Humpback Whale"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Galapagos Islands and connects it to Humpback Whale so learners can compare heritage and nature evidence across Latin America and Global.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-013",
+    "title": "Art in Public Trust: Yellowstone National Park",
+    "theme": "Public Domain Art",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-013",
+      "rc10-collection-030"
+    ],
+    "assets": [
+      "Yellowstone National Park",
+      "Bald Eagle"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with Yellowstone National Park and connects it to Bald Eagle so learners can compare heritage and nature evidence across North America and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-014",
+    "title": "Maps, Routes, and Place: Great Barrier Reef",
+    "theme": "Maps and Memory",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-014",
+      "rc10-collection-031"
+    ],
+    "assets": [
+      "Great Barrier Reef",
+      "Monarch Butterfly"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Great Barrier Reef and connects it to Monarch Butterfly so learners can compare heritage and nature evidence across Oceania and Global.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-015",
+    "title": "Icons of Discovery: Everglades National Park",
+    "theme": "Conservation",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-015",
+      "rc10-collection-032"
+    ],
+    "assets": [
+      "Everglades National Park",
+      "Red-Crowned Crane"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with Everglades National Park and connects it to Red-Crowned Crane so learners can compare heritage and nature evidence across North America and Asia.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-016",
+    "title": "Origins and Memory: Chichen Itza",
+    "theme": "Exploration",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-016",
+      "rc10-collection-033"
+    ],
+    "assets": [
+      "Chichen Itza",
+      "Koala"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Chichen Itza and connects it to Koala so learners can compare heritage and nature evidence across Latin America and Oceania.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-017",
+    "title": "Species and Stewardship: Easter Island Rapa Nui",
+    "theme": "Education",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-017",
+      "rc10-collection-034"
+    ],
+    "assets": [
+      "Easter Island Rapa Nui",
+      "Orangutan"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Easter Island Rapa Nui and connects it to Orangutan so learners can compare heritage and nature evidence across Latin America and Asia.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-018",
+    "title": "Art in Public Trust: Alhambra",
+    "theme": "Cultural Icons",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-018",
+      "rc10-collection-035"
+    ],
+    "assets": [
+      "Alhambra",
+      "Sea Turtle"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with Alhambra and connects it to Sea Turtle so learners can compare heritage and nature evidence across Europe and Global.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-019",
+    "title": "Maps, Routes, and Place: Kyoto Historic Monuments",
+    "theme": "Landscape",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-019",
+      "rc10-collection-036"
+    ],
+    "assets": [
+      "Kyoto Historic Monuments",
+      "Apollo 11 Command Module Columbia"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Kyoto Historic Monuments and connects it to Apollo 11 Command Module Columbia so learners can compare heritage and culture evidence across Asia and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-020",
+    "title": "Icons of Discovery: Venice and its Lagoon",
+    "theme": "Science and Discovery",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-020",
+      "rc10-collection-037"
+    ],
+    "assets": [
+      "Venice and its Lagoon",
+      "Wright Flyer"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with Venice and its Lagoon and connects it to Wright Flyer so learners can compare heritage and culture evidence across Europe and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-021",
+    "title": "Origins and Memory: Lion",
+    "theme": "World Heritage",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-021",
+      "rc10-collection-038"
+    ],
+    "assets": [
+      "Lion",
+      "Hope Diamond"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Lion and connects it to Hope Diamond so learners can compare nature and culture evidence across Global and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-022",
+    "title": "Species and Stewardship: Tiger",
+    "theme": "Flagship Species",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-022",
+      "rc10-collection-039"
+    ],
+    "assets": [
+      "Tiger",
+      "Ruby Slippers"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Tiger and connects it to Ruby Slippers so learners can compare nature and culture evidence across Global and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-023",
+    "title": "Art in Public Trust: African Elephant",
+    "theme": "Public Domain Art",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-023",
+      "rc10-collection-040"
+    ],
+    "assets": [
+      "African Elephant",
+      "Star-Spangled Banner"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with African Elephant and connects it to Star-Spangled Banner so learners can compare nature and culture evidence across Global and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-024",
+    "title": "Maps, Routes, and Place: Giant Panda",
+    "theme": "Maps and Memory",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-024",
+      "rc10-collection-041"
+    ],
+    "assets": [
+      "Giant Panda",
+      "First Ladies Inaugural Gowns"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Giant Panda and connects it to First Ladies Inaugural Gowns so learners can compare nature and culture evidence across Asia and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-025",
+    "title": "Icons of Discovery: Snow Leopard",
+    "theme": "Conservation",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-025",
+      "rc10-collection-042"
+    ],
+    "assets": [
+      "Snow Leopard",
+      "Tyrannosaurus rex Hall Specimen"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with Snow Leopard and connects it to Tyrannosaurus rex Hall Specimen so learners can compare nature and culture evidence across Global and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-026",
+    "title": "Origins and Memory: Jaguar",
+    "theme": "Exploration",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-026",
+      "rc10-collection-043"
+    ],
+    "assets": [
+      "Jaguar",
+      "Duke Ellington Collection"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Jaguar and connects it to Duke Ellington Collection so learners can compare nature and culture evidence across Global and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-027",
+    "title": "Species and Stewardship: Polar Bear",
+    "theme": "Education",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-027",
+      "rc10-collection-044"
+    ],
+    "assets": [
+      "Polar Bear",
+      "Celia Cruz Collection"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Polar Bear and connects it to Celia Cruz Collection so learners can compare nature and culture evidence across Global and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-028",
+    "title": "Art in Public Trust: Blue Whale",
+    "theme": "Cultural Icons",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-028",
+      "rc10-collection-045"
+    ],
+    "assets": [
+      "Blue Whale",
+      "Smithsonian Castle"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with Blue Whale and connects it to Smithsonian Castle so learners can compare nature and culture evidence across Global and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-029",
+    "title": "Maps, Routes, and Place: Humpback Whale",
+    "theme": "Landscape",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-029",
+      "rc10-collection-046"
+    ],
+    "assets": [
+      "Humpback Whale",
+      "Sunflowers"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Humpback Whale and connects it to Sunflowers so learners can compare nature and art evidence across Global and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-030",
+    "title": "Icons of Discovery: Bald Eagle",
+    "theme": "Science and Discovery",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-030",
+      "rc10-collection-047"
+    ],
+    "assets": [
+      "Bald Eagle",
+      "The Arnolfini Portrait"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with Bald Eagle and connects it to The Arnolfini Portrait so learners can compare nature and art evidence across North America and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-031",
+    "title": "Origins and Memory: Monarch Butterfly",
+    "theme": "World Heritage",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-031",
+      "rc10-collection-048"
+    ],
+    "assets": [
+      "Monarch Butterfly",
+      "The Fighting Temeraire"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Monarch Butterfly and connects it to The Fighting Temeraire so learners can compare nature and art evidence across Global and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-032",
+    "title": "Species and Stewardship: Red-Crowned Crane",
+    "theme": "Flagship Species",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-032",
+      "rc10-collection-049"
+    ],
+    "assets": [
+      "Red-Crowned Crane",
+      "Bathers at Asnieres"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Red-Crowned Crane and connects it to Bathers at Asnieres so learners can compare nature and art evidence across Asia and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-033",
+    "title": "Art in Public Trust: Koala",
+    "theme": "Public Domain Art",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-033",
+      "rc10-collection-050"
+    ],
+    "assets": [
+      "Koala",
+      "The Wilton Diptych"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with Koala and connects it to The Wilton Diptych so learners can compare nature and art evidence across Oceania and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-034",
+    "title": "Maps, Routes, and Place: Orangutan",
+    "theme": "Maps and Memory",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-034",
+      "rc10-collection-051"
+    ],
+    "assets": [
+      "Orangutan",
+      "Rain, Steam and Speed"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Orangutan and connects it to Rain, Steam and Speed so learners can compare nature and art evidence across Asia and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-035",
+    "title": "Icons of Discovery: Sea Turtle",
+    "theme": "Conservation",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-035",
+      "rc10-collection-052"
+    ],
+    "assets": [
+      "Sea Turtle",
+      "Whistlejacket"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with Sea Turtle and connects it to Whistlejacket so learners can compare nature and art evidence across Global and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-036",
+    "title": "Origins and Memory: Apollo 11 Command Module Columbia",
+    "theme": "Exploration",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-036",
+      "rc10-collection-053"
+    ],
+    "assets": [
+      "Apollo 11 Command Module Columbia",
+      "The Hay Wain"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Apollo 11 Command Module Columbia and connects it to The Hay Wain so learners can compare culture and art evidence across North America and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-037",
+    "title": "Species and Stewardship: Wright Flyer",
+    "theme": "Education",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-037",
+      "rc10-collection-054"
+    ],
+    "assets": [
+      "Wright Flyer",
+      "Venus and Mars"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Wright Flyer and connects it to Venus and Mars so learners can compare culture and art evidence across North America and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-038",
+    "title": "Art in Public Trust: Hope Diamond",
+    "theme": "Cultural Icons",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-038",
+      "rc10-collection-055"
+    ],
+    "assets": [
+      "Hope Diamond",
+      "The Ambassadors"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with Hope Diamond and connects it to The Ambassadors so learners can compare culture and art evidence across North America and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-039",
+    "title": "Maps, Routes, and Place: Ruby Slippers",
+    "theme": "Landscape",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-039",
+      "rc10-collection-056"
+    ],
+    "assets": [
+      "Ruby Slippers",
+      "The Night Watch"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Ruby Slippers and connects it to The Night Watch so learners can compare culture and art evidence across North America and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-040",
+    "title": "Icons of Discovery: Star-Spangled Banner",
+    "theme": "Science and Discovery",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-040",
+      "rc10-collection-057"
+    ],
+    "assets": [
+      "Star-Spangled Banner",
+      "The Milkmaid"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with Star-Spangled Banner and connects it to The Milkmaid so learners can compare culture and art evidence across North America and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-041",
+    "title": "Origins and Memory: First Ladies Inaugural Gowns",
+    "theme": "World Heritage",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-041",
+      "rc10-collection-058"
+    ],
+    "assets": [
+      "First Ladies Inaugural Gowns",
+      "Self-portrait with Felt Hat"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with First Ladies Inaugural Gowns and connects it to Self-portrait with Felt Hat so learners can compare culture and art evidence across North America and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-042",
+    "title": "Species and Stewardship: Tyrannosaurus rex Hall Specimen",
+    "theme": "Flagship Species",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-042",
+      "rc10-collection-059"
+    ],
+    "assets": [
+      "Tyrannosaurus rex Hall Specimen",
+      "The Threatened Swan"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Tyrannosaurus rex Hall Specimen and connects it to The Threatened Swan so learners can compare culture and art evidence across North America and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-043",
+    "title": "Art in Public Trust: Duke Ellington Collection",
+    "theme": "Public Domain Art",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-043",
+      "rc10-collection-060"
+    ],
+    "assets": [
+      "Duke Ellington Collection",
+      "Still Life with Flowers in a Glass Vase"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with Duke Ellington Collection and connects it to Still Life with Flowers in a Glass Vase so learners can compare culture and art evidence across North America and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-044",
+    "title": "Maps, Routes, and Place: Celia Cruz Collection",
+    "theme": "Maps and Memory",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-044",
+      "rc10-collection-061"
+    ],
+    "assets": [
+      "Celia Cruz Collection",
+      "The Merry Family"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Celia Cruz Collection and connects it to The Merry Family so learners can compare culture and art evidence across North America and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-045",
+    "title": "Icons of Discovery: Smithsonian Castle",
+    "theme": "Conservation",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-045",
+      "rc10-collection-062"
+    ],
+    "assets": [
+      "Smithsonian Castle",
+      "Girl in a Large Hat"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with Smithsonian Castle and connects it to Girl in a Large Hat so learners can compare culture and art evidence across North America and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-046",
+    "title": "Origins and Memory: Sunflowers",
+    "theme": "Exploration",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-046",
+      "rc10-collection-063"
+    ],
+    "assets": [
+      "Sunflowers",
+      "View of Houses in Delft"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Sunflowers and connects it to View of Houses in Delft so learners can compare art and art evidence across Europe and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-047",
+    "title": "Species and Stewardship: The Arnolfini Portrait",
+    "theme": "Education",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-047",
+      "rc10-collection-064"
+    ],
+    "assets": [
+      "The Arnolfini Portrait",
+      "The Jewish Bride"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with The Arnolfini Portrait and connects it to The Jewish Bride so learners can compare art and art evidence across Europe and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-048",
+    "title": "Art in Public Trust: The Fighting Temeraire",
+    "theme": "Cultural Icons",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-048",
+      "rc10-collection-065"
+    ],
+    "assets": [
+      "The Fighting Temeraire",
+      "The Little Street"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with The Fighting Temeraire and connects it to The Little Street so learners can compare art and art evidence across Europe and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-049",
+    "title": "Maps, Routes, and Place: Bathers at Asnieres",
+    "theme": "Landscape",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-049",
+      "rc10-collection-066"
+    ],
+    "assets": [
+      "Bathers at Asnieres",
+      "Declaration of Independence"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Bathers at Asnieres and connects it to Declaration of Independence so learners can compare art and history evidence across Europe and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-050",
+    "title": "Icons of Discovery: The Wilton Diptych",
+    "theme": "Science and Discovery",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-050",
+      "rc10-collection-067"
+    ],
+    "assets": [
+      "The Wilton Diptych",
+      "Abraham Lincoln Portrait"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with The Wilton Diptych and connects it to Abraham Lincoln Portrait so learners can compare art and history evidence across Europe and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-051",
+    "title": "Origins and Memory: Rain, Steam and Speed",
+    "theme": "World Heritage",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-051",
+      "rc10-collection-068"
+    ],
+    "assets": [
+      "Rain, Steam and Speed",
+      "Rosa Parks Photograph"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Rain, Steam and Speed and connects it to Rosa Parks Photograph so learners can compare art and history evidence across Europe and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-052",
+    "title": "Species and Stewardship: Whistlejacket",
+    "theme": "Flagship Species",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-052",
+      "rc10-collection-069"
+    ],
+    "assets": [
+      "Whistlejacket",
+      "Dorothea Lange Migrant Mother"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Whistlejacket and connects it to Dorothea Lange Migrant Mother so learners can compare art and history evidence across Europe and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-053",
+    "title": "Art in Public Trust: The Hay Wain",
+    "theme": "Public Domain Art",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-053",
+      "rc10-collection-070"
+    ],
+    "assets": [
+      "The Hay Wain",
+      "Waldseemuller Map"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with The Hay Wain and connects it to Waldseemuller Map so learners can compare art and history evidence across Europe and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-054",
+    "title": "Maps, Routes, and Place: Venus and Mars",
+    "theme": "Maps and Memory",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-054",
+      "rc10-collection-071"
+    ],
+    "assets": [
+      "Venus and Mars",
+      "Panoramic Map of New York City"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Venus and Mars and connects it to Panoramic Map of New York City so learners can compare art and history evidence across Europe and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-055",
+    "title": "Icons of Discovery: The Ambassadors",
+    "theme": "Conservation",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-055",
+      "rc10-collection-072"
+    ],
+    "assets": [
+      "The Ambassadors",
+      "Ansel Adams National Parks Photographs"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with The Ambassadors and connects it to Ansel Adams National Parks Photographs so learners can compare art and history evidence across Europe and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-056",
+    "title": "Origins and Memory: The Night Watch",
+    "theme": "Exploration",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-056",
+      "rc10-collection-073"
+    ],
+    "assets": [
+      "The Night Watch",
+      "Baseball Card Collection"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with The Night Watch and connects it to Baseball Card Collection so learners can compare art and history evidence across Europe and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-057",
+    "title": "Species and Stewardship: The Milkmaid",
+    "theme": "Education",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-057",
+      "rc10-collection-074"
+    ],
+    "assets": [
+      "The Milkmaid",
+      "Civil War Maps Collection"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with The Milkmaid and connects it to Civil War Maps Collection so learners can compare art and history evidence across Europe and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-058",
+    "title": "Art in Public Trust: Self-portrait with Felt Hat",
+    "theme": "Cultural Icons",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-058",
+      "rc10-collection-075"
+    ],
+    "assets": [
+      "Self-portrait with Felt Hat",
+      "Japanese Fine Prints Collection"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with Self-portrait with Felt Hat and connects it to Japanese Fine Prints Collection so learners can compare art and history evidence across Europe and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-059",
+    "title": "Maps, Routes, and Place: The Threatened Swan",
+    "theme": "Landscape",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-059",
+      "rc10-collection-076"
+    ],
+    "assets": [
+      "The Threatened Swan",
+      "Snow Leopard in the Himalayas"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with The Threatened Swan and connects it to Snow Leopard in the Himalayas so learners can compare art and nature evidence across Europe and Global.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-060",
+    "title": "Icons of Discovery: Still Life with Flowers in a Glass Vase",
+    "theme": "Science and Discovery",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-060",
+      "rc10-collection-077"
+    ],
+    "assets": [
+      "Still Life with Flowers in a Glass Vase",
+      "Elephant Migration in Amboseli"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with Still Life with Flowers in a Glass Vase and connects it to Elephant Migration in Amboseli so learners can compare art and nature evidence across Europe and Africa.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-061",
+    "title": "Origins and Memory: The Merry Family",
+    "theme": "World Heritage",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-061",
+      "rc10-collection-078"
+    ],
+    "assets": [
+      "The Merry Family",
+      "Polar Bear on Arctic Sea Ice"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with The Merry Family and connects it to Polar Bear on Arctic Sea Ice so learners can compare art and nature evidence across Europe and Global.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-062",
+    "title": "Species and Stewardship: Girl in a Large Hat",
+    "theme": "Flagship Species",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-062",
+      "rc10-collection-079"
+    ],
+    "assets": [
+      "Girl in a Large Hat",
+      "Great Migration River Crossing"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Girl in a Large Hat and connects it to Great Migration River Crossing so learners can compare art and nature evidence across Europe and Africa.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-063",
+    "title": "Art in Public Trust: View of Houses in Delft",
+    "theme": "Public Domain Art",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-063",
+      "rc10-collection-080"
+    ],
+    "assets": [
+      "View of Houses in Delft",
+      "Monarch Butterfly Migration"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with View of Houses in Delft and connects it to Monarch Butterfly Migration so learners can compare art and nature evidence across Europe and Latin America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-064",
+    "title": "Maps, Routes, and Place: The Jewish Bride",
+    "theme": "Maps and Memory",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-064",
+      "rc10-collection-081"
+    ],
+    "assets": [
+      "The Jewish Bride",
+      "Mountain Gorilla Family"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with The Jewish Bride and connects it to Mountain Gorilla Family so learners can compare art and nature evidence across Europe and Africa.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-065",
+    "title": "Icons of Discovery: The Little Street",
+    "theme": "Conservation",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-065",
+      "rc10-collection-082"
+    ],
+    "assets": [
+      "The Little Street",
+      "Coral Reef Biodiversity"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with The Little Street and connects it to Coral Reef Biodiversity so learners can compare art and nature evidence across Europe and Oceania.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-066",
+    "title": "Origins and Memory: Declaration of Independence",
+    "theme": "Exploration",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-066",
+      "rc10-collection-083"
+    ],
+    "assets": [
+      "Declaration of Independence",
+      "Bioluminescent Plankton Shoreline"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Declaration of Independence and connects it to Bioluminescent Plankton Shoreline so learners can compare history and nature evidence across North America and Asia.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-067",
+    "title": "Species and Stewardship: Abraham Lincoln Portrait",
+    "theme": "Education",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-067",
+      "rc10-collection-084"
+    ],
+    "assets": [
+      "Abraham Lincoln Portrait",
+      "Northern Lights over Arctic Landscape"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Abraham Lincoln Portrait and connects it to Northern Lights over Arctic Landscape so learners can compare history and nature evidence across North America and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-068",
+    "title": "Art in Public Trust: Rosa Parks Photograph",
+    "theme": "Cultural Icons",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-068",
+      "rc10-collection-085"
+    ],
+    "assets": [
+      "Rosa Parks Photograph",
+      "Sahara Desert Caravan"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with Rosa Parks Photograph and connects it to Sahara Desert Caravan so learners can compare history and nature evidence across North America and Africa.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-069",
+    "title": "Maps, Routes, and Place: Dorothea Lange Migrant Mother",
+    "theme": "Landscape",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-069",
+      "rc10-collection-086"
+    ],
+    "assets": [
+      "Dorothea Lange Migrant Mother",
+      "Amazon Rainforest Canopy"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Dorothea Lange Migrant Mother and connects it to Amazon Rainforest Canopy so learners can compare history and nature evidence across North America and Latin America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-070",
+    "title": "Icons of Discovery: Waldseemuller Map",
+    "theme": "Science and Discovery",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-070",
+      "rc10-collection-087"
+    ],
+    "assets": [
+      "Waldseemuller Map",
+      "Emperor Penguins on Sea Ice"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with Waldseemuller Map and connects it to Emperor Penguins on Sea Ice so learners can compare history and nature evidence across North America and Antarctica.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-071",
+    "title": "Origins and Memory: Panoramic Map of New York City",
+    "theme": "World Heritage",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-071",
+      "rc10-collection-088"
+    ],
+    "assets": [
+      "Panoramic Map of New York City",
+      "Humpback Whale Breach"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Panoramic Map of New York City and connects it to Humpback Whale Breach so learners can compare history and nature evidence across North America and Global.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-072",
+    "title": "Species and Stewardship: Ansel Adams National Parks Photographs",
+    "theme": "Flagship Species",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-072",
+      "rc10-collection-089"
+    ],
+    "assets": [
+      "Ansel Adams National Parks Photographs",
+      "Tiger in Mangrove Forest"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Ansel Adams National Parks Photographs and connects it to Tiger in Mangrove Forest so learners can compare history and nature evidence across North America and Asia.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-073",
+    "title": "Art in Public Trust: Baseball Card Collection",
+    "theme": "Public Domain Art",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-073",
+      "rc10-collection-090"
+    ],
+    "assets": [
+      "Baseball Card Collection",
+      "Cheetah Sprint on Savanna"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with Baseball Card Collection and connects it to Cheetah Sprint on Savanna so learners can compare history and nature evidence across North America and Africa.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-074",
+    "title": "Maps, Routes, and Place: Civil War Maps Collection",
+    "theme": "Maps and Memory",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-074",
+      "rc10-collection-091"
+    ],
+    "assets": [
+      "Civil War Maps Collection",
+      "Okavango Delta Aerial Wetlands"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Civil War Maps Collection and connects it to Okavango Delta Aerial Wetlands so learners can compare history and nature evidence across North America and Africa.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-075",
+    "title": "Icons of Discovery: Japanese Fine Prints Collection",
+    "theme": "Conservation",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-075",
+      "rc10-collection-092"
+    ],
+    "assets": [
+      "Japanese Fine Prints Collection",
+      "Grand Canyon Storm Light"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with Japanese Fine Prints Collection and connects it to Grand Canyon Storm Light so learners can compare history and nature evidence across North America and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-076",
+    "title": "Origins and Memory: Snow Leopard in the Himalayas",
+    "theme": "Exploration",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-076",
+      "rc10-collection-093"
+    ],
+    "assets": [
+      "Snow Leopard in the Himalayas",
+      "Yosemite Valley Granite Walls"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Snow Leopard in the Himalayas and connects it to Yosemite Valley Granite Walls so learners can compare nature and nature evidence across Global and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-077",
+    "title": "Species and Stewardship: Elephant Migration in Amboseli",
+    "theme": "Education",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-077",
+      "rc10-collection-094"
+    ],
+    "assets": [
+      "Elephant Migration in Amboseli",
+      "Iceland Glacier Lagoon"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Elephant Migration in Amboseli and connects it to Iceland Glacier Lagoon so learners can compare nature and nature evidence across Africa and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-078",
+    "title": "Art in Public Trust: Polar Bear on Arctic Sea Ice",
+    "theme": "Cultural Icons",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-078",
+      "rc10-collection-095"
+    ],
+    "assets": [
+      "Polar Bear on Arctic Sea Ice",
+      "Borneo Orangutan Canopy"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with Polar Bear on Arctic Sea Ice and connects it to Borneo Orangutan Canopy so learners can compare nature and nature evidence across Global and Asia.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-079",
+    "title": "Maps, Routes, and Place: Great Migration River Crossing",
+    "theme": "Landscape",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-079",
+      "rc10-collection-096"
+    ],
+    "assets": [
+      "Great Migration River Crossing",
+      "Galapagos Marine Iguana"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Great Migration River Crossing and connects it to Galapagos Marine Iguana so learners can compare nature and nature evidence across Africa and Latin America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-080",
+    "title": "Icons of Discovery: Monarch Butterfly Migration",
+    "theme": "Science and Discovery",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-080",
+      "rc10-collection-097"
+    ],
+    "assets": [
+      "Monarch Butterfly Migration",
+      "Namib Desert Dunes"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with Monarch Butterfly Migration and connects it to Namib Desert Dunes so learners can compare nature and nature evidence across Latin America and Africa.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-081",
+    "title": "Origins and Memory: Mountain Gorilla Family",
+    "theme": "World Heritage",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-081",
+      "rc10-collection-098"
+    ],
+    "assets": [
+      "Mountain Gorilla Family",
+      "Antelope Canyon Light Beams"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Mountain Gorilla Family and connects it to Antelope Canyon Light Beams so learners can compare nature and nature evidence across Africa and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-082",
+    "title": "Species and Stewardship: Coral Reef Biodiversity",
+    "theme": "Flagship Species",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-082",
+      "rc10-collection-099"
+    ],
+    "assets": [
+      "Coral Reef Biodiversity",
+      "Bengal Tiger Cub Portrait"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Coral Reef Biodiversity and connects it to Bengal Tiger Cub Portrait so learners can compare nature and nature evidence across Oceania and Asia.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-083",
+    "title": "Art in Public Trust: Bioluminescent Plankton Shoreline",
+    "theme": "Public Domain Art",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-083",
+      "rc10-collection-100"
+    ],
+    "assets": [
+      "Bioluminescent Plankton Shoreline",
+      "Ancient City at Sunrise"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with Bioluminescent Plankton Shoreline and connects it to Ancient City at Sunrise so learners can compare nature and nature evidence across Asia and Middle East.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-084",
+    "title": "Maps, Routes, and Place: Northern Lights over Arctic Landscape",
+    "theme": "Maps and Memory",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-084",
+      "rc10-collection-001"
+    ],
+    "assets": [
+      "Northern Lights over Arctic Landscape",
+      "Machu Picchu"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Northern Lights over Arctic Landscape and connects it to Machu Picchu so learners can compare nature and heritage evidence across Europe and Latin America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-085",
+    "title": "Icons of Discovery: Sahara Desert Caravan",
+    "theme": "Conservation",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-085",
+      "rc10-collection-002"
+    ],
+    "assets": [
+      "Sahara Desert Caravan",
+      "Great Wall of China"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with Sahara Desert Caravan and connects it to Great Wall of China so learners can compare nature and heritage evidence across Africa and Asia.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-086",
+    "title": "Origins and Memory: Amazon Rainforest Canopy",
+    "theme": "Exploration",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-086",
+      "rc10-collection-003"
+    ],
+    "assets": [
+      "Amazon Rainforest Canopy",
+      "Pyramids of Giza"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Amazon Rainforest Canopy and connects it to Pyramids of Giza so learners can compare nature and heritage evidence across Latin America and Africa.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-087",
+    "title": "Species and Stewardship: Emperor Penguins on Sea Ice",
+    "theme": "Education",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-087",
+      "rc10-collection-004"
+    ],
+    "assets": [
+      "Emperor Penguins on Sea Ice",
+      "Taj Mahal"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Emperor Penguins on Sea Ice and connects it to Taj Mahal so learners can compare nature and heritage evidence across Antarctica and Asia.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-088",
+    "title": "Art in Public Trust: Humpback Whale Breach",
+    "theme": "Cultural Icons",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-088",
+      "rc10-collection-005"
+    ],
+    "assets": [
+      "Humpback Whale Breach",
+      "Stonehenge"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with Humpback Whale Breach and connects it to Stonehenge so learners can compare nature and heritage evidence across Global and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-089",
+    "title": "Maps, Routes, and Place: Tiger in Mangrove Forest",
+    "theme": "Landscape",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-089",
+      "rc10-collection-006"
+    ],
+    "assets": [
+      "Tiger in Mangrove Forest",
+      "Angkor Wat"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Tiger in Mangrove Forest and connects it to Angkor Wat so learners can compare nature and heritage evidence across Asia and Asia.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-090",
+    "title": "Icons of Discovery: Cheetah Sprint on Savanna",
+    "theme": "Science and Discovery",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-090",
+      "rc10-collection-007"
+    ],
+    "assets": [
+      "Cheetah Sprint on Savanna",
+      "Petra"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with Cheetah Sprint on Savanna and connects it to Petra so learners can compare nature and heritage evidence across Africa and Middle East.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-091",
+    "title": "Origins and Memory: Okavango Delta Aerial Wetlands",
+    "theme": "World Heritage",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-091",
+      "rc10-collection-008"
+    ],
+    "assets": [
+      "Okavango Delta Aerial Wetlands",
+      "Colosseum and Historic Centre of Rome"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Okavango Delta Aerial Wetlands and connects it to Colosseum and Historic Centre of Rome so learners can compare nature and heritage evidence across Africa and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-092",
+    "title": "Species and Stewardship: Grand Canyon Storm Light",
+    "theme": "Flagship Species",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-092",
+      "rc10-collection-009"
+    ],
+    "assets": [
+      "Grand Canyon Storm Light",
+      "Acropolis of Athens"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Grand Canyon Storm Light and connects it to Acropolis of Athens so learners can compare nature and heritage evidence across North America and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-093",
+    "title": "Art in Public Trust: Yosemite Valley Granite Walls",
+    "theme": "Public Domain Art",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-093",
+      "rc10-collection-010"
+    ],
+    "assets": [
+      "Yosemite Valley Granite Walls",
+      "Mont-Saint-Michel"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with Yosemite Valley Granite Walls and connects it to Mont-Saint-Michel so learners can compare nature and heritage evidence across North America and Europe.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-094",
+    "title": "Maps, Routes, and Place: Iceland Glacier Lagoon",
+    "theme": "Maps and Memory",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-094",
+      "rc10-collection-011"
+    ],
+    "assets": [
+      "Iceland Glacier Lagoon",
+      "Serengeti National Park"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Iceland Glacier Lagoon and connects it to Serengeti National Park so learners can compare nature and heritage evidence across Europe and Africa.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-095",
+    "title": "Icons of Discovery: Borneo Orangutan Canopy",
+    "theme": "Conservation",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-095",
+      "rc10-collection-012"
+    ],
+    "assets": [
+      "Borneo Orangutan Canopy",
+      "Galapagos Islands"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with Borneo Orangutan Canopy and connects it to Galapagos Islands so learners can compare nature and heritage evidence across Asia and Latin America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-096",
+    "title": "Origins and Memory: Galapagos Marine Iguana",
+    "theme": "Exploration",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-096",
+      "rc10-collection-013"
+    ],
+    "assets": [
+      "Galapagos Marine Iguana",
+      "Yellowstone National Park"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Galapagos Marine Iguana and connects it to Yellowstone National Park so learners can compare nature and heritage evidence across Latin America and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-097",
+    "title": "Species and Stewardship: Namib Desert Dunes",
+    "theme": "Education",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-097",
+      "rc10-collection-014"
+    ],
+    "assets": [
+      "Namib Desert Dunes",
+      "Great Barrier Reef"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Namib Desert Dunes and connects it to Great Barrier Reef so learners can compare nature and heritage evidence across Africa and Oceania.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-098",
+    "title": "Art in Public Trust: Antelope Canyon Light Beams",
+    "theme": "Cultural Icons",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-098",
+      "rc10-collection-015"
+    ],
+    "assets": [
+      "Antelope Canyon Light Beams",
+      "Everglades National Park"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with Antelope Canyon Light Beams and connects it to Everglades National Park so learners can compare nature and heritage evidence across North America and North America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-099",
+    "title": "Maps, Routes, and Place: Bengal Tiger Cub Portrait",
+    "theme": "Landscape",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-099",
+      "rc10-collection-016"
+    ],
+    "assets": [
+      "Bengal Tiger Cub Portrait",
+      "Chichen Itza"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Bengal Tiger Cub Portrait and connects it to Chichen Itza so learners can compare nature and heritage evidence across Asia and Latin America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  },
+  {
+    "series_id": "rc10-series-100",
+    "title": "Icons of Discovery: Ancient City at Sunrise",
+    "theme": "Science and Discovery",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-100",
+      "rc10-collection-017"
+    ],
+    "assets": [
+      "Ancient City at Sunrise",
+      "Easter Island Rapa Nui"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with Ancient City at Sunrise and connects it to Easter Island Rapa Nui so learners can compare nature and heritage evidence across Middle East and Latin America.",
+    "learning_goals": [
+      "Build source-aware observation skills",
+      "Compare nature, culture, heritage, and history evidence",
+      "Connect public collections to responsible stewardship"
+    ]
+  }
+]

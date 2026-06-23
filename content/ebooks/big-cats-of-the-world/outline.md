@@ -1,13 +1,8 @@
-# Big Cats of the World — Ebook Outline
+# Big Cats of the World - Ebook Outline
 
-*Status: draft for review (RC14). Not yet published.*
-
+**Source dependencies:** `data/portfolio/top_25_showcase_products.json`, `data/publishing/ebooks.json`
 
 **Architecture boundary:** Implementation content only; Architecture v1.0 remains frozen under ADR-011.
-
-## Premise
-
-A richly illustrated tour of the world's great cats — their biology, their place in human culture, and the fight to keep them wild. Built from the Nature & Culture portfolio with verified sources and open rights.
 
 ## Audience
 
@@ -15,6 +10,22 @@ A richly illustrated tour of the world's great cats — their biology, their pla
 - Museum shop readers
 - Educators building conservation units
 - Wildlife enthusiasts
+
+## Working chapters
+
+1. **The Cats We Recognize** - lions, tigers, leopards, jaguars, and the public imagination.
+2. **Habitats That Hold the Story** - grasslands, forests, mountains, wetlands, and human pressure.
+3. **How to Read a Big Cat Image** - posture, habitat, range, and ethical visual interpretation.
+4. **Conservation Without Spectacle** - species literacy, habitat stewardship, and careful language.
+5. **Learning Activities** - map prompts, comparison questions, and classroom discussion cards.
+
+## Publishing status
+
+Draft sample only. Rights-cleared imagery and expert review required before publication.
+
+## Premise
+
+A richly illustrated tour of the world's great cats — their biology, their place in human culture, and the fight to keep them wild. Built from the Nature & Culture portfolio with verified sources and open rights.
 
 ## Format
 

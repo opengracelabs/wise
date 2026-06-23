@@ -1,50 +1,531 @@
-[
-  {
-    "segment": "Heritage",
-    "title": "25 places that shaped world memory",
-    "hook": "What makes a place unforgettable across cultures and centuries?",
-    "outline": [
-      "Open with Machu Picchu, Giza, the Great Wall, and Taj Mahal as global recognition anchors.",
-      "Explain how heritage sites become learning objects, not just travel images.",
-      "Show posters, puzzles, calendars, and books as validation formats.",
-      "Close on stewardship, access, and no-payment validation."
-    ],
-    "CTA": "Explore the RC12 heritage showcase portfolio."
-  },
-  {
-    "segment": "Species",
-    "title": "Flagship species as conservation stories",
-    "hook": "A lion, tiger, panda, reef, and polar bear can teach more than recognition alone.",
-    "outline": [
-      "Introduce flagship species from the showcase assets and products.",
-      "Connect biodiversity, climate, and family learning.",
-      "Show conservation posters, puzzles, calendars, and books.",
-      "Invite viewers to compare species stories and classroom uses."
-    ],
-    "CTA": "Discover the biodiversity showcase products."
-  },
-  {
-    "segment": "Collections",
-    "title": "Building a balanced global showcase collection",
-    "hook": "A strong collection needs heritage, biodiversity, geography, culture, and climate.",
-    "outline": [
-      "Walk through the top showcase collections and their balance tags.",
-      "Explain why public-domain art, maps, science, and species complement UNESCO icons.",
-      "Show launch-ready collection boards for Pinterest and email.",
-      "Close with the first collection themes for validation."
-    ],
-    "CTA": "Browse the RC12 showcase collections."
-  },
-  {
-    "segment": "Series",
-    "title": "From story to product series",
-    "hook": "The best products come from series with narrative strength, educational strength, and product potential.",
-    "outline": [
-      "Introduce Seven Wonders, World Heritage Travel Posters, Big Cats, Historic Maps, and Space Mission series.",
-      "Explain the three scoring dimensions used in RC11.",
-      "Show how a series becomes posters, prints, puzzles, calendars, and books.",
-      "Close with top 10 first-launch recommendations."
-    ],
-    "CTA": "Review the top RC12 launch series."
-  }
-]
+{
+  "platform": "YouTube",
+  "campaign_goal": "Educational audience development for Nature & Culture public beta.",
+  "videos": [
+    {
+      "title": "World Heritage: Machu Picchu in 3 Minutes",
+      "category": "World Heritage",
+      "script_outline": [
+        "Hook: why Machu Picchu matters to public memory.",
+        "Context: introduce source family UNESCO World Heritage and country/region Peru.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "Big Cats: Lion in 3 Minutes",
+      "category": "Big Cats",
+      "script_outline": [
+        "Hook: why Lion matters to public memory.",
+        "Context: introduce source family GBIF Flagship Species and country/region Multi-country.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "Endangered Species: Polar Bear in 3 Minutes",
+      "category": "Endangered Species",
+      "script_outline": [
+        "Hook: why Polar Bear matters to public memory.",
+        "Context: introduce source family GBIF Flagship Species and country/region Multi-country.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "Ancient Civilizations: Petra in 3 Minutes",
+      "category": "Ancient Civilizations",
+      "script_outline": [
+        "Hook: why Petra matters to public memory.",
+        "Context: introduce source family UNESCO World Heritage and country/region Jordan.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "Historic Maps: Acropolis of Athens in 3 Minutes",
+      "category": "Historic Maps",
+      "script_outline": [
+        "Hook: why Acropolis of Athens matters to public memory.",
+        "Context: introduce source family UNESCO World Heritage and country/region Greece.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "World Heritage: Angkor Wat in 3 Minutes",
+      "category": "World Heritage",
+      "script_outline": [
+        "Hook: why Angkor Wat matters to public memory.",
+        "Context: introduce source family UNESCO World Heritage and country/region Cambodia.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "Big Cats: Lion in 3 Minutes",
+      "category": "Big Cats",
+      "script_outline": [
+        "Hook: why Lion matters to public memory.",
+        "Context: introduce source family GBIF Flagship Species and country/region Multi-country.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "Endangered Species: Coral Reef Biodiversity in 3 Minutes",
+      "category": "Endangered Species",
+      "script_outline": [
+        "Hook: why Coral Reef Biodiversity matters to public memory.",
+        "Context: introduce source family National Geographic Award-Winning Subject and country/region Australia.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "Ancient Civilizations: Angkor Wat in 3 Minutes",
+      "category": "Ancient Civilizations",
+      "script_outline": [
+        "Hook: why Angkor Wat matters to public memory.",
+        "Context: introduce source family UNESCO World Heritage and country/region Cambodia.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "Historic Maps: Venice and its Lagoon in 3 Minutes",
+      "category": "Historic Maps",
+      "script_outline": [
+        "Hook: why Venice and its Lagoon matters to public memory.",
+        "Context: introduce source family UNESCO World Heritage and country/region Italy.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "World Heritage: Serengeti National Park in 3 Minutes",
+      "category": "World Heritage",
+      "script_outline": [
+        "Hook: why Serengeti National Park matters to public memory.",
+        "Context: introduce source family UNESCO World Heritage and country/region Tanzania.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "Big Cats: Red-Crowned Crane in 3 Minutes",
+      "category": "Big Cats",
+      "script_outline": [
+        "Hook: why Red-Crowned Crane matters to public memory.",
+        "Context: introduce source family GBIF Flagship Species and country/region Japan.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "Endangered Species: Namib Desert Dunes in 3 Minutes",
+      "category": "Endangered Species",
+      "script_outline": [
+        "Hook: why Namib Desert Dunes matters to public memory.",
+        "Context: introduce source family National Geographic Award-Winning Subject and country/region Namibia.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "Ancient Civilizations: Pyramids of Giza in 3 Minutes",
+      "category": "Ancient Civilizations",
+      "script_outline": [
+        "Hook: why Pyramids of Giza matters to public memory.",
+        "Context: introduce source family UNESCO World Heritage and country/region Egypt.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "Historic Maps: Declaration of Independence in 3 Minutes",
+      "category": "Historic Maps",
+      "script_outline": [
+        "Hook: why Declaration of Independence matters to public memory.",
+        "Context: introduce source family Library of Congress and country/region United States.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "World Heritage: Chichen Itza in 3 Minutes",
+      "category": "World Heritage",
+      "script_outline": [
+        "Hook: why Chichen Itza matters to public memory.",
+        "Context: introduce source family UNESCO World Heritage and country/region Mexico.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "Big Cats: Elephant Migration in Amboseli in 3 Minutes",
+      "category": "Big Cats",
+      "script_outline": [
+        "Hook: why Elephant Migration in Amboseli matters to public memory.",
+        "Context: introduce source family National Geographic Award-Winning Subject and country/region Kenya.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "Endangered Species: Red-Crowned Crane in 3 Minutes",
+      "category": "Endangered Species",
+      "script_outline": [
+        "Hook: why Red-Crowned Crane matters to public memory.",
+        "Context: introduce source family GBIF Flagship Species and country/region Japan.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "Ancient Civilizations: Machu Picchu in 3 Minutes",
+      "category": "Ancient Civilizations",
+      "script_outline": [
+        "Hook: why Machu Picchu matters to public memory.",
+        "Context: introduce source family UNESCO World Heritage and country/region Peru.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "Historic Maps: Yosemite Valley Granite Walls in 3 Minutes",
+      "category": "Historic Maps",
+      "script_outline": [
+        "Hook: why Yosemite Valley Granite Walls matters to public memory.",
+        "Context: introduce source family National Geographic Award-Winning Subject and country/region United States.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "World Heritage: Machu Picchu in 3 Minutes",
+      "category": "World Heritage",
+      "script_outline": [
+        "Hook: why Machu Picchu matters to public memory.",
+        "Context: introduce source family UNESCO World Heritage and country/region Peru.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "Big Cats: Coral Reef Biodiversity in 3 Minutes",
+      "category": "Big Cats",
+      "script_outline": [
+        "Hook: why Coral Reef Biodiversity matters to public memory.",
+        "Context: introduce source family National Geographic Award-Winning Subject and country/region Australia.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "Endangered Species: Emperor Penguins on Sea Ice in 3 Minutes",
+      "category": "Endangered Species",
+      "script_outline": [
+        "Hook: why Emperor Penguins on Sea Ice matters to public memory.",
+        "Context: introduce source family National Geographic Award-Winning Subject and country/region Antarctica.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "Ancient Civilizations: Chichen Itza in 3 Minutes",
+      "category": "Ancient Civilizations",
+      "script_outline": [
+        "Hook: why Chichen Itza matters to public memory.",
+        "Context: introduce source family UNESCO World Heritage and country/region Mexico.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    },
+    {
+      "title": "Historic Maps: Colosseum and Historic Centre of Rome in 3 Minutes",
+      "category": "Historic Maps",
+      "script_outline": [
+        "Hook: why Colosseum and Historic Centre of Rome matters to public memory.",
+        "Context: introduce source family UNESCO World Heritage and country/region Italy.",
+        "Learning beat: explain one visual clue and one historical or conservation insight.",
+        "Audience bridge: connect the subject to Nature & Culture collections, series, and shop validation.",
+        "Close: invite viewers to explore the public beta."
+      ],
+      "narration_outline": [
+        "Warm documentary introduction.",
+        "Clear educational explanation with source-aware language.",
+        "Reflective stewardship or memory framing.",
+        "Short call-to-action without sales pressure."
+      ],
+      "image_requirements": "16:9 public-domain/open-access or rights-cleared imagery, title card, lower-third source attribution, accessible contrast.",
+      "CTA": "Explore the Nature & Culture public beta, view the related collection, and save products you would like to see produced."
+    }
+  ],
+  "segments": [
+    {
+      "segment": "Heritage",
+      "title": "25 places that shaped world memory",
+      "hook": "What makes a place unforgettable across cultures and centuries?",
+      "outline": [
+        "Open with Machu Picchu, Giza, the Great Wall, and Taj Mahal as global recognition anchors.",
+        "Explain how heritage sites become learning objects, not just travel images.",
+        "Show posters, puzzles, calendars, and books as validation formats.",
+        "Close on stewardship, access, and no-payment validation."
+      ],
+      "CTA": "Explore the RC12 heritage showcase portfolio."
+    },
+    {
+      "segment": "Species",
+      "title": "Flagship species as conservation stories",
+      "hook": "A lion, tiger, panda, reef, and polar bear can teach more than recognition alone.",
+      "outline": [
+        "Introduce flagship species from the showcase assets and products.",
+        "Connect biodiversity, climate, and family learning.",
+        "Show conservation posters, puzzles, calendars, and books.",
+        "Invite viewers to compare species stories and classroom uses."
+      ],
+      "CTA": "Discover the biodiversity showcase products."
+    },
+    {
+      "segment": "Collections",
+      "title": "Building a balanced global showcase collection",
+      "hook": "A strong collection needs heritage, biodiversity, geography, culture, and climate.",
+      "outline": [
+        "Walk through the top showcase collections and their balance tags.",
+        "Explain why public-domain art, maps, science, and species complement UNESCO icons.",
+        "Show launch-ready collection boards for Pinterest and email.",
+        "Close with the first collection themes for validation."
+      ],
+      "CTA": "Browse the RC12 showcase collections."
+    },
+    {
+      "segment": "Series",
+      "title": "From story to product series",
+      "hook": "The best products come from series with narrative strength, educational strength, and product potential.",
+      "outline": [
+        "Introduce Seven Wonders, World Heritage Travel Posters, Big Cats, Historic Maps, and Space Mission series.",
+        "Explain the three scoring dimensions used in RC11.",
+        "Show how a series becomes posters, prints, puzzles, calendars, and books.",
+        "Close with top 10 first-launch recommendations."
+      ],
+      "CTA": "Review the top RC12 launch series."
+    }
+  ]
+}

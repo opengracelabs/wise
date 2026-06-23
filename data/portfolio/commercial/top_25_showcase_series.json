@@ -1,0 +1,427 @@
+[
+  {
+    "rank": 1,
+    "series_id": "rc10-series-004",
+    "title": "Maps, Routes, and Place: Taj Mahal",
+    "theme": "Maps and Memory",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-004",
+      "rc10-collection-021"
+    ],
+    "assets": [
+      "Taj Mahal",
+      "Lion"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Taj Mahal and connects it to Lion so learners can compare heritage and nature evidence across Asia and Global.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 2,
+    "series_id": "rc10-series-003",
+    "title": "Art in Public Trust: Pyramids of Giza",
+    "theme": "Public Domain Art",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-003",
+      "rc10-collection-020"
+    ],
+    "assets": [
+      "Pyramids of Giza",
+      "Venice and its Lagoon"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with Pyramids of Giza and connects it to Venice and its Lagoon so learners can compare heritage and heritage evidence across Africa and Europe.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 3,
+    "series_id": "rc10-series-084",
+    "title": "Maps, Routes, and Place: Northern Lights over Arctic Landscape",
+    "theme": "Maps and Memory",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-084",
+      "rc10-collection-001"
+    ],
+    "assets": [
+      "Northern Lights over Arctic Landscape",
+      "Machu Picchu"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Northern Lights over Arctic Landscape and connects it to Machu Picchu so learners can compare nature and heritage evidence across Europe and Latin America.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 4,
+    "series_id": "rc10-series-072",
+    "title": "Species and Stewardship: Ansel Adams National Parks Photographs",
+    "theme": "Flagship Species",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-072",
+      "rc10-collection-089"
+    ],
+    "assets": [
+      "Ansel Adams National Parks Photographs",
+      "Tiger in Mangrove Forest"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Ansel Adams National Parks Photographs and connects it to Tiger in Mangrove Forest so learners can compare history and nature evidence across North America and Asia.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 5,
+    "series_id": "rc10-series-086",
+    "title": "Origins and Memory: Amazon Rainforest Canopy",
+    "theme": "Exploration",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-086",
+      "rc10-collection-003"
+    ],
+    "assets": [
+      "Amazon Rainforest Canopy",
+      "Pyramids of Giza"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Amazon Rainforest Canopy and connects it to Pyramids of Giza so learners can compare nature and heritage evidence across Latin America and Africa.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 6,
+    "series_id": "rc10-series-022",
+    "title": "Species and Stewardship: Tiger",
+    "theme": "Flagship Species",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-022",
+      "rc10-collection-039"
+    ],
+    "assets": [
+      "Tiger",
+      "Ruby Slippers"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Tiger and connects it to Ruby Slippers so learners can compare nature and culture evidence across Global and North America.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 7,
+    "series_id": "rc10-series-087",
+    "title": "Species and Stewardship: Emperor Penguins on Sea Ice",
+    "theme": "Education",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-087",
+      "rc10-collection-004"
+    ],
+    "assets": [
+      "Emperor Penguins on Sea Ice",
+      "Taj Mahal"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Emperor Penguins on Sea Ice and connects it to Taj Mahal so learners can compare nature and heritage evidence across Antarctica and Asia.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 8,
+    "series_id": "rc10-series-002",
+    "title": "Species and Stewardship: Great Wall of China",
+    "theme": "Flagship Species",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-002",
+      "rc10-collection-019"
+    ],
+    "assets": [
+      "Great Wall of China",
+      "Kyoto Historic Monuments"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Great Wall of China and connects it to Kyoto Historic Monuments so learners can compare heritage and heritage evidence across Asia and Asia.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 9,
+    "series_id": "rc10-series-006",
+    "title": "Origins and Memory: Angkor Wat",
+    "theme": "Exploration",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-006",
+      "rc10-collection-023"
+    ],
+    "assets": [
+      "Angkor Wat",
+      "African Elephant"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Angkor Wat and connects it to African Elephant so learners can compare heritage and nature evidence across Asia and Global.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 10,
+    "series_id": "rc10-series-007",
+    "title": "Species and Stewardship: Petra",
+    "theme": "Education",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-007",
+      "rc10-collection-024"
+    ],
+    "assets": [
+      "Petra",
+      "Giant Panda"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Petra and connects it to Giant Panda so learners can compare heritage and nature evidence across Middle East and Asia.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 11,
+    "series_id": "rc10-series-005",
+    "title": "Icons of Discovery: Stonehenge",
+    "theme": "Conservation",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-005",
+      "rc10-collection-022"
+    ],
+    "assets": [
+      "Stonehenge",
+      "Tiger"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with Stonehenge and connects it to Tiger so learners can compare heritage and nature evidence across Europe and Global.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 12,
+    "series_id": "rc10-series-029",
+    "title": "Maps, Routes, and Place: Humpback Whale",
+    "theme": "Landscape",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-029",
+      "rc10-collection-046"
+    ],
+    "assets": [
+      "Humpback Whale",
+      "Sunflowers"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Humpback Whale and connects it to Sunflowers so learners can compare nature and art evidence across Global and Europe.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 13,
+    "series_id": "rc10-series-082",
+    "title": "Species and Stewardship: Coral Reef Biodiversity",
+    "theme": "Flagship Species",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-082",
+      "rc10-collection-099"
+    ],
+    "assets": [
+      "Coral Reef Biodiversity",
+      "Bengal Tiger Cub Portrait"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Coral Reef Biodiversity and connects it to Bengal Tiger Cub Portrait so learners can compare nature and nature evidence across Oceania and Asia.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 14,
+    "series_id": "rc10-series-089",
+    "title": "Maps, Routes, and Place: Tiger in Mangrove Forest",
+    "theme": "Landscape",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-089",
+      "rc10-collection-006"
+    ],
+    "assets": [
+      "Tiger in Mangrove Forest",
+      "Angkor Wat"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Tiger in Mangrove Forest and connects it to Angkor Wat so learners can compare nature and heritage evidence across Asia and Asia.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 15,
+    "series_id": "rc10-series-092",
+    "title": "Species and Stewardship: Grand Canyon Storm Light",
+    "theme": "Flagship Species",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-092",
+      "rc10-collection-009"
+    ],
+    "assets": [
+      "Grand Canyon Storm Light",
+      "Acropolis of Athens"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Grand Canyon Storm Light and connects it to Acropolis of Athens so learners can compare nature and heritage evidence across North America and Europe.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 16,
+    "series_id": "rc10-series-001",
+    "title": "Origins and Memory: Machu Picchu",
+    "theme": "World Heritage",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-001",
+      "rc10-collection-018"
+    ],
+    "assets": [
+      "Machu Picchu",
+      "Alhambra"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Machu Picchu and connects it to Alhambra so learners can compare heritage and heritage evidence across Latin America and Europe.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 17,
+    "series_id": "rc10-series-008",
+    "title": "Art in Public Trust: Colosseum and Historic Centre of Rome",
+    "theme": "Cultural Icons",
+    "education_level": "High school",
+    "collections": [
+      "rc10-collection-008",
+      "rc10-collection-025"
+    ],
+    "assets": [
+      "Colosseum and Historic Centre of Rome",
+      "Snow Leopard"
+    ],
+    "educational_narrative": "How public-domain artworks support access, education, and visual literacy. This series begins with Colosseum and Historic Centre of Rome and connects it to Snow Leopard so learners can compare heritage and nature evidence across Europe and Global.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 18,
+    "series_id": "rc10-series-021",
+    "title": "Origins and Memory: Lion",
+    "theme": "World Heritage",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-021",
+      "rc10-collection-038"
+    ],
+    "assets": [
+      "Lion",
+      "Hope Diamond"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Lion and connects it to Hope Diamond so learners can compare nature and culture evidence across Global and North America.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 19,
+    "series_id": "rc10-series-011",
+    "title": "Origins and Memory: Serengeti National Park",
+    "theme": "World Heritage",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-011",
+      "rc10-collection-028"
+    ],
+    "assets": [
+      "Serengeti National Park",
+      "Blue Whale"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Serengeti National Park and connects it to Blue Whale so learners can compare heritage and nature evidence across Africa and Global.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 20,
+    "series_id": "rc10-series-039",
+    "title": "Maps, Routes, and Place: Ruby Slippers",
+    "theme": "Landscape",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-039",
+      "rc10-collection-056"
+    ],
+    "assets": [
+      "Ruby Slippers",
+      "The Night Watch"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Ruby Slippers and connects it to The Night Watch so learners can compare culture and art evidence across North America and Europe.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 21,
+    "series_id": "rc10-series-081",
+    "title": "Origins and Memory: Mountain Gorilla Family",
+    "theme": "World Heritage",
+    "education_level": "General public",
+    "collections": [
+      "rc10-collection-081",
+      "rc10-collection-098"
+    ],
+    "assets": [
+      "Mountain Gorilla Family",
+      "Antelope Canyon Light Beams"
+    ],
+    "educational_narrative": "How places and objects become shared memory across generations. This series begins with Mountain Gorilla Family and connects it to Antelope Canyon Light Beams so learners can compare nature and nature evidence across Africa and North America.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 22,
+    "series_id": "rc10-series-097",
+    "title": "Species and Stewardship: Namib Desert Dunes",
+    "theme": "Education",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-097",
+      "rc10-collection-014"
+    ],
+    "assets": [
+      "Namib Desert Dunes",
+      "Great Barrier Reef"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Namib Desert Dunes and connects it to Great Barrier Reef so learners can compare nature and heritage evidence across Africa and Oceania.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 23,
+    "series_id": "rc10-series-099",
+    "title": "Maps, Routes, and Place: Bengal Tiger Cub Portrait",
+    "theme": "Landscape",
+    "education_level": "Family learning",
+    "collections": [
+      "rc10-collection-099",
+      "rc10-collection-016"
+    ],
+    "assets": [
+      "Bengal Tiger Cub Portrait",
+      "Chichen Itza"
+    ],
+    "educational_narrative": "How geography shapes heritage, migration, exploration, and belonging. This series begins with Bengal Tiger Cub Portrait and connects it to Chichen Itza so learners can compare nature and heritage evidence across Asia and Latin America.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 24,
+    "series_id": "rc10-series-010",
+    "title": "Icons of Discovery: Mont-Saint-Michel",
+    "theme": "Science and Discovery",
+    "education_level": "University survey",
+    "collections": [
+      "rc10-collection-010",
+      "rc10-collection-027"
+    ],
+    "assets": [
+      "Mont-Saint-Michel",
+      "Polar Bear"
+    ],
+    "educational_narrative": "How science, culture, and exploration become public knowledge. This series begins with Mont-Saint-Michel and connects it to Polar Bear so learners can compare heritage and nature evidence across Europe and Global.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  },
+  {
+    "rank": 25,
+    "series_id": "rc10-series-012",
+    "title": "Species and Stewardship: Galapagos Islands",
+    "theme": "Flagship Species",
+    "education_level": "Middle school",
+    "collections": [
+      "rc10-collection-012",
+      "rc10-collection-029"
+    ],
+    "assets": [
+      "Galapagos Islands",
+      "Humpback Whale"
+    ],
+    "educational_narrative": "How flagship species teach habitat, interdependence, and conservation. This series begins with Galapagos Islands and connects it to Humpback Whale so learners can compare heritage and nature evidence across Latin America and Global.",
+    "showcase_rationale": "Selected for collection linkage, educational clarity, and beta route storytelling."
+  }
+]

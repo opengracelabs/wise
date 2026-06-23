@@ -32,7 +32,7 @@ def test_rc14_product_pages_are_launch_ready_drafts() -> None:
     product_files = sorted((CONTENT / "products").glob("*.md"))
     rc14_products = [path for path in product_files if "## Product promise" in _read(path)]
 
-    assert len(product_files) == 30
+    assert len(product_files) == 38
     assert len(rc14_products) == 20
     for path in rc14_products:
         text = _read(path)

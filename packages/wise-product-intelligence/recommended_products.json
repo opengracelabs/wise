@@ -1,0 +1,155 @@
+{
+  "architecture_note": "Architecture v1.0 remains frozen; ADR-011 followed.",
+  "commercial_intelligence_fields": [
+    "product_category_score",
+    "product_fit_score",
+    "estimated_giftability",
+    "estimated_repeat_purchase"
+  ],
+  "recommended_products": [
+    {
+      "collection": "Big Cats Collection",
+      "estimated_giftability": 0.88,
+      "estimated_repeat_purchase": 0.42,
+      "product_category": "Poster",
+      "product_category_score": 0.92,
+      "product_fit_score": 0.91,
+      "product_slug": "big-cats-poster",
+      "product_title": "Big Cats of the World Field Poster",
+      "rationale": "Strong museum-store wall-chart fit for species education and broad gift appeal."
+    },
+    {
+      "collection": "Big Cats Collection",
+      "estimated_giftability": 0.86,
+      "estimated_repeat_purchase": 0.34,
+      "product_category": "Canvas Prints",
+      "product_category_score": 0.88,
+      "product_fit_score": 0.89,
+      "product_slug": "big-cats-canvas",
+      "product_title": "Big Cats Habitat Canvas",
+      "rationale": "Large-format habitat storytelling fits conservation-oriented home display."
+    },
+    {
+      "collection": "World Heritage Collection",
+      "estimated_giftability": 0.77,
+      "estimated_repeat_purchase": 0.38,
+      "product_category": "Historic Maps",
+      "product_category_score": 0.89,
+      "product_fit_score": 0.88,
+      "product_slug": "world-heritage-historic-map",
+      "product_title": "World Heritage Historic Map",
+      "rationale": "Map-led discovery follows British Museum and Europeana collection navigation patterns."
+    },
+    {
+      "collection": "World Heritage Collection",
+      "estimated_giftability": 0.8,
+      "estimated_repeat_purchase": 0.32,
+      "product_category": "Museum Prints",
+      "product_category_score": 0.91,
+      "product_fit_score": 0.87,
+      "product_slug": "world-heritage-museum-print",
+      "product_title": "World Heritage Museum Print",
+      "rationale": "Institutional object-label treatment maps well to heritage display demand."
+    },
+    {
+      "collection": "Big Cats Collection",
+      "estimated_giftability": 0.84,
+      "estimated_repeat_purchase": 0.36,
+      "product_category": "Framed Print",
+      "product_category_score": 0.9,
+      "product_fit_score": 0.86,
+      "product_slug": "big-cats-framed-print",
+      "product_title": "Panthera Portrait Framed Print",
+      "rationale": "Premium decor validates member and collector demand without adding checkout."
+    },
+    {
+      "collection": "Big Cats Collection",
+      "estimated_giftability": 0.83,
+      "estimated_repeat_purchase": 0.31,
+      "product_category": "Metal Prints",
+      "product_category_score": 0.87,
+      "product_fit_score": 0.85,
+      "product_slug": "big-cats-metal-print",
+      "product_title": "Big Cats Conservation Metal Print",
+      "rationale": "Contemporary premium material tests gift demand for conservation-led visual impact."
+    },
+    {
+      "collection": "World Heritage Collection",
+      "estimated_giftability": 0.92,
+      "estimated_repeat_purchase": 0.29,
+      "product_category": "Coffee Table Book",
+      "product_category_score": 0.86,
+      "product_fit_score": 0.84,
+      "product_slug": "world-heritage-coffee-table-book",
+      "product_title": "World Heritage Coffee Table Book",
+      "rationale": "Premium editorial artifact aligns with exhibition catalog and gift-market behavior."
+    },
+    {
+      "collection": "Education Collection",
+      "estimated_giftability": 0.58,
+      "estimated_repeat_purchase": 0.76,
+      "product_category": "Classroom Kits",
+      "product_category_score": 0.85,
+      "product_fit_score": 0.83,
+      "product_slug": "education-classroom-kit",
+      "product_title": "Nature & Culture Classroom Kit",
+      "rationale": "Educator-oriented bundle has the strongest repeat-use signal for school settings."
+    },
+    {
+      "collection": "Big Cats Collection",
+      "estimated_giftability": 0.78,
+      "estimated_repeat_purchase": 0.57,
+      "product_category": "Puzzle",
+      "product_category_score": 0.84,
+      "product_fit_score": 0.82,
+      "product_slug": "big-cats-puzzle",
+      "product_title": "Big Cats Range Map Puzzle",
+      "rationale": "Hands-on education product supports family repeat engagement."
+    },
+    {
+      "collection": "Education Collection",
+      "estimated_giftability": 0.7,
+      "estimated_repeat_purchase": 0.71,
+      "product_category": "Educational Card Sets",
+      "product_category_score": 0.82,
+      "product_fit_score": 0.79,
+      "product_slug": "education-big-cats-card-set",
+      "product_title": "Big Cats Educational Card Set",
+      "rationale": "Portable classroom product reinforces taxonomy, range, and conservation literacy."
+    },
+    {
+      "collection": "Education Collection",
+      "estimated_giftability": 0.75,
+      "estimated_repeat_purchase": 0.68,
+      "product_category": "Discovery Packs",
+      "product_category_score": 0.8,
+      "product_fit_score": 0.78,
+      "product_slug": "education-discovery-pack",
+      "product_title": "Nature & Culture Discovery Pack",
+      "rationale": "Bundled activity format supports museum-shop family learning and repeat visits."
+    },
+    {
+      "collection": "Big Cats Collection",
+      "estimated_giftability": 0.82,
+      "estimated_repeat_purchase": 0.65,
+      "product_category": "Calendar",
+      "product_category_score": 0.78,
+      "product_fit_score": 0.74,
+      "product_slug": "big-cats-calendar",
+      "product_title": "Twelve Months of Big Cats Calendar",
+      "rationale": "Seasonal editorial format has high repeat-purchase potential."
+    },
+    {
+      "collection": "Education Collection",
+      "estimated_giftability": 0.81,
+      "estimated_repeat_purchase": 0.52,
+      "product_category": "Paint-by-Numbers",
+      "product_category_score": 0.74,
+      "product_fit_score": 0.7,
+      "product_slug": "education-paint-by-numbers",
+      "product_title": "Big Cats Paint-by-Numbers",
+      "rationale": "Creative activity tests accessible entry points into species learning."
+    }
+  ],
+  "reference_capability": "RC7 Product Intelligence"
+}

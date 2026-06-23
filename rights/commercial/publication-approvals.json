@@ -1,0 +1,436 @@
+{
+  "registry": "publication-approvals",
+  "workflow_statuses": [
+    "Draft",
+    "Under Review",
+    "Approved",
+    "Rejected",
+    "Published"
+  ],
+  "approvals": [
+    {
+      "approval_id": "approval-pyramids-of-giza",
+      "asset_id": "asset-pyramids-of-giza",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-taj-mahal",
+      "asset_id": "asset-taj-mahal",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-sunflowers",
+      "asset_id": "asset-sunflowers",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-machu-picchu",
+      "asset_id": "asset-machu-picchu",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-grand-canyon-storm-light",
+      "asset_id": "asset-grand-canyon-storm-light",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-great-barrier-reef",
+      "asset_id": "asset-great-barrier-reef",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-tiger",
+      "asset_id": "asset-tiger",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-great-wall-of-china",
+      "asset_id": "asset-great-wall-of-china",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-lion",
+      "asset_id": "asset-lion",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-the-night-watch",
+      "asset_id": "asset-the-night-watch",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-ansel-adams-national-parks-photographs",
+      "asset_id": "asset-ansel-adams-national-parks-photographs",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-tyrannosaurus-rex-hall-specimen",
+      "asset_id": "asset-tyrannosaurus-rex-hall-specimen",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-giant-panda",
+      "asset_id": "asset-giant-panda",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-african-elephant",
+      "asset_id": "asset-african-elephant",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-venice-and-its-lagoon",
+      "asset_id": "asset-venice-and-its-lagoon",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-tiger-in-mangrove-forest",
+      "asset_id": "asset-tiger-in-mangrove-forest",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-northern-lights-over-arctic-landscape",
+      "asset_id": "asset-northern-lights-over-arctic-landscape",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-colosseum-and-historic-centre-of-rome",
+      "asset_id": "asset-colosseum-and-historic-centre-of-rome",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-serengeti-national-park",
+      "asset_id": "asset-serengeti-national-park",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-great-migration-river-crossing",
+      "asset_id": "asset-great-migration-river-crossing",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-elephant-migration-in-amboseli",
+      "asset_id": "asset-elephant-migration-in-amboseli",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-antelope-canyon-light-beams",
+      "asset_id": "asset-antelope-canyon-light-beams",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-polar-bear",
+      "asset_id": "asset-polar-bear",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-galapagos-islands",
+      "asset_id": "asset-galapagos-islands",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    },
+    {
+      "approval_id": "approval-bengal-tiger-cub-portrait",
+      "asset_id": "asset-bengal-tiger-cub-portrait",
+      "publication_status": "Approved",
+      "approval_scope": "metadata_text_and_placeholder_demo",
+      "approved_uses": [
+        "public_demo_metadata",
+        "editorial_text_reference",
+        "placeholder_product_copy"
+      ],
+      "blocked_uses": [
+        "commercial_image_publication_without_item_license",
+        "final_product_mockup_without_rights_clearance"
+      ],
+      "review_date": "2026-06-22",
+      "review_notes": "Approved for RC16/RC17 public demonstration metadata and text-only use. Production imagery requires item-level rights review."
+    }
+  ],
+  "summary_statistics": {
+    "approval_count": 25,
+    "publication_status_counts": {
+      "Approved": 25
+    },
+    "ready_for_public_demo_count": 25,
+    "blocked_commercial_image_use_count": 22
+  }
+}
